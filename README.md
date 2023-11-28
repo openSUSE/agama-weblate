@@ -1,14 +1,17 @@
 # Agama Weblate Integration
 
-[![Translation Status](
+[![Web Translation Status](
 https://l10n.opensuse.org/widgets/agama/-/agama-web/svg-badge.svg)](
-https://l10n.opensuse.org/engage/agama/)
+https://l10n.opensuse.org/engage/agama/) - Web  
+[![Product Translation status](
+https://l10n.opensuse.org/widgets/agama/-/agama-products-master/svg-badge.svg)](
+https://l10n.opensuse.org/engage/agama/) - Products
 
-This is just a helper repository for exchanging data between the the [Weblate](
-https://l10n.opensuse.org/projects/agama/) online tool and the main [Agama](
-https://github.com/openSUSE/agama) GitHub repository. It works like a buffer to
-avoid too frequent updates, it allows to send multiple small changes at once
-in a bigger batch.
+This is just a helper repository for exchanging the data between the the
+[Weblate](https://l10n.opensuse.org/projects/agama/) online tool and the main
+[Agama]( https://github.com/openSUSE/agama) GitHub repository. It works like a
+buffer to avoid too frequent updates, it allows to send multiple small changes
+at once in a bigger batch.
 
 If you want to contribute see the [CONTRIBUTING.md](./CONTRIBUTING.md) file,
 for more details see the [Agama internationalization](
