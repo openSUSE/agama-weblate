@@ -256,7 +256,8 @@ msgstr "Baixar logs"
 msgid ""
 "The browser will run the logs download as soon as they are ready. Please, be "
 "patient."
-msgstr "O navegador baixará os logs assim que estiverem prontos. Seja paciente."
+msgstr ""
+"O navegador baixará os logs assim que estiverem prontos. Seja paciente."
 
 #: src/components/core/LogsButton.jsx:114
 msgid "Something went wrong while collecting logs. Please, try again."
