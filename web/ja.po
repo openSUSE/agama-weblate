@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-03 02:17+0000\n"
+"POT-Creation-Date: 2023-12-07 02:17+0000\n"
 "PO-Revision-Date: 2023-12-06 01:25+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -228,7 +228,7 @@ msgstr "ストレージ"
 #. TRANSLATORS: page title
 #. TRANSLATORS: page section
 #: src/components/core/IssuesPage.jsx:108
-#: src/components/overview/SoftwareSection.jsx:141
+#: src/components/overview/SoftwareSection.jsx:143
 #: src/components/software/SoftwarePage.jsx:81
 msgid "Software"
 msgstr "ソフトウエア"
@@ -789,12 +789,12 @@ msgstr "インストールの概要"
 msgid "%s (registered)"
 msgstr "%s (登録済み)"
 
-#: src/components/overview/SoftwareSection.jsx:37
+#: src/components/overview/SoftwareSection.jsx:38
 msgid "Reading software repositories"
 msgstr "ソフトウエアリポジトリを読み込んでいます"
 
 #. TRANSLATORS: clickable link label
-#: src/components/overview/SoftwareSection.jsx:131
+#: src/components/overview/SoftwareSection.jsx:133
 msgid "Refresh the repositories"
 msgstr "リポジトリの更新"
 
@@ -808,7 +808,8 @@ msgstr "まだ何もデバイスを選択していません"
 #: src/components/overview/StorageSection.jsx:52
 #, c-format
 msgid "Install using device %s shrinking existing partitions as needed"
-msgstr "デバイス %s の既存パーティションを必要に応じて縮小してインストールします"
+msgstr ""
+"デバイス %s の既存パーティションを必要に応じて縮小してインストールします"
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
@@ -1242,7 +1243,9 @@ msgstr "暗号化を使用する"
 msgid ""
 "Select how to make free space in the disks selected for allocating the     "
 "file systems."
-msgstr "選択したディスク内にファイルシステムを割り当てるための領域確保方法を選択してください。"
+msgstr ""
+"選択したディスク内にファイルシステムを割り当てるための領域確保方法を選択して"
+"ください。"
 
 #. TRANSLATORS: To be completed with the rest of a sentence like "deleting all content"
 #: src/components/storage/ProposalSettingsSection.jsx:584
@@ -1814,19 +1817,25 @@ msgstr "利用可能な領域を使用する"
 
 #: src/components/storage/space-policy-utils.jsx:79
 msgid "All partitions will be removed and any data in the disks will be lost."
-msgstr "ディスク内の全てのパーティションを削除します。これにより、ディスク内に存在するデータは全て失われます。"
+msgstr ""
+"ディスク内の全てのパーティションを削除します。これにより、ディスク内に存在す"
+"るデータは全て失われます。"
 
 #: src/components/storage/space-policy-utils.jsx:82
 msgid ""
 "The data is kept, but the current partitions will be resized as needed to "
 "make enough space."
-msgstr "ディスク内のデータは保持しますが、十分な領域を確保するために既存のパーティションのサイズ変更を行います。"
+msgstr ""
+"ディスク内のデータは保持しますが、十分な領域を確保するために既存のパーティ"
+"ションのサイズ変更を行います。"
 
 #: src/components/storage/space-policy-utils.jsx:85
 msgid ""
 "The data is kept and existing partitions will not be modified. Only the "
 "space that is not assigned to any partition will be used."
-msgstr "ディスク内のデータは全て保持し、パーティションの変更も行いません。パーティションに割り当てられていない空き領域のみを使用します。"
+msgstr ""
+"ディスク内のデータは全て保持し、パーティションの変更も行いません。パーティ"
+"ションに割り当てられていない空き領域のみを使用します。"
 
 #: src/components/storage/space-policy-utils.jsx:112
 msgid "Select a mechanism to make space"

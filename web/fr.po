@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-03 02:17+0000\n"
+"POT-Creation-Date: 2023-12-07 02:17+0000\n"
 "PO-Revision-Date: 2023-11-03 03:15+0000\n"
 "Last-Translator: faila fail <yassadmi@proton.me>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/agama/agama-web/fr/"
@@ -231,7 +231,7 @@ msgstr "Stockage"
 #. TRANSLATORS: page title
 #. TRANSLATORS: page section
 #: src/components/core/IssuesPage.jsx:108
-#: src/components/overview/SoftwareSection.jsx:141
+#: src/components/overview/SoftwareSection.jsx:143
 #: src/components/software/SoftwarePage.jsx:81
 msgid "Software"
 msgstr "Logiciel"
@@ -806,12 +806,12 @@ msgstr "Périphérique d'installation"
 msgid "%s (registered)"
 msgstr ""
 
-#: src/components/overview/SoftwareSection.jsx:37
+#: src/components/overview/SoftwareSection.jsx:38
 msgid "Reading software repositories"
 msgstr "Lecture des dépôts de logiciels"
 
 #. TRANSLATORS: clickable link label
-#: src/components/overview/SoftwareSection.jsx:131
+#: src/components/overview/SoftwareSection.jsx:133
 msgid "Refresh the repositories"
 msgstr "Rafraîchir les dépôts"
 

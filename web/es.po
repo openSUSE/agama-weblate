@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-03 02:17+0000\n"
+"POT-Creation-Date: 2023-12-07 02:17+0000\n"
 "PO-Revision-Date: 2023-12-05 21:01+0000\n"
 "Last-Translator: Victor hck <victorhck@opensuse.org>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -231,7 +231,7 @@ msgstr "Almacenamiento"
 #. TRANSLATORS: page title
 #. TRANSLATORS: page section
 #: src/components/core/IssuesPage.jsx:108
-#: src/components/overview/SoftwareSection.jsx:141
+#: src/components/overview/SoftwareSection.jsx:143
 #: src/components/software/SoftwarePage.jsx:81
 msgid "Software"
 msgstr "Software"
@@ -792,12 +792,12 @@ msgstr "Resumen de la instalación"
 msgid "%s (registered)"
 msgstr "%s (registrado)"
 
-#: src/components/overview/SoftwareSection.jsx:37
+#: src/components/overview/SoftwareSection.jsx:38
 msgid "Reading software repositories"
 msgstr "Leer repositorios de software"
 
 #. TRANSLATORS: clickable link label
-#: src/components/overview/SoftwareSection.jsx:131
+#: src/components/overview/SoftwareSection.jsx:133
 msgid "Refresh the repositories"
 msgstr "Refrescar los repositorios"
 
@@ -1877,7 +1877,8 @@ msgstr "sin modificar ninguna partición"
 msgid "This will only affect the installation device"
 msgid_plural "This will affect the %d disks selected for installation"
 msgstr[0] "Esto sólo afectará al dispositivo de instalación"
-msgstr[1] "Esto sólo afectará a los %d discos seleccionados para la instalación"
+msgstr[1] ""
+"Esto sólo afectará a los %d discos seleccionados para la instalación"
 
 #: src/components/storage/utils.js:44
 msgid "KiB"

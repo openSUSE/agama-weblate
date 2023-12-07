@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-03 02:17+0000\n"
+"POT-Creation-Date: 2023-12-07 02:17+0000\n"
 "PO-Revision-Date: 2023-12-05 21:01+0000\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive68@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.opensuse.org/projects/agama/"
@@ -228,7 +228,7 @@ msgstr "Armazenamento"
 #. TRANSLATORS: page title
 #. TRANSLATORS: page section
 #: src/components/core/IssuesPage.jsx:108
-#: src/components/overview/SoftwareSection.jsx:141
+#: src/components/overview/SoftwareSection.jsx:143
 #: src/components/software/SoftwarePage.jsx:81
 msgid "Software"
 msgstr "Software"
@@ -256,7 +256,8 @@ msgstr "Baixar logs"
 msgid ""
 "The browser will run the logs download as soon as they are ready. Please, be "
 "patient."
-msgstr "O navegador baixará os logs assim que estiverem prontos. Seja paciente."
+msgstr ""
+"O navegador baixará os logs assim que estiverem prontos. Seja paciente."
 
 #: src/components/core/LogsButton.jsx:114
 msgid "Something went wrong while collecting logs. Please, try again."
@@ -786,12 +787,12 @@ msgstr "Resumo da instalação"
 msgid "%s (registered)"
 msgstr "%s (registrado)"
 
-#: src/components/overview/SoftwareSection.jsx:37
+#: src/components/overview/SoftwareSection.jsx:38
 msgid "Reading software repositories"
 msgstr "Lendo repositórios de software"
 
 #. TRANSLATORS: clickable link label
-#: src/components/overview/SoftwareSection.jsx:131
+#: src/components/overview/SoftwareSection.jsx:133
 msgid "Refresh the repositories"
 msgstr "Atualizar os repositórios"
 
@@ -1003,7 +1004,7 @@ msgstr ""
 #. TRANSLATORS: %s will be replaced by the estimated installation size,
 #. example: "728.8 MiB"
 #: src/components/software/UsedSize.jsx:32
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid "Installation will take %s"
 msgstr "A instalação levará %s"
 
