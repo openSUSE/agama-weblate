@@ -2,22 +2,39 @@
 # Copyright (C) YEAR SuSE Linux Products GmbH, Nuernberg
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-9 2:8+0000\n"
+"POT-Creation-Date: 2023-12-7 2:17+0000\n"
 "PO-Revision-Date: 2023-12-05 21:02+0000\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive68@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.opensuse.org/projects/agama/"
 "agama-products-master/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.9.1\n"
+
+# TRANSLATORS: description of product "openSUSE MicroOS Desktop"
+#: microos-desktop.yaml:8
+msgid ""
+"A distribution for the desktop offering automatic updates and rollback on "
+"top of the foundations of openSUSE MicroOS. Includes Podman Container "
+"Runtime and allows to manage software using Gnome Software or KDE Discover."
+msgstr ""
+
+# TRANSLATORS: description of product "openSUSE MicroOS"
+#: microos.yaml:8
+msgid ""
+"A quick, small distribution designed to host container workloads with "
+"automated administration & patching. openSUSE MicroOS provides transactional "
+"(atomic) updates upon a read-only btrfs root file system. As rolling release "
+"distribution the software is always up-to-date."
+msgstr ""
 
 # TRANSLATORS: description of product "SUSE ALP Dolomite"
 #: ALP-Dolomite.yaml:8
@@ -34,9 +51,9 @@ msgstr ""
 #: tumbleweed.yaml:8
 msgid ""
 "The Tumbleweed distribution is a pure rolling release version of openSUSE "
-"containing the latest \"stable\" versions of all software instead of "
-"relying on rigid periodic release cycles. The project does this for users "
-"that want the newest stable software."
+"containing the latest \"stable\" versions of all software instead of relying "
+"on rigid periodic release cycles. The project does this for users that want "
+"the newest stable software."
 msgstr ""
 "A distribuição Tumbleweed é uma versão de lançamento contínuo pura do "
 "openSUSE contendo as versões \"estáveis\" mais recentes de todos os "
@@ -44,10 +61,9 @@ msgstr ""
 "projeto faz isso para usuários que desejam o software estável mais recente."
 
 # TRANSLATORS: description of product "openSUSE Leap 16.0"
-#: leap16.yaml:9
-msgid ""
-"[Experimental project] openSUSE Leap 16 is built on top of the next "
-"generation Adaptable Linux Platform (ALP) from SUSE."
-msgstr ""
-"[Projeto experimental] openSUSE Leap 16 é construído sobre a Adaptable Linux "
-"Platform (ALP) de próxima geração da SUSE."
+#~ msgid ""
+#~ "[Experimental project] openSUSE Leap 16 is built on top of the next "
+#~ "generation Adaptable Linux Platform (ALP) from SUSE."
+#~ msgstr ""
+#~ "[Projeto experimental] openSUSE Leap 16 é construído sobre a Adaptable "
+#~ "Linux Platform (ALP) de próxima geração da SUSE."
