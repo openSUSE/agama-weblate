@@ -16,7 +16,24 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"POT-Creation-Date: 2023-11-9 2:8+0000\n"
+"POT-Creation-Date: 2023-12-7 2:17+0000\n"
+
+# TRANSLATORS: description of product "openSUSE MicroOS Desktop"
+#: microos-desktop.yaml:8
+msgid ""
+"A distribution for the desktop offering automatic updates and rollback on "
+"top of the foundations of openSUSE MicroOS. Includes Podman Container "
+"Runtime and allows to manage software using Gnome Software or KDE Discover."
+msgstr ""
+
+# TRANSLATORS: description of product "openSUSE MicroOS"
+#: microos.yaml:8
+msgid ""
+"A quick, small distribution designed to host container workloads with "
+"automated administration & patching. openSUSE MicroOS provides "
+"transactional (atomic) updates upon a read-only btrfs root file system. As "
+"rolling release distribution the software is always up-to-date."
+msgstr ""
 
 # TRANSLATORS: description of product "SUSE ALP Dolomite"
 #: ALP-Dolomite.yaml:8
@@ -33,12 +50,5 @@ msgid ""
 "containing the latest \"stable\" versions of all software instead of "
 "relying on rigid periodic release cycles. The project does this for users "
 "that want the newest stable software."
-msgstr ""
-
-# TRANSLATORS: description of product "openSUSE Leap 16.0"
-#: leap16.yaml:9
-msgid ""
-"[Experimental project] openSUSE Leap 16 is built on top of the next "
-"generation Adaptable Linux Platform (ALP) from SUSE."
 msgstr ""
 
