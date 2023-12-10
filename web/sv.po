@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-07 02:17+0000\n"
+"POT-Creation-Date: 2023-12-10 02:19+0000\n"
 "PO-Revision-Date: 2023-12-06 12:01+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -218,8 +218,8 @@ msgstr "Det finns nya problem"
 msgid "Product"
 msgstr "Produkt"
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section title
+#. TRANSLATORS: page title
 #: src/components/core/IssuesPage.jsx:100
 #: src/components/overview/StorageSection.jsx:208
 #: src/components/storage/ProposalPage.jsx:218
