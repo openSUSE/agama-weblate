@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-15 17:45+0000\n"
-"PO-Revision-Date: 2023-12-06 01:25+0000\n"
+"PO-Revision-Date: 2023-12-16 01:02+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -343,9 +343,8 @@ msgstr "グローバルオプション"
 
 #. TRANSLATORS: sidebar header
 #: src/components/core/Sidebar.jsx:157
-#, fuzzy
 msgid "Installer Options"
-msgstr "インストールしています"
+msgstr "インストーラのオプション"
 
 #: src/components/core/Sidebar.jsx:164
 msgid "Hide navigation and other options"
@@ -374,14 +373,13 @@ msgstr "キーボード"
 
 #. TRANSLATORS: label for keyboard layout selection
 #: src/components/l10n/InstallerKeymapSwitcher.jsx:61
-#, fuzzy
 msgid "keyboard"
 msgstr "キーボード"
 
 #. TRANSLATORS:
 #: src/components/l10n/InstallerKeymapSwitcher.jsx:70
 msgid "Keyboard layout cannot be changed in remote installation"
-msgstr ""
+msgstr "リモートインストールの場合、キーボードレイアウトは変更できません"
 
 #. TRANSLATORS: help text for the language selector in the sidebar,
 #. %s will be replaced by the "Localization" page link
@@ -390,7 +388,7 @@ msgstr ""
 msgid ""
 "The language used by the installer. The language for the installed system "
 "can be set in the %s page."
-msgstr ""
+msgstr "インストーラで使用する言語です。インストール先のシステムで使用する言語は %s ページで設定します。"
 
 #. TRANSLATORS: page title
 #. TRANSLATORS: page section
@@ -1383,19 +1381,18 @@ msgstr "お使いのシステム内で作成するファイルシステム"
 msgid ""
 "Allows rolling back any change done to the system and restoring its previous "
 "state"
-msgstr ""
+msgstr "システムに実施された任意の変更を巻き戻し、以前の状態を復元できるようにします"
 
 #. TRANSLATORS: info about possible file system types.
 #: src/components/storage/VolumeForm.jsx:265
 msgid ""
 "The options for the file system type depends on the product and the mount "
 "point."
-msgstr ""
+msgstr "ファイルシステムに対する選択肢は、製品とマウントポイントごとに異なります。"
 
 #: src/components/storage/VolumeForm.jsx:271
-#, fuzzy
 msgid "More info for file system types"
-msgstr "ファイルシステムの種類"
+msgstr "ファイルシステムの種類に関する詳細"
 
 #. TRANSLATORS: label for the file system selector.
 #: src/components/storage/VolumeForm.jsx:282
