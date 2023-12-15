@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-15 10:07+0100\n"
-"PO-Revision-Date: 2023-12-15 10:07+0100\n"
+"POT-Creation-Date: 2023-12-15 17:45+0000\n"
+"PO-Revision-Date: 2023-12-15 17:45+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -21,17 +21,17 @@ msgstr ""
 #.
 #. @param filename [String] File name
 #. @param repo_id [Integer] Repository ID. It might be -1 if there is not an associated repo.
-#: lib/agama/software/callbacks/signature.rb:63
+#: service/lib/agama/software/callbacks/signature.rb:63
 #, perl-brace-format
 msgid "The file %{filename} from repository %{repo_name} (%{repo_url})"
 msgstr ""
 
-#: lib/agama/software/callbacks/signature.rb:67
+#: service/lib/agama/software/callbacks/signature.rb:67
 #, perl-brace-format
 msgid "The file %{filename}"
 msgstr ""
 
-#: lib/agama/software/callbacks/signature.rb:71
+#: service/lib/agama/software/callbacks/signature.rb:71
 #, perl-brace-format
 msgid ""
 "%{source} is not digitally signed. The origin and integrity of the file cannot"
@@ -42,7 +42,7 @@ msgstr ""
 #.
 #. @param key [Hash] GPG key data (id, name, fingerprint, etc.)
 #. @param _repo_id [Integer] Repository ID
-#: lib/agama/software/callbacks/signature.rb:94
+#: service/lib/agama/software/callbacks/signature.rb:94
 #, perl-brace-format
 msgid ""
 "The key %{id} (%{name}) with fingerprint %{fingerprint} is unknown. Do you wan"
@@ -50,28 +50,28 @@ msgid ""
 msgstr ""
 
 #. as we use liveDVD with normal like ENV, lets temporary switch to normal to use its repos
-#: lib/agama/software/manager.rb:134
+#: service/lib/agama/software/manager.rb:134
 msgid "Initializing target repositories"
 msgstr ""
 
-#: lib/agama/software/manager.rb:135
+#: service/lib/agama/software/manager.rb:135
 msgid "Initializing sources"
 msgstr ""
 
-#: lib/agama/software/manager.rb:140
+#: service/lib/agama/software/manager.rb:140
 msgid "Refreshing repositories metadata"
 msgstr ""
 
-#: lib/agama/software/manager.rb:141
+#: service/lib/agama/software/manager.rb:141
 msgid "Calculating the software proposal"
 msgstr ""
 
 #. Writes the repositories information to the installed system
-#: lib/agama/software/manager.rb:190
+#: service/lib/agama/software/manager.rb:190
 msgid "Writing repositories to the target system"
 msgstr ""
 
-#: lib/agama/software/manager.rb:196
+#: service/lib/agama/software/manager.rb:196
 msgid "Restoring original repositories"
 msgstr ""
 
@@ -80,7 +80,7 @@ msgstr ""
 #. Repositories that could not be probed are reported as errors.
 #.
 #. @return [Array<Agama::Issue>]
-#: lib/agama/software/manager.rb:465
+#: service/lib/agama/software/manager.rb:465
 #, c-format
 msgid "Could not read repository \"%s\""
 msgstr ""
@@ -88,21 +88,21 @@ msgstr ""
 #. Issue when a product is missing
 #.
 #. @return [Agama::Issue]
-#: lib/agama/software/manager.rb:475
+#: service/lib/agama/software/manager.rb:475
 msgid "Product not selected yet"
 msgstr ""
 
 #. Issue when a product requires registration but it is not registered yet.
 #.
 #. @return [Agama::Issue]
-#: lib/agama/software/manager.rb:484
+#: service/lib/agama/software/manager.rb:484
 msgid "Product must be registered"
 msgstr ""
 
 #. Returns solver error messages from the last attempt
 #.
 #. @return [Array<String>] Error messages
-#: lib/agama/software/proposal.rb:228
+#: service/lib/agama/software/proposal.rb:228
 #, c-format
 msgid "Found %s dependency issues."
 msgstr ""
