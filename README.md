@@ -16,6 +16,11 @@ https://github.com/openSUSE/agama/blob/master/doc/i18n.md) documentation.
 
 [![Translation status](https://l10n.opensuse.org/widgets/agama/-/agama-web/multi-auto.svg)](https://l10n.opensuse.org/engage/agama/)
 
+### Ruby Service
+
+[![Translation status](https://l10n.opensuse.org/widgets/agama/-/agama-service-master/multi-auto.svg)](https://l10n.opensuse.org/engage/agama/)
+
+
 ### Products
 
 [![Translation status](https://l10n.opensuse.org/widgets/agama/-/agama-products-master/multi-auto.svg)](https://l10n.opensuse.org/engage/agama/)
