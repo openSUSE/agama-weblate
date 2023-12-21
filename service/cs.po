@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-15 17:45+0000\n"
+"POT-Creation-Date: 2023-12-21 02:17+0000\n"
 "PO-Revision-Date: 2023-12-15 16:52+0000\n"
 "Last-Translator: Ladislav Slezák <lslezak@suse.com>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-service-"
@@ -86,7 +86,7 @@ msgstr "Obnovují se původní repozitáře"
 #. Repositories that could not be probed are reported as errors.
 #.
 #. @return [Array<Agama::Issue>]
-#: service/lib/agama/software/manager.rb:465
+#: service/lib/agama/software/manager.rb:461
 #, c-format
 msgid "Could not read repository \"%s\""
 msgstr "Nelze načíst repozitář \"%s\""
@@ -94,21 +94,21 @@ msgstr "Nelze načíst repozitář \"%s\""
 #. Issue when a product is missing
 #.
 #. @return [Agama::Issue]
-#: service/lib/agama/software/manager.rb:475
+#: service/lib/agama/software/manager.rb:471
 msgid "Product not selected yet"
 msgstr "Není vybrán žádný produkt"
 
 #. Issue when a product requires registration but it is not registered yet.
 #.
 #. @return [Agama::Issue]
-#: service/lib/agama/software/manager.rb:484
+#: service/lib/agama/software/manager.rb:480
 msgid "Product must be registered"
 msgstr "Produkt musí být zaregistrován"
 
 #. Returns solver error messages from the last attempt
 #.
 #. @return [Array<String>] Error messages
-#: service/lib/agama/software/proposal.rb:228
+#: service/lib/agama/software/proposal.rb:227
 #, c-format
 msgid "Found %s dependency issues."
 msgstr "Nalezeno %s problémů v závislostech."
