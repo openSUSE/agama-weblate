@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-21 02:17+0000\n"
-"PO-Revision-Date: 2023-12-21 02:17+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-12-22 15:02+0000\n"
+"Last-Translator: faila fail <yassadmi@proton.me>\n"
+"Language-Team: French <https://l10n.opensuse.org/projects/agama/"
+"agama-service-master/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. Callback to handle unsigned files
 #.
@@ -23,12 +26,12 @@ msgstr ""
 #: service/lib/agama/software/callbacks/signature.rb:63
 #, perl-brace-format
 msgid "The file %{filename} from repository %{repo_name} (%{repo_url})"
-msgstr ""
+msgstr "Le fichier %{filename} du dépôt %{repo_name} (%{repo_url})"
 
 #: service/lib/agama/software/callbacks/signature.rb:67
 #, perl-brace-format
 msgid "The file %{filename}"
-msgstr ""
+msgstr "Le fichier %{filename}"
 
 #: service/lib/agama/software/callbacks/signature.rb:71
 #, perl-brace-format
@@ -36,6 +39,8 @@ msgid ""
 "%{source} is not digitally signed. The origin and integrity of the file cannot"
 " be verified. Use it anyway?"
 msgstr ""
+"%{source} n'est pas signé numériquement. L'origine et l'intégrité du fichier "
+"ne peuvent être vérifiées. L'utiliser quand même ?"
 
 #. Callback to handle signature verification failures
 #.
@@ -47,32 +52,34 @@ msgid ""
 "The key %{id} (%{name}) with fingerprint %{fingerprint} is unknown. Do you wan"
 "t to trust this key?"
 msgstr ""
+"La clé %{id} (%{name}) avec l'empreinte digitale %{fingerprint} est "
+"inconnue. Voulez-vous faire confiance à cette clé ?"
 
 #. as we use liveDVD with normal like ENV, lets temporary switch to normal to use its repos
 #: service/lib/agama/software/manager.rb:134
 msgid "Initializing target repositories"
-msgstr ""
+msgstr "Initialisation des dépôts cibles"
 
 #: service/lib/agama/software/manager.rb:135
 msgid "Initializing sources"
-msgstr ""
+msgstr "Initialisation des sources"
 
 #: service/lib/agama/software/manager.rb:140
 msgid "Refreshing repositories metadata"
-msgstr ""
+msgstr "Actualisation des métadonnées des dépôts"
 
 #: service/lib/agama/software/manager.rb:141
 msgid "Calculating the software proposal"
-msgstr ""
+msgstr "Calcul de l'offre de logiciel"
 
 #. Writes the repositories information to the installed system
 #: service/lib/agama/software/manager.rb:190
 msgid "Writing repositories to the target system"
-msgstr ""
+msgstr "Écriture des dépôts sur le système cible"
 
 #: service/lib/agama/software/manager.rb:196
 msgid "Restoring original repositories"
-msgstr ""
+msgstr "Restauration des dépôts d'origine"
 
 #. Issues related to the software proposal.
 #.
@@ -82,14 +89,14 @@ msgstr ""
 #: service/lib/agama/software/manager.rb:461
 #, c-format
 msgid "Could not read repository \"%s\""
-msgstr ""
+msgstr "Impossible de lire le dépôt \"%s\""
 
 #. Issue when a product is missing
 #.
 #. @return [Agama::Issue]
 #: service/lib/agama/software/manager.rb:471
 msgid "Product not selected yet"
-msgstr ""
+msgstr "Le produit n'est pas encore sélectionné"
 
 #. Issue when a product requires registration but it is not registered yet.
 #.
@@ -104,4 +111,4 @@ msgstr ""
 #: service/lib/agama/software/proposal.rb:227
 #, c-format
 msgid "Found %s dependency issues."
-msgstr ""
+msgstr "%s problèmes de dépendance  trouvé(s) (Need a plural option)"
