@@ -51,8 +51,9 @@ msgid ""
 "want to give it a try, we recommend to use a virtual machine to prevent any "
 "possible data loss."
 msgstr ""
-"Agama は (open)SUSE システム向けの実験中インストーラです。現在もなお開発途上にある仕組みですので、本番環境での使用はご遠慮ください。なお"
-"、お試しになりたい場合は、仮想マシン内で実行して不用意なデータ喪失を防ぐことをお勧めします。"
+"Agama は (open)SUSE システム向けの実験中インストーラです。現在もなお開発途上"
+"にある仕組みですので、本番環境での使用はご遠慮ください。なお、お試しになりた"
+"い場合は、仮想マシン内で実行して不用意なデータ喪失を防ぐことをお勧めします。"
 
 #. TRANSLATORS: content of the "About" popup (2/2)
 #. %s is replaced by the project URL
@@ -86,7 +87,9 @@ msgstr "D-Bus に接続できません"
 #: src/components/core/DBusError.jsx:60
 msgid ""
 "Could not connect to the D-Bus service. Please, check whether it is running."
-msgstr "D-Bus サービスに接続できませんでした。 D-Bus サービスが動作中かどうかをご確認ください。"
+msgstr ""
+"D-Bus サービスに接続できませんでした。 D-Bus サービスが動作中かどうかをご確認"
+"ください。"
 
 #: src/components/core/FileViewer.jsx:65
 msgid "Reading file..."
@@ -102,7 +105,9 @@ msgstr "ファイルを読み込めません"
 msgid ""
 "There are some reported issues. Please, check [the list of issues] before "
 "proceeding with the installation."
-msgstr "いくつかの問題が見つかっています。インストールを続行する前に、 [問題点の一覧] をご確認ください。"
+msgstr ""
+"いくつかの問題が見つかっています。インストールを続行する前に、 [問題点の一"
+"覧] をご確認ください。"
 
 #: src/components/core/InstallButton.jsx:60
 msgid "Confirm Installation"
@@ -112,11 +117,14 @@ msgstr "インストールの確認"
 msgid ""
 "If you continue, partitions on your hard disk will be modified according to "
 "the provided installation settings."
-msgstr "続行すると、お使いのコンピュータのハードディスクにあるパーティションは、ここまでのダイアログで設定したとおりに変更されます。"
+msgstr ""
+"続行すると、お使いのコンピュータのハードディスクにあるパーティションは、ここ"
+"までのダイアログで設定したとおりに変更されます。"
 
 #: src/components/core/InstallButton.jsx:70
 msgid "Please, cancel and check the settings if you are unsure."
-msgstr "何か不安な点があれば、キャンセルして設定を確認しておくことをお勧めします。"
+msgstr ""
+"何か不安な点があれば、キャンセルして設定を確認しておくことをお勧めします。"
 
 #. TRANSLATORS: button label
 #: src/components/core/InstallButton.jsx:76
@@ -131,7 +139,9 @@ msgstr "問題点が見つかりました"
 msgid ""
 "Some problems were found when trying to start the installation. Please, have "
 "a look to the reported errors and try again."
-msgstr "インストールを開始しようとした際に問題が検出されました。報告されたエラー内容をご確認のうえ、やり直してください。"
+msgstr ""
+"インストールを開始しようとした際に問題が検出されました。報告されたエラー内容"
+"をご確認のうえ、やり直してください。"
 
 #. TRANSLATORS: button label
 #: src/components/core/InstallButton.jsx:97 src/components/l10n/L10nPage.jsx:75
@@ -225,7 +235,8 @@ msgstr "ソフトウエア"
 
 #: src/components/core/IssuesPage.jsx:129
 msgid "No issues found. Everything looks ok."
-msgstr "問題点は見つかりませんでした。インストールに支障はないものと思われます。"
+msgstr ""
+"問題点は見つかりませんでした。インストールに支障はないものと思われます。"
 
 #. TRANSLATORS: search field placeholder text
 #: src/components/core/ListSearch.jsx:50
@@ -246,7 +257,9 @@ msgstr "ログのダウンロード"
 msgid ""
 "The browser will run the logs download as soon as they are ready. Please, be "
 "patient."
-msgstr "ログの収集が完了すると、ブラウザ側でダウンロード処理が始まります。しばらくお待ちください。"
+msgstr ""
+"ログの収集が完了すると、ブラウザ側でダウンロード処理が始まります。しばらくお"
+"待ちください。"
 
 #: src/components/core/LogsButton.jsx:114
 msgid "Something went wrong while collecting logs. Please, try again."
@@ -375,7 +388,9 @@ msgstr "リモートインストールの場合、キーボードレイアウト
 msgid ""
 "The language used by the installer. The language for the installed system "
 "can be set in the %s page."
-msgstr "インストーラで使用する言語です。インストール先のシステムで使用する言語は %s ページで設定します。"
+msgstr ""
+"インストーラで使用する言語です。インストール先のシステムで使用する言語は %s "
+"ページで設定します。"
 
 #. TRANSLATORS: page title
 #. TRANSLATORS: page section
@@ -602,7 +617,8 @@ msgstr "IP プレフィクスもしくはサブネットマスク"
 #. TRANSLATORS: error message
 #: src/components/network/IpSettingsForm.jsx:87
 msgid "At least one address must be provided for selected mode"
-msgstr "選択しているモードの場合、 1 つ以上のアドレスを設定しなければなりません"
+msgstr ""
+"選択しているモードの場合、 1 つ以上のアドレスを設定しなければなりません"
 
 #: src/components/network/IpSettingsForm.jsx:131
 #, c-format
@@ -639,13 +655,16 @@ msgstr "有線接続が見つかりませんでした"
 #: src/components/network/NetworkPage.jsx:53
 msgid ""
 "The system has not been configured for connecting to a WiFi network yet."
-msgstr "このシステムでは、まだ WiFi ネットワークへの接続設定を実施していません。"
+msgstr ""
+"このシステムでは、まだ WiFi ネットワークへの接続設定を実施していません。"
 
 #: src/components/network/NetworkPage.jsx:54
 msgid ""
 "The system does not support WiFi connections, probably because of missing or "
 "disabled hardware."
-msgstr "このシステムは WiFi 接続には対応していません。無線ハードウエアが存在していないか、無効化されているものと思われます。"
+msgstr ""
+"このシステムは WiFi 接続には対応していません。無線ハードウエアが存在していな"
+"いか、無効化されているものと思われます。"
 
 #: src/components/network/NetworkPage.jsx:58
 msgid "No WiFi connections found"
@@ -810,7 +829,8 @@ msgstr "まだ何もデバイスを選択していません"
 #: src/components/overview/StorageSection.jsx:52
 #, c-format
 msgid "Install using device %s shrinking existing partitions as needed"
-msgstr "デバイス %s の既存パーティションを必要に応じて縮小してインストールします"
+msgstr ""
+"デバイス %s の既存パーティションを必要に応じて縮小してインストールします"
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
@@ -1146,7 +1166,9 @@ msgstr[0] "%d 個のサブボリューム処理を表示"
 
 #: src/components/storage/ProposalActionsSection.jsx:78
 msgid "Actions to create the file systems and to ensure the system boots."
-msgstr "ファイルシステムを作成するための処理とシステムが起動できるようにするための処理です。"
+msgstr ""
+"ファイルシステムを作成するための処理とシステムが起動できるようにするための処"
+"理です。"
 
 #. TRANSLATORS: section title, list of planned actions for the selected device,
 #. e.g. "delete partition A", "create partition B with filesystem C", ...
@@ -1204,7 +1226,9 @@ msgstr "独自のデバイス"
 msgid ""
 "Configuration of the system volume group. All the file systems will be "
 "created in a logical volume of the system volume group."
-msgstr "システムのボリュームグループ向けの設定です。全てのファイルシステムは、システムのボリュームグループにある論理ボリューム内に作成されます。"
+msgstr ""
+"システムのボリュームグループ向けの設定です。全てのファイルシステムは、システ"
+"ムのボリュームグループにある論理ボリューム内に作成されます。"
 
 #: src/components/storage/ProposalSettingsSection.jsx:320
 msgid "Configure the LVM settings"
@@ -1240,7 +1264,9 @@ msgstr "暗号化を使用する"
 msgid ""
 "Select how to make free space in the disks selected for allocating the     "
 "file systems."
-msgstr "選択したディスク内にファイルシステムを割り当てるための領域確保方法を選択してください。"
+msgstr ""
+"選択したディスク内にファイルシステムを割り当てるための領域確保方法を選択して"
+"ください。"
 
 #. TRANSLATORS: To be completed with the rest of a sentence like "deleting all content"
 #: src/components/storage/ProposalSettingsSection.jsx:584
@@ -1357,14 +1383,16 @@ msgstr "お使いのシステム内で作成するファイルシステム"
 msgid ""
 "Allows rolling back any change done to the system and restoring its previous "
 "state"
-msgstr "システムに実施された任意の変更を巻き戻し、以前の状態を復元できるようにします"
+msgstr ""
+"システムに実施された任意の変更を巻き戻し、以前の状態を復元できるようにします"
 
 #. TRANSLATORS: info about possible file system types.
 #: src/components/storage/VolumeForm.jsx:265
 msgid ""
 "The options for the file system type depends on the product and the mount "
 "point."
-msgstr "ファイルシステムに対する選択肢は、製品とマウントポイントごとに異なります。"
+msgstr ""
+"ファイルシステムに対する選択肢は、製品とマウントポイントごとに異なります。"
 
 #: src/components/storage/VolumeForm.jsx:271
 msgid "More info for file system types"
@@ -1428,8 +1456,9 @@ msgid ""
 "given minimum and maximum. If no maximum is given then the file system will "
 "be as big as possible."
 msgstr ""
-"ファイルシステムに対するサイズ制限を範囲指定します。最終的なサイズは最小値と最大値の間になります。最大値を指定しない場合、ファイルシステムはできる限り大き"
-"くなるように設定されます。"
+"ファイルシステムに対するサイズ制限を範囲指定します。最終的なサイズは最小値と"
+"最大値の間になります。最大値を指定しない場合、ファイルシステムはできる限り大"
+"きくなるように設定されます。"
 
 #. TRANSLATORS: the minimal partition size
 #: src/components/storage/VolumeForm.jsx:413
@@ -1533,15 +1562,17 @@ msgid ""
 "Automatic LUN scan is [enabled]. Activating a controller which is running in "
 "NPIV mode will automatically configures all its LUNs."
 msgstr ""
-"自動 LUN スキャンが [有効化] されています。 NPIV モードで動作しているコントローラを有効化した場合、その LUN "
-"は全て自動的に設定されます。"
+"自動 LUN スキャンが [有効化] されています。 NPIV モードで動作しているコント"
+"ローラを有効化した場合、その LUN は全て自動的に設定されます。"
 
 #. TRANSLATORS: the text in the square brackets [] will be displayed in bold
 #: src/components/storage/ZFCPPage.jsx:434
 msgid ""
 "Automatic LUN scan is [disabled]. LUNs have to be manually configured after "
 "activating a controller."
-msgstr "自動 LUN スキャンが [無効化] されています。 LUN はコントローラの有効化後、手作業で設定しなければなりません。"
+msgstr ""
+"自動 LUN スキャンが [無効化] されています。 LUN はコントローラの有効化後、手"
+"作業で設定しなければなりません。"
 
 #: src/components/storage/ZFCPPage.jsx:500
 msgid "Activate a zFCP disk"
@@ -1796,7 +1827,8 @@ msgstr "iSCSI ターゲットが見つかりませんでした"
 #: src/components/storage/iscsi/TargetsSection.jsx:140
 msgid ""
 "Please, perform an iSCSI discovery in order to find available iSCSI targets."
-msgstr "利用可能な iSCSI ターゲットを検出するため、 iSCSI 検索を実施してください。"
+msgstr ""
+"利用可能な iSCSI ターゲットを検出するため、 iSCSI 検索を実施してください。"
 
 #. TRANSLATORS: button label, starts iSCSI discovery
 #: src/components/storage/iscsi/TargetsSection.jsx:142
@@ -1830,19 +1862,25 @@ msgstr "利用可能な領域を使用する"
 
 #: src/components/storage/space-policy-utils.jsx:79
 msgid "All partitions will be removed and any data in the disks will be lost."
-msgstr "ディスク内の全てのパーティションを削除します。これにより、ディスク内に存在するデータは全て失われます。"
+msgstr ""
+"ディスク内の全てのパーティションを削除します。これにより、ディスク内に存在す"
+"るデータは全て失われます。"
 
 #: src/components/storage/space-policy-utils.jsx:82
 msgid ""
 "The data is kept, but the current partitions will be resized as needed to "
 "make enough space."
-msgstr "ディスク内のデータは保持しますが、十分な領域を確保するために既存のパーティションのサイズ変更を行います。"
+msgstr ""
+"ディスク内のデータは保持しますが、十分な領域を確保するために既存のパーティ"
+"ションのサイズ変更を行います。"
 
 #: src/components/storage/space-policy-utils.jsx:85
 msgid ""
 "The data is kept and existing partitions will not be modified. Only the "
 "space that is not assigned to any partition will be used."
-msgstr "ディスク内のデータは全て保持し、パーティションの変更も行いません。パーティションに割り当てられていない空き領域のみを使用します。"
+msgstr ""
+"ディスク内のデータは全て保持し、パーティションの変更も行いません。パーティ"
+"ションに割り当てられていない空き領域のみを使用します。"
 
 #: src/components/storage/space-policy-utils.jsx:112
 msgid "Select a mechanism to make space"
@@ -1896,7 +1934,9 @@ msgstr "PiB"
 msgid ""
 "Please, be aware that a user must be defined before installing the system to "
 "be able to log into it."
-msgstr "なお、システムにログインできるようにするには、インストールの前にユーザを設定しておかなければならないことに注意してください。"
+msgstr ""
+"なお、システムにログインできるようにするには、インストールの前にユーザを設定"
+"しておかなければならないことに注意してください。"
 
 #. TRANSLATORS: push button label
 #: src/components/users/FirstUser.jsx:47
