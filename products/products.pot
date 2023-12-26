@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"POT-Creation-Date: 2023-12-25 2:16+0000\n"
+"POT-Creation-Date: 2023-12-26 2:9+0000\n"
 
 # TRANSLATORS: description of product "openSUSE MicroOS Desktop"
 #: microos-desktop.yaml:8
