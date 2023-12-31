@@ -61,7 +61,8 @@ msgstr ""
 #: src/components/core/About.jsx:65
 #, c-format
 msgid "For more information, please visit the project's repository at %s."
-msgstr "Para obtener más información, visite el repositorio del proyecto en %s."
+msgstr ""
+"Para obtener más información, visite el repositorio del proyecto en %s."
 
 #. TRANSLATORS: button label
 #: src/components/core/About.jsx:71 src/components/core/FileViewer.jsx:80
@@ -107,8 +108,8 @@ msgid ""
 "There are some reported issues. Please, check [the list of issues] before "
 "proceeding with the installation."
 msgstr ""
-"Hay algunos problemas reportados. Por favor, consulte [la lista de problemas]"
-" antes de continuar con la instalación."
+"Hay algunos problemas reportados. Por favor, consulte [la lista de "
+"problemas] antes de continuar con la instalación."
 
 #: src/components/core/InstallButton.jsx:60
 msgid "Confirm Installation"
@@ -718,7 +719,8 @@ msgstr "Algo salió mal"
 
 #: src/components/network/WifiConnectionForm.jsx:92
 msgid "Please, review provided settings and try again."
-msgstr "Por favor, revise la configuración proporcionada y vuelva a intentarlo."
+msgstr ""
+"Por favor, revise la configuración proporcionada y vuelva a intentarlo."
 
 #. TRANSLATORS: SSID (Wifi network name) configuration
 #: src/components/network/WifiConnectionForm.jsx:97
@@ -1923,7 +1925,8 @@ msgstr "sin modificar ninguna partición"
 msgid "This will only affect the installation device"
 msgid_plural "This will affect the %d disks selected for installation"
 msgstr[0] "Esto sólo afectará al dispositivo de instalación"
-msgstr[1] "Esto sólo afectará a los %d discos seleccionados para la instalación"
+msgstr[1] ""
+"Esto sólo afectará a los %d discos seleccionados para la instalación"
 
 #: src/components/storage/utils.js:44
 msgid "KiB"
