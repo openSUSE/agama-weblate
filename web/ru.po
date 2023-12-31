@@ -264,7 +264,8 @@ msgstr ""
 
 #: src/components/core/LogsButton.jsx:114
 msgid "Something went wrong while collecting logs. Please, try again."
-msgstr "Что-то пошло не так при сборе журналов. Пожалуйста, попробуйте ещё раз."
+msgstr ""
+"Что-то пошло не так при сборе журналов. Пожалуйста, попробуйте ещё раз."
 
 #: src/components/core/PasswordAndConfirmationInput.jsx:35
 msgid "Passwords do not match"
