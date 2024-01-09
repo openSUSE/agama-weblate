@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-09 02:18+0000\n"
-"PO-Revision-Date: 2024-01-03 03:02+0000\n"
+"PO-Revision-Date: 2024-01-09 07:59+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -101,13 +101,10 @@ msgid "Cannot read the file"
 msgstr "ファイルを読み込めません"
 
 #: src/components/core/InstallButton.jsx:37
-#, fuzzy
 msgid ""
 "There are some reported issues. Please review them in the previous steps "
 "before proceeding with the installation."
-msgstr ""
-"いくつかの問題が見つかっています。インストールを続行する前に、 [問題点の一"
-"覧] をご確認ください。"
+msgstr "いくつかの問題が見つかっています。インストールを続行する前に、直前の手順に戻って確認を行ってください。"
 
 #: src/components/core/InstallButton.jsx:49
 msgid "Confirm Installation"
@@ -321,24 +318,20 @@ msgstr "診断ツール"
 
 #. TRANSLATORS: Titles used for the popup displaying found section issues
 #: src/components/core/ValidationErrors.jsx:53
-#, fuzzy
 msgid "Software issues"
-msgstr "ソフトウエア %s"
+msgstr "ソフトウエアの問題"
 
 #: src/components/core/ValidationErrors.jsx:54
-#, fuzzy
 msgid "Product issues"
-msgstr "製品"
+msgstr "製品の問題"
 
 #: src/components/core/ValidationErrors.jsx:55
-#, fuzzy
 msgid "Storage issues"
-msgstr "問題点の表示"
+msgstr "ストレージの問題"
 
 #: src/components/core/ValidationErrors.jsx:57
-#, fuzzy
 msgid "Found Issues"
-msgstr "問題点の表示"
+msgstr "見つかった問題点"
 
 #. TRANSLATORS: %d is replaced with the number of errors found
 #: src/components/core/ValidationErrors.jsx:77
