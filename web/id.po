@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-09 02:18+0000\n"
+"POT-Creation-Date: 2024-01-10 02:19+0000\n"
 "PO-Revision-Date: 2023-12-31 20:39+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://l10n.opensuse.org/projects/agama/agama-"
@@ -238,15 +238,15 @@ msgstr ""
 msgid "Something went wrong while collecting logs. Please, try again."
 msgstr "Terjadi kesalahan saat mengumpulkan log. Silakan coba lagi."
 
-#: src/components/core/Page.jsx:92 src/components/users/UsersPage.jsx:30
+#: src/components/core/Page.jsx:93 src/components/users/UsersPage.jsx:30
 msgid "Back"
 msgstr "Kembali"
 
-#: src/components/core/Page.jsx:200
+#: src/components/core/Page.jsx:201
 msgid "Show global options"
 msgstr "Tampilkan opsi global"
 
-#: src/components/core/Page.jsx:214
+#: src/components/core/Page.jsx:215
 #, fuzzy
 msgid "Page Actions"
 msgstr "Tindakan yang Direncanakan"
@@ -1325,8 +1325,8 @@ msgstr "dienkripsi"
 
 #. TRANSLATORS: filesystem flag, it allows creating snapshots
 #: src/components/storage/ProposalVolumes.jsx:218
-#: src/components/storage/VolumeForm.jsx:128
-#: src/components/storage/VolumeForm.jsx:161
+#: src/components/storage/VolumeForm.jsx:132
+#: src/components/storage/VolumeForm.jsx:165
 #, c-format
 msgid "with snapshots"
 msgstr "dengan snapshot"
@@ -1346,7 +1346,7 @@ msgid "Edit file system"
 msgstr "Mengedit sistem file"
 
 #: src/components/storage/ProposalVolumes.jsx:307
-#: src/components/storage/VolumeForm.jsx:723
+#: src/components/storage/VolumeForm.jsx:727
 msgid "Mount point"
 msgstr "Titik pemasangan"
 
@@ -1355,7 +1355,7 @@ msgid "Details"
 msgstr "Detail"
 
 #: src/components/storage/ProposalVolumes.jsx:309
-#: src/components/storage/VolumeForm.jsx:737
+#: src/components/storage/VolumeForm.jsx:741
 msgid "Size"
 msgstr "Ukuran"
 
@@ -1368,7 +1368,7 @@ msgid "File systems to create in your system"
 msgstr "Sistem file yang akan dibuat di sistem Anda"
 
 #. TRANSLATORS: description of Btrfs snapshots feature.
-#: src/components/storage/VolumeForm.jsx:168
+#: src/components/storage/VolumeForm.jsx:172
 msgid ""
 "Allows rolling back any change done to the system and restoring its previous "
 "state"
@@ -1377,69 +1377,69 @@ msgstr ""
 "dan memulihkan kondisi sebelumnya"
 
 #. TRANSLATORS: info about possible file system types.
-#: src/components/storage/VolumeForm.jsx:265
+#: src/components/storage/VolumeForm.jsx:269
 msgid ""
 "The options for the file system type depends on the product and the mount "
 "point."
 msgstr "Opsi untuk jenis sistem berkas tergantung pada produk dan titik mount."
 
-#: src/components/storage/VolumeForm.jsx:271
+#: src/components/storage/VolumeForm.jsx:275
 msgid "More info for file system types"
 msgstr "Info lebih lanjut untuk jenis sistem file"
 
 #. TRANSLATORS: label for the file system selector.
-#: src/components/storage/VolumeForm.jsx:282
+#: src/components/storage/VolumeForm.jsx:286
 msgid "File system type"
 msgstr "Jenis sistem file"
 
 #. TRANSLATORS: item which affects the final computed partition size
-#: src/components/storage/VolumeForm.jsx:314
+#: src/components/storage/VolumeForm.jsx:318
 msgid "the configuration of snapshots"
 msgstr "konfigurasi snapshot"
 
 #. TRANSLATORS: item which affects the final computed partition size
 #. %s is replaced by a list of mount points like "/home, /boot"
-#: src/components/storage/VolumeForm.jsx:319
+#: src/components/storage/VolumeForm.jsx:323
 #, c-format
 msgid "the presence of the file system for %s"
 msgstr "keberadaan sistem file untuk %s"
 
 #. TRANSLATORS: conjunction for merging two list items
-#: src/components/storage/VolumeForm.jsx:321
+#: src/components/storage/VolumeForm.jsx:325
 msgid ", "
 msgstr ", "
 
 #. TRANSLATORS: the %s is replaced by the items which affect the computed size
-#: src/components/storage/VolumeForm.jsx:324
+#: src/components/storage/VolumeForm.jsx:328
 #, c-format
 msgid "The final size depends on %s."
 msgstr "Ukuran akhir tergantung pada %s."
 
 #. TRANSLATORS: conjunction for merging two texts
-#: src/components/storage/VolumeForm.jsx:326
+#: src/components/storage/VolumeForm.jsx:330
 msgid " and "
 msgstr " dan "
 
 #. TRANSLATORS: the partition size is automatically computed
-#: src/components/storage/VolumeForm.jsx:331
+#: src/components/storage/VolumeForm.jsx:335
 msgid "Automatically calculated size according to the selected product."
 msgstr "Ukuran yang dihitung secara otomatis menurut produk yang dipilih."
 
-#: src/components/storage/VolumeForm.jsx:351
+#: src/components/storage/VolumeForm.jsx:355
 msgid "Exact size for the file system."
 msgstr "Ukuran yang tepat untuk sistem file."
 
 #. TRANSLATORS: requested partition size
-#: src/components/storage/VolumeForm.jsx:363
+#: src/components/storage/VolumeForm.jsx:367
 msgid "Exact size"
 msgstr "Ukuran yang tepat"
 
 #. TRANSLATORS: units selector (like KiB, MiB, GiB...)
-#: src/components/storage/VolumeForm.jsx:378
+#: src/components/storage/VolumeForm.jsx:382
 msgid "Size unit"
 msgstr "Satuan ukuran"
 
-#: src/components/storage/VolumeForm.jsx:406
+#: src/components/storage/VolumeForm.jsx:410
 msgid ""
 "Limits for the file system size. The final size will be a value between the "
 "given minimum and maximum. If no maximum is given then the file system will "
@@ -1450,57 +1450,57 @@ msgstr ""
 "diberikan, maka sistem file akan sebesar mungkin."
 
 #. TRANSLATORS: the minimal partition size
-#: src/components/storage/VolumeForm.jsx:413
+#: src/components/storage/VolumeForm.jsx:417
 msgid "Minimum"
 msgstr "Minimum"
 
 #. TRANSLATORS: the minium partition size
-#: src/components/storage/VolumeForm.jsx:423
+#: src/components/storage/VolumeForm.jsx:427
 msgid "Minimum desired size"
 msgstr "Ukuran minimum yang diinginkan"
 
-#: src/components/storage/VolumeForm.jsx:432
+#: src/components/storage/VolumeForm.jsx:436
 msgid "Unit for the minimum size"
 msgstr "Satuan untuk ukuran minimum"
 
 #. TRANSLATORS: the maximum partition size
-#: src/components/storage/VolumeForm.jsx:443
+#: src/components/storage/VolumeForm.jsx:447
 msgid "Maximum"
 msgstr "Maksimum"
 
 #. TRANSLATORS: the maximum partition size
-#: src/components/storage/VolumeForm.jsx:454
+#: src/components/storage/VolumeForm.jsx:458
 msgid "Maximum desired size"
 msgstr "Ukuran maksimum yang diinginkan"
 
-#: src/components/storage/VolumeForm.jsx:462
+#: src/components/storage/VolumeForm.jsx:466
 msgid "Unit for the maximum size"
 msgstr "Satuan untuk ukuran maksimum"
 
 #. TRANSLATORS: radio button label, fully automatically computed partition size, no user input
-#: src/components/storage/VolumeForm.jsx:479
+#: src/components/storage/VolumeForm.jsx:483
 msgid "Auto"
 msgstr "Otomatis"
 
 #. TRANSLATORS: radio button label, exact partition size requested by user
-#: src/components/storage/VolumeForm.jsx:481
+#: src/components/storage/VolumeForm.jsx:485
 msgid "Fixed"
 msgstr "Tetap"
 
 #. TRANSLATORS: radio button label, automatically computed partition size within the user provided min and max limits
-#: src/components/storage/VolumeForm.jsx:483
+#: src/components/storage/VolumeForm.jsx:487
 msgid "Range"
 msgstr "Rentang"
 
-#: src/components/storage/VolumeForm.jsx:691
+#: src/components/storage/VolumeForm.jsx:695
 msgid "A size value is required"
 msgstr "Diperlukan nilai ukuran"
 
-#: src/components/storage/VolumeForm.jsx:696
+#: src/components/storage/VolumeForm.jsx:700
 msgid "Minimum size is required"
 msgstr "Diperlukan ukuran minimum"
 
-#: src/components/storage/VolumeForm.jsx:700
+#: src/components/storage/VolumeForm.jsx:704
 msgid "Maximum must be greater than minimum"
 msgstr "Maksimum harus lebih besar dari minimum"
 
