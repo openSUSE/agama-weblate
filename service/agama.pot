@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-18 02:18+0000\n"
-"PO-Revision-Date: 2024-01-18 02:18+0000\n"
+"POT-Creation-Date: 2024-01-21 02:22+0000\n"
+"PO-Revision-Date: 2024-01-21 02:22+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -121,7 +121,7 @@ msgstr ""
 #. Repositories that could not be probed are reported as errors.
 #.
 #. @return [Array<Agama::Issue>]
-#: service/lib/agama/software/manager.rb:461
+#: service/lib/agama/software/manager.rb:470
 #, c-format
 msgid "Could not read repository \"%s\""
 msgstr ""
@@ -129,14 +129,14 @@ msgstr ""
 #. Issue when a product is missing
 #.
 #. @return [Agama::Issue]
-#: service/lib/agama/software/manager.rb:471
+#: service/lib/agama/software/manager.rb:480
 msgid "Product not selected yet"
 msgstr ""
 
 #. Issue when a product requires registration but it is not registered yet.
 #.
 #. @return [Agama::Issue]
-#: service/lib/agama/software/manager.rb:480
+#: service/lib/agama/software/manager.rb:489
 msgid "Product must be registered"
 msgstr ""
 
