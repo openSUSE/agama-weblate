@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-31 02:05+0000\n"
+"POT-Creation-Date: 2024-02-07 02:04+0000\n"
 "PO-Revision-Date: 2024-01-12 18:59+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://l10n.opensuse.org/projects/agama/agama-"
@@ -667,8 +667,8 @@ msgstr "Tidak ditemukan koneksi WiFi."
 msgid "Connect to a Wi-Fi network"
 msgstr "Sambungkan ke jaringan Wi-Fi"
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section title
+#. TRANSLATORS: page title
 #: src/components/network/NetworkPage.jsx:169
 #: src/components/overview/NetworkSection.jsx:83
 msgid "Network"
@@ -800,8 +800,8 @@ msgstr "Ringkasan Instalasi"
 msgid "%s (registered)"
 msgstr "%s (terdaftar)"
 
-#. TRANSLATORS: page section
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section
 #: src/components/overview/ProductSection.jsx:71
 #: src/components/product/ProductPage.jsx:435
 msgid "Product"
@@ -861,8 +861,8 @@ msgstr "Menginstal menggunakan perangkat %s"
 msgid "Probing storage devices"
 msgstr "Memeriksa perangkat penyimpanan"
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section title
+#. TRANSLATORS: page title
 #: src/components/overview/StorageSection.jsx:208
 #: src/components/storage/ProposalPage.jsx:232
 msgid "Storage"
