@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-07 02:04+0000\n"
+"POT-Creation-Date: 2024-02-14 02:05+0000\n"
 "PO-Revision-Date: 2024-02-09 13:42+0000\n"
 "Last-Translator: Victor hck <victorhck@opensuse.org>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -675,8 +675,8 @@ msgstr "No se encontraron conexiones WiFi."
 msgid "Connect to a Wi-Fi network"
 msgstr "Conectado a una red WIFI"
 
-#. TRANSLATORS: page section title
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section title
 #: src/components/network/NetworkPage.jsx:169
 #: src/components/overview/NetworkSection.jsx:83
 msgid "Network"
@@ -826,8 +826,8 @@ msgstr "Leer repositorios de software"
 msgid "Refresh the repositories"
 msgstr "Refrescar los repositorios"
 
-#. TRANSLATORS: page section
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section
 #: src/components/overview/SoftwareSection.jsx:143
 #: src/components/software/SoftwarePage.jsx:81
 msgid "Software"
@@ -874,8 +874,8 @@ msgstr "Instalar usando el dispositivo %s"
 msgid "Probing storage devices"
 msgstr "Explorando dispositivos de almacenamiento"
 
-#. TRANSLATORS: page section title
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section title
 #: src/components/overview/StorageSection.jsx:208
 #: src/components/storage/ProposalPage.jsx:232
 msgid "Storage"
