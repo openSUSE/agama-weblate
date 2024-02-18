@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-18 02:07+0000\n"
-"PO-Revision-Date: 2024-01-22 06:59+0000\n"
+"PO-Revision-Date: 2024-02-19 00:42+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -996,9 +996,8 @@ msgid "No products available for selection"
 msgstr "選択できる製品がありません"
 
 #: src/components/product/ProductSelector.jsx:42
-#, fuzzy
 msgid "Available products"
-msgstr "利用可能なロケール"
+msgstr "利用可能な製品"
 
 #: src/components/questions/GenericQuestion.jsx:35
 #: src/components/questions/LuksActivationQuestion.jsx:60
