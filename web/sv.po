@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-18 02:07+0000\n"
-"PO-Revision-Date: 2024-01-21 14:59+0000\n"
+"PO-Revision-Date: 2024-02-18 11:42+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "sv/>\n"
@@ -998,9 +998,8 @@ msgid "No products available for selection"
 msgstr "Inga produkter tillgängliga för val"
 
 #: src/components/product/ProductSelector.jsx:42
-#, fuzzy
 msgid "Available products"
-msgstr "Tillgängliga lokaler"
+msgstr "Tillgängliga produkter"
 
 #: src/components/questions/GenericQuestion.jsx:35
 #: src/components/questions/LuksActivationQuestion.jsx:60
