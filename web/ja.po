@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-21 02:05+0000\n"
-"PO-Revision-Date: 2024-02-19 00:42+0000\n"
+"PO-Revision-Date: 2024-02-22 01:00+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -1309,42 +1309,33 @@ msgid "Shrink existing partitions"
 msgstr "既存のパーティションの縮小"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:56
-#, fuzzy
 msgid "The data is kept, but the current partitions will be resized as needed."
-msgstr ""
-"ディスク内のデータは保持しますが、十分な領域を確保するために既存のパーティ"
-"ションのサイズ変更を行います。"
+msgstr "既存のデータは保持しますが、十分な領域を確保するために既存のパーティションのサイズ変更を行います。"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:60
 msgid "Use available space"
 msgstr "利用可能な領域を使用する"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:61
-#, fuzzy
 msgid ""
 "The data is kept. Only the space not assigned to any partition will be used."
-msgstr ""
-"ディスク内のデータは全て保持し、パーティションの変更も行いません。パーティ"
-"ションに割り当てられていない空き領域のみを使用します。"
+msgstr "既存のデータを全て保持します。パーティションに割り当てられていない空き領域のみを使用します。"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:65
-#, fuzzy
 msgid "Custom"
-msgstr "独自のデバイス"
+msgstr "独自設定"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:66
 msgid "Select what to do with each partition."
-msgstr ""
+msgstr "パーティションの設定作業を独自に実施します。"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:72
-#, fuzzy
 msgid "Used device"
-msgstr "zFCP デバイスの読み込み"
+msgstr "使用済みデバイス"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:73
-#, fuzzy
 msgid "Current content"
-msgstr "現在の内容を全て削除"
+msgstr "現在の内容"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:74
 #: src/components/storage/ProposalVolumes.jsx:309
@@ -1358,60 +1349,58 @@ msgid "Details"
 msgstr "詳細"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:76
-#, fuzzy
 msgid "Action"
 msgstr "処理"
 
 #. TRANSLATORS: %s is replaced by partition table type (e.g., GPT)
 #: src/components/storage/ProposalSpacePolicySection.jsx:110
-#, fuzzy, c-format
+#, c-format
 msgid "%s partition table"
-msgstr "パーティション"
+msgstr "%s パーティションテーブル"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:121
-#, fuzzy
 msgid "EFI system partition"
-msgstr "パーティション"
+msgstr "EFI システムパーティション"
 
 #. TRANSLATORS: %s is replaced by a file system type (e.g., btrfs).
 #: src/components/storage/ProposalSpacePolicySection.jsx:124
-#, fuzzy, c-format
+#, c-format
 msgid "%s file system"
-msgstr "ファイルシステムの追加"
+msgstr "%s ファイルシステム"
 
 #. TRANSLATORS: %s is replaced by a LVM volume group name (e.g., /dev/vg0).
 #: src/components/storage/ProposalSpacePolicySection.jsx:131
 #, c-format
 msgid "LVM physical volume of %s"
-msgstr ""
+msgstr "%s の LVM 物理ボリューム"
 
 #. TRANSLATORS: %s is replaced by a RAID name (e.g., /dev/md0).
 #: src/components/storage/ProposalSpacePolicySection.jsx:134
-#, fuzzy, c-format
+#, c-format
 msgid "Member of RAID %s"
-msgstr "メンバー: %s"
+msgstr "RAID %s のメンバー"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:136
 msgid "Not identified"
-msgstr ""
+msgstr "不明"
 
 #. TRANSLATORS: %s is replaced by a disk size (e.g., 20 GiB)
 #: src/components/storage/ProposalSpacePolicySection.jsx:173
 #, c-format
 msgid "%s unused"
-msgstr ""
+msgstr "%s の未使用"
 
 #. TRANSLATORS: %s is replaced by a disk size (e.g., 2 GiB)
 #: src/components/storage/ProposalSpacePolicySection.jsx:186
 #, c-format
 msgid "Shrinkable by %s"
-msgstr ""
+msgstr "%s 単位で縮小可能"
 
 #. TRANSLATORS: %s is replaced by a device name (e.g., /dev/sda)
 #: src/components/storage/ProposalSpacePolicySection.jsx:221
 #, c-format
 msgid "Space action selector for %s"
-msgstr ""
+msgstr "%s に対する領域処理の選択"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:224
 #: src/components/storage/ProposalVolumes.jsx:229
@@ -1421,19 +1410,17 @@ msgstr "削除"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:228
 msgid "Allow resize"
-msgstr ""
+msgstr "サイズ変更の許可"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:230
 msgid "Do not modify"
-msgstr ""
+msgstr "変更しない"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:382
-#, fuzzy
 msgid "Actions to find space"
-msgstr "接続 %s に対する処理"
+msgstr "領域の検出処理"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:450
-#, fuzzy
 msgid "Find Space"
 msgstr "領域の検出"
 
