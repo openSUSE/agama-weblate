@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-21 02:05+0000\n"
-"PO-Revision-Date: 2024-02-18 11:42+0000\n"
+"PO-Revision-Date: 2024-02-21 12:42+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "sv/>\n"
@@ -1313,42 +1313,37 @@ msgid "Shrink existing partitions"
 msgstr "Krymp existerande partitioner"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:56
-#, fuzzy
 msgid "The data is kept, but the current partitions will be resized as needed."
 msgstr ""
 "Data bevaras, men storleken på de aktuella partitionerna kommer att ändras "
-"efter behov för att göra tillräckligt med utrymme."
+"efter behov."
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:60
 msgid "Use available space"
 msgstr "Använd tillgängligt utrymme"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:61
-#, fuzzy
 msgid ""
 "The data is kept. Only the space not assigned to any partition will be used."
 msgstr ""
-"Data bevaras och befintliga partitioner kommer inte att ändras. Endast det "
-"utrymme som inte är tilldelat någon partition kommer att användas."
+"Data bevaras. Endast det utrymme som inte är tilldelat någon partition "
+"kommer att användas."
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:65
-#, fuzzy
 msgid "Custom"
-msgstr "Anpassade enheter"
+msgstr "Anpassad"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:66
 msgid "Select what to do with each partition."
-msgstr ""
+msgstr "Välj vad som ska göras med varje partition."
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:72
-#, fuzzy
 msgid "Used device"
-msgstr "Läs zFCP-enheter"
+msgstr "Använda enheter"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:73
-#, fuzzy
 msgid "Current content"
-msgstr "Radera nuvarande innehåll"
+msgstr "Nuvarande innehåll"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:74
 #: src/components/storage/ProposalVolumes.jsx:309
@@ -1362,60 +1357,58 @@ msgid "Details"
 msgstr "Detaljer"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:76
-#, fuzzy
 msgid "Action"
-msgstr "Åtgärder"
+msgstr "Åtgärd"
 
 #. TRANSLATORS: %s is replaced by partition table type (e.g., GPT)
 #: src/components/storage/ProposalSpacePolicySection.jsx:110
-#, fuzzy, c-format
+#, c-format
 msgid "%s partition table"
-msgstr "partition"
+msgstr "%s partitionstabell"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:121
-#, fuzzy
 msgid "EFI system partition"
-msgstr "partition"
+msgstr "EFI-systempartition"
 
 #. TRANSLATORS: %s is replaced by a file system type (e.g., btrfs).
 #: src/components/storage/ProposalSpacePolicySection.jsx:124
-#, fuzzy, c-format
+#, c-format
 msgid "%s file system"
-msgstr "Lägg till filsystem"
+msgstr "%s filsystem"
 
 #. TRANSLATORS: %s is replaced by a LVM volume group name (e.g., /dev/vg0).
 #: src/components/storage/ProposalSpacePolicySection.jsx:131
 #, c-format
 msgid "LVM physical volume of %s"
-msgstr ""
+msgstr "LVM fysisk volym av %s"
 
 #. TRANSLATORS: %s is replaced by a RAID name (e.g., /dev/md0).
 #: src/components/storage/ProposalSpacePolicySection.jsx:134
-#, fuzzy, c-format
+#, c-format
 msgid "Member of RAID %s"
-msgstr "Medlemmar: %s"
+msgstr "Medlem av RAID %s"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:136
 msgid "Not identified"
-msgstr ""
+msgstr "Inte identifierad"
 
 #. TRANSLATORS: %s is replaced by a disk size (e.g., 20 GiB)
 #: src/components/storage/ProposalSpacePolicySection.jsx:173
 #, c-format
 msgid "%s unused"
-msgstr ""
+msgstr "%s oanvänt"
 
 #. TRANSLATORS: %s is replaced by a disk size (e.g., 2 GiB)
 #: src/components/storage/ProposalSpacePolicySection.jsx:186
 #, c-format
 msgid "Shrinkable by %s"
-msgstr ""
+msgstr "Krympbar med %s"
 
 #. TRANSLATORS: %s is replaced by a device name (e.g., /dev/sda)
 #: src/components/storage/ProposalSpacePolicySection.jsx:221
 #, c-format
 msgid "Space action selector for %s"
-msgstr ""
+msgstr "Platsåtgärdsväljare för %s"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:224
 #: src/components/storage/ProposalVolumes.jsx:229
@@ -1425,19 +1418,17 @@ msgstr "Ta bort"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:228
 msgid "Allow resize"
-msgstr ""
+msgstr "Tillåt storleksändring"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:230
 msgid "Do not modify"
-msgstr ""
+msgstr "Modifiera inte"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:382
-#, fuzzy
 msgid "Actions to find space"
-msgstr "Åtgärder för anslutning %s"
+msgstr "Åtgärder för att hitta utrymme"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:450
-#, fuzzy
 msgid "Find Space"
 msgstr "Hitta utrymme"
 
