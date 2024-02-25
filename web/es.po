@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-25 02:07+0000\n"
-"PO-Revision-Date: 2024-02-09 13:42+0000\n"
+"PO-Revision-Date: 2024-02-25 20:42+0000\n"
 "Last-Translator: Victor hck <victorhck@opensuse.org>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "es/>\n"
@@ -1004,9 +1004,8 @@ msgid "No products available for selection"
 msgstr "No hay productos disponibles para seleccionar"
 
 #: src/components/product/ProductSelector.jsx:42
-#, fuzzy
 msgid "Available products"
-msgstr "Idiomas disponibles"
+msgstr "Productos disponibles"
 
 #: src/components/questions/GenericQuestion.jsx:35
 #: src/components/questions/LuksActivationQuestion.jsx:60
@@ -1198,15 +1197,14 @@ msgstr "Acciones planeadas"
 
 #. TRANSLATORS: The storage "Planned Actions" section's description
 #: src/components/storage/ProposalActionsSection.jsx:126
-#, fuzzy
 msgid "Actions to create the file systems and to ensure the new system boots."
 msgstr ""
-"Acciones para crear los sistemas de archivos y garantizar que el sistema "
-"arranque."
+"Acciones para crear los sistemas de archivos y garantizar que el nuevo "
+"sistema arranque."
 
 #: src/components/storage/ProposalDeviceSection.jsx:135
 msgid "Waiting for information about selected device"
-msgstr ""
+msgstr "Esperando información sobre el dispositivo seleccionado"
 
 #: src/components/storage/ProposalDeviceSection.jsx:138
 msgid "Select the device for installing the system."
@@ -1249,7 +1247,7 @@ msgstr "Ajustes LVM"
 
 #: src/components/storage/ProposalDeviceSection.jsx:333
 msgid "Waiting for information about LVM"
-msgstr ""
+msgstr "Esperando información sobre LVM"
 
 #: src/components/storage/ProposalDeviceSection.jsx:339
 msgid "Use logical volume management (LVM)"
@@ -1266,11 +1264,12 @@ msgid ""
 "Select the main disk or <abbr title='Logical Volume Manager'>LVM</abbr> "
 "Volume Group for installation."
 msgstr ""
+"Seleccione el disco principal o <abbr title='Logical Volume Manager'>LVM</"
+"abbr> grupo de volúmenes para instalación."
 
 #: src/components/storage/ProposalFileSystemsSection.jsx:70
-#, fuzzy
 msgid "File systems"
-msgstr "Tipo de sistema de archivos"
+msgstr "Sistemas de archivos"
 
 #: src/components/storage/ProposalPageMenu.jsx:40
 msgid "Manage and format"
@@ -1343,42 +1342,37 @@ msgid "Shrink existing partitions"
 msgstr "Reducir las particiones existentes"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:56
-#, fuzzy
 msgid "The data is kept, but the current partitions will be resized as needed."
 msgstr ""
 "Los datos se conservan, pero las particiones actuales cambiarán de tamaño "
-"según sea necesario para crear espacio suficiente."
+"según sea necesario."
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:60
 msgid "Use available space"
 msgstr "Utilice el espacio disponible"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:61
-#, fuzzy
 msgid ""
 "The data is kept. Only the space not assigned to any partition will be used."
 msgstr ""
-"Los datos se conservan y las particiones existentes no se modificarán. Sólo "
-"se utilizará el espacio que no esté asignado a ninguna partición."
+"Los datos se conservan. Sólo se utilizará el espacio que no esté asignado a "
+"ninguna partición."
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:65
-#, fuzzy
 msgid "Custom"
-msgstr "Dispositivos personalizados"
+msgstr "Personalizado"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:66
 msgid "Select what to do with each partition."
-msgstr ""
+msgstr "Seleccione qué hacer con cada partición."
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:72
-#, fuzzy
 msgid "Used device"
-msgstr "Leer dispositivos zFCP"
+msgstr "Dispositivo usado"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:73
-#, fuzzy
 msgid "Current content"
-msgstr "Eliminar el contenido actual"
+msgstr "Contenido actual"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:74
 #: src/components/storage/ProposalVolumes.jsx:309
@@ -1392,60 +1386,58 @@ msgid "Details"
 msgstr "Detalles"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:76
-#, fuzzy
 msgid "Action"
-msgstr "Acciones"
+msgstr "Acción"
 
 #. TRANSLATORS: %s is replaced by partition table type (e.g., GPT)
 #: src/components/storage/ProposalSpacePolicySection.jsx:110
-#, fuzzy, c-format
+#, c-format
 msgid "%s partition table"
-msgstr "partición"
+msgstr "%s tabla de partición"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:121
-#, fuzzy
 msgid "EFI system partition"
-msgstr "partición"
+msgstr "partición del sistema EFI"
 
 #. TRANSLATORS: %s is replaced by a file system type (e.g., btrfs).
 #: src/components/storage/ProposalSpacePolicySection.jsx:124
-#, fuzzy, c-format
+#, c-format
 msgid "%s file system"
-msgstr "Agregar sistema de archivos"
+msgstr "%s sistema de archivos"
 
 #. TRANSLATORS: %s is replaced by a LVM volume group name (e.g., /dev/vg0).
 #: src/components/storage/ProposalSpacePolicySection.jsx:131
 #, c-format
 msgid "LVM physical volume of %s"
-msgstr ""
+msgstr "Volumen físico LVM de %s"
 
 #. TRANSLATORS: %s is replaced by a RAID name (e.g., /dev/md0).
 #: src/components/storage/ProposalSpacePolicySection.jsx:134
-#, fuzzy, c-format
+#, c-format
 msgid "Member of RAID %s"
-msgstr "Miembros: %s"
+msgstr "Miembro de RAID %s"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:136
 msgid "Not identified"
-msgstr ""
+msgstr "No identificado"
 
 #. TRANSLATORS: %s is replaced by a disk size (e.g., 20 GiB)
 #: src/components/storage/ProposalSpacePolicySection.jsx:173
 #, c-format
 msgid "%s unused"
-msgstr ""
+msgstr "%s no usado"
 
 #. TRANSLATORS: %s is replaced by a disk size (e.g., 2 GiB)
 #: src/components/storage/ProposalSpacePolicySection.jsx:186
 #, c-format
 msgid "Shrinkable by %s"
-msgstr ""
+msgstr "Se puede reducir a %s"
 
 #. TRANSLATORS: %s is replaced by a device name (e.g., /dev/sda)
 #: src/components/storage/ProposalSpacePolicySection.jsx:221
 #, c-format
 msgid "Space action selector for %s"
-msgstr ""
+msgstr "Selector de acción en el espacio para %s"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:224
 #: src/components/storage/ProposalVolumes.jsx:229
@@ -1455,20 +1447,18 @@ msgstr "Eliminar"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:228
 msgid "Allow resize"
-msgstr ""
+msgstr "Permitir cambio de tamaño"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:230
 msgid "Do not modify"
-msgstr ""
+msgstr "No modificar"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:382
-#, fuzzy
 msgid "Actions to find space"
-msgstr "Acciones para la conexión %s"
+msgstr "Acciones para encontrar espacio"
 
 #. TRANSLATORS: The storage "Find Space" section's title
 #: src/components/storage/ProposalSpacePolicySection.jsx:452
-#, fuzzy
 msgid "Find Space"
 msgstr "Encontrar espacio"
 
@@ -1478,6 +1468,9 @@ msgid ""
 "Allocating the file systems might need to find free space in the devices "
 "listed below. Choose how to do it."
 msgstr ""
+"Es posible que para asignar los sistemas de archivos sea necesario encontrar "
+"espacio libre en los dispositivos que se enumeran a continuación. Elige cómo "
+"hacerlo."
 
 #. TRANSLATORS: header for a list of items
 #: src/components/storage/ProposalVolumes.jsx:59
