@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-27 02:04+0000\n"
-"PO-Revision-Date: 2024-02-25 04:42+0000\n"
+"PO-Revision-Date: 2024-02-27 06:42+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -41,16 +41,14 @@ msgstr "Agama について"
 
 #. TRANSLATORS: content of the "About" popup (1/2)
 #: src/components/core/About.jsx:53
-#, fuzzy
 msgid ""
 "Agama is an experimental installer for (open)SUSE systems. It is still under "
 "development so, please, do not use it in production environments. If you "
 "want to give it a try, we recommend using a virtual machine to prevent any "
 "possible data loss."
 msgstr ""
-"Agama は (open)SUSE システム向けの実験中インストーラです。現在もなお開発途上"
-"にある仕組みですので、本番環境での使用はご遠慮ください。なお、お試しになりた"
-"い場合は、仮想マシン内で実行して不用意なデータ喪失を防ぐことをお勧めします。"
+"Agama は (open)SUSE システム向けの実験中インストーラです。現在もなお開発途上にある仕組みですので、本番環境での使用はご遠慮ください。なお"
+"、お試しになりたい場合は、仮想マシン内で実行して不用意なデータ喪失を防ぐことをお勧めします。"
 
 #. TRANSLATORS: content of the "About" popup (2/2)
 #. %s is replaced by the project URL
