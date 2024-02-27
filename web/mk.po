@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-25 02:07+0000\n"
+"POT-Creation-Date: 2024-02-27 02:04+0000\n"
 "PO-Revision-Date: 2023-12-31 20:39+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/agama/agama-"
@@ -41,10 +41,11 @@ msgstr "За Agama"
 
 #. TRANSLATORS: content of the "About" popup (1/2)
 #: src/components/core/About.jsx:53
+#, fuzzy
 msgid ""
-"Agama is an experimental installer for (open)SUSE systems. It still under "
+"Agama is an experimental installer for (open)SUSE systems. It is still under "
 "development so, please, do not use it in production environments. If you "
-"want to give it a try, we recommend to use a virtual machine to prevent any "
+"want to give it a try, we recommend using a virtual machine to prevent any "
 "possible data loss."
 msgstr ""
 "Agama е експериментален инсталер за (open)SUSE системи. Сè уште е во развој, "

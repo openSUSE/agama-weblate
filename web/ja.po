@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-25 02:07+0000\n"
+"POT-Creation-Date: 2024-02-27 02:04+0000\n"
 "PO-Revision-Date: 2024-02-25 04:42+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -41,10 +41,11 @@ msgstr "Agama について"
 
 #. TRANSLATORS: content of the "About" popup (1/2)
 #: src/components/core/About.jsx:53
+#, fuzzy
 msgid ""
-"Agama is an experimental installer for (open)SUSE systems. It still under "
+"Agama is an experimental installer for (open)SUSE systems. It is still under "
 "development so, please, do not use it in production environments. If you "
-"want to give it a try, we recommend to use a virtual machine to prevent any "
+"want to give it a try, we recommend using a virtual machine to prevent any "
 "possible data loss."
 msgstr ""
 "Agama は (open)SUSE システム向けの実験中インストーラです。現在もなお開発途上"
@@ -1187,7 +1188,9 @@ msgstr "処理の計画"
 #. TRANSLATORS: The storage "Planned Actions" section's description
 #: src/components/storage/ProposalActionsSection.jsx:126
 msgid "Actions to create the file systems and to ensure the new system boots."
-msgstr "ファイルシステムを作成し、新しいシステムが起動できるようにするための処理です。"
+msgstr ""
+"ファイルシステムを作成し、新しいシステムが起動できるようにするための処理で"
+"す。"
 
 #: src/components/storage/ProposalDeviceSection.jsx:135
 msgid "Waiting for information about selected device"
@@ -1251,8 +1254,8 @@ msgid ""
 "Select the main disk or <abbr title='Logical Volume Manager'>LVM</abbr> "
 "Volume Group for installation."
 msgstr ""
-"インストール先のメインディスクもしくは <abbr title='Logical Volume Manager'>LVM</abbr> "
-"ボリュームグループを選択してください。"
+"インストール先のメインディスクもしくは <abbr title='Logical Volume "
+"Manager'>LVM</abbr> ボリュームグループを選択してください。"
 
 #: src/components/storage/ProposalFileSystemsSection.jsx:70
 msgid "File systems"
@@ -1454,7 +1457,9 @@ msgstr "領域の検出"
 msgid ""
 "Allocating the file systems might need to find free space in the devices "
 "listed below. Choose how to do it."
-msgstr "ファイルシステムを割り当てるには、下記のデバイス内に空き領域を確保する必要があるかもしれません。ここではその方法を選択します。"
+msgstr ""
+"ファイルシステムを割り当てるには、下記のデバイス内に空き領域を確保する必要が"
+"あるかもしれません。ここではその方法を選択します。"
 
 #. TRANSLATORS: header for a list of items
 #: src/components/storage/ProposalVolumes.jsx:59
