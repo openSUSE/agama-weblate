@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 02:04+0000\n"
+"POT-Creation-Date: 2024-02-29 02:03+0000\n"
 "PO-Revision-Date: 2024-02-27 06:42+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -47,8 +47,9 @@ msgid ""
 "want to give it a try, we recommend using a virtual machine to prevent any "
 "possible data loss."
 msgstr ""
-"Agama は (open)SUSE システム向けの実験中インストーラです。現在もなお開発途上にある仕組みですので、本番環境での使用はご遠慮ください。なお"
-"、お試しになりたい場合は、仮想マシン内で実行して不用意なデータ喪失を防ぐことをお勧めします。"
+"Agama は (open)SUSE システム向けの実験中インストーラです。現在もなお開発途上"
+"にある仕組みですので、本番環境での使用はご遠慮ください。なお、お試しになりた"
+"い場合は、仮想マシン内で実行して不用意なデータ喪失を防ぐことをお勧めします。"
 
 #. TRANSLATORS: content of the "About" popup (2/2)
 #. %s is replaced by the project URL
@@ -155,7 +156,7 @@ msgstr ""
 #: src/components/product/ProductPage.jsx:207
 #: src/components/storage/ProposalDeviceSection.jsx:169
 #: src/components/storage/ProposalDeviceSection.jsx:364
-#: src/components/storage/ProposalSettingsSection.jsx:211
+#: src/components/storage/ProposalSettingsSection.jsx:271
 #: src/components/storage/ProposalVolumes.jsx:148
 #: src/components/storage/ProposalVolumes.jsx:283
 #: src/components/storage/ZFCPPage.jsx:511
@@ -1282,7 +1283,7 @@ msgstr "iSCSI"
 #. TRANSLATORS: The word 'directly' is key here. For example, booting to the installer media and then choosing
 #. 'Boot from Hard Disk' from there will not work. Keep it sort (this is a hint in a form) but keep it clear.
 #. Do not translate 'abbr' and 'title', they are part of the HTML markup.
-#: src/components/storage/ProposalSettingsSection.jsx:86
+#: src/components/storage/ProposalSettingsSection.jsx:87
 msgid ""
 "The password will not be needed to boot and access the data if the <abbr "
 "title='Trusted Platform Module'>TPM</abbr> can verify the integrity of the "
@@ -1294,24 +1295,39 @@ msgstr ""
 "シーリングを使用するには、新しいシステムの初回起動時に直接起動を行う必要があ"
 "ります。"
 
-#: src/components/storage/ProposalSettingsSection.jsx:104
+#: src/components/storage/ProposalSettingsSection.jsx:105
 msgid "Use the TPM to decrypt automatically on each boot"
 msgstr "毎回の起動時に TPM を利用して自動的に暗号化解除する"
 
-#: src/components/storage/ProposalSettingsSection.jsx:175
+#: src/components/storage/ProposalSettingsSection.jsx:150
+msgid ""
+"Uses Btrfs for the root file system allowing to boot to a previous version "
+"of the system after configuration changes or software upgrades."
+msgstr ""
+
+#: src/components/storage/ProposalSettingsSection.jsx:155
+#, fuzzy
+msgid "Use Btrfs Snapshots"
+msgstr "スナップショット有り"
+
+#: src/components/storage/ProposalSettingsSection.jsx:169
+msgid "Btrfs snapshots required by product."
+msgstr ""
+
+#: src/components/storage/ProposalSettingsSection.jsx:235
 msgid "Change encryption settings"
 msgstr "暗号化設定の変更"
 
-#: src/components/storage/ProposalSettingsSection.jsx:180
-#: src/components/storage/ProposalSettingsSection.jsx:201
+#: src/components/storage/ProposalSettingsSection.jsx:240
+#: src/components/storage/ProposalSettingsSection.jsx:261
 msgid "Encryption settings"
 msgstr "暗号化の設定"
 
-#: src/components/storage/ProposalSettingsSection.jsx:194
+#: src/components/storage/ProposalSettingsSection.jsx:254
 msgid "Use encryption"
 msgstr "暗号化を使用する"
 
-#: src/components/storage/ProposalSettingsSection.jsx:244
+#: src/components/storage/ProposalSettingsSection.jsx:317
 msgid "Settings"
 msgstr "設定"
 
@@ -1364,7 +1380,7 @@ msgstr "現在の内容"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:74
 #: src/components/storage/ProposalVolumes.jsx:309
-#: src/components/storage/VolumeForm.jsx:795
+#: src/components/storage/VolumeForm.jsx:741
 msgid "Size"
 msgstr "サイズ"
 
@@ -1514,9 +1530,6 @@ msgstr "暗号化"
 
 #. TRANSLATORS: filesystem flag, it allows creating snapshots
 #: src/components/storage/ProposalVolumes.jsx:218
-#: src/components/storage/VolumeForm.jsx:172
-#: src/components/storage/VolumeForm.jsx:205
-#, c-format
 msgid "with snapshots"
 msgstr "スナップショット有り"
 
@@ -1530,8 +1543,8 @@ msgid "Edit file system"
 msgstr "ファイルシステムの編集"
 
 #: src/components/storage/ProposalVolumes.jsx:307
-#: src/components/storage/VolumeForm.jsx:780
-#: src/components/storage/VolumeForm.jsx:785
+#: src/components/storage/VolumeForm.jsx:726
+#: src/components/storage/VolumeForm.jsx:731
 msgid "Mount point"
 msgstr "マウントポイント"
 
@@ -1543,79 +1556,71 @@ msgstr "マウントポイントの一覧"
 msgid "Select a value"
 msgstr "値の選択"
 
-#. TRANSLATORS: description of Btrfs snapshots feature.
-#: src/components/storage/VolumeForm.jsx:212
-msgid ""
-"Allows rolling back any change done to the system and restoring its previous "
-"state"
-msgstr ""
-"システムに実施された任意の変更を巻き戻し、以前の状態を復元できるようにします"
-
 #. TRANSLATORS: info about possible file system types.
-#: src/components/storage/VolumeForm.jsx:309
+#: src/components/storage/VolumeForm.jsx:255
 msgid ""
 "The options for the file system type depends on the product and the mount "
 "point."
 msgstr ""
 "ファイルシステムに対する選択肢は、製品とマウントポイントごとに異なります。"
 
-#: src/components/storage/VolumeForm.jsx:315
+#: src/components/storage/VolumeForm.jsx:261
 msgid "More info for file system types"
 msgstr "ファイルシステムの種類に関する詳細"
 
 #. TRANSLATORS: label for the file system selector.
-#: src/components/storage/VolumeForm.jsx:326
+#: src/components/storage/VolumeForm.jsx:272
 msgid "File system type"
 msgstr "ファイルシステムの種類"
 
 #. TRANSLATORS: item which affects the final computed partition size
-#: src/components/storage/VolumeForm.jsx:358
+#: src/components/storage/VolumeForm.jsx:304
 msgid "the configuration of snapshots"
 msgstr "スナップショットの設定"
 
 #. TRANSLATORS: item which affects the final computed partition size
 #. %s is replaced by a list of mount points like "/home, /boot"
-#: src/components/storage/VolumeForm.jsx:363
+#: src/components/storage/VolumeForm.jsx:309
 #, c-format
 msgid "the presence of the file system for %s"
 msgstr "%s に対するファイルシステムの存在"
 
 #. TRANSLATORS: conjunction for merging two list items
-#: src/components/storage/VolumeForm.jsx:365
+#: src/components/storage/VolumeForm.jsx:311
 msgid ", "
 msgstr ", "
 
 #. TRANSLATORS: the %s is replaced by the items which affect the computed size
-#: src/components/storage/VolumeForm.jsx:368
+#: src/components/storage/VolumeForm.jsx:314
 #, c-format
 msgid "The final size depends on %s."
 msgstr "最終的なサイズは %s に依存します。"
 
 #. TRANSLATORS: conjunction for merging two texts
-#: src/components/storage/VolumeForm.jsx:370
+#: src/components/storage/VolumeForm.jsx:316
 msgid " and "
 msgstr " および "
 
 #. TRANSLATORS: the partition size is automatically computed
-#: src/components/storage/VolumeForm.jsx:375
+#: src/components/storage/VolumeForm.jsx:321
 msgid "Automatically calculated size according to the selected product."
 msgstr "選択した製品に合わせてサイズを自動計算します。"
 
-#: src/components/storage/VolumeForm.jsx:395
+#: src/components/storage/VolumeForm.jsx:341
 msgid "Exact size for the file system."
 msgstr "ファイルシステムに対して正確なサイズを設定します。"
 
 #. TRANSLATORS: requested partition size
-#: src/components/storage/VolumeForm.jsx:407
+#: src/components/storage/VolumeForm.jsx:353
 msgid "Exact size"
 msgstr "正確なサイズ"
 
 #. TRANSLATORS: units selector (like KiB, MiB, GiB...)
-#: src/components/storage/VolumeForm.jsx:422
+#: src/components/storage/VolumeForm.jsx:368
 msgid "Size unit"
 msgstr "サイズの単位"
 
-#: src/components/storage/VolumeForm.jsx:450
+#: src/components/storage/VolumeForm.jsx:396
 msgid ""
 "Limits for the file system size. The final size will be a value between the "
 "given minimum and maximum. If no maximum is given then the file system will "
@@ -1626,57 +1631,57 @@ msgstr ""
 "きくなるように設定されます。"
 
 #. TRANSLATORS: the minimal partition size
-#: src/components/storage/VolumeForm.jsx:457
+#: src/components/storage/VolumeForm.jsx:403
 msgid "Minimum"
 msgstr "最小"
 
 #. TRANSLATORS: the minium partition size
-#: src/components/storage/VolumeForm.jsx:467
+#: src/components/storage/VolumeForm.jsx:413
 msgid "Minimum desired size"
 msgstr "最小必須サイズ"
 
-#: src/components/storage/VolumeForm.jsx:476
+#: src/components/storage/VolumeForm.jsx:422
 msgid "Unit for the minimum size"
 msgstr "最小サイズの単位"
 
 #. TRANSLATORS: the maximum partition size
-#: src/components/storage/VolumeForm.jsx:487
+#: src/components/storage/VolumeForm.jsx:433
 msgid "Maximum"
 msgstr "最大"
 
 #. TRANSLATORS: the maximum partition size
-#: src/components/storage/VolumeForm.jsx:498
+#: src/components/storage/VolumeForm.jsx:444
 msgid "Maximum desired size"
 msgstr "最大要求サイズ"
 
-#: src/components/storage/VolumeForm.jsx:506
+#: src/components/storage/VolumeForm.jsx:452
 msgid "Unit for the maximum size"
 msgstr "最大サイズの単位"
 
 #. TRANSLATORS: radio button label, fully automatically computed partition size, no user input
-#: src/components/storage/VolumeForm.jsx:523
+#: src/components/storage/VolumeForm.jsx:469
 msgid "Auto"
 msgstr "自動"
 
 #. TRANSLATORS: radio button label, exact partition size requested by user
-#: src/components/storage/VolumeForm.jsx:525
+#: src/components/storage/VolumeForm.jsx:471
 msgid "Fixed"
 msgstr "固定値"
 
 #. TRANSLATORS: radio button label, automatically computed partition size within the user provided min and max limits
-#: src/components/storage/VolumeForm.jsx:527
+#: src/components/storage/VolumeForm.jsx:473
 msgid "Range"
 msgstr "範囲"
 
-#: src/components/storage/VolumeForm.jsx:735
+#: src/components/storage/VolumeForm.jsx:681
 msgid "A size value is required"
 msgstr "サイズを指定する必要があります"
 
-#: src/components/storage/VolumeForm.jsx:740
+#: src/components/storage/VolumeForm.jsx:686
 msgid "Minimum size is required"
 msgstr "最小サイズを指定する必要があります"
 
-#: src/components/storage/VolumeForm.jsx:744
+#: src/components/storage/VolumeForm.jsx:690
 msgid "Maximum must be greater than minimum"
 msgstr "最大サイズは最小サイズより大きくなければなりません"
 
@@ -2182,6 +2187,13 @@ msgstr "ユーザ"
 #: src/components/users/UsersPage.jsx:34
 msgid "Root authentication"
 msgstr "root の認証"
+
+#~ msgid ""
+#~ "Allows rolling back any change done to the system and restoring its "
+#~ "previous state"
+#~ msgstr ""
+#~ "システムに実施された任意の変更を巻き戻し、以前の状態を復元できるようにしま"
+#~ "す"
 
 #~ msgid "Devices will not be modified until installation starts."
 #~ msgstr "インストールを開始するまではデバイスへの書き込みは行われません。"
