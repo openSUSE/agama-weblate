@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-29 02:03+0000\n"
-"PO-Revision-Date: 2024-02-27 12:42+0000\n"
+"PO-Revision-Date: 2024-02-29 07:42+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "sv/>\n"
@@ -1307,15 +1307,17 @@ msgid ""
 "Uses Btrfs for the root file system allowing to boot to a previous version "
 "of the system after configuration changes or software upgrades."
 msgstr ""
+"Använder Btrfs för rootfilsystemet, vilket gör det möjligt att starta upp en "
+"tidigare version av systemet före konfigurationsändringar eller "
+"programvaruuppgraderingar."
 
 #: src/components/storage/ProposalSettingsSection.jsx:155
-#, fuzzy
 msgid "Use Btrfs Snapshots"
-msgstr "med ögonblicksavbilder"
+msgstr "Använd Btrfs ögonblicksavbilder"
 
 #: src/components/storage/ProposalSettingsSection.jsx:169
 msgid "Btrfs snapshots required by product."
-msgstr ""
+msgstr "Btrfs ögonblicksavbilder krävs för produkt."
 
 #: src/components/storage/ProposalSettingsSection.jsx:235
 msgid "Change encryption settings"
