@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-29 02:03+0000\n"
-"PO-Revision-Date: 2024-02-27 06:42+0000\n"
+"PO-Revision-Date: 2024-02-29 04:42+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -1304,15 +1304,15 @@ msgid ""
 "Uses Btrfs for the root file system allowing to boot to a previous version "
 "of the system after configuration changes or software upgrades."
 msgstr ""
+"ルートファイルシステムに btrfs を使用することで、設定変更前やソフトウエアのアップグレード前に戻して起動し直すことができるようになります。"
 
 #: src/components/storage/ProposalSettingsSection.jsx:155
-#, fuzzy
 msgid "Use Btrfs Snapshots"
-msgstr "スナップショット有り"
+msgstr "btrfs スナップショットを使用する"
 
 #: src/components/storage/ProposalSettingsSection.jsx:169
 msgid "Btrfs snapshots required by product."
-msgstr ""
+msgstr "btrfs のスナップショットは製品側の要件で必須となっています。"
 
 #: src/components/storage/ProposalSettingsSection.jsx:235
 msgid "Change encryption settings"
