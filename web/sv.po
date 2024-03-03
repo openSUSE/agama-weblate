@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-03 02:07+0000\n"
-"PO-Revision-Date: 2024-02-29 07:42+0000\n"
+"PO-Revision-Date: 2024-03-03 10:42+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "sv/>\n"
@@ -1337,9 +1337,8 @@ msgid "Settings"
 msgstr "Inställningar"
 
 #: src/components/storage/ProposalSettingsSection.jsx:330
-#, fuzzy
 msgid "Transactional system"
-msgstr "transaktionell"
+msgstr "Transaktionellt system"
 
 #. TRANSLATORS: %s is replaced by a product name (e.g., openSUSE Tumbleweed)
 #: src/components/storage/ProposalSettingsSection.jsx:333
@@ -1348,6 +1347,8 @@ msgid ""
 "%s is an immutable system with atomic updates using a read-only Btrfs root "
 "file system."
 msgstr ""
+"%s är ett oföränderligt system med atomära uppdateringar som använder ett "
+"skrivskyddat Btrfs-rootfilsystem."
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:50
 msgid "Delete current content"
@@ -2075,12 +2076,12 @@ msgstr "Användarnamn"
 
 #: src/components/users/FirstUser.jsx:88
 msgid "Username suggestion dropdown"
-msgstr ""
+msgstr "Rullgardinsmeny för användarnamnsförslag"
 
 #. TRANSLATORS: dropdown username suggestions
 #: src/components/users/FirstUser.jsx:102
 msgid "Use suggested username"
-msgstr ""
+msgstr "Använd föreslaget användarnamn"
 
 #: src/components/users/FirstUser.jsx:212
 #: src/components/users/RootAuthMethods.jsx:99
