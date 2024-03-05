@@ -8,34 +8,36 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-03 02:07+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-03-05 13:42+0000\n"
+"Last-Translator: David Medina <medipas@gmail.com>\n"
+"Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
+"ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. TRANSLATORS: error message, %s is replaced by the server URL
 #: src/DevServerWrapper.jsx:82
 #, c-format
 msgid "The server at %s is not reachable."
-msgstr ""
+msgstr "No es pot accedir al servidor a %s."
 
 #. TRANSLATORS: error message
 #: src/DevServerWrapper.jsx:88
 msgid "Cannot connect to the Cockpit server"
-msgstr ""
+msgstr "No es pot connectar amb el servidor Cockpit."
 
 #. TRANSLATORS: button label
 #: src/DevServerWrapper.jsx:104
 msgid "Try Again"
-msgstr ""
+msgstr "Torna-ho a provar"
 
 #: src/components/core/About.jsx:43 src/components/core/About.jsx:48
 msgid "About Agama"
-msgstr ""
+msgstr "Quant a Agama"
 
 #. TRANSLATORS: content of the "About" popup (1/2)
 #: src/components/core/About.jsx:53
@@ -45,13 +47,17 @@ msgid ""
 "want to give it a try, we recommend using a virtual machine to prevent any "
 "possible data loss."
 msgstr ""
+"L'Agama és un instal·lador experimental per a sistemes (open)SUSE. Encara "
+"està en desenvolupament, així que, si us plau, no l'useu en entorns de "
+"producció. Si voleu provar-lo, us recomanem que feu servir una màquina "
+"virtual per evitar possibles pèrdues de dades."
 
 #. TRANSLATORS: content of the "About" popup (2/2)
 #. %s is replaced by the project URL
 #: src/components/core/About.jsx:65
 #, c-format
 msgid "For more information, please visit the project's repository at %s."
-msgstr ""
+msgstr "Per obtenir-ne més informació, visiteu el repositori del projecte a %s."
 
 #. TRANSLATORS: button label
 #: src/components/core/About.jsx:71 src/components/core/FileViewer.jsx:80
@@ -60,26 +66,28 @@ msgstr ""
 #: src/components/network/WifiSelector.jsx:151
 #: src/components/product/ProductPage.jsx:239
 msgid "Close"
-msgstr ""
+msgstr "Tanca"
 
 #. TRANSLATORS: page title
 #: src/components/core/DBusError.jsx:34
 msgid "D-Bus Error"
-msgstr ""
+msgstr "Error de D-Bus"
 
 #: src/components/core/DBusError.jsx:38
 msgid "Cannot connect to D-Bus"
-msgstr ""
+msgstr "No es pot connectar a D-Bus."
 
 #: src/components/core/DBusError.jsx:43
 msgid ""
 "Could not connect to the D-Bus service. Please, check whether it is running."
 msgstr ""
+"No s'ha pogut connectar amb el servei D-Bus. Si us plau, comproveu si "
+"s'executa."
 
 #. TRANSLATORS: button label
 #: src/components/core/DBusError.jsx:51
 msgid "Reload"
-msgstr ""
+msgstr "Torna a carregar"
 
 #: src/components/core/DevelopmentInfo.jsx:55
 msgid "Cockpit server"
@@ -836,7 +844,7 @@ msgstr ""
 
 #: src/components/overview/StorageSection.jsx:83
 msgid "Probing storage devices"
-msgstr ""
+msgstr "Sondant els dispositius d'emmagatzematge"
 
 #. TRANSLATORS: page title
 #. TRANSLATORS: page section title
