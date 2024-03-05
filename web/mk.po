@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-03 02:07+0000\n"
-"PO-Revision-Date: 2023-12-31 20:39+0000\n"
+"PO-Revision-Date: 2024-03-05 08:42+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
-"Language-Team: Macedonian <https://l10n.opensuse.org/projects/agama/agama-"
-"web/mk/>\n"
+"Language-Team: Macedonian <https://l10n.opensuse.org/projects/agama/"
+"agama-web/mk/>\n"
 "Language: mk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -73,16 +73,17 @@ msgstr "Затвори"
 #. TRANSLATORS: page title
 #: src/components/core/DBusError.jsx:34
 msgid "D-Bus Error"
-msgstr ""
+msgstr "Грешка во D-Bus"
 
 #: src/components/core/DBusError.jsx:38
 msgid "Cannot connect to D-Bus"
-msgstr ""
+msgstr "Не може да се поврзе со D-Bus"
 
 #: src/components/core/DBusError.jsx:43
 msgid ""
 "Could not connect to the D-Bus service. Please, check whether it is running."
 msgstr ""
+"Не може да се поврзе со услугата D-Bus. Ве молиме, проверете дали работи."
 
 #. TRANSLATORS: button label
 #: src/components/core/DBusError.jsx:51
