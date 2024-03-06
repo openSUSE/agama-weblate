@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-03 02:07+0000\n"
-"PO-Revision-Date: 2024-03-06 14:42+0000\n"
+"PO-Revision-Date: 2024-03-06 17:42+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ca/>\n"
@@ -793,8 +793,8 @@ msgstr "No s'ha detectat cap connexió de xarxa."
 #, c-format
 msgid "%d connection set:"
 msgid_plural "%d connections set:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d connexió establerta:"
+msgstr[1] "%d connexions establertes:"
 
 #. TRANSLATORS: page title
 #: src/components/overview/OverviewPage.jsx:48
@@ -920,95 +920,96 @@ msgstr "Registra %s"
 #: src/components/product/ProductPage.jsx:188
 #, c-format
 msgid "Deregister %s"
-msgstr ""
+msgstr "Dona de baixa %s"
 
 #. TRANSLATORS: %s is replaced by a product name (e.g., SUSE ALP-Dolomite)
 #: src/components/product/ProductPage.jsx:202
 #, c-format
 msgid "Do you want to deregister %s?"
-msgstr ""
+msgstr "Voleu donar de baixa el producte %s?"
 
 #: src/components/product/ProductPage.jsx:227
 msgid "Registered warning"
-msgstr ""
+msgstr "Avís de registre"
 
 #. TRANSLATORS: %s is replaced by a product name (e.g., SUSE ALP-Dolomite)
 #: src/components/product/ProductPage.jsx:232
 #, c-format
 msgid "The product %s must be deregistered before selecting a new product."
 msgstr ""
+"El producte %s s'ha de donar de baixa abans de seleccionar un producte nou."
 
 #: src/components/product/ProductPage.jsx:263
 msgid "Change product"
-msgstr ""
+msgstr "Canvia el producte"
 
 #: src/components/product/ProductPage.jsx:305
 msgid "Register"
-msgstr ""
+msgstr "Registra"
 
 #: src/components/product/ProductPage.jsx:337
 msgid "Deregister product"
-msgstr ""
+msgstr "Dona de baixa el producte"
 
 #: src/components/product/ProductPage.jsx:370
 msgid "Code:"
-msgstr ""
+msgstr "Codi:"
 
 #: src/components/product/ProductPage.jsx:374
 msgid "Email:"
-msgstr ""
+msgstr "Adreça electrònica:"
 
 #. TRANSLATORS: section title.
 #: src/components/product/ProductPage.jsx:390
 msgid "Registration"
-msgstr ""
+msgstr "Registre"
 
 #: src/components/product/ProductPage.jsx:399
 msgid "This product requires registration."
-msgstr ""
+msgstr "Aquest producte requereix registre."
 
 #: src/components/product/ProductPage.jsx:405
 msgid "This product does not require registration."
-msgstr ""
+msgstr "Aquest producte no requereix registre."
 
 #: src/components/product/ProductRegistrationForm.jsx:63
 msgid "Registration code"
-msgstr ""
+msgstr "Codi de registre"
 
 #: src/components/product/ProductRegistrationForm.jsx:66
 msgid "Email"
-msgstr ""
+msgstr "Adreça electrònica"
 
 #: src/components/product/ProductSelectionPage.jsx:58
 msgid "Loading available products, please wait..."
-msgstr ""
+msgstr "Carregant els productes disponibles. Espereu, si us plau..."
 
 #. TRANSLATORS: page title
 #: src/components/product/ProductSelectionPage.jsx:63
 msgid "Product selection"
-msgstr ""
+msgstr "Selecció de producte"
 
 #: src/components/product/ProductSelectionPage.jsx:72
 msgid "Select"
-msgstr ""
+msgstr "Selecciona"
 
 #: src/components/product/ProductSelector.jsx:36
 msgid "No products available for selection"
-msgstr ""
+msgstr "No hi ha productes disponibles per a la selecció."
 
 #: src/components/product/ProductSelector.jsx:42
 msgid "Available products"
-msgstr ""
+msgstr "Productes disponibles"
 
 #: src/components/questions/GenericQuestion.jsx:35
 #: src/components/questions/LuksActivationQuestion.jsx:60
 msgid "Question"
-msgstr ""
+msgstr "Pregunta"
 
 #. TRANSLATORS: error message, user entered a wrong password
 #: src/components/questions/LuksActivationQuestion.jsx:34
 msgid "Given encryption password didn't work"
-msgstr ""
+msgstr "La contrasenya d'encriptació proporcionada no ha funcionat."
 
 #: src/components/questions/LuksActivationQuestion.jsx:59
 msgid "Encrypted Device"
