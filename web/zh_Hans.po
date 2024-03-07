@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-03 02:07+0000\n"
+"POT-Creation-Date: 2024-03-07 01:53+0000\n"
 "PO-Revision-Date: 2024-03-04 15:43+0000\n"
 "Last-Translator: Monstorix <monstorix@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.opensuse.org/projects/"
@@ -47,8 +47,8 @@ msgid ""
 "want to give it a try, we recommend using a virtual machine to prevent any "
 "possible data loss."
 msgstr ""
-"Agama 是（open）SUSE "
-"系统的实验性安装程序。其仍处于开发阶段，因此请勿将其用于生产环境。如果您想试用，建议使用虚拟机以防止任何可能的数据丢失。"
+"Agama 是（open）SUSE 系统的实验性安装程序。其仍处于开发阶段，因此请勿将其用于"
+"生产环境。如果您想试用，建议使用虚拟机以防止任何可能的数据丢失。"
 
 #. TRANSLATORS: content of the "About" popup (2/2)
 #. %s is replaced by the project URL
@@ -184,8 +184,8 @@ msgid ""
 "first boot of the new system. For that to work, the machine needs to boot "
 "directly to the new boot loader."
 msgstr ""
-"配置 <abbr title='Trusted Platform Module'>TPM</abbr> "
-"自动开启加密设备的最后一步将在新系统首次启动时进行。为此，本机需要直接启动到新的引导加载程序。"
+"配置 <abbr title='Trusted Platform Module'>TPM</abbr> 自动开启加密设备的最后"
+"一步将在新系统首次启动时进行。为此，本机需要直接启动到新的引导加载程序。"
 
 #. TRANSLATORS: page title
 #: src/components/core/InstallationFinished.jsx:88
@@ -377,8 +377,8 @@ msgid ""
 "can be set in the %s page."
 msgstr "安装程序所使用的语言。可在 %s 页面设置已安装系统的语言。"
 
-#. TRANSLATORS: page section
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section
 #: src/components/l10n/InstallerLocaleSwitcher.jsx:56
 #: src/components/l10n/L10nPage.jsx:384
 #: src/components/overview/L10nSection.jsx:52
@@ -649,8 +649,8 @@ msgstr "未找到 WiFi 连接。"
 msgid "Connect to a Wi-Fi network"
 msgstr "连接到 Wi-Fi 网络"
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section title
+#. TRANSLATORS: page title
 #: src/components/network/NetworkPage.jsx:169
 #: src/components/overview/NetworkSection.jsx:83
 msgid "Network"
@@ -842,8 +842,8 @@ msgstr "使用设备 %s 安装"
 msgid "Probing storage devices"
 msgstr "正在探测存储设备"
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section title
+#. TRANSLATORS: page title
 #: src/components/overview/StorageSection.jsx:208
 #: src/components/storage/ProposalPage.jsx:239
 msgid "Storage"
@@ -1224,7 +1224,8 @@ msgstr "系统卷组"
 msgid ""
 "Select the main disk or <abbr title='Logical Volume Manager'>LVM</abbr> "
 "Volume Group for installation."
-msgstr "选择主磁盘或 <abbr title='Logical Volume Manager'>LVM</abbr> 卷组进行安装。"
+msgstr ""
+"选择主磁盘或 <abbr title='Logical Volume Manager'>LVM</abbr> 卷组进行安装。"
 
 #: src/components/storage/ProposalFileSystemsSection.jsx:70
 msgid "File systems"
@@ -1260,8 +1261,8 @@ msgid ""
 "system. TPM sealing requires the new system to be booted directly on its "
 "first run."
 msgstr ""
-"若 <abbr title='Trusted Platform Module'>TPM</abbr> "
-"可以验证系统的完整性，启动和访问数据的时候将无需密码。 TPM 密封要求新系统在首次运行时直接引导。"
+"若 <abbr title='Trusted Platform Module'>TPM</abbr> 可以验证系统的完整性，启"
+"动和访问数据的时候将无需密码。 TPM 密封要求新系统在首次运行时直接引导。"
 
 #: src/components/storage/ProposalSettingsSection.jsx:107
 msgid "Use the TPM to decrypt automatically on each boot"
@@ -1271,7 +1272,9 @@ msgstr "使用 TPM 在每次启动时自动解密"
 msgid ""
 "Uses Btrfs for the root file system allowing to boot to a previous version "
 "of the system after configuration changes or software upgrades."
-msgstr "使用 Btrfs 作为根文件系统，可以允许配置被改变或软件更新后回退启动到先前版本的系统。"
+msgstr ""
+"使用 Btrfs 作为根文件系统，可以允许配置被改变或软件更新后回退启动到先前版本的"
+"系统。"
 
 #: src/components/storage/ProposalSettingsSection.jsx:159
 msgid "Use Btrfs Snapshots"
@@ -1595,7 +1598,9 @@ msgid ""
 "Limits for the file system size. The final size will be a value between the "
 "given minimum and maximum. If no maximum is given then the file system will "
 "be as big as possible."
-msgstr "文件系统大小的限度。最终大小将会介于此处给定的最小值和最大值之间。如未给定最大值，文件系统将尽可能扩大。"
+msgstr ""
+"文件系统大小的限度。最终大小将会介于此处给定的最小值和最大值之间。如未给定最"
+"大值，文件系统将尽可能扩大。"
 
 #. TRANSLATORS: the minimal partition size
 #: src/components/storage/VolumeForm.jsx:403
@@ -1698,7 +1703,8 @@ msgstr "读取 zFCP 设备"
 msgid ""
 "Automatic LUN scan is [enabled]. Activating a controller which is running in "
 "NPIV mode will automatically configures all its LUNs."
-msgstr "自动 LUN 扫描[已启用]。激活运行在 NPIV 模式下的控制器将自动配置其所有 LUN。"
+msgstr ""
+"自动 LUN 扫描[已启用]。激活运行在 NPIV 模式下的控制器将自动配置其所有 LUN。"
 
 #. TRANSLATORS: the text in the square brackets [] will be displayed in bold
 #: src/components/storage/ZFCPPage.jsx:432

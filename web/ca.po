@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-03 02:07+0000\n"
+"POT-Creation-Date: 2024-03-07 01:53+0000\n"
 "PO-Revision-Date: 2024-03-06 20:42+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -57,7 +57,8 @@ msgstr ""
 #: src/components/core/About.jsx:65
 #, c-format
 msgid "For more information, please visit the project's repository at %s."
-msgstr "Per obtenir-ne més informació, visiteu el repositori del projecte a %s."
+msgstr ""
+"Per obtenir-ne més informació, visiteu el repositori del projecte a %s."
 
 #. TRANSLATORS: button label
 #: src/components/core/About.jsx:71 src/components/core/FileViewer.jsx:80
@@ -399,8 +400,8 @@ msgstr ""
 "La llengua usada per l'instal·lador. La llengua del sistema instal·lat es "
 "pot definir a la pàgina %s."
 
-#. TRANSLATORS: page section
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section
 #: src/components/l10n/InstallerLocaleSwitcher.jsx:56
 #: src/components/l10n/L10nPage.jsx:384
 #: src/components/overview/L10nSection.jsx:52
@@ -652,7 +653,8 @@ msgstr "No s'ha trobat cap connexió amb fil."
 #: src/components/network/NetworkPage.jsx:53
 msgid ""
 "The system has not been configured for connecting to a WiFi network yet."
-msgstr "El sistema encara no s'ha configurat per connectar-se a una xarxa WiFi."
+msgstr ""
+"El sistema encara no s'ha configurat per connectar-se a una xarxa WiFi."
 
 #: src/components/network/NetworkPage.jsx:54
 msgid ""
@@ -673,8 +675,8 @@ msgstr "No s'ha trobat cap connexió WiFi."
 msgid "Connect to a Wi-Fi network"
 msgstr "Connecteu-vos a una xarxa Wi-Fi"
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section title
+#. TRANSLATORS: page title
 #: src/components/network/NetworkPage.jsx:169
 #: src/components/overview/NetworkSection.jsx:83
 msgid "Network"
@@ -713,7 +715,8 @@ msgstr "Alguna cosa ha anat malament."
 
 #: src/components/network/WifiConnectionForm.jsx:92
 msgid "Please, review provided settings and try again."
-msgstr "Si us plau, reviseu la configuració proporcionada i torneu-ho a provar."
+msgstr ""
+"Si us plau, reviseu la configuració proporcionada i torneu-ho a provar."
 
 #. TRANSLATORS: SSID (Wifi network name) configuration
 #: src/components/network/WifiConnectionForm.jsx:97
@@ -868,8 +871,8 @@ msgstr "Instal·la al dispositiu %s"
 msgid "Probing storage devices"
 msgstr "Sondant els dispositius d'emmagatzematge"
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section title
+#. TRANSLATORS: page title
 #: src/components/overview/StorageSection.jsx:208
 #: src/components/storage/ProposalPage.jsx:239
 msgid "Storage"
@@ -887,7 +890,8 @@ msgstr "Encara no s'ha definit cap usuari."
 
 #: src/components/overview/UsersSection.jsx:101
 msgid "Root authentication set for using both, password and public SSH Key"
-msgstr "Autenticació d'arrel establerta per usar contrasenya i clau SSH pública"
+msgstr ""
+"Autenticació d'arrel establerta per usar contrasenya i clau SSH pública"
 
 #: src/components/overview/UsersSection.jsx:102
 msgid "No root authentication method defined"

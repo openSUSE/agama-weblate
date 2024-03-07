@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-03 02:07+0000\n"
+"POT-Creation-Date: 2024-03-07 01:53+0000\n"
 "PO-Revision-Date: 2024-03-04 01:11+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -396,8 +396,8 @@ msgstr ""
 "インストーラで使用する言語です。インストール先のシステムで使用する言語は %s "
 "ページで設定します。"
 
-#. TRANSLATORS: page section
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section
 #: src/components/l10n/InstallerLocaleSwitcher.jsx:56
 #: src/components/l10n/L10nPage.jsx:384
 #: src/components/overview/L10nSection.jsx:52
@@ -672,8 +672,8 @@ msgstr "WiFi 接続が見つかりませんでした。"
 msgid "Connect to a Wi-Fi network"
 msgstr "Wi-Fi ネットワークへの接続"
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section title
+#. TRANSLATORS: page title
 #: src/components/network/NetworkPage.jsx:169
 #: src/components/overview/NetworkSection.jsx:83
 msgid "Network"
@@ -866,8 +866,8 @@ msgstr "デバイス %s を利用してインストールします"
 msgid "Probing storage devices"
 msgstr "ストレージデバイスを検出しています"
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section title
+#. TRANSLATORS: page title
 #: src/components/overview/StorageSection.jsx:208
 #: src/components/storage/ProposalPage.jsx:239
 msgid "Storage"
@@ -1342,7 +1342,9 @@ msgstr "トランザクション型システム"
 msgid ""
 "%s is an immutable system with atomic updates using a read-only Btrfs root "
 "file system."
-msgstr "%s は、読み込み専用の btrfs ルートファイルシステムを利用して一括更新のできる不可変なシステムです。"
+msgstr ""
+"%s は、読み込み専用の btrfs ルートファイルシステムを利用して一括更新のできる"
+"不可変なシステムです。"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:50
 msgid "Delete current content"
