@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-07 01:53+0000\n"
-"PO-Revision-Date: 2024-03-07 12:42+0000\n"
+"PO-Revision-Date: 2024-03-07 20:42+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ca/>\n"
@@ -1353,39 +1353,44 @@ msgid ""
 "%s is an immutable system with atomic updates using a read-only Btrfs root "
 "file system."
 msgstr ""
+"%s és un sistema immutable amb actualitzacions atòmiques que usa un sistema "
+"de fitxers d'arrel Btrfs només de lectura."
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:50
 msgid "Delete current content"
-msgstr ""
+msgstr "Suprimeix el contingut actual"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:51
 msgid "All partitions will be removed and any data in the disks will be lost."
-msgstr ""
+msgstr "Totes les particions se suprimiran i es perdran les dades dels discs."
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:55
 msgid "Shrink existing partitions"
-msgstr ""
+msgstr "Redueix les particions existents"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:56
 msgid "The data is kept, but the current partitions will be resized as needed."
 msgstr ""
+"Les dades es conserven, però les particions actuals es canviaran de mida "
+"segons calgui."
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:60
 msgid "Use available space"
-msgstr ""
+msgstr "Usa l'espai disponible"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:61
 msgid ""
 "The data is kept. Only the space not assigned to any partition will be used."
 msgstr ""
+"Es conserven les dades. Només s'usarà l'espai no assignat a cap partició."
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:65
 msgid "Custom"
-msgstr ""
+msgstr "Personalitzat"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:66
 msgid "Select what to do with each partition."
-msgstr ""
+msgstr "Seleccioneu què voleu fer amb cada partició."
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:72
 msgid "Used device"
