@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-07 01:53+0000\n"
-"PO-Revision-Date: 2024-03-06 20:42+0000\n"
+"PO-Revision-Date: 2024-03-07 12:42+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ca/>\n"
@@ -172,7 +172,7 @@ msgstr "Instal·la"
 
 #: src/components/core/InstallationFinished.jsx:41
 msgid "TPM sealing requires the new system to be booted directly."
-msgstr "El segellat TPM requereix que el sistema nou s'iniciï directament."
+msgstr "El segellament TPM requereix que el sistema nou s'iniciï directament."
 
 #: src/components/core/InstallationFinished.jsx:46
 msgid ""
@@ -1056,33 +1056,33 @@ msgstr "Esperant l'informe de progrés"
 
 #: src/components/storage/DASDFormatProgress.jsx:69
 msgid "Formatting DASD devices"
-msgstr ""
+msgstr "Formatatge de dispositius DASD"
 
 #. TRANSLATORS: DASD = Direct Access Storage Device, IBM mainframe storage technology
 #: src/components/storage/DASDPage.jsx:181
 msgid "Storage DASD"
-msgstr ""
+msgstr "Emmagatzematge DASD"
 
 #: src/components/storage/DASDTable.jsx:57
 #: src/components/storage/ZFCPPage.jsx:318
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:71
 #: src/components/storage/iscsi/NodesPresenter.jsx:103
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: src/components/storage/DASDTable.jsx:57
 #: src/components/storage/ZFCPPage.jsx:318
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:71
 #: src/components/storage/iscsi/NodesPresenter.jsx:103
 msgid "Yes"
-msgstr ""
+msgstr "Sí"
 
 #: src/components/storage/DASDTable.jsx:64
 #: src/components/storage/ZFCPDiskForm.jsx:118
 #: src/components/storage/ZFCPPage.jsx:301
 #: src/components/storage/ZFCPPage.jsx:361
 msgid "Channel ID"
-msgstr ""
+msgstr "Identificador del canal"
 
 #. TRANSLATORS: table header
 #: src/components/storage/DASDTable.jsx:65
@@ -1091,165 +1091,169 @@ msgstr ""
 #: src/components/storage/iscsi/NodesPresenter.jsx:125
 #: src/components/users/RootAuthMethods.jsx:157
 msgid "Status"
-msgstr ""
+msgstr "Estat"
 
 #. TRANSLATORS: The storage "Device" section's title
 #: src/components/storage/DASDTable.jsx:66
 #: src/components/storage/ProposalDeviceSection.jsx:423
 msgid "Device"
-msgstr ""
+msgstr "Dispositiu"
 
 #: src/components/storage/DASDTable.jsx:67
 msgid "Type"
-msgstr ""
+msgstr "Tipus"
 
 #: src/components/storage/DASDTable.jsx:68
 msgid "Diag"
-msgstr ""
+msgstr "Diag."
 
 #: src/components/storage/DASDTable.jsx:69
 msgid "Formatted"
-msgstr ""
+msgstr "Formatat"
 
 #: src/components/storage/DASDTable.jsx:70
 msgid "Partition Info"
-msgstr ""
+msgstr "Informació de la partició"
 
 #. TRANSLATORS: drop down menu label
 #: src/components/storage/DASDTable.jsx:105
 msgid "Perform an action"
-msgstr ""
+msgstr "Fes una acció"
 
 #. TRANSLATORS: drop down menu action, activate the device
 #: src/components/storage/DASDTable.jsx:111
 #: src/components/storage/ZFCPPage.jsx:332
 msgid "Activate"
-msgstr ""
+msgstr "Activa"
 
 #. TRANSLATORS: drop down menu action, deactivate the device
 #: src/components/storage/DASDTable.jsx:113
 #: src/components/storage/ZFCPPage.jsx:374
 msgid "Deactivate"
-msgstr ""
+msgstr "Desactiva"
 
 #. TRANSLATORS: drop down menu action, enable DIAG access method
 #: src/components/storage/DASDTable.jsx:116
 msgid "Set DIAG On"
-msgstr ""
+msgstr "Activa la diagnosi"
 
 #. TRANSLATORS: drop down menu action, disable DIAG access method
 #: src/components/storage/DASDTable.jsx:118
 msgid "Set DIAG Off"
-msgstr ""
+msgstr "Desactiva la diagnosi"
 
 #. TRANSLATORS: drop down menu action, format the disk
 #: src/components/storage/DASDTable.jsx:121
 msgid "Format"
-msgstr ""
+msgstr "Formata"
 
 #: src/components/storage/DASDTable.jsx:198
 #: src/components/storage/DASDTable.jsx:199
 msgid "Filter by min channel"
-msgstr ""
+msgstr "Filtra per canal mínim"
 
 #: src/components/storage/DASDTable.jsx:206
 msgid "Remove min channel filter"
-msgstr ""
+msgstr "Suprimeix el filtre del canal mínim"
 
 #: src/components/storage/DASDTable.jsx:219
 #: src/components/storage/DASDTable.jsx:220
 msgid "Filter by max channel"
-msgstr ""
+msgstr "Filtra per canal màxim"
 
 #: src/components/storage/DASDTable.jsx:227
 msgid "Remove max channel filter"
-msgstr ""
+msgstr "Suprimeix el filtre de canal màxim"
 
 #. TRANSLATORS: page title for iSCSI configuration
 #: src/components/storage/ISCSIPage.jsx:31
 msgid "Storage iSCSI"
-msgstr ""
+msgstr "Emmagatzematge iSCSI"
 
 #. TRANSLATORS: show/hide toggle action, this is a clickable link
 #: src/components/storage/ProposalActionsSection.jsx:70
 #, c-format
 msgid "Hide %d subvolume action"
 msgid_plural "Hide %d subvolume actions"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Amaga %d acció de subvolum"
+msgstr[1] "Amaga %d accions de subvolum"
 
 #. TRANSLATORS: show/hide toggle action, this is a clickable link
 #: src/components/storage/ProposalActionsSection.jsx:72
 #, c-format
 msgid "Show %d subvolume action"
 msgid_plural "Show %d subvolume actions"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Mostra %d acció de subvolum"
+msgstr[1] "Mostra %d accions de subvolum"
 
 #. TRANSLATORS: The storage "Planned Actions" section's title. The
 #. section shows a list of planned actions for the selected device, e.g.
 #. "delete partition A", "create partition B with filesystem C", ...
 #: src/components/storage/ProposalActionsSection.jsx:124
 msgid "Planned Actions"
-msgstr ""
+msgstr "Accions planificades"
 
 #. TRANSLATORS: The storage "Planned Actions" section's description
 #: src/components/storage/ProposalActionsSection.jsx:126
 msgid "Actions to create the file systems and to ensure the new system boots."
 msgstr ""
+"Accions per crear els sistemes de fitxers i per garantir l'arrencada del "
+"sistema nou."
 
 #: src/components/storage/ProposalDeviceSection.jsx:135
 msgid "Waiting for information about selected device"
-msgstr ""
+msgstr "Esperant informació sobre el dispositiu seleccionat"
 
 #: src/components/storage/ProposalDeviceSection.jsx:138
 msgid "Select the device for installing the system."
-msgstr ""
+msgstr "Seleccioneu el dispositiu on instal·lar el sistema."
 
 #: src/components/storage/ProposalDeviceSection.jsx:143
 #: src/components/storage/ProposalDeviceSection.jsx:147
 #: src/components/storage/ProposalDeviceSection.jsx:245
 msgid "Installation device"
-msgstr ""
+msgstr "Dispositiu d'instal·lació"
 
 #: src/components/storage/ProposalDeviceSection.jsx:153
 msgid "No devices found."
-msgstr ""
+msgstr "No s'ha trobat cap dispositiu."
 
 #: src/components/storage/ProposalDeviceSection.jsx:242
 msgid "Devices for creating the volume group"
-msgstr ""
+msgstr "Dispositius per crear el grup de volums"
 
 #: src/components/storage/ProposalDeviceSection.jsx:251
 msgid "Custom devices"
-msgstr ""
+msgstr "Dispositius personalitzats"
 
 #: src/components/storage/ProposalDeviceSection.jsx:315
 msgid ""
 "Configuration of the system volume group. All the file systems will be "
 "created in a logical volume of the system volume group."
 msgstr ""
+"Configuració del grup de volums del sistema. Tots els sistemes de fitxers es "
+"crearan en un volum lògic del grup de volums del sistema."
 
 #: src/components/storage/ProposalDeviceSection.jsx:321
 msgid "Configure the LVM settings"
-msgstr ""
+msgstr "Configuració dels paràmetres d'LVM"
 
 #: src/components/storage/ProposalDeviceSection.jsx:326
 #: src/components/storage/ProposalDeviceSection.jsx:346
 msgid "LVM settings"
-msgstr ""
+msgstr "Paràmetres d'LVM"
 
 #: src/components/storage/ProposalDeviceSection.jsx:333
 msgid "Waiting for information about LVM"
-msgstr ""
+msgstr "Esperant informació sobre LVM"
 
 #: src/components/storage/ProposalDeviceSection.jsx:339
 msgid "Use logical volume management (LVM)"
-msgstr ""
+msgstr "Usa la gestió de volums lògics (LVM)"
 
 #: src/components/storage/ProposalDeviceSection.jsx:347
 msgid "System Volume Group"
-msgstr ""
+msgstr "Grup de volums del sistema"
 
 #. TRANSLATORS: The storage "Device" sections's description. Do not
 #. translate 'abbr' and 'title', they are part of the HTML markup.
@@ -1258,30 +1262,32 @@ msgid ""
 "Select the main disk or <abbr title='Logical Volume Manager'>LVM</abbr> "
 "Volume Group for installation."
 msgstr ""
+"Seleccioneu el disc principal o el grup de volums <abbr title='Logical "
+"Volume Manager'>LVM</abbr> per a la instal·lació."
 
 #: src/components/storage/ProposalFileSystemsSection.jsx:70
 msgid "File systems"
-msgstr ""
+msgstr "Sistemes de fitxers"
 
 #: src/components/storage/ProposalPageMenu.jsx:40
 msgid "Manage and format"
-msgstr ""
+msgstr "Gestió i formatatge"
 
 #: src/components/storage/ProposalPageMenu.jsx:58
 msgid "Activate disks"
-msgstr ""
+msgstr "Activa els discs"
 
 #: src/components/storage/ProposalPageMenu.jsx:60
 msgid "zFCP"
-msgstr ""
+msgstr "zFCP"
 
 #: src/components/storage/ProposalPageMenu.jsx:76
 msgid "Connect to iSCSI targets"
-msgstr ""
+msgstr "Connecta amb objectius iSCSI"
 
 #: src/components/storage/ProposalPageMenu.jsx:78
 msgid "iSCSI"
-msgstr ""
+msgstr "iSCSI"
 
 #. TRANSLATORS: The word 'directly' is key here. For example, booting to the installer media and then choosing
 #. 'Boot from Hard Disk' from there will not work. Keep it sort (this is a hint in a form) but keep it clear.
@@ -1293,45 +1299,52 @@ msgid ""
 "system. TPM sealing requires the new system to be booted directly on its "
 "first run."
 msgstr ""
+"La contrasenya no serà necessària per arrencar i accedir a les dades si el "
+"<abbr title='Trusted Platform Module'>TPM</abbr> pot verificar la integritat "
+"del sistema. El segellament de TPM requereix que el sistema nou s'iniciï "
+"directament a la primera execució."
 
 #: src/components/storage/ProposalSettingsSection.jsx:107
 msgid "Use the TPM to decrypt automatically on each boot"
-msgstr ""
+msgstr "Usa el TPM per a la desencriptació automàtica a cada arrencada"
 
 #: src/components/storage/ProposalSettingsSection.jsx:152
 msgid ""
 "Uses Btrfs for the root file system allowing to boot to a previous version "
 "of the system after configuration changes or software upgrades."
 msgstr ""
+"Usa Btrfs per al sistema de fitxers d'arrel, que permet arrencar amb una "
+"versió anterior del sistema després de canvis de configuració o "
+"actualitzacions de programari."
 
 #: src/components/storage/ProposalSettingsSection.jsx:159
 msgid "Use Btrfs Snapshots"
-msgstr ""
+msgstr "Usa instantànies de Btrfs"
 
 #: src/components/storage/ProposalSettingsSection.jsx:173
 msgid "Btrfs snapshots required by product."
-msgstr ""
+msgstr "Les instantànies de Btrfs són requerides pel producte."
 
 #: src/components/storage/ProposalSettingsSection.jsx:239
 msgid "Change encryption settings"
-msgstr ""
+msgstr "Canvia la configuració de l'encriptació"
 
 #: src/components/storage/ProposalSettingsSection.jsx:244
 #: src/components/storage/ProposalSettingsSection.jsx:265
 msgid "Encryption settings"
-msgstr ""
+msgstr "Configuració de l'encriptació"
 
 #: src/components/storage/ProposalSettingsSection.jsx:258
 msgid "Use encryption"
-msgstr ""
+msgstr "Usa encriptació"
 
 #: src/components/storage/ProposalSettingsSection.jsx:325
 msgid "Settings"
-msgstr ""
+msgstr "Configuració"
 
 #: src/components/storage/ProposalSettingsSection.jsx:330
 msgid "Transactional system"
-msgstr ""
+msgstr "Sistema transaccional"
 
 #. TRANSLATORS: %s is replaced by a product name (e.g., openSUSE Tumbleweed)
 #: src/components/storage/ProposalSettingsSection.jsx:333
