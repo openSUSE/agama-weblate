@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-07 01:53+0000\n"
-"PO-Revision-Date: 2024-03-05 03:42+0000\n"
+"PO-Revision-Date: 2024-03-09 22:42+0000\n"
 "Last-Translator: faila fail <yassadmi@proton.me>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/agama/agama-web/fr/"
 ">\n"
@@ -706,7 +706,7 @@ msgstr "Aucun"
 #. TRANSLATORS: WiFi authentication mode
 #: src/components/network/WifiConnectionForm.jsx:45
 msgid "WPA & WPA2 Personal"
-msgstr "WPA & WPA2 Personal"
+msgstr "WPA & WPA2 Personnel"
 
 #: src/components/network/WifiConnectionForm.jsx:91
 #: src/components/product/ProductPage.jsx:128
@@ -800,8 +800,8 @@ msgstr "Aucune connexion réseau détectée"
 #, c-format
 msgid "%d connection set:"
 msgid_plural "%d connections set:"
-msgstr[0] "Connexion %d établie:"
-msgstr[1] "Connexions %d établies:"
+msgstr[0] "%d Connexion établie:"
+msgstr[1] "%d Connexions établies:"
 
 #. TRANSLATORS: page title
 #: src/components/overview/OverviewPage.jsx:48
