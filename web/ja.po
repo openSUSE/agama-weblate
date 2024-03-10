@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-10 02:10+0000\n"
-"PO-Revision-Date: 2024-03-04 01:11+0000\n"
+"PO-Revision-Date: 2024-03-11 00:42+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -1473,18 +1473,15 @@ msgstr ""
 "あるかもしれません。ここではその方法を選択します。"
 
 #: src/components/storage/ProposalTransactionalInfo.jsx:46
-#, fuzzy
 msgid "Transactional root file system"
-msgstr "トランザクション型システム"
+msgstr "トランザクション型のルートファイルシステム"
 
 #: src/components/storage/ProposalTransactionalInfo.jsx:49
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s is an immutable system with atomic updates. It uses a read-only Btrfs "
 "file system updated via snapshots."
-msgstr ""
-"%s は、読み込み専用の btrfs ルートファイルシステムを利用して一括更新のできる"
-"不可変なシステムです。"
+msgstr "%s は一括更新のできる不可変なシステムです。読み込み専用の btrfs ルートファイルシステムを利用して更新を適用します。"
 
 #. TRANSLATORS: header for a list of items
 #: src/components/storage/ProposalVolumes.jsx:59
