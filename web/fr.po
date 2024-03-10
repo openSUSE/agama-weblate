@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-07 01:53+0000\n"
+"POT-Creation-Date: 2024-03-10 02:10+0000\n"
 "PO-Revision-Date: 2024-03-09 22:42+0000\n"
 "Last-Translator: faila fail <yassadmi@proton.me>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/agama/agama-web/fr/"
@@ -157,7 +157,7 @@ msgstr ""
 #: src/components/product/ProductPage.jsx:207
 #: src/components/storage/ProposalDeviceSection.jsx:169
 #: src/components/storage/ProposalDeviceSection.jsx:364
-#: src/components/storage/ProposalSettingsSection.jsx:275
+#: src/components/storage/ProposalSettingsSection.jsx:263
 #: src/components/storage/ProposalVolumes.jsx:148
 #: src/components/storage/ProposalVolumes.jsx:283
 #: src/components/storage/ZFCPPage.jsx:511
@@ -882,7 +882,7 @@ msgstr "Sonde les périphériques de stockage"
 #. TRANSLATORS: page section title
 #. TRANSLATORS: page title
 #: src/components/overview/StorageSection.jsx:208
-#: src/components/storage/ProposalPage.jsx:239
+#: src/components/storage/ProposalPage.jsx:243
 msgid "Storage"
 msgstr "Stockage"
 
@@ -1301,7 +1301,7 @@ msgstr "iSCSI"
 #. TRANSLATORS: The word 'directly' is key here. For example, booting to the installer media and then choosing
 #. 'Boot from Hard Disk' from there will not work. Keep it sort (this is a hint in a form) but keep it clear.
 #. Do not translate 'abbr' and 'title', they are part of the HTML markup.
-#: src/components/storage/ProposalSettingsSection.jsx:89
+#: src/components/storage/ProposalSettingsSection.jsx:87
 msgid ""
 "The password will not be needed to boot and access the data if the <abbr "
 "title='Trusted Platform Module'>TPM</abbr> can verify the integrity of the "
@@ -1313,11 +1313,11 @@ msgstr ""
 "l'intégrité du système. Le scellement par TPM exige que le nouveau système "
 "soit démarré directement lors de sa première exécution."
 
-#: src/components/storage/ProposalSettingsSection.jsx:107
+#: src/components/storage/ProposalSettingsSection.jsx:105
 msgid "Use the TPM to decrypt automatically on each boot"
 msgstr "Utiliser le TPM pour décrypter automatiquement à chaque démarrage"
 
-#: src/components/storage/ProposalSettingsSection.jsx:152
+#: src/components/storage/ProposalSettingsSection.jsx:148
 msgid ""
 "Uses Btrfs for the root file system allowing to boot to a previous version "
 "of the system after configuration changes or software upgrades."
@@ -1326,44 +1326,26 @@ msgstr ""
 "sur une version précédente du système après des changements de configuration "
 "ou des mises à jour logicielles."
 
-#: src/components/storage/ProposalSettingsSection.jsx:159
+#: src/components/storage/ProposalSettingsSection.jsx:155
 msgid "Use Btrfs Snapshots"
 msgstr "Utilise les clichés Btrfs"
 
-#: src/components/storage/ProposalSettingsSection.jsx:173
-msgid "Btrfs snapshots required by product."
-msgstr "Clichés Btrfs requis par le produit."
-
-#: src/components/storage/ProposalSettingsSection.jsx:239
+#: src/components/storage/ProposalSettingsSection.jsx:227
 msgid "Change encryption settings"
 msgstr "Modifier les paramètres de chiffrement"
 
-#: src/components/storage/ProposalSettingsSection.jsx:244
-#: src/components/storage/ProposalSettingsSection.jsx:265
+#: src/components/storage/ProposalSettingsSection.jsx:232
+#: src/components/storage/ProposalSettingsSection.jsx:253
 msgid "Encryption settings"
 msgstr "Paramètres de chiffrement"
 
-#: src/components/storage/ProposalSettingsSection.jsx:258
+#: src/components/storage/ProposalSettingsSection.jsx:246
 msgid "Use encryption"
 msgstr "Utiliser le chiffrement"
 
-#: src/components/storage/ProposalSettingsSection.jsx:325
+#: src/components/storage/ProposalSettingsSection.jsx:309
 msgid "Settings"
 msgstr "Paramètres"
-
-#: src/components/storage/ProposalSettingsSection.jsx:330
-msgid "Transactional system"
-msgstr "Système transactionnel"
-
-#. TRANSLATORS: %s is replaced by a product name (e.g., openSUSE Tumbleweed)
-#: src/components/storage/ProposalSettingsSection.jsx:333
-#, c-format
-msgid ""
-"%s is an immutable system with atomic updates using a read-only Btrfs root "
-"file system."
-msgstr ""
-"%s est un système immuable avec des mises à jour atomiques utilisant un "
-"système de fichiers racine Btrfs en lecture seule."
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:50
 msgid "Delete current content"
@@ -1508,6 +1490,20 @@ msgid ""
 msgstr ""
 "Allouer les systèmes de fichiers peut nécessiter de trouver de l'espace "
 "libre dans les périphériques listés ci-dessous. Choisissez comment procéder."
+
+#: src/components/storage/ProposalTransactionalInfo.jsx:46
+#, fuzzy
+msgid "Transactional root file system"
+msgstr "Système transactionnel"
+
+#: src/components/storage/ProposalTransactionalInfo.jsx:49
+#, fuzzy, c-format
+msgid ""
+"%s is an immutable system with atomic updates. It uses a read-only Btrfs "
+"file system updated via snapshots."
+msgstr ""
+"%s est un système immuable avec des mises à jour atomiques utilisant un "
+"système de fichiers racine Btrfs en lecture seule."
 
 #. TRANSLATORS: header for a list of items
 #: src/components/storage/ProposalVolumes.jsx:59
@@ -2235,6 +2231,9 @@ msgstr "Utilisateur"
 #: src/components/users/UsersPage.jsx:34
 msgid "Root authentication"
 msgstr "Authentification root"
+
+#~ msgid "Btrfs snapshots required by product."
+#~ msgstr "Clichés Btrfs requis par le produit."
 
 #~ msgid ""
 #~ "Allows rolling back any change done to the system and restoring its "

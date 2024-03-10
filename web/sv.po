@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-07 01:53+0000\n"
+"POT-Creation-Date: 2024-03-10 02:10+0000\n"
 "PO-Revision-Date: 2024-03-03 10:42+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -155,7 +155,7 @@ msgstr ""
 #: src/components/product/ProductPage.jsx:207
 #: src/components/storage/ProposalDeviceSection.jsx:169
 #: src/components/storage/ProposalDeviceSection.jsx:364
-#: src/components/storage/ProposalSettingsSection.jsx:275
+#: src/components/storage/ProposalSettingsSection.jsx:263
 #: src/components/storage/ProposalVolumes.jsx:148
 #: src/components/storage/ProposalVolumes.jsx:283
 #: src/components/storage/ZFCPPage.jsx:511
@@ -869,7 +869,7 @@ msgstr "Undersöker lagringsenheter"
 #. TRANSLATORS: page section title
 #. TRANSLATORS: page title
 #: src/components/overview/StorageSection.jsx:208
-#: src/components/storage/ProposalPage.jsx:239
+#: src/components/storage/ProposalPage.jsx:243
 msgid "Storage"
 msgstr "Lagring"
 
@@ -1286,7 +1286,7 @@ msgstr "iSCSI"
 #. TRANSLATORS: The word 'directly' is key here. For example, booting to the installer media and then choosing
 #. 'Boot from Hard Disk' from there will not work. Keep it sort (this is a hint in a form) but keep it clear.
 #. Do not translate 'abbr' and 'title', they are part of the HTML markup.
-#: src/components/storage/ProposalSettingsSection.jsx:89
+#: src/components/storage/ProposalSettingsSection.jsx:87
 msgid ""
 "The password will not be needed to boot and access the data if the <abbr "
 "title='Trusted Platform Module'>TPM</abbr> can verify the integrity of the "
@@ -1298,11 +1298,11 @@ msgstr ""
 "integritet. TPM-försegling kräver att det nya systemet startas upp direkt "
 "vid första körningen."
 
-#: src/components/storage/ProposalSettingsSection.jsx:107
+#: src/components/storage/ProposalSettingsSection.jsx:105
 msgid "Use the TPM to decrypt automatically on each boot"
 msgstr "Använd TPM för att dekryptera automatiskt vid varje uppstart"
 
-#: src/components/storage/ProposalSettingsSection.jsx:152
+#: src/components/storage/ProposalSettingsSection.jsx:148
 msgid ""
 "Uses Btrfs for the root file system allowing to boot to a previous version "
 "of the system after configuration changes or software upgrades."
@@ -1311,44 +1311,26 @@ msgstr ""
 "tidigare version av systemet före konfigurationsändringar eller "
 "programvaruuppgraderingar."
 
-#: src/components/storage/ProposalSettingsSection.jsx:159
+#: src/components/storage/ProposalSettingsSection.jsx:155
 msgid "Use Btrfs Snapshots"
 msgstr "Använd Btrfs ögonblicksavbilder"
 
-#: src/components/storage/ProposalSettingsSection.jsx:173
-msgid "Btrfs snapshots required by product."
-msgstr "Btrfs ögonblicksavbilder krävs för produkt."
-
-#: src/components/storage/ProposalSettingsSection.jsx:239
+#: src/components/storage/ProposalSettingsSection.jsx:227
 msgid "Change encryption settings"
 msgstr "Ändra krypteringsinställningar"
 
-#: src/components/storage/ProposalSettingsSection.jsx:244
-#: src/components/storage/ProposalSettingsSection.jsx:265
+#: src/components/storage/ProposalSettingsSection.jsx:232
+#: src/components/storage/ProposalSettingsSection.jsx:253
 msgid "Encryption settings"
 msgstr "Krypteringsinställningar"
 
-#: src/components/storage/ProposalSettingsSection.jsx:258
+#: src/components/storage/ProposalSettingsSection.jsx:246
 msgid "Use encryption"
 msgstr "Använd kryptering"
 
-#: src/components/storage/ProposalSettingsSection.jsx:325
+#: src/components/storage/ProposalSettingsSection.jsx:309
 msgid "Settings"
 msgstr "Inställningar"
-
-#: src/components/storage/ProposalSettingsSection.jsx:330
-msgid "Transactional system"
-msgstr "Transaktionellt system"
-
-#. TRANSLATORS: %s is replaced by a product name (e.g., openSUSE Tumbleweed)
-#: src/components/storage/ProposalSettingsSection.jsx:333
-#, c-format
-msgid ""
-"%s is an immutable system with atomic updates using a read-only Btrfs root "
-"file system."
-msgstr ""
-"%s är ett oföränderligt system med atomära uppdateringar som använder ett "
-"skrivskyddat Btrfs-rootfilsystem."
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:50
 msgid "Delete current content"
@@ -1493,6 +1475,20 @@ msgid ""
 msgstr ""
 "Att allokera filsystemen kan behöva hitta ledigt utrymme i enheterna som "
 "anges nedan. Välj hur du vill göra det."
+
+#: src/components/storage/ProposalTransactionalInfo.jsx:46
+#, fuzzy
+msgid "Transactional root file system"
+msgstr "Transaktionellt system"
+
+#: src/components/storage/ProposalTransactionalInfo.jsx:49
+#, fuzzy, c-format
+msgid ""
+"%s is an immutable system with atomic updates. It uses a read-only Btrfs "
+"file system updated via snapshots."
+msgstr ""
+"%s är ett oföränderligt system med atomära uppdateringar som använder ett "
+"skrivskyddat Btrfs-rootfilsystem."
 
 #. TRANSLATORS: header for a list of items
 #: src/components/storage/ProposalVolumes.jsx:59
@@ -2216,6 +2212,9 @@ msgstr "Användare"
 #: src/components/users/UsersPage.jsx:34
 msgid "Root authentication"
 msgstr "Rootautentisering"
+
+#~ msgid "Btrfs snapshots required by product."
+#~ msgstr "Btrfs ögonblicksavbilder krävs för produkt."
 
 #~ msgid ""
 #~ "Allows rolling back any change done to the system and restoring its "

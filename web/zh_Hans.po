@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-07 01:53+0000\n"
+"POT-Creation-Date: 2024-03-10 02:10+0000\n"
 "PO-Revision-Date: 2024-03-04 15:43+0000\n"
 "Last-Translator: Monstorix <monstorix@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.opensuse.org/projects/"
@@ -146,7 +146,7 @@ msgstr "尝试开始安装时发现问题。请查看已报告的错误后重试
 #: src/components/product/ProductPage.jsx:207
 #: src/components/storage/ProposalDeviceSection.jsx:169
 #: src/components/storage/ProposalDeviceSection.jsx:364
-#: src/components/storage/ProposalSettingsSection.jsx:275
+#: src/components/storage/ProposalSettingsSection.jsx:263
 #: src/components/storage/ProposalVolumes.jsx:148
 #: src/components/storage/ProposalVolumes.jsx:283
 #: src/components/storage/ZFCPPage.jsx:511
@@ -845,7 +845,7 @@ msgstr "正在探测存储设备"
 #. TRANSLATORS: page section title
 #. TRANSLATORS: page title
 #: src/components/overview/StorageSection.jsx:208
-#: src/components/storage/ProposalPage.jsx:239
+#: src/components/storage/ProposalPage.jsx:243
 msgid "Storage"
 msgstr "存储"
 
@@ -1254,7 +1254,7 @@ msgstr "iSCSI"
 #. TRANSLATORS: The word 'directly' is key here. For example, booting to the installer media and then choosing
 #. 'Boot from Hard Disk' from there will not work. Keep it sort (this is a hint in a form) but keep it clear.
 #. Do not translate 'abbr' and 'title', they are part of the HTML markup.
-#: src/components/storage/ProposalSettingsSection.jsx:89
+#: src/components/storage/ProposalSettingsSection.jsx:87
 msgid ""
 "The password will not be needed to boot and access the data if the <abbr "
 "title='Trusted Platform Module'>TPM</abbr> can verify the integrity of the "
@@ -1264,11 +1264,11 @@ msgstr ""
 "若 <abbr title='Trusted Platform Module'>TPM</abbr> 可以验证系统的完整性，启"
 "动和访问数据的时候将无需密码。 TPM 密封要求新系统在首次运行时直接引导。"
 
-#: src/components/storage/ProposalSettingsSection.jsx:107
+#: src/components/storage/ProposalSettingsSection.jsx:105
 msgid "Use the TPM to decrypt automatically on each boot"
 msgstr "使用 TPM 在每次启动时自动解密"
 
-#: src/components/storage/ProposalSettingsSection.jsx:152
+#: src/components/storage/ProposalSettingsSection.jsx:148
 msgid ""
 "Uses Btrfs for the root file system allowing to boot to a previous version "
 "of the system after configuration changes or software upgrades."
@@ -1276,42 +1276,26 @@ msgstr ""
 "使用 Btrfs 作为根文件系统，可以允许配置被改变或软件更新后回退启动到先前版本的"
 "系统。"
 
-#: src/components/storage/ProposalSettingsSection.jsx:159
+#: src/components/storage/ProposalSettingsSection.jsx:155
 msgid "Use Btrfs Snapshots"
 msgstr "使用 Btrfs 快照"
 
-#: src/components/storage/ProposalSettingsSection.jsx:173
-msgid "Btrfs snapshots required by product."
-msgstr "该产品要求启用 Btrfs 快照。"
-
-#: src/components/storage/ProposalSettingsSection.jsx:239
+#: src/components/storage/ProposalSettingsSection.jsx:227
 msgid "Change encryption settings"
 msgstr "更改加密设置"
 
-#: src/components/storage/ProposalSettingsSection.jsx:244
-#: src/components/storage/ProposalSettingsSection.jsx:265
+#: src/components/storage/ProposalSettingsSection.jsx:232
+#: src/components/storage/ProposalSettingsSection.jsx:253
 msgid "Encryption settings"
 msgstr "加密设置"
 
-#: src/components/storage/ProposalSettingsSection.jsx:258
+#: src/components/storage/ProposalSettingsSection.jsx:246
 msgid "Use encryption"
 msgstr "使用加密"
 
-#: src/components/storage/ProposalSettingsSection.jsx:325
+#: src/components/storage/ProposalSettingsSection.jsx:309
 msgid "Settings"
 msgstr "设置"
-
-#: src/components/storage/ProposalSettingsSection.jsx:330
-msgid "Transactional system"
-msgstr "事务性系统"
-
-#. TRANSLATORS: %s is replaced by a product name (e.g., openSUSE Tumbleweed)
-#: src/components/storage/ProposalSettingsSection.jsx:333
-#, c-format
-msgid ""
-"%s is an immutable system with atomic updates using a read-only Btrfs root "
-"file system."
-msgstr "%s 是使用只读 Btrfs 根文件系统和原子更新的不可变系统。"
 
 #: src/components/storage/ProposalSpacePolicySection.jsx:50
 msgid "Delete current content"
@@ -1448,6 +1432,18 @@ msgid ""
 "Allocating the file systems might need to find free space in the devices "
 "listed below. Choose how to do it."
 msgstr "若要分配文件系统，或许需要在下列设备中找到可用空间。选择如何操作。"
+
+#: src/components/storage/ProposalTransactionalInfo.jsx:46
+#, fuzzy
+msgid "Transactional root file system"
+msgstr "事务性系统"
+
+#: src/components/storage/ProposalTransactionalInfo.jsx:49
+#, fuzzy, c-format
+msgid ""
+"%s is an immutable system with atomic updates. It uses a read-only Btrfs "
+"file system updated via snapshots."
+msgstr "%s 是使用只读 Btrfs 根文件系统和原子更新的不可变系统。"
 
 #. TRANSLATORS: header for a list of items
 #: src/components/storage/ProposalVolumes.jsx:59
@@ -2162,3 +2158,6 @@ msgstr "用户"
 #: src/components/users/UsersPage.jsx:34
 msgid "Root authentication"
 msgstr "Root 认证"
+
+#~ msgid "Btrfs snapshots required by product."
+#~ msgstr "该产品要求启用 Btrfs 快照。"
