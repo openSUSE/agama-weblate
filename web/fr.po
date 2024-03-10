@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-10 02:10+0000\n"
-"PO-Revision-Date: 2024-03-09 22:42+0000\n"
+"PO-Revision-Date: 2024-03-10 20:42+0000\n"
 "Last-Translator: faila fail <yassadmi@proton.me>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/agama/agama-web/fr/"
 ">\n"
@@ -1492,18 +1492,17 @@ msgstr ""
 "libre dans les périphériques listés ci-dessous. Choisissez comment procéder."
 
 #: src/components/storage/ProposalTransactionalInfo.jsx:46
-#, fuzzy
 msgid "Transactional root file system"
-msgstr "Système transactionnel"
+msgstr "Système de fichiers root transactionnel"
 
 #: src/components/storage/ProposalTransactionalInfo.jsx:49
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s is an immutable system with atomic updates. It uses a read-only Btrfs "
 "file system updated via snapshots."
 msgstr ""
-"%s est un système immuable avec des mises à jour atomiques utilisant un "
-"système de fichiers racine Btrfs en lecture seule."
+"%s est un système immuable avec des mises à jour atomiques. Il utilise un "
+"système de fichiers Btrfs en lecture seule mis à jour via des clichés."
 
 #. TRANSLATORS: header for a list of items
 #: src/components/storage/ProposalVolumes.jsx:59
