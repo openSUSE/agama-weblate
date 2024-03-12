@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-12 02:04+0000\n"
-"PO-Revision-Date: 2024-03-10 11:42+0000\n"
+"PO-Revision-Date: 2024-03-12 11:42+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ca/>\n"
@@ -1513,7 +1513,7 @@ msgstr "La presència d'altres volums (%s)"
 #. file system; eg. adjusting the size of the swap
 #: src/components/storage/ProposalVolumes.jsx:71
 msgid "The amount of RAM in the system"
-msgstr ""
+msgstr "La quantitat de RAM del sistema"
 
 #. TRANSLATORS: dropdown menu label
 #: src/components/storage/ProposalVolumes.jsx:133
@@ -1617,7 +1617,7 @@ msgstr ", "
 #. TRANSLATORS: item which affects the final computed partition size
 #: src/components/storage/VolumeForm.jsx:315
 msgid "the amount of RAM in the system"
-msgstr ""
+msgstr "la quantitat de RAM del sistema"
 
 #. TRANSLATORS: the %s is replaced by the items which affect the computed size
 #: src/components/storage/VolumeForm.jsx:318
