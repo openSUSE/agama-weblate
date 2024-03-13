@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-12 02:04+0000\n"
-"PO-Revision-Date: 2023-12-31 20:39+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Dutch <https://l10n.opensuse.org/projects/agama/agama-web/nl/"
-">\n"
+"PO-Revision-Date: 2024-03-13 09:42+0000\n"
+"Last-Translator: Natasha Ament <stacheldrahtje@gmail.com>\n"
+"Language-Team: Dutch <https://l10n.opensuse.org/projects/agama/agama-web/nl/>"
+"\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,18 +23,17 @@ msgstr ""
 #: src/DevServerWrapper.jsx:82
 #, c-format
 msgid "The server at %s is not reachable."
-msgstr ""
+msgstr "De server op %s is niet bereikbaar."
 
 #. TRANSLATORS: error message
 #: src/DevServerWrapper.jsx:88
-#, fuzzy
 msgid "Cannot connect to the Cockpit server"
-msgstr "Kan niet verbinden met D-Bus"
+msgstr "Kan niet verbinden met de Cockpit server"
 
 #. TRANSLATORS: button label
 #: src/DevServerWrapper.jsx:104
 msgid "Try Again"
-msgstr ""
+msgstr "Probeer opnieuw"
 
 #: src/components/core/About.jsx:43 src/components/core/About.jsx:48
 msgid "About Agama"
@@ -93,7 +92,7 @@ msgstr "Herladen"
 
 #: src/components/core/DevelopmentInfo.jsx:55
 msgid "Cockpit server"
-msgstr ""
+msgstr "Cockpit server"
 
 #: src/components/core/FileViewer.jsx:65
 msgid "Reading file..."
@@ -104,13 +103,12 @@ msgid "Cannot read the file"
 msgstr "Kan het bestand niet lezen"
 
 #: src/components/core/InstallButton.jsx:37
-#, fuzzy
 msgid ""
 "There are some reported issues. Please review them in the previous steps "
 "before proceeding with the installation."
 msgstr ""
-"Er zijn enkele geraporteerde issues. Check alstublieft [de lijst met issues] "
-"voor het doorgaan met de installatie."
+"Er zijn enkele geraporteerde issues. Check ze alstublieft in de voorgaande "
+"stappen voordat u doorgaat met de installatie."
 
 #: src/components/core/InstallButton.jsx:49
 msgid "Confirm Installation"
@@ -121,6 +119,8 @@ msgid ""
 "If you continue, partitions on your hard disk will be modified according to "
 "the provided installation settings."
 msgstr ""
+"Indien u doorgaat zullen de partities op de harde schijf worden gewijzigd op "
+"basis van de opgegeven installatie instellingen."
 
 #: src/components/core/InstallButton.jsx:59
 msgid "Please, cancel and check the settings if you are unsure."
@@ -147,6 +147,8 @@ msgid ""
 "Some problems were found when trying to start the installation. Please, have "
 "a look to the reported errors and try again."
 msgstr ""
+"Enkele problemen zijn geconstateerd tijdens het starten van de instalatie. "
+"Check alstublieft de gemelde fouten en probeer opnieuw."
 
 #. TRANSLATORS: button label
 #: src/components/core/InstallButton.jsx:89 src/components/l10n/L10nPage.jsx:75
@@ -170,22 +172,23 @@ msgstr "Installeren"
 
 #: src/components/core/InstallationFinished.jsx:41
 msgid "TPM sealing requires the new system to be booted directly."
-msgstr ""
+msgstr "TPM verzegeling vereist dat het nieuwe systeem direct wordt gestart."
 
 #: src/components/core/InstallationFinished.jsx:46
 msgid ""
 "If a local media was used to run this installer, remove it before the next "
 "boot."
 msgstr ""
+"Wanneer u gebruik maakt van lokale media om de installer te starten, "
+"verwijder deze voor de volgende herstart."
 
 #: src/components/core/InstallationFinished.jsx:50
-#, fuzzy
 msgid "Hide details"
-msgstr "Details"
+msgstr "Verberg details"
 
 #: src/components/core/InstallationFinished.jsx:50
 msgid "See more details"
-msgstr ""
+msgstr "Meer details"
 
 #. TRANSLATORS: Do not translate 'abbr' and 'title', they are part of the HTML markup
 #: src/components/core/InstallationFinished.jsx:55
@@ -195,6 +198,11 @@ msgid ""
 "first boot of the new system. For that to work, the machine needs to boot "
 "directly to the new boot loader."
 msgstr ""
+"De laatste stap om <abbr title='Trusted Platform Module'>TPM</abbr> te "
+"configureren zodat versleutelde apparaten automatisch worden geopend zal "
+"plaatsvinden bij de eerste opstart van het nieuwe systeem. Om dat te laten "
+"werken is het nodig om de machine direct te laten starten naar de nieuwe "
+"boot loader."
 
 #. TRANSLATORS: page title
 #: src/components/core/InstallationFinished.jsx:88
@@ -234,7 +242,7 @@ msgstr "Installeren"
 #: src/components/software/PatternSelector.jsx:215
 #: src/components/software/PatternSelector.jsx:216
 msgid "Search"
-msgstr ""
+msgstr "Zoeken"
 
 #: src/components/core/LogsButton.jsx:98
 msgid "Collecting logs..."
@@ -266,9 +274,8 @@ msgid "Show global options"
 msgstr "Toon algemene opties"
 
 #: src/components/core/Page.jsx:215
-#, fuzzy
 msgid "Page Actions"
-msgstr "Geplande acties"
+msgstr "Pagina acties"
 
 #: src/components/core/PasswordAndConfirmationInput.jsx:35
 msgid "Passwords do not match"
@@ -296,7 +303,7 @@ msgstr "Gebruikers wachtwoord bevestiging"
 
 #: src/components/core/PasswordInput.jsx:59
 msgid "Password visibility button"
-msgstr ""
+msgstr "Wachtwoord zichtbaarheidsknop"
 
 #: src/components/core/Popup.jsx:90
 msgid "Confirm"
@@ -330,14 +337,12 @@ msgstr "Open terminal"
 
 #. TRANSLATORS: sidebar header
 #: src/components/core/Sidebar.jsx:113 src/components/core/Sidebar.jsx:121
-#, fuzzy
 msgid "Installer Options"
-msgstr "Installeren"
+msgstr "Installatie opties"
 
 #: src/components/core/Sidebar.jsx:128
-#, fuzzy
 msgid "Hide installer options"
-msgstr "Installeren"
+msgstr "Verberg installer opties"
 
 #: src/components/core/Sidebar.jsx:136
 msgid "Diagnostic tools"
@@ -345,24 +350,20 @@ msgstr "Diagnostische hulpmiddelen"
 
 #. TRANSLATORS: Titles used for the popup displaying found section issues
 #: src/components/core/ValidationErrors.jsx:53
-#, fuzzy
 msgid "Software issues"
-msgstr "Software %s"
+msgstr "Software problemen"
 
 #: src/components/core/ValidationErrors.jsx:54
-#, fuzzy
 msgid "Product issues"
-msgstr "Product selectie"
+msgstr "Problemen van het product"
 
 #: src/components/core/ValidationErrors.jsx:55
-#, fuzzy
 msgid "Storage issues"
-msgstr "Toon issues"
+msgstr "Opslag problemen"
 
 #: src/components/core/ValidationErrors.jsx:57
-#, fuzzy
 msgid "Found Issues"
-msgstr "Toon issues"
+msgstr "Gevonden problemen"
 
 #. TRANSLATORS: %d is replaced with the number of errors found
 #: src/components/core/ValidationErrors.jsx:77
@@ -376,18 +377,18 @@ msgstr[1] "%d fouten gevonden"
 #: src/components/l10n/InstallerKeymapSwitcher.jsx:53
 #: src/components/l10n/L10nPage.jsx:357
 msgid "Keyboard"
-msgstr ""
+msgstr "Toetsenbord"
 
 #. TRANSLATORS: label for keyboard layout selection
 #: src/components/l10n/InstallerKeymapSwitcher.jsx:61
-#, fuzzy
 msgid "keyboard"
-msgstr "Selecteer"
+msgstr "toetsenbord"
 
 #. TRANSLATORS:
 #: src/components/l10n/InstallerKeymapSwitcher.jsx:70
 msgid "Keyboard layout cannot be changed in remote installation"
 msgstr ""
+"Toetsenbordindeling kan niet worden gewijzigd in een installatie op afstand"
 
 #. TRANSLATORS: help text for the language selector in the sidebar,
 #. %s will be replaced by the "Localization" page link
@@ -397,6 +398,8 @@ msgid ""
 "The language used by the installer. The language for the installed system "
 "can be set in the %s page."
 msgstr ""
+"De taal gebruikt door de installer. De taal voor het geïnstalleerde systeem "
+"kan worden ingesteld in de %s pagina."
 
 #. TRANSLATORS: page title
 #. TRANSLATORS: page section
@@ -408,9 +411,8 @@ msgstr "Lokalisatie"
 
 #: src/components/l10n/InstallerLocaleSwitcher.jsx:66
 #: src/components/l10n/L10nPage.jsx:246
-#, fuzzy
 msgid "Language"
-msgstr "taal"
+msgstr "Taal"
 
 #: src/components/l10n/InstallerLocaleSwitcher.jsx:74
 msgid "language"
