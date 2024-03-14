@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-12 02:04+0000\n"
+"POT-Creation-Date: 2024-03-14 02:05+0000\n"
 "PO-Revision-Date: 2024-03-13 13:42+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -397,8 +397,8 @@ msgstr ""
 "Språket som används av installationsprogrammet. Språket för det installerade "
 "systemet kan ställas in på sidan %s."
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section
+#. TRANSLATORS: page title
 #: src/components/l10n/InstallerLocaleSwitcher.jsx:56
 #: src/components/l10n/L10nPage.jsx:384
 #: src/components/overview/L10nSection.jsx:52
@@ -535,8 +535,8 @@ msgstr "Adresser"
 msgid "Addresses data list"
 msgstr "Adresser data lista"
 
-#. TRANSLATORS: input field for the iSCSI initiator name
 #. TRANSLATORS: table header
+#. TRANSLATORS: input field for the iSCSI initiator name
 #: src/components/network/ConnectionsTable.jsx:57
 #: src/components/network/ConnectionsTable.jsx:86
 #: src/components/storage/ZFCPPage.jsx:360
@@ -672,8 +672,8 @@ msgstr "Inga WiFi-anslutningar hittades."
 msgid "Connect to a Wi-Fi network"
 msgstr "Anslut till ett Wi-Fi nätverk"
 
-#. TRANSLATORS: page section title
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section title
 #: src/components/network/NetworkPage.jsx:169
 #: src/components/overview/NetworkSection.jsx:83
 msgid "Network"
@@ -757,8 +757,8 @@ msgstr "Ansluten"
 msgid "Disconnecting"
 msgstr "Kopplar från"
 
-#. TRANSLATORS: iSCSI connection status
 #. TRANSLATORS: Wifi network status
+#. TRANSLATORS: iSCSI connection status
 #: src/components/network/WifiNetworkListItem.jsx:50
 #: src/components/storage/iscsi/NodesPresenter.jsx:63
 msgid "Disconnected"
@@ -822,8 +822,8 @@ msgstr "Läser programvaruförråd"
 msgid "Refresh the repositories"
 msgstr "Uppdatera förråden"
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section
+#. TRANSLATORS: page title
 #: src/components/overview/SoftwareSection.jsx:143
 #: src/components/software/SoftwarePage.jsx:81
 msgid "Software"
@@ -866,8 +866,8 @@ msgstr "Installera på enhet %s"
 msgid "Probing storage devices"
 msgstr "Undersöker lagringsenheter"
 
-#. TRANSLATORS: page section title
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section title
 #: src/components/overview/StorageSection.jsx:208
 #: src/components/storage/ProposalPage.jsx:243
 msgid "Storage"
