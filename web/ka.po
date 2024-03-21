@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-20 02:05+0000\n"
+"POT-Creation-Date: 2024-03-21 02:06+0000\n"
 "PO-Revision-Date: 2024-02-17 05:42+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -145,7 +145,7 @@ msgstr ""
 #: src/components/product/ProductPage.jsx:207
 #: src/components/storage/ProposalDeviceSection.jsx:173
 #: src/components/storage/ProposalDeviceSection.jsx:372
-#: src/components/storage/ProposalSettingsSection.jsx:264
+#: src/components/storage/ProposalSettingsSection.jsx:262
 #: src/components/storage/ProposalSpacePolicyField.jsx:547
 #: src/components/storage/ProposalVolumes.jsx:152
 #: src/components/storage/ProposalVolumes.jsx:287
@@ -1328,31 +1328,31 @@ msgstr ""
 msgid "Use the TPM to decrypt automatically on each boot"
 msgstr ""
 
-#: src/components/storage/ProposalSettingsSection.jsx:149
+#: src/components/storage/ProposalSettingsSection.jsx:147
 msgid ""
 "Uses Btrfs for the root file system allowing to boot to a previous version "
 "of the system after configuration changes or software upgrades."
 msgstr ""
 
-#: src/components/storage/ProposalSettingsSection.jsx:156
+#: src/components/storage/ProposalSettingsSection.jsx:154
 #, fuzzy
 msgid "Use Btrfs Snapshots"
 msgstr "სწრაფი ასლებით"
 
-#: src/components/storage/ProposalSettingsSection.jsx:228
+#: src/components/storage/ProposalSettingsSection.jsx:226
 msgid "Change encryption settings"
 msgstr ""
 
-#: src/components/storage/ProposalSettingsSection.jsx:233
-#: src/components/storage/ProposalSettingsSection.jsx:254
+#: src/components/storage/ProposalSettingsSection.jsx:231
+#: src/components/storage/ProposalSettingsSection.jsx:252
 msgid "Encryption settings"
 msgstr "დაშიფვრის პარამეტრები"
 
-#: src/components/storage/ProposalSettingsSection.jsx:247
+#: src/components/storage/ProposalSettingsSection.jsx:245
 msgid "Use encryption"
 msgstr "დაშიფვრის გამოყენება"
 
-#: src/components/storage/ProposalSettingsSection.jsx:330
+#: src/components/storage/ProposalSettingsSection.jsx:328
 msgid "Settings"
 msgstr "მორგება"
 

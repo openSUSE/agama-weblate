@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-20 02:05+0000\n"
+"POT-Creation-Date: 2024-03-21 02:06+0000\n"
 "PO-Revision-Date: 2024-03-04 15:43+0000\n"
 "Last-Translator: Monstorix <monstorix@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.opensuse.org/projects/"
@@ -147,7 +147,7 @@ msgstr "尝试开始安装时发现问题。请查看已报告的错误后重试
 #: src/components/product/ProductPage.jsx:207
 #: src/components/storage/ProposalDeviceSection.jsx:173
 #: src/components/storage/ProposalDeviceSection.jsx:372
-#: src/components/storage/ProposalSettingsSection.jsx:264
+#: src/components/storage/ProposalSettingsSection.jsx:262
 #: src/components/storage/ProposalSpacePolicyField.jsx:547
 #: src/components/storage/ProposalVolumes.jsx:152
 #: src/components/storage/ProposalVolumes.jsx:287
@@ -1328,7 +1328,7 @@ msgstr ""
 msgid "Use the TPM to decrypt automatically on each boot"
 msgstr "使用 TPM 在每次启动时自动解密"
 
-#: src/components/storage/ProposalSettingsSection.jsx:149
+#: src/components/storage/ProposalSettingsSection.jsx:147
 msgid ""
 "Uses Btrfs for the root file system allowing to boot to a previous version "
 "of the system after configuration changes or software upgrades."
@@ -1336,24 +1336,24 @@ msgstr ""
 "使用 Btrfs 作为根文件系统，可以允许配置被改变或软件更新后回退启动到先前版本的"
 "系统。"
 
-#: src/components/storage/ProposalSettingsSection.jsx:156
+#: src/components/storage/ProposalSettingsSection.jsx:154
 msgid "Use Btrfs Snapshots"
 msgstr "使用 Btrfs 快照"
 
-#: src/components/storage/ProposalSettingsSection.jsx:228
+#: src/components/storage/ProposalSettingsSection.jsx:226
 msgid "Change encryption settings"
 msgstr "更改加密设置"
 
-#: src/components/storage/ProposalSettingsSection.jsx:233
-#: src/components/storage/ProposalSettingsSection.jsx:254
+#: src/components/storage/ProposalSettingsSection.jsx:231
+#: src/components/storage/ProposalSettingsSection.jsx:252
 msgid "Encryption settings"
 msgstr "加密设置"
 
-#: src/components/storage/ProposalSettingsSection.jsx:247
+#: src/components/storage/ProposalSettingsSection.jsx:245
 msgid "Use encryption"
 msgstr "使用加密"
 
-#: src/components/storage/ProposalSettingsSection.jsx:330
+#: src/components/storage/ProposalSettingsSection.jsx:328
 msgid "Settings"
 msgstr "设置"
 
