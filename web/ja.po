@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-21 02:06+0000\n"
-"PO-Revision-Date: 2024-03-12 11:42+0000\n"
+"PO-Revision-Date: 2024-03-26 02:42+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -1276,37 +1276,32 @@ msgstr "iSCSI"
 #, c-format
 msgid "There is %d destructive action planned"
 msgid_plural "There are %d destructive actions planned"
-msgstr[0] ""
+msgstr[0] "%d 個の破壊的な処理が提案されています"
 
 #: src/components/storage/ProposalResultSection.jsx:73
-#, fuzzy
 msgid "Affecting"
-msgstr "接続しています"
+msgstr "下記に影響があります:"
 
 #: src/components/storage/ProposalResultSection.jsx:95
-#, fuzzy
 msgid "Check all planned actions"
-msgstr "処理の計画"
+msgstr "全ての処理計画を確認する"
 
 #: src/components/storage/ProposalResultSection.jsx:130
-#, fuzzy
 msgid "New"
-msgstr "ネットワーク"
+msgstr "新規"
 
 #: src/components/storage/ProposalResultSection.jsx:135
-#, fuzzy
 msgid "Unused space"
-msgstr "領域の検出"
+msgstr "未使用の領域"
 
 #. TRANSLATORS: Label to indicate the device size before resizing, where %s is replaced by
 #. the original size (e.g., 3.00 GiB).
 #: src/components/storage/ProposalResultSection.jsx:172
-#, fuzzy, c-format
+#, c-format
 msgid "Before %s"
-msgstr "ソフトウエア %s"
+msgstr "変更前: %s"
 
 #: src/components/storage/ProposalResultSection.jsx:193
-#, fuzzy
 msgid "Mount Point"
 msgstr "マウントポイント"
 
@@ -1331,12 +1326,12 @@ msgid ""
 msgid_plural ""
 "During installation, %d actions will be performed to configure the system as "
 "displayed below"
-msgstr[0] ""
+msgstr[0] "インストールの際、システムの設定にあたって下記に示す %d 個の処理が実行されます"
 
 #. TRANSLATORS: The storage "Result" section's title
 #: src/components/storage/ProposalResultSection.jsx:279
 msgid "Result"
-msgstr ""
+msgstr "結果"
 
 #. TRANSLATORS: The word 'directly' is key here. For example, booting to the installer media and then choosing
 #. 'Boot from Hard Disk' from there will not work. Keep it sort (this is a hint in a form) but keep it clear.
@@ -1399,14 +1394,13 @@ msgstr ""
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space deleting all content[...]"
 #: src/components/storage/ProposalSpacePolicyField.jsx:55
-#, fuzzy
 msgid "deleting all content of the installation device"
-msgstr "選択した %d 個のディスクの全内容を削除します"
+msgstr "インストール先のディスクの全内容を削除します"
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space deleting all content[...]"
 #: src/components/storage/ProposalSpacePolicyField.jsx:58
-#, fuzzy, c-format
+#, c-format
 msgid "deleting all content of the %d selected disks"
 msgstr "選択した %d 個のディスクの全内容を削除します"
 
@@ -1423,14 +1417,13 @@ msgstr ""
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space shrinking partitions[...]"
 #: src/components/storage/ProposalSpacePolicyField.jsx:68
-#, fuzzy
 msgid "shrinking partitions of the installation device"
-msgstr "選択した %d 個のディスクのパーティションを縮小します"
+msgstr "インストール先のディスクのパーティションを縮小します"
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space shrinking partitions[...]"
 #: src/components/storage/ProposalSpacePolicyField.jsx:71
-#, fuzzy, c-format
+#, c-format
 msgid "shrinking partitions of the %d selected disks"
 msgstr "選択した %d 個のディスクのパーティションを縮小します"
 
@@ -1463,16 +1456,15 @@ msgstr "パーティションの設定作業を独自に実施します。"
 #. would read as "Find space performing a custom set of actions".
 #: src/components/storage/ProposalSpacePolicyField.jsx:91
 msgid "performing a custom set of actions"
-msgstr ""
+msgstr "独自の処理を実行します"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:98
 msgid "Used device"
 msgstr "使用済みデバイス"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:101
-#, fuzzy
 msgid "Size details"
-msgstr "詳細を隠す"
+msgstr "サイズの詳細"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:102
 msgid "Action"
@@ -1515,9 +1507,8 @@ msgid "Actions to find space"
 msgstr "領域の検出処理"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:516
-#, fuzzy
 msgid "Waiting for information about how to find space"
-msgstr "選択したデバイスに関する情報を待機しています"
+msgstr "領域の検出方法に関する情報を待機しています"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:519
 msgid ""
@@ -1529,7 +1520,6 @@ msgstr ""
 
 #. TRANSLATORS: To be completed with the rest of a sentence like "deleting all content"
 #: src/components/storage/ProposalSpacePolicyField.jsx:525
-#, fuzzy
 msgid "Find space"
 msgstr "領域の検出"
 
