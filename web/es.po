@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-21 02:06+0000\n"
-"PO-Revision-Date: 2024-02-25 20:42+0000\n"
+"PO-Revision-Date: 2024-03-25 21:42+0000\n"
 "Last-Translator: Victor hck <victorhck@opensuse.org>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "es/>\n"
@@ -41,7 +41,6 @@ msgstr "Acerca de Agama"
 
 #. TRANSLATORS: content of the "About" popup (1/2)
 #: src/components/core/About.jsx:53
-#, fuzzy
 msgid ""
 "Agama is an experimental installer for (open)SUSE systems. It is still under "
 "development so, please, do not use it in production environments. If you "
@@ -1288,38 +1287,33 @@ msgstr "iSCSI"
 #, c-format
 msgid "There is %d destructive action planned"
 msgid_plural "There are %d destructive actions planned"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Hay %d acción destructiva planeada"
+msgstr[1] "Hay %d acciones destructivas planeadas"
 
 #: src/components/storage/ProposalResultSection.jsx:73
-#, fuzzy
 msgid "Affecting"
-msgstr "Conectando"
+msgstr "Sistemas afectados"
 
 #: src/components/storage/ProposalResultSection.jsx:95
-#, fuzzy
 msgid "Check all planned actions"
-msgstr "Acciones planeadas"
+msgstr "Comprueba todas las acciones planeadas"
 
 #: src/components/storage/ProposalResultSection.jsx:130
-#, fuzzy
 msgid "New"
-msgstr "Red"
+msgstr "Nuevo"
 
 #: src/components/storage/ProposalResultSection.jsx:135
-#, fuzzy
 msgid "Unused space"
-msgstr "Encontrar espacio"
+msgstr "Espacio no utilizado"
 
 #. TRANSLATORS: Label to indicate the device size before resizing, where %s is replaced by
 #. the original size (e.g., 3.00 GiB).
 #: src/components/storage/ProposalResultSection.jsx:172
-#, fuzzy, c-format
+#, c-format
 msgid "Before %s"
-msgstr "Software %s"
+msgstr "Antes %s"
 
 #: src/components/storage/ProposalResultSection.jsx:193
-#, fuzzy
 msgid "Mount Point"
 msgstr "Punto de montaje"
 
@@ -1345,12 +1339,16 @@ msgid_plural ""
 "During installation, %d actions will be performed to configure the system as "
 "displayed below"
 msgstr[0] ""
+"Durante la instalación, se realizará %d acción para configurar el sistema "
+"como se muestra a continuación"
 msgstr[1] ""
+"Durante la instalación, se realizarán %d acciones para configurar el sistema "
+"como se muestra a continuación"
 
 #. TRANSLATORS: The storage "Result" section's title
 #: src/components/storage/ProposalResultSection.jsx:279
 msgid "Result"
-msgstr ""
+msgstr "Resultado"
 
 #. TRANSLATORS: The word 'directly' is key here. For example, booting to the installer media and then choosing
 #. 'Boot from Hard Disk' from there will not work. Keep it sort (this is a hint in a form) but keep it clear.
@@ -1376,11 +1374,13 @@ msgid ""
 "Uses Btrfs for the root file system allowing to boot to a previous version "
 "of the system after configuration changes or software upgrades."
 msgstr ""
+"Utiliza Btrfs para el sistema de archivos raíz, lo que permite iniciar una "
+"versión anterior del sistema después de cambios de configuración o "
+"actualizaciones de software."
 
 #: src/components/storage/ProposalSettingsSection.jsx:154
-#, fuzzy
 msgid "Use Btrfs Snapshots"
-msgstr "con instantáneas"
+msgstr "Utilizar instantáneas Brtfs"
 
 #: src/components/storage/ProposalSettingsSection.jsx:226
 msgid "Change encryption settings"
@@ -1412,16 +1412,15 @@ msgstr ""
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space deleting all content[...]"
 #: src/components/storage/ProposalSpacePolicyField.jsx:55
-#, fuzzy
 msgid "deleting all content of the installation device"
 msgstr "eliminar todo el contenido del dispositivo de instalación"
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space deleting all content[...]"
 #: src/components/storage/ProposalSpacePolicyField.jsx:58
-#, fuzzy, c-format
+#, c-format
 msgid "deleting all content of the %d selected disks"
-msgstr "eliminar todo el contenido del dispositivo de instalación"
+msgstr "eliminar todo el contenido de %d discos seleccionados"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:63
 msgid "Shrink existing partitions"
@@ -1436,16 +1435,15 @@ msgstr ""
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space shrinking partitions[...]"
 #: src/components/storage/ProposalSpacePolicyField.jsx:68
-#, fuzzy
 msgid "shrinking partitions of the installation device"
-msgstr "Reduccir las particiones del dispositivo de instalación"
+msgstr "reducir las particiones del dispositivo de instalación"
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space shrinking partitions[...]"
 #: src/components/storage/ProposalSpacePolicyField.jsx:71
-#, fuzzy, c-format
+#, c-format
 msgid "shrinking partitions of the %d selected disks"
-msgstr "Reduccir las particiones del dispositivo de instalación"
+msgstr "reducir las particiones de los %d discos seleccionados"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:76
 msgid "Use available space"
@@ -1476,16 +1474,15 @@ msgstr "Seleccione qué hacer con cada partición."
 #. would read as "Find space performing a custom set of actions".
 #: src/components/storage/ProposalSpacePolicyField.jsx:91
 msgid "performing a custom set of actions"
-msgstr ""
+msgstr "realizar un conjunto personalizado de acciones"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:98
 msgid "Used device"
 msgstr "Dispositivo usado"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:101
-#, fuzzy
 msgid "Size details"
-msgstr "Ocultar detalles"
+msgstr "Detalles de tamaño"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:102
 msgid "Action"
@@ -1528,9 +1525,8 @@ msgid "Actions to find space"
 msgstr "Acciones para encontrar espacio"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:516
-#, fuzzy
 msgid "Waiting for information about how to find space"
-msgstr "Esperando información sobre el dispositivo seleccionado"
+msgstr "Esperando información sobre cómo encontrar espacio"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:519
 msgid ""
@@ -1543,7 +1539,6 @@ msgstr ""
 
 #. TRANSLATORS: To be completed with the rest of a sentence like "deleting all content"
 #: src/components/storage/ProposalSpacePolicyField.jsx:525
-#, fuzzy
 msgid "Find space"
 msgstr "Encontrar espacio"
 
@@ -1552,9 +1547,8 @@ msgid "Find Space"
 msgstr "Encontrar espacio"
 
 #: src/components/storage/ProposalTransactionalInfo.jsx:46
-#, fuzzy
 msgid "Transactional root file system"
-msgstr "transaccional"
+msgstr "Sistema de archivos raíz transaccional"
 
 #: src/components/storage/ProposalTransactionalInfo.jsx:49
 #, c-format
@@ -1562,6 +1556,8 @@ msgid ""
 "%s is an immutable system with atomic updates. It uses a read-only Btrfs "
 "file system updated via snapshots."
 msgstr ""
+"%s es un sistema inmutable con actualizaciones atómicas. Utiliza un sistema "
+"de archivos Btrfs de solo lectura actualizado mediante instantáneas."
 
 #. TRANSLATORS: header for a list of items referring to size limits for file systems
 #: src/components/storage/ProposalVolumes.jsx:59
@@ -1584,7 +1580,7 @@ msgstr "Presencia de otros volúmenes (%s)"
 #. file system; eg. adjusting the size of the swap
 #: src/components/storage/ProposalVolumes.jsx:71
 msgid "The amount of RAM in the system"
-msgstr ""
+msgstr "La cantidad de memoria RAM en el sistema"
 
 #. TRANSLATORS: dropdown menu label
 #: src/components/storage/ProposalVolumes.jsx:133
@@ -1692,7 +1688,7 @@ msgstr ", "
 #. TRANSLATORS: item which affects the final computed partition size
 #: src/components/storage/VolumeForm.jsx:315
 msgid "the amount of RAM in the system"
-msgstr ""
+msgstr "la cantidad de memoria RAM en el sistema"
 
 #. TRANSLATORS: the %s is replaced by the items which affect the computed size
 #: src/components/storage/VolumeForm.jsx:318
@@ -2163,12 +2159,12 @@ msgstr "Nombre de usuario"
 
 #: src/components/users/FirstUser.jsx:88
 msgid "Username suggestion dropdown"
-msgstr ""
+msgstr "Menú desplegable de sugerencias de nombre de usuario"
 
 #. TRANSLATORS: dropdown username suggestions
 #: src/components/users/FirstUser.jsx:102
 msgid "Use suggested username"
-msgstr ""
+msgstr "Usar nombre de usuario sugerido"
 
 #: src/components/users/FirstUser.jsx:212
 #: src/components/users/RootAuthMethods.jsx:99
