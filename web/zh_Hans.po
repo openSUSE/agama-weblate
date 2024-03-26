@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-21 02:06+0000\n"
-"PO-Revision-Date: 2024-03-04 15:43+0000\n"
+"PO-Revision-Date: 2024-03-26 18:43+0000\n"
 "Last-Translator: Monstorix <monstorix@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.opensuse.org/projects/"
 "agama/agama-web/zh_Hans/>\n"
@@ -1249,37 +1249,32 @@ msgstr "iSCSI"
 #, c-format
 msgid "There is %d destructive action planned"
 msgid_plural "There are %d destructive actions planned"
-msgstr[0] ""
+msgstr[0] "已计划执行 %d 个具有破坏性的操作"
 
 #: src/components/storage/ProposalResultSection.jsx:73
-#, fuzzy
 msgid "Affecting"
-msgstr "正在连接"
+msgstr "影响到"
 
 #: src/components/storage/ProposalResultSection.jsx:95
-#, fuzzy
 msgid "Check all planned actions"
-msgstr "计划执行的操作"
+msgstr "检查所有已计划的操作"
 
 #: src/components/storage/ProposalResultSection.jsx:130
-#, fuzzy
 msgid "New"
-msgstr "网络"
+msgstr "新建"
 
 #: src/components/storage/ProposalResultSection.jsx:135
-#, fuzzy
 msgid "Unused space"
-msgstr "查找空间"
+msgstr "未使用的空间"
 
 #. TRANSLATORS: Label to indicate the device size before resizing, where %s is replaced by
 #. the original size (e.g., 3.00 GiB).
 #: src/components/storage/ProposalResultSection.jsx:172
-#, fuzzy, c-format
+#, c-format
 msgid "Before %s"
-msgstr "软件 %s"
+msgstr "变更前为 %s"
 
 #: src/components/storage/ProposalResultSection.jsx:193
-#, fuzzy
 msgid "Mount Point"
 msgstr "挂载点"
 
@@ -1304,12 +1299,12 @@ msgid ""
 msgid_plural ""
 "During installation, %d actions will be performed to configure the system as "
 "displayed below"
-msgstr[0] ""
+msgstr[0] "安装期间，将执行 %d 个操作以进行系统配置，如下所示"
 
 #. TRANSLATORS: The storage "Result" section's title
 #: src/components/storage/ProposalResultSection.jsx:279
 msgid "Result"
-msgstr ""
+msgstr "结果"
 
 #. TRANSLATORS: The word 'directly' is key here. For example, booting to the installer media and then choosing
 #. 'Boot from Hard Disk' from there will not work. Keep it sort (this is a hint in a form) but keep it clear.
@@ -1369,14 +1364,14 @@ msgstr "所有分区将被移除，磁盘上的数据将丢失。"
 #. would read as "Find space deleting all content[...]"
 #: src/components/storage/ProposalSpacePolicyField.jsx:55
 msgid "deleting all content of the installation device"
-msgstr ""
+msgstr "删除安装设备上的所有内容"
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space deleting all content[...]"
 #: src/components/storage/ProposalSpacePolicyField.jsx:58
 #, c-format
 msgid "deleting all content of the %d selected disks"
-msgstr ""
+msgstr "删除选定的 %d 个磁盘上的所有内容"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:63
 msgid "Shrink existing partitions"
@@ -1390,14 +1385,14 @@ msgstr "数据将被保留，但当前分区的大小将会按需调整。"
 #. would read as "Find space shrinking partitions[...]"
 #: src/components/storage/ProposalSpacePolicyField.jsx:68
 msgid "shrinking partitions of the installation device"
-msgstr ""
+msgstr "缩小安装设备上的分区"
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space shrinking partitions[...]"
 #: src/components/storage/ProposalSpacePolicyField.jsx:71
 #, c-format
 msgid "shrinking partitions of the %d selected disks"
-msgstr ""
+msgstr "缩小选定的 %d 个磁盘上的分区"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:76
 msgid "Use available space"
@@ -1411,9 +1406,8 @@ msgstr "数据将被保留。仅使用未分配给任何分区的空间。"
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space without modifying any partition".
 #: src/components/storage/ProposalSpacePolicyField.jsx:81
-#, fuzzy
 msgid "without modifying any partition"
-msgstr "使用设备 %s 进行安装且不修改已存在的分区"
+msgstr "而不修改任何分区"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:86
 msgid "Custom"
@@ -1427,16 +1421,15 @@ msgstr "选择对每个分区执行的操作。"
 #. would read as "Find space performing a custom set of actions".
 #: src/components/storage/ProposalSpacePolicyField.jsx:91
 msgid "performing a custom set of actions"
-msgstr ""
+msgstr "执行一组自定义操作"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:98
 msgid "Used device"
 msgstr "已使用的设备"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:101
-#, fuzzy
 msgid "Size details"
-msgstr "隐藏细节"
+msgstr "大小细节"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:102
 msgid "Action"
@@ -1479,9 +1472,8 @@ msgid "Actions to find space"
 msgstr "查找空间的操作"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:516
-#, fuzzy
 msgid "Waiting for information about how to find space"
-msgstr "正在等待已选择设备的信息"
+msgstr "正在等待有关如何查找空间的信息"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:519
 msgid ""
@@ -1491,7 +1483,6 @@ msgstr "若要分配文件系统，或许需要在下列设备中找到可用空
 
 #. TRANSLATORS: To be completed with the rest of a sentence like "deleting all content"
 #: src/components/storage/ProposalSpacePolicyField.jsx:525
-#, fuzzy
 msgid "Find space"
 msgstr "查找空间"
 
@@ -1500,16 +1491,15 @@ msgid "Find Space"
 msgstr "查找空间"
 
 #: src/components/storage/ProposalTransactionalInfo.jsx:46
-#, fuzzy
 msgid "Transactional root file system"
-msgstr "事务性系统"
+msgstr "事务性根文件系统"
 
 #: src/components/storage/ProposalTransactionalInfo.jsx:49
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s is an immutable system with atomic updates. It uses a read-only Btrfs "
 "file system updated via snapshots."
-msgstr "%s 是使用只读 Btrfs 根文件系统和原子更新的不可变系统。"
+msgstr "%s 是具备原子更新特性的不可变系统。它使用只读的 Btrfs 文件系统并通过快照保持更新。"
 
 #. TRANSLATORS: header for a list of items referring to size limits for file systems
 #: src/components/storage/ProposalVolumes.jsx:59
@@ -1532,7 +1522,7 @@ msgstr "有其他卷存在（%s）"
 #. file system; eg. adjusting the size of the swap
 #: src/components/storage/ProposalVolumes.jsx:71
 msgid "The amount of RAM in the system"
-msgstr ""
+msgstr "系统中的 RAM 数量"
 
 #. TRANSLATORS: dropdown menu label
 #: src/components/storage/ProposalVolumes.jsx:133
@@ -1596,7 +1586,7 @@ msgstr "挂载点列表"
 
 #: src/components/storage/ProposalVolumes.jsx:412
 msgid "File systems to create in your system"
-msgstr ""
+msgstr "要在系统中创建的文件系统"
 
 #: src/components/storage/VolumeForm.jsx:102
 msgid "Select a value"
@@ -1638,7 +1628,7 @@ msgstr ", "
 #. TRANSLATORS: item which affects the final computed partition size
 #: src/components/storage/VolumeForm.jsx:315
 msgid "the amount of RAM in the system"
-msgstr ""
+msgstr "系统中的 RAM 数量"
 
 #. TRANSLATORS: the %s is replaced by the items which affect the computed size
 #: src/components/storage/VolumeForm.jsx:318
