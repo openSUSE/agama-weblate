@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-21 02:06+0000\n"
-"PO-Revision-Date: 2024-03-12 11:42+0000\n"
+"PO-Revision-Date: 2024-03-26 22:42+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ca/>\n"
@@ -1285,38 +1285,33 @@ msgstr "iSCSI"
 #, c-format
 msgid "There is %d destructive action planned"
 msgid_plural "There are %d destructive actions planned"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Hi ha %d acció destructiva planificada."
+msgstr[1] "Hi ha %d accions destructives planificades."
 
 #: src/components/storage/ProposalResultSection.jsx:73
-#, fuzzy
 msgid "Affecting"
-msgstr "Connectant"
+msgstr "Això afecta"
 
 #: src/components/storage/ProposalResultSection.jsx:95
-#, fuzzy
 msgid "Check all planned actions"
-msgstr "Accions planificades"
+msgstr "Marca totes les accions planificades"
 
 #: src/components/storage/ProposalResultSection.jsx:130
-#, fuzzy
 msgid "New"
-msgstr "Xarxa"
+msgstr "Nova"
 
 #: src/components/storage/ProposalResultSection.jsx:135
-#, fuzzy
 msgid "Unused space"
-msgstr "Aconseguir espai"
+msgstr "Espai sense ús"
 
 #. TRANSLATORS: Label to indicate the device size before resizing, where %s is replaced by
 #. the original size (e.g., 3.00 GiB).
 #: src/components/storage/ProposalResultSection.jsx:172
-#, fuzzy, c-format
+#, c-format
 msgid "Before %s"
-msgstr "Programari %s"
+msgstr "Abans: %s"
 
 #: src/components/storage/ProposalResultSection.jsx:193
-#, fuzzy
 msgid "Mount Point"
 msgstr "Punt de muntatge"
 
@@ -1342,12 +1337,16 @@ msgid_plural ""
 "During installation, %d actions will be performed to configure the system as "
 "displayed below"
 msgstr[0] ""
+"Durant la instal·lació, es farà %d acció per configurar el sistema tal com "
+"es mostra a continuació."
 msgstr[1] ""
+"Durant la instal·lació, es faran %d accions per configurar el sistema tal "
+"com es mostra a continuació."
 
 #. TRANSLATORS: The storage "Result" section's title
 #: src/components/storage/ProposalResultSection.jsx:279
 msgid "Result"
-msgstr ""
+msgstr "Resultat"
 
 #. TRANSLATORS: The word 'directly' is key here. For example, booting to the installer media and then choosing
 #. 'Boot from Hard Disk' from there will not work. Keep it sort (this is a hint in a form) but keep it clear.
@@ -1410,14 +1409,14 @@ msgstr "Totes les particions se suprimiran i es perdran les dades dels discs."
 #. would read as "Find space deleting all content[...]"
 #: src/components/storage/ProposalSpacePolicyField.jsx:55
 msgid "deleting all content of the installation device"
-msgstr ""
+msgstr "suprimint tot el contingut del dispositiu d'instal·lació."
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space deleting all content[...]"
 #: src/components/storage/ProposalSpacePolicyField.jsx:58
 #, c-format
 msgid "deleting all content of the %d selected disks"
-msgstr ""
+msgstr "suprimint tot el contingut dels %d discs seleccionats."
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:63
 msgid "Shrink existing partitions"
@@ -1433,14 +1432,14 @@ msgstr ""
 #. would read as "Find space shrinking partitions[...]"
 #: src/components/storage/ProposalSpacePolicyField.jsx:68
 msgid "shrinking partitions of the installation device"
-msgstr ""
+msgstr "encongint les particions del dispositiu d'instal·lació."
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space shrinking partitions[...]"
 #: src/components/storage/ProposalSpacePolicyField.jsx:71
 #, c-format
 msgid "shrinking partitions of the %d selected disks"
-msgstr ""
+msgstr "encongint les particions dels %d discs seleccionats."
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:76
 msgid "Use available space"
@@ -1455,9 +1454,8 @@ msgstr ""
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space without modifying any partition".
 #: src/components/storage/ProposalSpacePolicyField.jsx:81
-#, fuzzy
 msgid "without modifying any partition"
-msgstr "Instal·la al dispositiu %s sense modificar-ne les particions existents"
+msgstr "sense modificar cap partició existent."
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:86
 msgid "Custom"
@@ -1471,16 +1469,15 @@ msgstr "Seleccioneu què voleu fer amb cada partició."
 #. would read as "Find space performing a custom set of actions".
 #: src/components/storage/ProposalSpacePolicyField.jsx:91
 msgid "performing a custom set of actions"
-msgstr ""
+msgstr "fent un conjunt d'accions personalitzades."
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:98
 msgid "Used device"
 msgstr "Dispositiu usat"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:101
-#, fuzzy
 msgid "Size details"
-msgstr "Amaga els detalls"
+msgstr "Detalls de les mides"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:102
 msgid "Action"
@@ -1523,9 +1520,8 @@ msgid "Actions to find space"
 msgstr "Accions per aconseguir espai"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:516
-#, fuzzy
 msgid "Waiting for information about how to find space"
-msgstr "Esperant informació sobre el dispositiu seleccionat"
+msgstr "Esperant informació sobre com trobar espai"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:519
 msgid ""
@@ -1537,9 +1533,8 @@ msgstr ""
 
 #. TRANSLATORS: To be completed with the rest of a sentence like "deleting all content"
 #: src/components/storage/ProposalSpacePolicyField.jsx:525
-#, fuzzy
 msgid "Find space"
-msgstr "Aconseguir espai"
+msgstr "Troba espai"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:530
 msgid "Find Space"
@@ -1643,7 +1638,7 @@ msgstr "Taula amb punts de muntatge"
 
 #: src/components/storage/ProposalVolumes.jsx:412
 msgid "File systems to create in your system"
-msgstr ""
+msgstr "Sistemes de fitxers per crear al vostre sistema"
 
 #: src/components/storage/VolumeForm.jsx:102
 msgid "Select a value"
