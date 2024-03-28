@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-28 02:07+0000\n"
-"PO-Revision-Date: 2024-03-13 13:42+0000\n"
+"PO-Revision-Date: 2024-03-28 13:43+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "sv/>\n"
@@ -1280,38 +1280,33 @@ msgstr "iSCSI"
 #, c-format
 msgid "There is %d destructive action planned"
 msgid_plural "There are %d destructive actions planned"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Det finns en %d destruktiv åtgärd planerad"
+msgstr[1] "Det finns flera %d destruktiva åtgärder planerade"
 
 #: src/components/storage/ProposalResultSection.jsx:73
-#, fuzzy
 msgid "Affecting"
-msgstr "Ansluter"
+msgstr "Påverkar"
 
 #: src/components/storage/ProposalResultSection.jsx:95
-#, fuzzy
 msgid "Check all planned actions"
-msgstr "Planerade åtgärder"
+msgstr "Kontrollera alla planerade åtgärder"
 
 #: src/components/storage/ProposalResultSection.jsx:130
-#, fuzzy
 msgid "New"
-msgstr "Nätverk"
+msgstr "Ny"
 
 #: src/components/storage/ProposalResultSection.jsx:135
-#, fuzzy
 msgid "Unused space"
-msgstr "Hitta utrymme"
+msgstr "Oanvänt utrymme"
 
 #. TRANSLATORS: Label to indicate the device size before resizing, where %s is replaced by
 #. the original size (e.g., 3.00 GiB).
 #: src/components/storage/ProposalResultSection.jsx:172
-#, fuzzy, c-format
+#, c-format
 msgid "Before %s"
-msgstr "Programvara %s"
+msgstr "Före %s"
 
 #: src/components/storage/ProposalResultSection.jsx:193
-#, fuzzy
 msgid "Mount Point"
 msgstr "Monteringspunkt"
 
@@ -1337,12 +1332,16 @@ msgid_plural ""
 "During installation, %d actions will be performed to configure the system as "
 "displayed below"
 msgstr[0] ""
+"Under installationen kommer %d åtgärd att utföras för att konfigurera "
+"systemet som visas nedan"
 msgstr[1] ""
+"Under installationen kommer %d åtgärder att utföras för att konfigurera "
+"systemet som visas nedan"
 
 #. TRANSLATORS: The storage "Result" section's title
 #: src/components/storage/ProposalResultSection.jsx:279
 msgid "Result"
-msgstr ""
+msgstr "Resultat"
 
 #. TRANSLATORS: The word 'directly' is key here. For example, booting to the installer media and then choosing
 #. 'Boot from Hard Disk' from there will not work. Keep it sort (this is a hint in a form) but keep it clear.
@@ -1406,16 +1405,15 @@ msgstr ""
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space deleting all content[...]"
 #: src/components/storage/ProposalSpacePolicyField.jsx:55
-#, fuzzy
 msgid "deleting all content of the installation device"
-msgstr "radera allt innehåll på installationsenhet"
+msgstr "raderar allt innehåll på installationsenheten"
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space deleting all content[...]"
 #: src/components/storage/ProposalSpacePolicyField.jsx:58
-#, fuzzy, c-format
+#, c-format
 msgid "deleting all content of the %d selected disks"
-msgstr "radera allt innehåll på installationsenhet"
+msgstr "raderar allt innehåll på de %d valda diskarna"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:63
 msgid "Shrink existing partitions"
@@ -1430,16 +1428,15 @@ msgstr ""
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space shrinking partitions[...]"
 #: src/components/storage/ProposalSpacePolicyField.jsx:68
-#, fuzzy
 msgid "shrinking partitions of the installation device"
-msgstr "krymper partitioner på installationsenhet"
+msgstr "krymper partitioner på installationsenheten"
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space shrinking partitions[...]"
 #: src/components/storage/ProposalSpacePolicyField.jsx:71
-#, fuzzy, c-format
+#, c-format
 msgid "shrinking partitions of the %d selected disks"
-msgstr "krymper partitioner på installationsenhet"
+msgstr "krymper partitioner på de %d valda diskarna"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:76
 msgid "Use available space"
@@ -1470,16 +1467,15 @@ msgstr "Välj vad som ska göras med varje partition."
 #. would read as "Find space performing a custom set of actions".
 #: src/components/storage/ProposalSpacePolicyField.jsx:91
 msgid "performing a custom set of actions"
-msgstr ""
+msgstr "utför en anpassad uppsättning åtgärder"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:98
 msgid "Used device"
 msgstr "Använda enheter"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:101
-#, fuzzy
 msgid "Size details"
-msgstr "Dölj detaljer"
+msgstr "Storleksdetaljer"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:102
 msgid "Action"
@@ -1522,9 +1518,8 @@ msgid "Actions to find space"
 msgstr "Åtgärder för att hitta utrymme"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:516
-#, fuzzy
 msgid "Waiting for information about how to find space"
-msgstr "Väntar på information om den valda enheten"
+msgstr "Väntar på information om hur man hittar utrymme"
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:519
 msgid ""
@@ -1536,7 +1531,6 @@ msgstr ""
 
 #. TRANSLATORS: To be completed with the rest of a sentence like "deleting all content"
 #: src/components/storage/ProposalSpacePolicyField.jsx:525
-#, fuzzy
 msgid "Find space"
 msgstr "Hitta utrymme"
 
