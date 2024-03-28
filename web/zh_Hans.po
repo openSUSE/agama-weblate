@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-21 02:06+0000\n"
+"POT-Creation-Date: 2024-03-28 02:07+0000\n"
 "PO-Revision-Date: 2024-03-26 18:43+0000\n"
 "Last-Translator: Monstorix <monstorix@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.opensuse.org/projects/"
@@ -372,7 +372,7 @@ msgstr "无法在远程安装中更改键盘布局"
 
 #. TRANSLATORS: help text for the language selector in the sidebar,
 #. %s will be replaced by the "Localization" page link
-#: src/components/l10n/InstallerLocaleSwitcher.jsx:47
+#: src/components/l10n/InstallerLocaleSwitcher.jsx:46
 #, c-format
 msgid ""
 "The language used by the installer. The language for the installed system "
@@ -381,18 +381,18 @@ msgstr "安装程序所使用的语言。可在 %s 页面设置已安装系统�
 
 #. TRANSLATORS: page section
 #. TRANSLATORS: page title
-#: src/components/l10n/InstallerLocaleSwitcher.jsx:56
+#: src/components/l10n/InstallerLocaleSwitcher.jsx:55
 #: src/components/l10n/L10nPage.jsx:384
 #: src/components/overview/L10nSection.jsx:52
 msgid "Localization"
 msgstr "本地化"
 
-#: src/components/l10n/InstallerLocaleSwitcher.jsx:66
+#: src/components/l10n/InstallerLocaleSwitcher.jsx:65
 #: src/components/l10n/L10nPage.jsx:246
 msgid "Language"
 msgstr "语言"
 
-#: src/components/l10n/InstallerLocaleSwitcher.jsx:74
+#: src/components/l10n/InstallerLocaleSwitcher.jsx:73
 msgid "language"
 msgstr "语言"
 
@@ -1499,7 +1499,9 @@ msgstr "事务性根文件系统"
 msgid ""
 "%s is an immutable system with atomic updates. It uses a read-only Btrfs "
 "file system updated via snapshots."
-msgstr "%s 是具备原子更新特性的不可变系统。它使用只读的 Btrfs 文件系统并通过快照保持更新。"
+msgstr ""
+"%s 是具备原子更新特性的不可变系统。它使用只读的 Btrfs 文件系统并通过快照保持"
+"更新。"
 
 #. TRANSLATORS: header for a list of items referring to size limits for file systems
 #: src/components/storage/ProposalVolumes.jsx:59

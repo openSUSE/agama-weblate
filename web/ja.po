@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-21 02:06+0000\n"
+"POT-Creation-Date: 2024-03-28 02:07+0000\n"
 "PO-Revision-Date: 2024-03-26 02:42+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -389,7 +389,7 @@ msgstr "リモートインストールの場合、キーボードレイアウト
 
 #. TRANSLATORS: help text for the language selector in the sidebar,
 #. %s will be replaced by the "Localization" page link
-#: src/components/l10n/InstallerLocaleSwitcher.jsx:47
+#: src/components/l10n/InstallerLocaleSwitcher.jsx:46
 #, c-format
 msgid ""
 "The language used by the installer. The language for the installed system "
@@ -400,18 +400,18 @@ msgstr ""
 
 #. TRANSLATORS: page section
 #. TRANSLATORS: page title
-#: src/components/l10n/InstallerLocaleSwitcher.jsx:56
+#: src/components/l10n/InstallerLocaleSwitcher.jsx:55
 #: src/components/l10n/L10nPage.jsx:384
 #: src/components/overview/L10nSection.jsx:52
 msgid "Localization"
 msgstr "ローカライゼーション"
 
-#: src/components/l10n/InstallerLocaleSwitcher.jsx:66
+#: src/components/l10n/InstallerLocaleSwitcher.jsx:65
 #: src/components/l10n/L10nPage.jsx:246
 msgid "Language"
 msgstr "言語"
 
-#: src/components/l10n/InstallerLocaleSwitcher.jsx:74
+#: src/components/l10n/InstallerLocaleSwitcher.jsx:73
 msgid "language"
 msgstr "言語"
 
@@ -1326,7 +1326,9 @@ msgid ""
 msgid_plural ""
 "During installation, %d actions will be performed to configure the system as "
 "displayed below"
-msgstr[0] "インストールの際、システムの設定にあたって下記に示す %d 個の処理が実行されます"
+msgstr[0] ""
+"インストールの際、システムの設定にあたって下記に示す %d 個の処理が実行されま"
+"す"
 
 #. TRANSLATORS: The storage "Result" section's title
 #: src/components/storage/ProposalResultSection.jsx:279

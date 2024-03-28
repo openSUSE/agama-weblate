@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-21 02:06+0000\n"
+"POT-Creation-Date: 2024-03-28 02:07+0000\n"
 "PO-Revision-Date: 2024-03-13 09:42+0000\n"
 "Last-Translator: Natasha Ament <stacheldrahtje@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.opensuse.org/projects/agama/agama-web/nl/"
@@ -394,7 +394,7 @@ msgstr ""
 
 #. TRANSLATORS: help text for the language selector in the sidebar,
 #. %s will be replaced by the "Localization" page link
-#: src/components/l10n/InstallerLocaleSwitcher.jsx:47
+#: src/components/l10n/InstallerLocaleSwitcher.jsx:46
 #, c-format
 msgid ""
 "The language used by the installer. The language for the installed system "
@@ -405,18 +405,18 @@ msgstr ""
 
 #. TRANSLATORS: page section
 #. TRANSLATORS: page title
-#: src/components/l10n/InstallerLocaleSwitcher.jsx:56
+#: src/components/l10n/InstallerLocaleSwitcher.jsx:55
 #: src/components/l10n/L10nPage.jsx:384
 #: src/components/overview/L10nSection.jsx:52
 msgid "Localization"
 msgstr "Lokalisatie"
 
-#: src/components/l10n/InstallerLocaleSwitcher.jsx:66
+#: src/components/l10n/InstallerLocaleSwitcher.jsx:65
 #: src/components/l10n/L10nPage.jsx:246
 msgid "Language"
 msgstr "Taal"
 
-#: src/components/l10n/InstallerLocaleSwitcher.jsx:74
+#: src/components/l10n/InstallerLocaleSwitcher.jsx:73
 msgid "language"
 msgstr "taal"
 
