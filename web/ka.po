@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-28 02:07+0000\n"
+"POT-Creation-Date: 2024-04-07 02:10+0000\n"
 "PO-Revision-Date: 2024-02-17 05:42+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -143,12 +143,10 @@ msgstr ""
 #: src/components/product/ProductPage.jsx:71
 #: src/components/product/ProductPage.jsx:140
 #: src/components/product/ProductPage.jsx:207
-#: src/components/storage/ProposalDeviceSection.jsx:173
-#: src/components/storage/ProposalDeviceSection.jsx:372
-#: src/components/storage/ProposalSettingsSection.jsx:262
+#: src/components/storage/ProposalSettingsSection.jsx:263
 #: src/components/storage/ProposalSpacePolicyField.jsx:547
-#: src/components/storage/ProposalVolumes.jsx:152
-#: src/components/storage/ProposalVolumes.jsx:287
+#: src/components/storage/ProposalVolumes.jsx:151
+#: src/components/storage/ProposalVolumes.jsx:298
 #: src/components/storage/ZFCPPage.jsx:511
 msgid "Accept"
 msgstr "დასტური"
@@ -289,8 +287,8 @@ msgstr "დადასტურება"
 
 #. TRANSLATORS: dropdown label
 #: src/components/core/RowActions.jsx:66
-#: src/components/storage/ProposalVolumes.jsx:123
-#: src/components/storage/ProposalVolumes.jsx:314
+#: src/components/storage/ProposalVolumes.jsx:122
+#: src/components/storage/ProposalVolumes.jsx:327
 msgid "Actions"
 msgstr "ქმედებები"
 
@@ -514,8 +512,8 @@ msgstr "მისამართები"
 msgid "Addresses data list"
 msgstr "მისამართის მონაცემების სია"
 
-#. TRANSLATORS: table header
 #. TRANSLATORS: input field for the iSCSI initiator name
+#. TRANSLATORS: table header
 #: src/components/network/ConnectionsTable.jsx:57
 #: src/components/network/ConnectionsTable.jsx:86
 #: src/components/storage/ZFCPPage.jsx:360
@@ -534,7 +532,7 @@ msgid "IP addresses"
 msgstr "IP მისამართები"
 
 #: src/components/network/ConnectionsTable.jsx:67
-#: src/components/storage/ProposalVolumes.jsx:238
+#: src/components/storage/ProposalVolumes.jsx:248
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:49
 #: src/components/storage/iscsi/NodesPresenter.jsx:73
 #: src/components/users/FirstUser.jsx:208
@@ -648,8 +646,8 @@ msgstr ""
 msgid "Connect to a Wi-Fi network"
 msgstr ""
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section title
+#. TRANSLATORS: page title
 #: src/components/network/NetworkPage.jsx:169
 #: src/components/overview/NetworkSection.jsx:83
 msgid "Network"
@@ -733,8 +731,8 @@ msgstr "დაკავშირებულია"
 msgid "Disconnecting"
 msgstr "გათიშვა"
 
-#. TRANSLATORS: Wifi network status
 #. TRANSLATORS: iSCSI connection status
+#. TRANSLATORS: Wifi network status
 #: src/components/network/WifiNetworkListItem.jsx:50
 #: src/components/storage/iscsi/NodesPresenter.jsx:63
 msgid "Disconnected"
@@ -798,53 +796,96 @@ msgstr "პროგრამის რეპოზიტორიების �
 msgid "Refresh the repositories"
 msgstr "რეპოზიტორიების განახლება"
 
-#. TRANSLATORS: page section
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section
 #: src/components/overview/SoftwareSection.jsx:143
 #: src/components/software/SoftwarePage.jsx:81
 msgid "Software"
 msgstr "პროგრამები"
 
-#: src/components/overview/StorageSection.jsx:42
-#: src/components/storage/ProposalDeviceSection.jsx:133
+#. TRANSLATORS: Part of the message describing where the system will be installed.
+#. Do not translate 'abbr' and 'title', they are part of the HTML markup.
+#: src/components/overview/StorageSection.jsx:50
+msgid "<abbr title='Logical Volume Manager'>LVM</abbr> volume group"
+msgstr ""
+
+#: src/components/overview/StorageSection.jsx:58
+#, c-format
+msgid "Install in a new %1$s on %2$s shrinking existing partitions as needed"
+msgid_plural ""
+"Install in a new %1$s shrinking existing partitions at the underlying "
+"devices as needed"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/components/overview/StorageSection.jsx:66
+#, c-format
+msgid "Install in a new %1$s on %2$s without modifying existing partitions"
+msgid_plural ""
+"Install in a new %1$s without modifying the partitions at the underlying "
+"devices"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/components/overview/StorageSection.jsx:74
+#, c-format
+msgid "Install in a new %1$s on %2$s deleting all its content"
+msgid_plural ""
+"Install in a new %1$s deleting all the content of the underlying devices"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/components/overview/StorageSection.jsx:82
+#, c-format
+msgid ""
+"Install in a new %1$s on %2$s using a custom strategy to find the needed "
+"space"
+msgid_plural ""
+"Install in a new %1$s using a custom strategy to find the needed space at "
+"the underlying devices"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/components/overview/StorageSection.jsx:107
+#: src/components/storage/ProposalDeviceSection.jsx:63
 msgid "No device selected yet"
 msgstr ""
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
-#: src/components/overview/StorageSection.jsx:52
+#: src/components/overview/StorageSection.jsx:114
 #, c-format
 msgid "Install using device %s shrinking existing partitions as needed"
 msgstr ""
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
-#: src/components/overview/StorageSection.jsx:56
+#: src/components/overview/StorageSection.jsx:118
 #, c-format
 msgid "Install using device %s without modifying existing partitions"
 msgstr ""
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
-#: src/components/overview/StorageSection.jsx:60
+#: src/components/overview/StorageSection.jsx:122
 #, c-format
 msgid "Install using device %s and deleting all its content"
 msgstr ""
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
-#: src/components/overview/StorageSection.jsx:66
+#: src/components/overview/StorageSection.jsx:127
 #, c-format
-msgid "Install using device %s"
+msgid "Install using device %s with a custom strategy to find the needed space"
 msgstr ""
 
-#: src/components/overview/StorageSection.jsx:83
+#: src/components/overview/StorageSection.jsx:144
 msgid "Probing storage devices"
 msgstr "საცავის მოწყობილობების ზონდირება"
 
-#. TRANSLATORS: Storage page title
 #. TRANSLATORS: page section title
-#: src/components/overview/StorageSection.jsx:208
+#. TRANSLATORS: Storage page title
+#: src/components/overview/StorageSection.jsx:269
 #: src/components/storage/ProposalPage.jsx:221
 msgid "Storage"
 msgstr "საცავი"
@@ -1020,6 +1061,55 @@ msgstr ""
 msgid "Installation will take %s"
 msgstr ""
 
+#: src/components/storage/BootSelectionDialog.jsx:114
+msgid ""
+"To ensure the new system is able to boot, the installer may need to create "
+"or configure some partitions in the appropriate disk."
+msgstr ""
+
+#: src/components/storage/BootSelectionDialog.jsx:120
+msgid "Partitions to boot will be allocated at the installation disk."
+msgstr ""
+
+#. TRANSLATORS: %s is replaced by a device name and size (e.g., "/dev/sda, 500GiB")
+#: src/components/storage/BootSelectionDialog.jsx:125
+#, c-format
+msgid "Partitions to boot will be allocated at the installation disk (%s)."
+msgstr ""
+
+#: src/components/storage/BootSelectionDialog.jsx:132
+#, fuzzy
+msgid "Partitions for booting"
+msgstr "დანაყოფის ინფორმაცია"
+
+#: src/components/storage/BootSelectionDialog.jsx:141
+#: src/components/storage/iscsi/NodeStartupOptions.js:27
+msgid "Automatic"
+msgstr "ავტომატური"
+
+#: src/components/storage/BootSelectionDialog.jsx:152
+#: src/components/storage/DeviceSelectionDialog.jsx:118
+#, fuzzy
+msgid "Select a disk"
+msgstr "აირჩიეთ კლავიატურა"
+
+#: src/components/storage/BootSelectionDialog.jsx:158
+msgid "Partitions to boot will be allocated at the following device."
+msgstr ""
+
+#: src/components/storage/BootSelectionDialog.jsx:161
+msgid "Choose a disk for placing the boot loader"
+msgstr ""
+
+#: src/components/storage/BootSelectionDialog.jsx:173
+msgid "Do not configure"
+msgstr ""
+
+#: src/components/storage/BootSelectionDialog.jsx:177
+msgid ""
+"No partitions will be automatically configured for booting. Use with caution."
+msgstr ""
+
 #: src/components/storage/DASDFormatProgress.jsx:61
 msgid "Waiting for progress report"
 msgstr ""
@@ -1063,10 +1153,11 @@ msgstr "არხის ID"
 msgid "Status"
 msgstr "სტატუსი"
 
-#. TRANSLATORS: The storage "Device" section's title
+#. TRANSLATORS: The storage "Device" section's title.
 #: src/components/storage/DASDTable.jsx:66
-#: src/components/storage/ProposalDeviceSection.jsx:431
-#: src/components/storage/ProposalResultSection.jsx:192
+#: src/components/storage/DeviceSelectorTable.jsx:40
+#: src/components/storage/ProposalDeviceSection.jsx:184
+#: src/components/storage/ProposalResultSection.jsx:187
 msgid "Device"
 msgstr "მოწყობილობა"
 
@@ -1136,6 +1227,56 @@ msgstr ""
 msgid "Remove max channel filter"
 msgstr ""
 
+#: src/components/storage/DeviceSelectionDialog.jsx:103
+msgid "Device for installing the system"
+msgstr ""
+
+#: src/components/storage/DeviceSelectionDialog.jsx:127
+msgid "Create an LVM Volume Group"
+msgstr ""
+
+#. TRANSLATORS: beware the HTML markup (<b> and </b>)
+#: src/components/storage/DeviceSelectionDialog.jsx:135
+msgid ""
+"The file systems will be allocated by default as <b>new partitions in the "
+"selected device</b>."
+msgstr ""
+
+#: src/components/storage/DeviceSelectionDialog.jsx:140
+msgid "Device selector for target disk"
+msgstr ""
+
+#. TRANSLATORS: beware the HTML markup (<b> and </b>)
+#: src/components/storage/DeviceSelectionDialog.jsx:154
+msgid ""
+"The file systems will be allocated by default as <b>logical volumes of a new "
+"LVM Volume Group</b>. The corresponding physical volumes will be created on "
+"demand as new partitions at the selected devices."
+msgstr ""
+
+#: src/components/storage/DeviceSelectionDialog.jsx:160
+msgid "Device selector for new LVM volume group"
+msgstr ""
+
+#: src/components/storage/DeviceSelectorTable.jsx:34
+#: src/components/storage/ProposalResultSection.jsx:135
+#, fuzzy
+msgid "Unused space"
+msgstr "ადგილის პოვნა"
+
+#: src/components/storage/DeviceSelectorTable.jsx:41
+#, fuzzy
+msgid "Content"
+msgstr "გაგრძელება"
+
+#: src/components/storage/DeviceSelectorTable.jsx:42
+#: src/components/storage/ProposalResultSection.jsx:190
+#: src/components/storage/ProposalSpacePolicyField.jsx:100
+#: src/components/storage/ProposalVolumes.jsx:324
+#: src/components/storage/VolumeForm.jsx:745
+msgid "Size"
+msgstr "ზომა"
+
 #. TRANSLATORS: page title for iSCSI configuration
 #: src/components/storage/ISCSIPage.jsx:31
 msgid "Storage iSCSI"
@@ -1164,62 +1305,27 @@ msgstr[1] ""
 msgid "Planned Actions"
 msgstr "დაგეგმილი ქმედებები"
 
-#: src/components/storage/ProposalDeviceSection.jsx:139
+#: src/components/storage/ProposalDeviceSection.jsx:55
+msgid "new LVM volume group"
+msgstr ""
+
+#. TRANSLATORS: %s is the disk used for the LVM physical volumes (eg. "/dev/sda, 80 GiB)
+#: src/components/storage/ProposalDeviceSection.jsx:59
+#, c-format
+msgid "new LVM volume group on %s"
+msgstr ""
+
+#: src/components/storage/ProposalDeviceSection.jsx:110
 msgid "Waiting for information about selected device"
 msgstr ""
 
-#: src/components/storage/ProposalDeviceSection.jsx:142
-msgid "Select the device for installing the system."
-msgstr ""
-
-#: src/components/storage/ProposalDeviceSection.jsx:147
-#: src/components/storage/ProposalDeviceSection.jsx:151
-#: src/components/storage/ProposalDeviceSection.jsx:249
+#: src/components/storage/ProposalDeviceSection.jsx:115
 msgid "Installation device"
 msgstr "დაყენების მოწყობილობა"
 
-#: src/components/storage/ProposalDeviceSection.jsx:157
-msgid "No devices found."
-msgstr "მოწყობილობები ვერ ვიპოვე."
-
-#: src/components/storage/ProposalDeviceSection.jsx:246
-msgid "Devices for creating the volume group"
-msgstr ""
-
-#: src/components/storage/ProposalDeviceSection.jsx:255
-msgid "Custom devices"
-msgstr "მომხმარებლის მოწყობილობები"
-
-#: src/components/storage/ProposalDeviceSection.jsx:323
-msgid ""
-"Configuration of the system volume group. All the file systems will be "
-"created in a logical volume of the system volume group."
-msgstr ""
-
-#: src/components/storage/ProposalDeviceSection.jsx:329
-msgid "Configure the LVM settings"
-msgstr ""
-
-#: src/components/storage/ProposalDeviceSection.jsx:334
-#: src/components/storage/ProposalDeviceSection.jsx:354
-msgid "LVM settings"
-msgstr "LVM-ის მორგება"
-
-#: src/components/storage/ProposalDeviceSection.jsx:341
-msgid "Waiting for information about LVM"
-msgstr ""
-
-#: src/components/storage/ProposalDeviceSection.jsx:347
-msgid "Use logical volume management (LVM)"
-msgstr ""
-
-#: src/components/storage/ProposalDeviceSection.jsx:355
-msgid "System Volume Group"
-msgstr ""
-
 #. TRANSLATORS: The storage "Device" sections's description. Do not
 #. translate 'abbr' and 'title', they are part of the HTML markup.
-#: src/components/storage/ProposalDeviceSection.jsx:422
+#: src/components/storage/ProposalDeviceSection.jsx:175
 msgid ""
 "Select the main disk or <abbr title='Logical Volume Manager'>LVM</abbr> "
 "Volume Group for installation."
@@ -1267,37 +1373,25 @@ msgstr "დაგეგმილი ქმედებები"
 msgid "New"
 msgstr "ქსელი"
 
-#: src/components/storage/ProposalResultSection.jsx:135
-#, fuzzy
-msgid "Unused space"
-msgstr "ადგილის პოვნა"
-
 #. TRANSLATORS: Label to indicate the device size before resizing, where %s is replaced by
 #. the original size (e.g., 3.00 GiB).
-#: src/components/storage/ProposalResultSection.jsx:172
+#: src/components/storage/ProposalResultSection.jsx:167
 #, fuzzy, c-format
 msgid "Before %s"
 msgstr "პროგრამული %s"
 
-#: src/components/storage/ProposalResultSection.jsx:193
+#: src/components/storage/ProposalResultSection.jsx:188
 #, fuzzy
 msgid "Mount Point"
 msgstr "მიმაგრების წერტილი"
 
-#: src/components/storage/ProposalResultSection.jsx:194
+#: src/components/storage/ProposalResultSection.jsx:189
 #: src/components/storage/ProposalSpacePolicyField.jsx:99
-#: src/components/storage/ProposalVolumes.jsx:312
+#: src/components/storage/ProposalVolumes.jsx:323
 msgid "Details"
 msgstr "დეტალები"
 
-#: src/components/storage/ProposalResultSection.jsx:195
-#: src/components/storage/ProposalSpacePolicyField.jsx:100
-#: src/components/storage/ProposalVolumes.jsx:313
-#: src/components/storage/VolumeForm.jsx:745
-msgid "Size"
-msgstr "ზომა"
-
-#: src/components/storage/ProposalResultSection.jsx:271
+#: src/components/storage/ProposalResultSection.jsx:266
 #, c-format
 msgid ""
 "During installation, %d action will be performed to configure the system as "
@@ -1309,14 +1403,14 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. TRANSLATORS: The storage "Result" section's title
-#: src/components/storage/ProposalResultSection.jsx:279
+#: src/components/storage/ProposalResultSection.jsx:274
 msgid "Result"
 msgstr ""
 
 #. TRANSLATORS: The word 'directly' is key here. For example, booting to the installer media and then choosing
 #. 'Boot from Hard Disk' from there will not work. Keep it sort (this is a hint in a form) but keep it clear.
 #. Do not translate 'abbr' and 'title', they are part of the HTML markup.
-#: src/components/storage/ProposalSettingsSection.jsx:88
+#: src/components/storage/ProposalSettingsSection.jsx:89
 msgid ""
 "The password will not be needed to boot and access the data if the <abbr "
 "title='Trusted Platform Module'>TPM</abbr> can verify the integrity of the "
@@ -1324,35 +1418,58 @@ msgid ""
 "first run."
 msgstr ""
 
-#: src/components/storage/ProposalSettingsSection.jsx:106
+#: src/components/storage/ProposalSettingsSection.jsx:107
 msgid "Use the TPM to decrypt automatically on each boot"
 msgstr ""
 
-#: src/components/storage/ProposalSettingsSection.jsx:147
+#: src/components/storage/ProposalSettingsSection.jsx:148
 msgid ""
 "Uses Btrfs for the root file system allowing to boot to a previous version "
 "of the system after configuration changes or software upgrades."
 msgstr ""
 
-#: src/components/storage/ProposalSettingsSection.jsx:154
+#: src/components/storage/ProposalSettingsSection.jsx:155
 #, fuzzy
 msgid "Use Btrfs Snapshots"
 msgstr "სწრაფი ასლებით"
 
-#: src/components/storage/ProposalSettingsSection.jsx:226
+#: src/components/storage/ProposalSettingsSection.jsx:227
 msgid "Change encryption settings"
 msgstr ""
 
-#: src/components/storage/ProposalSettingsSection.jsx:231
-#: src/components/storage/ProposalSettingsSection.jsx:252
+#: src/components/storage/ProposalSettingsSection.jsx:232
+#: src/components/storage/ProposalSettingsSection.jsx:253
 msgid "Encryption settings"
 msgstr "დაშიფვრის პარამეტრები"
 
-#: src/components/storage/ProposalSettingsSection.jsx:245
+#: src/components/storage/ProposalSettingsSection.jsx:246
 msgid "Use encryption"
 msgstr "დაშიფვრის გამოყენება"
 
-#: src/components/storage/ProposalSettingsSection.jsx:328
+#: src/components/storage/ProposalSettingsSection.jsx:306
+msgid "Automatically configure any additional partition to boot the system"
+msgstr ""
+
+#: src/components/storage/ProposalSettingsSection.jsx:309
+msgid "nowhere (manual boot setup)"
+msgstr ""
+
+#: src/components/storage/ProposalSettingsSection.jsx:311
+#, fuzzy
+msgid "at the installation device"
+msgstr "დაყენების მოწყობილობა"
+
+#. TRANSLATORS: %s is the disk used to configure the boot-related partitions (eg. "/dev/sda, 80 GiB)
+#: src/components/storage/ProposalSettingsSection.jsx:314
+#, fuzzy, c-format
+msgid "at %s"
+msgstr "%s-ის ჩასწორება"
+
+#: src/components/storage/ProposalSettingsSection.jsx:318
+msgid "Waiting for information about boot config"
+msgstr ""
+
+#: src/components/storage/ProposalSettingsSection.jsx:413
 msgid "Settings"
 msgstr "მორგება"
 
@@ -1462,7 +1579,7 @@ msgid "Space action selector for %s"
 msgstr ""
 
 #: src/components/storage/ProposalSpacePolicyField.jsx:200
-#: src/components/storage/ProposalVolumes.jsx:233
+#: src/components/storage/ProposalVolumes.jsx:243
 #: src/components/storage/iscsi/NodesPresenter.jsx:77
 msgid "Delete"
 msgstr "წაშლა"
@@ -1513,90 +1630,109 @@ msgid ""
 msgstr ""
 
 #. TRANSLATORS: header for a list of items referring to size limits for file systems
-#: src/components/storage/ProposalVolumes.jsx:59
+#: src/components/storage/ProposalVolumes.jsx:58
 msgid "These limits are affected by:"
 msgstr ""
 
 #. TRANSLATORS: list item, this affects the computed partition size limits
-#: src/components/storage/ProposalVolumes.jsx:63
+#: src/components/storage/ProposalVolumes.jsx:62
 msgid "The configuration of snapshots"
 msgstr ""
 
 #. TRANSLATORS: list item, this affects the computed partition size limits
 #. %s is replaced by a list of the volumes (like "/home, /boot")
-#: src/components/storage/ProposalVolumes.jsx:67
+#: src/components/storage/ProposalVolumes.jsx:66
 #, c-format
 msgid "Presence of other volumes (%s)"
 msgstr ""
 
 #. TRANSLATORS: list item, describes a factor that affects the computed size of a
 #. file system; eg. adjusting the size of the swap
-#: src/components/storage/ProposalVolumes.jsx:71
+#: src/components/storage/ProposalVolumes.jsx:70
 msgid "The amount of RAM in the system"
 msgstr ""
 
 #. TRANSLATORS: dropdown menu label
-#: src/components/storage/ProposalVolumes.jsx:133
+#: src/components/storage/ProposalVolumes.jsx:132
 msgid "Reset to defaults"
 msgstr "ნაგულისხმები პარამეტრების დაყენება"
 
 #. TRANSLATORS: dropdown menu label
-#: src/components/storage/ProposalVolumes.jsx:141
-#: src/components/storage/ProposalVolumes.jsx:145
+#: src/components/storage/ProposalVolumes.jsx:140
+#: src/components/storage/ProposalVolumes.jsx:144
 msgid "Add file system"
 msgstr ""
 
 #. TRANSLATORS: minimum device size, %s is replaced by size string, e.g. "17.5 GiB"
-#: src/components/storage/ProposalVolumes.jsx:195
+#: src/components/storage/ProposalVolumes.jsx:198
 #, c-format
 msgid "At least %s"
 msgstr "%s მაინც"
 
 #. TRANSLATORS: device flag, the partition size is automatically computed
-#: src/components/storage/ProposalVolumes.jsx:201
+#: src/components/storage/ProposalVolumes.jsx:204
 msgid "auto"
 msgstr "ავტომატური"
 
-#. TRANSLATORS: the filesystem uses a logical volume (LVM)
-#: src/components/storage/ProposalVolumes.jsx:211
-msgid "logical volume"
-msgstr "ლოგიკური ტომი"
+#. TRANSLATORS: %s will be replaced by a file-system type like "Btrfs" or "Ext4"
+#: src/components/storage/ProposalVolumes.jsx:215
+#, c-format
+msgid "Reused %s"
+msgstr ""
 
-#: src/components/storage/ProposalVolumes.jsx:211
-msgid "partition"
-msgstr "დანაყოფი"
-
-#. TRANSLATORS: filesystem flag, it uses an encryption
-#: src/components/storage/ProposalVolumes.jsx:220
-msgid "encrypted"
-msgstr "დაშიფრულია"
-
-#. TRANSLATORS: filesystem flag, it allows creating snapshots
-#: src/components/storage/ProposalVolumes.jsx:222
-msgid "with snapshots"
-msgstr "სწრაფი ასლებით"
-
-#. TRANSLATORS: flag for transactional file system
-#: src/components/storage/ProposalVolumes.jsx:224
-msgid "transactional"
+#: src/components/storage/ProposalVolumes.jsx:217
+#, fuzzy
+msgid "Transactional Btrfs"
 msgstr "ტრანზაქციული"
 
-#: src/components/storage/ProposalVolumes.jsx:279
+#: src/components/storage/ProposalVolumes.jsx:219
+#, fuzzy
+msgid "Btrfs with snapshots"
+msgstr "სწრაფი ასლებით"
+
+#. TRANSLATORS: %s will be replaced by a disk name (eg. "/dev/sda")
+#: src/components/storage/ProposalVolumes.jsx:227
+#, fuzzy, c-format
+msgid "Partition at %s"
+msgstr "დანაყოფის ინფორმაცია"
+
+#. TRANSLATORS: %s will be replaced by a disk name (eg. "/dev/sda")
+#: src/components/storage/ProposalVolumes.jsx:230
+#, c-format
+msgid "Separate LVM at %s"
+msgstr ""
+
+#: src/components/storage/ProposalVolumes.jsx:234
+#, fuzzy
+msgid "Logical volume at system LVM"
+msgstr "ლოგიკური ტომი"
+
+#: src/components/storage/ProposalVolumes.jsx:236
+msgid "Partition at installation disk"
+msgstr ""
+
+#: src/components/storage/ProposalVolumes.jsx:290
 msgid "Edit file system"
 msgstr ""
 
-#: src/components/storage/ProposalVolumes.jsx:311
+#: src/components/storage/ProposalVolumes.jsx:322
 #: src/components/storage/VolumeForm.jsx:730
 #: src/components/storage/VolumeForm.jsx:735
 msgid "Mount point"
 msgstr "მიმაგრების წერტილი"
 
-#: src/components/storage/ProposalVolumes.jsx:349
+#. TRANSLATORS: where (and how) the file-system is going to be created
+#: src/components/storage/ProposalVolumes.jsx:326
+#, fuzzy
+msgid "Location"
+msgstr "ლოკალიზაცია"
+
+#: src/components/storage/ProposalVolumes.jsx:362
 msgid "Table with mount points"
 msgstr ""
 
-#: src/components/storage/ProposalVolumes.jsx:412
-msgid "File systems to create in your system"
+#: src/components/storage/ProposalVolumes.jsx:426
+msgid "File systems to create"
 msgstr ""
 
 #: src/components/storage/VolumeForm.jsx:102
@@ -1825,64 +1961,69 @@ msgid "Storage zFCP"
 msgstr "საცავი zFCP"
 
 #. TRANSLATORS: multipath device type
-#: src/components/storage/device-utils.jsx:82
+#: src/components/storage/device-utils.jsx:53
 msgid "Multipath"
 msgstr "Multipath"
 
 #. TRANSLATORS: %s is replaced by the device bus ID
-#: src/components/storage/device-utils.jsx:87
+#: src/components/storage/device-utils.jsx:58
 #, c-format
 msgid "DASD %s"
 msgstr "DASD %s"
 
 #. TRANSLATORS: software RAID device, %s is replaced by the RAID level, e.g. RAID-1
-#: src/components/storage/device-utils.jsx:92
+#: src/components/storage/device-utils.jsx:63
 #, c-format
 msgid "Software %s"
 msgstr "პროგრამული %s"
 
-#: src/components/storage/device-utils.jsx:97
+#: src/components/storage/device-utils.jsx:68
 msgid "SD Card"
 msgstr "SD ბარათი"
 
-#. TRANSLATORS: %s is replaced by the device transport name, e.g. USB, SATA, SCSI...
-#: src/components/storage/device-utils.jsx:99
+#. TRANSLATORS: %s is substituted by the type of disk like "iSCSI" or "SATA"
+#: src/components/storage/device-utils.jsx:73
 #, c-format
-msgid "Transport %s"
-msgstr "ტრანსპორტი %s"
+msgid "%s disk"
+msgstr ""
+
+#: src/components/storage/device-utils.jsx:74
+#, fuzzy
+msgid "Disk"
+msgstr "დისკები"
 
 #. TRANSLATORS: RAID details, %s is replaced by list of devices used by the array
-#: src/components/storage/device-utils.jsx:118
+#: src/components/storage/device-utils.jsx:94
 #, c-format
 msgid "Members: %s"
 msgstr "წევრები: %s"
 
 #. TRANSLATORS: RAID details, %s is replaced by list of devices used by the array
-#: src/components/storage/device-utils.jsx:127
+#: src/components/storage/device-utils.jsx:103
 #, c-format
 msgid "Devices: %s"
 msgstr "მოწყობილობები: %s"
 
 #. TRANSLATORS: multipath details, %s is replaced by list of connections used by the device
-#: src/components/storage/device-utils.jsx:136
+#: src/components/storage/device-utils.jsx:112
 #, c-format
 msgid "Wires: %s"
 msgstr "მავთულები: %s"
 
 #. TRANSLATORS: disk partition info, %s is replaced by partition table
 #. type (MS-DOS or GPT), %d is the number of the partitions
-#: src/components/storage/device-utils.jsx:160
+#: src/components/storage/device-utils.jsx:136
 #, c-format
 msgid "%s with %d partitions"
 msgstr ""
 
 #. TRANSLATORS: status message, no existing content was found on the disk,
 #. i.e. the disk is completely empty
-#: src/components/storage/device-utils.jsx:184
+#: src/components/storage/device-utils.jsx:165
 msgid "No content found"
 msgstr ""
 
-#: src/components/storage/device-utils.jsx:258
+#: src/components/storage/device-utils.jsx:276
 msgid "Available devices"
 msgstr "ხელმისაწვდომი მოწყობილობები"
 
@@ -1999,10 +2140,6 @@ msgstr "გაშვება"
 #: src/components/storage/iscsi/NodeStartupOptions.js:26
 msgid "On boot"
 msgstr "ჩატვირთვისას"
-
-#: src/components/storage/iscsi/NodeStartupOptions.js:27
-msgid "Automatic"
-msgstr "ავტომატური"
 
 #. TRANSLATORS: iSCSI connection status, %s is replaced by node label
 #: src/components/storage/iscsi/NodesPresenter.jsx:67
@@ -2237,6 +2374,25 @@ msgstr "მომხმარებელი"
 #: src/components/users/UsersPage.jsx:34
 msgid "Root authentication"
 msgstr "Root-ით ავთენტიკაცია"
+
+#~ msgid "No devices found."
+#~ msgstr "მოწყობილობები ვერ ვიპოვე."
+
+#~ msgid "Custom devices"
+#~ msgstr "მომხმარებლის მოწყობილობები"
+
+#~ msgid "LVM settings"
+#~ msgstr "LVM-ის მორგება"
+
+#~ msgid "partition"
+#~ msgstr "დანაყოფი"
+
+#~ msgid "encrypted"
+#~ msgstr "დაშიფრულია"
+
+#, c-format
+#~ msgid "Transport %s"
+#~ msgstr "ტრანსპორტი %s"
 
 #, fuzzy, c-format
 #~ msgid "%s partition table"
