@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-09 02:06+0000\n"
-"PO-Revision-Date: 2024-04-08 00:53+0000\n"
+"PO-Revision-Date: 2024-04-09 10:43+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -1503,9 +1503,8 @@ msgid "Waiting for information about boot config"
 msgstr "起動設定に関する情報を待機しています"
 
 #: src/components/storage/ProposalSettingsSection.jsx:382
-#, fuzzy
 msgid "Waiting for information about space policy"
-msgstr "選択したデバイスに関する情報を待機しています"
+msgstr "領域ポリシーに関する情報を待機しています"
 
 #: src/components/storage/ProposalSettingsSection.jsx:387
 #: src/components/storage/SpacePolicyDialog.jsx:149
@@ -1652,9 +1651,8 @@ msgid "Do not modify"
 msgstr "変更しない"
 
 #: src/components/storage/SpaceActionsTable.jsx:157
-#, fuzzy
 msgid "Shrinkable"
-msgstr "%s 単位で縮小可能"
+msgstr "縮小可能"
 
 #: src/components/storage/SpaceActionsTable.jsx:159
 msgid "Action"
