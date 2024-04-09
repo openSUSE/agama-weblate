@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-09 02:06+0000\n"
-"PO-Revision-Date: 2024-04-07 11:43+0000\n"
+"PO-Revision-Date: 2024-04-09 10:43+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ca/>\n"
@@ -898,7 +898,8 @@ msgstr "Encara no s'ha seleccionat cap dispositiu."
 #, c-format
 msgid "Install using device %s shrinking existing partitions as needed"
 msgstr ""
-"Instal·la al dispositiu %s reduint-ne les particions existents segons calgui"
+"Instal·la al dispositiu %s encongint-ne les particions existents segons "
+"calgui"
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
@@ -1532,9 +1533,8 @@ msgid "Waiting for information about boot config"
 msgstr "Esperant informació sobre la configuració d'arrencada"
 
 #: src/components/storage/ProposalSettingsSection.jsx:382
-#, fuzzy
 msgid "Waiting for information about space policy"
-msgstr "Esperant informació sobre el dispositiu seleccionat"
+msgstr "Esperant informació sobre la política d'espai"
 
 #: src/components/storage/ProposalSettingsSection.jsx:387
 #: src/components/storage/SpacePolicyDialog.jsx:149
@@ -1681,9 +1681,8 @@ msgid "Do not modify"
 msgstr "No la modifiquis"
 
 #: src/components/storage/SpaceActionsTable.jsx:157
-#, fuzzy
 msgid "Shrinkable"
-msgstr "Es pot reduir %s"
+msgstr "Encongible"
 
 #: src/components/storage/SpaceActionsTable.jsx:159
 msgid "Action"
@@ -2208,7 +2207,7 @@ msgstr "suprimint tot el contingut dels %d discs seleccionats."
 
 #: src/components/storage/utils.js:86
 msgid "Shrink existing partitions"
-msgstr "Redueix les particions existents"
+msgstr "Encongeix les particions existents"
 
 #: src/components/storage/utils.js:87
 msgid "The data is kept, but the current partitions will be resized as needed."
