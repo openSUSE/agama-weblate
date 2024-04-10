@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-09 02:06+0000\n"
-"PO-Revision-Date: 2024-03-26 18:43+0000\n"
+"PO-Revision-Date: 2024-04-10 09:43+0000\n"
 "Last-Translator: Monstorix <monstorix@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.opensuse.org/projects/"
 "agama/agama-web/zh_Hans/>\n"
@@ -807,33 +807,31 @@ msgstr "软件"
 #. TRANSLATORS: Part of the message describing where the system will be installed.
 #. Do not translate 'abbr' and 'title', they are part of the HTML markup.
 #: src/components/overview/StorageSection.jsx:50
-#, fuzzy
 msgid "<abbr title='Logical Volume Manager'>LVM</abbr> volume group"
-msgstr ""
-"选择主磁盘或 <abbr title='Logical Volume Manager'>LVM</abbr> 卷组进行安装。"
+msgstr "<abbr title='Logical Volume Manager'>LVM</abbr> 卷组"
 
 #: src/components/overview/StorageSection.jsx:58
-#, fuzzy, c-format
+#, c-format
 msgid "Install in a new %1$s on %2$s shrinking existing partitions as needed"
 msgid_plural ""
 "Install in a new %1$s shrinking existing partitions at the underlying "
 "devices as needed"
-msgstr[0] "使用设备 %s 进行安装，并在需要时缩小现有的分区"
+msgstr[0] "在新建的 %1$s 上进行安装并在需要时缩小磁盘中现有的分区"
 
 #: src/components/overview/StorageSection.jsx:66
-#, fuzzy, c-format
+#, c-format
 msgid "Install in a new %1$s on %2$s without modifying existing partitions"
 msgid_plural ""
 "Install in a new %1$s without modifying the partitions at the underlying "
 "devices"
-msgstr[0] "使用设备 %s 进行安装且不修改已存在的分区"
+msgstr[0] "在新建的 %1$s 上进行安装但不修改磁盘中已存在的分区"
 
 #: src/components/overview/StorageSection.jsx:74
-#, fuzzy, c-format
+#, c-format
 msgid "Install in a new %1$s on %2$s deleting all its content"
 msgid_plural ""
 "Install in a new %1$s deleting all the content of the underlying devices"
-msgstr[0] "使用设备 %s 进行安装并删除其上的现有内容"
+msgstr[0] "在新建的 %1$s 上进行安装并删除磁盘的现有内容"
 
 #: src/components/overview/StorageSection.jsx:82
 #, c-format
@@ -843,7 +841,7 @@ msgid ""
 msgid_plural ""
 "Install in a new %1$s using a custom strategy to find the needed space at "
 "the underlying devices"
-msgstr[0] ""
+msgstr[0] "在新建的 %1$s 上进行安装，采用自定义策略寻找磁盘上的所需空间"
 
 #: src/components/overview/StorageSection.jsx:107
 #: src/components/storage/ProposalDeviceSection.jsx:63
@@ -874,9 +872,9 @@ msgstr "使用设备 %s 进行安装并删除其上的现有内容"
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
 #: src/components/overview/StorageSection.jsx:127
-#, fuzzy, c-format
+#, c-format
 msgid "Install using device %s with a custom strategy to find the needed space"
-msgstr "使用设备 %s 进行安装，并在需要时缩小现有的分区"
+msgstr "使用设备 %s 进行安装，并采用自定义策略寻找所需空间"
 
 #: src/components/overview/StorageSection.jsx:144
 msgid "Probing storage devices"
@@ -1063,11 +1061,11 @@ msgstr "安装将会占用 %s"
 msgid ""
 "To ensure the new system is able to boot, the installer may need to create "
 "or configure some partitions in the appropriate disk."
-msgstr ""
+msgstr "为确保新系统能够启动，安装程序将需要在适当的磁盘中创建或配置一些分区。"
 
 #: src/components/storage/BootSelectionDialog.jsx:122
 msgid "Partitions to boot will be allocated at the installation disk."
-msgstr ""
+msgstr "引导分区将会分配在安装磁盘上。"
 
 #. TRANSLATORS: %s is replaced by a device name and size (e.g., "/dev/sda, 500GiB")
 #: src/components/storage/BootSelectionDialog.jsx:127
