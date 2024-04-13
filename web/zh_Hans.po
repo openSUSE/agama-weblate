@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-09 02:06+0000\n"
-"PO-Revision-Date: 2024-04-10 09:43+0000\n"
+"PO-Revision-Date: 2024-04-13 18:43+0000\n"
 "Last-Translator: Monstorix <monstorix@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.opensuse.org/projects/"
 "agama/agama-web/zh_Hans/>\n"
@@ -1071,12 +1071,11 @@ msgstr "引导分区将会分配在安装磁盘上。"
 #: src/components/storage/BootSelectionDialog.jsx:127
 #, c-format
 msgid "Partitions to boot will be allocated at the installation disk (%s)."
-msgstr ""
+msgstr "引导分区将在安装磁盘（%s）上进行分配。"
 
 #: src/components/storage/BootSelectionDialog.jsx:134
-#, fuzzy
 msgid "Partitions for booting"
-msgstr "分区信息"
+msgstr "引导分区"
 
 #: src/components/storage/BootSelectionDialog.jsx:143
 #: src/components/storage/iscsi/NodeStartupOptions.js:27
@@ -1085,27 +1084,25 @@ msgstr "自动"
 
 #: src/components/storage/BootSelectionDialog.jsx:154
 #: src/components/storage/DeviceSelectionDialog.jsx:120
-#, fuzzy
 msgid "Select a disk"
-msgstr "选择一个值"
+msgstr "选择一个磁盘"
 
 #: src/components/storage/BootSelectionDialog.jsx:160
 msgid "Partitions to boot will be allocated at the following device."
-msgstr ""
+msgstr "引导分区将在以下设备上分配。"
 
 #: src/components/storage/BootSelectionDialog.jsx:163
 msgid "Choose a disk for placing the boot loader"
-msgstr ""
+msgstr "选择一个放置引导加载器的磁盘"
 
 #: src/components/storage/BootSelectionDialog.jsx:175
-#, fuzzy
 msgid "Do not configure"
-msgstr "不要修改"
+msgstr "不要配置"
 
 #: src/components/storage/BootSelectionDialog.jsx:179
 msgid ""
 "No partitions will be automatically configured for booting. Use with caution."
-msgstr ""
+msgstr "不会自动配置任何用于启动的分区。请谨慎使用。"
 
 #: src/components/storage/DASDFormatProgress.jsx:61
 msgid "Waiting for progress report"
@@ -1226,25 +1223,23 @@ msgid "Remove max channel filter"
 msgstr "移除最大通道过滤器"
 
 #: src/components/storage/DeviceSelectionDialog.jsx:105
-#, fuzzy
 msgid "Device for installing the system"
-msgstr "选择要进行系统安装的设备。"
+msgstr "用于安装系统的设备。"
 
 #: src/components/storage/DeviceSelectionDialog.jsx:129
-#, fuzzy
 msgid "Create an LVM Volume Group"
-msgstr "系统卷组"
+msgstr "创建 LVM 卷组"
 
 #. TRANSLATORS: beware the HTML markup (<b> and </b>)
 #: src/components/storage/DeviceSelectionDialog.jsx:137
 msgid ""
 "The file systems will be allocated by default as <b>new partitions in the "
 "selected device</b>."
-msgstr ""
+msgstr "默认情况下，文件系统将被分配为<b>所选设备上的新分区</b>。"
 
 #: src/components/storage/DeviceSelectionDialog.jsx:142
 msgid "Device selector for target disk"
-msgstr ""
+msgstr "目标磁盘的设备选择器"
 
 #. TRANSLATORS: beware the HTML markup (<b> and </b>)
 #: src/components/storage/DeviceSelectionDialog.jsx:156
@@ -1252,12 +1247,11 @@ msgid ""
 "The file systems will be allocated by default as <b>logical volumes of a new "
 "LVM Volume Group</b>. The corresponding physical volumes will be created on "
 "demand as new partitions at the selected devices."
-msgstr ""
+msgstr "默认情况下，文件系统将被分配为<b>新建 LVM 卷组中的逻辑卷</b>。相应的物理卷将作为新分区按需在所选设备上被创建。"
 
 #: src/components/storage/DeviceSelectionDialog.jsx:162
-#, fuzzy
 msgid "Device selector for new LVM volume group"
-msgstr "用于创建卷组的设备"
+msgstr "新建 LVM 卷组的设备选择器"
 
 #: src/components/storage/DeviceSelectorTable.jsx:34
 #: src/components/storage/ProposalResultSection.jsx:135
@@ -1266,9 +1260,8 @@ msgid "Unused space"
 msgstr "未使用的空间"
 
 #: src/components/storage/DeviceSelectorTable.jsx:41
-#, fuzzy
 msgid "Content"
-msgstr "继续"
+msgstr "内容"
 
 #: src/components/storage/DeviceSelectorTable.jsx:42
 #: src/components/storage/ProposalResultSection.jsx:191
@@ -1305,15 +1298,14 @@ msgid "Planned Actions"
 msgstr "计划执行的操作"
 
 #: src/components/storage/ProposalDeviceSection.jsx:55
-#, fuzzy
 msgid "new LVM volume group"
-msgstr "系统卷组"
+msgstr "新建 LVM 卷组"
 
 #. TRANSLATORS: %s is the disk used for the LVM physical volumes (eg. "/dev/sda, 80 GiB)
 #: src/components/storage/ProposalDeviceSection.jsx:59
 #, c-format
 msgid "new LVM volume group on %s"
-msgstr ""
+msgstr "在 %s 上新建的 LVM 卷组"
 
 #: src/components/storage/ProposalDeviceSection.jsx:110
 msgid "Waiting for information about selected device"
@@ -1446,32 +1438,29 @@ msgstr "使用加密"
 
 #: src/components/storage/ProposalSettingsSection.jsx:303
 msgid "Automatically configure any additional partition to boot the system"
-msgstr ""
+msgstr "自动配置任何附加分区来引导系统"
 
 #: src/components/storage/ProposalSettingsSection.jsx:306
 msgid "nowhere (manual boot setup)"
-msgstr ""
+msgstr "无处（手动设置引导）"
 
 #: src/components/storage/ProposalSettingsSection.jsx:308
-#, fuzzy
 msgid "at the installation device"
-msgstr "安装设备"
+msgstr "在安装设备上"
 
 #. TRANSLATORS: %s is the disk used to configure the boot-related partitions (eg. "/dev/sda, 80 GiB)
 #: src/components/storage/ProposalSettingsSection.jsx:311
-#, fuzzy, c-format
+#, c-format
 msgid "at %s"
-msgstr "编辑 %s"
+msgstr "在 %s 上"
 
 #: src/components/storage/ProposalSettingsSection.jsx:315
-#, fuzzy
 msgid "Waiting for information about boot config"
-msgstr "正在等待 LVM 信息"
+msgstr "正在等待引导配置信息"
 
 #: src/components/storage/ProposalSettingsSection.jsx:382
-#, fuzzy
 msgid "Waiting for information about space policy"
-msgstr "正在等待已选择设备的信息"
+msgstr "正在等待空间策略信息"
 
 #: src/components/storage/ProposalSettingsSection.jsx:387
 #: src/components/storage/SpacePolicyDialog.jsx:149
@@ -1544,39 +1533,35 @@ msgstr "自动"
 #: src/components/storage/ProposalVolumes.jsx:215
 #, c-format
 msgid "Reused %s"
-msgstr ""
+msgstr "重用 %s"
 
 #: src/components/storage/ProposalVolumes.jsx:217
-#, fuzzy
 msgid "Transactional Btrfs"
-msgstr "事务性"
+msgstr "事务性 Btrfs"
 
 #: src/components/storage/ProposalVolumes.jsx:219
-#, fuzzy
 msgid "Btrfs with snapshots"
-msgstr "带快照"
+msgstr "带快照的 Btrfs"
 
 #. TRANSLATORS: %s will be replaced by a disk name (eg. "/dev/sda")
 #: src/components/storage/ProposalVolumes.jsx:227
-#, fuzzy, c-format
+#, c-format
 msgid "Partition at %s"
-msgstr "分区信息"
+msgstr "位于 %s 的分区"
 
 #. TRANSLATORS: %s will be replaced by a disk name (eg. "/dev/sda")
 #: src/components/storage/ProposalVolumes.jsx:230
 #, c-format
 msgid "Separate LVM at %s"
-msgstr ""
+msgstr "位于 %s 的单独 LVM"
 
 #: src/components/storage/ProposalVolumes.jsx:234
-#, fuzzy
 msgid "Logical volume at system LVM"
-msgstr "使用逻辑卷管理（LVM）"
+msgstr "位于系统 LVM 的逻辑卷"
 
 #: src/components/storage/ProposalVolumes.jsx:236
-#, fuzzy
 msgid "Partition at installation disk"
-msgstr "缩小安装设备上的分区"
+msgstr "安装磁盘上的分区"
 
 #: src/components/storage/ProposalVolumes.jsx:243
 #: src/components/storage/SpaceActionsTable.jsx:124
@@ -1596,18 +1581,16 @@ msgstr "挂载点"
 
 #. TRANSLATORS: where (and how) the file-system is going to be created
 #: src/components/storage/ProposalVolumes.jsx:326
-#, fuzzy
 msgid "Location"
-msgstr "本地化"
+msgstr "位置"
 
 #: src/components/storage/ProposalVolumes.jsx:362
 msgid "Table with mount points"
 msgstr "挂载点列表"
 
 #: src/components/storage/ProposalVolumes.jsx:426
-#, fuzzy
 msgid "File systems to create"
-msgstr "要在系统中创建的文件系统"
+msgstr "要创建的文件系统"
 
 #. TRANSLATORS: %s is replaced by a device name (e.g., /dev/sda)
 #: src/components/storage/SpaceActionsTable.jsx:121
@@ -1624,9 +1607,8 @@ msgid "Do not modify"
 msgstr "不要修改"
 
 #: src/components/storage/SpaceActionsTable.jsx:157
-#, fuzzy
 msgid "Shrinkable"
-msgstr "可缩小 %s"
+msgstr "可缩小"
 
 #: src/components/storage/SpaceActionsTable.jsx:159
 msgid "Action"
@@ -1895,10 +1877,9 @@ msgstr "SD 卡"
 #: src/components/storage/device-utils.jsx:73
 #, c-format
 msgid "%s disk"
-msgstr ""
+msgstr "%s 磁盘"
 
 #: src/components/storage/device-utils.jsx:74
-#, fuzzy
 msgid "Disk"
 msgstr "磁盘"
 
