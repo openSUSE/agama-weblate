@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-14 03:11+0000\n"
-"PO-Revision-Date: 2024-04-09 10:43+0000\n"
+"PO-Revision-Date: 2024-04-15 00:43+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -1616,9 +1616,8 @@ msgid "Delete"
 msgstr "削除"
 
 #: src/components/storage/ProposalVolumes.jsx:299
-#, fuzzy
 msgid "Change location"
-msgstr "タイムゾーンの変更"
+msgstr "場所の変更"
 
 #: src/components/storage/ProposalVolumes.jsx:337
 msgid "Edit file system"
@@ -1817,58 +1816,45 @@ msgstr "最大サイズは最小サイズより大きくなければなりませ
 
 #. TRANSLATORS: %s is replaced by a device label (e.g., "/dev/vda, 50 GiB").
 #: src/components/storage/VolumeLocationDialog.jsx:138
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The filesystem will be allocated as a new partition at the installation disk "
 "(%s)."
-msgstr ""
-"既定では、ファイルシステムは <b>選択したデバイス内の新規パーティション</b> と"
-"して割り当てます。"
+msgstr "ファイルシステムはインストール先のディスク (%s) 内の新規パーティションとして作成します。"
 
 #: src/components/storage/VolumeLocationDialog.jsx:142
-#, fuzzy
 msgid ""
 "The filesystem will be allocated as a new partition at the installation disk."
-msgstr ""
-"既定では、ファイルシステムは <b>選択したデバイス内の新規パーティション</b> と"
-"して割り当てます。"
+msgstr "ファイルシステムはインストール先のディスク内の新規パーティションとして作成します。"
 
 #: src/components/storage/VolumeLocationDialog.jsx:144
-#, fuzzy
 msgid ""
 "The file system will be allocated as a logical volume at the system LVM."
-msgstr ""
-"既定では、ファイルシステムは <b>選択したデバイス内の新規パーティション</b> と"
-"して割り当てます。"
+msgstr "ファイルシステムはシステム LVM 内の新しい論理ボリュームとして作成します。"
 
 #: src/components/storage/VolumeLocationDialog.jsx:149
-#, fuzzy, c-format
+#, c-format
 msgid "Location for %s file system"
-msgstr "ファイルシステムに対して正確なサイズを設定します。"
+msgstr "%s ファイルシステムの場所"
 
 #: src/components/storage/VolumeLocationDialog.jsx:174
-#, fuzzy
 msgid ""
 "The file system will be allocated as a new partition at the selected disk."
-msgstr ""
-"既定では、ファイルシステムは <b>選択したデバイス内の新規パーティション</b> と"
-"して割り当てます。"
+msgstr "ファイルシステムは選択したディスク内の新規パーティションとして作成します。"
 
 #: src/components/storage/VolumeLocationDialog.jsx:177
-#, fuzzy
 msgid "Choose a disk for placing the file system"
-msgstr "ブートローダを配置するディスクを選択してください"
+msgstr "ファイルシステムを配置するディスクの選択"
 
 #: src/components/storage/VolumeLocationDialog.jsx:185
-#, fuzzy
 msgid "Create a dedicated LVM volume group"
-msgstr "LVM ボリュームグループの作成"
+msgstr "専用の LVM ボリュームグループの作成"
 
 #: src/components/storage/VolumeLocationDialog.jsx:186
 msgid ""
 "A new volume group will be allocated in the selected disk and the file "
 "system will be created as a logical volume."
-msgstr ""
+msgstr "選択したディスク内に新しいボリュームグループを作成し、論理ボリュームとしてファイルシステムを作成します。"
 
 #: src/components/storage/ZFCPDiskForm.jsx:113
 msgid "The zFCP disk was not activated."
