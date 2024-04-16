@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-16 02:06+0000\n"
-"PO-Revision-Date: 2024-04-14 10:43+0000\n"
+"PO-Revision-Date: 2024-04-16 12:31+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ca/>\n"
@@ -191,17 +191,16 @@ msgstr "Mostra'n més detalls"
 
 #. TRANSLATORS: "Trusted Platform Module" is the name of the technology and "TPM" its abbreviation
 #: src/components/core/InstallationFinished.jsx:54
-#, fuzzy
 msgid ""
 "The final step to configure the Trusted Platform Module (TPM) to "
 "automatically open encrypted devices will take place during the first boot "
 "of the new system. For that to work, the machine needs to boot directly to "
 "the new boot loader."
 msgstr ""
-"El pas final per configurar el <abbr title='Trusted Platform Module'>TPM</"
-"abbr> per obrir automàticament dispositius encriptats es farà durant la "
-"primera arrencada del sistema. Perquè això funcioni, la màquina ha "
-"d'arrencar directament des del carregador d'arrencada nou."
+"El pas final per configurar el Mòdul de plataforma de confiança (TPM) per "
+"obrir automàticament dispositius encriptats es farà durant la primera "
+"arrencada del nou sistema. Perquè això funcioni, la màquina ha d'arrencar "
+"directament amb el carregador d'arrencada nou."
 
 #. TRANSLATORS: page title
 #: src/components/core/InstallationFinished.jsx:88
@@ -825,9 +824,8 @@ msgstr "Programari"
 
 #. TRANSLATORS: Part of the message describing where the system will be installed.
 #: src/components/overview/StorageSection.jsx:63
-#, fuzzy
 msgid "Logical Volume Manager (LVM) volume group"
-msgstr "Grup de volums <abbr title='Logical Volume Manager'>LVM</abbr>"
+msgstr "Grup de volums del Gestor de volums lògics (LVM)"
 
 #: src/components/overview/StorageSection.jsx:71
 #, c-format
@@ -1099,9 +1097,8 @@ msgid "Installation will take %s"
 msgstr "La instal·lació necessitarà %s"
 
 #: src/components/storage/BootConfigField.jsx:46
-#, fuzzy
 msgid "Change boot options"
-msgstr "Canvia la ubicació"
+msgstr "Canvia les opcions d'arrencada"
 
 #: src/components/storage/BootConfigField.jsx:91
 msgid "Waiting for information about boot config"
@@ -1109,19 +1106,20 @@ msgstr "Esperant informació sobre la configuració d'arrencada"
 
 #: src/components/storage/BootConfigField.jsx:97
 msgid "Installation will not configure partitions for booting."
-msgstr ""
+msgstr "La instal·lació no configurarà les particions per a l'arrencada."
 
 #: src/components/storage/BootConfigField.jsx:99
-#, fuzzy
 msgid ""
 "Installation will configure partitions for booting at the installation disk."
-msgstr "encongint les particions del dispositiu d'instal·lació."
+msgstr ""
+"La instal·lació configurarà les particions per arrencar al disc "
+"d'instal·lació."
 
 #. TRANSLATORS: %s is the disk used to configure the boot-related partitions (eg. "/dev/sda, 80 GiB)
 #: src/components/storage/BootConfigField.jsx:102
 #, c-format
 msgid "Installation will configure partitions for booting at %s."
-msgstr ""
+msgstr "La instal·lació configurarà les particions per arrencar a %s."
 
 #: src/components/storage/BootSelectionDialog.jsx:116
 msgid ""
@@ -1349,9 +1347,8 @@ msgstr "Mida"
 
 #: src/components/storage/EncryptionField.jsx:38
 #: src/components/storage/EncryptionSettingsDialog.jsx:36
-#, fuzzy
 msgid "Encryption"
-msgstr "Usa encriptació"
+msgstr "Encriptació"
 
 #: src/components/storage/EncryptionField.jsx:39
 #: src/components/storage/EncryptionSettingsDialog.jsx:37
@@ -1359,44 +1356,44 @@ msgid ""
 "Full Disk Encryption (FDE) allows to protect the information stored at the "
 "device, including data, programs, and system files."
 msgstr ""
+"L'encriptació de disc complet (FDE) permet protegir la informació "
+"emmagatzemada al dispositiu, incloses dades, programes i fitxers del sistema."
 
 #: src/components/storage/EncryptionField.jsx:43
 msgid "disabled"
-msgstr ""
+msgstr "inhabilitada"
 
 #: src/components/storage/EncryptionField.jsx:44
 msgid "enabled"
-msgstr ""
+msgstr "habilitada"
 
 #: src/components/storage/EncryptionField.jsx:45
 msgid "using TPM unlocking"
-msgstr ""
+msgstr "usant el desblocatge de TPM"
 
 #. TRANSLATORS: "Trusted Platform Module" is the name of the technology and TPM its abbreviation
 #: src/components/storage/EncryptionSettingsDialog.jsx:40
-#, fuzzy
 msgid ""
 "Use the Trusted Platform Module (TPM) to decrypt automatically on each boot"
-msgstr "Usa el TPM per a la desencriptació automàtica a cada arrencada"
+msgstr ""
+"Useu el mòdul de plataforma de confiança (TPM) per fer-ne la desencriptació "
+"automàticament a cada arrencada."
 
 #. TRANSLATORS: The word 'directly' is key here. For example, booting to the installer media and then choosing
 #. 'Boot from Hard Disk' from there will not work. Keep it sort (this is a hint in a form) but keep it clear.
 #: src/components/storage/EncryptionSettingsDialog.jsx:43
-#, fuzzy
 msgid ""
 "The password will not be needed to boot and access the data if the TPM can "
 "verify the integrity of the system. TPM sealing requires the new system to "
 "be booted directly on its first run."
 msgstr ""
-"La contrasenya no serà necessària per arrencar i accedir a les dades si el "
-"<abbr title='Trusted Platform Module'>TPM</abbr> pot verificar la integritat "
-"del sistema. El segellament de TPM requereix que el sistema nou s'iniciï "
-"directament a la primera execució."
+"La contrasenya no caldrà per arrencar i accedir a les dades si el TPM pot "
+"verificar la integritat del sistema. El segellat de TPM requereix que el nou "
+"sistema s'iniciï directament a la primera execució."
 
 #: src/components/storage/EncryptionSettingsDialog.jsx:99
-#, fuzzy
 msgid "Encrypt the system"
-msgstr "Edita el sistema de fitxers"
+msgstr "Encripta el sistema"
 
 #. TRANSLATORS: page title for iSCSI configuration
 #: src/components/storage/ISCSIPage.jsx:31
@@ -1409,11 +1406,10 @@ msgstr "Dispositiu d'instal·lació"
 
 #. TRANSLATORS: The storage "Installation device" field's description.
 #: src/components/storage/InstallationDeviceField.jsx:40
-#, fuzzy
 msgid "Select the main disk or LVM Volume Group for installation."
 msgstr ""
-"Seleccioneu el disc principal o el grup de volums <abbr title='Logical "
-"Volume Manager'>LVM</abbr> per a la instal·lació."
+"Seleccioneu el disc principal o el grup de volums d'LVM per a la "
+"instal·lació."
 
 #: src/components/storage/InstallationDeviceField.jsx:54
 msgid "new LVM volume group"
@@ -1427,7 +1423,7 @@ msgstr "grup de volums LVM nou a %s"
 
 #: src/components/storage/InstallationDeviceField.jsx:67
 msgid "storage technologies"
-msgstr ""
+msgstr "tecnologies d'emmagatzematge"
 
 #: src/components/storage/InstallationDeviceField.jsx:112
 msgid "Waiting for information about selected device"
@@ -1435,92 +1431,92 @@ msgstr "Esperant informació sobre el dispositiu seleccionat"
 
 #: src/components/storage/InstallationDeviceField.jsx:123
 msgid "Prepare more devices by configuring advanced"
-msgstr ""
+msgstr "Prepareu més dispositius mitjançant la configuració avançada"
 
 #. TRANSLATORS: minimum device size, %s is replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:60
-#, fuzzy, c-format
+#, c-format
 msgid "at least %s"
-msgstr "Almenys %s"
+msgstr "almenys %s"
 
 #. TRANSLATORS: "/" is in an LVM logical volume. %s replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:84
-#, fuzzy, c-format
+#, c-format
 msgid "Transactional Btrfs root volume (%s)"
-msgstr "Sistema de fitxers d'arrel transaccional"
+msgstr "Volum d'arrel de Btrfs transaccional (%s)"
 
 #. TRANSLATORS: %s replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:86
-#, fuzzy, c-format
+#, c-format
 msgid "Transactional Btrfs root partition (%s)"
-msgstr "Btrfs transaccional"
+msgstr "Partició d'arrel Btrfs transaccional (%s)"
 
 #. TRANSLATORS: "/" is in an LVM logical volume. %s replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:91
-#, fuzzy, c-format
+#, c-format
 msgid "Btrfs root volume with snapshots (%s)"
-msgstr "Btrfs amb instantànies"
+msgstr "Volum d'arrel Btrfs amb instantànies (%s)"
 
 #. TRANSLATORS: %s replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:93
-#, fuzzy, c-format
+#, c-format
 msgid "Btrfs root partition with snapshots (%s)"
-msgstr "Btrfs amb instantànies"
+msgstr "Partició d'arrel Btrfs amb instantànies (%s)"
 
 #. TRANSLATORS: This results in something like "Mount /dev/sda3 at /home (25 GiB)" since
 #. %1$s is replaced by the device name, %2$s by the mount point and %3$s by the size
 #: src/components/storage/PartitionsField.jsx:102
 #, c-format
 msgid "Mount %1$s at %2$s (%3$s)"
-msgstr ""
+msgstr "Munta %1$s a %2$s (%3$s)"
 
 #. TRANSLATORS: This results in something like "Swap at /dev/sda3 (2 GiB)" since
 #. %1$s is replaced by the device name, and %2$s by the size
 #: src/components/storage/PartitionsField.jsx:108
 #, c-format
 msgid "Swap at %1$s (%2$s)"
-msgstr ""
+msgstr "Intercanvi a %1$s (%2$s)"
 
 #. TRANSLATORS: Swap is in an LVM logical volume. %s replaced by size string, e.g. "8 GiB"
 #: src/components/storage/PartitionsField.jsx:112
 #, c-format
 msgid "Swap volume (%s)"
-msgstr ""
+msgstr "Volum d'intercanvi (%s)"
 
 #. TRANSLATORS: %s replaced by size string, e.g. "8 GiB"
 #: src/components/storage/PartitionsField.jsx:114
-#, fuzzy, c-format
+#, c-format
 msgid "Swap partition (%s)"
-msgstr "Partició a %s"
+msgstr "Partició d'intercanvi (%s)"
 
 #. TRANSLATORS: This results in something like "Btrfs root at /dev/sda3 (20 GiB)" since
 #. %1$s is replaced by the filesystem type, %2$s by the device name, and %3$s by the size
 #: src/components/storage/PartitionsField.jsx:123
 #, c-format
 msgid "%1$s root at %2$s (%3$s)"
-msgstr ""
+msgstr "Arrel %1$s a %2$s (%3$s)"
 
 #. TRANSLATORS: "/" is in an LVM logical volume.
 #. Results in something like "Btrfs root volume (at least 20 GiB)" since
 #. $1$s is replaced by filesystem type and %2$s by size description
 #: src/components/storage/PartitionsField.jsx:129
-#, fuzzy, c-format
+#, c-format
 msgid "%1$s root volume (%2$s)"
-msgstr "La presència d'altres volums (%s)"
+msgstr "Volum d'arrel de %1$s (%2$s)"
 
 #. TRANSLATORS: Results in something like "Btrfs root partition (at least 20 GiB)" since
 #. $1$s is replaced by filesystem type and %2$s by size description
 #: src/components/storage/PartitionsField.jsx:132
-#, fuzzy, c-format
+#, c-format
 msgid "%1$s root partition (%2$s)"
-msgstr "%s amb %d particions"
+msgstr "Partició d'arrel %1$s (%2$s)"
 
 #. TRANSLATORS: This results in something like "Ext4 /home at /dev/sda3 (20 GiB)" since
 #. %1$s is replaced by filesystem type, %2$s by mount point, %3$s by device name and %4$s by size
 #: src/components/storage/PartitionsField.jsx:138
 #, c-format
 msgid "%1$s %2$s at %3$s (%4$s)"
-msgstr ""
+msgstr "%1$s %2$s a %3$s (%4$s)"
 
 #. TRANSLATORS: The filesystem is in an LVM logical volume.
 #. Results in something like "Ext4 /home volume (at least 10 GiB)" since
@@ -1528,30 +1524,28 @@ msgstr ""
 #: src/components/storage/PartitionsField.jsx:144
 #, c-format
 msgid "%1$s %2$s volume (%3$s)"
-msgstr ""
+msgstr "Volum %1$s per a %2$s (%3$s)"
 
 #. TRANSLATORS: This results in something like "Ext4 /home partition (at least 10 GiB)" since
 #. %1$s is replaced by the filesystem type, %2$s by the mount point and %3$s by the size description
 #: src/components/storage/PartitionsField.jsx:147
-#, fuzzy, c-format
+#, c-format
 msgid "%1$s %2$s partition (%3$s)"
-msgstr "%s amb %d particions"
+msgstr "Partició %1$s per a %2$s (%3$s)"
 
 #: src/components/storage/PartitionsField.jsx:159
-#, fuzzy
 msgid "Do not configure partitions for booting"
-msgstr "Particions per a l'arrencada"
+msgstr "No configuris particions per a l'arrencada."
 
 #: src/components/storage/PartitionsField.jsx:162
-#, fuzzy
 msgid "Boot partitions at installation disk"
-msgstr "Partició al disc d'instal·lació"
+msgstr "Particions per a l'arrencada al disc d'instal·lació"
 
 #. TRANSLATORS: %s is the disk used to configure the boot-related partitions (eg. "/dev/sda, 80 GiB)
 #: src/components/storage/PartitionsField.jsx:165
-#, fuzzy, c-format
+#, c-format
 msgid "Boot partitions at %s"
-msgstr "Partició a %s"
+msgstr "Particions per l'arrencada a %s"
 
 #. TRANSLATORS: header for a list of items referring to size limits for file systems
 #: src/components/storage/PartitionsField.jsx:187
@@ -1660,15 +1654,16 @@ msgid "Table with mount points"
 msgstr "Taula amb punts de muntatge"
 
 #: src/components/storage/PartitionsField.jsx:702
-#, fuzzy
 msgid "Partitions and file systems"
-msgstr "Ubicació per al sistema de fitxers %s"
+msgstr "Particions i sistemes de fitxers"
 
 #: src/components/storage/PartitionsField.jsx:703
 msgid ""
 "Structure of the new system, including any additional partition needed for "
 "booting,"
 msgstr ""
+"Estructura del sistema nou, inclosa qualsevol partició addicional necessària "
+"per a arrencar,"
 
 #. TRANSLATORS: show/hide toggle action, this is a clickable link
 #: src/components/storage/ProposalActionsDialog.jsx:67
@@ -1781,19 +1776,16 @@ msgstr ""
 "fitxers Btrfs només de lectura actualitzat a través d'instantànies."
 
 #: src/components/storage/SnapshotsField.jsx:36
-#, fuzzy
 msgid "Use Btrfs snapshots for the root file system"
-msgstr "Mida exacta per al sistema de fitxers."
+msgstr "Usa instantànies de Btrfs per al sistema de fitxers d'arrel."
 
 #: src/components/storage/SnapshotsField.jsx:37
-#, fuzzy
 msgid ""
 "Allows to boot to a previous version of the system after configuration "
 "changes or software upgrades."
 msgstr ""
-"Usa Btrfs per al sistema de fitxers d'arrel, que permet arrencar amb una "
-"versió anterior del sistema després de canvis de configuració o "
-"actualitzacions de programari."
+"Permet arrencar amb una versió anterior del sistema després de canvis de "
+"configuració o actualitzacions de programari."
 
 #. TRANSLATORS: %s is replaced by a device name (e.g., /dev/sda)
 #: src/components/storage/SpaceActionsTable.jsx:121
@@ -1839,13 +1831,12 @@ msgid "Waiting for information about space policy"
 msgstr "Esperant informació sobre la política d'espai"
 
 #: src/components/storage/SpacePolicyField.jsx:88
-#, fuzzy
 msgid ""
 "Allocating the file systems might need to find free space in the "
 "installation device(s)."
 msgstr ""
 "L'assignació dels sistemes de fitxers pot necessitar trobar espai lliure als "
-"dispositius que s'indiquen a continuació. Trieu com fer-ho."
+"dispositius d'instal·lació."
 
 #: src/components/storage/VolumeForm.jsx:102
 msgid "Select a value"
