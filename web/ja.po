@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-16 02:06+0000\n"
-"PO-Revision-Date: 2024-04-15 00:43+0000\n"
+"PO-Revision-Date: 2024-04-16 07:21+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -190,17 +190,14 @@ msgstr "さらに詳細を表示する"
 
 #. TRANSLATORS: "Trusted Platform Module" is the name of the technology and "TPM" its abbreviation
 #: src/components/core/InstallationFinished.jsx:54
-#, fuzzy
 msgid ""
 "The final step to configure the Trusted Platform Module (TPM) to "
 "automatically open encrypted devices will take place during the first boot "
 "of the new system. For that to work, the machine needs to boot directly to "
 "the new boot loader."
 msgstr ""
-"<abbr title='Trusted Platform Module'>TPM</abbr> の設定の最後では、新しいシス"
-"テムの初回起動時に暗号化されたデバイスを自動で解除するよう設定します。これを"
-"動作させるためには、マシンが新しいブートローダを直接起動するように設定してお"
-"く必要があります。"
+"Trusted Platform Module (TPM) の設定の最後では、新しいシステムの初回起動時に暗号化されたデバイスを自動で解除するよう設定しま"
+"す。これを動作させるためには、マシンが新しいブートローダを直接起動するように設定しておく必要があります。"
 
 #. TRANSLATORS: page title
 #: src/components/core/InstallationFinished.jsx:88
@@ -820,9 +817,8 @@ msgstr "ソフトウエア"
 
 #. TRANSLATORS: Part of the message describing where the system will be installed.
 #: src/components/overview/StorageSection.jsx:63
-#, fuzzy
 msgid "Logical Volume Manager (LVM) volume group"
-msgstr "<abbr title='Logical Volume Manager'>LVM</abbr> ボリュームグループ"
+msgstr "Logical Volume Manager (LVM) ボリュームグループ"
 
 #: src/components/overview/StorageSection.jsx:71
 #, c-format
@@ -1080,9 +1076,8 @@ msgid "Installation will take %s"
 msgstr "インストールを行うには %s が必要です"
 
 #: src/components/storage/BootConfigField.jsx:46
-#, fuzzy
 msgid "Change boot options"
-msgstr "場所の変更"
+msgstr "起動オプションの変更"
 
 #: src/components/storage/BootConfigField.jsx:91
 msgid "Waiting for information about boot config"
@@ -1090,19 +1085,18 @@ msgstr "起動設定に関する情報を待機しています"
 
 #: src/components/storage/BootConfigField.jsx:97
 msgid "Installation will not configure partitions for booting."
-msgstr ""
+msgstr "インストール作業では起動用のパーティションを設定しません。"
 
 #: src/components/storage/BootConfigField.jsx:99
-#, fuzzy
 msgid ""
 "Installation will configure partitions for booting at the installation disk."
-msgstr "インストール先のディスクのパーティションを縮小します"
+msgstr "インストール作業でインストール先のディスクに起動用のパーティションを設定します。"
 
 #. TRANSLATORS: %s is the disk used to configure the boot-related partitions (eg. "/dev/sda, 80 GiB)
 #: src/components/storage/BootConfigField.jsx:102
 #, c-format
 msgid "Installation will configure partitions for booting at %s."
-msgstr ""
+msgstr "インストール作業で %s に起動用のパーティションを設定します。"
 
 #: src/components/storage/BootSelectionDialog.jsx:116
 msgid ""
@@ -1328,9 +1322,8 @@ msgstr "サイズ"
 
 #: src/components/storage/EncryptionField.jsx:38
 #: src/components/storage/EncryptionSettingsDialog.jsx:36
-#, fuzzy
 msgid "Encryption"
-msgstr "暗号化を使用する"
+msgstr "暗号化"
 
 #: src/components/storage/EncryptionField.jsx:39
 #: src/components/storage/EncryptionSettingsDialog.jsx:37
@@ -1338,44 +1331,41 @@ msgid ""
 "Full Disk Encryption (FDE) allows to protect the information stored at the "
 "device, including data, programs, and system files."
 msgstr ""
+"完全ディスク暗号化 (Full Disk Encryption; FDE) "
+"を使用することで、データやプログラム、システムファイルを含むデバイス内の情報保護を行うことができます。"
 
 #: src/components/storage/EncryptionField.jsx:43
 msgid "disabled"
-msgstr ""
+msgstr "無効"
 
 #: src/components/storage/EncryptionField.jsx:44
 msgid "enabled"
-msgstr ""
+msgstr "有効"
 
 #: src/components/storage/EncryptionField.jsx:45
 msgid "using TPM unlocking"
-msgstr ""
+msgstr "TPM 解錠を使用"
 
 #. TRANSLATORS: "Trusted Platform Module" is the name of the technology and TPM its abbreviation
 #: src/components/storage/EncryptionSettingsDialog.jsx:40
-#, fuzzy
 msgid ""
 "Use the Trusted Platform Module (TPM) to decrypt automatically on each boot"
-msgstr "毎回の起動時に TPM を利用して自動的に暗号化解除する"
+msgstr "毎回の起動時に Trusted Platform Module (TPM) を利用して自動的に暗号化解除します"
 
 #. TRANSLATORS: The word 'directly' is key here. For example, booting to the installer media and then choosing
 #. 'Boot from Hard Disk' from there will not work. Keep it sort (this is a hint in a form) but keep it clear.
 #: src/components/storage/EncryptionSettingsDialog.jsx:43
-#, fuzzy
 msgid ""
 "The password will not be needed to boot and access the data if the TPM can "
 "verify the integrity of the system. TPM sealing requires the new system to "
 "be booted directly on its first run."
 msgstr ""
-"<abbr title='Trusted Platform Module'>TPM</abbr> 側でシステムの一貫性検証が成"
-"功すると、起動とデータへのアクセスに際してパスワードが不要になります。 TPM "
-"シーリングを使用するには、新しいシステムの初回起動時に直接起動を行う必要があ"
-"ります。"
+"TPM 側でシステムの一貫性検証が成功すると、起動とデータへのアクセス処理に際してパスワードが不要になります。 TPM "
+"シーリングを使用するには、新しいシステムの初回起動時に直接起動を行う必要があります。"
 
 #: src/components/storage/EncryptionSettingsDialog.jsx:99
-#, fuzzy
 msgid "Encrypt the system"
-msgstr "ファイルシステムの編集"
+msgstr "システムの暗号化"
 
 #. TRANSLATORS: page title for iSCSI configuration
 #: src/components/storage/ISCSIPage.jsx:31
@@ -1388,11 +1378,8 @@ msgstr "インストール先のデバイス"
 
 #. TRANSLATORS: The storage "Installation device" field's description.
 #: src/components/storage/InstallationDeviceField.jsx:40
-#, fuzzy
 msgid "Select the main disk or LVM Volume Group for installation."
-msgstr ""
-"インストール先のメインディスクもしくは <abbr title='Logical Volume "
-"Manager'>LVM</abbr> ボリュームグループを選択してください。"
+msgstr "インストール先のメインディスクもしくは LVM ボリュームグループを選択してください。"
 
 #: src/components/storage/InstallationDeviceField.jsx:54
 msgid "new LVM volume group"
@@ -1406,7 +1393,7 @@ msgstr "%s 内の新規 LVM ボリュームグループ"
 
 #: src/components/storage/InstallationDeviceField.jsx:67
 msgid "storage technologies"
-msgstr ""
+msgstr "ストレージ技術"
 
 #: src/components/storage/InstallationDeviceField.jsx:112
 msgid "Waiting for information about selected device"
@@ -1414,92 +1401,92 @@ msgstr "選択したデバイスに関する情報を待機しています"
 
 #: src/components/storage/InstallationDeviceField.jsx:123
 msgid "Prepare more devices by configuring advanced"
-msgstr ""
+msgstr "高度な設定でさらにデバイスを検出します"
 
 #. TRANSLATORS: minimum device size, %s is replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:60
-#, fuzzy, c-format
+#, c-format
 msgid "at least %s"
 msgstr "少なくとも %s"
 
 #. TRANSLATORS: "/" is in an LVM logical volume. %s replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:84
-#, fuzzy, c-format
+#, c-format
 msgid "Transactional Btrfs root volume (%s)"
-msgstr "トランザクション型のルートファイルシステム"
+msgstr "トランザクション型の btrfs ルートボリューム (%s)"
 
 #. TRANSLATORS: %s replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:86
-#, fuzzy, c-format
+#, c-format
 msgid "Transactional Btrfs root partition (%s)"
-msgstr "トランザクション型 btrfs"
+msgstr "トランザクション型の btrfs ルートパーティション (%s)"
 
 #. TRANSLATORS: "/" is in an LVM logical volume. %s replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:91
-#, fuzzy, c-format
+#, c-format
 msgid "Btrfs root volume with snapshots (%s)"
-msgstr "スナップショット有りの btrfs"
+msgstr "スナップショット有りの btrfs ルートボリューム (%s)"
 
 #. TRANSLATORS: %s replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:93
-#, fuzzy, c-format
+#, c-format
 msgid "Btrfs root partition with snapshots (%s)"
-msgstr "スナップショット有りの btrfs"
+msgstr "スナップショット有りの btrfs ルートパーティション (%s)"
 
 #. TRANSLATORS: This results in something like "Mount /dev/sda3 at /home (25 GiB)" since
 #. %1$s is replaced by the device name, %2$s by the mount point and %3$s by the size
 #: src/components/storage/PartitionsField.jsx:102
 #, c-format
 msgid "Mount %1$s at %2$s (%3$s)"
-msgstr ""
+msgstr "%1$s を %2$s にマウント (%3$s)"
 
 #. TRANSLATORS: This results in something like "Swap at /dev/sda3 (2 GiB)" since
 #. %1$s is replaced by the device name, and %2$s by the size
 #: src/components/storage/PartitionsField.jsx:108
 #, c-format
 msgid "Swap at %1$s (%2$s)"
-msgstr ""
+msgstr "%1$s にスワップを配置 (%2$s)"
 
 #. TRANSLATORS: Swap is in an LVM logical volume. %s replaced by size string, e.g. "8 GiB"
 #: src/components/storage/PartitionsField.jsx:112
 #, c-format
 msgid "Swap volume (%s)"
-msgstr ""
+msgstr "スワップボリューム (%s)"
 
 #. TRANSLATORS: %s replaced by size string, e.g. "8 GiB"
 #: src/components/storage/PartitionsField.jsx:114
-#, fuzzy, c-format
+#, c-format
 msgid "Swap partition (%s)"
-msgstr "%s に存在するパーティション"
+msgstr "スワップパーティション (%s)"
 
 #. TRANSLATORS: This results in something like "Btrfs root at /dev/sda3 (20 GiB)" since
 #. %1$s is replaced by the filesystem type, %2$s by the device name, and %3$s by the size
 #: src/components/storage/PartitionsField.jsx:123
 #, c-format
 msgid "%1$s root at %2$s (%3$s)"
-msgstr ""
+msgstr "%2$s (%3$s) に %1$s ルートを配置"
 
 #. TRANSLATORS: "/" is in an LVM logical volume.
 #. Results in something like "Btrfs root volume (at least 20 GiB)" since
 #. $1$s is replaced by filesystem type and %2$s by size description
 #: src/components/storage/PartitionsField.jsx:129
-#, fuzzy, c-format
+#, c-format
 msgid "%1$s root volume (%2$s)"
-msgstr "その他のボリューム (%s) の存在"
+msgstr "%1$s ルートボリューム (%2$s)"
 
 #. TRANSLATORS: Results in something like "Btrfs root partition (at least 20 GiB)" since
 #. $1$s is replaced by filesystem type and %2$s by size description
 #: src/components/storage/PartitionsField.jsx:132
-#, fuzzy, c-format
+#, c-format
 msgid "%1$s root partition (%2$s)"
-msgstr "%s (%d 個のパーティション)"
+msgstr "%1$s ルートパーティション (%2$s)"
 
 #. TRANSLATORS: This results in something like "Ext4 /home at /dev/sda3 (20 GiB)" since
 #. %1$s is replaced by filesystem type, %2$s by mount point, %3$s by device name and %4$s by size
 #: src/components/storage/PartitionsField.jsx:138
 #, c-format
 msgid "%1$s %2$s at %3$s (%4$s)"
-msgstr ""
+msgstr "%3$s (%4$s) に %1$s %2$s を配置"
 
 #. TRANSLATORS: The filesystem is in an LVM logical volume.
 #. Results in something like "Ext4 /home volume (at least 10 GiB)" since
@@ -1507,30 +1494,28 @@ msgstr ""
 #: src/components/storage/PartitionsField.jsx:144
 #, c-format
 msgid "%1$s %2$s volume (%3$s)"
-msgstr ""
+msgstr "%1$s %2$s ボリューム (%3$s)"
 
 #. TRANSLATORS: This results in something like "Ext4 /home partition (at least 10 GiB)" since
 #. %1$s is replaced by the filesystem type, %2$s by the mount point and %3$s by the size description
 #: src/components/storage/PartitionsField.jsx:147
-#, fuzzy, c-format
+#, c-format
 msgid "%1$s %2$s partition (%3$s)"
-msgstr "%s (%d 個のパーティション)"
+msgstr "%1$s %2$s パーティション (%3$s)"
 
 #: src/components/storage/PartitionsField.jsx:159
-#, fuzzy
 msgid "Do not configure partitions for booting"
-msgstr "起動用パーティション"
+msgstr "起動用のパーティションを設定しない"
 
 #: src/components/storage/PartitionsField.jsx:162
-#, fuzzy
 msgid "Boot partitions at installation disk"
-msgstr "インストール先のディスクのパーティション"
+msgstr "インストール先のディスクに起動用のパーティションを設定する"
 
 #. TRANSLATORS: %s is the disk used to configure the boot-related partitions (eg. "/dev/sda, 80 GiB)
 #: src/components/storage/PartitionsField.jsx:165
-#, fuzzy, c-format
+#, c-format
 msgid "Boot partitions at %s"
-msgstr "%s に存在するパーティション"
+msgstr "%s に起動用のパーティションを設定する"
 
 #. TRANSLATORS: header for a list of items referring to size limits for file systems
 #: src/components/storage/PartitionsField.jsx:187
@@ -1639,15 +1624,14 @@ msgid "Table with mount points"
 msgstr "マウントポイントの一覧"
 
 #: src/components/storage/PartitionsField.jsx:702
-#, fuzzy
 msgid "Partitions and file systems"
-msgstr "%s ファイルシステムの場所"
+msgstr "パーティションとファイルシステム"
 
 #: src/components/storage/PartitionsField.jsx:703
 msgid ""
 "Structure of the new system, including any additional partition needed for "
 "booting,"
-msgstr ""
+msgstr "起動時に必要な追加パーティションを含む、新しいシステムの構造設定です。"
 
 #. TRANSLATORS: show/hide toggle action, this is a clickable link
 #: src/components/storage/ProposalActionsDialog.jsx:67
@@ -1754,18 +1738,14 @@ msgstr ""
 "ルシステムを利用して更新を適用します。"
 
 #: src/components/storage/SnapshotsField.jsx:36
-#, fuzzy
 msgid "Use Btrfs snapshots for the root file system"
-msgstr "ファイルシステムに対して正確なサイズを設定します。"
+msgstr "ルートファイルシステムで btrfs スナップショットを使用する"
 
 #: src/components/storage/SnapshotsField.jsx:37
-#, fuzzy
 msgid ""
 "Allows to boot to a previous version of the system after configuration "
 "changes or software upgrades."
-msgstr ""
-"ルートファイルシステムに btrfs を使用することで、設定変更前やソフトウエアの"
-"アップグレード前に戻して起動し直すことができるようになります。"
+msgstr "設定の変更やソフトウエアのアップグレードを行った際、必要に応じて以前の状態に戻して起動することができます。"
 
 #. TRANSLATORS: %s is replaced by a device name (e.g., /dev/sda)
 #: src/components/storage/SpaceActionsTable.jsx:121
@@ -1811,13 +1791,10 @@ msgid "Waiting for information about space policy"
 msgstr "領域ポリシーに関する情報を待機しています"
 
 #: src/components/storage/SpacePolicyField.jsx:88
-#, fuzzy
 msgid ""
 "Allocating the file systems might need to find free space in the "
 "installation device(s)."
-msgstr ""
-"ファイルシステムを割り当てるには、下記のデバイス内に空き領域を確保する必要が"
-"あるかもしれません。ここではその方法を選択します。"
+msgstr "ファイルシステムを割り当てるには、下記のデバイス内に空き領域を確保する必要があるかもしれません。"
 
 #: src/components/storage/VolumeForm.jsx:102
 msgid "Select a value"
