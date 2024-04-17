@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-17 02:08+0000\n"
-"PO-Revision-Date: 2024-04-16 12:31+0000\n"
+"PO-Revision-Date: 2024-04-17 10:43+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ca/>\n"
@@ -1295,27 +1295,25 @@ msgstr "Suprimeix el filtre de canal màxim"
 #. system, the text in the square brackets [] is displayed in bold, use only
 #. one pair in the translation
 #: src/components/storage/DeviceSelectionDialog.jsx:103
-#, fuzzy
 msgid ""
 "The file systems will be allocated by default as [new partitions in the "
 "selected device]."
 msgstr ""
-"Els sistemes de fitxers s'assignaran per defecte com a <b>particions noves "
-"al dispositiu seleccionat</b>."
+"Els sistemes de fitxers s'assignaran per defecte com a [particions noves al "
+"dispositiu seleccionat]."
 
 #. TRANSLATORS: description for using logical volumes for installing the
 #. system, the text in the square brackets [] is displayed in bold, use only
 #. one pair in the translation
 #: src/components/storage/DeviceSelectionDialog.jsx:108
-#, fuzzy
 msgid ""
 "The file systems will be allocated by default as [logical volumes of a new "
 "LVM Volume Group]. The corresponding physical volumes will be created on "
 "demand as new partitions at the selected devices."
 msgstr ""
-"Els sistemes de fitxers s'assignaran per defecte com a <b>volums lògics d'un "
-"grup de volums LVM nou</b>. Els volums físics corresponents es crearan "
-"segons demanda com a particions noves als dispositius seleccionats."
+"Els sistemes de fitxers s'assignaran per defecte com a [volums lògics d'un "
+"nou grup de volums d'LVM]. Els volums físics corresponents es crearan segons "
+"demanda com a particions noves als dispositius seleccionats."
 
 #: src/components/storage/DeviceSelectionDialog.jsx:115
 msgid "Device for installing the system"
