@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-16 02:06+0000\n"
+"POT-Creation-Date: 2024-04-17 02:08+0000\n"
 "PO-Revision-Date: 2024-04-09 17:43+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://l10n.opensuse.org/projects/agama/agama-"
@@ -1136,7 +1136,7 @@ msgid "Automatic"
 msgstr "Otomatis"
 
 #: src/components/storage/BootSelectionDialog.jsx:154
-#: src/components/storage/DeviceSelectionDialog.jsx:121
+#: src/components/storage/DeviceSelectionDialog.jsx:130
 #: src/components/storage/VolumeLocationDialog.jsx:168
 msgid "Select a disk"
 msgstr "Pilih disk"
@@ -1276,39 +1276,45 @@ msgstr "Memfilter menurut saluran maks"
 msgid "Remove max channel filter"
 msgstr "Menghapus filter saluran maks"
 
-#: src/components/storage/DeviceSelectionDialog.jsx:106
-msgid "Device for installing the system"
-msgstr "Perangkat untuk menginstal sistem"
-
-#: src/components/storage/DeviceSelectionDialog.jsx:130
-msgid "Create an LVM Volume Group"
-msgstr "Membuat Grup Volume LVM"
-
-#. TRANSLATORS: beware the HTML markup (<b> and </b>)
-#: src/components/storage/DeviceSelectionDialog.jsx:138
+#. TRANSLATORS: description for using plain partitions for installing the
+#. system, the text in the square brackets [] is displayed in bold, use only
+#. one pair in the translation
+#: src/components/storage/DeviceSelectionDialog.jsx:103
+#, fuzzy
 msgid ""
-"The file systems will be allocated by default as <b>new partitions in the "
-"selected device</b>."
+"The file systems will be allocated by default as [new partitions in the "
+"selected device]."
 msgstr ""
 "Sistem berkas akan dialokasikan secara baku sebagai <b>partisi baru di "
 "perangkat yang dipilih</b>."
 
-#: src/components/storage/DeviceSelectionDialog.jsx:143
-msgid "Device selector for target disk"
-msgstr "Pemilih perangkat untuk disk target"
-
-#. TRANSLATORS: beware the HTML markup (<b> and </b>)
-#: src/components/storage/DeviceSelectionDialog.jsx:157
+#. TRANSLATORS: description for using logical volumes for installing the
+#. system, the text in the square brackets [] is displayed in bold, use only
+#. one pair in the translation
+#: src/components/storage/DeviceSelectionDialog.jsx:108
+#, fuzzy
 msgid ""
-"The file systems will be allocated by default as <b>logical volumes of a new "
-"LVM Volume Group</b>. The corresponding physical volumes will be created on "
+"The file systems will be allocated by default as [logical volumes of a new "
+"LVM Volume Group]. The corresponding physical volumes will be created on "
 "demand as new partitions at the selected devices."
 msgstr ""
 "Sistem berkas akan dialokasikan secara baku sebagai <b>volume logis dari "
 "Grup Volume LVM baru</b>. Volume fisik yang sesuai akan dibuat sesuai "
 "permintaan sebagai partisi baru pada perangkat yang dipilih."
 
-#: src/components/storage/DeviceSelectionDialog.jsx:163
+#: src/components/storage/DeviceSelectionDialog.jsx:115
+msgid "Device for installing the system"
+msgstr "Perangkat untuk menginstal sistem"
+
+#: src/components/storage/DeviceSelectionDialog.jsx:139
+msgid "Create an LVM Volume Group"
+msgstr "Membuat Grup Volume LVM"
+
+#: src/components/storage/DeviceSelectionDialog.jsx:149
+msgid "Device selector for target disk"
+msgstr "Pemilih perangkat untuk disk target"
+
+#: src/components/storage/DeviceSelectionDialog.jsx:165
 msgid "Device selector for new LVM volume group"
 msgstr "Pemilih perangkat untuk grup volume LVM baru"
 
@@ -1416,7 +1422,7 @@ msgstr ""
 msgid "Waiting for information about selected device"
 msgstr "Menunggu informasi tentang perangkat yang dipilih"
 
-#: src/components/storage/InstallationDeviceField.jsx:123
+#: src/components/storage/InstallationDeviceField.jsx:124
 msgid "Prepare more devices by configuring advanced"
 msgstr ""
 
@@ -1648,12 +1654,12 @@ msgstr "Pelokalan"
 msgid "Table with mount points"
 msgstr "Tabel dengan titik pemasangan"
 
-#: src/components/storage/PartitionsField.jsx:702
+#: src/components/storage/PartitionsField.jsx:703
 #, fuzzy
 msgid "Partitions and file systems"
 msgstr "Ukuran yang tepat untuk sistem berkas."
 
-#: src/components/storage/PartitionsField.jsx:703
+#: src/components/storage/PartitionsField.jsx:704
 msgid ""
 "Structure of the new system, including any additional partition needed for "
 "booting,"
@@ -1811,7 +1817,7 @@ msgid ""
 msgstr ""
 
 #: src/components/storage/SpacePolicyDialog.jsx:149
-#: src/components/storage/SpacePolicyField.jsx:86
+#: src/components/storage/SpacePolicyField.jsx:87
 msgid "Find space"
 msgstr "Temukan ruang"
 
@@ -1819,7 +1825,7 @@ msgstr "Temukan ruang"
 msgid "Waiting for information about space policy"
 msgstr "Menunggu informasi tentang kebijakan ruang"
 
-#: src/components/storage/SpacePolicyField.jsx:88
+#: src/components/storage/SpacePolicyField.jsx:89
 #, fuzzy
 msgid ""
 "Allocating the file systems might need to find free space in the "

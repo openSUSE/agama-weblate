@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-16 02:06+0000\n"
+"POT-Creation-Date: 2024-04-17 02:08+0000\n"
 "PO-Revision-Date: 2024-04-16 07:21+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -196,8 +196,10 @@ msgid ""
 "of the new system. For that to work, the machine needs to boot directly to "
 "the new boot loader."
 msgstr ""
-"Trusted Platform Module (TPM) の設定の最後では、新しいシステムの初回起動時に暗号化されたデバイスを自動で解除するよう設定しま"
-"す。これを動作させるためには、マシンが新しいブートローダを直接起動するように設定しておく必要があります。"
+"Trusted Platform Module (TPM) の設定の最後では、新しいシステムの初回起動時に"
+"暗号化されたデバイスを自動で解除するよう設定します。これを動作させるために"
+"は、マシンが新しいブートローダを直接起動するように設定しておく必要がありま"
+"す。"
 
 #. TRANSLATORS: page title
 #: src/components/core/InstallationFinished.jsx:88
@@ -1090,7 +1092,9 @@ msgstr "インストール作業では起動用のパーティションを設定
 #: src/components/storage/BootConfigField.jsx:99
 msgid ""
 "Installation will configure partitions for booting at the installation disk."
-msgstr "インストール作業でインストール先のディスクに起動用のパーティションを設定します。"
+msgstr ""
+"インストール作業でインストール先のディスクに起動用のパーティションを設定しま"
+"す。"
 
 #. TRANSLATORS: %s is the disk used to configure the boot-related partitions (eg. "/dev/sda, 80 GiB)
 #: src/components/storage/BootConfigField.jsx:102
@@ -1128,7 +1132,7 @@ msgid "Automatic"
 msgstr "自動"
 
 #: src/components/storage/BootSelectionDialog.jsx:154
-#: src/components/storage/DeviceSelectionDialog.jsx:121
+#: src/components/storage/DeviceSelectionDialog.jsx:130
 #: src/components/storage/VolumeLocationDialog.jsx:168
 msgid "Select a disk"
 msgstr "ディスクの選択"
@@ -1266,39 +1270,45 @@ msgstr "最大チャネルでフィルタ"
 msgid "Remove max channel filter"
 msgstr "最大チャネルのフィルタを削除"
 
-#: src/components/storage/DeviceSelectionDialog.jsx:106
-msgid "Device for installing the system"
-msgstr "システムのインストール先デバイス"
-
-#: src/components/storage/DeviceSelectionDialog.jsx:130
-msgid "Create an LVM Volume Group"
-msgstr "LVM ボリュームグループの作成"
-
-#. TRANSLATORS: beware the HTML markup (<b> and </b>)
-#: src/components/storage/DeviceSelectionDialog.jsx:138
+#. TRANSLATORS: description for using plain partitions for installing the
+#. system, the text in the square brackets [] is displayed in bold, use only
+#. one pair in the translation
+#: src/components/storage/DeviceSelectionDialog.jsx:103
+#, fuzzy
 msgid ""
-"The file systems will be allocated by default as <b>new partitions in the "
-"selected device</b>."
+"The file systems will be allocated by default as [new partitions in the "
+"selected device]."
 msgstr ""
 "既定では、ファイルシステムは <b>選択したデバイス内の新規パーティション</b> と"
 "して割り当てます。"
 
-#: src/components/storage/DeviceSelectionDialog.jsx:143
-msgid "Device selector for target disk"
-msgstr "宛先のディスクデバイス選択"
-
-#. TRANSLATORS: beware the HTML markup (<b> and </b>)
-#: src/components/storage/DeviceSelectionDialog.jsx:157
+#. TRANSLATORS: description for using logical volumes for installing the
+#. system, the text in the square brackets [] is displayed in bold, use only
+#. one pair in the translation
+#: src/components/storage/DeviceSelectionDialog.jsx:108
+#, fuzzy
 msgid ""
-"The file systems will be allocated by default as <b>logical volumes of a new "
-"LVM Volume Group</b>. The corresponding physical volumes will be created on "
+"The file systems will be allocated by default as [logical volumes of a new "
+"LVM Volume Group]. The corresponding physical volumes will be created on "
 "demand as new partitions at the selected devices."
 msgstr ""
 "既定では、ファイルシステムは <b>新規 LVM ボリュームグループの論理ボリューム</"
 "b> として割り当てます。対応する物理ボリュームは、必要に応じて選択したデバイス"
 "内の新規パーティションとして作成します。"
 
-#: src/components/storage/DeviceSelectionDialog.jsx:163
+#: src/components/storage/DeviceSelectionDialog.jsx:115
+msgid "Device for installing the system"
+msgstr "システムのインストール先デバイス"
+
+#: src/components/storage/DeviceSelectionDialog.jsx:139
+msgid "Create an LVM Volume Group"
+msgstr "LVM ボリュームグループの作成"
+
+#: src/components/storage/DeviceSelectionDialog.jsx:149
+msgid "Device selector for target disk"
+msgstr "宛先のディスクデバイス選択"
+
+#: src/components/storage/DeviceSelectionDialog.jsx:165
 msgid "Device selector for new LVM volume group"
 msgstr "新規 LVM ボリュームグループのデバイス選択"
 
@@ -1331,8 +1341,8 @@ msgid ""
 "Full Disk Encryption (FDE) allows to protect the information stored at the "
 "device, including data, programs, and system files."
 msgstr ""
-"完全ディスク暗号化 (Full Disk Encryption; FDE) "
-"を使用することで、データやプログラム、システムファイルを含むデバイス内の情報保護を行うことができます。"
+"完全ディスク暗号化 (Full Disk Encryption; FDE) を使用することで、データやプロ"
+"グラム、システムファイルを含むデバイス内の情報保護を行うことができます。"
 
 #: src/components/storage/EncryptionField.jsx:43
 msgid "disabled"
@@ -1350,7 +1360,9 @@ msgstr "TPM 解錠を使用"
 #: src/components/storage/EncryptionSettingsDialog.jsx:40
 msgid ""
 "Use the Trusted Platform Module (TPM) to decrypt automatically on each boot"
-msgstr "毎回の起動時に Trusted Platform Module (TPM) を利用して自動的に暗号化解除します"
+msgstr ""
+"毎回の起動時に Trusted Platform Module (TPM) を利用して自動的に暗号化解除しま"
+"す"
 
 #. TRANSLATORS: The word 'directly' is key here. For example, booting to the installer media and then choosing
 #. 'Boot from Hard Disk' from there will not work. Keep it sort (this is a hint in a form) but keep it clear.
@@ -1360,8 +1372,9 @@ msgid ""
 "verify the integrity of the system. TPM sealing requires the new system to "
 "be booted directly on its first run."
 msgstr ""
-"TPM 側でシステムの一貫性検証が成功すると、起動とデータへのアクセス処理に際してパスワードが不要になります。 TPM "
-"シーリングを使用するには、新しいシステムの初回起動時に直接起動を行う必要があります。"
+"TPM 側でシステムの一貫性検証が成功すると、起動とデータへのアクセス処理に際し"
+"てパスワードが不要になります。 TPM シーリングを使用するには、新しいシステムの"
+"初回起動時に直接起動を行う必要があります。"
 
 #: src/components/storage/EncryptionSettingsDialog.jsx:99
 msgid "Encrypt the system"
@@ -1379,7 +1392,9 @@ msgstr "インストール先のデバイス"
 #. TRANSLATORS: The storage "Installation device" field's description.
 #: src/components/storage/InstallationDeviceField.jsx:40
 msgid "Select the main disk or LVM Volume Group for installation."
-msgstr "インストール先のメインディスクもしくは LVM ボリュームグループを選択してください。"
+msgstr ""
+"インストール先のメインディスクもしくは LVM ボリュームグループを選択してくださ"
+"い。"
 
 #: src/components/storage/InstallationDeviceField.jsx:54
 msgid "new LVM volume group"
@@ -1399,7 +1414,7 @@ msgstr "ストレージ技術"
 msgid "Waiting for information about selected device"
 msgstr "選択したデバイスに関する情報を待機しています"
 
-#: src/components/storage/InstallationDeviceField.jsx:123
+#: src/components/storage/InstallationDeviceField.jsx:124
 msgid "Prepare more devices by configuring advanced"
 msgstr "高度な設定でさらにデバイスを検出します"
 
@@ -1623,11 +1638,11 @@ msgstr "場所"
 msgid "Table with mount points"
 msgstr "マウントポイントの一覧"
 
-#: src/components/storage/PartitionsField.jsx:702
+#: src/components/storage/PartitionsField.jsx:703
 msgid "Partitions and file systems"
 msgstr "パーティションとファイルシステム"
 
-#: src/components/storage/PartitionsField.jsx:703
+#: src/components/storage/PartitionsField.jsx:704
 msgid ""
 "Structure of the new system, including any additional partition needed for "
 "booting,"
@@ -1745,7 +1760,9 @@ msgstr "ルートファイルシステムで btrfs スナップショットを�
 msgid ""
 "Allows to boot to a previous version of the system after configuration "
 "changes or software upgrades."
-msgstr "設定の変更やソフトウエアのアップグレードを行った際、必要に応じて以前の状態に戻して起動することができます。"
+msgstr ""
+"設定の変更やソフトウエアのアップグレードを行った際、必要に応じて以前の状態に"
+"戻して起動することができます。"
 
 #. TRANSLATORS: %s is replaced by a device name (e.g., /dev/sda)
 #: src/components/storage/SpaceActionsTable.jsx:121
@@ -1782,7 +1799,7 @@ msgstr ""
 "あるかもしれません。ここではその方法を選択します。"
 
 #: src/components/storage/SpacePolicyDialog.jsx:149
-#: src/components/storage/SpacePolicyField.jsx:86
+#: src/components/storage/SpacePolicyField.jsx:87
 msgid "Find space"
 msgstr "領域の検出"
 
@@ -1790,11 +1807,13 @@ msgstr "領域の検出"
 msgid "Waiting for information about space policy"
 msgstr "領域ポリシーに関する情報を待機しています"
 
-#: src/components/storage/SpacePolicyField.jsx:88
+#: src/components/storage/SpacePolicyField.jsx:89
 msgid ""
 "Allocating the file systems might need to find free space in the "
 "installation device(s)."
-msgstr "ファイルシステムを割り当てるには、下記のデバイス内に空き領域を確保する必要があるかもしれません。"
+msgstr ""
+"ファイルシステムを割り当てるには、下記のデバイス内に空き領域を確保する必要が"
+"あるかもしれません。"
 
 #: src/components/storage/VolumeForm.jsx:102
 msgid "Select a value"

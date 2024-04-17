@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-16 02:06+0000\n"
+"POT-Creation-Date: 2024-04-17 02:08+0000\n"
 "PO-Revision-Date: 2024-03-10 20:42+0000\n"
 "Last-Translator: faila fail <yassadmi@proton.me>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/agama/agama-web/fr/"
@@ -1160,7 +1160,7 @@ msgid "Automatic"
 msgstr "Automatique"
 
 #: src/components/storage/BootSelectionDialog.jsx:154
-#: src/components/storage/DeviceSelectionDialog.jsx:121
+#: src/components/storage/DeviceSelectionDialog.jsx:130
 #: src/components/storage/VolumeLocationDialog.jsx:168
 #, fuzzy
 msgid "Select a disk"
@@ -1300,36 +1300,43 @@ msgstr "Filtrer par canal maximal"
 msgid "Remove max channel filter"
 msgstr "Supprimer le filtre du canal maximal"
 
-#: src/components/storage/DeviceSelectionDialog.jsx:106
+#. TRANSLATORS: description for using plain partitions for installing the
+#. system, the text in the square brackets [] is displayed in bold, use only
+#. one pair in the translation
+#: src/components/storage/DeviceSelectionDialog.jsx:103
+#, fuzzy
+msgid ""
+"The file systems will be allocated by default as [new partitions in the "
+"selected device]."
+msgstr ""
+"Configuration du groupe de volumes système. Tous les systèmes de fichiers "
+"seront créés dans un volume logique du groupe de volume système."
+
+#. TRANSLATORS: description for using logical volumes for installing the
+#. system, the text in the square brackets [] is displayed in bold, use only
+#. one pair in the translation
+#: src/components/storage/DeviceSelectionDialog.jsx:108
+msgid ""
+"The file systems will be allocated by default as [logical volumes of a new "
+"LVM Volume Group]. The corresponding physical volumes will be created on "
+"demand as new partitions at the selected devices."
+msgstr ""
+
+#: src/components/storage/DeviceSelectionDialog.jsx:115
 #, fuzzy
 msgid "Device for installing the system"
 msgstr "Sélectionner le périphérique pour l'installation du système."
 
-#: src/components/storage/DeviceSelectionDialog.jsx:130
+#: src/components/storage/DeviceSelectionDialog.jsx:139
 #, fuzzy
 msgid "Create an LVM Volume Group"
 msgstr "Groupe de volume système"
 
-#. TRANSLATORS: beware the HTML markup (<b> and </b>)
-#: src/components/storage/DeviceSelectionDialog.jsx:138
-msgid ""
-"The file systems will be allocated by default as <b>new partitions in the "
-"selected device</b>."
-msgstr ""
-
-#: src/components/storage/DeviceSelectionDialog.jsx:143
+#: src/components/storage/DeviceSelectionDialog.jsx:149
 msgid "Device selector for target disk"
 msgstr ""
 
-#. TRANSLATORS: beware the HTML markup (<b> and </b>)
-#: src/components/storage/DeviceSelectionDialog.jsx:157
-msgid ""
-"The file systems will be allocated by default as <b>logical volumes of a new "
-"LVM Volume Group</b>. The corresponding physical volumes will be created on "
-"demand as new partitions at the selected devices."
-msgstr ""
-
-#: src/components/storage/DeviceSelectionDialog.jsx:163
+#: src/components/storage/DeviceSelectionDialog.jsx:165
 #, fuzzy
 msgid "Device selector for new LVM volume group"
 msgstr "Périphériques pour la création du groupe de volumes"
@@ -1441,7 +1448,7 @@ msgstr ""
 msgid "Waiting for information about selected device"
 msgstr "En attente d'informations sur le périphérique sélectionné"
 
-#: src/components/storage/InstallationDeviceField.jsx:123
+#: src/components/storage/InstallationDeviceField.jsx:124
 msgid "Prepare more devices by configuring advanced"
 msgstr ""
 
@@ -1673,12 +1680,12 @@ msgstr "Localisation"
 msgid "Table with mount points"
 msgstr "Table avec points de montage"
 
-#: src/components/storage/PartitionsField.jsx:702
+#: src/components/storage/PartitionsField.jsx:703
 #, fuzzy
 msgid "Partitions and file systems"
 msgstr "Taille exacte du système de fichiers."
 
-#: src/components/storage/PartitionsField.jsx:703
+#: src/components/storage/PartitionsField.jsx:704
 msgid ""
 "Structure of the new system, including any additional partition needed for "
 "booting,"
@@ -1845,7 +1852,7 @@ msgstr ""
 "libre dans les périphériques listés ci-dessous. Choisissez comment procéder."
 
 #: src/components/storage/SpacePolicyDialog.jsx:149
-#: src/components/storage/SpacePolicyField.jsx:86
+#: src/components/storage/SpacePolicyField.jsx:87
 #, fuzzy
 msgid "Find space"
 msgstr "Trouver de l'espace"
@@ -1855,7 +1862,7 @@ msgstr "Trouver de l'espace"
 msgid "Waiting for information about space policy"
 msgstr "En attente d'informations sur le périphérique sélectionné"
 
-#: src/components/storage/SpacePolicyField.jsx:88
+#: src/components/storage/SpacePolicyField.jsx:89
 #, fuzzy
 msgid ""
 "Allocating the file systems might need to find free space in the "
