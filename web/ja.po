@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-17 02:08+0000\n"
-"PO-Revision-Date: 2024-04-16 07:21+0000\n"
+"PO-Revision-Date: 2024-04-17 05:43+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -1274,27 +1274,22 @@ msgstr "最大チャネルのフィルタを削除"
 #. system, the text in the square brackets [] is displayed in bold, use only
 #. one pair in the translation
 #: src/components/storage/DeviceSelectionDialog.jsx:103
-#, fuzzy
 msgid ""
 "The file systems will be allocated by default as [new partitions in the "
 "selected device]."
-msgstr ""
-"既定では、ファイルシステムは <b>選択したデバイス内の新規パーティション</b> と"
-"して割り当てます。"
+msgstr "既定では、ファイルシステムは [選択したデバイス内の新規パーティション] として割り当てます。"
 
 #. TRANSLATORS: description for using logical volumes for installing the
 #. system, the text in the square brackets [] is displayed in bold, use only
 #. one pair in the translation
 #: src/components/storage/DeviceSelectionDialog.jsx:108
-#, fuzzy
 msgid ""
 "The file systems will be allocated by default as [logical volumes of a new "
 "LVM Volume Group]. The corresponding physical volumes will be created on "
 "demand as new partitions at the selected devices."
 msgstr ""
-"既定では、ファイルシステムは <b>新規 LVM ボリュームグループの論理ボリューム</"
-"b> として割り当てます。対応する物理ボリュームは、必要に応じて選択したデバイス"
-"内の新規パーティションとして作成します。"
+"既定では、ファイルシステムは [新規 LVM ボリュームグループの論理ボリューム] "
+"として割り当てます。対応する物理ボリュームは、必要に応じて選択したデバイス内の新規パーティションとして作成します。"
 
 #: src/components/storage/DeviceSelectionDialog.jsx:115
 msgid "Device for installing the system"
