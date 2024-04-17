@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-17 02:08+0000\n"
-"PO-Revision-Date: 2024-02-17 05:42+0000\n"
+"PO-Revision-Date: 2024-04-17 18:43+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ka/>\n"
@@ -1383,27 +1383,27 @@ msgstr "%s მაინც"
 
 #. TRANSLATORS: "/" is in an LVM logical volume. %s replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:84
-#, fuzzy, c-format
+#, c-format
 msgid "Transactional Btrfs root volume (%s)"
-msgstr "ტრანზაქციული"
+msgstr "ტრანზაქციული Btrfs ძირითადი ტომი (%s)"
 
 #. TRANSLATORS: %s replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:86
-#, fuzzy, c-format
+#, c-format
 msgid "Transactional Btrfs root partition (%s)"
-msgstr "ტრანზაქციული"
+msgstr "ტრანზაქციული Btrfs ძირითადი დანაყოფი (%s)"
 
 #. TRANSLATORS: "/" is in an LVM logical volume. %s replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:91
-#, fuzzy, c-format
+#, c-format
 msgid "Btrfs root volume with snapshots (%s)"
-msgstr "სწრაფი ასლებით"
+msgstr "Btrfs ძირითადი ტომი სწრაფი ასლებით (%s)"
 
 #. TRANSLATORS: %s replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:93
-#, fuzzy, c-format
+#, c-format
 msgid "Btrfs root partition with snapshots (%s)"
-msgstr "სწრაფი ასლებით"
+msgstr "Btrfs ძირითადი დანაყოფი სწრაფი ასლებით (%s)"
 
 #. TRANSLATORS: This results in something like "Mount /dev/sda3 at /home (25 GiB)" since
 #. %1$s is replaced by the device name, %2$s by the mount point and %3$s by the size
@@ -1427,9 +1427,9 @@ msgstr ""
 
 #. TRANSLATORS: %s replaced by size string, e.g. "8 GiB"
 #: src/components/storage/PartitionsField.jsx:114
-#, fuzzy, c-format
+#, c-format
 msgid "Swap partition (%s)"
-msgstr "დანაყოფის ინფორმაცია"
+msgstr "სვოპის დანაყოფი (%s)"
 
 #. TRANSLATORS: This results in something like "Btrfs root at /dev/sda3 (20 GiB)" since
 #. %1$s is replaced by the filesystem type, %2$s by the device name, and %3$s by the size
@@ -1487,9 +1487,9 @@ msgstr "დაყენების მოწყობილობა"
 
 #. TRANSLATORS: %s is the disk used to configure the boot-related partitions (eg. "/dev/sda, 80 GiB)
 #: src/components/storage/PartitionsField.jsx:165
-#, fuzzy, c-format
+#, c-format
 msgid "Boot partitions at %s"
-msgstr "დანაყოფის ინფორმაცია"
+msgstr "ჩატვირთვადი დანაყოფები მისამართზე %s"
 
 #. TRANSLATORS: header for a list of items referring to size limits for file systems
 #: src/components/storage/PartitionsField.jsx:187
@@ -1546,9 +1546,9 @@ msgstr "სწრაფი ასლებით"
 
 #. TRANSLATORS: %s will be replaced by a disk name (eg. "/dev/sda")
 #: src/components/storage/PartitionsField.jsx:373
-#, fuzzy, c-format
+#, c-format
 msgid "Partition at %s"
-msgstr "დანაყოფის ინფორმაცია"
+msgstr "დანაყოფი მისამართზე %s"
 
 #. TRANSLATORS: %s will be replaced by a disk name (eg. "/dev/sda")
 #: src/components/storage/PartitionsField.jsx:376
@@ -1934,9 +1934,9 @@ msgid ""
 msgstr ""
 
 #: src/components/storage/VolumeLocationDialog.jsx:149
-#, fuzzy, c-format
+#, c-format
 msgid "Location for %s file system"
-msgstr "ტრანზაქციული"
+msgstr "მდებარეობა %s ფაილური სისტემისთვის"
 
 #: src/components/storage/VolumeLocationDialog.jsx:174
 msgid ""
