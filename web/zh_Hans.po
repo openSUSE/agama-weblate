@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-17 02:08+0000\n"
+"POT-Creation-Date: 2024-04-18 02:07+0000\n"
 "PO-Revision-Date: 2024-04-13 18:43+0000\n"
 "Last-Translator: Monstorix <monstorix@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.opensuse.org/projects/"
@@ -505,8 +505,8 @@ msgstr "地址"
 msgid "Addresses data list"
 msgstr "地址数据列表"
 
-#. TRANSLATORS: input field for the iSCSI initiator name
 #. TRANSLATORS: table header
+#. TRANSLATORS: input field for the iSCSI initiator name
 #: src/components/network/ConnectionsTable.jsx:57
 #: src/components/network/ConnectionsTable.jsx:86
 #: src/components/storage/ZFCPPage.jsx:360
@@ -639,8 +639,8 @@ msgstr "未找到 WiFi 连接。"
 msgid "Connect to a Wi-Fi network"
 msgstr "连接到 Wi-Fi 网络"
 
-#. TRANSLATORS: page section title
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section title
 #: src/components/network/NetworkPage.jsx:169
 #: src/components/overview/NetworkSection.jsx:83
 msgid "Network"
@@ -724,8 +724,8 @@ msgstr "已连接"
 msgid "Disconnecting"
 msgstr "正在断开连接"
 
-#. TRANSLATORS: iSCSI connection status
 #. TRANSLATORS: Wifi network status
+#. TRANSLATORS: iSCSI connection status
 #: src/components/network/WifiNetworkListItem.jsx:50
 #: src/components/storage/iscsi/NodesPresenter.jsx:63
 msgid "Disconnected"
@@ -772,8 +772,8 @@ msgstr "安装概要"
 msgid "%s (registered)"
 msgstr "%s （已注册）"
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section
+#. TRANSLATORS: page title
 #: src/components/overview/ProductSection.jsx:71
 #: src/components/product/ProductPage.jsx:435
 msgid "Product"
@@ -788,8 +788,8 @@ msgstr "正在读取软件仓库"
 msgid "Refresh the repositories"
 msgstr "刷新仓库"
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section
+#. TRANSLATORS: page title
 #: src/components/overview/SoftwareSection.jsx:143
 #: src/components/software/SoftwarePage.jsx:81
 msgid "Software"
@@ -871,8 +871,8 @@ msgstr "使用设备 %s 进行安装，并采用自定义策略寻找所需空�
 msgid "Probing storage devices"
 msgstr "正在探测存储设备"
 
-#. TRANSLATORS: page section title
 #. TRANSLATORS: Storage page title
+#. TRANSLATORS: page section title
 #: src/components/overview/StorageSection.jsx:283
 #: src/components/storage/ProposalPage.jsx:227
 msgid "Storage"
