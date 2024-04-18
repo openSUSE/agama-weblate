@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-17 02:08+0000\n"
+"POT-Creation-Date: 2024-04-18 02:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -500,8 +500,8 @@ msgstr ""
 msgid "Addresses data list"
 msgstr ""
 
-#. TRANSLATORS: input field for the iSCSI initiator name
 #. TRANSLATORS: table header
+#. TRANSLATORS: input field for the iSCSI initiator name
 #: src/components/network/ConnectionsTable.jsx:57
 #: src/components/network/ConnectionsTable.jsx:86
 #: src/components/storage/ZFCPPage.jsx:360
@@ -634,8 +634,8 @@ msgstr ""
 msgid "Connect to a Wi-Fi network"
 msgstr ""
 
-#. TRANSLATORS: page section title
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section title
 #: src/components/network/NetworkPage.jsx:169
 #: src/components/overview/NetworkSection.jsx:83
 msgid "Network"
@@ -719,8 +719,8 @@ msgstr ""
 msgid "Disconnecting"
 msgstr ""
 
-#. TRANSLATORS: iSCSI connection status
 #. TRANSLATORS: Wifi network status
+#. TRANSLATORS: iSCSI connection status
 #: src/components/network/WifiNetworkListItem.jsx:50
 #: src/components/storage/iscsi/NodesPresenter.jsx:63
 msgid "Disconnected"
@@ -768,8 +768,8 @@ msgstr ""
 msgid "%s (registered)"
 msgstr ""
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section
+#. TRANSLATORS: page title
 #: src/components/overview/ProductSection.jsx:71
 #: src/components/product/ProductPage.jsx:435
 msgid "Product"
@@ -784,8 +784,8 @@ msgstr ""
 msgid "Refresh the repositories"
 msgstr ""
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section
+#. TRANSLATORS: page title
 #: src/components/overview/SoftwareSection.jsx:143
 #: src/components/software/SoftwarePage.jsx:81
 msgid "Software"
@@ -870,8 +870,8 @@ msgstr ""
 msgid "Probing storage devices"
 msgstr ""
 
-#. TRANSLATORS: page section title
 #. TRANSLATORS: Storage page title
+#. TRANSLATORS: page section title
 #: src/components/overview/StorageSection.jsx:283
 #: src/components/storage/ProposalPage.jsx:227
 msgid "Storage"
