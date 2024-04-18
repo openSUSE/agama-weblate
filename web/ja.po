@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-18 02:07+0000\n"
-"PO-Revision-Date: 2024-04-17 05:43+0000\n"
+"PO-Revision-Date: 2024-04-18 08:43+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -1414,7 +1414,7 @@ msgstr "選択したデバイスに関する情報を待機しています"
 
 #: src/components/storage/InstallationDeviceField.jsx:124
 msgid "Prepare more devices by configuring advanced"
-msgstr "高度な設定でさらにデバイスを検出します"
+msgstr "高度な設定でさらにデバイスを検出"
 
 #. TRANSLATORS: minimum device size, %s is replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:60
@@ -1595,7 +1595,7 @@ msgstr "%s に存在する個別の LVM"
 
 #: src/components/storage/PartitionsField.jsx:380
 msgid "Logical volume at system LVM"
-msgstr "システム LVM にある論理ボリューム"
+msgstr "システム LVM 内の論理ボリューム"
 
 #: src/components/storage/PartitionsField.jsx:382
 msgid "Partition at installation disk"
