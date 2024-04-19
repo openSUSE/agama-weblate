@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-18 02:07+0000\n"
-"PO-Revision-Date: 2024-03-10 20:42+0000\n"
+"PO-Revision-Date: 2024-04-19 23:43+0000\n"
 "Last-Translator: faila fail <yassadmi@proton.me>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/agama/agama-web/fr/"
 ">\n"
@@ -191,18 +191,16 @@ msgstr "Plus de détails"
 
 #. TRANSLATORS: "Trusted Platform Module" is the name of the technology and "TPM" its abbreviation
 #: src/components/core/InstallationFinished.jsx:54
-#, fuzzy
 msgid ""
 "The final step to configure the Trusted Platform Module (TPM) to "
 "automatically open encrypted devices will take place during the first boot "
 "of the new system. For that to work, the machine needs to boot directly to "
 "the new boot loader."
 msgstr ""
-"La dernière étape pour configurer le <abbr title='Trusted Platform "
-"Module'>TPM</abbr> pour ouvrir automatiquement les périphériques chiffrés "
-"aura lieu lors du premier démarrage du nouveau système. Pour que cela "
-"fonctionne, la machine doit démarrer directement avec le nouveau chargeur de "
-"démarrage."
+"La dernière étape pour configurer le Trusted Platform Module (TPM) pour "
+"qu'il ouvre automatiquement les périphériques cryptés aura lieu lors du "
+"premier démarrage du nouveau système. Pour que cela fonctionne, la machine "
+"doit démarrer directement avec le nouveau chargeur d'amorçage."
 
 #. TRANSLATORS: page title
 #: src/components/core/InstallationFinished.jsx:88
@@ -831,9 +829,7 @@ msgstr "Logiciel"
 #: src/components/overview/StorageSection.jsx:63
 #, fuzzy
 msgid "Logical Volume Manager (LVM) volume group"
-msgstr ""
-"Sélectionnez le disque principal ou <abbr title='Logical Volume "
-"Manager'>LVM</abbr> Groupe de volume pour l'installation."
+msgstr "Groupe de volumes du gestionnaire de volumes logiques (LVM)"
 
 #: src/components/overview/StorageSection.jsx:71
 #, fuzzy, c-format
