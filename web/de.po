@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-18 02:07+0000\n"
+"POT-Creation-Date: 2024-04-21 02:15+0000\n"
 "PO-Revision-Date: 2024-03-30 20:43+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://l10n.opensuse.org/projects/agama/agama-web/de/"
@@ -63,12 +63,12 @@ msgstr ""
 "unter %s."
 
 #. TRANSLATORS: button label
-#: src/components/core/About.jsx:71 src/components/core/FileViewer.jsx:80
+#: src/components/core/About.jsx:71 src/components/core/FileViewer.jsx:81
 #: src/components/core/IssuesDialog.jsx:119 src/components/core/Sidebar.jsx:157
-#: src/components/core/Terminal.jsx:48
-#: src/components/network/WifiSelector.jsx:151
+#: src/components/core/Terminal.jsx:49
+#: src/components/network/WifiSelector.jsx:155
 #: src/components/product/ProductPage.jsx:239
-#: src/components/storage/ProposalActionsDialog.jsx:96
+#: src/components/storage/ProposalActionsDialog.jsx:98
 msgid "Close"
 msgstr "Schließen"
 
@@ -97,11 +97,11 @@ msgstr "Neu laden"
 msgid "Cockpit server"
 msgstr "Cockpit-Server"
 
-#: src/components/core/FileViewer.jsx:65
+#: src/components/core/FileViewer.jsx:66
 msgid "Reading file..."
 msgstr "Datei wird gelesen ..."
 
-#: src/components/core/FileViewer.jsx:71
+#: src/components/core/FileViewer.jsx:72
 msgid "Cannot read the file"
 msgstr "Die Datei kann nicht gelesen werden"
 
@@ -611,32 +611,32 @@ msgstr ""
 "Für den ausgewählten Modus muss mindestens eine Adresse angegeben werden"
 
 #. TRANSLATORS: %s is replaced by the iSCSI target node name
-#: src/components/network/IpSettingsForm.jsx:133
+#: src/components/network/IpSettingsForm.jsx:135
 #: src/components/storage/iscsi/EditNodeForm.jsx:50
 #, c-format
 msgid "Edit %s"
 msgstr "%s bearbeiten"
 
 #. TRANSLATORS: network connection mode (automatic via DHCP or manual with static IP)
-#: src/components/network/IpSettingsForm.jsx:136
-#: src/components/network/IpSettingsForm.jsx:141
-#: src/components/network/IpSettingsForm.jsx:143
+#: src/components/network/IpSettingsForm.jsx:140
+#: src/components/network/IpSettingsForm.jsx:145
+#: src/components/network/IpSettingsForm.jsx:147
 msgid "Mode"
 msgstr "Modus"
 
-#: src/components/network/IpSettingsForm.jsx:147
+#: src/components/network/IpSettingsForm.jsx:151
 msgid "Automatic (DHCP)"
 msgstr "Automatisch (DHCP)"
 
 #. TRANSLATORS: manual network configuration mode with a static IP address
-#: src/components/network/IpSettingsForm.jsx:149
+#: src/components/network/IpSettingsForm.jsx:153
 #: src/components/storage/iscsi/NodeStartupOptions.js:25
 msgid "Manual"
 msgstr "Manuell"
 
 #. TRANSLATORS: network gateway configuration
-#: src/components/network/IpSettingsForm.jsx:164
-#: src/components/network/IpSettingsForm.jsx:167
+#: src/components/network/IpSettingsForm.jsx:168
+#: src/components/network/IpSettingsForm.jsx:171
 msgid "Gateway"
 msgstr "Gateway"
 
@@ -669,7 +669,7 @@ msgstr "Keine WiFi-Verbindungen gefunden."
 #. TRANSLATORS: button label
 #: src/components/network/NetworkPage.jsx:70
 #: src/components/network/NetworkPageMenu.jsx:46
-#: src/components/network/WifiSelector.jsx:134
+#: src/components/network/WifiSelector.jsx:136
 #, fuzzy
 msgid "Connect to a Wi-Fi network"
 msgstr "Mit einem Wi-Fi-Netzwerk verbinden"
@@ -709,7 +709,7 @@ msgstr "WPA & WPA2 Personal"
 #: src/components/storage/ZFCPDiskForm.jsx:112
 #: src/components/storage/iscsi/DiscoverForm.jsx:108
 #: src/components/storage/iscsi/LoginForm.jsx:72
-#: src/components/users/FirstUser.jsx:238
+#: src/components/users/FirstUser.jsx:242
 msgid "Something went wrong"
 msgstr "Etwas ist schiefgelaufen"
 
@@ -1170,7 +1170,7 @@ msgid "Automatic"
 msgstr "Automatisch"
 
 #: src/components/storage/BootSelectionDialog.jsx:154
-#: src/components/storage/DeviceSelectionDialog.jsx:130
+#: src/components/storage/DeviceSelectionDialog.jsx:131
 #: src/components/storage/VolumeLocationDialog.jsx:168
 #, fuzzy
 msgid "Select a disk"
@@ -1334,15 +1334,15 @@ msgstr ""
 msgid "Device for installing the system"
 msgstr "Wählen Sie das Gerät für die Installation des Systems aus."
 
-#: src/components/storage/DeviceSelectionDialog.jsx:139
+#: src/components/storage/DeviceSelectionDialog.jsx:140
 msgid "Create an LVM Volume Group"
 msgstr ""
 
-#: src/components/storage/DeviceSelectionDialog.jsx:149
+#: src/components/storage/DeviceSelectionDialog.jsx:150
 msgid "Device selector for target disk"
 msgstr ""
 
-#: src/components/storage/DeviceSelectionDialog.jsx:165
+#: src/components/storage/DeviceSelectionDialog.jsx:166
 msgid "Device selector for new LVM volume group"
 msgstr ""
 
@@ -1707,10 +1707,10 @@ msgid_plural "Show %d subvolume actions"
 msgstr[0] ""
 msgstr[1] ""
 
-#. TRANSLATORS: The storage "Planned Actions" section's title. The
-#. section shows a list of planned actions for the selected device, e.g.
+#. TRANSLATORS: The storage "Planned Actions" dialog's title. The
+#. dialog shows a list of planned actions for the selected device, e.g.
 #. "delete partition A", "create partition B with filesystem C", ...
-#: src/components/storage/ProposalActionsDialog.jsx:76
+#: src/components/storage/ProposalActionsDialog.jsx:78
 msgid "Planned Actions"
 msgstr "Geplante Aktionen"
 
@@ -2491,13 +2491,13 @@ msgstr ""
 msgid "Define a user now"
 msgstr "Definieren Sie jetzt einen Benutzer"
 
-#: src/components/users/FirstUser.jsx:67 src/components/users/FirstUser.jsx:242
+#: src/components/users/FirstUser.jsx:67 src/components/users/FirstUser.jsx:246
 msgid "Full name"
 msgstr "Vollständiger Name"
 
-#: src/components/users/FirstUser.jsx:68 src/components/users/FirstUser.jsx:256
-#: src/components/users/FirstUser.jsx:264
-#: src/components/users/FirstUser.jsx:266
+#: src/components/users/FirstUser.jsx:68 src/components/users/FirstUser.jsx:260
+#: src/components/users/FirstUser.jsx:268
+#: src/components/users/FirstUser.jsx:270
 msgid "Username"
 msgstr "Benutzername"
 
@@ -2516,31 +2516,31 @@ msgstr "Vorgeschlagenen Benutzernamen verwenden"
 msgid "Discard"
 msgstr "Verwerfen"
 
-#: src/components/users/FirstUser.jsx:235
+#: src/components/users/FirstUser.jsx:237
 msgid "Create user account"
 msgstr "Benutzerkonto erstellen"
 
-#: src/components/users/FirstUser.jsx:235
+#: src/components/users/FirstUser.jsx:237
 msgid "Edit user account"
 msgstr "Benutzerkonto bearbeiten"
 
-#: src/components/users/FirstUser.jsx:246
-#: src/components/users/FirstUser.jsx:248
+#: src/components/users/FirstUser.jsx:250
+#: src/components/users/FirstUser.jsx:252
 msgid "User full name"
 msgstr "Vollständiger Name des Benutzers"
 
 #. TRANSLATORS: check box label
-#: src/components/users/FirstUser.jsx:284
 #: src/components/users/FirstUser.jsx:288
+#: src/components/users/FirstUser.jsx:292
 msgid "Edit password too"
 msgstr "Auch Passwort bearbeiten"
 
-#: src/components/users/FirstUser.jsx:301
+#: src/components/users/FirstUser.jsx:305
 msgid "user autologin"
 msgstr "Automatische Benutzeranmeldung"
 
 #. TRANSLATORS: check box label
-#: src/components/users/FirstUser.jsx:305
+#: src/components/users/FirstUser.jsx:309
 msgid "Auto-login"
 msgstr "Automatisches Anmelden"
 

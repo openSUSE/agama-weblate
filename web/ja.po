@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-18 02:07+0000\n"
+"POT-Creation-Date: 2024-04-21 02:15+0000\n"
 "PO-Revision-Date: 2024-04-18 08:43+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -59,12 +59,12 @@ msgid "For more information, please visit the project's repository at %s."
 msgstr "詳しくは %s にあるプロジェクトのリポジトリをご覧ください。"
 
 #. TRANSLATORS: button label
-#: src/components/core/About.jsx:71 src/components/core/FileViewer.jsx:80
+#: src/components/core/About.jsx:71 src/components/core/FileViewer.jsx:81
 #: src/components/core/IssuesDialog.jsx:119 src/components/core/Sidebar.jsx:157
-#: src/components/core/Terminal.jsx:48
-#: src/components/network/WifiSelector.jsx:151
+#: src/components/core/Terminal.jsx:49
+#: src/components/network/WifiSelector.jsx:155
 #: src/components/product/ProductPage.jsx:239
-#: src/components/storage/ProposalActionsDialog.jsx:96
+#: src/components/storage/ProposalActionsDialog.jsx:98
 msgid "Close"
 msgstr "閉じる"
 
@@ -93,11 +93,11 @@ msgstr "再読み込み"
 msgid "Cockpit server"
 msgstr "Cockpit サーバ"
 
-#: src/components/core/FileViewer.jsx:65
+#: src/components/core/FileViewer.jsx:66
 msgid "Reading file..."
 msgstr "ファイルを読み込んでいます..."
 
-#: src/components/core/FileViewer.jsx:71
+#: src/components/core/FileViewer.jsx:72
 msgid "Cannot read the file"
 msgstr "ファイルを読み込めません"
 
@@ -603,32 +603,32 @@ msgstr ""
 "選択しているモードの場合、 1 つ以上のアドレスを設定しなければなりません"
 
 #. TRANSLATORS: %s is replaced by the iSCSI target node name
-#: src/components/network/IpSettingsForm.jsx:133
+#: src/components/network/IpSettingsForm.jsx:135
 #: src/components/storage/iscsi/EditNodeForm.jsx:50
 #, c-format
 msgid "Edit %s"
 msgstr "%s の編集"
 
 #. TRANSLATORS: network connection mode (automatic via DHCP or manual with static IP)
-#: src/components/network/IpSettingsForm.jsx:136
-#: src/components/network/IpSettingsForm.jsx:141
-#: src/components/network/IpSettingsForm.jsx:143
+#: src/components/network/IpSettingsForm.jsx:140
+#: src/components/network/IpSettingsForm.jsx:145
+#: src/components/network/IpSettingsForm.jsx:147
 msgid "Mode"
 msgstr "モード"
 
-#: src/components/network/IpSettingsForm.jsx:147
+#: src/components/network/IpSettingsForm.jsx:151
 msgid "Automatic (DHCP)"
 msgstr "自動 (DHCP)"
 
 #. TRANSLATORS: manual network configuration mode with a static IP address
-#: src/components/network/IpSettingsForm.jsx:149
+#: src/components/network/IpSettingsForm.jsx:153
 #: src/components/storage/iscsi/NodeStartupOptions.js:25
 msgid "Manual"
 msgstr "手動"
 
 #. TRANSLATORS: network gateway configuration
-#: src/components/network/IpSettingsForm.jsx:164
-#: src/components/network/IpSettingsForm.jsx:167
+#: src/components/network/IpSettingsForm.jsx:168
+#: src/components/network/IpSettingsForm.jsx:171
 msgid "Gateway"
 msgstr "ゲートウエイ"
 
@@ -657,7 +657,7 @@ msgstr "WiFi 接続が見つかりませんでした。"
 #. TRANSLATORS: button label
 #: src/components/network/NetworkPage.jsx:70
 #: src/components/network/NetworkPageMenu.jsx:46
-#: src/components/network/WifiSelector.jsx:134
+#: src/components/network/WifiSelector.jsx:136
 msgid "Connect to a Wi-Fi network"
 msgstr "Wi-Fi ネットワークへの接続"
 
@@ -695,7 +695,7 @@ msgstr "WPA および WPA2 Personal"
 #: src/components/storage/ZFCPDiskForm.jsx:112
 #: src/components/storage/iscsi/DiscoverForm.jsx:108
 #: src/components/storage/iscsi/LoginForm.jsx:72
-#: src/components/users/FirstUser.jsx:238
+#: src/components/users/FirstUser.jsx:242
 msgid "Something went wrong"
 msgstr "何らかの問題が発生しました"
 
@@ -1132,7 +1132,7 @@ msgid "Automatic"
 msgstr "自動"
 
 #: src/components/storage/BootSelectionDialog.jsx:154
-#: src/components/storage/DeviceSelectionDialog.jsx:130
+#: src/components/storage/DeviceSelectionDialog.jsx:131
 #: src/components/storage/VolumeLocationDialog.jsx:168
 msgid "Select a disk"
 msgstr "ディスクの選択"
@@ -1298,15 +1298,15 @@ msgstr ""
 msgid "Device for installing the system"
 msgstr "システムのインストール先デバイス"
 
-#: src/components/storage/DeviceSelectionDialog.jsx:139
+#: src/components/storage/DeviceSelectionDialog.jsx:140
 msgid "Create an LVM Volume Group"
 msgstr "LVM ボリュームグループの作成"
 
-#: src/components/storage/DeviceSelectionDialog.jsx:149
+#: src/components/storage/DeviceSelectionDialog.jsx:150
 msgid "Device selector for target disk"
 msgstr "宛先のディスクデバイス選択"
 
-#: src/components/storage/DeviceSelectionDialog.jsx:165
+#: src/components/storage/DeviceSelectionDialog.jsx:166
 msgid "Device selector for new LVM volume group"
 msgstr "新規 LVM ボリュームグループのデバイス選択"
 
@@ -1660,10 +1660,10 @@ msgid "Show %d subvolume action"
 msgid_plural "Show %d subvolume actions"
 msgstr[0] "%d 個のサブボリューム処理を表示"
 
-#. TRANSLATORS: The storage "Planned Actions" section's title. The
-#. section shows a list of planned actions for the selected device, e.g.
+#. TRANSLATORS: The storage "Planned Actions" dialog's title. The
+#. dialog shows a list of planned actions for the selected device, e.g.
 #. "delete partition A", "create partition B with filesystem C", ...
-#: src/components/storage/ProposalActionsDialog.jsx:76
+#: src/components/storage/ProposalActionsDialog.jsx:78
 msgid "Planned Actions"
 msgstr "処理の計画"
 
@@ -2439,13 +2439,13 @@ msgstr ""
 msgid "Define a user now"
 msgstr "今すぐユーザを設定する"
 
-#: src/components/users/FirstUser.jsx:67 src/components/users/FirstUser.jsx:242
+#: src/components/users/FirstUser.jsx:67 src/components/users/FirstUser.jsx:246
 msgid "Full name"
 msgstr "フルネーム"
 
-#: src/components/users/FirstUser.jsx:68 src/components/users/FirstUser.jsx:256
-#: src/components/users/FirstUser.jsx:264
-#: src/components/users/FirstUser.jsx:266
+#: src/components/users/FirstUser.jsx:68 src/components/users/FirstUser.jsx:260
+#: src/components/users/FirstUser.jsx:268
+#: src/components/users/FirstUser.jsx:270
 msgid "Username"
 msgstr "ユーザ名"
 
@@ -2464,31 +2464,31 @@ msgstr "提案されたユーザ名を使用する"
 msgid "Discard"
 msgstr "破棄"
 
-#: src/components/users/FirstUser.jsx:235
+#: src/components/users/FirstUser.jsx:237
 msgid "Create user account"
 msgstr "ユーザアカウントの作成"
 
-#: src/components/users/FirstUser.jsx:235
+#: src/components/users/FirstUser.jsx:237
 msgid "Edit user account"
 msgstr "ユーザアカウントの編集"
 
-#: src/components/users/FirstUser.jsx:246
-#: src/components/users/FirstUser.jsx:248
+#: src/components/users/FirstUser.jsx:250
+#: src/components/users/FirstUser.jsx:252
 msgid "User full name"
 msgstr "ユーザのフルネーム"
 
 #. TRANSLATORS: check box label
-#: src/components/users/FirstUser.jsx:284
 #: src/components/users/FirstUser.jsx:288
+#: src/components/users/FirstUser.jsx:292
 msgid "Edit password too"
 msgstr "パスワードも編集する"
 
-#: src/components/users/FirstUser.jsx:301
+#: src/components/users/FirstUser.jsx:305
 msgid "user autologin"
 msgstr "ユーザの自動ログイン"
 
 #. TRANSLATORS: check box label
-#: src/components/users/FirstUser.jsx:305
+#: src/components/users/FirstUser.jsx:309
 msgid "Auto-login"
 msgstr "自動ログイン"
 

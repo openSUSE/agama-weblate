@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-18 02:07+0000\n"
+"POT-Creation-Date: 2024-04-21 02:15+0000\n"
 "PO-Revision-Date: 2024-04-09 17:43+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://l10n.opensuse.org/projects/agama/agama-"
@@ -61,12 +61,12 @@ msgstr ""
 "Untuk informasi lebih lanjut, silakan kunjungi repositori proyek di %s."
 
 #. TRANSLATORS: button label
-#: src/components/core/About.jsx:71 src/components/core/FileViewer.jsx:80
+#: src/components/core/About.jsx:71 src/components/core/FileViewer.jsx:81
 #: src/components/core/IssuesDialog.jsx:119 src/components/core/Sidebar.jsx:157
-#: src/components/core/Terminal.jsx:48
-#: src/components/network/WifiSelector.jsx:151
+#: src/components/core/Terminal.jsx:49
+#: src/components/network/WifiSelector.jsx:155
 #: src/components/product/ProductPage.jsx:239
-#: src/components/storage/ProposalActionsDialog.jsx:96
+#: src/components/storage/ProposalActionsDialog.jsx:98
 msgid "Close"
 msgstr "Tutup"
 
@@ -95,11 +95,11 @@ msgstr "Muat ulang"
 msgid "Cockpit server"
 msgstr "Server Cockpit"
 
-#: src/components/core/FileViewer.jsx:65
+#: src/components/core/FileViewer.jsx:66
 msgid "Reading file..."
 msgstr "Membaca berkas..."
 
-#: src/components/core/FileViewer.jsx:71
+#: src/components/core/FileViewer.jsx:72
 msgid "Cannot read the file"
 msgstr "Tidak dapat membaca berkas"
 
@@ -604,32 +604,32 @@ msgid "At least one address must be provided for selected mode"
 msgstr "Setidaknya satu alamat harus disediakan untuk mode yang dipilih"
 
 #. TRANSLATORS: %s is replaced by the iSCSI target node name
-#: src/components/network/IpSettingsForm.jsx:133
+#: src/components/network/IpSettingsForm.jsx:135
 #: src/components/storage/iscsi/EditNodeForm.jsx:50
 #, c-format
 msgid "Edit %s"
 msgstr "Edit %s"
 
 #. TRANSLATORS: network connection mode (automatic via DHCP or manual with static IP)
-#: src/components/network/IpSettingsForm.jsx:136
-#: src/components/network/IpSettingsForm.jsx:141
-#: src/components/network/IpSettingsForm.jsx:143
+#: src/components/network/IpSettingsForm.jsx:140
+#: src/components/network/IpSettingsForm.jsx:145
+#: src/components/network/IpSettingsForm.jsx:147
 msgid "Mode"
 msgstr "Mode"
 
-#: src/components/network/IpSettingsForm.jsx:147
+#: src/components/network/IpSettingsForm.jsx:151
 msgid "Automatic (DHCP)"
 msgstr "Otomatis (DHCP)"
 
 #. TRANSLATORS: manual network configuration mode with a static IP address
-#: src/components/network/IpSettingsForm.jsx:149
+#: src/components/network/IpSettingsForm.jsx:153
 #: src/components/storage/iscsi/NodeStartupOptions.js:25
 msgid "Manual"
 msgstr "Manual"
 
 #. TRANSLATORS: network gateway configuration
-#: src/components/network/IpSettingsForm.jsx:164
-#: src/components/network/IpSettingsForm.jsx:167
+#: src/components/network/IpSettingsForm.jsx:168
+#: src/components/network/IpSettingsForm.jsx:171
 msgid "Gateway"
 msgstr "Gateway"
 
@@ -657,7 +657,7 @@ msgstr "Tidak ditemukan koneksi WiFi."
 #. TRANSLATORS: button label
 #: src/components/network/NetworkPage.jsx:70
 #: src/components/network/NetworkPageMenu.jsx:46
-#: src/components/network/WifiSelector.jsx:134
+#: src/components/network/WifiSelector.jsx:136
 msgid "Connect to a Wi-Fi network"
 msgstr "Sambungkan ke jaringan Wi-Fi"
 
@@ -695,7 +695,7 @@ msgstr "WPA & WPA2 Pribadi"
 #: src/components/storage/ZFCPDiskForm.jsx:112
 #: src/components/storage/iscsi/DiscoverForm.jsx:108
 #: src/components/storage/iscsi/LoginForm.jsx:72
-#: src/components/users/FirstUser.jsx:238
+#: src/components/users/FirstUser.jsx:242
 msgid "Something went wrong"
 msgstr "Ada yang tidak beres"
 
@@ -1136,7 +1136,7 @@ msgid "Automatic"
 msgstr "Otomatis"
 
 #: src/components/storage/BootSelectionDialog.jsx:154
-#: src/components/storage/DeviceSelectionDialog.jsx:130
+#: src/components/storage/DeviceSelectionDialog.jsx:131
 #: src/components/storage/VolumeLocationDialog.jsx:168
 msgid "Select a disk"
 msgstr "Pilih disk"
@@ -1306,15 +1306,15 @@ msgstr ""
 msgid "Device for installing the system"
 msgstr "Perangkat untuk menginstal sistem"
 
-#: src/components/storage/DeviceSelectionDialog.jsx:139
+#: src/components/storage/DeviceSelectionDialog.jsx:140
 msgid "Create an LVM Volume Group"
 msgstr "Membuat Grup Volume LVM"
 
-#: src/components/storage/DeviceSelectionDialog.jsx:149
+#: src/components/storage/DeviceSelectionDialog.jsx:150
 msgid "Device selector for target disk"
 msgstr "Pemilih perangkat untuk disk target"
 
-#: src/components/storage/DeviceSelectionDialog.jsx:165
+#: src/components/storage/DeviceSelectionDialog.jsx:166
 msgid "Device selector for new LVM volume group"
 msgstr "Pemilih perangkat untuk grup volume LVM baru"
 
@@ -1679,10 +1679,10 @@ msgid "Show %d subvolume action"
 msgid_plural "Show %d subvolume actions"
 msgstr[0] "Tampilkan tindakan subvolume %d"
 
-#. TRANSLATORS: The storage "Planned Actions" section's title. The
-#. section shows a list of planned actions for the selected device, e.g.
+#. TRANSLATORS: The storage "Planned Actions" dialog's title. The
+#. dialog shows a list of planned actions for the selected device, e.g.
 #. "delete partition A", "create partition B with filesystem C", ...
-#: src/components/storage/ProposalActionsDialog.jsx:76
+#: src/components/storage/ProposalActionsDialog.jsx:78
 msgid "Planned Actions"
 msgstr "Tindakan yang Direncanakan"
 
@@ -2468,13 +2468,13 @@ msgstr ""
 msgid "Define a user now"
 msgstr "Tentukan pengguna sekarang"
 
-#: src/components/users/FirstUser.jsx:67 src/components/users/FirstUser.jsx:242
+#: src/components/users/FirstUser.jsx:67 src/components/users/FirstUser.jsx:246
 msgid "Full name"
 msgstr "Nama lengkap"
 
-#: src/components/users/FirstUser.jsx:68 src/components/users/FirstUser.jsx:256
-#: src/components/users/FirstUser.jsx:264
-#: src/components/users/FirstUser.jsx:266
+#: src/components/users/FirstUser.jsx:68 src/components/users/FirstUser.jsx:260
+#: src/components/users/FirstUser.jsx:268
+#: src/components/users/FirstUser.jsx:270
 msgid "Username"
 msgstr "Nama pengguna"
 
@@ -2493,31 +2493,31 @@ msgstr ""
 msgid "Discard"
 msgstr "Buang"
 
-#: src/components/users/FirstUser.jsx:235
+#: src/components/users/FirstUser.jsx:237
 msgid "Create user account"
 msgstr "Buat akun pengguna"
 
-#: src/components/users/FirstUser.jsx:235
+#: src/components/users/FirstUser.jsx:237
 msgid "Edit user account"
 msgstr "Edit akun pengguna"
 
-#: src/components/users/FirstUser.jsx:246
-#: src/components/users/FirstUser.jsx:248
+#: src/components/users/FirstUser.jsx:250
+#: src/components/users/FirstUser.jsx:252
 msgid "User full name"
 msgstr "Nama lengkap pengguna"
 
 #. TRANSLATORS: check box label
-#: src/components/users/FirstUser.jsx:284
 #: src/components/users/FirstUser.jsx:288
+#: src/components/users/FirstUser.jsx:292
 msgid "Edit password too"
 msgstr "Edit kata sandi juga"
 
-#: src/components/users/FirstUser.jsx:301
+#: src/components/users/FirstUser.jsx:305
 msgid "user autologin"
 msgstr "autologin pengguna"
 
 #. TRANSLATORS: check box label
-#: src/components/users/FirstUser.jsx:305
+#: src/components/users/FirstUser.jsx:309
 msgid "Auto-login"
 msgstr "Masuk otomatis"
 
