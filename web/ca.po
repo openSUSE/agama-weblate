@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-23 02:12+0000\n"
-"PO-Revision-Date: 2024-04-17 10:43+0000\n"
+"PO-Revision-Date: 2024-04-23 16:43+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ca/>\n"
@@ -1234,7 +1234,7 @@ msgstr "Tipus"
 #. usually keep untranslated
 #: src/components/storage/DASDTable.jsx:71
 msgid "DIAG"
-msgstr ""
+msgstr "DIAG"
 
 #: src/components/storage/DASDTable.jsx:72
 msgid "Formatted"
