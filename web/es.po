@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-21 02:15+0000\n"
+"POT-Creation-Date: 2024-04-23 02:12+0000\n"
 "PO-Revision-Date: 2024-03-25 21:42+0000\n"
 "Last-Translator: Victor hck <victorhck@opensuse.org>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -1229,65 +1229,68 @@ msgstr "Dispositivo"
 msgid "Type"
 msgstr "Tipo"
 
-#: src/components/storage/DASDTable.jsx:68
-msgid "Diag"
-msgstr "Diagnóstico"
+#. TRANSLATORS: table header, the column contains "Yes"/"No" values
+#. for the DIAG access mode (special disk access mode on IBM mainframes),
+#. usually keep untranslated
+#: src/components/storage/DASDTable.jsx:71
+msgid "DIAG"
+msgstr ""
 
-#: src/components/storage/DASDTable.jsx:69
+#: src/components/storage/DASDTable.jsx:72
 msgid "Formatted"
 msgstr "Formateado"
 
-#: src/components/storage/DASDTable.jsx:70
+#: src/components/storage/DASDTable.jsx:73
 msgid "Partition Info"
 msgstr "Información de la partición"
 
 #. TRANSLATORS: drop down menu label
-#: src/components/storage/DASDTable.jsx:105
+#: src/components/storage/DASDTable.jsx:108
 msgid "Perform an action"
 msgstr "Realizar una acción"
 
 #. TRANSLATORS: drop down menu action, activate the device
-#: src/components/storage/DASDTable.jsx:111
+#: src/components/storage/DASDTable.jsx:114
 #: src/components/storage/ZFCPPage.jsx:332
 msgid "Activate"
 msgstr "Activar"
 
 #. TRANSLATORS: drop down menu action, deactivate the device
-#: src/components/storage/DASDTable.jsx:113
+#: src/components/storage/DASDTable.jsx:116
 #: src/components/storage/ZFCPPage.jsx:374
 msgid "Deactivate"
 msgstr "Desactivar"
 
 #. TRANSLATORS: drop down menu action, enable DIAG access method
-#: src/components/storage/DASDTable.jsx:116
+#: src/components/storage/DASDTable.jsx:119
 msgid "Set DIAG On"
 msgstr "Activar DIAG"
 
 #. TRANSLATORS: drop down menu action, disable DIAG access method
-#: src/components/storage/DASDTable.jsx:118
+#: src/components/storage/DASDTable.jsx:121
 msgid "Set DIAG Off"
 msgstr "Desactivar DIAG"
 
 #. TRANSLATORS: drop down menu action, format the disk
-#: src/components/storage/DASDTable.jsx:121
+#: src/components/storage/DASDTable.jsx:124
 msgid "Format"
 msgstr "Formatear"
 
-#: src/components/storage/DASDTable.jsx:198
-#: src/components/storage/DASDTable.jsx:199
+#: src/components/storage/DASDTable.jsx:201
+#: src/components/storage/DASDTable.jsx:202
 msgid "Filter by min channel"
 msgstr "Filtrar por canal mínimo"
 
-#: src/components/storage/DASDTable.jsx:206
+#: src/components/storage/DASDTable.jsx:209
 msgid "Remove min channel filter"
 msgstr "Eliminar filtro de canal mínimo"
 
-#: src/components/storage/DASDTable.jsx:219
-#: src/components/storage/DASDTable.jsx:220
+#: src/components/storage/DASDTable.jsx:222
+#: src/components/storage/DASDTable.jsx:223
 msgid "Filter by max channel"
 msgstr "Filtrar por canal máximo"
 
-#: src/components/storage/DASDTable.jsx:227
+#: src/components/storage/DASDTable.jsx:230
 msgid "Remove max channel filter"
 msgstr "Eliminar filtro de canal máximo"
 
@@ -2640,6 +2643,9 @@ msgstr "Usuario"
 #: src/components/users/UsersPage.jsx:34
 msgid "Root authentication"
 msgstr "Autenticación de root"
+
+#~ msgid "Diag"
+#~ msgstr "Diagnóstico"
 
 #~ msgid "User password"
 #~ msgstr "Contraseña de usuario"
