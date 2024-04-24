@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-24 10:46+0000\n"
-"PO-Revision-Date: 2024-04-20 12:43+0000\n"
+"PO-Revision-Date: 2024-04-24 13:43+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "sv/>\n"
@@ -820,12 +820,12 @@ msgstr "Programvara"
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:53
-#, fuzzy
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group shrinking "
 "existing partitions at the underlying devices as needed"
 msgstr ""
-"Installera i en ny %1$s på %2$s och krymp befintliga partitioner efter behov"
+"Installera i en ny logisk volymhanterare (LVM) volymgrupp som krymper "
+"befintliga partitioner vid de underliggande enheterna efter behov"
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:56
@@ -833,6 +833,8 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group without modifying "
 "the partitions at the underlying devices"
 msgstr ""
+"Installera i en ny logisk volymhanterare (LVM) volymgrupp utan att ändra "
+"partitionerna på de underliggande enheterna"
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:59
@@ -840,56 +842,62 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group deleting all the "
 "content of the underlying devices"
 msgstr ""
+"Installera i en ny logisk volymhanterare (LVM) volymgrupp och radera allt "
+"innehåll i de underliggande enheterna"
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:62
-#, fuzzy
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group using a custom "
 "strategy to find the needed space at the underlying devices"
 msgstr ""
-"Installera i en ny %1$s på %2$s med hjälp av en anpassad strategi för att "
-"hitta det utrymme som behövs"
+"Installera i en ny logisk volymhanterare (LVM) volymgrupp med hjälp av en "
+"anpassad strategi för att hitta det utrymme som behövs vid de underliggande "
+"enheterna"
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
 #: src/components/overview/StorageSection.jsx:78
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s shrinking "
 "existing partitions as needed"
 msgstr ""
-"Installera i en ny %1$s på %2$s och krymp befintliga partitioner efter behov"
+"Installera i en ny logisk volymhanterare (LVM) volymgrupp på %s krymper "
+"befintliga partitioner efter behov"
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
 #: src/components/overview/StorageSection.jsx:82
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s without "
 "modifying existing partitions"
 msgstr ""
-"Installera i en ny %1$s på %2$s utan att modifiera existerande partitioner"
+"Installera i en ny logisk volymhanterare (LVM) volymgrupp på %s utan att "
+"ändra befintliga partitioner"
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
 #: src/components/overview/StorageSection.jsx:86
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s deleting "
 "all its content"
-msgstr "Installera i en ny %1$s på %2$s tar bort allt dess innehåll"
+msgstr ""
+"Installera i en ny logisk volymhanterare (LVM) volymgrupp på %s tar bort "
+"allt innehåll"
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
 #: src/components/overview/StorageSection.jsx:90
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s using a "
 "custom strategy to find the needed space"
 msgstr ""
-"Installera i en ny %1$s på %2$s med hjälp av en anpassad strategi för att "
-"hitta det utrymme som behövs"
+"Installera i en ny logisk volymhanterare (LVM) volymgrupp på %s använd en "
+"anpassad strategi för att hitta det nödvändiga utrymmet"
 
 #: src/components/overview/StorageSection.jsx:130
 #: src/components/storage/InstallationDeviceField.jsx:62
@@ -1250,7 +1258,7 @@ msgstr "Typ"
 #. usually keep untranslated
 #: src/components/storage/DASDTable.jsx:71
 msgid "DIAG"
-msgstr ""
+msgstr "DIAG"
 
 #: src/components/storage/DASDTable.jsx:72
 msgid "Formatted"
