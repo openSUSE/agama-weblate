@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-23 02:12+0000\n"
+"POT-Creation-Date: 2024-04-24 10:46+0000\n"
 "PO-Revision-Date: 2024-04-19 23:43+0000\n"
 "Last-Translator: faila fail <yassadmi@proton.me>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/agama/agama-web/fr/"
@@ -825,67 +825,88 @@ msgstr "Rafraîchir les dépôts"
 msgid "Software"
 msgstr "Logiciel"
 
-#. TRANSLATORS: Part of the message describing where the system will be installed.
-#: src/components/overview/StorageSection.jsx:63
+#. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
+#: src/components/overview/StorageSection.jsx:53
 #, fuzzy
-msgid "Logical Volume Manager (LVM) volume group"
-msgstr "Groupe de volumes du gestionnaire de volumes logiques (LVM)"
-
-#: src/components/overview/StorageSection.jsx:71
-#, fuzzy, c-format
-msgid "Install in a new %1$s on %2$s shrinking existing partitions as needed"
-msgid_plural ""
-"Install in a new %1$s shrinking existing partitions at the underlying "
-"devices as needed"
-msgstr[0] ""
-"Installer en utilisant le périphérique %s en réduisant les partitions "
-"existantes si nécessaire"
-msgstr[1] ""
-"Installer en utilisant le périphérique %s en réduisant les partitions "
-"existantes si nécessaire"
-
-#: src/components/overview/StorageSection.jsx:79
-#, fuzzy, c-format
-msgid "Install in a new %1$s on %2$s without modifying existing partitions"
-msgid_plural ""
-"Install in a new %1$s without modifying the partitions at the underlying "
-"devices"
-msgstr[0] ""
-"Installer en utilisant le périphérique %s sans modifier les partitions "
-"existantes"
-msgstr[1] ""
-"Installer en utilisant le périphérique %s sans modifier les partitions "
-"existantes"
-
-#: src/components/overview/StorageSection.jsx:87
-#, fuzzy, c-format
-msgid "Install in a new %1$s on %2$s deleting all its content"
-msgid_plural ""
-"Install in a new %1$s deleting all the content of the underlying devices"
-msgstr[0] ""
-"Installer en utilisant le périphérique %s et en supprimant tout son contenu"
-msgstr[1] ""
-"Installer en utilisant le périphérique %s et en supprimant tout son contenu"
-
-#: src/components/overview/StorageSection.jsx:95
-#, c-format
 msgid ""
-"Install in a new %1$s on %2$s using a custom strategy to find the needed "
-"space"
-msgid_plural ""
-"Install in a new %1$s using a custom strategy to find the needed space at "
-"the underlying devices"
-msgstr[0] ""
-msgstr[1] ""
+"Install in a new Logical Volume Manager (LVM) volume group shrinking "
+"existing partitions at the underlying devices as needed"
+msgstr ""
+"Installer en utilisant le périphérique %s en réduisant les partitions "
+"existantes si nécessaire"
 
-#: src/components/overview/StorageSection.jsx:120
+#. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
+#: src/components/overview/StorageSection.jsx:56
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group without modifying "
+"the partitions at the underlying devices"
+msgstr ""
+
+#. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
+#: src/components/overview/StorageSection.jsx:59
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group deleting all the "
+"content of the underlying devices"
+msgstr ""
+
+#. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
+#: src/components/overview/StorageSection.jsx:62
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group using a custom "
+"strategy to find the needed space at the underlying devices"
+msgstr ""
+
+#. TRANSLATORS: installing on an LVM with a single physical partition/disk,
+#. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
+#: src/components/overview/StorageSection.jsx:78
+#, fuzzy, c-format
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group on %s shrinking "
+"existing partitions as needed"
+msgstr ""
+"Installer en utilisant le périphérique %s en réduisant les partitions "
+"existantes si nécessaire"
+
+#. TRANSLATORS: installing on an LVM with a single physical partition/disk,
+#. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
+#: src/components/overview/StorageSection.jsx:82
+#, fuzzy, c-format
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group on %s without "
+"modifying existing partitions"
+msgstr ""
+"Installer en utilisant le périphérique %s sans modifier les partitions "
+"existantes"
+
+#. TRANSLATORS: installing on an LVM with a single physical partition/disk,
+#. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
+#: src/components/overview/StorageSection.jsx:86
+#, fuzzy, c-format
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group on %s deleting "
+"all its content"
+msgstr ""
+"Installer en utilisant le périphérique %s et en supprimant tout son contenu"
+
+#. TRANSLATORS: installing on an LVM with a single physical partition/disk,
+#. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
+#: src/components/overview/StorageSection.jsx:90
+#, fuzzy, c-format
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group on %s using a "
+"custom strategy to find the needed space"
+msgstr ""
+"Installer en utilisant le périphérique %s en réduisant les partitions "
+"existantes si nécessaire"
+
+#: src/components/overview/StorageSection.jsx:130
 #: src/components/storage/InstallationDeviceField.jsx:62
 msgid "No device selected yet"
 msgstr "Aucun périphérique n'a encore été sélectionné"
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
-#: src/components/overview/StorageSection.jsx:127
+#: src/components/overview/StorageSection.jsx:137
 #, c-format
 msgid "Install using device %s shrinking existing partitions as needed"
 msgstr ""
@@ -894,7 +915,7 @@ msgstr ""
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
-#: src/components/overview/StorageSection.jsx:131
+#: src/components/overview/StorageSection.jsx:141
 #, c-format
 msgid "Install using device %s without modifying existing partitions"
 msgstr ""
@@ -903,7 +924,7 @@ msgstr ""
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
-#: src/components/overview/StorageSection.jsx:135
+#: src/components/overview/StorageSection.jsx:145
 #, c-format
 msgid "Install using device %s and deleting all its content"
 msgstr ""
@@ -911,20 +932,20 @@ msgstr ""
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
-#: src/components/overview/StorageSection.jsx:140
+#: src/components/overview/StorageSection.jsx:150
 #, fuzzy, c-format
 msgid "Install using device %s with a custom strategy to find the needed space"
 msgstr ""
 "Installer en utilisant le périphérique %s en réduisant les partitions "
 "existantes si nécessaire"
 
-#: src/components/overview/StorageSection.jsx:157
+#: src/components/overview/StorageSection.jsx:167
 msgid "Probing storage devices"
 msgstr "Sonde les périphériques de stockage"
 
 #. TRANSLATORS: Storage page title
 #. TRANSLATORS: page section title
-#: src/components/overview/StorageSection.jsx:283
+#: src/components/overview/StorageSection.jsx:293
 #: src/components/storage/ProposalPage.jsx:227
 msgid "Storage"
 msgstr "Stockage"
@@ -2651,6 +2672,10 @@ msgstr "Utilisateur"
 #: src/components/users/UsersPage.jsx:34
 msgid "Root authentication"
 msgstr "Authentification root"
+
+#, fuzzy
+#~ msgid "Logical Volume Manager (LVM) volume group"
+#~ msgstr "Groupe de volumes du gestionnaire de volumes logiques (LVM)"
 
 #~ msgid "Diag"
 #~ msgstr "Diagnostic"

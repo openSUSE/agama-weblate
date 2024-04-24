@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-23 02:12+0000\n"
+"POT-Creation-Date: 2024-04-24 10:46+0000\n"
 "PO-Revision-Date: 2024-04-02 06:43+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/agama/agama-"
@@ -803,88 +803,110 @@ msgstr ""
 msgid "Software"
 msgstr ""
 
-#. TRANSLATORS: Part of the message describing where the system will be installed.
-#: src/components/overview/StorageSection.jsx:63
-msgid "Logical Volume Manager (LVM) volume group"
+#. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
+#: src/components/overview/StorageSection.jsx:53
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group shrinking "
+"existing partitions at the underlying devices as needed"
 msgstr ""
 
-#: src/components/overview/StorageSection.jsx:71
-#, c-format
-msgid "Install in a new %1$s on %2$s shrinking existing partitions as needed"
-msgid_plural ""
-"Install in a new %1$s shrinking existing partitions at the underlying "
-"devices as needed"
-msgstr[0] ""
-msgstr[1] ""
+#. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
+#: src/components/overview/StorageSection.jsx:56
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group without modifying "
+"the partitions at the underlying devices"
+msgstr ""
 
-#: src/components/overview/StorageSection.jsx:79
-#, c-format
-msgid "Install in a new %1$s on %2$s without modifying existing partitions"
-msgid_plural ""
-"Install in a new %1$s without modifying the partitions at the underlying "
-"devices"
-msgstr[0] ""
-msgstr[1] ""
+#. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
+#: src/components/overview/StorageSection.jsx:59
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group deleting all the "
+"content of the underlying devices"
+msgstr ""
 
-#: src/components/overview/StorageSection.jsx:87
-#, c-format
-msgid "Install in a new %1$s on %2$s deleting all its content"
-msgid_plural ""
-"Install in a new %1$s deleting all the content of the underlying devices"
-msgstr[0] ""
-msgstr[1] ""
+#. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
+#: src/components/overview/StorageSection.jsx:62
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group using a custom "
+"strategy to find the needed space at the underlying devices"
+msgstr ""
 
-#: src/components/overview/StorageSection.jsx:95
+#. TRANSLATORS: installing on an LVM with a single physical partition/disk,
+#. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
+#: src/components/overview/StorageSection.jsx:78
 #, c-format
 msgid ""
-"Install in a new %1$s on %2$s using a custom strategy to find the needed "
-"space"
-msgid_plural ""
-"Install in a new %1$s using a custom strategy to find the needed space at "
-"the underlying devices"
-msgstr[0] ""
-msgstr[1] ""
+"Install in a new Logical Volume Manager (LVM) volume group on %s shrinking "
+"existing partitions as needed"
+msgstr ""
 
-#: src/components/overview/StorageSection.jsx:120
+#. TRANSLATORS: installing on an LVM with a single physical partition/disk,
+#. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
+#: src/components/overview/StorageSection.jsx:82
+#, c-format
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group on %s without "
+"modifying existing partitions"
+msgstr ""
+
+#. TRANSLATORS: installing on an LVM with a single physical partition/disk,
+#. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
+#: src/components/overview/StorageSection.jsx:86
+#, c-format
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group on %s deleting "
+"all its content"
+msgstr ""
+
+#. TRANSLATORS: installing on an LVM with a single physical partition/disk,
+#. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
+#: src/components/overview/StorageSection.jsx:90
+#, c-format
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group on %s using a "
+"custom strategy to find the needed space"
+msgstr ""
+
+#: src/components/overview/StorageSection.jsx:130
 #: src/components/storage/InstallationDeviceField.jsx:62
 msgid "No device selected yet"
 msgstr ""
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
-#: src/components/overview/StorageSection.jsx:127
+#: src/components/overview/StorageSection.jsx:137
 #, c-format
 msgid "Install using device %s shrinking existing partitions as needed"
 msgstr ""
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
-#: src/components/overview/StorageSection.jsx:131
+#: src/components/overview/StorageSection.jsx:141
 #, c-format
 msgid "Install using device %s without modifying existing partitions"
 msgstr ""
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
-#: src/components/overview/StorageSection.jsx:135
+#: src/components/overview/StorageSection.jsx:145
 #, c-format
 msgid "Install using device %s and deleting all its content"
 msgstr ""
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
-#: src/components/overview/StorageSection.jsx:140
+#: src/components/overview/StorageSection.jsx:150
 #, c-format
 msgid "Install using device %s with a custom strategy to find the needed space"
 msgstr ""
 
-#: src/components/overview/StorageSection.jsx:157
+#: src/components/overview/StorageSection.jsx:167
 msgid "Probing storage devices"
 msgstr ""
 
 #. TRANSLATORS: Storage page title
 #. TRANSLATORS: page section title
-#: src/components/overview/StorageSection.jsx:283
+#: src/components/overview/StorageSection.jsx:293
 #: src/components/storage/ProposalPage.jsx:227
 msgid "Storage"
 msgstr ""

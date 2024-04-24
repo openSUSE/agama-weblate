@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-23 02:12+0000\n"
+"POT-Creation-Date: 2024-04-24 10:46+0000\n"
 "PO-Revision-Date: 2024-04-13 18:43+0000\n"
 "Last-Translator: Monstorix <monstorix@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.opensuse.org/projects/"
@@ -795,85 +795,112 @@ msgstr "刷新仓库"
 msgid "Software"
 msgstr "软件"
 
-#. TRANSLATORS: Part of the message describing where the system will be installed.
-#: src/components/overview/StorageSection.jsx:63
+#. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
+#: src/components/overview/StorageSection.jsx:53
 #, fuzzy
-msgid "Logical Volume Manager (LVM) volume group"
-msgstr "<abbr title='Logical Volume Manager'>LVM</abbr> 卷组"
-
-#: src/components/overview/StorageSection.jsx:71
-#, c-format
-msgid "Install in a new %1$s on %2$s shrinking existing partitions as needed"
-msgid_plural ""
-"Install in a new %1$s shrinking existing partitions at the underlying "
-"devices as needed"
-msgstr[0] "在新建的 %1$s 上进行安装并在需要时缩小磁盘中现有的分区"
-
-#: src/components/overview/StorageSection.jsx:79
-#, c-format
-msgid "Install in a new %1$s on %2$s without modifying existing partitions"
-msgid_plural ""
-"Install in a new %1$s without modifying the partitions at the underlying "
-"devices"
-msgstr[0] "在新建的 %1$s 上进行安装但不修改磁盘中已存在的分区"
-
-#: src/components/overview/StorageSection.jsx:87
-#, c-format
-msgid "Install in a new %1$s on %2$s deleting all its content"
-msgid_plural ""
-"Install in a new %1$s deleting all the content of the underlying devices"
-msgstr[0] "在新建的 %1$s 上进行安装并删除磁盘的现有内容"
-
-#: src/components/overview/StorageSection.jsx:95
-#, c-format
 msgid ""
-"Install in a new %1$s on %2$s using a custom strategy to find the needed "
-"space"
-msgid_plural ""
-"Install in a new %1$s using a custom strategy to find the needed space at "
-"the underlying devices"
-msgstr[0] "在新建的 %1$s 上进行安装，采用自定义策略寻找磁盘上的所需空间"
+"Install in a new Logical Volume Manager (LVM) volume group shrinking "
+"existing partitions at the underlying devices as needed"
+msgstr "在新建的 %1$s 上进行安装并在需要时缩小磁盘中现有的分区"
 
-#: src/components/overview/StorageSection.jsx:120
+#. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
+#: src/components/overview/StorageSection.jsx:56
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group without modifying "
+"the partitions at the underlying devices"
+msgstr ""
+
+#. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
+#: src/components/overview/StorageSection.jsx:59
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group deleting all the "
+"content of the underlying devices"
+msgstr ""
+
+#. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
+#: src/components/overview/StorageSection.jsx:62
+#, fuzzy
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group using a custom "
+"strategy to find the needed space at the underlying devices"
+msgstr "在新建的 %1$s 上进行安装，采用自定义策略寻找磁盘上的所需空间"
+
+#. TRANSLATORS: installing on an LVM with a single physical partition/disk,
+#. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
+#: src/components/overview/StorageSection.jsx:78
+#, fuzzy, c-format
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group on %s shrinking "
+"existing partitions as needed"
+msgstr "在新建的 %1$s 上进行安装并在需要时缩小磁盘中现有的分区"
+
+#. TRANSLATORS: installing on an LVM with a single physical partition/disk,
+#. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
+#: src/components/overview/StorageSection.jsx:82
+#, fuzzy, c-format
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group on %s without "
+"modifying existing partitions"
+msgstr "在新建的 %1$s 上进行安装但不修改磁盘中已存在的分区"
+
+#. TRANSLATORS: installing on an LVM with a single physical partition/disk,
+#. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
+#: src/components/overview/StorageSection.jsx:86
+#, fuzzy, c-format
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group on %s deleting "
+"all its content"
+msgstr "在新建的 %1$s 上进行安装并删除磁盘的现有内容"
+
+#. TRANSLATORS: installing on an LVM with a single physical partition/disk,
+#. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
+#: src/components/overview/StorageSection.jsx:90
+#, fuzzy, c-format
+msgid ""
+"Install in a new Logical Volume Manager (LVM) volume group on %s using a "
+"custom strategy to find the needed space"
+msgstr "在新建的 %1$s 上进行安装，采用自定义策略寻找磁盘上的所需空间"
+
+#: src/components/overview/StorageSection.jsx:130
 #: src/components/storage/InstallationDeviceField.jsx:62
 msgid "No device selected yet"
 msgstr "尚未选择设备"
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
-#: src/components/overview/StorageSection.jsx:127
+#: src/components/overview/StorageSection.jsx:137
 #, c-format
 msgid "Install using device %s shrinking existing partitions as needed"
 msgstr "使用设备 %s 进行安装，并在需要时缩小现有的分区"
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
-#: src/components/overview/StorageSection.jsx:131
+#: src/components/overview/StorageSection.jsx:141
 #, c-format
 msgid "Install using device %s without modifying existing partitions"
 msgstr "使用设备 %s 进行安装且不修改已存在的分区"
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
-#: src/components/overview/StorageSection.jsx:135
+#: src/components/overview/StorageSection.jsx:145
 #, c-format
 msgid "Install using device %s and deleting all its content"
 msgstr "使用设备 %s 进行安装并删除其上的现有内容"
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
-#: src/components/overview/StorageSection.jsx:140
+#: src/components/overview/StorageSection.jsx:150
 #, c-format
 msgid "Install using device %s with a custom strategy to find the needed space"
 msgstr "使用设备 %s 进行安装，并采用自定义策略寻找所需空间"
 
-#: src/components/overview/StorageSection.jsx:157
+#: src/components/overview/StorageSection.jsx:167
 msgid "Probing storage devices"
 msgstr "正在探测存储设备"
 
 #. TRANSLATORS: Storage page title
 #. TRANSLATORS: page section title
-#: src/components/overview/StorageSection.jsx:283
+#: src/components/overview/StorageSection.jsx:293
 #: src/components/storage/ProposalPage.jsx:227
 msgid "Storage"
 msgstr "存储"
@@ -2542,6 +2569,10 @@ msgstr "用户"
 #: src/components/users/UsersPage.jsx:34
 msgid "Root authentication"
 msgstr "Root 认证"
+
+#, fuzzy
+#~ msgid "Logical Volume Manager (LVM) volume group"
+#~ msgstr "<abbr title='Logical Volume Manager'>LVM</abbr> 卷组"
 
 #~ msgid "Diag"
 #~ msgstr "诊断"
