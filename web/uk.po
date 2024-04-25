@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-24 10:46+0000\n"
+"POT-Creation-Date: 2024-04-25 02:09+0000\n"
 "PO-Revision-Date: 2023-12-31 20:39+0000\n"
 "Last-Translator: Milachew <milachew@mail.lv>\n"
 "Language-Team: Ukrainian <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -2059,69 +2059,65 @@ msgid "Storage zFCP"
 msgstr ""
 
 #. TRANSLATORS: multipath device type
-#: src/components/storage/device-utils.jsx:53
+#: src/components/storage/device-utils.jsx:66
 msgid "Multipath"
 msgstr ""
 
 #. TRANSLATORS: %s is replaced by the device bus ID
-#: src/components/storage/device-utils.jsx:58
+#: src/components/storage/device-utils.jsx:71
 #, c-format
 msgid "DASD %s"
 msgstr ""
 
 #. TRANSLATORS: software RAID device, %s is replaced by the RAID level, e.g. RAID-1
-#: src/components/storage/device-utils.jsx:63
+#: src/components/storage/device-utils.jsx:76
 #, c-format
 msgid "Software %s"
 msgstr ""
 
-#: src/components/storage/device-utils.jsx:68
+#: src/components/storage/device-utils.jsx:81
 msgid "SD Card"
 msgstr ""
 
 #. TRANSLATORS: %s is substituted by the type of disk like "iSCSI" or "SATA"
-#: src/components/storage/device-utils.jsx:73
+#: src/components/storage/device-utils.jsx:86
 #, c-format
 msgid "%s disk"
 msgstr ""
 
-#: src/components/storage/device-utils.jsx:74
+#: src/components/storage/device-utils.jsx:87
 msgid "Disk"
 msgstr ""
 
 #. TRANSLATORS: RAID details, %s is replaced by list of devices used by the array
-#: src/components/storage/device-utils.jsx:94
+#: src/components/storage/device-utils.jsx:107
 #, c-format
 msgid "Members: %s"
 msgstr ""
 
 #. TRANSLATORS: RAID details, %s is replaced by list of devices used by the array
-#: src/components/storage/device-utils.jsx:103
+#: src/components/storage/device-utils.jsx:116
 #, c-format
 msgid "Devices: %s"
 msgstr ""
 
 #. TRANSLATORS: multipath details, %s is replaced by list of connections used by the device
-#: src/components/storage/device-utils.jsx:112
+#: src/components/storage/device-utils.jsx:125
 #, c-format
 msgid "Wires: %s"
 msgstr ""
 
 #. TRANSLATORS: disk partition info, %s is replaced by partition table
 #. type (MS-DOS or GPT), %d is the number of the partitions
-#: src/components/storage/device-utils.jsx:136
+#: src/components/storage/device-utils.jsx:155
 #, c-format
 msgid "%s with %d partitions"
 msgstr ""
 
 #. TRANSLATORS: status message, no existing content was found on the disk,
 #. i.e. the disk is completely empty
-#: src/components/storage/device-utils.jsx:165
+#: src/components/storage/device-utils.jsx:184
 msgid "No content found"
-msgstr ""
-
-#: src/components/storage/device-utils.jsx:276
-msgid "Available devices"
 msgstr ""
 
 #: src/components/storage/iscsi/AuthFields.jsx:70

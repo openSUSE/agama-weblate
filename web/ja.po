@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-24 10:46+0000\n"
+"POT-Creation-Date: 2024-04-25 02:09+0000\n"
 "PO-Revision-Date: 2024-04-24 13:43+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -822,28 +822,36 @@ msgstr "ソフトウエア"
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group shrinking "
 "existing partitions at the underlying devices as needed"
-msgstr "必要に応じて既存のパーティションを縮小し、新しく論理ボリュームマネージャ (LVM) のボリュームグループを作成してインストールします"
+msgstr ""
+"必要に応じて既存のパーティションを縮小し、新しく論理ボリュームマネージャ "
+"(LVM) のボリュームグループを作成してインストールします"
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:56
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group without modifying "
 "the partitions at the underlying devices"
-msgstr "既存のパーティションを変更せず、新しく論理ボリュームマネージャ (LVM) のボリュームグループを作成してインストールします"
+msgstr ""
+"既存のパーティションを変更せず、新しく論理ボリュームマネージャ (LVM) のボ"
+"リュームグループを作成してインストールします"
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:59
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group deleting all the "
 "content of the underlying devices"
-msgstr "既存のデバイス内の内容を全て削除し、新しく論理ボリュームマネージャ (LVM) のボリュームグループを作成してインストールします"
+msgstr ""
+"既存のデバイス内の内容を全て削除し、新しく論理ボリュームマネージャ (LVM) のボ"
+"リュームグループを作成してインストールします"
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:62
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group using a custom "
 "strategy to find the needed space at the underlying devices"
-msgstr "必要な領域検出に際して独自の方式を利用し、新しく論理ボリュームマネージャ (LVM) のボリュームグループを作成してインストールします"
+msgstr ""
+"必要な領域検出に際して独自の方式を利用し、新しく論理ボリュームマネージャ "
+"(LVM) のボリュームグループを作成してインストールします"
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
@@ -853,7 +861,8 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s shrinking "
 "existing partitions as needed"
 msgstr ""
-"必要に応じて %s 内の既存パーティションを縮小し、新しく論理ボリュームマネージャ (LVM) のボリュームグループを作成してインストールします"
+"必要に応じて %s 内の既存パーティションを縮小し、新しく論理ボリュームマネー"
+"ジャ (LVM) のボリュームグループを作成してインストールします"
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
@@ -862,7 +871,9 @@ msgstr ""
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s without "
 "modifying existing partitions"
-msgstr "%s 内の既存パーティションを変更せず、新しく論理ボリュームマネージャのボリュームグループを作成してインストールします"
+msgstr ""
+"%s 内の既存パーティションを変更せず、新しく論理ボリュームマネージャのボリュー"
+"ムグループを作成してインストールします"
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
@@ -871,7 +882,9 @@ msgstr "%s 内の既存パーティションを変更せず、新しく論理ボ
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s deleting "
 "all its content"
-msgstr "%s 内の内容を全て削除し、新しく論理ボリュームマネージャ (LVM) のボリュームグループを作成してインストールします"
+msgstr ""
+"%s 内の内容を全て削除し、新しく論理ボリュームマネージャ (LVM) のボリュームグ"
+"ループを作成してインストールします"
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
@@ -880,7 +893,9 @@ msgstr "%s 内の内容を全て削除し、新しく論理ボリュームマネ
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s using a "
 "custom strategy to find the needed space"
-msgstr "%s 内での必要な領域検出に際して独自の方式を利用し、新しく論理ボリュームマネージャのボリュームグループを作成してインストールします"
+msgstr ""
+"%s 内での必要な領域検出に際して独自の方式を利用し、新しく論理ボリュームマネー"
+"ジャのボリュームグループを作成してインストールします"
 
 #: src/components/overview/StorageSection.jsx:130
 #: src/components/storage/InstallationDeviceField.jsx:62
@@ -2121,70 +2136,66 @@ msgid "Storage zFCP"
 msgstr "ストレージ zFCP"
 
 #. TRANSLATORS: multipath device type
-#: src/components/storage/device-utils.jsx:53
+#: src/components/storage/device-utils.jsx:66
 msgid "Multipath"
 msgstr "マルチパス"
 
 #. TRANSLATORS: %s is replaced by the device bus ID
-#: src/components/storage/device-utils.jsx:58
+#: src/components/storage/device-utils.jsx:71
 #, c-format
 msgid "DASD %s"
 msgstr "DASD %s"
 
 #. TRANSLATORS: software RAID device, %s is replaced by the RAID level, e.g. RAID-1
-#: src/components/storage/device-utils.jsx:63
+#: src/components/storage/device-utils.jsx:76
 #, c-format
 msgid "Software %s"
 msgstr "ソフトウエア %s"
 
-#: src/components/storage/device-utils.jsx:68
+#: src/components/storage/device-utils.jsx:81
 msgid "SD Card"
 msgstr "SD カード"
 
 #. TRANSLATORS: %s is substituted by the type of disk like "iSCSI" or "SATA"
-#: src/components/storage/device-utils.jsx:73
+#: src/components/storage/device-utils.jsx:86
 #, c-format
 msgid "%s disk"
 msgstr "%s ディスク"
 
-#: src/components/storage/device-utils.jsx:74
+#: src/components/storage/device-utils.jsx:87
 msgid "Disk"
 msgstr "ディスク"
 
 #. TRANSLATORS: RAID details, %s is replaced by list of devices used by the array
-#: src/components/storage/device-utils.jsx:94
+#: src/components/storage/device-utils.jsx:107
 #, c-format
 msgid "Members: %s"
 msgstr "メンバー: %s"
 
 #. TRANSLATORS: RAID details, %s is replaced by list of devices used by the array
-#: src/components/storage/device-utils.jsx:103
+#: src/components/storage/device-utils.jsx:116
 #, c-format
 msgid "Devices: %s"
 msgstr "デバイス: %s"
 
 #. TRANSLATORS: multipath details, %s is replaced by list of connections used by the device
-#: src/components/storage/device-utils.jsx:112
+#: src/components/storage/device-utils.jsx:125
 #, c-format
 msgid "Wires: %s"
 msgstr "接続: %s"
 
 #. TRANSLATORS: disk partition info, %s is replaced by partition table
 #. type (MS-DOS or GPT), %d is the number of the partitions
-#: src/components/storage/device-utils.jsx:136
+#: src/components/storage/device-utils.jsx:155
 #, c-format
 msgid "%s with %d partitions"
 msgstr "%s (%d 個のパーティション)"
 
 #. TRANSLATORS: status message, no existing content was found on the disk,
 #. i.e. the disk is completely empty
-#: src/components/storage/device-utils.jsx:165
+#: src/components/storage/device-utils.jsx:184
 msgid "No content found"
 msgstr "内容が見つかりませんでした"
-
-#: src/components/storage/device-utils.jsx:276
-msgid "Available devices"
-msgstr "利用可能なデバイス"
 
 #: src/components/storage/iscsi/AuthFields.jsx:70
 msgid "Only available if authentication by target is provided"
@@ -2613,6 +2624,9 @@ msgstr "ユーザ"
 #: src/components/users/UsersPage.jsx:34
 msgid "Root authentication"
 msgstr "root の認証"
+
+#~ msgid "Available devices"
+#~ msgstr "利用可能なデバイス"
 
 #~ msgid "Logical Volume Manager (LVM) volume group"
 #~ msgstr "Logical Volume Manager (LVM) ボリュームグループ"
