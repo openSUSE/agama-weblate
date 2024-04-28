@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-28 02:18+0000\n"
-"PO-Revision-Date: 2024-04-23 16:43+0000\n"
+"PO-Revision-Date: 2024-04-28 11:43+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ca/>\n"
@@ -823,13 +823,12 @@ msgstr "Programari"
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:53
-#, fuzzy
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group shrinking "
 "existing partitions at the underlying devices as needed"
 msgstr ""
-"Instal·la en un %1$s nou a %2$s encongint les particions existents segons "
-"calgui."
+"Instal·la en un grup de volums nou del Gestor de Volums Lògics (LVM) "
+"encongint les particions existents als dispositius subjacents segons calgui."
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:56
@@ -837,6 +836,8 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group without modifying "
 "the partitions at the underlying devices"
 msgstr ""
+"Instal·la en un grup de volums nou del Gestor de Volums Lògics (LVM) sense "
+"modificar les particions dels dispositius subjacents."
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:59
@@ -844,57 +845,62 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group deleting all the "
 "content of the underlying devices"
 msgstr ""
+"Instal·la en un grup de volums nou del Gestor de Volums Lògics (LVM) "
+"suprimint tot el contingut dels dispositius subjacents."
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:62
-#, fuzzy
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group using a custom "
 "strategy to find the needed space at the underlying devices"
 msgstr ""
-"Instal·la en un %1$s nou a %2$s usant una estratègia personalitzada per "
-"trobar l'espai."
+"Instal·la en un grup de volums nou del Gestor de Volums Lògics (LVM) amb una "
+"estratègia personalitzada per trobar l'espai necessari als dispositius "
+"subjacents."
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
 #: src/components/overview/StorageSection.jsx:78
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s shrinking "
 "existing partitions as needed"
 msgstr ""
-"Instal·la en un %1$s nou a %2$s encongint les particions existents segons "
-"calgui."
+"Instal·la en un grup de volums nou del Gestor de Volums Lògics (LVM) a %s "
+"reduint les particions existents segons calgui."
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
 #: src/components/overview/StorageSection.jsx:82
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s without "
 "modifying existing partitions"
 msgstr ""
-"Instal·la en un %1$s nou a %2$s sense modificar-ne les particions existents."
+"Instal·la en un grup de volums nou del Gestor de Volums Lògics (LVM) a %s "
+"sense modificar les particions existents."
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
 #: src/components/overview/StorageSection.jsx:86
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s deleting "
 "all its content"
-msgstr "Instal·la en un %1$s nou a %2$s suprimint-ne tot el contingut."
+msgstr ""
+"Instal·la en un grup de volums nou del Gestor de Volums Lògics (LVM) a %s "
+"suprimint-ne tot el contingut."
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
 #: src/components/overview/StorageSection.jsx:90
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s using a "
 "custom strategy to find the needed space"
 msgstr ""
-"Instal·la en un %1$s nou a %2$s usant una estratègia personalitzada per "
-"trobar l'espai."
+"Instal·la en un grup de volums nou del Gestor de Volums Lògics (LVM) a %s "
+"amb una estratègia personalitzada per trobar l'espai necessari."
 
 #: src/components/overview/StorageSection.jsx:130
 #: src/components/storage/InstallationDeviceField.jsx:62
@@ -1676,7 +1682,7 @@ msgstr "Afegeix-hi un sistema de fitxers"
 
 #: src/components/storage/PartitionsField.jsx:601
 msgid "Other"
-msgstr ""
+msgstr "Una altra"
 
 #: src/components/storage/PartitionsField.jsx:733
 msgid "Reset to defaults"
@@ -1832,7 +1838,7 @@ msgstr "No la modifiquis"
 
 #: src/components/storage/SpaceActionsTable.jsx:154
 msgid "The content may be deleted"
-msgstr ""
+msgstr "El contingut pot suprimir-se"
 
 #. TRANSLATORS: status message, no existing content was found on the disk,
 #. i.e. the disk is completely empty
@@ -1879,28 +1885,26 @@ msgstr ""
 "dispositius d'instal·lació."
 
 #: src/components/storage/VolumeDialog.jsx:88
-#, fuzzy, c-format
+#, c-format
 msgid "Add %s file system"
-msgstr "Afegeix-hi un sistema de fitxers"
+msgstr "Afegeix-hi un sistema de fitxers %s"
 
 #: src/components/storage/VolumeDialog.jsx:89
-#, fuzzy, c-format
+#, c-format
 msgid "Edit %s file system"
-msgstr "Edita el sistema de fitxers"
+msgstr "Edita el sistema de fitxers %s"
 
 #: src/components/storage/VolumeDialog.jsx:91
 msgid "Edit file system"
 msgstr "Edita el sistema de fitxers"
 
 #: src/components/storage/VolumeDialog.jsx:129
-#, fuzzy
 msgid "A mount point is required"
-msgstr "Cal una mida mínima"
+msgstr "Cal un punt de muntatge."
 
 #: src/components/storage/VolumeDialog.jsx:156
-#, fuzzy
 msgid "The mount point is invalid"
-msgstr "Taula amb punts de muntatge"
+msgstr "El punt de muntatge no és vàlid."
 
 #: src/components/storage/VolumeDialog.jsx:184
 msgid "A size value is required"
@@ -1915,24 +1919,22 @@ msgid "Maximum must be greater than minimum"
 msgstr "El màxim ha de ser superior al mínim."
 
 #: src/components/storage/VolumeDialog.jsx:286
-#, fuzzy, c-format
+#, c-format
 msgid "There is already a file system for %s."
-msgstr "la presència del sistema de fitxers per a %s"
+msgstr "Ja hi ha un sistema de fitxers per a %s."
 
 #: src/components/storage/VolumeDialog.jsx:288
-#, fuzzy
 msgid "Do you want to edit it?"
-msgstr "Voleu donar de baixa el producte %s?"
+msgstr "El voleu editar?"
 
 #: src/components/storage/VolumeDialog.jsx:333
-#, fuzzy, c-format
+#, c-format
 msgid "There is a predefined file system for %s."
-msgstr "la presència del sistema de fitxers per a %s"
+msgstr "Hi ha un sistema de fitxers predefinit per a %s."
 
 #: src/components/storage/VolumeDialog.jsx:335
-#, fuzzy
 msgid "Do you want to add it?"
-msgstr "Voleu donar de baixa el producte %s?"
+msgstr "L'hi voleu afegir?"
 
 #. TRANSLATORS: info about possible file system types.
 #: src/components/storage/VolumeFields.jsx:209
