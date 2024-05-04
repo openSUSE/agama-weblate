@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-28 02:18+0000\n"
-"PO-Revision-Date: 2024-05-03 20:43+0000\n"
+"PO-Revision-Date: 2024-05-04 17:43+0000\n"
 "Last-Translator: Victor hck <victorhck@opensuse.org>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "es/>\n"
@@ -822,13 +822,13 @@ msgstr "Software"
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:53
-#, fuzzy
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group shrinking "
 "existing partitions at the underlying devices as needed"
 msgstr ""
-"Instalar utilizando el dispositivo %s reduciendo las particiones existentes "
-"según sea necesario"
+"Instalar en un nuevo grupo de volúmenes de Logical Volume Manager (LVM) "
+"reduciendo las particiones existentes en los dispositivos subyacentes según "
+"sea necesario"
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:56
@@ -836,6 +836,8 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group without modifying "
 "the partitions at the underlying devices"
 msgstr ""
+"Instalar en un nuevo grupo de volúmenes de Logical Volume Manager (LVM) sin "
+"modificar las particiones en los dispositivos subyacentes"
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:59
@@ -843,6 +845,8 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group deleting all the "
 "content of the underlying devices"
 msgstr ""
+"Instalar en un nuevo grupo de volúmenes de Logical Volume Manager (LVM) "
+"elimina todo el contenido de los dispositivos subyacentes"
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:62
@@ -850,48 +854,53 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group using a custom "
 "strategy to find the needed space at the underlying devices"
 msgstr ""
+"Instalar en un nuevo grupo de volúmenes de Logical Volume Manager (LVM) "
+"utilizando una estrategia personalizada para encontrar el espacio necesario "
+"en los dispositivos subyacentes"
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
 #: src/components/overview/StorageSection.jsx:78
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s shrinking "
 "existing partitions as needed"
 msgstr ""
-"Instalar utilizando el dispositivo %s reduciendo las particiones existentes "
-"según sea necesario"
+"Instalar en un nuevo grupo de volúmenes de Logical Volume Manager (LVM) en "
+"%s, reduciendo las particiones existentes según sea necesario"
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
 #: src/components/overview/StorageSection.jsx:82
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s without "
 "modifying existing partitions"
 msgstr ""
-"Instalar utilizando el dispositivo %s sin modificar las particiones "
-"existentes"
+"Instalar en un nuevo grupo de volúmenes de Logical Volume Manager (LVM) en "
+"%s sin modificar las particiones existentes"
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
 #: src/components/overview/StorageSection.jsx:86
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s deleting "
 "all its content"
-msgstr "Instalar utilizando el dispositivo %s y eliminar todo su contenido"
+msgstr ""
+"Instalar en un nuevo grupo de volúmenes de Logical Volume Manager (LVM) en "
+"%s eliminando todo su contenido"
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
 #: src/components/overview/StorageSection.jsx:90
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s using a "
 "custom strategy to find the needed space"
 msgstr ""
-"Instalar utilizando el dispositivo %s reduciendo las particiones existentes "
-"según sea necesario"
+"Instalar en un nuevo grupo de volúmenes de Logical Volume Manager (LVM) en "
+"%s usando una estrategia personalizada para encontrar el espacio necesario"
 
 #: src/components/overview/StorageSection.jsx:130
 #: src/components/storage/InstallationDeviceField.jsx:62
@@ -926,11 +935,11 @@ msgstr "Instalar utilizando el dispositivo %s y eliminar todo su contenido"
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
 #: src/components/overview/StorageSection.jsx:150
-#, fuzzy, c-format
+#, c-format
 msgid "Install using device %s with a custom strategy to find the needed space"
 msgstr ""
-"Instalar utilizando el dispositivo %s reduciendo las particiones existentes "
-"según sea necesario"
+"Instalar usando el dispositivo %s con una estrategia personalizada para "
+"encontrar el espacio necesario"
 
 #: src/components/overview/StorageSection.jsx:167
 msgid "Probing storage devices"
@@ -1842,9 +1851,8 @@ msgid "No content found"
 msgstr "No se encontró contenido"
 
 #: src/components/storage/SpaceActionsTable.jsx:184
-#, fuzzy
 msgid "Shrinkable"
-msgstr "Se puede reducir a %s"
+msgstr "Se puede reducir"
 
 #: src/components/storage/SpaceActionsTable.jsx:186
 msgid "Action"
@@ -1869,43 +1877,38 @@ msgid "Find space"
 msgstr "Encontrar espacio"
 
 #: src/components/storage/SpacePolicyField.jsx:75
-#, fuzzy
 msgid "Waiting for information about space policy"
-msgstr "Esperando información sobre el dispositivo seleccionado"
+msgstr "Esperando información sobre la política de espacio"
 
 #: src/components/storage/SpacePolicyField.jsx:89
-#, fuzzy
 msgid ""
 "Allocating the file systems might need to find free space in the "
 "installation device(s)."
 msgstr ""
 "Es posible que para asignar los sistemas de archivos sea necesario encontrar "
-"espacio libre en los dispositivos que se enumeran a continuación. Elige cómo "
-"hacerlo."
+"espacio libre en el (los) dispositivo(s) de instalación."
 
 #: src/components/storage/VolumeDialog.jsx:88
-#, fuzzy, c-format
+#, c-format
 msgid "Add %s file system"
-msgstr "Agregar sistema de archivos"
+msgstr "Agregar %s sistema de archivos"
 
 #: src/components/storage/VolumeDialog.jsx:89
-#, fuzzy, c-format
+#, c-format
 msgid "Edit %s file system"
-msgstr "Editar sistema de archivos"
+msgstr "Editar %s sistema de archivos"
 
 #: src/components/storage/VolumeDialog.jsx:91
 msgid "Edit file system"
 msgstr "Editar sistema de archivos"
 
 #: src/components/storage/VolumeDialog.jsx:129
-#, fuzzy
 msgid "A mount point is required"
-msgstr "Se requiere un tamaño mínimo"
+msgstr "Se requiere un punto de montaje"
 
 #: src/components/storage/VolumeDialog.jsx:156
-#, fuzzy
 msgid "The mount point is invalid"
-msgstr "Tabla con puntos de montaje"
+msgstr "El punto de montaje no es válido"
 
 #: src/components/storage/VolumeDialog.jsx:184
 msgid "A size value is required"
@@ -1920,24 +1923,22 @@ msgid "Maximum must be greater than minimum"
 msgstr "El máximo debe ser mayor que el mínimo"
 
 #: src/components/storage/VolumeDialog.jsx:286
-#, fuzzy, c-format
+#, c-format
 msgid "There is already a file system for %s."
-msgstr "la presencia del sistema de archivos para %s"
+msgstr "Ya existe un sistema de archivos para %s."
 
 #: src/components/storage/VolumeDialog.jsx:288
-#, fuzzy
 msgid "Do you want to edit it?"
-msgstr "¿Quieres dar de baja a %s?"
+msgstr "¿Quieres editarlo?"
 
 #: src/components/storage/VolumeDialog.jsx:333
-#, fuzzy, c-format
+#, c-format
 msgid "There is a predefined file system for %s."
-msgstr "la presencia del sistema de archivos para %s"
+msgstr "Hay un sistema de archivos predefinido para %s."
 
 #: src/components/storage/VolumeDialog.jsx:335
-#, fuzzy
 msgid "Do you want to add it?"
-msgstr "¿Quieres dar de baja a %s?"
+msgstr "¿Quieres añadirlo?"
 
 #. TRANSLATORS: info about possible file system types.
 #: src/components/storage/VolumeFields.jsx:209
@@ -2069,45 +2070,50 @@ msgid ""
 "The filesystem will be allocated as a new partition at the installation disk "
 "(%s)."
 msgstr ""
+"El sistema de archivos se asignará como una nueva partición en el disco de "
+"instalación (%s)."
 
 #: src/components/storage/VolumeLocationDialog.jsx:142
 msgid ""
 "The filesystem will be allocated as a new partition at the installation disk."
 msgstr ""
+"El sistema de archivos se asignará como una nueva partición en el disco de "
+"instalación."
 
 #: src/components/storage/VolumeLocationDialog.jsx:144
-#, fuzzy
 msgid ""
 "The file system will be allocated as a logical volume at the system LVM."
 msgstr ""
-"Configuración del grupo de volúmenes del sistema. Todos los sistemas de "
-"archivos se crearán en un volumen lógico del grupo de volúmenes del sistema."
+"El sistema de archivos se asignará como un volumen lógico en el LVM del "
+"sistema."
 
 #: src/components/storage/VolumeLocationDialog.jsx:149
-#, fuzzy, c-format
+#, c-format
 msgid "Location for %s file system"
-msgstr "Tamaño exacto para el sistema de archivos."
+msgstr "Ubicación del sistema de archivos %s"
 
 #: src/components/storage/VolumeLocationDialog.jsx:174
 msgid ""
 "The file system will be allocated as a new partition at the selected disk."
 msgstr ""
+"El sistema de archivos se asignará como una nueva partición en el disco "
+"seleccionado."
 
 #: src/components/storage/VolumeLocationDialog.jsx:177
-#, fuzzy
 msgid "Choose a disk for placing the file system"
-msgstr "Tamaño exacto para el sistema de archivos."
+msgstr "Elija un disco para colocar el sistema de archivos"
 
 #: src/components/storage/VolumeLocationDialog.jsx:185
-#, fuzzy
 msgid "Create a dedicated LVM volume group"
-msgstr "Grupo de volúmenes del sistema"
+msgstr "Crear un grupo de volúmenes LVM dedicado"
 
 #: src/components/storage/VolumeLocationDialog.jsx:186
 msgid ""
 "A new volume group will be allocated in the selected disk and the file "
 "system will be created as a logical volume."
 msgstr ""
+"Se asignará un nuevo grupo de volúmenes en el disco seleccionado y el "
+"sistema de archivos se creará como un volumen lógico."
 
 #: src/components/storage/ZFCPDiskForm.jsx:113
 msgid "The zFCP disk was not activated."
@@ -2230,12 +2236,11 @@ msgstr "Tarjeta SD"
 #: src/components/storage/device-utils.jsx:86
 #, c-format
 msgid "%s disk"
-msgstr ""
+msgstr "disco %s"
 
 #: src/components/storage/device-utils.jsx:87
-#, fuzzy
 msgid "Disk"
-msgstr "Discos"
+msgstr "Disco"
 
 #. TRANSLATORS: RAID details, %s is replaced by list of devices used by the array
 #: src/components/storage/device-utils.jsx:107
