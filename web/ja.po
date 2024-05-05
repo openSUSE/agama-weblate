@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-05 02:16+0000\n"
-"PO-Revision-Date: 2024-04-29 01:43+0000\n"
+"PO-Revision-Date: 2024-05-05 11:43+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -298,9 +298,8 @@ msgstr "確認"
 
 #. TRANSLATORS: progress message
 #: src/components/core/Popup.jsx:204
-#, fuzzy
 msgid "Loading data..."
-msgstr "ファイルを読み込んでいます..."
+msgstr "データを読み込んでいます..."
 
 #: src/components/core/RowActions.jsx:64
 #: src/components/storage/PartitionsField.jsx:457
@@ -1690,9 +1689,8 @@ msgid "Partition at installation disk"
 msgstr "インストール先のディスクのパーティション"
 
 #: src/components/storage/PartitionsField.jsx:316
-#, fuzzy
 msgid "Reset location"
-msgstr "登録"
+msgstr "場所のリセット"
 
 #: src/components/storage/PartitionsField.jsx:317
 msgid "Change location"
@@ -1800,9 +1798,8 @@ msgid "Check all planned actions"
 msgstr "全ての処理計画を確認する"
 
 #: src/components/storage/ProposalResultSection.jsx:107
-#, fuzzy
 msgid "Waiting for information about storage configuration"
-msgstr "起動設定に関する情報を待機しています"
+msgstr "ストレージ設定に関する情報を待機しています"
 
 #: src/components/storage/ProposalResultSection.jsx:167
 #, c-format
@@ -1932,29 +1929,26 @@ msgstr "ファイルシステムの編集"
 
 #. TRANSLATORS: Warning when editing a file system.
 #: src/components/storage/VolumeDialog.jsx:99
-#, fuzzy
 msgid "The type and size of the file system cannot be edited."
-msgstr "%s に対するファイルシステムの存在"
+msgstr "ファイルシステムの種類とサイズは編集できません。"
 
 #. TRANSLATORS: Description of a warning. The first %s is replaced by a device name (e.g.,
 #. /dev/vda) and the second %s is replaced by a mount path (e.g., /home).
 #: src/components/storage/VolumeDialog.jsx:102
 #, c-format
 msgid "The current file system on %s is selected to be mounted at %s."
-msgstr ""
+msgstr "%s 内にある現在のファイルシステムを %s にマウントするよう選択しています。"
 
 #. TRANSLATORS: Warning when editing a file system.
 #: src/components/storage/VolumeDialog.jsx:108
-#, fuzzy
 msgid "The size of the file system cannot be edited"
-msgstr "%s に対するファイルシステムの存在"
+msgstr "ファイルシステムのサイズは編集できません"
 
 #. TRANSLATORS: Description of a warning. %s is replaced by a device name (e.g., /dev/vda).
 #: src/components/storage/VolumeDialog.jsx:110
-#, fuzzy, c-format
+#, c-format
 msgid "The file system is allocated at the device %s."
-msgstr ""
-"ファイルシステムは選択したディスク内の新規パーティションとして作成します。"
+msgstr "ファイルシステムはデバイス %s 内から割り当てます。"
 
 #: src/components/storage/VolumeDialog.jsx:155
 msgid "A mount point is required"
@@ -2122,6 +2116,7 @@ msgid ""
 "The file systems are allocated at the installation device by default. "
 "Indicate a custom location to create the file system at a specific device."
 msgstr ""
+"既定では、インストール先のデバイス内にファイルシステムを割り当てます。ここでは、特定のデバイス内にファイルシステムを作成する際の場所を設定します。"
 
 #. TRANSLATORS: Title of the dialog for changing the location of a file system. %s is replaced
 #. by a mount path (e.g., /home).
@@ -2131,71 +2126,59 @@ msgid "Location for %s file system"
 msgstr "%s ファイルシステムの場所"
 
 #: src/components/storage/VolumeLocationDialog.jsx:146
-#, fuzzy
 msgid "Select in which device to allocate the file system"
-msgstr ""
-"選択したディスク内にファイルシステムを割り当てるための領域確保方法を選択して"
-"ください。"
+msgstr "ファイルシステムの割り当てを実施するデバイスを選択してください"
 
 #: src/components/storage/VolumeLocationDialog.jsx:149
-#, fuzzy
 msgid "Select a location"
-msgstr "ディスクの選択"
+msgstr "場所の選択"
 
 #: src/components/storage/VolumeLocationDialog.jsx:161
-#, fuzzy
 msgid "Select how to allocate the file system"
-msgstr "ファイルシステムに対して正確なサイズを設定します。"
+msgstr "ファイルシステムの割り当て方法を選択してください"
 
 #: src/components/storage/VolumeLocationDialog.jsx:166
 msgid "Create a new partition"
-msgstr ""
+msgstr "新しいパーティションの作成"
 
 #: src/components/storage/VolumeLocationDialog.jsx:167
-#, fuzzy
 msgid ""
 "The file system will be allocated as a new partition at the selected   disk."
-msgstr ""
-"ファイルシステムは選択したディスク内の新規パーティションとして作成します。"
+msgstr "ファイルシステムは選択したディスク内の新規パーティションとして割り当てます。"
 
 #: src/components/storage/VolumeLocationDialog.jsx:176
 msgid "Create a dedicated LVM volume group"
 msgstr "専用の LVM ボリュームグループの作成"
 
 #: src/components/storage/VolumeLocationDialog.jsx:177
-#, fuzzy
 msgid ""
 "A new volume group will be allocated in the selected disk and the   file "
 "system will be created as a logical volume."
-msgstr ""
-"選択したディスク内に新しいボリュームグループを作成し、論理ボリュームとして"
-"ファイルシステムを作成します。"
+msgstr "選択したディスク内に新しいボリュームグループを作成し、論理ボリュームとしてファイルシステムを作成します。"
 
 #: src/components/storage/VolumeLocationDialog.jsx:186
-#, fuzzy
 msgid "Format the device"
-msgstr "DASD デバイスをフォーマットしています"
+msgstr "デバイスのフォーマット"
 
 #. TRANSLATORS: %s is replaced by a file system type (e.g., Ext4).
 #: src/components/storage/VolumeLocationDialog.jsx:189
 #, c-format
 msgid "The selected device will be formatted as %s file system."
-msgstr ""
+msgstr "選択したデバイスを %s ファイルシステムでフォーマットします。"
 
 #: src/components/storage/VolumeLocationDialog.jsx:199
-#, fuzzy
 msgid "Mount the file system"
-msgstr "ファイルシステムの編集"
+msgstr "ファイルシステムのマウント"
 
 #: src/components/storage/VolumeLocationDialog.jsx:200
 msgid ""
 "The current file system on the selected device will be mounted   without "
 "formatting the device."
-msgstr ""
+msgstr "選択したデバイス内にあるファイルシステムを、フォーマットせずにそのままマウントします。"
 
 #: src/components/storage/VolumeLocationSelectorTable.jsx:102
 msgid "Usage"
-msgstr ""
+msgstr "用途"
 
 #: src/components/storage/ZFCPDiskForm.jsx:113
 msgid "The zFCP disk was not activated."
