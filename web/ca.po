@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-05 02:16+0000\n"
-"PO-Revision-Date: 2024-04-28 11:43+0000\n"
+"PO-Revision-Date: 2024-05-06 10:43+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ca/>\n"
@@ -301,9 +301,8 @@ msgstr "Confirmeu-ho"
 
 #. TRANSLATORS: progress message
 #: src/components/core/Popup.jsx:204
-#, fuzzy
 msgid "Loading data..."
-msgstr "Llegint el fitxer..."
+msgstr "Carregant dades..."
 
 #: src/components/core/RowActions.jsx:64
 #: src/components/storage/PartitionsField.jsx:457
@@ -1702,9 +1701,8 @@ msgid "Partition at installation disk"
 msgstr "Partició al disc d'instal·lació"
 
 #: src/components/storage/PartitionsField.jsx:316
-#, fuzzy
 msgid "Reset location"
-msgstr "Registre"
+msgstr "Restableix la ubicació"
 
 #: src/components/storage/PartitionsField.jsx:317
 msgid "Change location"
@@ -1817,9 +1815,8 @@ msgid "Check all planned actions"
 msgstr "Marca totes les accions planificades"
 
 #: src/components/storage/ProposalResultSection.jsx:107
-#, fuzzy
 msgid "Waiting for information about storage configuration"
-msgstr "Esperant informació sobre la configuració d'arrencada"
+msgstr "Esperant informació sobre la configuració de l'emmagatzematge"
 
 #: src/components/storage/ProposalResultSection.jsx:167
 #, c-format
@@ -1952,29 +1949,26 @@ msgstr "Edita el sistema de fitxers"
 
 #. TRANSLATORS: Warning when editing a file system.
 #: src/components/storage/VolumeDialog.jsx:99
-#, fuzzy
 msgid "The type and size of the file system cannot be edited."
-msgstr "la presència del sistema de fitxers per a %s"
+msgstr "El tipus i la mida del sistema de fitxers no es poden editar."
 
 #. TRANSLATORS: Description of a warning. The first %s is replaced by a device name (e.g.,
 #. /dev/vda) and the second %s is replaced by a mount path (e.g., /home).
 #: src/components/storage/VolumeDialog.jsx:102
 #, c-format
 msgid "The current file system on %s is selected to be mounted at %s."
-msgstr ""
+msgstr "El sistema de fitxers actual a %s està seleccionat per muntar-lo a %s."
 
 #. TRANSLATORS: Warning when editing a file system.
 #: src/components/storage/VolumeDialog.jsx:108
-#, fuzzy
 msgid "The size of the file system cannot be edited"
-msgstr "la presència del sistema de fitxers per a %s"
+msgstr "La mida del sistema de fitxers no es pot editar."
 
 #. TRANSLATORS: Description of a warning. %s is replaced by a device name (e.g., /dev/vda).
 #: src/components/storage/VolumeDialog.jsx:110
-#, fuzzy, c-format
+#, c-format
 msgid "The file system is allocated at the device %s."
-msgstr ""
-"El sistema de fitxers s'assignarà com a partició nova al disc seleccionat."
+msgstr "El sistema de fitxers s'assigna al dispositiu %s."
 
 #: src/components/storage/VolumeDialog.jsx:155
 msgid "A mount point is required"
@@ -2143,6 +2137,9 @@ msgid ""
 "The file systems are allocated at the installation device by default. "
 "Indicate a custom location to create the file system at a specific device."
 msgstr ""
+"Els sistemes de fitxers s'assignen al dispositiu d'instal·lació de manera "
+"predeterminada. Indiqueu una ubicació personalitzada per crear el sistema de "
+"fitxers en un dispositiu específic."
 
 #. TRANSLATORS: Title of the dialog for changing the location of a file system. %s is replaced
 #. by a mount path (e.g., /home).
@@ -2153,24 +2150,21 @@ msgstr "Ubicació per al sistema de fitxers %s"
 
 #: src/components/storage/VolumeLocationDialog.jsx:146
 msgid "Select in which device to allocate the file system"
-msgstr ""
+msgstr "Seleccioneu en quin dispositiu assignar el sistema de fitxers."
 
 #: src/components/storage/VolumeLocationDialog.jsx:149
-#, fuzzy
 msgid "Select a location"
-msgstr "Seleccioneu un disc"
+msgstr "Seleccioneu una ubicació."
 
 #: src/components/storage/VolumeLocationDialog.jsx:161
-#, fuzzy
 msgid "Select how to allocate the file system"
-msgstr "Mida exacta per al sistema de fitxers."
+msgstr "Seleccioneu com assignar el sistema de fitxers."
 
 #: src/components/storage/VolumeLocationDialog.jsx:166
 msgid "Create a new partition"
-msgstr ""
+msgstr "Crea una partició nova"
 
 #: src/components/storage/VolumeLocationDialog.jsx:167
-#, fuzzy
 msgid ""
 "The file system will be allocated as a new partition at the selected   disk."
 msgstr ""
@@ -2181,7 +2175,6 @@ msgid "Create a dedicated LVM volume group"
 msgstr "Crea un grup de volums LVM dedicat"
 
 #: src/components/storage/VolumeLocationDialog.jsx:177
-#, fuzzy
 msgid ""
 "A new volume group will be allocated in the selected disk and the   file "
 "system will be created as a logical volume."
@@ -2190,30 +2183,30 @@ msgstr ""
 "fitxers es crearà com a volum lògic."
 
 #: src/components/storage/VolumeLocationDialog.jsx:186
-#, fuzzy
 msgid "Format the device"
-msgstr "Formatatge de dispositius DASD"
+msgstr "Formata el dispositiu"
 
 #. TRANSLATORS: %s is replaced by a file system type (e.g., Ext4).
 #: src/components/storage/VolumeLocationDialog.jsx:189
 #, c-format
 msgid "The selected device will be formatted as %s file system."
-msgstr ""
+msgstr "El dispositiu seleccionat es formatarà com a sistema de fitxers %s."
 
 #: src/components/storage/VolumeLocationDialog.jsx:199
-#, fuzzy
 msgid "Mount the file system"
-msgstr "Edita el sistema de fitxers"
+msgstr "Munta el sistema de fitxers"
 
 #: src/components/storage/VolumeLocationDialog.jsx:200
 msgid ""
 "The current file system on the selected device will be mounted   without "
 "formatting the device."
 msgstr ""
+"El sistema de fitxers actual del dispositiu seleccionat es muntarà sense "
+"formatar el dispositiu."
 
 #: src/components/storage/VolumeLocationSelectorTable.jsx:102
 msgid "Usage"
-msgstr ""
+msgstr "Ús"
 
 #: src/components/storage/ZFCPDiskForm.jsx:113
 msgid "The zFCP disk was not activated."
