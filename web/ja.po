@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 02:20+0000\n"
-"PO-Revision-Date: 2024-05-05 11:43+0000\n"
+"PO-Revision-Date: 2024-05-07 04:43+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -225,7 +225,7 @@ msgstr "検索"
 #: src/components/core/LoginPage.jsx:56
 #, c-format
 msgid "Log in as %s"
-msgstr ""
+msgstr "%s としてログイン"
 
 #. TRANSLATORS: An explanation about required privileges for login into the installer. %s
 #. will be replaced by "root"
@@ -234,29 +234,27 @@ msgstr ""
 msgid ""
 "The installer requires %s user privileges. Please, provide its password to "
 "log in to the system."
-msgstr ""
+msgstr "インストーラは %s ユーザ権限を必要としています。システムにログインするため、パスワードを入力してください。"
 
 #: src/components/core/LoginPage.jsx:72
-#, fuzzy
 msgid "Login form"
-msgstr "%s にログイン"
+msgstr "ログインフォーム"
 
 #: src/components/core/LoginPage.jsx:78
-#, fuzzy
 msgid "Password input"
-msgstr "パスワード"
+msgstr "パスワード入力"
 
 #: src/components/core/LoginPage.jsx:86
 msgid "Could not log in. Please, make sure that the password is correct."
-msgstr ""
+msgstr "ログインできませんでした。入力したパスワードが正しいかどうか、もう一度ご確認ください。"
 
 #: src/components/core/LoginPage.jsx:93
 msgid "Log in"
-msgstr ""
+msgstr "ログイン"
 
 #: src/components/core/LoginPage.jsx:104
 msgid "What is this?"
-msgstr ""
+msgstr "これは何？"
 
 #: src/components/core/LogsButton.jsx:98
 msgid "Collecting logs..."
@@ -329,9 +327,8 @@ msgid "Waiting"
 msgstr "お待ちください"
 
 #: src/components/core/Selector.jsx:126
-#, fuzzy
 msgid "auto selected"
-msgstr "未選択"
+msgstr "自動選択済み"
 
 #. TRANSLATORS: button label
 #: src/components/core/ShowLogButton.jsx:47
@@ -775,7 +772,7 @@ msgstr "切断中"
 
 #: src/components/network/WifiNetworkListItem.jsx:49
 msgid "Failed"
-msgstr ""
+msgstr "失敗"
 
 #. TRANSLATORS: Wifi network status
 #. TRANSLATORS: iSCSI connection status
@@ -803,17 +800,16 @@ msgid "The system will use %s as its default language."
 msgstr "システムは %s を既定の言語として使用します。"
 
 #: src/components/overview/NetworkSection.jsx:96
-#, fuzzy
 msgid "No network devices detected"
-msgstr "ネットワーク接続が見つかりませんでした"
+msgstr "ネットワークデバイスが見つかりませんでした"
 
 #. TRANSLATORS: header for the list of connected devices,
 #. %d is replaced by the number of active devices
 #: src/components/overview/NetworkSection.jsx:103
-#, fuzzy, c-format
+#, c-format
 msgid "%d device set:"
 msgid_plural "%d devices set:"
-msgstr[0] "使用済みデバイス"
+msgstr[0] "%d 個のデバイス:"
 
 #. TRANSLATORS: page title
 #: src/components/overview/OverviewPage.jsx:58
@@ -1126,22 +1122,20 @@ msgstr "ソフトウエアの概要とフィルタのオプション"
 #. TRANSLATORS: page title
 #: src/components/software/SoftwarePage.jsx:80
 #: src/components/software/SoftwarePage.jsx:218
-#, fuzzy
 msgid "Software selection"
-msgstr "ソフトウエア %s"
+msgstr "ソフトウエア選択"
 
 #: src/components/software/SoftwarePage.jsx:109
-#, fuzzy
 msgid "Change selection"
-msgstr "場所の変更"
+msgstr "選択の変更"
 
 #: src/components/software/SoftwarePage.jsx:138
 msgid "No additional software was selected."
-msgstr ""
+msgstr "追加のソフトウエアは何も選択していません。"
 
 #: src/components/software/SoftwarePage.jsx:144
 msgid "The following software patterns are selected for installation:"
-msgstr ""
+msgstr "下記のソフトウエアパターンをインストールするよう選択しています:"
 
 #. TRANSLATORS: %s will be replaced by the estimated installation size,
 #. example: "728.8 MiB"
