@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 02:20+0000\n"
-"PO-Revision-Date: 2024-05-01 06:43+0000\n"
+"PO-Revision-Date: 2024-05-07 14:43+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "sv/>\n"
@@ -225,7 +225,7 @@ msgstr "Sök"
 #: src/components/core/LoginPage.jsx:56
 #, c-format
 msgid "Log in as %s"
-msgstr ""
+msgstr "Logga in som %s"
 
 #. TRANSLATORS: An explanation about required privileges for login into the installer. %s
 #. will be replaced by "root"
@@ -235,28 +235,28 @@ msgid ""
 "The installer requires %s user privileges. Please, provide its password to "
 "log in to the system."
 msgstr ""
+"Installationsprogrammet kräver %s användarrättigheter. Vänligen ange "
+"lösenordet för att logga in på systemet."
 
 #: src/components/core/LoginPage.jsx:72
-#, fuzzy
 msgid "Login form"
-msgstr "Inloggning %s"
+msgstr "Inloggningsformulär"
 
 #: src/components/core/LoginPage.jsx:78
-#, fuzzy
 msgid "Password input"
-msgstr "Lösenord"
+msgstr "Lösenordsinmatning"
 
 #: src/components/core/LoginPage.jsx:86
 msgid "Could not log in. Please, make sure that the password is correct."
-msgstr ""
+msgstr "Kunde inte logga in. Kontrollera att lösenordet är korrekt."
 
 #: src/components/core/LoginPage.jsx:93
 msgid "Log in"
-msgstr ""
+msgstr "Logga in"
 
 #: src/components/core/LoginPage.jsx:104
 msgid "What is this?"
-msgstr ""
+msgstr "Vad är detta?"
 
 #: src/components/core/LogsButton.jsx:98
 msgid "Collecting logs..."
@@ -316,9 +316,8 @@ msgstr "Bekräfta"
 
 #. TRANSLATORS: progress message
 #: src/components/core/Popup.jsx:210
-#, fuzzy
 msgid "Loading data..."
-msgstr "Läser fil..."
+msgstr "Laddar data..."
 
 #: src/components/core/RowActions.jsx:64
 #: src/components/storage/PartitionsField.jsx:457
@@ -330,9 +329,8 @@ msgid "Waiting"
 msgstr "Väntande"
 
 #: src/components/core/Selector.jsx:126
-#, fuzzy
 msgid "auto selected"
-msgstr "inte vald"
+msgstr "automatiskt vald"
 
 #. TRANSLATORS: button label
 #: src/components/core/ShowLogButton.jsx:47
@@ -776,7 +774,7 @@ msgstr "Kopplar från"
 
 #: src/components/network/WifiNetworkListItem.jsx:49
 msgid "Failed"
-msgstr ""
+msgstr "Misslyckades"
 
 #. TRANSLATORS: Wifi network status
 #. TRANSLATORS: iSCSI connection status
@@ -804,18 +802,17 @@ msgid "The system will use %s as its default language."
 msgstr "Systemet kommer att använda %s som dess standardspråk."
 
 #: src/components/overview/NetworkSection.jsx:96
-#, fuzzy
 msgid "No network devices detected"
-msgstr "Inga nätverksanslutningar upptäcktes"
+msgstr "Inga nätverksenheter upptäcktes"
 
 #. TRANSLATORS: header for the list of connected devices,
 #. %d is replaced by the number of active devices
 #: src/components/overview/NetworkSection.jsx:103
-#, fuzzy, c-format
+#, c-format
 msgid "%d device set:"
 msgid_plural "%d devices set:"
-msgstr[0] "Använda enheter"
-msgstr[1] "Använda enheter"
+msgstr[0] "%d enhet vald:"
+msgstr[1] "%d enheter valda:"
 
 #. TRANSLATORS: page title
 #: src/components/overview/OverviewPage.jsx:58
@@ -1131,22 +1128,20 @@ msgstr "Programsammanfattning och filteralternativ"
 #. TRANSLATORS: page title
 #: src/components/software/SoftwarePage.jsx:80
 #: src/components/software/SoftwarePage.jsx:218
-#, fuzzy
 msgid "Software selection"
-msgstr "Programvara %s"
+msgstr "Val av programvara"
 
 #: src/components/software/SoftwarePage.jsx:109
-#, fuzzy
 msgid "Change selection"
-msgstr "Ändra plats"
+msgstr "Ändra val"
 
 #: src/components/software/SoftwarePage.jsx:138
 msgid "No additional software was selected."
-msgstr ""
+msgstr "Ingen ytterligare programvara valdes."
 
 #: src/components/software/SoftwarePage.jsx:144
 msgid "The following software patterns are selected for installation:"
-msgstr ""
+msgstr "Följande programvarumönster är valda för installation:"
 
 #. TRANSLATORS: %s will be replaced by the estimated installation size,
 #. example: "728.8 MiB"
@@ -1730,9 +1725,8 @@ msgid "Partition at installation disk"
 msgstr "Partition på installationsdisk"
 
 #: src/components/storage/PartitionsField.jsx:316
-#, fuzzy
 msgid "Reset location"
-msgstr "Registrering"
+msgstr "Återställ plats"
 
 #: src/components/storage/PartitionsField.jsx:317
 msgid "Change location"
@@ -1845,9 +1839,8 @@ msgid "Check all planned actions"
 msgstr "Kontrollera alla planerade åtgärder"
 
 #: src/components/storage/ProposalResultSection.jsx:107
-#, fuzzy
 msgid "Waiting for information about storage configuration"
-msgstr "Väntar på information om uppstartskonfiguration"
+msgstr "Väntar på information om lagringskonfiguration"
 
 #: src/components/storage/ProposalResultSection.jsx:167
 #, c-format
@@ -1980,29 +1973,26 @@ msgstr "Redigera filsystem"
 
 #. TRANSLATORS: Warning when editing a file system.
 #: src/components/storage/VolumeDialog.jsx:99
-#, fuzzy
 msgid "The type and size of the file system cannot be edited."
-msgstr "närvaron av filsystemet för %s"
+msgstr "Filsystemets typ och storlek kan inte redigeras."
 
 #. TRANSLATORS: Description of a warning. The first %s is replaced by a device name (e.g.,
 #. /dev/vda) and the second %s is replaced by a mount path (e.g., /home).
 #: src/components/storage/VolumeDialog.jsx:102
 #, c-format
 msgid "The current file system on %s is selected to be mounted at %s."
-msgstr ""
+msgstr "Det nuvarande filsystemet på %s är valt att monteras på %s."
 
 #. TRANSLATORS: Warning when editing a file system.
 #: src/components/storage/VolumeDialog.jsx:108
-#, fuzzy
 msgid "The size of the file system cannot be edited"
-msgstr "närvaron av filsystemet för %s"
+msgstr "Storleken på filsystemet kan inte redigeras"
 
 #. TRANSLATORS: Description of a warning. %s is replaced by a device name (e.g., /dev/vda).
 #: src/components/storage/VolumeDialog.jsx:110
-#, fuzzy, c-format
+#, c-format
 msgid "The file system is allocated at the device %s."
-msgstr ""
-"Filsystemet kommer att tilldelas som en ny partition på den valda disken."
+msgstr "Filsystemet är allokerat på enhet %s."
 
 #: src/components/storage/VolumeDialog.jsx:155
 msgid "A mount point is required"
@@ -2170,6 +2160,8 @@ msgid ""
 "The file systems are allocated at the installation device by default. "
 "Indicate a custom location to create the file system at a specific device."
 msgstr ""
+"Filsystemen är allokerade på installationsenheten som standard. Ange en "
+"anpassad plats för att skapa filsystemet på en specifik enhet."
 
 #. TRANSLATORS: Title of the dialog for changing the location of a file system. %s is replaced
 #. by a mount path (e.g., /home).
@@ -2179,71 +2171,64 @@ msgid "Location for %s file system"
 msgstr "Plats för %s filsystem"
 
 #: src/components/storage/VolumeLocationDialog.jsx:146
-#, fuzzy
 msgid "Select in which device to allocate the file system"
-msgstr ""
-"Välj hur du gör ledigt utrymme på de diskar som valts för tilldelning av "
-"filsystemen."
+msgstr "Välj i vilken enhet filsystemet ska allokeras"
 
 #: src/components/storage/VolumeLocationDialog.jsx:149
-#, fuzzy
 msgid "Select a location"
-msgstr "Välj en disk"
+msgstr "Välj en plats"
 
 #: src/components/storage/VolumeLocationDialog.jsx:161
-#, fuzzy
 msgid "Select how to allocate the file system"
-msgstr "Exakt storlek för filsystemet."
+msgstr "Välj hur filsystemet ska allokeras"
 
 #: src/components/storage/VolumeLocationDialog.jsx:166
 msgid "Create a new partition"
-msgstr ""
+msgstr "Skapa en ny partition"
 
 #: src/components/storage/VolumeLocationDialog.jsx:167
-#, fuzzy
 msgid ""
 "The file system will be allocated as a new partition at the selected   disk."
 msgstr ""
-"Filsystemet kommer att tilldelas som en ny partition på den valda disken."
+"Filsystemet kommer att tilldelas som en ny partition på den valda   disken."
 
 #: src/components/storage/VolumeLocationDialog.jsx:176
 msgid "Create a dedicated LVM volume group"
 msgstr "Skapa en dedikerad LVM volymgrupp"
 
 #: src/components/storage/VolumeLocationDialog.jsx:177
-#, fuzzy
 msgid ""
 "A new volume group will be allocated in the selected disk and the   file "
 "system will be created as a logical volume."
 msgstr ""
-"En ny volymgrupp kommer att tilldelas på den valda disken och filsystemet "
-"skapas som en logisk volym."
+"En ny volymgrupp kommer att tilldelas på den valda disken och   filsystemet "
+"kommer att skapas som en logisk volym."
 
 #: src/components/storage/VolumeLocationDialog.jsx:186
-#, fuzzy
 msgid "Format the device"
-msgstr "Formaterar DASD-enheter"
+msgstr "Formatera enheten"
 
 #. TRANSLATORS: %s is replaced by a file system type (e.g., Ext4).
 #: src/components/storage/VolumeLocationDialog.jsx:189
 #, c-format
 msgid "The selected device will be formatted as %s file system."
-msgstr ""
+msgstr "Den valda enheten kommer att formateras med %s filsystem."
 
 #: src/components/storage/VolumeLocationDialog.jsx:199
-#, fuzzy
 msgid "Mount the file system"
-msgstr "Redigera filsystem"
+msgstr "Montera filsystemet"
 
 #: src/components/storage/VolumeLocationDialog.jsx:200
 msgid ""
 "The current file system on the selected device will be mounted   without "
 "formatting the device."
 msgstr ""
+"Det aktuella filsystemet på den valda enheten kommer att monteras   utan att "
+"formatera enheten."
 
 #: src/components/storage/VolumeLocationSelectorTable.jsx:102
 msgid "Usage"
-msgstr ""
+msgstr "Användning"
 
 #: src/components/storage/ZFCPDiskForm.jsx:113
 msgid "The zFCP disk was not activated."
