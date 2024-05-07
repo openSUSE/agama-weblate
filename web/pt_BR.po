@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-05 02:16+0000\n"
+"POT-Creation-Date: 2024-05-07 02:20+0000\n"
 "PO-Revision-Date: 2023-12-31 20:39+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.opensuse.org/projects/agama/"
@@ -19,28 +19,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.9.1\n"
 
-#. TRANSLATORS: error message, %s is replaced by the server URL
-#: src/DevServerWrapper.jsx:82
-#, c-format
-msgid "The server at %s is not reachable."
-msgstr "O servidor em %s não está acessível."
-
-#. TRANSLATORS: error message
-#: src/DevServerWrapper.jsx:88
-msgid "Cannot connect to the Cockpit server"
-msgstr "Não foi possível conectar ao servidor Cockpit"
-
-#. TRANSLATORS: button label
-#: src/DevServerWrapper.jsx:104
-msgid "Try Again"
-msgstr "Tentar novamente"
-
-#: src/components/core/About.jsx:43 src/components/core/About.jsx:48
+#: src/components/core/About.jsx:49 src/components/core/About.jsx:69
 msgid "About Agama"
 msgstr "Sobre o Agama"
 
 #. TRANSLATORS: content of the "About" popup (1/2)
-#: src/components/core/About.jsx:53
+#: src/components/core/About.jsx:74
 #, fuzzy
 msgid ""
 "Agama is an experimental installer for (open)SUSE systems. It is still under "
@@ -55,17 +39,17 @@ msgstr ""
 
 #. TRANSLATORS: content of the "About" popup (2/2)
 #. %s is replaced by the project URL
-#: src/components/core/About.jsx:65
+#: src/components/core/About.jsx:86
 #, c-format
 msgid "For more information, please visit the project's repository at %s."
 msgstr "Para mais informações, visite o repositório do projeto em %s."
 
 #. TRANSLATORS: button label
-#: src/components/core/About.jsx:71 src/components/core/FileViewer.jsx:81
-#: src/components/core/IssuesDialog.jsx:119 src/components/core/Sidebar.jsx:157
-#: src/components/core/Terminal.jsx:49
-#: src/components/network/WifiSelector.jsx:155
+#: src/components/core/About.jsx:92 src/components/core/FileViewer.jsx:81
+#: src/components/core/IssuesDialog.jsx:119 src/components/core/Sidebar.jsx:160
+#: src/components/network/WifiSelector.jsx:148
 #: src/components/product/ProductPage.jsx:239
+#: src/components/software/SoftwarePage.jsx:90
 #: src/components/storage/ProposalActionsDialog.jsx:98
 msgid "Close"
 msgstr "Fechar"
@@ -90,10 +74,6 @@ msgstr ""
 #: src/components/core/DBusError.jsx:51
 msgid "Reload"
 msgstr "Recarregar"
-
-#: src/components/core/DevelopmentInfo.jsx:55
-msgid "Cockpit server"
-msgstr ""
 
 #: src/components/core/FileViewer.jsx:66
 msgid "Reading file..."
@@ -129,7 +109,7 @@ msgid "Please, cancel and check the settings if you are unsure."
 msgstr "Cancele e verifique se as configurações se não tiver certeza."
 
 #. TRANSLATORS: button label
-#: src/components/core/InstallButton.jsx:65 src/components/core/Popup.jsx:130
+#: src/components/core/InstallButton.jsx:65 src/components/core/Popup.jsx:136
 #: src/components/network/WifiConnectionForm.jsx:136
 msgid "Cancel"
 msgstr "Cancelar"
@@ -197,31 +177,31 @@ msgid ""
 msgstr ""
 
 #. TRANSLATORS: page title
-#: src/components/core/InstallationFinished.jsx:88
+#: src/components/core/InstallationFinished.jsx:91
 msgid "Installation Finished"
 msgstr "Instalação concluída"
 
-#: src/components/core/InstallationFinished.jsx:91
+#: src/components/core/InstallationFinished.jsx:94
 msgid "Congratulations!"
 msgstr "Parabéns!"
 
-#: src/components/core/InstallationFinished.jsx:96
+#: src/components/core/InstallationFinished.jsx:99
 msgid "The installation on your machine is complete."
 msgstr "A instalação em sua máquina está concluída."
 
-#: src/components/core/InstallationFinished.jsx:100
+#: src/components/core/InstallationFinished.jsx:103
 msgid "At this point you can power off the machine."
 msgstr "Neste ponto você pode desligar a máquina."
 
-#: src/components/core/InstallationFinished.jsx:101
+#: src/components/core/InstallationFinished.jsx:104
 msgid "At this point you can reboot the machine to log in to the new system."
 msgstr "Neste ponto você pode reiniciar a máquina para entrar no novo sistema."
 
-#: src/components/core/InstallationFinished.jsx:113
+#: src/components/core/InstallationFinished.jsx:116
 msgid "Finish"
 msgstr "Concluir"
 
-#: src/components/core/InstallationFinished.jsx:113
+#: src/components/core/InstallationFinished.jsx:116
 msgid "Reboot"
 msgstr "Reiniciar"
 
@@ -231,10 +211,48 @@ msgstr "Instalando"
 
 #. TRANSLATORS: search field placeholder text
 #: src/components/core/ListSearch.jsx:50
-#: src/components/software/PatternSelector.jsx:215
-#: src/components/software/PatternSelector.jsx:216
+#: src/components/software/PatternSelector.jsx:174
+#: src/components/software/PatternSelector.jsx:175
 msgid "Search"
 msgstr "Pesquisar"
+
+#. TRANSLATORS: Title for a form to provide the password for the root user. %s
+#. will be replaced by "root"
+#: src/components/core/LoginPage.jsx:56
+#, c-format
+msgid "Log in as %s"
+msgstr ""
+
+#. TRANSLATORS: An explanation about required privileges for login into the installer. %s
+#. will be replaced by "root"
+#: src/components/core/LoginPage.jsx:66
+#, c-format
+msgid ""
+"The installer requires %s user privileges. Please, provide its password to "
+"log in to the system."
+msgstr ""
+
+#: src/components/core/LoginPage.jsx:72
+#, fuzzy
+msgid "Login form"
+msgstr "Entrar"
+
+#: src/components/core/LoginPage.jsx:78
+#, fuzzy
+msgid "Password input"
+msgstr "Senha"
+
+#: src/components/core/LoginPage.jsx:86
+msgid "Could not log in. Please, make sure that the password is correct."
+msgstr ""
+
+#: src/components/core/LoginPage.jsx:93
+msgid "Log in"
+msgstr ""
+
+#: src/components/core/LoginPage.jsx:104
+msgid "What is this?"
+msgstr ""
 
 #: src/components/core/LogsButton.jsx:98
 msgid "Collecting logs..."
@@ -255,15 +273,15 @@ msgstr ""
 msgid "Something went wrong while collecting logs. Please, try again."
 msgstr "Algo deu errado durante a coleta de logs. Tente novamente."
 
-#: src/components/core/Page.jsx:93 src/components/users/UsersPage.jsx:30
+#: src/components/core/Page.jsx:102 src/components/users/UsersPage.jsx:30
 msgid "Back"
 msgstr "Voltar"
 
-#: src/components/core/Page.jsx:201
+#: src/components/core/Page.jsx:218
 msgid "Show global options"
 msgstr "Mostrar opções globais"
 
-#: src/components/core/Page.jsx:215
+#: src/components/core/Page.jsx:234
 #, fuzzy
 msgid "Page Actions"
 msgstr "Ações"
@@ -284,16 +302,16 @@ msgstr "Senha"
 msgid "Password confirmation"
 msgstr "Confirmação de senha"
 
-#: src/components/core/PasswordInput.jsx:59
+#: src/components/core/PasswordInput.jsx:63
 msgid "Password visibility button"
 msgstr "Botão de visibilidade de senha"
 
-#: src/components/core/Popup.jsx:94
+#: src/components/core/Popup.jsx:100
 msgid "Confirm"
 msgstr "Confirmar"
 
 #. TRANSLATORS: progress message
-#: src/components/core/Popup.jsx:204
+#: src/components/core/Popup.jsx:210
 #, fuzzy
 msgid "Loading data..."
 msgstr "Lendo arquivo..."
@@ -307,6 +325,11 @@ msgstr "Ações"
 msgid "Waiting"
 msgstr "Aguardando"
 
+#: src/components/core/Selector.jsx:126
+#, fuzzy
+msgid "auto selected"
+msgstr "não selecionado"
+
 #. TRANSLATORS: button label
 #: src/components/core/ShowLogButton.jsx:47
 msgid "Show Logs"
@@ -318,22 +341,22 @@ msgid "YaST Logs"
 msgstr "Logs do YaST"
 
 #. TRANSLATORS: button label
-#: src/components/core/ShowTerminalButton.jsx:48
+#: src/components/core/ShowTerminalButton.jsx:46
 msgid "Open Terminal"
 msgstr "Abrir terminal"
 
 #. TRANSLATORS: sidebar header
-#: src/components/core/Sidebar.jsx:113 src/components/core/Sidebar.jsx:121
+#: src/components/core/Sidebar.jsx:116 src/components/core/Sidebar.jsx:124
 #, fuzzy
 msgid "Installer Options"
 msgstr "Instalando"
 
-#: src/components/core/Sidebar.jsx:128
+#: src/components/core/Sidebar.jsx:131
 #, fuzzy
 msgid "Hide installer options"
 msgstr "Instalando"
 
-#: src/components/core/Sidebar.jsx:136
+#: src/components/core/Sidebar.jsx:139
 msgid "Diagnostic tools"
 msgstr "Ferramentas de diagnóstico"
 
@@ -532,8 +555,8 @@ msgstr "Lista de dados de endereços"
 
 #. TRANSLATORS: table header
 #. TRANSLATORS: input field for the iSCSI initiator name
-#: src/components/network/ConnectionsTable.jsx:57
-#: src/components/network/ConnectionsTable.jsx:86
+#: src/components/network/ConnectionsTable.jsx:66
+#: src/components/network/ConnectionsTable.jsx:95
 #: src/components/storage/ZFCPPage.jsx:360
 #: src/components/storage/iscsi/InitiatorForm.jsx:52
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:68
@@ -544,12 +567,12 @@ msgid "Name"
 msgstr "Nome"
 
 #. TRANSLATORS: table header
-#: src/components/network/ConnectionsTable.jsx:59
-#: src/components/network/ConnectionsTable.jsx:87
+#: src/components/network/ConnectionsTable.jsx:68
+#: src/components/network/ConnectionsTable.jsx:96
 msgid "IP addresses"
 msgstr "Endereços IP"
 
-#: src/components/network/ConnectionsTable.jsx:67
+#: src/components/network/ConnectionsTable.jsx:76
 #: src/components/storage/PartitionsField.jsx:315
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:49
 #: src/components/storage/iscsi/NodesPresenter.jsx:73
@@ -558,23 +581,23 @@ msgid "Edit"
 msgstr "Editar"
 
 #. TRANSLATORS: %s is replaced by a network connection name
-#: src/components/network/ConnectionsTable.jsx:70
+#: src/components/network/ConnectionsTable.jsx:79
 #, c-format
 msgid "Edit connection %s"
 msgstr "Editar conexão %s"
 
-#: src/components/network/ConnectionsTable.jsx:74
+#: src/components/network/ConnectionsTable.jsx:83
 msgid "Forget"
 msgstr "Esquecer"
 
 #. TRANSLATORS: %s is replaced by a network connection name
-#: src/components/network/ConnectionsTable.jsx:77
+#: src/components/network/ConnectionsTable.jsx:86
 #, c-format
 msgid "Forget connection %s"
 msgstr "Esquecer conexão %s"
 
 #. TRANSLATORS: %s is replaced by a network connection name
-#: src/components/network/ConnectionsTable.jsx:92
+#: src/components/network/ConnectionsTable.jsx:101
 #, c-format
 msgid "Actions for connection %s"
 msgstr "Ações para a conexão %s"
@@ -604,51 +627,51 @@ msgid "IP prefix or netmask"
 msgstr "Prefixo do IP ou máscara de rede"
 
 #. TRANSLATORS: error message
-#: src/components/network/IpSettingsForm.jsx:87
+#: src/components/network/IpSettingsForm.jsx:86
 msgid "At least one address must be provided for selected mode"
 msgstr "Pelo menos um endereço deve ser fornecido para o modo selecionado"
 
 #. TRANSLATORS: %s is replaced by the iSCSI target node name
-#: src/components/network/IpSettingsForm.jsx:135
+#: src/components/network/IpSettingsForm.jsx:133
 #: src/components/storage/iscsi/EditNodeForm.jsx:50
 #, c-format
 msgid "Edit %s"
 msgstr "Editar %s"
 
 #. TRANSLATORS: network connection mode (automatic via DHCP or manual with static IP)
-#: src/components/network/IpSettingsForm.jsx:140
+#: src/components/network/IpSettingsForm.jsx:138
+#: src/components/network/IpSettingsForm.jsx:143
 #: src/components/network/IpSettingsForm.jsx:145
-#: src/components/network/IpSettingsForm.jsx:147
 msgid "Mode"
 msgstr "Modo"
 
-#: src/components/network/IpSettingsForm.jsx:151
+#: src/components/network/IpSettingsForm.jsx:149
 msgid "Automatic (DHCP)"
 msgstr "Automático (DHCP)"
 
 #. TRANSLATORS: manual network configuration mode with a static IP address
-#: src/components/network/IpSettingsForm.jsx:153
+#: src/components/network/IpSettingsForm.jsx:151
 #: src/components/storage/iscsi/NodeStartupOptions.js:25
 msgid "Manual"
 msgstr "Manual"
 
 #. TRANSLATORS: network gateway configuration
-#: src/components/network/IpSettingsForm.jsx:168
-#: src/components/network/IpSettingsForm.jsx:171
+#: src/components/network/IpSettingsForm.jsx:166
+#: src/components/network/IpSettingsForm.jsx:169
 msgid "Gateway"
 msgstr "Gateway"
 
-#: src/components/network/NetworkPage.jsx:38
+#: src/components/network/NetworkPage.jsx:40
 #, fuzzy
 msgid "No wired connections found."
 msgstr "Nenhuma conexão com fio encontrada"
 
-#: src/components/network/NetworkPage.jsx:53
+#: src/components/network/NetworkPage.jsx:55
 msgid ""
 "The system has not been configured for connecting to a WiFi network yet."
 msgstr "O sistema ainda não foi configurado para se conectar a uma rede WiFi."
 
-#: src/components/network/NetworkPage.jsx:54
+#: src/components/network/NetworkPage.jsx:56
 msgid ""
 "The system does not support WiFi connections, probably because of missing or "
 "disabled hardware."
@@ -656,32 +679,32 @@ msgstr ""
 "O sistema não suporta conexões WiFi, provavelmente devido a hardware ausente "
 "ou desativado."
 
-#: src/components/network/NetworkPage.jsx:58
+#: src/components/network/NetworkPage.jsx:60
 #, fuzzy
 msgid "No WiFi connections found."
 msgstr "Nenhuma conexão WiFi encontrada"
 
 #. TRANSLATORS: button label
-#: src/components/network/NetworkPage.jsx:70
+#: src/components/network/NetworkPage.jsx:72
 #: src/components/network/NetworkPageMenu.jsx:46
-#: src/components/network/WifiSelector.jsx:136
+#: src/components/network/WifiSelector.jsx:129
 msgid "Connect to a Wi-Fi network"
 msgstr "Conectar-se à uma rede Wi-Fi"
 
 #. TRANSLATORS: page title
 #. TRANSLATORS: page section title
-#: src/components/network/NetworkPage.jsx:169
-#: src/components/overview/NetworkSection.jsx:83
+#: src/components/network/NetworkPage.jsx:178
+#: src/components/overview/NetworkSection.jsx:117
 msgid "Network"
 msgstr "Rede"
 
 #. TRANSLATORS: page section
-#: src/components/network/NetworkPage.jsx:171
+#: src/components/network/NetworkPage.jsx:180
 msgid "Wired networks"
 msgstr "Redes com fio"
 
 #. TRANSLATORS: page section
-#: src/components/network/NetworkPage.jsx:176
+#: src/components/network/NetworkPage.jsx:185
 msgid "WiFi networks"
 msgstr "Redes WiFi"
 
@@ -739,7 +762,7 @@ msgstr "Conectar-se à rede oculta"
 
 #. TRANSLATORS: Wifi network status
 #: src/components/network/WifiNetworkListItem.jsx:41
-#: src/components/network/WifiNetworkListItem.jsx:99
+#: src/components/network/WifiNetworkListItem.jsx:101
 msgid "Connecting"
 msgstr "Conectando"
 
@@ -753,15 +776,19 @@ msgstr "Conectado"
 msgid "Disconnecting"
 msgstr "Desconectando"
 
+#: src/components/network/WifiNetworkListItem.jsx:49
+msgid "Failed"
+msgstr ""
+
 #. TRANSLATORS: Wifi network status
 #. TRANSLATORS: iSCSI connection status
-#: src/components/network/WifiNetworkListItem.jsx:50
+#: src/components/network/WifiNetworkListItem.jsx:52
 #: src/components/storage/iscsi/NodesPresenter.jsx:63
 msgid "Disconnected"
 msgstr "Desconectado"
 
 #. TRANSLATORS: %s is replaced by a WiFi network name
-#: src/components/network/WifiNetworkListItem.jsx:97
+#: src/components/network/WifiNetworkListItem.jsx:99
 #, c-format
 msgid "%s connection is waiting for an state change"
 msgstr "A conexão %s está aguardando uma mudança de estado"
@@ -778,21 +805,22 @@ msgstr "Esquecer rede"
 msgid "The system will use %s as its default language."
 msgstr "O sistema usará %s como idioma padrão."
 
-#: src/components/overview/NetworkSection.jsx:59
-msgid "No network connections detected"
+#: src/components/overview/NetworkSection.jsx:96
+#, fuzzy
+msgid "No network devices detected"
 msgstr "Nenhuma conexão de rede detectada"
 
-#. TRANSLATORS: header for the list of active network connections,
-#. %d is replaced by the number of active connections
-#: src/components/overview/NetworkSection.jsx:68
-#, c-format
-msgid "%d connection set:"
-msgid_plural "%d connections set:"
+#. TRANSLATORS: header for the list of connected devices,
+#. %d is replaced by the number of active devices
+#: src/components/overview/NetworkSection.jsx:103
+#, fuzzy, c-format
+msgid "%d device set:"
+msgid_plural "%d devices set:"
 msgstr[0] "%d conjunto de conexão:"
 msgstr[1] "%d conjuntos de conexões:"
 
 #. TRANSLATORS: page title
-#: src/components/overview/OverviewPage.jsx:48
+#: src/components/overview/OverviewPage.jsx:58
 msgid "Installation Summary"
 msgstr "Resumo da instalação"
 
@@ -809,19 +837,19 @@ msgstr "%s (registrado)"
 msgid "Product"
 msgstr "Produto"
 
-#: src/components/overview/SoftwareSection.jsx:38
+#: src/components/overview/SoftwareSection.jsx:37
 msgid "Reading software repositories"
 msgstr "Lendo repositórios de software"
 
 #. TRANSLATORS: clickable link label
-#: src/components/overview/SoftwareSection.jsx:133
+#: src/components/overview/SoftwareSection.jsx:132
 msgid "Refresh the repositories"
 msgstr "Atualizar os repositórios"
 
 #. TRANSLATORS: page section
 #. TRANSLATORS: page title
 #: src/components/overview/SoftwareSection.jsx:143
-#: src/components/software/SoftwarePage.jsx:81
+#: src/components/software/SoftwarePage.jsx:216
 msgid "Software"
 msgstr "Software"
 
@@ -1078,23 +1106,28 @@ msgstr "Dispositivo criptografado"
 msgid "Encryption Password"
 msgstr "Senha de criptografia"
 
-#. TRANSLATORS: pattern status, selected to install (by user)
-#: src/components/software/PatternItem.jsx:63
-msgid "selected"
-msgstr "selecionado"
-
-#. TRANSLATORS: pattern status, selected to install (by dependencies)
-#: src/components/software/PatternItem.jsx:66
-msgid "automatically selected"
-msgstr "selecionado automaticamente"
-
-#. TRANSLATORS: pattern status, not selected to install
-#: src/components/software/PatternItem.jsx:69
-msgid "not selected"
-msgstr "não selecionado"
-
-#: src/components/software/PatternSelector.jsx:210
+#: src/components/software/PatternSelector.jsx:171
 msgid "Software summary and filter options"
+msgstr ""
+
+#. TRANSLATORS: page title
+#: src/components/software/SoftwarePage.jsx:80
+#: src/components/software/SoftwarePage.jsx:218
+#, fuzzy
+msgid "Software selection"
+msgstr "Seleção de produto"
+
+#: src/components/software/SoftwarePage.jsx:109
+#, fuzzy
+msgid "Change selection"
+msgstr "Alterar fuso horário"
+
+#: src/components/software/SoftwarePage.jsx:138
+msgid "No additional software was selected."
+msgstr ""
+
+#: src/components/software/SoftwarePage.jsx:144
+msgid "The following software patterns are selected for installation:"
 msgstr ""
 
 #. TRANSLATORS: %s will be replaced by the estimated installation size,
@@ -2684,6 +2717,22 @@ msgstr "Usuário"
 #: src/components/users/UsersPage.jsx:34
 msgid "Root authentication"
 msgstr ""
+
+#, c-format
+#~ msgid "The server at %s is not reachable."
+#~ msgstr "O servidor em %s não está acessível."
+
+#~ msgid "Cannot connect to the Cockpit server"
+#~ msgstr "Não foi possível conectar ao servidor Cockpit"
+
+#~ msgid "Try Again"
+#~ msgstr "Tentar novamente"
+
+#~ msgid "selected"
+#~ msgstr "selecionado"
+
+#~ msgid "automatically selected"
+#~ msgstr "selecionado automaticamente"
 
 #, fuzzy
 #~ msgid "Content"
