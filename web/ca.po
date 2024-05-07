@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 02:20+0000\n"
-"PO-Revision-Date: 2024-05-06 10:43+0000\n"
+"PO-Revision-Date: 2024-05-07 10:43+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ca/>\n"
@@ -227,7 +227,7 @@ msgstr "Cerca"
 #: src/components/core/LoginPage.jsx:56
 #, c-format
 msgid "Log in as %s"
-msgstr ""
+msgstr "Inicieu sessió com a %s"
 
 #. TRANSLATORS: An explanation about required privileges for login into the installer. %s
 #. will be replaced by "root"
@@ -237,28 +237,30 @@ msgid ""
 "The installer requires %s user privileges. Please, provide its password to "
 "log in to the system."
 msgstr ""
+"L'instal·lador requereix privilegis de l'usuari %s. Si us plau, proporcioneu-"
+"ne la contrasenya per iniciar sessió al sistema."
 
 #: src/components/core/LoginPage.jsx:72
-#, fuzzy
 msgid "Login form"
-msgstr "Entrada per a %s"
+msgstr "Forma d'entrada"
 
 #: src/components/core/LoginPage.jsx:78
-#, fuzzy
 msgid "Password input"
-msgstr "Contrasenya"
+msgstr "Introducció de contrasenya"
 
 #: src/components/core/LoginPage.jsx:86
 msgid "Could not log in. Please, make sure that the password is correct."
 msgstr ""
+"No s'ha pogut iniciar la sessió. Si us plau, assegureu-vos que la "
+"contrasenya sigui correcta."
 
 #: src/components/core/LoginPage.jsx:93
 msgid "Log in"
-msgstr ""
+msgstr "Inicia la sessió"
 
 #: src/components/core/LoginPage.jsx:104
 msgid "What is this?"
-msgstr ""
+msgstr "Què és això?"
 
 #: src/components/core/LogsButton.jsx:98
 msgid "Collecting logs..."
@@ -332,9 +334,8 @@ msgid "Waiting"
 msgstr "Escrivint"
 
 #: src/components/core/Selector.jsx:126
-#, fuzzy
 msgid "auto selected"
-msgstr "no seleccionat"
+msgstr "seleccionat automàticament"
 
 #. TRANSLATORS: button label
 #: src/components/core/ShowLogButton.jsx:47
@@ -779,7 +780,7 @@ msgstr "Desconnectant"
 
 #: src/components/network/WifiNetworkListItem.jsx:49
 msgid "Failed"
-msgstr ""
+msgstr "Ha fallat"
 
 #. TRANSLATORS: Wifi network status
 #. TRANSLATORS: iSCSI connection status
@@ -807,18 +808,17 @@ msgid "The system will use %s as its default language."
 msgstr "El sistema usarà el %s com a llengua per defecte."
 
 #: src/components/overview/NetworkSection.jsx:96
-#, fuzzy
 msgid "No network devices detected"
-msgstr "No s'ha detectat cap connexió de xarxa."
+msgstr "No s'ha detectat cap dispositiu de xarxa."
 
 #. TRANSLATORS: header for the list of connected devices,
 #. %d is replaced by the number of active devices
 #: src/components/overview/NetworkSection.jsx:103
-#, fuzzy, c-format
+#, c-format
 msgid "%d device set:"
 msgid_plural "%d devices set:"
-msgstr[0] "Dispositiu usat"
-msgstr[1] "Dispositiu usat"
+msgstr[0] "%d dispositiu establert:"
+msgstr[1] "%d dispositius establerts:"
 
 #. TRANSLATORS: page title
 #: src/components/overview/OverviewPage.jsx:58
@@ -1136,22 +1136,21 @@ msgstr "Resum de programari i opcions de filtre"
 #. TRANSLATORS: page title
 #: src/components/software/SoftwarePage.jsx:80
 #: src/components/software/SoftwarePage.jsx:218
-#, fuzzy
 msgid "Software selection"
-msgstr "Programari %s"
+msgstr "Selecció de programari"
 
 #: src/components/software/SoftwarePage.jsx:109
-#, fuzzy
 msgid "Change selection"
-msgstr "Canvia la ubicació"
+msgstr "Canvia la selecció"
 
 #: src/components/software/SoftwarePage.jsx:138
 msgid "No additional software was selected."
-msgstr ""
+msgstr "No s'ha seleccionat cap programari addicional."
 
 #: src/components/software/SoftwarePage.jsx:144
 msgid "The following software patterns are selected for installation:"
 msgstr ""
+"S'han seleccionat els patrons de programari següents per a la instal·lació:"
 
 #. TRANSLATORS: %s will be replaced by the estimated installation size,
 #. example: "728.8 MiB"
