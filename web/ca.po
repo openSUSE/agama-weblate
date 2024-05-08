@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 02:20+0000\n"
+"POT-Creation-Date: 2024-05-08 01:57+0000\n"
 "PO-Revision-Date: 2024-05-07 10:43+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -825,7 +825,7 @@ msgstr[1] "%d dispositius establerts:"
 msgid "Installation Summary"
 msgstr "Resum de la instal·lació"
 
-#. TRANSLATORS: %s is replaced by a product name (e.g., SUSE ALP-Dolomite)
+#. TRANSLATORS: %s is replaced by a product name (e.g. SLES)
 #: src/components/overview/ProductSection.jsx:48
 #, c-format
 msgid "%s (registered)"
@@ -1031,7 +1031,7 @@ msgstr "Registra %s"
 msgid "Deregister %s"
 msgstr "Dona de baixa %s"
 
-#. TRANSLATORS: %s is replaced by a product name (e.g., SUSE ALP-Dolomite)
+#. TRANSLATORS: %s is replaced by a product name (e.g. SLES)
 #: src/components/product/ProductPage.jsx:202
 #, c-format
 msgid "Do you want to deregister %s?"

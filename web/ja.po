@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 02:20+0000\n"
+"POT-Creation-Date: 2024-05-08 01:57+0000\n"
 "PO-Revision-Date: 2024-05-07 04:43+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -234,7 +234,9 @@ msgstr "%s としてログイン"
 msgid ""
 "The installer requires %s user privileges. Please, provide its password to "
 "log in to the system."
-msgstr "インストーラは %s ユーザ権限を必要としています。システムにログインするため、パスワードを入力してください。"
+msgstr ""
+"インストーラは %s ユーザ権限を必要としています。システムにログインするため、"
+"パスワードを入力してください。"
 
 #: src/components/core/LoginPage.jsx:72
 msgid "Login form"
@@ -246,7 +248,9 @@ msgstr "パスワード入力"
 
 #: src/components/core/LoginPage.jsx:86
 msgid "Could not log in. Please, make sure that the password is correct."
-msgstr "ログインできませんでした。入力したパスワードが正しいかどうか、もう一度ご確認ください。"
+msgstr ""
+"ログインできませんでした。入力したパスワードが正しいかどうか、もう一度ご確認"
+"ください。"
 
 #: src/components/core/LoginPage.jsx:93
 msgid "Log in"
@@ -816,7 +820,7 @@ msgstr[0] "%d 個のデバイス:"
 msgid "Installation Summary"
 msgstr "インストールの概要"
 
-#. TRANSLATORS: %s is replaced by a product name (e.g., SUSE ALP-Dolomite)
+#. TRANSLATORS: %s is replaced by a product name (e.g. SLES)
 #: src/components/overview/ProductSection.jsx:48
 #, c-format
 msgid "%s (registered)"
@@ -1018,7 +1022,7 @@ msgstr "%s の登録"
 msgid "Deregister %s"
 msgstr "%s の登録解除"
 
-#. TRANSLATORS: %s is replaced by a product name (e.g., SUSE ALP-Dolomite)
+#. TRANSLATORS: %s is replaced by a product name (e.g. SLES)
 #: src/components/product/ProductPage.jsx:202
 #, c-format
 msgid "Do you want to deregister %s?"
