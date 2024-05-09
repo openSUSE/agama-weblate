@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-08 01:57+0000\n"
-"PO-Revision-Date: 2024-04-02 06:43+0000\n"
+"PO-Revision-Date: 2024-05-09 06:43+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
-"Language-Team: Macedonian <https://l10n.opensuse.org/projects/agama/agama-"
-"web/mk/>\n"
+"Language-Team: Macedonian <https://l10n.opensuse.org/projects/agama/"
+"agama-web/mk/>\n"
 "Language: mk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -120,13 +120,15 @@ msgstr "Продолжи"
 
 #: src/components/core/InstallButton.jsx:78
 msgid "Problems Found"
-msgstr ""
+msgstr "Најдени проблеми"
 
 #: src/components/core/InstallButton.jsx:82
 msgid ""
 "Some problems were found when trying to start the installation. Please, have "
 "a look to the reported errors and try again."
 msgstr ""
+"Беа најдени некои проблеми при обидот да се започне со инсталацијата. Ве "
+"молиме, погледнете ги пријавените грешки и обидете се повторно."
 
 #. TRANSLATORS: button label
 #: src/components/core/InstallButton.jsx:89 src/components/l10n/L10nPage.jsx:75
@@ -138,30 +140,32 @@ msgstr ""
 #: src/components/storage/VolumeDialog.jsx:787
 #: src/components/storage/ZFCPPage.jsx:511
 msgid "Accept"
-msgstr ""
+msgstr "Прифати"
 
 #. TRANSLATORS: button label
 #: src/components/core/InstallButton.jsx:140
 msgid "Install"
-msgstr ""
+msgstr "Инсталирајте"
 
 #: src/components/core/InstallationFinished.jsx:41
 msgid "TPM sealing requires the new system to be booted directly."
-msgstr ""
+msgstr "Запечатувањето TPM бара новиот систем директно да се бутира."
 
 #: src/components/core/InstallationFinished.jsx:46
 msgid ""
 "If a local media was used to run this installer, remove it before the next "
 "boot."
 msgstr ""
+"Ако се користел локален медиум за стартување на овој инсталар, отстранете го "
+"пред следното бутирање."
 
 #: src/components/core/InstallationFinished.jsx:50
 msgid "Hide details"
-msgstr ""
+msgstr "Сокриј детали"
 
 #: src/components/core/InstallationFinished.jsx:50
 msgid "See more details"
-msgstr ""
+msgstr "Видете повеќе детали"
 
 #. TRANSLATORS: "Trusted Platform Module" is the name of the technology and "TPM" its abbreviation
 #: src/components/core/InstallationFinished.jsx:54
@@ -175,31 +179,33 @@ msgstr ""
 #. TRANSLATORS: page title
 #: src/components/core/InstallationFinished.jsx:91
 msgid "Installation Finished"
-msgstr ""
+msgstr "Инсталирањето заврши"
 
 #: src/components/core/InstallationFinished.jsx:94
 msgid "Congratulations!"
-msgstr ""
+msgstr "Честитки!"
 
 #: src/components/core/InstallationFinished.jsx:99
 msgid "The installation on your machine is complete."
-msgstr ""
+msgstr "Инсталирањето на вашата машина заврши."
 
 #: src/components/core/InstallationFinished.jsx:103
 msgid "At this point you can power off the machine."
-msgstr ""
+msgstr "Во овој момент можете да ја исклучите машината."
 
 #: src/components/core/InstallationFinished.jsx:104
 msgid "At this point you can reboot the machine to log in to the new system."
 msgstr ""
+"Во овој момент можете да ја рестартирате машината за да се најавите на "
+"новиот систем."
 
 #: src/components/core/InstallationFinished.jsx:116
 msgid "Finish"
-msgstr ""
+msgstr "Заврши"
 
 #: src/components/core/InstallationFinished.jsx:116
 msgid "Reboot"
-msgstr ""
+msgstr "Рестартирај"
 
 #: src/components/core/InstallationProgress.jsx:32
 msgid "Installing"
@@ -304,9 +310,8 @@ msgstr ""
 
 #. TRANSLATORS: progress message
 #: src/components/core/Popup.jsx:210
-#, fuzzy
 msgid "Loading data..."
-msgstr "Се чита фајл..."
+msgstr "Се читаат податоци..."
 
 #: src/components/core/RowActions.jsx:64
 #: src/components/storage/PartitionsField.jsx:457
