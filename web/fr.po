@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-08 01:57+0000\n"
+"POT-Creation-Date: 2024-05-14 02:15+0000\n"
 "PO-Revision-Date: 2024-04-19 23:43+0000\n"
 "Last-Translator: faila fail <yassadmi@proton.me>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/agama/agama-web/fr/"
@@ -425,7 +425,7 @@ msgstr ""
 #. TRANSLATORS: page title
 #: src/components/l10n/InstallerLocaleSwitcher.jsx:55
 #: src/components/l10n/L10nPage.jsx:384
-#: src/components/overview/L10nSection.jsx:52
+#: src/components/overview/L10nSection.jsx:54
 msgid "Localization"
 msgstr "Localisation"
 
@@ -728,7 +728,7 @@ msgstr "WPA & WPA2 Personnel"
 #: src/components/product/ProductPage.jsx:128
 #: src/components/product/ProductPage.jsx:194
 #: src/components/storage/ZFCPDiskForm.jsx:112
-#: src/components/storage/iscsi/DiscoverForm.jsx:108
+#: src/components/storage/iscsi/DiscoverForm.jsx:110
 #: src/components/storage/iscsi/LoginForm.jsx:72
 #: src/components/users/FirstUser.jsx:280
 msgid "Something went wrong"
@@ -825,7 +825,7 @@ msgstr[0] "Périphérique utilisé"
 msgstr[1] "Périphérique utilisé"
 
 #. TRANSLATORS: page title
-#: src/components/overview/OverviewPage.jsx:58
+#: src/components/overview/OverviewPage.jsx:48
 msgid "Installation Summary"
 msgstr "Synthèse de l'installation"
 
@@ -2408,37 +2408,37 @@ msgid "Target Password"
 msgstr "Mot de passe cible"
 
 #. TRANSLATORS: popup title
-#: src/components/storage/iscsi/DiscoverForm.jsx:101
+#: src/components/storage/iscsi/DiscoverForm.jsx:102
 msgid "Discover iSCSI Targets"
 msgstr "Découvrir les cibles iSCSI"
 
-#: src/components/storage/iscsi/DiscoverForm.jsx:110
+#: src/components/storage/iscsi/DiscoverForm.jsx:112
 #: src/components/storage/iscsi/LoginForm.jsx:73
 msgid "Make sure you provide the correct values"
 msgstr "Assurez-vous de fournir les bonnes valeurs"
 
-#: src/components/storage/iscsi/DiscoverForm.jsx:115
+#: src/components/storage/iscsi/DiscoverForm.jsx:118
 msgid "IP address"
 msgstr "Adresse IP"
 
 #. TRANSLATORS: network address
-#: src/components/storage/iscsi/DiscoverForm.jsx:122
-#: src/components/storage/iscsi/DiscoverForm.jsx:124
+#: src/components/storage/iscsi/DiscoverForm.jsx:125
+#: src/components/storage/iscsi/DiscoverForm.jsx:127
 msgid "Address"
 msgstr "Adresse"
 
-#: src/components/storage/iscsi/DiscoverForm.jsx:129
+#: src/components/storage/iscsi/DiscoverForm.jsx:132
 msgid "Incorrect IP address"
 msgstr "Adresse IP incorrecte"
 
 #. TRANSLATORS: network port number
-#: src/components/storage/iscsi/DiscoverForm.jsx:133
-#: src/components/storage/iscsi/DiscoverForm.jsx:140
-#: src/components/storage/iscsi/DiscoverForm.jsx:142
+#: src/components/storage/iscsi/DiscoverForm.jsx:136
+#: src/components/storage/iscsi/DiscoverForm.jsx:143
+#: src/components/storage/iscsi/DiscoverForm.jsx:145
 msgid "Port"
 msgstr "Port"
 
-#: src/components/storage/iscsi/DiscoverForm.jsx:147
+#: src/components/storage/iscsi/DiscoverForm.jsx:150
 msgid "Incorrect port"
 msgstr "Port incorrect"
 
@@ -2466,7 +2466,7 @@ msgid "Offload card"
 msgstr "Carte de décharge"
 
 #. TRANSLATORS: iSCSI initiator section name
-#: src/components/storage/iscsi/InitiatorSection.jsx:50
+#: src/components/storage/iscsi/InitiatorSection.jsx:49
 msgid "Initiator"
 msgstr "Initiateur"
 
@@ -2510,11 +2510,11 @@ msgstr "Portail"
 msgid "Interface"
 msgstr "Interface"
 
-#: src/components/storage/iscsi/TargetsSection.jsx:139
+#: src/components/storage/iscsi/TargetsSection.jsx:142
 msgid "No iSCSI targets found."
 msgstr "Aucune cible iSCSI n'a été trouvée."
 
-#: src/components/storage/iscsi/TargetsSection.jsx:140
+#: src/components/storage/iscsi/TargetsSection.jsx:143
 msgid ""
 "Please, perform an iSCSI discovery in order to find available iSCSI targets."
 msgstr ""
@@ -2522,17 +2522,17 @@ msgstr ""
 "disponibles."
 
 #. TRANSLATORS: button label, starts iSCSI discovery
-#: src/components/storage/iscsi/TargetsSection.jsx:142
+#: src/components/storage/iscsi/TargetsSection.jsx:145
 msgid "Discover iSCSI targets"
 msgstr "Découvrir les cibles iSCSI"
 
 #. TRANSLATORS: button label, starts iSCSI discovery
-#: src/components/storage/iscsi/TargetsSection.jsx:153
+#: src/components/storage/iscsi/TargetsSection.jsx:156
 msgid "Discover"
 msgstr "Découvrir"
 
 #. TRANSLATORS: iSCSI targets section title
-#: src/components/storage/iscsi/TargetsSection.jsx:167
+#: src/components/storage/iscsi/TargetsSection.jsx:170
 msgid "Targets"
 msgstr "Cibles"
 
