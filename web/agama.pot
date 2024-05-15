@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-14 02:15+0000\n"
+"POT-Creation-Date: 2024-05-15 02:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 
 #. TRANSLATORS: button label
 #: src/components/core/About.jsx:92 src/components/core/FileViewer.jsx:81
-#: src/components/core/IssuesDialog.jsx:119 src/components/core/Sidebar.jsx:160
+#: src/components/core/IssuesDialog.jsx:117 src/components/core/Sidebar.jsx:160
 #: src/components/network/WifiSelector.jsx:148
 #: src/components/product/ProductPage.jsx:239
 #: src/components/software/SoftwarePage.jsx:90
