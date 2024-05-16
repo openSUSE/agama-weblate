@@ -8,54 +8,57 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-16 02:17+0000\n"
-"PO-Revision-Date: 2024-05-16 02:17+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-05-16 15:46+0000\n"
+"Last-Translator: Özgür Arslan <ozgurarslln@gmail.com>\n"
+"Language-Team: Turkish <https://l10n.opensuse.org/projects/agama/"
+"agama-service-master/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #. Runs the config phase
 #: service/lib/agama/manager.rb:88
 msgid "Probing Storage"
-msgstr ""
+msgstr "Depolama inceleniyor"
 
 #: service/lib/agama/manager.rb:89
 msgid "Probing Software"
-msgstr ""
+msgstr "Yazılım İnceleniyor"
 
 #. Runs the install phase
 #. rubocop:disable Metrics/AbcSize
 #: service/lib/agama/manager.rb:109
 msgid "Partitioning"
-msgstr ""
+msgstr "Bölümleme"
 
 #. propose software after /mnt is already separated, so it uses proper
 #. target
 #: service/lib/agama/manager.rb:117
 msgid "Installing Software"
-msgstr ""
+msgstr "Yazılımı Yükleme"
 
 #: service/lib/agama/manager.rb:120
 msgid "Writing Users"
-msgstr ""
+msgstr "Kullanıcılar Yazılıyor"
 
 #: service/lib/agama/manager.rb:121
 msgid "Writing Network Configuration"
-msgstr ""
+msgstr "Ağ Yapılandırmasını Yazılıyor"
 
 #: service/lib/agama/manager.rb:122
 msgid "Saving Language Settings"
-msgstr ""
+msgstr "Dil Ayarlarını Kaydediliyor"
 
 #: service/lib/agama/manager.rb:123
 msgid "Writing repositories information"
-msgstr ""
+msgstr "Depo bilgilerinin yazılıyor"
 
 #: service/lib/agama/manager.rb:124
 msgid "Finishing storage configuration"
-msgstr ""
+msgstr "Depolama yapılandırmasını tamamlandı"
 
 #. Callback to handle unsigned files
 #.
@@ -64,12 +67,12 @@ msgstr ""
 #: service/lib/agama/software/callbacks/signature.rb:63
 #, perl-brace-format
 msgid "The file %{filename} from repository %{repo_name} (%{repo_url})"
-msgstr ""
+msgstr "%{repo_name} deposundaki %{filename} dosyası (%{repo_url})"
 
 #: service/lib/agama/software/callbacks/signature.rb:67
 #, perl-brace-format
 msgid "The file %{filename}"
-msgstr ""
+msgstr "%{filename} dosya"
 
 #: service/lib/agama/software/callbacks/signature.rb:71
 #, perl-brace-format
@@ -77,6 +80,8 @@ msgid ""
 "%{source} is not digitally signed. The origin and integrity of the file cannot"
 " be verified. Use it anyway?"
 msgstr ""
+"%{source} dijital olarak imzalanmış değil. Dosyanın kökeni ve bütünlüğü "
+"doğrulanamıyor. Yine de kullan?"
 
 #. Callback to handle signature verification failures
 #.
@@ -88,32 +93,34 @@ msgid ""
 "The key %{id} (%{name}) with fingerprint %{fingerprint} is unknown. Do you wan"
 "t to trust this key?"
 msgstr ""
+"%{fingerprint} parmak izine sahip %{id} (%{name}) anahtarı bilinmiyor. Bu "
+"anahtara güvenmek istiyor musunuz?"
 
 #. as we use liveDVD with normal like ENV, lets temporary switch to normal to use its repos
 #: service/lib/agama/software/manager.rb:134
 msgid "Initializing target repositories"
-msgstr ""
+msgstr "Hedef depolar başlatılıyor"
 
 #: service/lib/agama/software/manager.rb:135
 msgid "Initializing sources"
-msgstr ""
+msgstr "Kaynaklar başlatılıyor"
 
 #: service/lib/agama/software/manager.rb:140
 msgid "Refreshing repositories metadata"
-msgstr ""
+msgstr "Depo meta verileri yenileniyor"
 
 #: service/lib/agama/software/manager.rb:141
 msgid "Calculating the software proposal"
-msgstr ""
+msgstr "Yazılım önerisi hesaplanıyor"
 
 #. Writes the repositories information to the installed system
 #: service/lib/agama/software/manager.rb:190
 msgid "Writing repositories to the target system"
-msgstr ""
+msgstr "Depolar hedef sisteme yazılıyor"
 
 #: service/lib/agama/software/manager.rb:196
 msgid "Restoring original repositories"
-msgstr ""
+msgstr "Orijinal depoları geri yükleniyor"
 
 #. Issues related to the software proposal.
 #.
@@ -123,21 +130,21 @@ msgstr ""
 #: service/lib/agama/software/manager.rb:482
 #, c-format
 msgid "Could not read repository \"%s\""
-msgstr ""
+msgstr "\"%s\" deposu okunamadı"
 
 #. Issue when a product is missing
 #.
 #. @return [Agama::Issue]
 #: service/lib/agama/software/manager.rb:492
 msgid "Product not selected yet"
-msgstr ""
+msgstr "Ürün henüz seçilmedi"
 
 #. Issue when a product requires registration but it is not registered yet.
 #.
 #. @return [Agama::Issue]
 #: service/lib/agama/software/manager.rb:501
 msgid "Product must be registered"
-msgstr ""
+msgstr "Ürün kayıtlı olmalı"
 
 #. Returns solver error messages from the last attempt
 #.
@@ -145,49 +152,49 @@ msgstr ""
 #: service/lib/agama/software/proposal.rb:227
 #, c-format
 msgid "Found %s dependency issues."
-msgstr ""
+msgstr "%s bağımlılık sorunu bulundu."
 
 #. Probes storage devices and performs an initial proposal
 #: service/lib/agama/storage/manager.rb:112
 msgid "Activating storage devices"
-msgstr ""
+msgstr "Depolama aygıtlarını etkinleştiriliyor"
 
 #: service/lib/agama/storage/manager.rb:113
 msgid "Probing storage devices"
-msgstr ""
+msgstr "Depolama aygıtları araştırılıyor"
 
 #: service/lib/agama/storage/manager.rb:114
 msgid "Calculating the storage proposal"
-msgstr ""
+msgstr "Depolama önerisi hesaplanıyor"
 
 #: service/lib/agama/storage/manager.rb:115
 msgid "Selecting Linux Security Modules"
-msgstr ""
+msgstr "Linux Güvenlik Modüllerini Seçme"
 
 #. Prepares the partitioning to install the system
 #: service/lib/agama/storage/manager.rb:123
 msgid "Preparing bootloader proposal"
-msgstr ""
+msgstr "Bootloader bölümü hazırlanıyor"
 
 #. first make bootloader proposal to be sure that required packages are installed
 #: service/lib/agama/storage/manager.rb:128
 msgid "Adding storage-related packages"
-msgstr ""
+msgstr "Depolamayla ilgili paketler ekleme"
 
 #: service/lib/agama/storage/manager.rb:129
 msgid "Preparing the storage devices"
-msgstr ""
+msgstr "Depolama cihazları hazırlanıyor"
 
 #: service/lib/agama/storage/manager.rb:130
 msgid "Writing bootloader sysconfig"
-msgstr ""
+msgstr "bootloader sysconfig yazılıyor"
 
 #. Returns an issue if there is no target device.
 #.
 #. @return [Issue, nil]
 #: service/lib/agama/storage/proposal.rb:195
 msgid "No device selected for installation"
-msgstr ""
+msgstr "Kurulum için cihaz seçilmedi"
 
 #. Returns an issue if any of the devices required for the proposal is not found
 #.
@@ -196,12 +203,12 @@ msgstr ""
 #, perl-brace-format
 msgid "The following selected device is not found in the system: %{devices}"
 msgid_plural "The following selected devices are not found in the system: %{devices}"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Aşağıdaki seçilen cihaz sistemde bulunamadı: %{devices}"
+msgstr[1] "Aşağıdaki seçilen cihazlar sistemde bulunamadı: %{devices}"
 
 #. Returns an issue if the proposal is not valid.
 #.
 #. @return [Issue, nil]
 #: service/lib/agama/storage/proposal.rb:229
 msgid "Cannot accommodate the required file systems for installation"
-msgstr ""
+msgstr "Kurulum için gerekli dosya sistemleri karşılanamıyor"
