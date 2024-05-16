@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-15 02:20+0000\n"
+"POT-Creation-Date: 2024-05-16 02:17+0000\n"
 "PO-Revision-Date: 2024-05-12 20:43+0000\n"
 "Last-Translator: Alejandro Jiménez <ale-jimenez1@hotmail.es>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -555,8 +555,8 @@ msgstr "Direcciones"
 msgid "Addresses data list"
 msgstr "Lista de datos de direcciones"
 
-#. TRANSLATORS: table header
 #. TRANSLATORS: input field for the iSCSI initiator name
+#. TRANSLATORS: table header
 #: src/components/network/ConnectionsTable.jsx:66
 #: src/components/network/ConnectionsTable.jsx:95
 #: src/components/storage/ZFCPPage.jsx:360
@@ -691,8 +691,8 @@ msgstr "No se encontraron conexiones WiFi."
 msgid "Connect to a Wi-Fi network"
 msgstr "Conectado a una red WIFI"
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section title
+#. TRANSLATORS: page title
 #: src/components/network/NetworkPage.jsx:178
 #: src/components/overview/NetworkSection.jsx:117
 msgid "Network"
@@ -781,8 +781,8 @@ msgstr "Desconectando"
 msgid "Failed"
 msgstr "Fallido"
 
-#. TRANSLATORS: Wifi network status
 #. TRANSLATORS: iSCSI connection status
+#. TRANSLATORS: Wifi network status
 #: src/components/network/WifiNetworkListItem.jsx:52
 #: src/components/storage/iscsi/NodesPresenter.jsx:63
 msgid "Disconnected"
@@ -830,8 +830,8 @@ msgstr "Resumen de la instalación"
 msgid "%s (registered)"
 msgstr "%s (registrado)"
 
-#. TRANSLATORS: page section
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section
 #: src/components/overview/ProductSection.jsx:71
 #: src/components/product/ProductPage.jsx:435
 msgid "Product"
@@ -846,8 +846,8 @@ msgstr "Leer repositorios de software"
 msgid "Refresh the repositories"
 msgstr "Refrescar los repositorios"
 
-#. TRANSLATORS: page section
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section
 #: src/components/overview/SoftwareSection.jsx:143
 #: src/components/software/SoftwarePage.jsx:216
 msgid "Software"
@@ -978,8 +978,8 @@ msgstr ""
 msgid "Probing storage devices"
 msgstr "Explorando dispositivos de almacenamiento"
 
-#. TRANSLATORS: Storage page title
 #. TRANSLATORS: page section title
+#. TRANSLATORS: Storage page title
 #: src/components/overview/StorageSection.jsx:293
 #: src/components/storage/ProposalPage.jsx:267
 msgid "Storage"
@@ -1244,7 +1244,7 @@ msgid "Formatting DASD devices"
 msgstr "Formatear dispositivos DASD"
 
 #. TRANSLATORS: DASD = Direct Access Storage Device, IBM mainframe storage technology
-#: src/components/storage/DASDPage.jsx:181
+#: src/components/storage/DASDPage.jsx:182
 msgid "Storage DASD"
 msgstr "Almacenamiento DASD"
 

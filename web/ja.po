@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-15 02:20+0000\n"
+"POT-Creation-Date: 2024-05-16 02:17+0000\n"
 "PO-Revision-Date: 2024-05-07 04:43+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -551,8 +551,8 @@ msgstr "アドレス"
 msgid "Addresses data list"
 msgstr "アドレスデータの一覧"
 
-#. TRANSLATORS: table header
 #. TRANSLATORS: input field for the iSCSI initiator name
+#. TRANSLATORS: table header
 #: src/components/network/ConnectionsTable.jsx:66
 #: src/components/network/ConnectionsTable.jsx:95
 #: src/components/storage/ZFCPPage.jsx:360
@@ -689,8 +689,8 @@ msgstr "WiFi 接続が見つかりませんでした。"
 msgid "Connect to a Wi-Fi network"
 msgstr "Wi-Fi ネットワークへの接続"
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section title
+#. TRANSLATORS: page title
 #: src/components/network/NetworkPage.jsx:178
 #: src/components/overview/NetworkSection.jsx:117
 msgid "Network"
@@ -778,8 +778,8 @@ msgstr "切断中"
 msgid "Failed"
 msgstr "失敗"
 
-#. TRANSLATORS: Wifi network status
 #. TRANSLATORS: iSCSI connection status
+#. TRANSLATORS: Wifi network status
 #: src/components/network/WifiNetworkListItem.jsx:52
 #: src/components/storage/iscsi/NodesPresenter.jsx:63
 msgid "Disconnected"
@@ -826,8 +826,8 @@ msgstr "インストールの概要"
 msgid "%s (registered)"
 msgstr "%s (登録済み)"
 
-#. TRANSLATORS: page section
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section
 #: src/components/overview/ProductSection.jsx:71
 #: src/components/product/ProductPage.jsx:435
 msgid "Product"
@@ -842,8 +842,8 @@ msgstr "ソフトウエアリポジトリを読み込んでいます"
 msgid "Refresh the repositories"
 msgstr "リポジトリの更新"
 
-#. TRANSLATORS: page section
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section
 #: src/components/overview/SoftwareSection.jsx:143
 #: src/components/software/SoftwarePage.jsx:216
 msgid "Software"
@@ -968,8 +968,8 @@ msgstr ""
 msgid "Probing storage devices"
 msgstr "ストレージデバイスを検出しています"
 
-#. TRANSLATORS: Storage page title
 #. TRANSLATORS: page section title
+#. TRANSLATORS: Storage page title
 #: src/components/overview/StorageSection.jsx:293
 #: src/components/storage/ProposalPage.jsx:267
 msgid "Storage"
@@ -1228,7 +1228,7 @@ msgid "Formatting DASD devices"
 msgstr "DASD デバイスをフォーマットしています"
 
 #. TRANSLATORS: DASD = Direct Access Storage Device, IBM mainframe storage technology
-#: src/components/storage/DASDPage.jsx:181
+#: src/components/storage/DASDPage.jsx:182
 msgid "Storage DASD"
 msgstr "DASD ストレージ"
 
