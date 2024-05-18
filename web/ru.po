@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-16 02:17+0000\n"
-"PO-Revision-Date: 2024-05-18 21:46+0000\n"
+"PO-Revision-Date: 2024-05-19 00:46+0000\n"
 "Last-Translator: Aleksey Fedorov <Aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ru/>\n"
@@ -1000,20 +1000,19 @@ msgstr "Пользователи еще не определены"
 #: src/components/overview/UsersSection.jsx:101
 msgid "Root authentication set for using both, password and public SSH Key"
 msgstr ""
-"Настройка корневой аутентификации для использования пароля и публичного "
-"ключа SSH"
+"Настройка аутентификации root для использования пароля и публичного ключа SSH"
 
 #: src/components/overview/UsersSection.jsx:102
 msgid "No root authentication method defined"
-msgstr "Метод корневой аутентификации не определен"
+msgstr "Метод аутентификации root не определен"
 
 #: src/components/overview/UsersSection.jsx:103
 msgid "Root authentication set for using password"
-msgstr "Настройка корневой аутентификации на использование пароля"
+msgstr "Настройка аутентификации root на использование пароля"
 
 #: src/components/overview/UsersSection.jsx:104
 msgid "Root authentication set for using public SSH Key"
-msgstr "Настройка корневой аутентификации на использование открытого ключа SSH"
+msgstr "Настройка аутентификации root на использование открытого ключа SSH"
 
 #. TRANSLATORS: page section title
 #: src/components/overview/UsersSection.jsx:120
@@ -1843,7 +1842,7 @@ msgstr[2] "Планируется %d разрушительных действи
 
 #: src/components/storage/ProposalResultSection.jsx:73
 msgid "Affecting"
-msgstr "Влияет на"
+msgstr "Влияя на"
 
 #: src/components/storage/ProposalResultSection.jsx:95
 msgid "Check all planned actions"
@@ -2348,11 +2347,11 @@ msgstr "Неиспользуемое пространство"
 
 #: src/components/storage/iscsi/AuthFields.jsx:70
 msgid "Only available if authentication by target is provided"
-msgstr ""
+msgstr "Доступно только при условии аутентификации по цели"
 
 #: src/components/storage/iscsi/AuthFields.jsx:77
 msgid "Authentication by target"
-msgstr ""
+msgstr "Аутентификация по цели"
 
 #: src/components/storage/iscsi/AuthFields.jsx:80
 #: src/components/storage/iscsi/AuthFields.jsx:85
@@ -2361,69 +2360,69 @@ msgstr ""
 #: src/components/storage/iscsi/AuthFields.jsx:117
 #: src/components/storage/iscsi/AuthFields.jsx:119
 msgid "User name"
-msgstr ""
+msgstr "Имя пользователя"
 
 #: src/components/storage/iscsi/AuthFields.jsx:91
 #: src/components/storage/iscsi/AuthFields.jsx:124
 msgid "Incorrect user name"
-msgstr ""
+msgstr "Некорректное имя пользователя"
 
 #: src/components/storage/iscsi/AuthFields.jsx:105
 #: src/components/storage/iscsi/AuthFields.jsx:139
 msgid "Incorrect password"
-msgstr ""
+msgstr "Некорректный пароль"
 
 #: src/components/storage/iscsi/AuthFields.jsx:108
 msgid "Authentication by initiator"
-msgstr ""
+msgstr "Аутентификация инициатором"
 
 #: src/components/storage/iscsi/AuthFields.jsx:133
 msgid "Target Password"
-msgstr ""
+msgstr "Пароль цели"
 
 #. TRANSLATORS: popup title
 #: src/components/storage/iscsi/DiscoverForm.jsx:102
 msgid "Discover iSCSI Targets"
-msgstr ""
+msgstr "Знакомство с целевыми устройствами iSCSI"
 
 #: src/components/storage/iscsi/DiscoverForm.jsx:112
 #: src/components/storage/iscsi/LoginForm.jsx:73
 msgid "Make sure you provide the correct values"
-msgstr ""
+msgstr "Убедитесь, что вы указали правильные значения"
 
 #: src/components/storage/iscsi/DiscoverForm.jsx:118
 msgid "IP address"
-msgstr ""
+msgstr "IP-адрес"
 
 #. TRANSLATORS: network address
 #: src/components/storage/iscsi/DiscoverForm.jsx:125
 #: src/components/storage/iscsi/DiscoverForm.jsx:127
 msgid "Address"
-msgstr ""
+msgstr "Адрес"
 
 #: src/components/storage/iscsi/DiscoverForm.jsx:132
 msgid "Incorrect IP address"
-msgstr ""
+msgstr "Некорректный IP-адрес"
 
 #. TRANSLATORS: network port number
 #: src/components/storage/iscsi/DiscoverForm.jsx:136
 #: src/components/storage/iscsi/DiscoverForm.jsx:143
 #: src/components/storage/iscsi/DiscoverForm.jsx:145
 msgid "Port"
-msgstr ""
+msgstr "Порт"
 
 #: src/components/storage/iscsi/DiscoverForm.jsx:150
 msgid "Incorrect port"
-msgstr ""
+msgstr "Некорректный порт"
 
 #: src/components/storage/iscsi/InitiatorForm.jsx:42
 msgid "Edit iSCSI Initiator"
-msgstr ""
+msgstr "Изменить инициатор iSCSI"
 
 #. TRANSLATORS: iSCSI initiator name
 #: src/components/storage/iscsi/InitiatorForm.jsx:49
 msgid "Initiator name"
-msgstr ""
+msgstr "Имя инициатора"
 
 #. TRANSLATORS: usually just keep the original text
 #. iBFT = iSCSI Boot Firmware Table, HW support for booting from iSCSI
@@ -2432,338 +2431,346 @@ msgstr ""
 #: src/components/storage/iscsi/NodesPresenter.jsx:103
 #: src/components/storage/iscsi/NodesPresenter.jsx:124
 msgid "iBFT"
-msgstr ""
+msgstr "iBFT"
 
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:72
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:87
 msgid "Offload card"
-msgstr ""
+msgstr "Разгрузочная карта"
 
 #. TRANSLATORS: iSCSI initiator section name
 #: src/components/storage/iscsi/InitiatorSection.jsx:49
 msgid "Initiator"
-msgstr ""
+msgstr "Инициатор"
 
 #. TRANSLATORS: %s is replaced by the iSCSI target name
 #: src/components/storage/iscsi/LoginForm.jsx:69
 #, c-format
 msgid "Login %s"
-msgstr ""
+msgstr "Логин %s"
 
 #. TRANSLATORS: iSCSI start up mode (on boot/manual/automatic)
 #: src/components/storage/iscsi/LoginForm.jsx:76
 #: src/components/storage/iscsi/LoginForm.jsx:79
 msgid "Startup"
-msgstr ""
+msgstr "Запуск"
 
 #: src/components/storage/iscsi/NodeStartupOptions.js:26
 msgid "On boot"
-msgstr ""
+msgstr "При загрузке"
 
 #. TRANSLATORS: iSCSI connection status, %s is replaced by node label
 #: src/components/storage/iscsi/NodesPresenter.jsx:67
 #, c-format
 msgid "Connected (%s)"
-msgstr ""
+msgstr "Подключено (%s)"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:82
 msgid "Login"
-msgstr ""
+msgstr "Вход"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:86
 msgid "Logout"
-msgstr ""
+msgstr "Выход"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:101
 #: src/components/storage/iscsi/NodesPresenter.jsx:122
 msgid "Portal"
-msgstr ""
+msgstr "Портал"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:102
 #: src/components/storage/iscsi/NodesPresenter.jsx:123
 msgid "Interface"
-msgstr ""
+msgstr "Интерфейс"
 
 #: src/components/storage/iscsi/TargetsSection.jsx:142
 msgid "No iSCSI targets found."
-msgstr ""
+msgstr "Цели iSCSI не найдены."
 
 #: src/components/storage/iscsi/TargetsSection.jsx:143
 msgid ""
 "Please, perform an iSCSI discovery in order to find available iSCSI targets."
-msgstr ""
+msgstr "Выполните обнаружение iSCSI, чтобы найти доступные цели iSCSI."
 
 #. TRANSLATORS: button label, starts iSCSI discovery
 #: src/components/storage/iscsi/TargetsSection.jsx:145
 msgid "Discover iSCSI targets"
-msgstr ""
+msgstr "Обнаружение целей iSCSI"
 
 #. TRANSLATORS: button label, starts iSCSI discovery
 #: src/components/storage/iscsi/TargetsSection.jsx:156
 msgid "Discover"
-msgstr ""
+msgstr "Обнаружить"
 
 #. TRANSLATORS: iSCSI targets section title
 #: src/components/storage/iscsi/TargetsSection.jsx:170
 msgid "Targets"
-msgstr ""
+msgstr "Цели"
 
 #: src/components/storage/utils.js:64
 msgid "KiB"
-msgstr ""
+msgstr "КиБ"
 
 #: src/components/storage/utils.js:65
 msgid "MiB"
-msgstr ""
+msgstr "МиБ"
 
 #: src/components/storage/utils.js:66
 msgid "GiB"
-msgstr ""
+msgstr "ГиБ"
 
 #: src/components/storage/utils.js:67
 msgid "TiB"
-msgstr ""
+msgstr "ТиБ"
 
 #: src/components/storage/utils.js:68
 msgid "PiB"
-msgstr ""
+msgstr "ПиБ"
 
 #: src/components/storage/utils.js:77
 msgid "Delete current content"
-msgstr ""
+msgstr "Удалить текущее содержимое"
 
 #: src/components/storage/utils.js:78
 msgid "All partitions will be removed and any data in the disks will be lost."
-msgstr ""
+msgstr "Все разделы будут удалены, а все данные на дисках будут потеряны."
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space deleting all content[...]"
 #: src/components/storage/utils.js:82
 msgid "deleting all content of the installation device"
-msgstr ""
+msgstr "удаляя всё содержимое устройства для установки"
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space deleting all content[...]"
 #: src/components/storage/utils.js:85
 #, c-format
 msgid "deleting all content of the %d selected disks"
-msgstr ""
+msgstr "удаляя всё содержимое %d выбранных дисков"
 
 #: src/components/storage/utils.js:90
 msgid "Shrink existing partitions"
-msgstr ""
+msgstr "Уменьшение существующих разделов"
 
 #: src/components/storage/utils.js:91
 msgid "The data is kept, but the current partitions will be resized as needed."
 msgstr ""
+"Данные сохраняются, но размер текущих разделов будет изменен по мере "
+"необходимости."
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space shrinking partitions[...]"
 #: src/components/storage/utils.js:95
 msgid "shrinking partitions of the installation device"
-msgstr ""
+msgstr "уменьшив разделы устройства для установки"
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space shrinking partitions[...]"
 #: src/components/storage/utils.js:98
 #, c-format
 msgid "shrinking partitions of the %d selected disks"
-msgstr ""
+msgstr "уменьшая разделы %d выбранных дисков"
 
 #: src/components/storage/utils.js:103
 msgid "Use available space"
-msgstr ""
+msgstr "Использовать свободное пространство"
 
 #: src/components/storage/utils.js:104
 msgid ""
 "The data is kept. Only the space not assigned to any partition will be used."
 msgstr ""
+"Данные сохраняются. Будет использовано только пространство, не отведенное "
+"для какого-либо раздела."
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space without modifying any partition".
 #: src/components/storage/utils.js:108
 msgid "without modifying any partition"
-msgstr ""
+msgstr "не изменяя ни одного раздела"
 
 #: src/components/storage/utils.js:113
 msgid "Custom"
-msgstr ""
+msgstr "По своему"
 
 #: src/components/storage/utils.js:114
 msgid "Select what to do with each partition."
-msgstr ""
+msgstr "Выберите, что делать с каждым разделом."
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space performing a custom set of actions".
 #: src/components/storage/utils.js:118
 msgid "performing a custom set of actions"
-msgstr ""
+msgstr "выполняя пользовательский набор действий"
 
 #: src/components/users/FirstUser.jsx:50
 msgid "No user defined yet."
-msgstr ""
+msgstr "Пользователь еще не определен."
 
 #: src/components/users/FirstUser.jsx:53
 msgid ""
 "Please, be aware that a user must be defined before installing the system to "
 "be able to log into it."
 msgstr ""
+"Обратите внимание, что перед установкой системы необходимо определить "
+"пользователя, чтобы он мог войти в систему."
 
 #. TRANSLATORS: push button label
 #: src/components/users/FirstUser.jsx:57
 msgid "Define a user now"
-msgstr ""
+msgstr "Определить пользователя"
 
 #: src/components/users/FirstUser.jsx:67 src/components/users/FirstUser.jsx:284
 msgid "Full name"
-msgstr ""
+msgstr "Полное имя"
 
 #: src/components/users/FirstUser.jsx:68 src/components/users/FirstUser.jsx:298
 #: src/components/users/FirstUser.jsx:306
 #: src/components/users/FirstUser.jsx:309
 msgid "Username"
-msgstr ""
+msgstr "Имя пользователя"
 
 #: src/components/users/FirstUser.jsx:88
 msgid "Username suggestion dropdown"
-msgstr ""
+msgstr "Выпадающий список с предложением имени пользователя"
 
 #. TRANSLATORS: dropdown username suggestions
 #: src/components/users/FirstUser.jsx:103
 msgid "Use suggested username"
-msgstr ""
+msgstr "Используйте предложенное имя пользователя"
 
 #: src/components/users/FirstUser.jsx:216
 #: src/components/users/RootAuthMethods.jsx:99
 #: src/components/users/RootAuthMethods.jsx:111
 msgid "Discard"
-msgstr ""
+msgstr "Отказаться"
 
 #: src/components/users/FirstUser.jsx:275
 msgid "Create user account"
-msgstr ""
+msgstr "Создать учетную запись"
 
 #: src/components/users/FirstUser.jsx:275
 msgid "Edit user account"
-msgstr ""
+msgstr "Изменить учетную запись пользователя"
 
 #: src/components/users/FirstUser.jsx:288
 #: src/components/users/FirstUser.jsx:290
 msgid "User full name"
-msgstr ""
+msgstr "Полное имя пользователя"
 
 #. TRANSLATORS: check box label
 #: src/components/users/FirstUser.jsx:329
 #: src/components/users/FirstUser.jsx:333
 msgid "Edit password too"
-msgstr ""
+msgstr "Также изменить пароль"
 
 #: src/components/users/FirstUser.jsx:346
 msgid "user autologin"
-msgstr ""
+msgstr "автоматический вход пользователя"
 
 #. TRANSLATORS: check box label
 #: src/components/users/FirstUser.jsx:350
 msgid "Auto-login"
-msgstr ""
+msgstr "Автологин"
 
 #: src/components/users/RootAuthMethods.jsx:35
 msgid "No root authentication method defined yet."
-msgstr ""
+msgstr "Метод корневой аутентификации пока не определен."
 
 #: src/components/users/RootAuthMethods.jsx:38
 msgid ""
 "Please, define at least one authentication method for logging into the "
 "system as root."
 msgstr ""
+"Пожалуйста, определите хотя бы один метод аутентификации для входа в систему "
+"с правами root."
 
 #. TRANSLATORS: push button label
 #: src/components/users/RootAuthMethods.jsx:43
 msgid "Set a password"
-msgstr ""
+msgstr "Установить пароль"
 
 #. TRANSLATORS: push button label
 #: src/components/users/RootAuthMethods.jsx:45
 msgid "Upload a SSH Public Key"
-msgstr ""
+msgstr "Загрузить публичный ключ SSH"
 
 #: src/components/users/RootAuthMethods.jsx:94
 #: src/components/users/RootAuthMethods.jsx:107
 msgid "Change"
-msgstr ""
+msgstr "Изменить"
 
 #: src/components/users/RootAuthMethods.jsx:94
 #: src/components/users/RootAuthMethods.jsx:107
 msgid "Set"
-msgstr ""
+msgstr "Установить"
 
 #: src/components/users/RootAuthMethods.jsx:129
 msgid "Already set"
-msgstr ""
+msgstr "Уже установлен"
 
 #: src/components/users/RootAuthMethods.jsx:130
 #: src/components/users/RootAuthMethods.jsx:134
 msgid "Not set"
-msgstr ""
+msgstr "Не установлен"
 
 #. TRANSLATORS: table header, user authentication method
 #: src/components/users/RootAuthMethods.jsx:155
 msgid "Method"
-msgstr ""
+msgstr "Метод"
 
 #: src/components/users/RootAuthMethods.jsx:170
 msgid "SSH Key"
-msgstr ""
+msgstr "Ключ SSH"
 
 #: src/components/users/RootAuthMethods.jsx:187
 msgid "Change the root password"
-msgstr ""
+msgstr "Изменить пароль root"
 
 #: src/components/users/RootAuthMethods.jsx:187
 msgid "Set a root password"
-msgstr ""
+msgstr "Установить пароль root"
 
 #: src/components/users/RootAuthMethods.jsx:194
 msgid "Add a SSH Public Key for root"
-msgstr ""
+msgstr "Добавить публичный ключ SSH для root"
 
 #: src/components/users/RootAuthMethods.jsx:194
 msgid "Edit the SSH Public Key for root"
-msgstr ""
+msgstr "Изменить публичный ключ SSH для root"
 
 #: src/components/users/RootPasswordPopup.jsx:42
 msgid "Root password"
-msgstr ""
+msgstr "Пароль root"
 
 #: src/components/users/RootSSHKeyPopup.jsx:43
 msgid "Set root SSH public key"
-msgstr ""
+msgstr "Установить публичный ключ SSH для root"
 
 #: src/components/users/RootSSHKeyPopup.jsx:71
 msgid "Root SSH public key"
-msgstr ""
+msgstr "Публичный ключ SSH для root"
 
 #: src/components/users/RootSSHKeyPopup.jsx:76
 msgid "Upload, paste, or drop an SSH public key"
-msgstr ""
+msgstr "Загрузите, вставьте или сбросьте публичный ключ SSH"
 
 #. TRANSLATORS: push button label
 #: src/components/users/RootSSHKeyPopup.jsx:78
 msgid "Upload"
-msgstr ""
+msgstr "Загрузить"
 
 #. TRANSLATORS: push button label, clears the related input field
 #: src/components/users/RootSSHKeyPopup.jsx:80
 msgid "Clear"
-msgstr ""
+msgstr "Очистить"
 
 #: src/components/users/UsersPage.jsx:31
 msgid "User"
-msgstr ""
+msgstr "Пользователь"
 
 #: src/components/users/UsersPage.jsx:34
 msgid "Root authentication"
-msgstr ""
+msgstr "Аутентификация root"
 
 #, fuzzy
 #~ msgid "Cannot connect to the Cockpit server"
