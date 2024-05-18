@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-16 02:17+0000\n"
-"PO-Revision-Date: 2024-05-18 17:46+0000\n"
+"PO-Revision-Date: 2024-05-18 21:46+0000\n"
 "Last-Translator: Aleksey Fedorov <Aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ru/>\n"
@@ -1009,11 +1009,11 @@ msgstr "Метод корневой аутентификации не опред
 
 #: src/components/overview/UsersSection.jsx:103
 msgid "Root authentication set for using password"
-msgstr "Набор корневой аутентификации на использование пароля"
+msgstr "Настройка корневой аутентификации на использование пароля"
 
 #: src/components/overview/UsersSection.jsx:104
 msgid "Root authentication set for using public SSH Key"
-msgstr "Корневой набор аутентификации для использования открытого ключа SSH"
+msgstr "Настройка корневой аутентификации на использование открытого ключа SSH"
 
 #. TRANSLATORS: page section title
 #: src/components/overview/UsersSection.jsx:120
@@ -1862,13 +1862,19 @@ msgid_plural ""
 "During installation, %d actions will be performed to configure the system as "
 "displayed below"
 msgstr[0] ""
+"Во время установки будет выполнено %d действие для настройки системы, как "
+"показано ниже"
 msgstr[1] ""
+"Во время установки будет выполнено %d действия для настройки системы, как "
+"показано ниже"
 msgstr[2] ""
+"Во время установки будет выполнено %d действий для настройки системы, как "
+"показано ниже"
 
 #. TRANSLATORS: The storage "Result" section's title
 #: src/components/storage/ProposalResultSection.jsx:175
 msgid "Result"
-msgstr ""
+msgstr "Результат"
 
 #: src/components/storage/ProposalResultTable.jsx:73
 msgid "New"
@@ -1879,19 +1885,19 @@ msgstr "Новый"
 #: src/components/storage/ProposalResultTable.jsx:100
 #, c-format
 msgid "Before %s"
-msgstr ""
+msgstr "До %s"
 
 #: src/components/storage/ProposalResultTable.jsx:126
 msgid "Mount Point"
-msgstr ""
+msgstr "Точка монтирования"
 
 #: src/components/storage/ProposalSettingsSection.jsx:145
 msgid "Settings"
-msgstr ""
+msgstr "Настройки"
 
 #: src/components/storage/ProposalTransactionalInfo.jsx:46
 msgid "Transactional root file system"
-msgstr ""
+msgstr "Транзакционная корневая файловая система"
 
 #: src/components/storage/ProposalTransactionalInfo.jsx:49
 #, c-format
@@ -1899,38 +1905,43 @@ msgid ""
 "%s is an immutable system with atomic updates. It uses a read-only Btrfs "
 "file system updated via snapshots."
 msgstr ""
+"%s - это неизменяемая система с атомарными обновлениями. Она использует "
+"файловую систему Btrfs, доступную только для чтения и обновляемую с помощью "
+"моментальных снимков."
 
 #: src/components/storage/SnapshotsField.jsx:36
 msgid "Use Btrfs snapshots for the root file system"
-msgstr ""
+msgstr "Используйте моментальные снимки Btrfs для корневой файловой системы"
 
 #: src/components/storage/SnapshotsField.jsx:37
 msgid ""
 "Allows to boot to a previous version of the system after configuration "
 "changes or software upgrades."
 msgstr ""
+"Позволяет загрузиться в предыдущую версию системы после изменения "
+"конфигурации или обновления программного обеспечения."
 
 #. TRANSLATORS: %s is replaced by a device name (e.g., /dev/sda)
 #: src/components/storage/SpaceActionsTable.jsx:75
 #, c-format
 msgid "Space action selector for %s"
-msgstr ""
+msgstr "Выбор действий пространства для %s"
 
 #: src/components/storage/SpaceActionsTable.jsx:79
 msgid "Allow resize"
-msgstr ""
+msgstr "Разрешить изменение размера"
 
 #: src/components/storage/SpaceActionsTable.jsx:80
 msgid "Do not modify"
-msgstr ""
+msgstr "Не изменять"
 
 #: src/components/storage/SpaceActionsTable.jsx:111
 msgid "The content may be deleted"
-msgstr ""
+msgstr "Содержимое может быть удалено"
 
 #: src/components/storage/SpaceActionsTable.jsx:144
 msgid "Shrinkable"
-msgstr ""
+msgstr "Можно уменьшить"
 
 #: src/components/storage/SpaceActionsTable.jsx:146
 msgid "Action"
@@ -1945,92 +1956,96 @@ msgid ""
 "Allocating the file systems might need to find free space in the devices "
 "listed below. Choose how to do it."
 msgstr ""
+"При распределении файловых систем может потребоваться найти свободное место "
+"на устройствах, перечисленных ниже. Выберите, как это сделать."
 
 #: src/components/storage/SpacePolicyDialog.jsx:149
 #: src/components/storage/SpacePolicyField.jsx:87
 msgid "Find space"
-msgstr ""
+msgstr "Найти место"
 
 #: src/components/storage/SpacePolicyField.jsx:89
 msgid ""
 "Allocating the file systems might need to find free space in the "
 "installation device(s)."
 msgstr ""
+"При распределении файловых систем может потребоваться найти свободное место "
+"на установочном устройстве (устройствах)."
 
 #: src/components/storage/VolumeDialog.jsx:81
 #, c-format
 msgid "Add %s file system"
-msgstr ""
+msgstr "Добавить файловую систему %s"
 
 #: src/components/storage/VolumeDialog.jsx:82
 #, c-format
 msgid "Edit %s file system"
-msgstr ""
+msgstr "Изменить файловую систему %s"
 
 #: src/components/storage/VolumeDialog.jsx:84
 msgid "Edit file system"
-msgstr ""
+msgstr "Изменить файловую систему"
 
 #. TRANSLATORS: Warning when editing a file system.
 #: src/components/storage/VolumeDialog.jsx:99
 msgid "The type and size of the file system cannot be edited."
-msgstr ""
+msgstr "Тип и размер файловой системы редактировать нельзя."
 
 #. TRANSLATORS: Description of a warning. The first %s is replaced by a device name (e.g.,
 #. /dev/vda) and the second %s is replaced by a mount path (e.g., /home).
 #: src/components/storage/VolumeDialog.jsx:102
 #, c-format
 msgid "The current file system on %s is selected to be mounted at %s."
-msgstr ""
+msgstr "Текущая файловая система на %s выбрана для монтирования в %s."
 
 #. TRANSLATORS: Warning when editing a file system.
 #: src/components/storage/VolumeDialog.jsx:108
 msgid "The size of the file system cannot be edited"
-msgstr ""
+msgstr "Размер файловой системы не может быть изменен"
 
 #. TRANSLATORS: Description of a warning. %s is replaced by a device name (e.g., /dev/vda).
 #: src/components/storage/VolumeDialog.jsx:110
 #, c-format
 msgid "The file system is allocated at the device %s."
-msgstr ""
+msgstr "Файловая система выделена на устройстве %s."
 
 #: src/components/storage/VolumeDialog.jsx:155
 msgid "A mount point is required"
-msgstr ""
+msgstr "Требуется точка монтирования"
 
 #: src/components/storage/VolumeDialog.jsx:182
 msgid "The mount point is invalid"
-msgstr ""
+msgstr "Точка монтирования недопустима"
 
 #: src/components/storage/VolumeDialog.jsx:210
 msgid "A size value is required"
-msgstr ""
+msgstr "Требуется значение размера"
 
 #: src/components/storage/VolumeDialog.jsx:238
 msgid "Minimum size is required"
-msgstr ""
+msgstr "Требуется минимальный размер"
 
 #: src/components/storage/VolumeDialog.jsx:270
 msgid "Maximum must be greater than minimum"
-msgstr ""
+msgstr "Максимум должен быть больше минимума"
 
 #: src/components/storage/VolumeDialog.jsx:312
 #, c-format
 msgid "There is already a file system for %s."
-msgstr ""
+msgstr "Для %s уже существует файловая система."
 
 #: src/components/storage/VolumeDialog.jsx:314
 msgid "Do you want to edit it?"
-msgstr ""
+msgstr "Вы хотите изменить её?"
 
 #: src/components/storage/VolumeDialog.jsx:359
 #, c-format
 msgid "There is a predefined file system for %s."
-msgstr ""
+msgstr "Существует предопределенная файловая система для %s."
 
 #: src/components/storage/VolumeDialog.jsx:361
 msgid "Do you want to add it?"
-msgstr ""
+msgstr "Вы хотите добавить её?"
 
 #. TRANSLATORS: info about possible file system types.
 #: src/components/storage/VolumeFields.jsx:209
@@ -2038,67 +2053,68 @@ msgid ""
 "The options for the file system type depends on the product and the mount "
 "point."
 msgstr ""
+"Параметры типа файловой системы зависят от продукта и точки монтирования."
 
 #: src/components/storage/VolumeFields.jsx:215
 msgid "More info for file system types"
-msgstr ""
+msgstr "Дополнительная информация о типах файловых систем"
 
 #. TRANSLATORS: label for the file system selector.
 #: src/components/storage/VolumeFields.jsx:226
 msgid "File system type"
-msgstr ""
+msgstr "Тип файловой системы"
 
 #. TRANSLATORS: item which affects the final computed partition size
 #: src/components/storage/VolumeFields.jsx:257
 msgid "the configuration of snapshots"
-msgstr ""
+msgstr "конфигурация моментальных снимков"
 
 #. TRANSLATORS: item which affects the final computed partition size
 #. %s is replaced by a list of mount points like "/home, /boot"
 #: src/components/storage/VolumeFields.jsx:262
 #, c-format
 msgid "the presence of the file system for %s"
-msgstr ""
+msgstr "наличие файловой системы для %s"
 
 #. TRANSLATORS: conjunction for merging two list items
 #: src/components/storage/VolumeFields.jsx:264
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #. TRANSLATORS: item which affects the final computed partition size
 #: src/components/storage/VolumeFields.jsx:268
 msgid "the amount of RAM in the system"
-msgstr ""
+msgstr "объем ОЗУ в системе"
 
 #. TRANSLATORS: the %s is replaced by the items which affect the computed size
 #: src/components/storage/VolumeFields.jsx:271
 #, c-format
 msgid "The final size depends on %s."
-msgstr ""
+msgstr "Итоговый размер зависит от %s."
 
 #. TRANSLATORS: conjunction for merging two texts
 #: src/components/storage/VolumeFields.jsx:273
 msgid " and "
-msgstr ""
+msgstr " и "
 
 #. TRANSLATORS: the partition size is automatically computed
 #: src/components/storage/VolumeFields.jsx:278
 msgid "Automatically calculated size according to the selected product."
-msgstr ""
+msgstr "Автоматический расчет размера в соответствии с выбранным продуктом."
 
 #: src/components/storage/VolumeFields.jsx:297
 msgid "Exact size for the file system."
-msgstr ""
+msgstr "Точный размер файловой системы."
 
 #. TRANSLATORS: requested partition size
 #: src/components/storage/VolumeFields.jsx:310
 msgid "Exact size"
-msgstr ""
+msgstr "Точный размер"
 
 #. TRANSLATORS: units selector (like KiB, MiB, GiB...)
 #: src/components/storage/VolumeFields.jsx:327
 msgid "Size unit"
-msgstr ""
+msgstr "Единица измерения"
 
 #: src/components/storage/VolumeFields.jsx:355
 msgid ""
@@ -2106,49 +2122,52 @@ msgid ""
 "given minimum and maximum. If no maximum is given then the file system will "
 "be as big as possible."
 msgstr ""
+"Ограничения на размер файловой системы. Конечный размер будет равен значению "
+"между заданным минимумом и максимумом. Если максимальное значение не задано, "
+"то файловая система будет такой большой, на сколько это возможно."
 
 #. TRANSLATORS: the minimal partition size
 #: src/components/storage/VolumeFields.jsx:362
 msgid "Minimum"
-msgstr ""
+msgstr "Минимум"
 
 #. TRANSLATORS: the minium partition size
 #: src/components/storage/VolumeFields.jsx:373
 msgid "Minimum desired size"
-msgstr ""
+msgstr "Минимальный желаемый размер"
 
 #: src/components/storage/VolumeFields.jsx:384
 msgid "Unit for the minimum size"
-msgstr ""
+msgstr "Единица для минимального размера"
 
 #. TRANSLATORS: the maximum partition size
 #: src/components/storage/VolumeFields.jsx:396
 msgid "Maximum"
-msgstr ""
+msgstr "Максимум"
 
 #. TRANSLATORS: the maximum partition size
 #: src/components/storage/VolumeFields.jsx:408
 msgid "Maximum desired size"
-msgstr ""
+msgstr "Максимальный желаемый размер"
 
 #: src/components/storage/VolumeFields.jsx:418
 msgid "Unit for the maximum size"
-msgstr ""
+msgstr "Единица для максимального размера"
 
 #. TRANSLATORS: radio button label, fully automatically computed partition size, no user input
 #: src/components/storage/VolumeFields.jsx:436
 msgid "Auto"
-msgstr ""
+msgstr "Автоматически"
 
 #. TRANSLATORS: radio button label, exact partition size requested by user
 #: src/components/storage/VolumeFields.jsx:438
 msgid "Fixed"
-msgstr ""
+msgstr "Фиксированный"
 
 #. TRANSLATORS: radio button label, automatically computed partition size within the user provided min and max limits
 #: src/components/storage/VolumeFields.jsx:440
 msgid "Range"
-msgstr ""
+msgstr "Диапазон"
 
 #. TRANSLATORS: Description of the dialog for changing the location of a file system.
 #: src/components/storage/VolumeLocationDialog.jsx:41
@@ -2156,17 +2175,20 @@ msgid ""
 "The file systems are allocated at the installation device by default. "
 "Indicate a custom location to create the file system at a specific device."
 msgstr ""
+"По умолчанию файловые системы распределяются на устройстве установки. "
+"Укажите пользовательское расположение, чтобы создать файловую систему на "
+"конкретном устройстве."
 
 #. TRANSLATORS: Title of the dialog for changing the location of a file system. %s is replaced
 #. by a mount path (e.g., /home).
 #: src/components/storage/VolumeLocationDialog.jsx:136
 #, c-format
 msgid "Location for %s file system"
-msgstr ""
+msgstr "Расположение файловой системы %s"
 
 #: src/components/storage/VolumeLocationDialog.jsx:146
 msgid "Select in which device to allocate the file system"
-msgstr ""
+msgstr "Выберите, на каком устройстве разместить файловую систему"
 
 #: src/components/storage/VolumeLocationDialog.jsx:149
 msgid "Select a location"
@@ -2174,78 +2196,84 @@ msgstr "Выберите расположение"
 
 #: src/components/storage/VolumeLocationDialog.jsx:161
 msgid "Select how to allocate the file system"
-msgstr ""
+msgstr "Выберите способ выделения файловой системы"
 
 #: src/components/storage/VolumeLocationDialog.jsx:166
 msgid "Create a new partition"
-msgstr ""
+msgstr "Создать новый раздел"
 
 #: src/components/storage/VolumeLocationDialog.jsx:167
 msgid ""
 "The file system will be allocated as a new partition at the selected   disk."
 msgstr ""
+"Файловая система будет выделена в качестве нового раздела на выбранном   "
+"диске."
 
 #: src/components/storage/VolumeLocationDialog.jsx:176
 msgid "Create a dedicated LVM volume group"
-msgstr ""
+msgstr "Создать выделенную группу томов LVM"
 
 #: src/components/storage/VolumeLocationDialog.jsx:177
 msgid ""
 "A new volume group will be allocated in the selected disk and the   file "
 "system will be created as a logical volume."
 msgstr ""
+"На выбранном диске будет выделена новая группа томов, а   файловая система "
+"будет создана как логический том."
 
 #: src/components/storage/VolumeLocationDialog.jsx:186
 msgid "Format the device"
-msgstr ""
+msgstr "Отформатировать устройство"
 
 #. TRANSLATORS: %s is replaced by a file system type (e.g., Ext4).
 #: src/components/storage/VolumeLocationDialog.jsx:189
 #, c-format
 msgid "The selected device will be formatted as %s file system."
-msgstr ""
+msgstr "Выбранное устройство будет отформатировано в файловую систему %s."
 
 #: src/components/storage/VolumeLocationDialog.jsx:199
 msgid "Mount the file system"
-msgstr ""
+msgstr "Смонтировать файловую систему"
 
 #: src/components/storage/VolumeLocationDialog.jsx:200
 msgid ""
 "The current file system on the selected device will be mounted   without "
 "formatting the device."
 msgstr ""
+"Текущая файловая система на выбранном устройстве будет смонтирована   без "
+"форматирования устройства."
 
 #: src/components/storage/VolumeLocationSelectorTable.jsx:102
 msgid "Usage"
-msgstr ""
+msgstr "Использование"
 
 #: src/components/storage/ZFCPDiskForm.jsx:113
 msgid "The zFCP disk was not activated."
-msgstr ""
+msgstr "Диск zFCP не был активирован."
 
 #. TRANSLATORS: abbrev. World Wide Port Name
 #: src/components/storage/ZFCPDiskForm.jsx:129
 #: src/components/storage/ZFCPPage.jsx:362
 msgid "WWPN"
-msgstr ""
+msgstr "WWPN"
 
 #. TRANSLATORS: abbrev. Logical Unit Number
 #: src/components/storage/ZFCPDiskForm.jsx:140
 #: src/components/storage/ZFCPPage.jsx:363
 msgid "LUN"
-msgstr ""
+msgstr "LUN"
 
 #: src/components/storage/ZFCPPage.jsx:303
 msgid "Auto LUNs Scan"
-msgstr ""
+msgstr "Автоматическое сканирование LUN"
 
 #: src/components/storage/ZFCPPage.jsx:314
 msgid "Activated"
-msgstr ""
+msgstr "Активировано"
 
 #: src/components/storage/ZFCPPage.jsx:314
 msgid "Deactivated"
-msgstr ""
+msgstr "Деактивировано"
 
 #: src/components/storage/ZFCPPage.jsx:417
 msgid "No zFCP controllers found."
@@ -2253,12 +2281,12 @@ msgstr "Контроллеры zFCP не найдены."
 
 #: src/components/storage/ZFCPPage.jsx:418
 msgid "Please, try to read the zFCP devices again."
-msgstr ""
+msgstr "Пожалуйста, попробуйте еще раз прочитать устройства zFCP."
 
 #. TRANSLATORS: button label
 #: src/components/storage/ZFCPPage.jsx:420
 msgid "Read zFCP devices"
-msgstr ""
+msgstr "Прочитать устройства zFCP"
 
 #. TRANSLATORS: the text in the square brackets [] will be displayed in bold
 #: src/components/storage/ZFCPPage.jsx:429
@@ -2266,6 +2294,8 @@ msgid ""
 "Automatic LUN scan is [enabled]. Activating a controller which is running in "
 "NPIV mode will automatically configures all its LUNs."
 msgstr ""
+"Автоматическое сканирование LUN [включено]. Активация контроллера, "
+"работающего в режиме NPIV, автоматически сконфигурирует все его LUN."
 
 #. TRANSLATORS: the text in the square brackets [] will be displayed in bold
 #: src/components/storage/ZFCPPage.jsx:432
@@ -2273,23 +2303,25 @@ msgid ""
 "Automatic LUN scan is [disabled]. LUNs have to be manually configured after "
 "activating a controller."
 msgstr ""
+"Автоматическое сканирование LUN [отключено]. LUN должны быть настроены "
+"вручную после активации контроллера."
 
 #: src/components/storage/ZFCPPage.jsx:498
 msgid "Activate a zFCP disk"
-msgstr ""
+msgstr "Активировать диск zFCP"
 
 #: src/components/storage/ZFCPPage.jsx:537
 msgid "Please, try to activate a zFCP controller."
-msgstr ""
+msgstr "Пожалуйста, попробуйте активировать контроллер zFCP."
 
 #: src/components/storage/ZFCPPage.jsx:544
 msgid "Please, try to activate a zFCP disk."
-msgstr ""
+msgstr "Пожалуйста, попробуйте активировать диск zFCP."
 
 #. TRANSLATORS: button label
 #: src/components/storage/ZFCPPage.jsx:546
 msgid "Activate zFCP disk"
-msgstr ""
+msgstr "Активировать диск zFCP"
 
 #: src/components/storage/ZFCPPage.jsx:553
 msgid "No zFCP disks found."
@@ -2298,21 +2330,21 @@ msgstr "Диски zFCP не найдены."
 #. TRANSLATORS: button label
 #: src/components/storage/ZFCPPage.jsx:572
 msgid "Activate new disk"
-msgstr ""
+msgstr "Активировать новый диск"
 
 #. TRANSLATORS: section title
 #: src/components/storage/ZFCPPage.jsx:584
 msgid "Disks"
-msgstr ""
+msgstr "Диски"
 
 #. TRANSLATORS: page title
 #: src/components/storage/ZFCPPage.jsx:731
 msgid "Storage zFCP"
-msgstr ""
+msgstr "Хранилище zFCP"
 
 #: src/components/storage/device-utils.jsx:88
 msgid "Unused space"
-msgstr ""
+msgstr "Неиспользуемое пространство"
 
 #: src/components/storage/iscsi/AuthFields.jsx:70
 msgid "Only available if authentication by target is provided"
