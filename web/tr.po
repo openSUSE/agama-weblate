@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 02:17+0000\n"
+"POT-Creation-Date: 2024-05-19 02:19+0000\n"
 "PO-Revision-Date: 2024-05-16 14:46+0000\n"
 "Last-Translator: Özgür Arslan <ozgurarslln@gmail.com>\n"
 "Language-Team: Turkish <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -46,7 +46,7 @@ msgstr ""
 
 #. TRANSLATORS: button label
 #: src/components/core/About.jsx:92 src/components/core/FileViewer.jsx:81
-#: src/components/core/IssuesDialog.jsx:117 src/components/core/Sidebar.jsx:160
+#: src/components/core/IssuesDialog.jsx:117 src/components/core/Sidebar.jsx:152
 #: src/components/network/WifiSelector.jsx:148
 #: src/components/product/ProductPage.jsx:239
 #: src/components/software/SoftwarePage.jsx:90
@@ -258,15 +258,15 @@ msgstr "Giriş Yap"
 msgid "What is this?"
 msgstr "Bu nedir?"
 
-#: src/components/core/LogsButton.jsx:98
+#: src/components/core/LogsButton.jsx:101
 msgid "Collecting logs..."
 msgstr "Günlükler toplanıyor..."
 
-#: src/components/core/LogsButton.jsx:98
+#: src/components/core/LogsButton.jsx:101
 msgid "Download logs"
 msgstr "Günlükleri indir"
 
-#: src/components/core/LogsButton.jsx:106
+#: src/components/core/LogsButton.jsx:109
 msgid ""
 "The browser will run the logs download as soon as they are ready. Please, be "
 "patient."
@@ -274,7 +274,7 @@ msgstr ""
 "Tarayıcı, hazır olur olmaz günlükleri indirmeyi çalıştıracaktır. Lütfen "
 "sabırlı olun."
 
-#: src/components/core/LogsButton.jsx:114
+#: src/components/core/LogsButton.jsx:117
 msgid "Something went wrong while collecting logs. Please, try again."
 msgstr "Günlükler toplanırken bir şeyler ters gitti. Lütfen tekrar deneyin."
 
@@ -348,17 +348,13 @@ msgid "Open Terminal"
 msgstr "Terminali Aç"
 
 #. TRANSLATORS: sidebar header
-#: src/components/core/Sidebar.jsx:116 src/components/core/Sidebar.jsx:124
+#: src/components/core/Sidebar.jsx:112 src/components/core/Sidebar.jsx:120
 msgid "Installer Options"
 msgstr "Kurulum Seçenekleri"
 
-#: src/components/core/Sidebar.jsx:131
+#: src/components/core/Sidebar.jsx:127
 msgid "Hide installer options"
 msgstr "Yükleyici seçeneklerini gizle"
-
-#: src/components/core/Sidebar.jsx:139
-msgid "Diagnostic tools"
-msgstr "Tanı araçları"
 
 #. TRANSLATORS: Titles used for the popup displaying found section issues
 #: src/components/core/ValidationErrors.jsx:53
@@ -2672,3 +2668,6 @@ msgstr ""
 #: src/components/users/UsersPage.jsx:34
 msgid "Root authentication"
 msgstr ""
+
+#~ msgid "Diagnostic tools"
+#~ msgstr "Tanı araçları"
