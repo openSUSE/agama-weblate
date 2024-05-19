@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 02:17+0000\n"
+"POT-Creation-Date: 2024-05-19 02:19+0000\n"
 "PO-Revision-Date: 2024-05-16 15:46+0000\n"
 "Last-Translator: Özgür Arslan <ozgurarslln@gmail.com>\n"
-"Language-Team: Turkish <https://l10n.opensuse.org/projects/agama/"
-"agama-service-master/tr/>\n"
+"Language-Team: Turkish <https://l10n.opensuse.org/projects/agama/agama-"
+"service-master/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -77,8 +77,8 @@ msgstr "%{filename} dosya"
 #: service/lib/agama/software/callbacks/signature.rb:71
 #, perl-brace-format
 msgid ""
-"%{source} is not digitally signed. The origin and integrity of the file cannot"
-" be verified. Use it anyway?"
+"%{source} is not digitally signed. The origin and integrity of the file "
+"cannot be verified. Use it anyway?"
 msgstr ""
 "%{source} dijital olarak imzalanmış değil. Dosyanın kökeni ve bütünlüğü "
 "doğrulanamıyor. Yine de kullan?"
@@ -90,8 +90,8 @@ msgstr ""
 #: service/lib/agama/software/callbacks/signature.rb:94
 #, perl-brace-format
 msgid ""
-"The key %{id} (%{name}) with fingerprint %{fingerprint} is unknown. Do you wan"
-"t to trust this key?"
+"The key %{id} (%{name}) with fingerprint %{fingerprint} is unknown. Do you "
+"want to trust this key?"
 msgstr ""
 "%{fingerprint} parmak izine sahip %{id} (%{name}) anahtarı bilinmiyor. Bu "
 "anahtara güvenmek istiyor musunuz?"
@@ -192,23 +192,24 @@ msgstr "bootloader sysconfig yazılıyor"
 #. Returns an issue if there is no target device.
 #.
 #. @return [Issue, nil]
-#: service/lib/agama/storage/proposal.rb:195
+#: service/lib/agama/storage/proposal.rb:201
 msgid "No device selected for installation"
 msgstr "Kurulum için cihaz seçilmedi"
 
 #. Returns an issue if any of the devices required for the proposal is not found
 #.
 #. @return [Issue, nil]
-#: service/lib/agama/storage/proposal.rb:211
+#: service/lib/agama/storage/proposal.rb:217
 #, perl-brace-format
 msgid "The following selected device is not found in the system: %{devices}"
-msgid_plural "The following selected devices are not found in the system: %{devices}"
+msgid_plural ""
+"The following selected devices are not found in the system: %{devices}"
 msgstr[0] "Aşağıdaki seçilen cihaz sistemde bulunamadı: %{devices}"
 msgstr[1] "Aşağıdaki seçilen cihazlar sistemde bulunamadı: %{devices}"
 
 #. Returns an issue if the proposal is not valid.
 #.
 #. @return [Issue, nil]
-#: service/lib/agama/storage/proposal.rb:229
+#: service/lib/agama/storage/proposal.rb:235
 msgid "Cannot accommodate the required file systems for installation"
 msgstr "Kurulum için gerekli dosya sistemleri karşılanamıyor"
