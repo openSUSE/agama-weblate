@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-19 02:19+0000\n"
-"PO-Revision-Date: 2024-05-19 16:22+0000\n"
+"PO-Revision-Date: 2024-05-19 17:25+0000\n"
 "Last-Translator: Martin Hansen <mh306602@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.opensuse.org/projects/agama/"
 "agama-web/nb_NO/>\n"
@@ -988,7 +988,7 @@ msgstr ""
 
 #: src/components/overview/UsersSection.jsx:102
 msgid "No root authentication method defined"
-msgstr "Ingen rotautentiserings metode definert"
+msgstr "Ingen rootautentiserings metode definert"
 
 #: src/components/overview/UsersSection.jsx:103
 msgid "Root authentication set for using password"
@@ -1551,25 +1551,25 @@ msgstr "minst %s"
 #: src/components/storage/PartitionsField.jsx:89
 #, c-format
 msgid "Transactional Btrfs root volume (%s)"
-msgstr "Transaksjonell Btrfs rot volum (%s)"
+msgstr "Transaksjonell Btrfs root volum (%s)"
 
 #. TRANSLATORS: %s replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:91
 #, c-format
 msgid "Transactional Btrfs root partition (%s)"
-msgstr "Transaksjonell Btrfs rot partisjon (%s)"
+msgstr "Transaksjonell Btrfs root partisjon (%s)"
 
 #. TRANSLATORS: "/" is in an LVM logical volume. %s replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:96
 #, c-format
 msgid "Btrfs root volume with snapshots (%s)"
-msgstr "Btrfs rot volum med øyeblikksbilder (%s)"
+msgstr "Btrfs root volum med øyeblikksbilder (%s)"
 
 #. TRANSLATORS: %s replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:98
 #, c-format
 msgid "Btrfs root partition with snapshots (%s)"
-msgstr "Btrfs rot partisjon med øyeblikksbilder (%s)"
+msgstr "Btrfs root partisjon med øyeblikksbilder (%s)"
 
 #. TRANSLATORS: This results in something like "Mount /dev/sda3 at /home (25 GiB)" since
 #. %1$s is replaced by the device name, %2$s by the mount point and %3$s by the size
@@ -1602,7 +1602,7 @@ msgstr "Swap partisjon (%s)"
 #: src/components/storage/PartitionsField.jsx:128
 #, c-format
 msgid "%1$s root at %2$s (%3$s)"
-msgstr "%1$s rot på %2$s (%3$s)"
+msgstr "%1$s root på %2$s (%3$s)"
 
 #. TRANSLATORS: "/" is in an LVM logical volume.
 #. Results in something like "Btrfs root volume (at least 20 GiB)" since
@@ -1610,14 +1610,14 @@ msgstr "%1$s rot på %2$s (%3$s)"
 #: src/components/storage/PartitionsField.jsx:134
 #, c-format
 msgid "%1$s root volume (%2$s)"
-msgstr "%1$s rot volum (%2$s)"
+msgstr "%1$s root volum (%2$s)"
 
 #. TRANSLATORS: Results in something like "Btrfs root partition (at least 20 GiB)" since
 #. $1$s is replaced by filesystem type and %2$s by size description
 #: src/components/storage/PartitionsField.jsx:137
 #, c-format
 msgid "%1$s root partition (%2$s)"
-msgstr "%1$s rot partisjon (%2$s)"
+msgstr "%1$s root partisjon (%2$s)"
 
 #. TRANSLATORS: This results in something like "Ext4 /home at /dev/sda3 (20 GiB)" since
 #. %1$s is replaced by filesystem type, %2$s by mount point, %3$s by device name and %4$s by size
@@ -1875,7 +1875,7 @@ msgstr "Innstillinger"
 
 #: src/components/storage/ProposalTransactionalInfo.jsx:46
 msgid "Transactional root file system"
-msgstr "Transaksjonell rot filsystem"
+msgstr "Transaksjonell root filsystem"
 
 #: src/components/storage/ProposalTransactionalInfo.jsx:49
 #, c-format
@@ -1888,7 +1888,7 @@ msgstr ""
 
 #: src/components/storage/SnapshotsField.jsx:36
 msgid "Use Btrfs snapshots for the root file system"
-msgstr "Bruk Btrfs øyeblikksbilder for rot filsystemet"
+msgstr "Bruk Btrfs øyeblikksbilder for root filsystemet"
 
 #: src/components/storage/SnapshotsField.jsx:37
 msgid ""
@@ -2319,15 +2319,15 @@ msgstr "Lagring zFCP"
 
 #: src/components/storage/device-utils.jsx:88
 msgid "Unused space"
-msgstr ""
+msgstr "Ubrukt plass"
 
 #: src/components/storage/iscsi/AuthFields.jsx:70
 msgid "Only available if authentication by target is provided"
-msgstr ""
+msgstr "Bare tilgjengelig hvis autentisering av målet er gitt"
 
 #: src/components/storage/iscsi/AuthFields.jsx:77
 msgid "Authentication by target"
-msgstr ""
+msgstr "Autentisering av målet"
 
 #: src/components/storage/iscsi/AuthFields.jsx:80
 #: src/components/storage/iscsi/AuthFields.jsx:85
@@ -2336,69 +2336,69 @@ msgstr ""
 #: src/components/storage/iscsi/AuthFields.jsx:117
 #: src/components/storage/iscsi/AuthFields.jsx:119
 msgid "User name"
-msgstr ""
+msgstr "Brukernavn"
 
 #: src/components/storage/iscsi/AuthFields.jsx:91
 #: src/components/storage/iscsi/AuthFields.jsx:124
 msgid "Incorrect user name"
-msgstr ""
+msgstr "feil brukernavn"
 
 #: src/components/storage/iscsi/AuthFields.jsx:105
 #: src/components/storage/iscsi/AuthFields.jsx:139
 msgid "Incorrect password"
-msgstr ""
+msgstr "Feil passord"
 
 #: src/components/storage/iscsi/AuthFields.jsx:108
 msgid "Authentication by initiator"
-msgstr ""
+msgstr "Autentisering av initiativtaker"
 
 #: src/components/storage/iscsi/AuthFields.jsx:133
 msgid "Target Password"
-msgstr ""
+msgstr "Målets Passord"
 
 #. TRANSLATORS: popup title
 #: src/components/storage/iscsi/DiscoverForm.jsx:102
 msgid "Discover iSCSI Targets"
-msgstr ""
+msgstr "Oppdag iSCSI mål"
 
 #: src/components/storage/iscsi/DiscoverForm.jsx:112
 #: src/components/storage/iscsi/LoginForm.jsx:73
 msgid "Make sure you provide the correct values"
-msgstr ""
+msgstr "Pass på at du oppgir riktige verdier"
 
 #: src/components/storage/iscsi/DiscoverForm.jsx:118
 msgid "IP address"
-msgstr ""
+msgstr "IP addresse"
 
 #. TRANSLATORS: network address
 #: src/components/storage/iscsi/DiscoverForm.jsx:125
 #: src/components/storage/iscsi/DiscoverForm.jsx:127
 msgid "Address"
-msgstr ""
+msgstr "Addresse"
 
 #: src/components/storage/iscsi/DiscoverForm.jsx:132
 msgid "Incorrect IP address"
-msgstr ""
+msgstr "Feil IP addresse"
 
 #. TRANSLATORS: network port number
 #: src/components/storage/iscsi/DiscoverForm.jsx:136
 #: src/components/storage/iscsi/DiscoverForm.jsx:143
 #: src/components/storage/iscsi/DiscoverForm.jsx:145
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 #: src/components/storage/iscsi/DiscoverForm.jsx:150
 msgid "Incorrect port"
-msgstr ""
+msgstr "Feil port"
 
 #: src/components/storage/iscsi/InitiatorForm.jsx:42
 msgid "Edit iSCSI Initiator"
-msgstr ""
+msgstr "Rediger iSCSI initiativtaker"
 
 #. TRANSLATORS: iSCSI initiator name
 #: src/components/storage/iscsi/InitiatorForm.jsx:49
 msgid "Initiator name"
-msgstr ""
+msgstr "Initiativtakers navn"
 
 #. TRANSLATORS: usually just keep the original text
 #. iBFT = iSCSI Boot Firmware Table, HW support for booting from iSCSI
@@ -2407,335 +2407,343 @@ msgstr ""
 #: src/components/storage/iscsi/NodesPresenter.jsx:103
 #: src/components/storage/iscsi/NodesPresenter.jsx:124
 msgid "iBFT"
-msgstr ""
+msgstr "iBFT"
 
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:72
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:87
 msgid "Offload card"
-msgstr ""
+msgstr "Avlastingskort"
 
 #. TRANSLATORS: iSCSI initiator section name
 #: src/components/storage/iscsi/InitiatorSection.jsx:49
 msgid "Initiator"
-msgstr ""
+msgstr "Initiativtaker"
 
 #. TRANSLATORS: %s is replaced by the iSCSI target name
 #: src/components/storage/iscsi/LoginForm.jsx:69
 #, c-format
 msgid "Login %s"
-msgstr ""
+msgstr "Logg på %s"
 
 #. TRANSLATORS: iSCSI start up mode (on boot/manual/automatic)
 #: src/components/storage/iscsi/LoginForm.jsx:76
 #: src/components/storage/iscsi/LoginForm.jsx:79
 msgid "Startup"
-msgstr ""
+msgstr "Oppstart"
 
 #: src/components/storage/iscsi/NodeStartupOptions.js:26
 msgid "On boot"
-msgstr ""
+msgstr "På oppstart"
 
 #. TRANSLATORS: iSCSI connection status, %s is replaced by node label
 #: src/components/storage/iscsi/NodesPresenter.jsx:67
 #, c-format
 msgid "Connected (%s)"
-msgstr ""
+msgstr "Tilkoblet (%s)"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:82
 msgid "Login"
-msgstr ""
+msgstr "Logg inn"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:86
 msgid "Logout"
-msgstr ""
+msgstr "Logg ut"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:101
 #: src/components/storage/iscsi/NodesPresenter.jsx:122
 msgid "Portal"
-msgstr ""
+msgstr "Portal"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:102
 #: src/components/storage/iscsi/NodesPresenter.jsx:123
 msgid "Interface"
-msgstr ""
+msgstr "Grensesnitt"
 
 #: src/components/storage/iscsi/TargetsSection.jsx:142
 msgid "No iSCSI targets found."
-msgstr ""
+msgstr "Ingen iSCSI mål funnet."
 
 #: src/components/storage/iscsi/TargetsSection.jsx:143
 msgid ""
 "Please, perform an iSCSI discovery in order to find available iSCSI targets."
 msgstr ""
+"Vennligst, utfør en iSCSI oppdagelse for å finne tilgjengelige iSCSI mål."
 
 #. TRANSLATORS: button label, starts iSCSI discovery
 #: src/components/storage/iscsi/TargetsSection.jsx:145
 msgid "Discover iSCSI targets"
-msgstr ""
+msgstr "Oppdag iSCSI mål"
 
 #. TRANSLATORS: button label, starts iSCSI discovery
 #: src/components/storage/iscsi/TargetsSection.jsx:156
 msgid "Discover"
-msgstr ""
+msgstr "Oppdag"
 
 #. TRANSLATORS: iSCSI targets section title
 #: src/components/storage/iscsi/TargetsSection.jsx:170
 msgid "Targets"
-msgstr ""
+msgstr "Mål"
 
 #: src/components/storage/utils.js:64
 msgid "KiB"
-msgstr ""
+msgstr "KiB"
 
 #: src/components/storage/utils.js:65
 msgid "MiB"
-msgstr ""
+msgstr "MiB"
 
 #: src/components/storage/utils.js:66
 msgid "GiB"
-msgstr ""
+msgstr "GiB"
 
 #: src/components/storage/utils.js:67
 msgid "TiB"
-msgstr ""
+msgstr "TiB"
 
 #: src/components/storage/utils.js:68
 msgid "PiB"
-msgstr ""
+msgstr "PiB"
 
 #: src/components/storage/utils.js:77
 msgid "Delete current content"
-msgstr ""
+msgstr "Slett gjeldende innhold"
 
 #: src/components/storage/utils.js:78
 msgid "All partitions will be removed and any data in the disks will be lost."
-msgstr ""
+msgstr "Alle partisjoner vil bli fjernet og alle data på diskene vil gå tapt."
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space deleting all content[...]"
 #: src/components/storage/utils.js:82
 msgid "deleting all content of the installation device"
-msgstr ""
+msgstr "sletter all innhold på installasjonsenheten"
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space deleting all content[...]"
 #: src/components/storage/utils.js:85
 #, c-format
 msgid "deleting all content of the %d selected disks"
-msgstr ""
+msgstr "sletter all innhold på de %d valgte diskene"
 
 #: src/components/storage/utils.js:90
 msgid "Shrink existing partitions"
-msgstr ""
+msgstr "Krymp eksisterende partisjoner"
 
 #: src/components/storage/utils.js:91
 msgid "The data is kept, but the current partitions will be resized as needed."
 msgstr ""
+"Dataene beholdes, med de gjeldene partisjonene vil bli endret etter behov."
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space shrinking partitions[...]"
 #: src/components/storage/utils.js:95
 msgid "shrinking partitions of the installation device"
-msgstr ""
+msgstr "krymper partisjoner av installasjonsenheten"
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space shrinking partitions[...]"
 #: src/components/storage/utils.js:98
 #, c-format
 msgid "shrinking partitions of the %d selected disks"
-msgstr ""
+msgstr "krymper partisjoner av de %d valgte diskene"
 
 #: src/components/storage/utils.js:103
 msgid "Use available space"
-msgstr ""
+msgstr "Bruk tilgjengelig plass"
 
 #: src/components/storage/utils.js:104
 msgid ""
 "The data is kept. Only the space not assigned to any partition will be used."
 msgstr ""
+"Dataene beholdes. Bare lagringsplassen som ikke er tilordnet noen partisjon "
+"vil bli brukt."
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space without modifying any partition".
 #: src/components/storage/utils.js:108
 msgid "without modifying any partition"
-msgstr ""
+msgstr "uten å modifisere noen partisjon"
 
 #: src/components/storage/utils.js:113
 msgid "Custom"
-msgstr ""
+msgstr "Tilpasset"
 
 #: src/components/storage/utils.js:114
 msgid "Select what to do with each partition."
-msgstr ""
+msgstr "Velg hva som skal skje med hver partisjon."
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space performing a custom set of actions".
 #: src/components/storage/utils.js:118
 msgid "performing a custom set of actions"
-msgstr ""
+msgstr "utfører et tilpasset sett med handlinger"
 
 #: src/components/users/FirstUser.jsx:50
 msgid "No user defined yet."
-msgstr ""
+msgstr "Ingen bruker definert ennå."
 
 #: src/components/users/FirstUser.jsx:53
 msgid ""
 "Please, be aware that a user must be defined before installing the system to "
 "be able to log into it."
 msgstr ""
+"Vennligst, vær oppmerksom på at en bruker må være definert før installasjon "
+"av systemet for å kunne logge inn."
 
 #. TRANSLATORS: push button label
 #: src/components/users/FirstUser.jsx:57
 msgid "Define a user now"
-msgstr ""
+msgstr "Definer en bruker nå"
 
 #: src/components/users/FirstUser.jsx:67 src/components/users/FirstUser.jsx:284
 msgid "Full name"
-msgstr ""
+msgstr "Fullt navn"
 
 #: src/components/users/FirstUser.jsx:68 src/components/users/FirstUser.jsx:298
 #: src/components/users/FirstUser.jsx:306
 #: src/components/users/FirstUser.jsx:309
 msgid "Username"
-msgstr ""
+msgstr "Brukernavn"
 
 #: src/components/users/FirstUser.jsx:88
 msgid "Username suggestion dropdown"
-msgstr ""
+msgstr "Rullegardinmeny for forslag til brukernavn"
 
 #. TRANSLATORS: dropdown username suggestions
 #: src/components/users/FirstUser.jsx:103
 msgid "Use suggested username"
-msgstr ""
+msgstr "Bruk foreslått brukernavn"
 
 #: src/components/users/FirstUser.jsx:216
 #: src/components/users/RootAuthMethods.jsx:99
 #: src/components/users/RootAuthMethods.jsx:111
 msgid "Discard"
-msgstr ""
+msgstr "Forkast"
 
 #: src/components/users/FirstUser.jsx:275
 msgid "Create user account"
-msgstr ""
+msgstr "Opprett brukerkonto"
 
 #: src/components/users/FirstUser.jsx:275
 msgid "Edit user account"
-msgstr ""
+msgstr "Rediger brukerkonto"
 
 #: src/components/users/FirstUser.jsx:288
 #: src/components/users/FirstUser.jsx:290
 msgid "User full name"
-msgstr ""
+msgstr "Brukerens fulle navn"
 
 #. TRANSLATORS: check box label
 #: src/components/users/FirstUser.jsx:329
 #: src/components/users/FirstUser.jsx:333
 msgid "Edit password too"
-msgstr ""
+msgstr "Rediger passord også"
 
 #: src/components/users/FirstUser.jsx:346
 msgid "user autologin"
-msgstr ""
+msgstr "bruker automatisk innlogging"
 
 #. TRANSLATORS: check box label
 #: src/components/users/FirstUser.jsx:350
 msgid "Auto-login"
-msgstr ""
+msgstr "Automatisk-innlogging"
 
 #: src/components/users/RootAuthMethods.jsx:35
 msgid "No root authentication method defined yet."
-msgstr ""
+msgstr "Ingen root autentisering metode definert ennå."
 
 #: src/components/users/RootAuthMethods.jsx:38
 msgid ""
 "Please, define at least one authentication method for logging into the "
 "system as root."
 msgstr ""
+"Vennligst, definer minst en autentiseringsmetode for å logge på systemet som "
+"root."
 
 #. TRANSLATORS: push button label
 #: src/components/users/RootAuthMethods.jsx:43
 msgid "Set a password"
-msgstr ""
+msgstr "Sett et passord"
 
 #. TRANSLATORS: push button label
 #: src/components/users/RootAuthMethods.jsx:45
 msgid "Upload a SSH Public Key"
-msgstr ""
+msgstr "Last opp en offentlig SSH Nøkkel"
 
 #: src/components/users/RootAuthMethods.jsx:94
 #: src/components/users/RootAuthMethods.jsx:107
 msgid "Change"
-msgstr ""
+msgstr "Endre"
 
 #: src/components/users/RootAuthMethods.jsx:94
 #: src/components/users/RootAuthMethods.jsx:107
 msgid "Set"
-msgstr ""
+msgstr "Sett"
 
 #: src/components/users/RootAuthMethods.jsx:129
 msgid "Already set"
-msgstr ""
+msgstr "Allerede satt"
 
 #: src/components/users/RootAuthMethods.jsx:130
 #: src/components/users/RootAuthMethods.jsx:134
 msgid "Not set"
-msgstr ""
+msgstr "Ikke satt"
 
 #. TRANSLATORS: table header, user authentication method
 #: src/components/users/RootAuthMethods.jsx:155
 msgid "Method"
-msgstr ""
+msgstr "Metode"
 
 #: src/components/users/RootAuthMethods.jsx:170
 msgid "SSH Key"
-msgstr ""
+msgstr "SSH Nøkkel"
 
 #: src/components/users/RootAuthMethods.jsx:187
 msgid "Change the root password"
-msgstr ""
+msgstr "Endre root passordet"
 
 #: src/components/users/RootAuthMethods.jsx:187
 msgid "Set a root password"
-msgstr ""
+msgstr "Sett et root passord"
 
 #: src/components/users/RootAuthMethods.jsx:194
 msgid "Add a SSH Public Key for root"
-msgstr ""
+msgstr "Legg til en offentlig SSH Nøkkel for root"
 
 #: src/components/users/RootAuthMethods.jsx:194
 msgid "Edit the SSH Public Key for root"
-msgstr ""
+msgstr "Endre den offentlige SSH Nøkkelen for root"
 
 #: src/components/users/RootPasswordPopup.jsx:42
 msgid "Root password"
-msgstr ""
+msgstr "Rot passord"
 
 #: src/components/users/RootSSHKeyPopup.jsx:43
 msgid "Set root SSH public key"
-msgstr ""
+msgstr "Sett root offentlig SSH Nøkkel"
 
 #: src/components/users/RootSSHKeyPopup.jsx:71
 msgid "Root SSH public key"
-msgstr ""
+msgstr "Rot offentlig SSH nøkkel"
 
 #: src/components/users/RootSSHKeyPopup.jsx:76
 msgid "Upload, paste, or drop an SSH public key"
-msgstr ""
+msgstr "Last opp, lim inn, eller slipp en offentlig SSH nøkkel"
 
 #. TRANSLATORS: push button label
 #: src/components/users/RootSSHKeyPopup.jsx:78
 msgid "Upload"
-msgstr ""
+msgstr "Last opp"
 
 #. TRANSLATORS: push button label, clears the related input field
 #: src/components/users/RootSSHKeyPopup.jsx:80
 msgid "Clear"
-msgstr ""
+msgstr "Tøm"
 
 #: src/components/users/UsersPage.jsx:31
 msgid "User"
-msgstr ""
+msgstr "Bruker"
 
 #: src/components/users/UsersPage.jsx:34
 msgid "Root authentication"
-msgstr ""
+msgstr "Rot autentisering"
