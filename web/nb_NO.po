@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-19 02:19+0000\n"
-"PO-Revision-Date: 2024-05-19 16:05+0000\n"
+"PO-Revision-Date: 2024-05-19 16:10+0000\n"
 "Last-Translator: Martin Hansen <mh306602@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.opensuse.org/projects/agama/"
 "agama-web/nb_NO/>\n"
@@ -2111,7 +2111,7 @@ msgstr "Minimum"
 #. TRANSLATORS: the minium partition size
 #: src/components/storage/VolumeFields.jsx:373
 msgid "Minimum desired size"
-msgstr "Minste ønskede størrelse"
+msgstr "Minimum ønsket størrelse"
 
 #: src/components/storage/VolumeFields.jsx:384
 msgid "Unit for the minimum size"
@@ -2125,7 +2125,7 @@ msgstr "Maksimum"
 #. TRANSLATORS: the maximum partition size
 #: src/components/storage/VolumeFields.jsx:408
 msgid "Maximum desired size"
-msgstr "Maksimal ønskede størrelse"
+msgstr "Maksimal ønsket størrelse"
 
 #: src/components/storage/VolumeFields.jsx:418
 msgid "Unit for the maximum size"
@@ -2139,12 +2139,12 @@ msgstr "Auto"
 #. TRANSLATORS: radio button label, exact partition size requested by user
 #: src/components/storage/VolumeFields.jsx:438
 msgid "Fixed"
-msgstr ""
+msgstr "Fikset"
 
 #. TRANSLATORS: radio button label, automatically computed partition size within the user provided min and max limits
 #: src/components/storage/VolumeFields.jsx:440
 msgid "Range"
-msgstr ""
+msgstr "Rekkevidde"
 
 #. TRANSLATORS: Description of the dialog for changing the location of a file system.
 #: src/components/storage/VolumeLocationDialog.jsx:41
@@ -2152,21 +2152,23 @@ msgid ""
 "The file systems are allocated at the installation device by default. "
 "Indicate a custom location to create the file system at a specific device."
 msgstr ""
+"Filsystemet er allokert som standard på installasjonsenheten. Indiker en "
+"egendefinert plassering for å opprette filsystemet på en spesifikk enhet."
 
 #. TRANSLATORS: Title of the dialog for changing the location of a file system. %s is replaced
 #. by a mount path (e.g., /home).
 #: src/components/storage/VolumeLocationDialog.jsx:136
 #, c-format
 msgid "Location for %s file system"
-msgstr ""
+msgstr "Plassering for %s filsystemet"
 
 #: src/components/storage/VolumeLocationDialog.jsx:146
 msgid "Select in which device to allocate the file system"
-msgstr ""
+msgstr "Velg hvilken enhet å allokere filsystemet i"
 
 #: src/components/storage/VolumeLocationDialog.jsx:149
 msgid "Select a location"
-msgstr ""
+msgstr "Velg en plassering"
 
 #: src/components/storage/VolumeLocationDialog.jsx:161
 msgid "Select how to allocate the file system"
