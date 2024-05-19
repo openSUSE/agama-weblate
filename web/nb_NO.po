@@ -8,18 +8,20 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-19 02:19+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-05-19 14:46+0000\n"
+"Last-Translator: Martin Hansen <mh306602@gmail.com>\n"
+"Language-Team: Norwegian Bokmål <https://l10n.opensuse.org/projects/agama/"
+"agama-web/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: src/components/core/About.jsx:49 src/components/core/About.jsx:69
 msgid "About Agama"
-msgstr ""
+msgstr "Om Agama"
 
 #. TRANSLATORS: content of the "About" popup (1/2)
 #: src/components/core/About.jsx:74
@@ -29,13 +31,17 @@ msgid ""
 "want to give it a try, we recommend using a virtual machine to prevent any "
 "possible data loss."
 msgstr ""
+"Agama er en eksperimentell installasjonsprogram for (open)SUSE systemer. Den "
+"er fortsatt under utvikling, så vær så snill å, ikke bruk den i "
+"produksjonsmiljøer. Hvis du vil prøve, så anbefaler vi å bruke en virtuell "
+"maskin for å forhindre tap av data."
 
 #. TRANSLATORS: content of the "About" popup (2/2)
 #. %s is replaced by the project URL
 #: src/components/core/About.jsx:86
 #, c-format
 msgid "For more information, please visit the project's repository at %s."
-msgstr ""
+msgstr "For mer informasjon, vennligst besøk prosjektets pakkebrønn på %s."
 
 #. TRANSLATORS: button label
 #: src/components/core/About.jsx:92 src/components/core/FileViewer.jsx:81
@@ -45,75 +51,81 @@ msgstr ""
 #: src/components/software/SoftwarePage.jsx:90
 #: src/components/storage/ProposalActionsDialog.jsx:98
 msgid "Close"
-msgstr ""
+msgstr "Lukk"
 
 #. TRANSLATORS: page title
 #: src/components/core/DBusError.jsx:34
 msgid "D-Bus Error"
-msgstr ""
+msgstr "D-Bus Feil"
 
 #: src/components/core/DBusError.jsx:38
 msgid "Cannot connect to D-Bus"
-msgstr ""
+msgstr "Kan ikke koble til D-Bus"
 
 #: src/components/core/DBusError.jsx:43
 msgid ""
 "Could not connect to the D-Bus service. Please, check whether it is running."
-msgstr ""
+msgstr "Kunne ikke koble til D-Bus tjenesten. Vennligst, sjekk om den kjører."
 
 #. TRANSLATORS: button label
 #: src/components/core/DBusError.jsx:51
 msgid "Reload"
-msgstr ""
+msgstr "Last på nytt"
 
 #: src/components/core/FileViewer.jsx:66
 msgid "Reading file..."
-msgstr ""
+msgstr "Leser fil..."
 
 #: src/components/core/FileViewer.jsx:72
 msgid "Cannot read the file"
-msgstr ""
+msgstr "Kan ikke lese filen"
 
 #: src/components/core/InstallButton.jsx:37
 msgid ""
 "There are some reported issues. Please review them in the previous steps "
 "before proceeding with the installation."
 msgstr ""
+"Det er noen rapporterte problemer. Vennligst undersøk dem i de forrige "
+"stegene før du fortsetter med installasjonen."
 
 #: src/components/core/InstallButton.jsx:49
 msgid "Confirm Installation"
-msgstr ""
+msgstr "Bekreft Installasjon"
 
 #: src/components/core/InstallButton.jsx:55
 msgid ""
 "If you continue, partitions on your hard disk will be modified according to "
 "the provided installation settings."
 msgstr ""
+"Hvis du fortsetter, så vil partisjonene på harddisken bli modifisert i tråd "
+"med de oppgitte installasjons innstillingene."
 
 #: src/components/core/InstallButton.jsx:59
 msgid "Please, cancel and check the settings if you are unsure."
-msgstr ""
+msgstr "Vennligst, avbryt og sjekk innstillingene hvis du er usikker."
 
 #. TRANSLATORS: button label
 #: src/components/core/InstallButton.jsx:65 src/components/core/Popup.jsx:136
 #: src/components/network/WifiConnectionForm.jsx:136
 msgid "Cancel"
-msgstr ""
+msgstr "Avbryt"
 
 #. TRANSLATORS: button label
 #: src/components/core/InstallButton.jsx:69
 msgid "Continue"
-msgstr ""
+msgstr "Fortsett"
 
 #: src/components/core/InstallButton.jsx:78
 msgid "Problems Found"
-msgstr ""
+msgstr "Problemer Funnet"
 
 #: src/components/core/InstallButton.jsx:82
 msgid ""
 "Some problems were found when trying to start the installation. Please, have "
 "a look to the reported errors and try again."
 msgstr ""
+"Noen problemer ble funnet når installasjonen prøvde å starte. Vennligst, "
+"sjekk de rapporterte feilene og prøv igjen."
 
 #. TRANSLATORS: button label
 #: src/components/core/InstallButton.jsx:89 src/components/l10n/L10nPage.jsx:75
@@ -125,30 +137,32 @@ msgstr ""
 #: src/components/storage/VolumeDialog.jsx:787
 #: src/components/storage/ZFCPPage.jsx:511
 msgid "Accept"
-msgstr ""
+msgstr "Aksepter"
 
 #. TRANSLATORS: button label
 #: src/components/core/InstallButton.jsx:140
 msgid "Install"
-msgstr ""
+msgstr "Installere"
 
 #: src/components/core/InstallationFinished.jsx:41
 msgid "TPM sealing requires the new system to be booted directly."
-msgstr ""
+msgstr "TPM forsegling krever at det nye systemet startes opp direkte."
 
 #: src/components/core/InstallationFinished.jsx:46
 msgid ""
 "If a local media was used to run this installer, remove it before the next "
 "boot."
 msgstr ""
+"Hvis ett lokalt media ble brukt til å kjøre dette installajonsprogrammet, så "
+"fjern det før neste oppstart."
 
 #: src/components/core/InstallationFinished.jsx:50
 msgid "Hide details"
-msgstr ""
+msgstr "Skjul detaljer"
 
 #: src/components/core/InstallationFinished.jsx:50
 msgid "See more details"
-msgstr ""
+msgstr "Se flere detaljer"
 
 #. TRANSLATORS: "Trusted Platform Module" is the name of the technology and "TPM" its abbreviation
 #: src/components/core/InstallationFinished.jsx:54
@@ -158,53 +172,59 @@ msgid ""
 "of the new system. For that to work, the machine needs to boot directly to "
 "the new boot loader."
 msgstr ""
+"Det siste steget er å konfigurere Trusted Platform Module (TPM) for å "
+"automatisk åpne krypterte enheter vil ta plass under første oppstart av det "
+"nye systemet. For at det skal fungere, så må maskinen starte direkte med den "
+"nye oppstartslasteren."
 
 #. TRANSLATORS: page title
 #: src/components/core/InstallationFinished.jsx:91
 msgid "Installation Finished"
-msgstr ""
+msgstr "Installasjon Fullført"
 
 #: src/components/core/InstallationFinished.jsx:94
 msgid "Congratulations!"
-msgstr ""
+msgstr "Gratulerer!"
 
 #: src/components/core/InstallationFinished.jsx:99
 msgid "The installation on your machine is complete."
-msgstr ""
+msgstr "Installasjonen på din maskin er fullført."
 
 #: src/components/core/InstallationFinished.jsx:103
 msgid "At this point you can power off the machine."
-msgstr ""
+msgstr "På dette tidspunktet kan du slå av maskinen."
 
 #: src/components/core/InstallationFinished.jsx:104
 msgid "At this point you can reboot the machine to log in to the new system."
 msgstr ""
+"På dette tidspunktet kan du starte om maskinen for å logge inn i det nye "
+"systemet."
 
 #: src/components/core/InstallationFinished.jsx:116
 msgid "Finish"
-msgstr ""
+msgstr "Fullført"
 
 #: src/components/core/InstallationFinished.jsx:116
 msgid "Reboot"
-msgstr ""
+msgstr "Start om"
 
 #: src/components/core/InstallationProgress.jsx:32
 msgid "Installing"
-msgstr ""
+msgstr "Installerer"
 
 #. TRANSLATORS: search field placeholder text
 #: src/components/core/ListSearch.jsx:50
 #: src/components/software/PatternSelector.jsx:174
 #: src/components/software/PatternSelector.jsx:175
 msgid "Search"
-msgstr ""
+msgstr "Søk"
 
 #. TRANSLATORS: Title for a form to provide the password for the root user. %s
 #. will be replaced by "root"
 #: src/components/core/LoginPage.jsx:56
 #, c-format
 msgid "Log in as %s"
-msgstr ""
+msgstr "Logg på som %s"
 
 #. TRANSLATORS: An explanation about required privileges for login into the installer. %s
 #. will be replaced by "root"
@@ -214,60 +234,64 @@ msgid ""
 "The installer requires %s user privileges. Please, provide its password to "
 "log in to the system."
 msgstr ""
+"Installasjonsprogrammet krever %s bruker privilegier. Vennligst, opplys om "
+"passord for å logge inn på systemet."
 
 #: src/components/core/LoginPage.jsx:72
 msgid "Login form"
-msgstr ""
+msgstr "Innloggingsskjema"
 
 #: src/components/core/LoginPage.jsx:78
 msgid "Password input"
-msgstr ""
+msgstr "Passord inntasting"
 
 #: src/components/core/LoginPage.jsx:86
 msgid "Could not log in. Please, make sure that the password is correct."
-msgstr ""
+msgstr "Kunne ikke logge på, Vennligst, sjekk at passordet er korrekt."
 
 #: src/components/core/LoginPage.jsx:93
 msgid "Log in"
-msgstr ""
+msgstr "Logg inn"
 
 #: src/components/core/LoginPage.jsx:104
 msgid "What is this?"
-msgstr ""
+msgstr "Hva er dette?"
 
 #: src/components/core/LogsButton.jsx:101
 msgid "Collecting logs..."
-msgstr ""
+msgstr "Samler loggfiler..."
 
 #: src/components/core/LogsButton.jsx:101
 msgid "Download logs"
-msgstr ""
+msgstr "Last ned loggfiler"
 
 #: src/components/core/LogsButton.jsx:109
 msgid ""
 "The browser will run the logs download as soon as they are ready. Please, be "
 "patient."
 msgstr ""
+"Nettleseren vil kjøre nedlastingen av loggfilene så snart de er klare. "
+"Vennligst, vær tålmodig."
 
 #: src/components/core/LogsButton.jsx:117
 msgid "Something went wrong while collecting logs. Please, try again."
-msgstr ""
+msgstr "Noe gikk galt når loggfilene ble samlet. Vennligst, prøv igjen."
 
 #: src/components/core/Page.jsx:102 src/components/users/UsersPage.jsx:30
 msgid "Back"
-msgstr ""
+msgstr "Tilbake"
 
 #: src/components/core/Page.jsx:218
 msgid "Show global options"
-msgstr ""
+msgstr "Vis globale alternativer"
 
 #: src/components/core/Page.jsx:234
 msgid "Page Actions"
-msgstr ""
+msgstr "Sidehandlinger"
 
 #: src/components/core/PasswordAndConfirmationInput.jsx:41
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Passordene er ikke like"
 
 #: src/components/core/PasswordAndConfirmationInput.jsx:62
 #: src/components/network/WifiConnectionForm.jsx:125
@@ -275,102 +299,102 @@ msgstr ""
 #: src/components/storage/iscsi/AuthFields.jsx:100
 #: src/components/users/RootAuthMethods.jsx:163
 msgid "Password"
-msgstr ""
+msgstr "Passord"
 
 #: src/components/core/PasswordAndConfirmationInput.jsx:74
 msgid "Password confirmation"
-msgstr ""
+msgstr "Passord bekreftelse"
 
 #: src/components/core/PasswordInput.jsx:63
 msgid "Password visibility button"
-msgstr ""
+msgstr "Passord synlighetsknapp"
 
 #: src/components/core/Popup.jsx:100
 msgid "Confirm"
-msgstr ""
+msgstr "Bekreft"
 
 #. TRANSLATORS: progress message
 #: src/components/core/Popup.jsx:210
 msgid "Loading data..."
-msgstr ""
+msgstr "Laster data..."
 
 #: src/components/core/RowActions.jsx:64
 #: src/components/storage/PartitionsField.jsx:457
 msgid "Actions"
-msgstr ""
+msgstr "Handlinger"
 
 #: src/components/core/SectionSkeleton.jsx:29
 msgid "Waiting"
-msgstr ""
+msgstr "Venter"
 
 #: src/components/core/Selector.jsx:126
 msgid "auto selected"
-msgstr ""
+msgstr "Automatisk valgt"
 
 #. TRANSLATORS: button label
 #: src/components/core/ShowLogButton.jsx:47
 msgid "Show Logs"
-msgstr ""
+msgstr "Vis Loggfilene"
 
 #. TRANSLATORS: popup dialog title
 #: src/components/core/ShowLogButton.jsx:53
 msgid "YaST Logs"
-msgstr ""
+msgstr "YaST loggfiler"
 
 #. TRANSLATORS: button label
 #: src/components/core/ShowTerminalButton.jsx:46
 msgid "Open Terminal"
-msgstr ""
+msgstr "Åpne Terminal"
 
 #. TRANSLATORS: sidebar header
 #: src/components/core/Sidebar.jsx:112 src/components/core/Sidebar.jsx:120
 msgid "Installer Options"
-msgstr ""
+msgstr "Installasjonsalternativer"
 
 #: src/components/core/Sidebar.jsx:127
 msgid "Hide installer options"
-msgstr ""
+msgstr "Skjul installasjonsalternativer"
 
 #. TRANSLATORS: Titles used for the popup displaying found section issues
 #: src/components/core/ValidationErrors.jsx:53
 msgid "Software issues"
-msgstr ""
+msgstr "Programvare problemer"
 
 #: src/components/core/ValidationErrors.jsx:54
 msgid "Product issues"
-msgstr ""
+msgstr "Produkt problemer"
 
 #: src/components/core/ValidationErrors.jsx:55
 msgid "Storage issues"
-msgstr ""
+msgstr "Lagringsproblemer"
 
 #: src/components/core/ValidationErrors.jsx:57
 msgid "Found Issues"
-msgstr ""
+msgstr "Fant problemer"
 
 #. TRANSLATORS: %d is replaced with the number of errors found
 #: src/components/core/ValidationErrors.jsx:77
 #, c-format
 msgid "%d error found"
 msgid_plural "%d errors found"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d feil funnet"
+msgstr[1] "%d feil funnet"
 
 #. TRANSLATORS: label for keyboard layout selection
 #: src/components/l10n/InstallerKeymapSwitcher.jsx:53
 #: src/components/l10n/L10nPage.jsx:357
 msgid "Keyboard"
-msgstr ""
+msgstr "Tastatur"
 
 #. TRANSLATORS: label for keyboard layout selection
 #: src/components/l10n/InstallerKeymapSwitcher.jsx:61
 msgid "keyboard"
-msgstr ""
+msgstr "tastatur"
 
 #. TRANSLATORS:
 #: src/components/l10n/InstallerKeymapSwitcher.jsx:70
 msgid "Keyboard layout cannot be changed in remote installation"
-msgstr ""
+msgstr "Tastaturoppsettet kan ikke bli endres i ekstern installasjon"
 
 #. TRANSLATORS: help text for the language selector in the sidebar,
 #. %s will be replaced by the "Localization" page link
@@ -380,6 +404,8 @@ msgid ""
 "The language used by the installer. The language for the installed system "
 "can be set in the %s page."
 msgstr ""
+"Språket som brukes av installasjonsprogrammet. Språket for det installerte "
+"systemet kan angis på %s siden."
 
 #. TRANSLATORS: page section
 #. TRANSLATORS: page title
@@ -387,137 +413,137 @@ msgstr ""
 #: src/components/l10n/L10nPage.jsx:384
 #: src/components/overview/L10nSection.jsx:54
 msgid "Localization"
-msgstr ""
+msgstr "Lokalisering"
 
 #: src/components/l10n/InstallerLocaleSwitcher.jsx:65
 #: src/components/l10n/L10nPage.jsx:246
 msgid "Language"
-msgstr ""
+msgstr "Språk"
 
 #: src/components/l10n/InstallerLocaleSwitcher.jsx:73
 msgid "language"
-msgstr ""
+msgstr "språk"
 
 #. TRANSLATORS: placeholder text for search input in the keyboard selector.
 #: src/components/l10n/KeymapSelector.jsx:53
 msgid "Filter by description or keymap code"
-msgstr ""
+msgstr "Filtrer etter beskrivelse eller tastaturkode"
 
 #: src/components/l10n/KeymapSelector.jsx:64
 msgid "Available keymaps"
-msgstr ""
+msgstr "Tilgjengelige tastaturoppsett"
 
 #: src/components/l10n/L10nPage.jsx:66 src/components/l10n/L10nPage.jsx:140
 msgid "Select time zone"
-msgstr ""
+msgstr "Velg tidssone"
 
 #: src/components/l10n/L10nPage.jsx:67
 #, c-format
 msgid "%s will use the selected time zone."
-msgstr ""
+msgstr "%s vil bruke den valgte tidssone."
 
 #: src/components/l10n/L10nPage.jsx:128
 msgid "Time zone"
-msgstr ""
+msgstr "Tidssone"
 
 #: src/components/l10n/L10nPage.jsx:134
 msgid "Change time zone"
-msgstr ""
+msgstr "Endre tidssone"
 
 #: src/components/l10n/L10nPage.jsx:139
 msgid "Time zone not selected yet"
-msgstr ""
+msgstr "Tidssone er ikke valgt ennå"
 
 #: src/components/l10n/L10nPage.jsx:182 src/components/l10n/L10nPage.jsx:258
 msgid "Select language"
-msgstr ""
+msgstr "Velg språk"
 
 #: src/components/l10n/L10nPage.jsx:183
 #, c-format
 msgid "%s will use the selected language."
-msgstr ""
+msgstr "%s vil bruke det valgte språket."
 
 #: src/components/l10n/L10nPage.jsx:252
 msgid "Change language"
-msgstr ""
+msgstr "Endre språk"
 
 #: src/components/l10n/L10nPage.jsx:257
 msgid "Language not selected yet"
-msgstr ""
+msgstr "Språket er ikke valgt ennå"
 
 #: src/components/l10n/L10nPage.jsx:295 src/components/l10n/L10nPage.jsx:369
 msgid "Select keyboard"
-msgstr ""
+msgstr "Velg tastaturoppsett"
 
 #: src/components/l10n/L10nPage.jsx:296
 #, c-format
 msgid "%s will use the selected keyboard."
-msgstr ""
+msgstr "%s vil bruke det valgte tastaturoppsettet."
 
 #: src/components/l10n/L10nPage.jsx:363
 msgid "Change keyboard"
-msgstr ""
+msgstr "Endre tastaturoppsett"
 
 #: src/components/l10n/L10nPage.jsx:368
 msgid "Keyboard not selected yet"
-msgstr ""
+msgstr "Tastaturoppsettet er ikke valgt ennå"
 
 #: src/components/l10n/LocaleSelector.jsx:53
 msgid "Filter by language, territory or locale code"
-msgstr ""
+msgstr "Filtrer etter språk, territorium eller lokalkode"
 
 #: src/components/l10n/LocaleSelector.jsx:64
 msgid "Available locales"
-msgstr ""
+msgstr "Tilgjengelige lokaliseringer"
 
 #. TRANSLATORS: placeholder text for search input in the timezone selector.
 #: src/components/l10n/TimezoneSelector.jsx:75
 msgid "Filter by territory, time zone code or UTC offset"
-msgstr ""
+msgstr "Filtrer etter territorium, tidssonekode eller UTC forskyvning"
 
 #: src/components/l10n/TimezoneSelector.jsx:86
 msgid "Available time zones"
-msgstr ""
+msgstr "Tilgjengelige tidssoner"
 
 #: src/components/layout/Loading.jsx:30
 msgid "Loading installation environment, please wait."
-msgstr ""
+msgstr "Laster installasjonsmiljø, vennligst vent."
 
 #. TRANSLATORS: button label
 #: src/components/network/AddressesDataList.jsx:81
 #: src/components/network/DnsDataList.jsx:87
 msgid "Remove"
-msgstr ""
+msgstr "Fjerne"
 
 #. TRANSLATORS: input field name
 #: src/components/network/AddressesDataList.jsx:93
 #: src/components/network/AddressesDataList.jsx:94
 #: src/components/network/IpAddressInput.jsx:33
 msgid "IP Address"
-msgstr ""
+msgstr "IP Addresse"
 
 #. TRANSLATORS: input field name
 #: src/components/network/AddressesDataList.jsx:102
 #: src/components/network/AddressesDataList.jsx:103
 msgid "Prefix length or netmask"
-msgstr ""
+msgstr "Prefikslengde eller nettmaske"
 
 #: src/components/network/AddressesDataList.jsx:119
 msgid "Add an address"
-msgstr ""
+msgstr "Legg til en addresse"
 
 #. TRANSLATORS: button label
 #: src/components/network/AddressesDataList.jsx:119
 msgid "Add another address"
-msgstr ""
+msgstr "Legg til en annen adresse"
 
 #: src/components/network/AddressesDataList.jsx:124
 msgid "Addresses"
-msgstr ""
+msgstr "Addresser"
 
 #: src/components/network/AddressesDataList.jsx:129
 msgid "Addresses data list"
-msgstr ""
+msgstr "Adresser dataliste"
 
 #. TRANSLATORS: input field for the iSCSI initiator name
 #. TRANSLATORS: table header
@@ -530,13 +556,13 @@ msgstr ""
 #: src/components/storage/iscsi/NodesPresenter.jsx:100
 #: src/components/storage/iscsi/NodesPresenter.jsx:121
 msgid "Name"
-msgstr ""
+msgstr "Navn"
 
 #. TRANSLATORS: table header
 #: src/components/network/ConnectionsTable.jsx:68
 #: src/components/network/ConnectionsTable.jsx:96
 msgid "IP addresses"
-msgstr ""
+msgstr "IP addresser"
 
 #: src/components/network/ConnectionsTable.jsx:76
 #: src/components/storage/PartitionsField.jsx:315
@@ -544,142 +570,145 @@ msgstr ""
 #: src/components/storage/iscsi/NodesPresenter.jsx:73
 #: src/components/users/FirstUser.jsx:212
 msgid "Edit"
-msgstr ""
+msgstr "Redigere"
 
 #. TRANSLATORS: %s is replaced by a network connection name
 #: src/components/network/ConnectionsTable.jsx:79
 #, c-format
 msgid "Edit connection %s"
-msgstr ""
+msgstr "Rediger tilkobling %s"
 
 #: src/components/network/ConnectionsTable.jsx:83
 msgid "Forget"
-msgstr ""
+msgstr "Glem"
 
 #. TRANSLATORS: %s is replaced by a network connection name
 #: src/components/network/ConnectionsTable.jsx:86
 #, c-format
 msgid "Forget connection %s"
-msgstr ""
+msgstr "Glem tilkoblingen %s"
 
 #. TRANSLATORS: %s is replaced by a network connection name
 #: src/components/network/ConnectionsTable.jsx:101
 #, c-format
 msgid "Actions for connection %s"
-msgstr ""
+msgstr "Handlinger for tilkobling %s"
 
 #. TRANSLATORS: input field name
 #: src/components/network/DnsDataList.jsx:78
 #: src/components/network/DnsDataList.jsx:79
 msgid "Server IP"
-msgstr ""
+msgstr "Server IP"
 
 #: src/components/network/DnsDataList.jsx:96
 msgid "Add DNS"
-msgstr ""
+msgstr "Legg til DNS"
 
 #. TRANSLATORS: button label
 #: src/components/network/DnsDataList.jsx:96
 msgid "Add another DNS"
-msgstr ""
+msgstr "Legg til en annen DNS"
 
 #: src/components/network/DnsDataList.jsx:101
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #. TRANSLATORS: input field name
 #: src/components/network/IpPrefixInput.jsx:33
 msgid "IP prefix or netmask"
-msgstr ""
+msgstr "IP prefiks eller nettmaske"
 
 #. TRANSLATORS: error message
 #: src/components/network/IpSettingsForm.jsx:86
 msgid "At least one address must be provided for selected mode"
-msgstr ""
+msgstr "Minst en adresse må oppgis for valgt modus"
 
 #. TRANSLATORS: %s is replaced by the iSCSI target node name
 #: src/components/network/IpSettingsForm.jsx:133
 #: src/components/storage/iscsi/EditNodeForm.jsx:50
 #, c-format
 msgid "Edit %s"
-msgstr ""
+msgstr "Rediger %s"
 
 #. TRANSLATORS: network connection mode (automatic via DHCP or manual with static IP)
 #: src/components/network/IpSettingsForm.jsx:138
 #: src/components/network/IpSettingsForm.jsx:143
 #: src/components/network/IpSettingsForm.jsx:145
 msgid "Mode"
-msgstr ""
+msgstr "Modus"
 
 #: src/components/network/IpSettingsForm.jsx:149
 msgid "Automatic (DHCP)"
-msgstr ""
+msgstr "Automatisk (DHCP)"
 
 #. TRANSLATORS: manual network configuration mode with a static IP address
 #: src/components/network/IpSettingsForm.jsx:151
 #: src/components/storage/iscsi/NodeStartupOptions.js:25
 msgid "Manual"
-msgstr ""
+msgstr "Manuell"
 
 #. TRANSLATORS: network gateway configuration
 #: src/components/network/IpSettingsForm.jsx:166
 #: src/components/network/IpSettingsForm.jsx:169
 msgid "Gateway"
-msgstr ""
+msgstr "Gateway"
 
 #: src/components/network/NetworkPage.jsx:40
 msgid "No wired connections found."
-msgstr ""
+msgstr "Ingen kablet tilkoblinger ble funnet."
 
 #: src/components/network/NetworkPage.jsx:55
 msgid ""
 "The system has not been configured for connecting to a WiFi network yet."
 msgstr ""
+"Systemet har ikke blitt konfigurert for å koble til et WiFi nettverk ennå."
 
 #: src/components/network/NetworkPage.jsx:56
 msgid ""
 "The system does not support WiFi connections, probably because of missing or "
 "disabled hardware."
 msgstr ""
+"Systemet støtter ikke WiFi tilkoblinger, sannsynligvis på grunn av manglende "
+"eller deaktivert maskinvare."
 
 #: src/components/network/NetworkPage.jsx:60
 msgid "No WiFi connections found."
-msgstr ""
+msgstr "Ingen WiFi tilkoblinger funnet."
 
 #. TRANSLATORS: button label
 #: src/components/network/NetworkPage.jsx:72
 #: src/components/network/NetworkPageMenu.jsx:46
 #: src/components/network/WifiSelector.jsx:129
 msgid "Connect to a Wi-Fi network"
-msgstr ""
+msgstr "Koble til et Wi-Fi nettverk"
 
 #. TRANSLATORS: page section title
 #. TRANSLATORS: page title
 #: src/components/network/NetworkPage.jsx:178
 #: src/components/overview/NetworkSection.jsx:117
 msgid "Network"
-msgstr ""
+msgstr "Nettverk"
 
 #. TRANSLATORS: page section
 #: src/components/network/NetworkPage.jsx:180
 msgid "Wired networks"
-msgstr ""
+msgstr "Kablet nettverk"
 
 #. TRANSLATORS: page section
 #: src/components/network/NetworkPage.jsx:185
 msgid "WiFi networks"
-msgstr ""
+msgstr "WiFi nettverk"
 
 #. TRANSLATORS: WiFi authentication mode
 #: src/components/network/WifiConnectionForm.jsx:43
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:72
 msgid "None"
-msgstr ""
+msgstr "Ingen"
 
 #. TRANSLATORS: WiFi authentication mode
 #: src/components/network/WifiConnectionForm.jsx:45
 msgid "WPA & WPA2 Personal"
-msgstr ""
+msgstr "WPA & WPA2 Personlig"
 
 #: src/components/network/WifiConnectionForm.jsx:91
 #: src/components/product/ProductPage.jsx:128
@@ -689,87 +718,87 @@ msgstr ""
 #: src/components/storage/iscsi/LoginForm.jsx:72
 #: src/components/users/FirstUser.jsx:280
 msgid "Something went wrong"
-msgstr ""
+msgstr "Noe gikk galt"
 
 #: src/components/network/WifiConnectionForm.jsx:92
 msgid "Please, review provided settings and try again."
-msgstr ""
+msgstr "Vennligst, sjekk de angitte innstillingene og prøv igjen."
 
 #. TRANSLATORS: SSID (Wifi network name) configuration
 #: src/components/network/WifiConnectionForm.jsx:97
 #: src/components/network/WifiConnectionForm.jsx:101
 msgid "SSID"
-msgstr ""
+msgstr "SSID"
 
 #. TRANSLATORS: Wifi security configuration (password protected or not)
 #: src/components/network/WifiConnectionForm.jsx:109
 #: src/components/network/WifiConnectionForm.jsx:112
 msgid "Security"
-msgstr ""
+msgstr "Sikkerhet"
 
 #. TRANSLATORS: WiFi password
 #: src/components/network/WifiConnectionForm.jsx:121
 msgid "WPA Password"
-msgstr ""
+msgstr "WPA Passord"
 
 #. TRANSLATORS: button label, connect to a WiFi network
 #: src/components/network/WifiConnectionForm.jsx:133
 msgid "Connect"
-msgstr ""
+msgstr "Koble til"
 
 #. TRANSLATORS: button label
 #: src/components/network/WifiHiddenNetworkForm.jsx:50
 msgid "Connect to hidden network"
-msgstr ""
+msgstr "Koble til skjult nettverk"
 
 #. TRANSLATORS: Wifi network status
 #: src/components/network/WifiNetworkListItem.jsx:41
 #: src/components/network/WifiNetworkListItem.jsx:101
 msgid "Connecting"
-msgstr ""
+msgstr "Kobler til"
 
 #. TRANSLATORS: Wifi network status
 #: src/components/network/WifiNetworkListItem.jsx:44
 msgid "Connected"
-msgstr ""
+msgstr "Tilkoblet"
 
 #. TRANSLATORS: Wifi network status
 #: src/components/network/WifiNetworkListItem.jsx:47
 msgid "Disconnecting"
-msgstr ""
+msgstr "Kobler fra"
 
 #: src/components/network/WifiNetworkListItem.jsx:49
 msgid "Failed"
-msgstr ""
+msgstr "Mislyktes"
 
 #. TRANSLATORS: iSCSI connection status
 #. TRANSLATORS: Wifi network status
 #: src/components/network/WifiNetworkListItem.jsx:52
 #: src/components/storage/iscsi/NodesPresenter.jsx:63
 msgid "Disconnected"
-msgstr ""
+msgstr "Koblet fra"
 
 #. TRANSLATORS: %s is replaced by a WiFi network name
 #: src/components/network/WifiNetworkListItem.jsx:99
 #, c-format
 msgid "%s connection is waiting for an state change"
-msgstr ""
+msgstr "%s koblingen venter på en tilstands endring"
 
 #. TRANSLATORS: menu label, remove the selected WiFi network settings
 #: src/components/network/WifiNetworkMenu.jsx:55
 msgid "Forget network"
-msgstr ""
+msgstr "Glem nettverket"
 
 #. TRANSLATORS: %s will be replaced by a language name and territory, example:
 #. "English (United States)".
 #: src/components/overview/L10nSection.jsx:34
 #, c-format
 msgid "The system will use %s as its default language."
-msgstr ""
+msgstr "Systemet vil bruke %s som standardspråk."
 
 #: src/components/overview/NetworkSection.jsx:96
 msgid "No network devices detected"
-msgstr ""
+msgstr "Ingen nettverksenheter oppdaget"
 
 #. TRANSLATORS: header for the list of connected devices,
 #. %d is replaced by the number of active devices
@@ -777,42 +806,42 @@ msgstr ""
 #, c-format
 msgid "%d device set:"
 msgid_plural "%d devices set:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d enhet valgt:"
+msgstr[1] "%d enheter valgt:"
 
 #. TRANSLATORS: page title
 #: src/components/overview/OverviewPage.jsx:48
 msgid "Installation Summary"
-msgstr ""
+msgstr "Installasjons oppsummering"
 
 #. TRANSLATORS: %s is replaced by a product name (e.g. SLES)
 #: src/components/overview/ProductSection.jsx:48
 #, c-format
 msgid "%s (registered)"
-msgstr ""
+msgstr "%s (registrert)"
 
 #. TRANSLATORS: page title
 #. TRANSLATORS: page section
 #: src/components/overview/ProductSection.jsx:71
 #: src/components/product/ProductPage.jsx:435
 msgid "Product"
-msgstr ""
+msgstr "Produkt"
 
 #: src/components/overview/SoftwareSection.jsx:37
 msgid "Reading software repositories"
-msgstr ""
+msgstr "Leser programvare pakkebrønn"
 
 #. TRANSLATORS: clickable link label
 #: src/components/overview/SoftwareSection.jsx:132
 msgid "Refresh the repositories"
-msgstr ""
+msgstr "Oppdaterer pakkebrønnene"
 
 #. TRANSLATORS: page title
 #. TRANSLATORS: page section
 #: src/components/overview/SoftwareSection.jsx:143
 #: src/components/software/SoftwarePage.jsx:216
 msgid "Software"
-msgstr ""
+msgstr "Programvare"
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:53
@@ -820,6 +849,8 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group shrinking "
 "existing partitions at the underlying devices as needed"
 msgstr ""
+"Installer i en ny logisk volum behandler (LVM) volumgruppe som krymper "
+"eksisterende partisjoner ved de underliggende enhetenes behov"
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:56
@@ -827,6 +858,8 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group without modifying "
 "the partitions at the underlying devices"
 msgstr ""
+"Installer i en ny Logisk Volum Behandler (LVM) volumgruppe uten å modifisere "
+"partisjonene på de underliggende enhetene"
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:59
@@ -834,6 +867,8 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group deleting all the "
 "content of the underlying devices"
 msgstr ""
+"Installer i en ny Logisk Volum Behandler (LVM) volumgruppe og slett alt av "
+"innholdet til de underliggende enhetene"
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:62
@@ -841,6 +876,9 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group using a custom "
 "strategy to find the needed space at the underlying devices"
 msgstr ""
+"Installer en ny Logisk Volum Behandler (LVM) volumgruppe ved å bruke en "
+"tilpasset strategi for å finne den nødvendige plassen på de underliggende "
+"enhetene"
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
@@ -850,6 +888,8 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s shrinking "
 "existing partitions as needed"
 msgstr ""
+"Installer en ny Logisk Volum Behandler (LVM) volumgruppe på %s og krymper de "
+"eksisterende partisjonene ved behov"
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
@@ -859,6 +899,8 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s without "
 "modifying existing partitions"
 msgstr ""
+"Installer en ny Logisk Volum Behandler (LVM) volumgruppe på %s uten å "
+"modifisere eksisterende partisjoner"
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
@@ -868,6 +910,8 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s deleting "
 "all its content"
 msgstr ""
+"Installer en ny Logisk Volum Behandler (LVM) volumgruppe på %s sletter alt "
+"innhold"
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
@@ -877,11 +921,13 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s using a "
 "custom strategy to find the needed space"
 msgstr ""
+"Installer en ny Logisk Volum Behandler (LVM) volumgruppe på %s ved bruk av "
+"en tilpasset strategi for å finne nødvendig plass"
 
 #: src/components/overview/StorageSection.jsx:130
 #: src/components/storage/InstallationDeviceField.jsx:62
 msgid "No device selected yet"
-msgstr ""
+msgstr "Ingen enhet er valgt ennå"
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
@@ -889,20 +935,21 @@ msgstr ""
 #, c-format
 msgid "Install using device %s shrinking existing partitions as needed"
 msgstr ""
+"Installer med enheten %s ved å krympe eksisterende partisjoner ved behov"
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
 #: src/components/overview/StorageSection.jsx:141
 #, c-format
 msgid "Install using device %s without modifying existing partitions"
-msgstr ""
+msgstr "Installer med enheten %s uten å modifisere eksisterende partisjoner"
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
 #: src/components/overview/StorageSection.jsx:145
 #, c-format
 msgid "Install using device %s and deleting all its content"
-msgstr ""
+msgstr "Installer med enheten %s og slett alt av dens innhold"
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
@@ -910,290 +957,300 @@ msgstr ""
 #, c-format
 msgid "Install using device %s with a custom strategy to find the needed space"
 msgstr ""
+"Installer med enheten %s ved å bruke en tilpasset strategi for å finne "
+"nødvendig plass"
 
 #: src/components/overview/StorageSection.jsx:167
 msgid "Probing storage devices"
-msgstr ""
+msgstr "Undersøker lagringsenheter"
 
 #. TRANSLATORS: page section title
 #. TRANSLATORS: Storage page title
 #: src/components/overview/StorageSection.jsx:293
 #: src/components/storage/ProposalPage.jsx:267
 msgid "Storage"
-msgstr ""
+msgstr "Lagring"
 
 #. TRANSLATORS: %s will be replaced by the user name
 #: src/components/overview/UsersSection.jsx:80
 #, c-format
 msgid "User %s will be created"
-msgstr ""
+msgstr "Bruker %s vil bli opprettet"
 
 #: src/components/overview/UsersSection.jsx:87
 msgid "No user defined yet"
-msgstr ""
+msgstr "Ingen bruker definert ennå"
 
 #: src/components/overview/UsersSection.jsx:101
 msgid "Root authentication set for using both, password and public SSH Key"
 msgstr ""
+"Rotautentisering er satt for bruk av både, passord og offentlig SSH Nøkkel"
 
 #: src/components/overview/UsersSection.jsx:102
 msgid "No root authentication method defined"
-msgstr ""
+msgstr "Ingen rotautentiserings metode definert"
 
 #: src/components/overview/UsersSection.jsx:103
 msgid "Root authentication set for using password"
-msgstr ""
+msgstr "Rotautentisering er satt for bruk av passord"
 
 #: src/components/overview/UsersSection.jsx:104
 msgid "Root authentication set for using public SSH Key"
-msgstr ""
+msgstr "Rotautentisering er satt for bruk av offentlig SSH Nøkkel"
 
 #. TRANSLATORS: page section title
 #: src/components/overview/UsersSection.jsx:120
 #: src/components/users/UsersPage.jsx:30
 msgid "Users"
-msgstr ""
+msgstr "Brukere"
 
 #: src/components/product/ProductPage.jsx:63
 #: src/components/product/ProductSelectionPage.jsx:65
 msgid "Choose a product"
-msgstr ""
+msgstr "Velg et produkt"
 
 #: src/components/product/ProductPage.jsx:122
 #, c-format
 msgid "Register %s"
-msgstr ""
+msgstr "Registrer %s"
 
 #: src/components/product/ProductPage.jsx:188
 #, c-format
 msgid "Deregister %s"
-msgstr ""
+msgstr "Avregistrer %s"
 
 #. TRANSLATORS: %s is replaced by a product name (e.g. SLES)
 #: src/components/product/ProductPage.jsx:202
 #, c-format
 msgid "Do you want to deregister %s?"
-msgstr ""
+msgstr "Vil du avregistrere %s?"
 
 #: src/components/product/ProductPage.jsx:227
 msgid "Registered warning"
-msgstr ""
+msgstr "Registrert advarsel"
 
 #. TRANSLATORS: %s is replaced by a product name (e.g., SUSE ALP-Dolomite)
 #: src/components/product/ProductPage.jsx:232
 #, c-format
 msgid "The product %s must be deregistered before selecting a new product."
-msgstr ""
+msgstr "Produktet %s må bli avregistrert før valg av et nytt produkt."
 
 #: src/components/product/ProductPage.jsx:263
 msgid "Change product"
-msgstr ""
+msgstr "Endre produkt"
 
 #: src/components/product/ProductPage.jsx:305
 msgid "Register"
-msgstr ""
+msgstr "Registrer"
 
 #: src/components/product/ProductPage.jsx:337
 msgid "Deregister product"
-msgstr ""
+msgstr "Avregistrer produkt"
 
 #: src/components/product/ProductPage.jsx:370
 msgid "Code:"
-msgstr ""
+msgstr "Kode:"
 
 #: src/components/product/ProductPage.jsx:374
 msgid "Email:"
-msgstr ""
+msgstr "E-post:"
 
 #. TRANSLATORS: section title.
 #: src/components/product/ProductPage.jsx:390
 msgid "Registration"
-msgstr ""
+msgstr "Registrering"
 
 #: src/components/product/ProductPage.jsx:399
 msgid "This product requires registration."
-msgstr ""
+msgstr "Dette produktet krever registrering."
 
 #: src/components/product/ProductPage.jsx:405
 msgid "This product does not require registration."
-msgstr ""
+msgstr "Dette produktet krever ikke registrering."
 
 #: src/components/product/ProductRegistrationForm.jsx:63
 msgid "Registration code"
-msgstr ""
+msgstr "Registrerings kode"
 
 #: src/components/product/ProductRegistrationForm.jsx:66
 msgid "Email"
-msgstr ""
+msgstr "E-post"
 
 #: src/components/product/ProductSelectionPage.jsx:58
 msgid "Loading available products, please wait..."
-msgstr ""
+msgstr "Laster tilgjengelige produkter, vennligst vent..."
 
 #. TRANSLATORS: page title
 #: src/components/product/ProductSelectionPage.jsx:63
 msgid "Product selection"
-msgstr ""
+msgstr "Produktutvalg"
 
 #: src/components/product/ProductSelectionPage.jsx:72
 msgid "Select"
-msgstr ""
+msgstr "Velg"
 
 #: src/components/product/ProductSelector.jsx:36
 msgid "No products available for selection"
-msgstr ""
+msgstr "Ingen produkter tilgjengelig for utvalg"
 
 #: src/components/product/ProductSelector.jsx:42
 msgid "Available products"
-msgstr ""
+msgstr "Tilgjengelige produkter"
 
 #: src/components/questions/GenericQuestion.jsx:35
 #: src/components/questions/LuksActivationQuestion.jsx:60
 msgid "Question"
-msgstr ""
+msgstr "Spørsmål"
 
 #. TRANSLATORS: error message, user entered a wrong password
 #: src/components/questions/LuksActivationQuestion.jsx:34
 msgid "Given encryption password didn't work"
-msgstr ""
+msgstr "Avgitt krypterings passord fungerte ikke"
 
 #: src/components/questions/LuksActivationQuestion.jsx:59
 msgid "Encrypted Device"
-msgstr ""
+msgstr "Kryptert Enhet"
 
 #. TRANSLATORS: field label
 #: src/components/questions/LuksActivationQuestion.jsx:69
 msgid "Encryption Password"
-msgstr ""
+msgstr "Krypteringspassord"
 
 #: src/components/software/PatternSelector.jsx:171
 msgid "Software summary and filter options"
-msgstr ""
+msgstr "Programvare oppsummering og filter alternativ"
 
 #. TRANSLATORS: page title
 #: src/components/software/SoftwarePage.jsx:80
 #: src/components/software/SoftwarePage.jsx:218
 msgid "Software selection"
-msgstr ""
+msgstr "Valg av programvare"
 
 #: src/components/software/SoftwarePage.jsx:109
 msgid "Change selection"
-msgstr ""
+msgstr "Endre valg"
 
 #: src/components/software/SoftwarePage.jsx:138
 msgid "No additional software was selected."
-msgstr ""
+msgstr "Ingen ytterligere programvare ble valgt."
 
 #: src/components/software/SoftwarePage.jsx:144
 msgid "The following software patterns are selected for installation:"
-msgstr ""
+msgstr "Følgende programvare mønstre er valgt for installasjon:"
 
 #. TRANSLATORS: %s will be replaced by the estimated installation size,
 #. example: "728.8 MiB"
 #: src/components/software/UsedSize.jsx:32
 #, c-format
 msgid "Installation will take %s"
-msgstr ""
+msgstr "Installasjonen vil ta %s"
 
 #: src/components/storage/BootConfigField.jsx:46
 msgid "Change boot options"
-msgstr ""
+msgstr "Endre oppstartalternativer"
 
 #: src/components/storage/BootConfigField.jsx:99
 msgid "Installation will not configure partitions for booting."
-msgstr ""
+msgstr "Installasjonen vil ikke konfigurere partisjoner for oppstart."
 
 #: src/components/storage/BootConfigField.jsx:101
 msgid ""
 "Installation will configure partitions for booting at the installation disk."
 msgstr ""
+"Installasjonen vil konfigurere partisjoner for oppstart på "
+"installasjonsdisken."
 
 #. TRANSLATORS: %s is the disk used to configure the boot-related partitions (eg. "/dev/sda, 80 GiB)
 #: src/components/storage/BootConfigField.jsx:104
 #, c-format
 msgid "Installation will configure partitions for booting at %s."
-msgstr ""
+msgstr "Installasjonen vil konfigurere partisjoner for oppstart på %s."
 
 #: src/components/storage/BootSelectionDialog.jsx:117
 msgid ""
 "To ensure the new system is able to boot, the installer may need to create "
 "or configure some partitions in the appropriate disk."
 msgstr ""
+"For å sikre at det nye systemet er i stand til oppstart, så må kanskje "
+"installasjonsprogrammet opprette eller konfigurere noen partisjoner på "
+"riktig disk."
 
 #: src/components/storage/BootSelectionDialog.jsx:123
 msgid "Partitions to boot will be allocated at the installation disk."
-msgstr ""
+msgstr "Partisjoner for oppstart vil bli tildelt på installasjonsdisken."
 
 #. TRANSLATORS: %s is replaced by a device name and size (e.g., "/dev/sda, 500GiB")
 #: src/components/storage/BootSelectionDialog.jsx:128
 #, c-format
 msgid "Partitions to boot will be allocated at the installation disk (%s)."
-msgstr ""
+msgstr "Partisjoner for oppstart vil bli tildelt på installasjonsdisken (%s)."
 
 #: src/components/storage/BootSelectionDialog.jsx:135
 msgid "Partitions for booting"
-msgstr ""
+msgstr "Partisjoner for oppstart"
 
 #: src/components/storage/BootSelectionDialog.jsx:144
 #: src/components/storage/iscsi/NodeStartupOptions.js:27
 msgid "Automatic"
-msgstr ""
+msgstr "Automatisk"
 
 #: src/components/storage/BootSelectionDialog.jsx:155
 #: src/components/storage/DeviceSelectionDialog.jsx:140
 msgid "Select a disk"
-msgstr ""
+msgstr "Velg en disk"
 
 #: src/components/storage/BootSelectionDialog.jsx:161
 msgid "Partitions to boot will be allocated at the following device."
-msgstr ""
+msgstr "Partisjoner for oppstart vil bli tildelt på følgende enhet."
 
 #: src/components/storage/BootSelectionDialog.jsx:164
 msgid "Choose a disk for placing the boot loader"
-msgstr ""
+msgstr "Velg en disk for å plassere oppstartslasteren"
 
 #: src/components/storage/BootSelectionDialog.jsx:176
 msgid "Do not configure"
-msgstr ""
+msgstr "Ikke konfigurer"
 
 #: src/components/storage/BootSelectionDialog.jsx:180
 msgid ""
 "No partitions will be automatically configured for booting. Use with caution."
 msgstr ""
+"Ingen partisjoner vil bli automatisk konfigurert for oppstart. Bruk med "
+"varsomhet."
 
 #: src/components/storage/DASDFormatProgress.jsx:61
 msgid "Waiting for progress report"
-msgstr ""
+msgstr "Venter på progresjons rapport"
 
 #: src/components/storage/DASDFormatProgress.jsx:69
 msgid "Formatting DASD devices"
-msgstr ""
+msgstr "Formaterer DASD enheter"
 
 #. TRANSLATORS: DASD = Direct Access Storage Device, IBM mainframe storage technology
 #: src/components/storage/DASDPage.jsx:182
 msgid "Storage DASD"
-msgstr ""
+msgstr "Lagring DASD"
 
 #: src/components/storage/DASDTable.jsx:57
 #: src/components/storage/ZFCPPage.jsx:318
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:71
 #: src/components/storage/iscsi/NodesPresenter.jsx:103
 msgid "No"
-msgstr ""
+msgstr "Nei"
 
 #: src/components/storage/DASDTable.jsx:57
 #: src/components/storage/ZFCPPage.jsx:318
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:71
 #: src/components/storage/iscsi/NodesPresenter.jsx:103
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: src/components/storage/DASDTable.jsx:64
 #: src/components/storage/ZFCPDiskForm.jsx:118
 #: src/components/storage/ZFCPPage.jsx:301
 #: src/components/storage/ZFCPPage.jsx:361
 msgid "Channel ID"
-msgstr ""
+msgstr "Kanal ID"
 
 #. TRANSLATORS: table header
 #: src/components/storage/DASDTable.jsx:65
@@ -1202,7 +1259,7 @@ msgstr ""
 #: src/components/storage/iscsi/NodesPresenter.jsx:125
 #: src/components/users/RootAuthMethods.jsx:157
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: src/components/storage/DASDTable.jsx:66
 #: src/components/storage/DeviceSelectorTable.jsx:187
@@ -1210,76 +1267,76 @@ msgstr ""
 #: src/components/storage/SpaceActionsTable.jsx:141
 #: src/components/storage/VolumeLocationSelectorTable.jsx:100
 msgid "Device"
-msgstr ""
+msgstr "Enhet"
 
 #: src/components/storage/DASDTable.jsx:67
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #. TRANSLATORS: table header, the column contains "Yes"/"No" values
 #. for the DIAG access mode (special disk access mode on IBM mainframes),
 #. usually keep untranslated
 #: src/components/storage/DASDTable.jsx:71
 msgid "DIAG"
-msgstr ""
+msgstr "DIAG"
 
 #: src/components/storage/DASDTable.jsx:72
 msgid "Formatted"
-msgstr ""
+msgstr "Formatert"
 
 #: src/components/storage/DASDTable.jsx:73
 msgid "Partition Info"
-msgstr ""
+msgstr "Partisjon Info"
 
 #. TRANSLATORS: drop down menu label
 #: src/components/storage/DASDTable.jsx:108
 msgid "Perform an action"
-msgstr ""
+msgstr "Utfør en handling"
 
 #. TRANSLATORS: drop down menu action, activate the device
 #: src/components/storage/DASDTable.jsx:114
 #: src/components/storage/ZFCPPage.jsx:332
 msgid "Activate"
-msgstr ""
+msgstr "Aktiver"
 
 #. TRANSLATORS: drop down menu action, deactivate the device
 #: src/components/storage/DASDTable.jsx:116
 #: src/components/storage/ZFCPPage.jsx:374
 msgid "Deactivate"
-msgstr ""
+msgstr "Deaktivere"
 
 #. TRANSLATORS: drop down menu action, enable DIAG access method
 #: src/components/storage/DASDTable.jsx:119
 msgid "Set DIAG On"
-msgstr ""
+msgstr "Sett DIAG på"
 
 #. TRANSLATORS: drop down menu action, disable DIAG access method
 #: src/components/storage/DASDTable.jsx:121
 msgid "Set DIAG Off"
-msgstr ""
+msgstr "Sett DIAG av"
 
 #. TRANSLATORS: drop down menu action, format the disk
 #: src/components/storage/DASDTable.jsx:124
 msgid "Format"
-msgstr ""
+msgstr "Formater"
 
 #: src/components/storage/DASDTable.jsx:201
 #: src/components/storage/DASDTable.jsx:202
 msgid "Filter by min channel"
-msgstr ""
+msgstr "Filtrer etter minimum kanal"
 
 #: src/components/storage/DASDTable.jsx:209
 msgid "Remove min channel filter"
-msgstr ""
+msgstr "Fjern minimum kanal filter"
 
 #: src/components/storage/DASDTable.jsx:222
 #: src/components/storage/DASDTable.jsx:223
 msgid "Filter by max channel"
-msgstr ""
+msgstr "Filtrer etter maksimal kanal"
 
 #: src/components/storage/DASDTable.jsx:230
 msgid "Remove max channel filter"
-msgstr ""
+msgstr "Fjern maksimal kanal filter"
 
 #. TRANSLATORS: description for using plain partitions for installing the
 #. system, the text in the square brackets [] is displayed in bold, use only
