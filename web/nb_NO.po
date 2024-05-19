@@ -2172,7 +2172,7 @@ msgstr "Velg en plassering"
 
 #: src/components/storage/VolumeLocationDialog.jsx:161
 msgid "Select how to allocate the file system"
-msgstr ""
+msgstr "Velg hvordan filsystemet skal allokeres"
 
 #: src/components/storage/VolumeLocationDialog.jsx:166
 msgid "Create a new partition"
