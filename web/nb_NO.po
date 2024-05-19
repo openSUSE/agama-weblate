@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-19 02:19+0000\n"
-"PO-Revision-Date: 2024-05-19 16:14+0000\n"
+"PO-Revision-Date: 2024-05-19 16:22+0000\n"
 "Last-Translator: Martin Hansen <mh306602@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.opensuse.org/projects/agama/"
 "agama-web/nb_NO/>\n"
@@ -2198,68 +2198,70 @@ msgstr ""
 
 #: src/components/storage/VolumeLocationDialog.jsx:186
 msgid "Format the device"
-msgstr ""
+msgstr "Formater enheten"
 
 #. TRANSLATORS: %s is replaced by a file system type (e.g., Ext4).
 #: src/components/storage/VolumeLocationDialog.jsx:189
 #, c-format
 msgid "The selected device will be formatted as %s file system."
-msgstr ""
+msgstr "Den valgte enheten vil bli formatert som %s filsystem."
 
 #: src/components/storage/VolumeLocationDialog.jsx:199
 msgid "Mount the file system"
-msgstr ""
+msgstr "Monter filsystemet"
 
 #: src/components/storage/VolumeLocationDialog.jsx:200
 msgid ""
 "The current file system on the selected device will be mounted   without "
 "formatting the device."
 msgstr ""
+"Det gjeldende filsystemet på den valgte enhet vil bli montert   uten å "
+"formatere enheten."
 
 #: src/components/storage/VolumeLocationSelectorTable.jsx:102
 msgid "Usage"
-msgstr ""
+msgstr "Bruk"
 
 #: src/components/storage/ZFCPDiskForm.jsx:113
 msgid "The zFCP disk was not activated."
-msgstr ""
+msgstr "zFCP disken ble ikke aktivert."
 
 #. TRANSLATORS: abbrev. World Wide Port Name
 #: src/components/storage/ZFCPDiskForm.jsx:129
 #: src/components/storage/ZFCPPage.jsx:362
 msgid "WWPN"
-msgstr ""
+msgstr "WWPN"
 
 #. TRANSLATORS: abbrev. Logical Unit Number
 #: src/components/storage/ZFCPDiskForm.jsx:140
 #: src/components/storage/ZFCPPage.jsx:363
 msgid "LUN"
-msgstr ""
+msgstr "LUN"
 
 #: src/components/storage/ZFCPPage.jsx:303
 msgid "Auto LUNs Scan"
-msgstr ""
+msgstr "Automatisk LUNs skanning"
 
 #: src/components/storage/ZFCPPage.jsx:314
 msgid "Activated"
-msgstr ""
+msgstr "Aktivert"
 
 #: src/components/storage/ZFCPPage.jsx:314
 msgid "Deactivated"
-msgstr ""
+msgstr "Deaktivert"
 
 #: src/components/storage/ZFCPPage.jsx:417
 msgid "No zFCP controllers found."
-msgstr ""
+msgstr "Ingen zFCP kontrollere funnet."
 
 #: src/components/storage/ZFCPPage.jsx:418
 msgid "Please, try to read the zFCP devices again."
-msgstr ""
+msgstr "Vennligst, prøv å lese zFCP enhetene igjen."
 
 #. TRANSLATORS: button label
 #: src/components/storage/ZFCPPage.jsx:420
 msgid "Read zFCP devices"
-msgstr ""
+msgstr "Les zFCP enheter"
 
 #. TRANSLATORS: the text in the square brackets [] will be displayed in bold
 #: src/components/storage/ZFCPPage.jsx:429
@@ -2267,6 +2269,8 @@ msgid ""
 "Automatic LUN scan is [enabled]. Activating a controller which is running in "
 "NPIV mode will automatically configures all its LUNs."
 msgstr ""
+"Automatisk LUN skanning er [aktivert]. Aktivering av en kontroller som "
+"kjører i NPIV modus vil automatisk konfigurere alle dens LUNs."
 
 #. TRANSLATORS: the text in the square brackets [] will be displayed in bold
 #: src/components/storage/ZFCPPage.jsx:432
@@ -2274,42 +2278,44 @@ msgid ""
 "Automatic LUN scan is [disabled]. LUNs have to be manually configured after "
 "activating a controller."
 msgstr ""
+"Automatisk LUN skanning er [deaktivert]. LUN's må være manuelt konfigurert "
+"etter å ha aktivert en kontroller."
 
 #: src/components/storage/ZFCPPage.jsx:498
 msgid "Activate a zFCP disk"
-msgstr ""
+msgstr "Aktiver en zFCP disk"
 
 #: src/components/storage/ZFCPPage.jsx:537
 msgid "Please, try to activate a zFCP controller."
-msgstr ""
+msgstr "Vennligst, prøv å aktivere en zFCP kontroller."
 
 #: src/components/storage/ZFCPPage.jsx:544
 msgid "Please, try to activate a zFCP disk."
-msgstr ""
+msgstr "Vennligst, prøv å aktivere en zFCP disk."
 
 #. TRANSLATORS: button label
 #: src/components/storage/ZFCPPage.jsx:546
 msgid "Activate zFCP disk"
-msgstr ""
+msgstr "Aktiver zFCP disk"
 
 #: src/components/storage/ZFCPPage.jsx:553
 msgid "No zFCP disks found."
-msgstr ""
+msgstr "Ingen zFCP disker funnet."
 
 #. TRANSLATORS: button label
 #: src/components/storage/ZFCPPage.jsx:572
 msgid "Activate new disk"
-msgstr ""
+msgstr "Aktiver ny disk"
 
 #. TRANSLATORS: section title
 #: src/components/storage/ZFCPPage.jsx:584
 msgid "Disks"
-msgstr ""
+msgstr "Disker"
 
 #. TRANSLATORS: page title
 #: src/components/storage/ZFCPPage.jsx:731
 msgid "Storage zFCP"
-msgstr ""
+msgstr "Lagring zFCP"
 
 #: src/components/storage/device-utils.jsx:88
 msgid "Unused space"
