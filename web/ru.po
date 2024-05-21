@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-19 02:19+0000\n"
-"PO-Revision-Date: 2024-05-19 09:46+0000\n"
+"PO-Revision-Date: 2024-05-21 22:46+0000\n"
 "Last-Translator: Aleksey Fedorov <Aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ru/>\n"
@@ -431,7 +431,7 @@ msgstr "Язык"
 
 #: src/components/l10n/InstallerLocaleSwitcher.jsx:73
 msgid "language"
-msgstr "Язык"
+msgstr "язык"
 
 #. TRANSLATORS: placeholder text for search input in the keyboard selector.
 #: src/components/l10n/KeymapSelector.jsx:53
@@ -711,7 +711,7 @@ msgstr "Сети WiFi"
 #: src/components/network/WifiConnectionForm.jsx:43
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:72
 msgid "None"
-msgstr "отсутствует"
+msgstr "Отсутствует"
 
 #. TRANSLATORS: WiFi authentication mode
 #: src/components/network/WifiConnectionForm.jsx:45
