@@ -16,15 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"POT-Creation-Date: 2024-5-21 2:17+0000\n"
-
-# TRANSLATORS: description of product "openSUSE MicroOS Desktop"
-#: microos-desktop.yaml:8
-msgid ""
-"A distribution for the desktop offering automatic updates and rollback on "
-"top of the foundations of openSUSE MicroOS. Includes Podman Container "
-"Runtime and allows to manage software using Gnome Software or KDE Discover."
-msgstr ""
+"POT-Creation-Date: 2024-5-22 2:17+0000\n"
 
 # TRANSLATORS: description of product "openSUSE MicroOS"
 #: microos.yaml:8
