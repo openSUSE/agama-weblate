@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-5-16 2:17+0000\n"
+"POT-Creation-Date: 2024-5-22 2:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -16,14 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-
-# TRANSLATORS: description of product "openSUSE MicroOS Desktop"
-#: microos-desktop.yaml:8
-msgid ""
-"A distribution for the desktop offering automatic updates and rollback on "
-"top of the foundations of openSUSE MicroOS. Includes Podman Container "
-"Runtime and allows to manage software using Gnome Software or KDE Discover."
-msgstr ""
 
 # TRANSLATORS: description of product "openSUSE MicroOS"
 #: microos.yaml:8
