@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-26 02:22+0000\n"
-"PO-Revision-Date: 2024-05-19 20:46+0000\n"
+"PO-Revision-Date: 2024-05-26 21:46+0000\n"
 "Last-Translator: Martin Hansen <mh306602@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.opensuse.org/projects/agama/"
 "agama-web/nb_NO/>\n"
@@ -1118,7 +1118,7 @@ msgstr "Krypteringspassord"
 
 #: src/components/software/PatternSelector.jsx:171
 msgid "None of the patterns match the filter."
-msgstr ""
+msgstr "Ingen av mønstrene passer sammen med filteret."
 
 #: src/components/software/PatternSelector.jsx:177
 msgid "Software summary and filter options"
