@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-19 02:19+0000\n"
+"POT-Creation-Date: 2024-05-26 02:22+0000\n"
 "PO-Revision-Date: 2024-05-21 19:46+0000\n"
 "Last-Translator: Monstorix <monstorix@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.opensuse.org/projects/"
@@ -161,7 +161,8 @@ msgid ""
 "automatically open encrypted devices will take place during the first boot "
 "of the new system. For that to work, the machine needs to boot directly to "
 "the new boot loader."
-msgstr "配置可信平台模块 (TPM) 以自动开启加密设备的最后一步将在新系统首次启动时进行。"
+msgstr ""
+"配置可信平台模块 (TPM) 以自动开启加密设备的最后一步将在新系统首次启动时进行。"
 "为此，本机需要直接启动到新的引导加载程序。"
 
 #. TRANSLATORS: page title
@@ -199,8 +200,8 @@ msgstr "正在安装"
 
 #. TRANSLATORS: search field placeholder text
 #: src/components/core/ListSearch.jsx:50
-#: src/components/software/PatternSelector.jsx:174
-#: src/components/software/PatternSelector.jsx:175
+#: src/components/software/PatternSelector.jsx:180
+#: src/components/software/PatternSelector.jsx:181
 msgid "Search"
 msgstr "搜索"
 
@@ -1071,6 +1072,10 @@ msgid "Encryption Password"
 msgstr "加密密码"
 
 #: src/components/software/PatternSelector.jsx:171
+msgid "None of the patterns match the filter."
+msgstr ""
+
+#: src/components/software/PatternSelector.jsx:177
 msgid "Software summary and filter options"
 msgstr "软件概述与过滤选项"
 
