@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-26 02:22+0000\n"
-"PO-Revision-Date: 2024-05-07 14:43+0000\n"
+"PO-Revision-Date: 2024-05-26 05:46+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: src/components/core/About.jsx:49 src/components/core/About.jsx:69
 msgid "About Agama"
@@ -1119,7 +1119,7 @@ msgstr "Krypteringslösenord"
 
 #: src/components/software/PatternSelector.jsx:171
 msgid "None of the patterns match the filter."
-msgstr ""
+msgstr "Inget av mönstren matchar filtret."
 
 #: src/components/software/PatternSelector.jsx:177
 msgid "Software summary and filter options"
