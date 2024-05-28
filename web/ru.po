@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-26 02:22+0000\n"
-"PO-Revision-Date: 2024-05-21 22:46+0000\n"
+"PO-Revision-Date: 2024-05-28 15:46+0000\n"
 "Last-Translator: Aleksey Fedorov <Aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ru/>\n"
@@ -1131,7 +1131,7 @@ msgstr "Пароль шифрования"
 
 #: src/components/software/PatternSelector.jsx:171
 msgid "None of the patterns match the filter."
-msgstr ""
+msgstr "Ни один из шаблонов не соответствует фильтру."
 
 #: src/components/software/PatternSelector.jsx:177
 msgid "Software summary and filter options"
