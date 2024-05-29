@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-26 02:22+0000\n"
+"POT-Creation-Date: 2024-05-29 02:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,25 +46,6 @@ msgstr ""
 #: src/components/software/SoftwarePage.jsx:90
 #: src/components/storage/ProposalActionsDialog.jsx:98
 msgid "Close"
-msgstr ""
-
-#. TRANSLATORS: page title
-#: src/components/core/DBusError.jsx:34
-msgid "D-Bus Error"
-msgstr ""
-
-#: src/components/core/DBusError.jsx:38
-msgid "Cannot connect to D-Bus"
-msgstr ""
-
-#: src/components/core/DBusError.jsx:43
-msgid ""
-"Could not connect to the D-Bus service. Please, check whether it is running."
-msgstr ""
-
-#. TRANSLATORS: button label
-#: src/components/core/DBusError.jsx:51
-msgid "Reload"
 msgstr ""
 
 #: src/components/core/FileViewer.jsx:66
@@ -306,6 +287,24 @@ msgstr ""
 
 #: src/components/core/Selector.jsx:126
 msgid "auto selected"
+msgstr ""
+
+#. TRANSLATORS: page title
+#: src/components/core/ServerError.jsx:34
+msgid "Agama Error"
+msgstr ""
+
+#: src/components/core/ServerError.jsx:38
+msgid "Cannot connect to Agama server"
+msgstr ""
+
+#: src/components/core/ServerError.jsx:43
+msgid "Please, check whether it is running."
+msgstr ""
+
+#. TRANSLATORS: button label
+#: src/components/core/ServerError.jsx:51
+msgid "Reload"
 msgstr ""
 
 #. TRANSLATORS: button label
