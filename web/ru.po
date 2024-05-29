@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-29 02:21+0000\n"
-"PO-Revision-Date: 2024-05-28 15:46+0000\n"
+"PO-Revision-Date: 2024-05-29 13:46+0000\n"
 "Last-Translator: Aleksey Fedorov <Aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ru/>\n"
@@ -321,19 +321,15 @@ msgstr "автоматический выбор"
 #. TRANSLATORS: page title
 #: src/components/core/ServerError.jsx:34
 msgid "Agama Error"
-msgstr ""
+msgstr "Сбой Agama"
 
 #: src/components/core/ServerError.jsx:38
-#, fuzzy
 msgid "Cannot connect to Agama server"
-msgstr "Не удалось подключиться к службе D-Bus"
+msgstr "Не удалось подключиться к серверу Agama"
 
 #: src/components/core/ServerError.jsx:43
-#, fuzzy
 msgid "Please, check whether it is running."
-msgstr ""
-"Не удалось подключиться к службе D-Bus. Пожалуйста, проверьте, запущена ли "
-"она."
+msgstr "Пожалуйста, проверьте, запущен ли он."
 
 #. TRANSLATORS: button label
 #: src/components/core/ServerError.jsx:51
