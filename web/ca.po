@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-29 02:21+0000\n"
-"PO-Revision-Date: 2024-05-27 12:46+0000\n"
+"PO-Revision-Date: 2024-05-30 10:46+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ca/>\n"
@@ -319,19 +319,15 @@ msgstr "seleccionat automàticament"
 #. TRANSLATORS: page title
 #: src/components/core/ServerError.jsx:34
 msgid "Agama Error"
-msgstr ""
+msgstr "Error de l'Agama"
 
 #: src/components/core/ServerError.jsx:38
-#, fuzzy
 msgid "Cannot connect to Agama server"
-msgstr "No es pot connectar amb el servidor Cockpit."
+msgstr "No es pot connectar amb el servidor d'Agama."
 
 #: src/components/core/ServerError.jsx:43
-#, fuzzy
 msgid "Please, check whether it is running."
-msgstr ""
-"No s'ha pogut connectar amb el servei D-Bus. Si us plau, comproveu si "
-"s'executa."
+msgstr "Si us plau, comproveu si s'executa."
 
 #. TRANSLATORS: button label
 #: src/components/core/ServerError.jsx:51
