@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-29 02:21+0000\n"
-"PO-Revision-Date: 2024-05-27 12:46+0000\n"
+"PO-Revision-Date: 2024-05-30 06:46+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -316,19 +316,15 @@ msgstr "自動選択済み"
 #. TRANSLATORS: page title
 #: src/components/core/ServerError.jsx:34
 msgid "Agama Error"
-msgstr ""
+msgstr "Agama エラー"
 
 #: src/components/core/ServerError.jsx:38
-#, fuzzy
 msgid "Cannot connect to Agama server"
-msgstr "Cockpit サーバに接続できません"
+msgstr "Agama サーバに接続できません"
 
 #: src/components/core/ServerError.jsx:43
-#, fuzzy
 msgid "Please, check whether it is running."
-msgstr ""
-"D-Bus サービスに接続できませんでした。 D-Bus サービスが動作中かどうかをご確認"
-"ください。"
+msgstr "問題なく動作しているかどうかご確認ください。"
 
 #. TRANSLATORS: button label
 #: src/components/core/ServerError.jsx:51
