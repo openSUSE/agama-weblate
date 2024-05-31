@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-29 02:21+0000\n"
-"PO-Revision-Date: 2024-05-26 21:46+0000\n"
+"PO-Revision-Date: 2024-05-31 06:46+0000\n"
 "Last-Translator: Martin Hansen <mh306602@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.opensuse.org/projects/agama/"
 "agama-web/nb_NO/>\n"
@@ -315,17 +315,15 @@ msgstr "Automatisk valgt"
 #. TRANSLATORS: page title
 #: src/components/core/ServerError.jsx:34
 msgid "Agama Error"
-msgstr ""
+msgstr "Agama Feil"
 
 #: src/components/core/ServerError.jsx:38
-#, fuzzy
 msgid "Cannot connect to Agama server"
-msgstr "Kan ikke koble til D-Bus"
+msgstr "Kan ikke koble til Agama server"
 
 #: src/components/core/ServerError.jsx:43
-#, fuzzy
 msgid "Please, check whether it is running."
-msgstr "Kunne ikke koble til D-Bus tjenesten. Vennligst, sjekk om den kjører."
+msgstr "Vennligst, sjekk om den kjører."
 
 #. TRANSLATORS: button label
 #: src/components/core/ServerError.jsx:51
