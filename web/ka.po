@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-29 02:21+0000\n"
-"PO-Revision-Date: 2024-04-17 18:43+0000\n"
+"PO-Revision-Date: 2024-06-01 03:46+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ka/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: src/components/core/About.jsx:49 src/components/core/About.jsx:69
 msgid "About Agama"
@@ -779,11 +779,11 @@ msgstr ""
 #. TRANSLATORS: header for the list of connected devices,
 #. %d is replaced by the number of active devices
 #: src/components/overview/NetworkSection.jsx:103
-#, fuzzy, c-format
+#, c-format
 msgid "%d device set:"
 msgid_plural "%d devices set:"
-msgstr[0] "მომხმარებლის მოწყობილობები"
-msgstr[1] "მომხმარებლის მოწყობილობები"
+msgstr[0] "%d მოწყობილობა დაყენებულია:"
+msgstr[1] "%d მოწყობილობა დაყენებულია:"
 
 #. TRANSLATORS: page title
 #: src/components/overview/OverviewPage.jsx:48
@@ -2552,7 +2552,7 @@ msgstr ""
 #: src/components/users/RootAuthMethods.jsx:99
 #: src/components/users/RootAuthMethods.jsx:111
 msgid "Discard"
-msgstr "გაუქმება"
+msgstr "მოცილება"
 
 #: src/components/users/FirstUser.jsx:275
 msgid "Create user account"
