@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-09 02:25+0000\n"
-"PO-Revision-Date: 2024-05-29 13:46+0000\n"
+"PO-Revision-Date: 2024-06-09 10:23+0000\n"
 "Last-Translator: Aleksey Fedorov <Aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ru/>\n"
@@ -211,7 +211,7 @@ msgstr ""
 
 #: src/components/core/LoginPage.jsx:55
 msgid "Could not authenticate against the server, please check it."
-msgstr ""
+msgstr "Не удалось пройти аутентификацию на сервере, пожалуйста, проверьте его."
 
 #. TRANSLATORS: Title for a form to provide the password for the root user. %s
 #. will be replaced by "root"
