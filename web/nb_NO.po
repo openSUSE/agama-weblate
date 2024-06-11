@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-09 02:25+0000\n"
-"PO-Revision-Date: 2024-05-31 06:46+0000\n"
+"PO-Revision-Date: 2024-06-11 23:37+0000\n"
 "Last-Translator: Martin Hansen <mh306602@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.opensuse.org/projects/agama/"
 "agama-web/nb_NO/>\n"
@@ -206,7 +206,7 @@ msgstr "Kunne ikke logge på, Vennligst, sjekk at passordet er korrekt."
 
 #: src/components/core/LoginPage.jsx:55
 msgid "Could not authenticate against the server, please check it."
-msgstr ""
+msgstr "Kunne ikke autentisere mot serveren, vennligst sjekk det."
 
 #. TRANSLATORS: Title for a form to provide the password for the root user. %s
 #. will be replaced by "root"
