@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-09 02:25+0000\n"
-"PO-Revision-Date: 2023-12-31 20:39+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-06-13 20:46+0000\n"
+"Last-Translator: Rodrigo Macedo <sottomaiormacedotec@sottomaiormacedo.tech>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.opensuse.org/projects/agama/"
 "agama-web/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: src/components/core/About.jsx:49 src/components/core/About.jsx:69
 msgid "About Agama"
@@ -129,22 +129,23 @@ msgstr "Instalar"
 
 #: src/components/core/InstallationFinished.jsx:41
 msgid "TPM sealing requires the new system to be booted directly."
-msgstr ""
+msgstr "A vedação TPM exige que o novo sistema seja inicializado diretamente."
 
 #: src/components/core/InstallationFinished.jsx:46
 msgid ""
 "If a local media was used to run this installer, remove it before the next "
 "boot."
 msgstr ""
+"Se uma mídia local foi usada para executar este instalador, remova-a antes "
+"da próxima inicialização."
 
 #: src/components/core/InstallationFinished.jsx:50
-#, fuzzy
 msgid "Hide details"
-msgstr "Detalhes"
+msgstr "Ocultar Detalhes"
 
 #: src/components/core/InstallationFinished.jsx:50
 msgid "See more details"
-msgstr ""
+msgstr "Ver mais detalhes"
 
 #. TRANSLATORS: "Trusted Platform Module" is the name of the technology and "TPM" its abbreviation
 #: src/components/core/InstallationFinished.jsx:54
@@ -154,6 +155,10 @@ msgid ""
 "of the new system. For that to work, the machine needs to boot directly to "
 "the new boot loader."
 msgstr ""
+"A etapa final para configurar o Trusted Platform Module (TPM) para abrir "
+"automaticamente dispositivos criptografados ocorrerá durante a primeira "
+"inicialização do novo sistema. Para que isso funcione, a máquina precisa "
+"inicializar diretamente no novo gerenciador de boot."
 
 #. TRANSLATORS: page title
 #: src/components/core/InstallationFinished.jsx:91
@@ -197,18 +202,18 @@ msgstr "Pesquisar"
 
 #: src/components/core/LoginPage.jsx:53
 msgid "Could not log in. Please, make sure that the password is correct."
-msgstr ""
+msgstr "Não foi possível fazer login. Verifique se a senha está correta."
 
 #: src/components/core/LoginPage.jsx:55
 msgid "Could not authenticate against the server, please check it."
-msgstr ""
+msgstr "Não foi possível autenticar no servidor, verifique."
 
 #. TRANSLATORS: Title for a form to provide the password for the root user. %s
 #. will be replaced by "root"
 #: src/components/core/LoginPage.jsx:63
 #, c-format
 msgid "Log in as %s"
-msgstr ""
+msgstr "Faça login como %s"
 
 #. TRANSLATORS: An explanation about required privileges for login into the installer. %s
 #. will be replaced by "root"
@@ -218,6 +223,8 @@ msgid ""
 "The installer requires %s user privileges. Please, provide its password to "
 "log in to the system."
 msgstr ""
+"O instalador requer privilégios de usuário %s. Por favor, forneça sua senha "
+"para fazer login no sistema."
 
 #: src/components/core/LoginPage.jsx:79
 #, fuzzy
@@ -231,11 +238,11 @@ msgstr "Senha"
 
 #: src/components/core/LoginPage.jsx:100
 msgid "Log in"
-msgstr ""
+msgstr "Faça login"
 
 #: src/components/core/LoginPage.jsx:111
 msgid "What is this?"
-msgstr ""
+msgstr "O que é isto?"
 
 #: src/components/core/LogsButton.jsx:101
 msgid "Collecting logs..."
@@ -316,7 +323,7 @@ msgstr "não selecionado"
 #. TRANSLATORS: page title
 #: src/components/core/ServerError.jsx:34
 msgid "Agama Error"
-msgstr ""
+msgstr "Erro Agama"
 
 #: src/components/core/ServerError.jsx:38
 #, fuzzy
@@ -405,7 +412,7 @@ msgstr "Teclado"
 #. TRANSLATORS:
 #: src/components/l10n/InstallerKeymapSwitcher.jsx:70
 msgid "Keyboard layout cannot be changed in remote installation"
-msgstr ""
+msgstr "O layout do teclado não pode ser alterado na instalação remota"
 
 #. TRANSLATORS: help text for the language selector in the sidebar,
 #. %s will be replaced by the "Localization" page link
@@ -415,6 +422,8 @@ msgid ""
 "The language used by the installer. The language for the installed system "
 "can be set in the %s page."
 msgstr ""
+"O idioma usado pelo instalador. O idioma do sistema instalado pode ser "
+"definido na página %s."
 
 #. TRANSLATORS: page section
 #. TRANSLATORS: page title
@@ -436,11 +445,11 @@ msgstr "idioma"
 #. TRANSLATORS: placeholder text for search input in the keyboard selector.
 #: src/components/l10n/KeymapSelector.jsx:53
 msgid "Filter by description or keymap code"
-msgstr ""
+msgstr "Filtrar por descrição ou código do mapa de teclado"
 
 #: src/components/l10n/KeymapSelector.jsx:64
 msgid "Available keymaps"
-msgstr ""
+msgstr "Mapas de teclado disponíveis"
 
 #: src/components/l10n/L10nPage.jsx:66 src/components/l10n/L10nPage.jsx:140
 msgid "Select time zone"
@@ -779,7 +788,7 @@ msgstr "Desconectando"
 
 #: src/components/network/WifiNetworkListItem.jsx:49
 msgid "Failed"
-msgstr ""
+msgstr "Falhou"
 
 #. TRANSLATORS: iSCSI connection status
 #. TRANSLATORS: Wifi network status
@@ -860,6 +869,9 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group shrinking "
 "existing partitions at the underlying devices as needed"
 msgstr ""
+"Instalar em um novo grupo de volumes do Logical Volume Manager (LVM), "
+"reduzindo as partições existentes nos dispositivos subjacentes conforme "
+"necessário"
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:56
@@ -867,6 +879,8 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group without modifying "
 "the partitions at the underlying devices"
 msgstr ""
+"Instalar em um novo grupo de volumes do Logical Volume Manager (LVM) sem "
+"modificar as partições nos dispositivos subjacentes"
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:59
@@ -874,6 +888,8 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group deleting all the "
 "content of the underlying devices"
 msgstr ""
+"Instalar em um novo grupo de volumes do Logical Volume Manager (LVM) "
+"excluindo todo o conteúdo dos dispositivos subjacentes"
 
 #. TRANSLATORS: installing on an LVM with multiple physical partitions/disks
 #: src/components/overview/StorageSection.jsx:62
@@ -881,6 +897,9 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group using a custom "
 "strategy to find the needed space at the underlying devices"
 msgstr ""
+"Instalar em um novo grupo de volumes do Logical Volume Manager (LVM) usando "
+"uma estratégia customizada para encontrar o espaço necessário nos "
+"dispositivos subjacentes"
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
@@ -890,6 +909,8 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s shrinking "
 "existing partitions as needed"
 msgstr ""
+"Instale em um novo grupo de volumes do Logical Volume Manager (LVM) em %s, "
+"reduzindo as partições existentes conforme necessário"
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
@@ -899,6 +920,8 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s without "
 "modifying existing partitions"
 msgstr ""
+"Instalar em um novo grupo de volumes do Logical Volume Manager (LVM) em %s "
+"sem modificar as partições existentes"
 
 #. TRANSLATORS: installing on an LVM with a single physical partition/disk,
 #. %s will be replaced by a device name and its size (eg. "/dev/sda, 20 GiB")
@@ -917,6 +940,8 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s using a "
 "custom strategy to find the needed space"
 msgstr ""
+"Instale em um novo grupo de volumes do Logical Volume Manager (LVM) em %s "
+"usando uma estratégia personalizada para encontrar o espaço necessário"
 
 #: src/components/overview/StorageSection.jsx:130
 #: src/components/storage/InstallationDeviceField.jsx:62
@@ -929,13 +954,15 @@ msgstr "Nenhum dispositivo selecionado ainda"
 #, c-format
 msgid "Install using device %s shrinking existing partitions as needed"
 msgstr ""
+"Instale usando o dispositivo %s, reduzindo as partições existentes conforme "
+"necessário"
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
 #: src/components/overview/StorageSection.jsx:141
 #, c-format
 msgid "Install using device %s without modifying existing partitions"
-msgstr ""
+msgstr "Instalar usando o dispositivo %s sem modificar as partições existentes"
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
@@ -950,10 +977,12 @@ msgstr "Instalar usando o dispositivo %s e excluindo todo o seu conteúdo"
 #, c-format
 msgid "Install using device %s with a custom strategy to find the needed space"
 msgstr ""
+"Instale usando o dispositivo %s com uma estratégia personalizada para "
+"encontrar o espaço necessário"
 
 #: src/components/overview/StorageSection.jsx:167
 msgid "Probing storage devices"
-msgstr ""
+msgstr "Sondando dispositivos de armazenamento"
 
 #. TRANSLATORS: page section title
 #. TRANSLATORS: Storage page title
@@ -974,11 +1003,11 @@ msgstr "Nenhum usuário definido ainda"
 
 #: src/components/overview/UsersSection.jsx:101
 msgid "Root authentication set for using both, password and public SSH Key"
-msgstr ""
+msgstr "Autenticação raiz definida para usar senha e chave SSH pública"
 
 #: src/components/overview/UsersSection.jsx:102
 msgid "No root authentication method defined"
-msgstr ""
+msgstr "Nenhum método de autenticação raiz definido"
 
 #: src/components/overview/UsersSection.jsx:103
 msgid "Root authentication set for using password"
@@ -2492,85 +2521,92 @@ msgstr ""
 #: src/components/storage/utils.js:78
 msgid "All partitions will be removed and any data in the disks will be lost."
 msgstr ""
+"Todas as partições serão removidas e todos os dados nos discos serão "
+"perdidos."
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space deleting all content[...]"
 #: src/components/storage/utils.js:82
 msgid "deleting all content of the installation device"
-msgstr ""
+msgstr "excluindo todo o conteúdo do dispositivo de instalação"
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space deleting all content[...]"
 #: src/components/storage/utils.js:85
 #, c-format
 msgid "deleting all content of the %d selected disks"
-msgstr ""
+msgstr "excluindo todo o conteúdo dos %d discos selecionados"
 
 #: src/components/storage/utils.js:90
 msgid "Shrink existing partitions"
-msgstr ""
+msgstr "Diminuir partições existentes"
 
 #: src/components/storage/utils.js:91
 msgid "The data is kept, but the current partitions will be resized as needed."
 msgstr ""
+"Os dados são mantidos, mas as partições atuais serão redimensionadas "
+"conforme necessário."
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space shrinking partitions[...]"
 #: src/components/storage/utils.js:95
 msgid "shrinking partitions of the installation device"
-msgstr ""
+msgstr "diminuindo partições do dispositivo de instalação"
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space shrinking partitions[...]"
 #: src/components/storage/utils.js:98
 #, c-format
 msgid "shrinking partitions of the %d selected disks"
-msgstr ""
+msgstr "diminuindo as partições dos %d discos selecionados"
 
 #: src/components/storage/utils.js:103
 msgid "Use available space"
-msgstr ""
+msgstr "Utilize o espaço disponível"
 
 #: src/components/storage/utils.js:104
 msgid ""
 "The data is kept. Only the space not assigned to any partition will be used."
 msgstr ""
+"Os dados são mantidos. Somente o espaço não atribuído a nenhuma partição "
+"será utilizado."
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space without modifying any partition".
 #: src/components/storage/utils.js:108
 msgid "without modifying any partition"
-msgstr ""
+msgstr "sem modificar nenhuma partição"
 
 #: src/components/storage/utils.js:113
 msgid "Custom"
-msgstr ""
+msgstr "Personalizado"
 
 #: src/components/storage/utils.js:114
 msgid "Select what to do with each partition."
-msgstr ""
+msgstr "Selecione o que fazer com cada partição."
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space performing a custom set of actions".
 #: src/components/storage/utils.js:118
 msgid "performing a custom set of actions"
-msgstr ""
+msgstr "executando um conjunto personalizado de ações"
 
 #: src/components/users/FirstUser.jsx:50
-#, fuzzy
 msgid "No user defined yet."
-msgstr "Nenhum usuário definido ainda"
+msgstr "Nenhum usuário definido ainda."
 
 #: src/components/users/FirstUser.jsx:53
 msgid ""
 "Please, be aware that a user must be defined before installing the system to "
 "be able to log into it."
 msgstr ""
+"Por favor, esteja ciente de que um usuário deve ser definido antes de "
+"instalar o sistema para poder fazer login nele."
 
 #. TRANSLATORS: push button label
 #: src/components/users/FirstUser.jsx:57
 msgid "Define a user now"
-msgstr ""
+msgstr "Defina um usuário agora"
 
 #: src/components/users/FirstUser.jsx:67 src/components/users/FirstUser.jsx:284
 msgid "Full name"
@@ -2584,12 +2620,12 @@ msgstr "Nome de usuário"
 
 #: src/components/users/FirstUser.jsx:88
 msgid "Username suggestion dropdown"
-msgstr ""
+msgstr "Menu suspenso de sugestões de nome de usuário"
 
 #. TRANSLATORS: dropdown username suggestions
 #: src/components/users/FirstUser.jsx:103
 msgid "Use suggested username"
-msgstr ""
+msgstr "Use o nome de usuário sugerido"
 
 #: src/components/users/FirstUser.jsx:216
 #: src/components/users/RootAuthMethods.jsx:99
@@ -2603,47 +2639,49 @@ msgstr "Criar conta de usuário"
 
 #: src/components/users/FirstUser.jsx:275
 msgid "Edit user account"
-msgstr ""
+msgstr "Editar conta de usuário"
 
 #: src/components/users/FirstUser.jsx:288
 #: src/components/users/FirstUser.jsx:290
 msgid "User full name"
-msgstr ""
+msgstr "Nome completo do usuário"
 
 #. TRANSLATORS: check box label
 #: src/components/users/FirstUser.jsx:329
 #: src/components/users/FirstUser.jsx:333
 msgid "Edit password too"
-msgstr ""
+msgstr "Edite a senha também"
 
 #: src/components/users/FirstUser.jsx:346
 msgid "user autologin"
-msgstr ""
+msgstr "login automático do usuário"
 
 #. TRANSLATORS: check box label
 #: src/components/users/FirstUser.jsx:350
 msgid "Auto-login"
-msgstr ""
+msgstr "Login automático"
 
 #: src/components/users/RootAuthMethods.jsx:35
 msgid "No root authentication method defined yet."
-msgstr ""
+msgstr "Nenhum método de autenticação raiz definido ainda."
 
 #: src/components/users/RootAuthMethods.jsx:38
 msgid ""
 "Please, define at least one authentication method for logging into the "
 "system as root."
 msgstr ""
+"Por favor, defina pelo menos um método de autenticação para fazer login no "
+"sistema como root."
 
 #. TRANSLATORS: push button label
 #: src/components/users/RootAuthMethods.jsx:43
 msgid "Set a password"
-msgstr ""
+msgstr "Defina uma senha"
 
 #. TRANSLATORS: push button label
 #: src/components/users/RootAuthMethods.jsx:45
 msgid "Upload a SSH Public Key"
-msgstr ""
+msgstr "Carregar uma chave pública SSH"
 
 #: src/components/users/RootAuthMethods.jsx:94
 #: src/components/users/RootAuthMethods.jsx:107
@@ -2675,35 +2713,35 @@ msgstr "Chave SSH"
 
 #: src/components/users/RootAuthMethods.jsx:187
 msgid "Change the root password"
-msgstr ""
+msgstr "Alterar a senha do root"
 
 #: src/components/users/RootAuthMethods.jsx:187
 msgid "Set a root password"
-msgstr ""
+msgstr "Defina uma senha root"
 
 #: src/components/users/RootAuthMethods.jsx:194
 msgid "Add a SSH Public Key for root"
-msgstr ""
+msgstr "Adicione uma chave pública SSH para root"
 
 #: src/components/users/RootAuthMethods.jsx:194
 msgid "Edit the SSH Public Key for root"
-msgstr ""
+msgstr "Edite a chave pública SSH para root"
 
 #: src/components/users/RootPasswordPopup.jsx:42
 msgid "Root password"
-msgstr ""
+msgstr "Senha root"
 
 #: src/components/users/RootSSHKeyPopup.jsx:43
 msgid "Set root SSH public key"
-msgstr ""
+msgstr "Definir chave pública SSH raiz"
 
 #: src/components/users/RootSSHKeyPopup.jsx:71
 msgid "Root SSH public key"
-msgstr ""
+msgstr "Chave pública SSH raiz"
 
 #: src/components/users/RootSSHKeyPopup.jsx:76
 msgid "Upload, paste, or drop an SSH public key"
-msgstr ""
+msgstr "Carregar, colar ou descartar uma chave pública SSH"
 
 #. TRANSLATORS: push button label
 #: src/components/users/RootSSHKeyPopup.jsx:78
