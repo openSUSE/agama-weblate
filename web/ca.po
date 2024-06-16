@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-16 02:26+0000\n"
-"PO-Revision-Date: 2024-06-10 08:19+0000\n"
+"PO-Revision-Date: 2024-06-16 15:46+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ca/>\n"
@@ -20,18 +20,16 @@ msgstr ""
 "X-Generator: Weblate 5.5.5\n"
 
 #: src/MainLayout.jsx:40
-#, fuzzy
 msgid "Agama"
-msgstr "Quant a Agama"
+msgstr "Agama"
 
 #: src/MainLayout.jsx:82
 msgid "Change product"
 msgstr "Canvia el producte"
 
 #: src/components/core/About.jsx:49
-#, fuzzy
 msgid "About"
-msgstr "Quant a Agama"
+msgstr "Quant a"
 
 #: src/components/core/About.jsx:71
 msgid "About Agama"
@@ -166,12 +164,10 @@ msgid "Reboot"
 msgstr "Reinicia"
 
 #: src/components/core/InstallerOptions.jsx:57
-#, fuzzy
 msgid "Show installer options"
-msgstr "Amaga les opcions de l'instal·lador"
+msgstr "Mostra les opcions de l'instal·lador"
 
 #: src/components/core/InstallerOptions.jsx:62
-#, fuzzy
 msgid "Installer options"
 msgstr "Opcions de l'instal·lador"
 
