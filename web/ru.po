@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-16 02:26+0000\n"
-"PO-Revision-Date: 2024-06-17 12:46+0000\n"
+"PO-Revision-Date: 2024-06-18 15:46+0000\n"
 "Last-Translator: Alex Minton <alex239@gmail.com>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ru/>\n"
@@ -171,7 +171,7 @@ msgstr "Показать параметры установки"
 
 #: src/components/core/InstallerOptions.jsx:62
 msgid "Installer options"
-msgstr "Параметры установки"
+msgstr "Параметры установщика"
 
 #: src/components/core/IssuesHint.jsx:34
 msgid ""
@@ -742,6 +742,8 @@ msgid ""
 "These are the most relevant installation settings. Feel free to browse the "
 "sections in the menu for further details."
 msgstr ""
+"Это наиболее актуальные настройки установки. Более подробные сведения "
+"приведены в разделах меню."
 
 #: src/components/overview/SoftwareSection.jsx:60
 msgid "The installation will take"
@@ -941,7 +943,7 @@ msgstr "Выбор программного обеспечения"
 #: src/components/software/SoftwarePatternsSelection.jsx:241
 #: src/components/software/SoftwarePatternsSelection.jsx:242
 msgid "Filter by pattern title or description"
-msgstr ""
+msgstr "Фильтр по названию или описанию шаблона"
 
 #. TRANSLATORS: %s will be replaced by the estimated installation size,
 #. example: "728.8 MiB"
@@ -952,7 +954,7 @@ msgstr "Установка займёт %s."
 
 #: src/components/software/UsedSize.jsx:38
 msgid "This space includes the base system and the selected software patterns."
-msgstr ""
+msgstr "В этот объём входят основная система и выбранные шаблоны ПО."
 
 #: src/components/storage/BootConfigField.jsx:43
 msgid "Change boot options"
@@ -1140,9 +1142,8 @@ msgid "Remove max channel filter"
 msgstr "Удалить фильтр по максимальному каналу"
 
 #: src/components/storage/DeviceSelection.jsx:101
-#, fuzzy
 msgid "Loading data, please wait a second..."
-msgstr "Загрузка доступных продуктов, пожалуйста, подождите..."
+msgstr "Загрузка данных, пожалуйста, подождите..."
 
 #. TRANSLATORS: description for using plain partitions for installing the
 #. system, the text in the square brackets [] is displayed in bold, use only
@@ -1169,24 +1170,20 @@ msgstr ""
 "требованию как новые разделы на выбранных устройствах."
 
 #: src/components/storage/DeviceSelection.jsx:149
-#, fuzzy
 msgid "Select installation device"
-msgstr "Устройство для установки"
+msgstr "Выберите устройство для установки"
 
 #: src/components/storage/DeviceSelection.jsx:155
-#, fuzzy
 msgid "Install new system on"
-msgstr "Параметры установки"
+msgstr "Установить новую систему на"
 
 #: src/components/storage/DeviceSelection.jsx:158
-#, fuzzy
 msgid "An existing disk"
-msgstr "Уменьшение существующих разделов"
+msgstr "существующий диск"
 
 #: src/components/storage/DeviceSelection.jsx:167
-#, fuzzy
 msgid "A new LVM Volume Group"
-msgstr "новая группа томов LVM"
+msgstr "новую группу томов LVM"
 
 #: src/components/storage/DeviceSelection.jsx:192
 msgid "Device selector for target disk"
@@ -1201,7 +1198,6 @@ msgid "Prepare more devices by configuring advanced"
 msgstr "Подготовьте больше устройств, настроив расширенные"
 
 #: src/components/storage/DeviceSelection.jsx:229
-#, fuzzy
 msgid "storage techs"
 msgstr "технологии хранения"
 
@@ -1312,13 +1308,12 @@ msgid "Encryption"
 msgstr "Шифрование"
 
 #: src/components/storage/EncryptionField.jsx:39
-#, fuzzy
 msgid ""
 "Protection for the information stored at the device, including data, "
 "programs, and system files."
 msgstr ""
-"Полнодисковое шифрование (FDE) позволяет защитить информацию, хранящуюся на "
-"устройстве, включая данные, программы и системные файлы."
+"Защита информации, хранящейся на устройстве, включая данные, программы и "
+"системные файлы."
 
 #: src/components/storage/EncryptionField.jsx:42
 msgid "disabled"
@@ -1333,13 +1328,12 @@ msgid "using TPM unlocking"
 msgstr "используя разблокировку TPM"
 
 #: src/components/storage/EncryptionField.jsx:58
-#, fuzzy
 msgid "Enable"
-msgstr "включено"
+msgstr "Включить"
 
 #: src/components/storage/EncryptionField.jsx:58
 msgid "Modify"
-msgstr ""
+msgstr "Изменить"
 
 #: src/components/storage/EncryptionSettingsDialog.jsx:37
 msgid ""
@@ -1380,9 +1374,8 @@ msgstr "Устройство для установки"
 
 #. TRANSLATORS: The storage "Installation device" field's description.
 #: src/components/storage/InstallationDeviceField.jsx:42
-#, fuzzy
 msgid "Main disk or LVM Volume Group for installation."
-msgstr "Выберите основной диск или группу томов LVM для установки."
+msgstr "Основной диск или группа томов LVM для установки."
 
 #. TRANSLATORS: %s is the installation disk (eg. "/dev/sda, 80 GiB)
 #: src/components/storage/InstallationDeviceField.jsx:56
@@ -1391,15 +1384,14 @@ msgid "File systems created as new partitions at %s"
 msgstr "Файловые системы созданы как новые разделы на %s"
 
 #: src/components/storage/InstallationDeviceField.jsx:59
-#, fuzzy
 msgid "File systems created at a new LVM volume group"
-msgstr "Выбор устройств для новой группы томов LVM"
+msgstr "Файловые системы созданы в новой группе томов LVM"
 
 #. TRANSLATORS: %s is the disk used for the LVM physical volumes (eg. "/dev/sda, 80 GiB)
 #: src/components/storage/InstallationDeviceField.jsx:63
-#, fuzzy, c-format
+#, c-format
 msgid "File systems created at a new LVM volume group on %s"
-msgstr "новая группа томов LVM на %s"
+msgstr "Файловые системы созданы в новой группе томов LVM на %s"
 
 #. TRANSLATORS: minimum device size, %s is replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:73
@@ -1626,18 +1618,16 @@ msgid "Partitions and file systems"
 msgstr "Разделы и файловые системы"
 
 #: src/components/storage/PartitionsField.jsx:802
-#, fuzzy
 msgid ""
 "Structure of the new system, including any additional partition needed for "
 "booting"
 msgstr ""
 "Структура новой системы, включая все дополнительные разделы, необходимые для "
-"загрузки,"
+"загрузки"
 
 #: src/components/storage/PartitionsField.jsx:808
-#, fuzzy
 msgid "Show partitions and file-systems actions"
-msgstr "Разделы и файловые системы"
+msgstr "Показать разделы и действия с файловыми системами"
 
 #. TRANSLATORS: show/hide toggle action, this is a clickable link
 #: src/components/storage/ProposalActionsDialog.jsx:62
@@ -1683,7 +1673,7 @@ msgstr "Ожидание информации о конфигурации хра
 
 #: src/components/storage/ProposalResultSection.jsx:124
 msgid "Storage proposal not possible"
-msgstr ""
+msgstr "Не могу предложить организацию хранилища"
 
 #: src/components/storage/ProposalResultSection.jsx:188
 msgid ""
@@ -2332,7 +2322,7 @@ msgstr "Цели"
 
 #: src/components/storage/routes.js:36
 msgid "Proposal"
-msgstr ""
+msgstr "Предложение"
 
 #: src/components/storage/utils.js:64
 msgid "KiB"
@@ -2365,9 +2355,8 @@ msgstr "Все разделы будут удалены, а все данные 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space deleting current content". Keep it short
 #: src/components/storage/utils.js:82
-#, fuzzy
 msgid "deleting current content"
-msgstr "Удалить текущее содержимое"
+msgstr "удаление текущего содержимого"
 
 #: src/components/storage/utils.js:87
 msgid "Shrink existing partitions"
@@ -2382,9 +2371,8 @@ msgstr ""
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space shrinking partitions". Keep it short.
 #: src/components/storage/utils.js:92
-#, fuzzy
 msgid "shrinking partitions"
-msgstr "Уменьшение существующих разделов"
+msgstr "уменьшение разделов"
 
 #: src/components/storage/utils.js:97
 msgid "Use available space"
@@ -2405,7 +2393,7 @@ msgstr "не изменяя ни одного раздела"
 
 #: src/components/storage/utils.js:107
 msgid "Custom"
-msgstr "По своему"
+msgstr "По-своему"
 
 #: src/components/storage/utils.js:108
 msgid "Select what to do with each partition."
@@ -2414,9 +2402,8 @@ msgstr "Выберите, что делать с каждым разделом."
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space with custom actions". Keep it short.
 #: src/components/storage/utils.js:112
-#, fuzzy
 msgid "with custom actions"
-msgstr "выполняя пользовательский набор действий"
+msgstr "другими способами"
 
 #: src/components/users/FirstUser.jsx:35
 msgid "No user defined yet."
@@ -2462,23 +2449,20 @@ msgid "Use suggested username"
 msgstr "Используйте предложенное имя пользователя"
 
 #: src/components/users/FirstUserForm.jsx:140
-#, fuzzy
 msgid "All fields are required"
-msgstr "Требуется значение размера"
+msgstr "Все поля обязательны"
 
 #: src/components/users/FirstUserForm.jsx:147
 msgid "Please, try again."
-msgstr ""
+msgstr "Попробуйте ещё раз."
 
 #: src/components/users/FirstUserForm.jsx:197
-#, fuzzy
 msgid "Create user"
-msgstr "Создать учетную запись"
+msgstr "Создать пользователя"
 
 #: src/components/users/FirstUserForm.jsx:197
-#, fuzzy
 msgid "Edit user"
-msgstr "Изменить %s"
+msgstr "Изменить пользователя"
 
 #: src/components/users/FirstUserForm.jsx:214
 #: src/components/users/FirstUserForm.jsx:216
@@ -2587,21 +2571,19 @@ msgstr "Очистить"
 
 #: src/components/users/UsersPage.jsx:45
 msgid "First user"
-msgstr ""
+msgstr "Первый пользователь"
 
 #: src/components/users/UsersPage.jsx:52
 msgid "Root authentication"
 msgstr "Аутентификация root"
 
 #: src/components/users/routes.js:41
-#, fuzzy
 msgid "Create or edit the first user"
-msgstr "Невозможно прочитать файл"
+msgstr "Создать или изменить первого пользователя"
 
 #: src/components/users/routes.js:48
-#, fuzzy
 msgid "Edit first user"
-msgstr "Изменить файловую систему"
+msgstr "Изменить первого пользователя"
 
 #~ msgid ""
 #~ "There are some reported issues. Please review them in the previous steps "
