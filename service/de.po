@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-20 09:58+0000\n"
-"PO-Revision-Date: 2024-04-27 03:43+0000\n"
+"PO-Revision-Date: 2024-06-22 21:46+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
-"Language-Team: German <https://l10n.opensuse.org/projects/agama/agama-"
-"service-master/de/>\n"
+"Language-Team: German <https://l10n.opensuse.org/projects/agama/"
+"agama-service-master/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.6\n"
 
 #. Runs the config phase
 #: service/lib/agama/manager.rb:88
@@ -195,7 +195,7 @@ msgstr ""
 #. @return [Issue]
 #: service/lib/agama/storage/proposal.rb:200
 msgid "A problem ocurred while calculating the storage setup"
-msgstr ""
+msgstr "Bei der Berechnung der Speichereinrichtung ist ein Problem aufgetreten"
 
 #. Returns an issue if there is no target device.
 #.
@@ -222,6 +222,8 @@ msgstr[1] ""
 msgid ""
 "Defining a user, setting the root password or a SSH public key is required"
 msgstr ""
+"Die Definition eines Benutzers, das Festlegen des Root-Passworts oder eines "
+"öffentlichen SSH-Schlüssels ist erforderlich"
 
 #~ msgid "Initializing target repositories"
 #~ msgstr "Ziel-Repositorien werden initialisiert"
