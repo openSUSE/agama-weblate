@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-23 02:24+0000\n"
-"PO-Revision-Date: 2024-06-17 09:46+0000\n"
+"PO-Revision-Date: 2024-06-23 11:46+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ca/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6\n"
 
 #: src/MainLayout.jsx:40
 msgid "Agama"
@@ -165,9 +165,9 @@ msgstr "Reinicia"
 
 #. TRANSLATORS: %s is replaced by a product name (e.g., openSUSE Tumbleweed)
 #: src/components/core/InstallationProgress.jsx:37
-#, fuzzy, c-format
+#, c-format
 msgid "Installing %s, please wait ..."
-msgstr "Carregant dades. Espereu, si us plau..."
+msgstr "Instal·lant %s. Espereu, si us plau..."
 
 #: src/components/core/InstallerOptions.jsx:57
 msgid "Show installer options"
@@ -283,9 +283,8 @@ msgid "Loading data..."
 msgstr "Carregant dades..."
 
 #: src/components/core/ProgressReport.jsx:122
-#, fuzzy
 msgid "Waiting for progress status..."
-msgstr "Esperant l'informe de progrés"
+msgstr "Esperant l'informe de progrés..."
 
 #: src/components/core/RowActions.jsx:64
 #: src/components/storage/PartitionsField.jsx:454
