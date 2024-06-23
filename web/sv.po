@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-23 02:24+0000\n"
-"PO-Revision-Date: 2024-06-17 06:46+0000\n"
+"PO-Revision-Date: 2024-06-23 08:46+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6\n"
 
 #: src/MainLayout.jsx:40
 msgid "Agama"
@@ -164,9 +164,9 @@ msgstr "Starta om"
 
 #. TRANSLATORS: %s is replaced by a product name (e.g., openSUSE Tumbleweed)
 #: src/components/core/InstallationProgress.jsx:37
-#, fuzzy, c-format
+#, c-format
 msgid "Installing %s, please wait ..."
-msgstr "Laddar data, vänligen vänta en sekund..."
+msgstr "Installerar %s, vänligen vänta ..."
 
 #: src/components/core/InstallerOptions.jsx:57
 msgid "Show installer options"
@@ -277,9 +277,8 @@ msgid "Loading data..."
 msgstr "Laddar data..."
 
 #: src/components/core/ProgressReport.jsx:122
-#, fuzzy
 msgid "Waiting for progress status..."
-msgstr "Väntar på lägesrapport"
+msgstr "Väntar på lägesrapport..."
 
 #: src/components/core/RowActions.jsx:64
 #: src/components/storage/PartitionsField.jsx:454
