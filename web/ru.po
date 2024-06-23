@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-23 02:24+0000\n"
-"PO-Revision-Date: 2024-06-18 15:46+0000\n"
-"Last-Translator: Alex Minton <alex239@gmail.com>\n"
+"PO-Revision-Date: 2024-06-23 21:46+0000\n"
+"Last-Translator: Aleksey Fedorov <Aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ru/>\n"
 "Language: ru\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6\n"
 
 #: src/MainLayout.jsx:40
 msgid "Agama"
@@ -167,9 +167,9 @@ msgstr "Перезагрузка"
 
 #. TRANSLATORS: %s is replaced by a product name (e.g., openSUSE Tumbleweed)
 #: src/components/core/InstallationProgress.jsx:37
-#, fuzzy, c-format
+#, c-format
 msgid "Installing %s, please wait ..."
-msgstr "Загрузка данных, пожалуйста, подождите..."
+msgstr "Установка %s, пожалуйста, подождите ..."
 
 #: src/components/core/InstallerOptions.jsx:57
 msgid "Show installer options"
@@ -284,9 +284,8 @@ msgid "Loading data..."
 msgstr "Загрузка данных..."
 
 #: src/components/core/ProgressReport.jsx:122
-#, fuzzy
 msgid "Waiting for progress status..."
-msgstr "Ожидание отчёта о процессе"
+msgstr "Ожидание отчёта о процессе…"
 
 #: src/components/core/RowActions.jsx:64
 #: src/components/storage/PartitionsField.jsx:454
