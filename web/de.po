@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 02:20+0000\n"
+"POT-Creation-Date: 2024-06-23 02:24+0000\n"
 "PO-Revision-Date: 2024-06-22 21:46+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://l10n.opensuse.org/projects/agama/agama-web/de/"
@@ -167,6 +167,12 @@ msgstr "Fertigstellen"
 msgid "Reboot"
 msgstr "Neustart"
 
+#. TRANSLATORS: %s is replaced by a product name (e.g., openSUSE Tumbleweed)
+#: src/components/core/InstallationProgress.jsx:37
+#, fuzzy, c-format
+msgid "Installing %s, please wait ..."
+msgstr "Daten werden geladen, bitte warten Sie eine Sekunde ..."
+
 #: src/components/core/InstallerOptions.jsx:57
 msgid "Show installer options"
 msgstr "Installationsprogrammoptionen anzeigen"
@@ -281,6 +287,11 @@ msgstr "Bestätigen"
 #: src/components/core/Popup.jsx:210
 msgid "Loading data..."
 msgstr "Daten werden gelesen ..."
+
+#: src/components/core/ProgressReport.jsx:122
+#, fuzzy
+msgid "Waiting for progress status..."
+msgstr "Warten auf den Fortschrittsbericht"
 
 #: src/components/core/RowActions.jsx:64
 #: src/components/storage/PartitionsField.jsx:454
@@ -901,15 +912,7 @@ msgstr "E-Mail"
 msgid "Loading available products, please wait..."
 msgstr "Verfügbare Produkte werden geladen, bitte warten ..."
 
-#: src/components/product/ProductSelectionProgress.jsx:88
-msgid "Analyze disks"
-msgstr "Festplatten analysieren"
-
-#: src/components/product/ProductSelectionProgress.jsx:95
-msgid "Configure software"
-msgstr "Software konfigurieren"
-
-#: src/components/product/ProductSelectionProgress.jsx:156
+#: src/components/product/ProductSelectionProgress.jsx:53
 msgid "Configuring the product, please wait ..."
 msgstr "Produkt wird konfiguriert, bitte warten ..."
 
@@ -2633,6 +2636,12 @@ msgstr "Ersten Benutzer erstellen oder bearbeiten"
 #: src/components/users/routes.js:48
 msgid "Edit first user"
 msgstr "Ersten Benutzer bearbeiten"
+
+#~ msgid "Analyze disks"
+#~ msgstr "Festplatten analysieren"
+
+#~ msgid "Configure software"
+#~ msgstr "Software konfigurieren"
 
 #~ msgid ""
 #~ "There are some reported issues. Please review them in the previous steps "
