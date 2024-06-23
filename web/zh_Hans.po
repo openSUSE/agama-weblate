@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-23 02:24+0000\n"
-"PO-Revision-Date: 2024-05-21 19:46+0000\n"
+"PO-Revision-Date: 2024-06-23 11:46+0000\n"
 "Last-Translator: Monstorix <monstorix@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.opensuse.org/projects/"
 "agama/agama-web/zh_Hans/>\n"
@@ -17,21 +17,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6\n"
 
 #: src/MainLayout.jsx:40
-#, fuzzy
 msgid "Agama"
-msgstr "关于 Agama"
+msgstr "Agama"
 
 #: src/MainLayout.jsx:82
 msgid "Change product"
 msgstr "更改产品"
 
 #: src/components/core/About.jsx:49
-#, fuzzy
 msgid "About"
-msgstr "关于 Agama"
+msgstr "关于"
 
 #: src/components/core/About.jsx:71
 msgid "About Agama"
@@ -156,24 +154,22 @@ msgstr "重启"
 
 #. TRANSLATORS: %s is replaced by a product name (e.g., openSUSE Tumbleweed)
 #: src/components/core/InstallationProgress.jsx:37
-#, fuzzy, c-format
+#, c-format
 msgid "Installing %s, please wait ..."
-msgstr "正在载入可用产品，请稍候……"
+msgstr "正在安装 %s，请稍候……"
 
 #: src/components/core/InstallerOptions.jsx:57
-#, fuzzy
 msgid "Show installer options"
-msgstr "隐藏安装程序选项"
+msgstr "显示安装程序选项"
 
 #: src/components/core/InstallerOptions.jsx:62
-#, fuzzy
 msgid "Installer options"
 msgstr "安装程序选项"
 
 #: src/components/core/IssuesHint.jsx:34
 msgid ""
 "Before starting the installation, you need to address the following problems:"
-msgstr ""
+msgstr "在开始安装前，您需要解决下列问题："
 
 #: src/components/core/ListSearch.jsx:51
 msgid "Search"
@@ -185,7 +181,7 @@ msgstr "无法登录。请确保密码输入正确。"
 
 #: src/components/core/LoginPage.jsx:63
 msgid "Could not authenticate against the server, please check it."
-msgstr ""
+msgstr "无法对服务器进行身份验证，请检查。"
 
 #. TRANSLATORS: Title for a form to provide the password for the root user. %s
 #. will be replaced by "root"
@@ -199,12 +195,11 @@ msgstr "登录为 %s"
 #. it and keep the brackets.
 #: src/components/core/LoginPage.jsx:76
 msgid "The installer requires [root] user privileges."
-msgstr ""
+msgstr "安装程序要求 [root] 用户权限。"
 
 #: src/components/core/LoginPage.jsx:95
-#, fuzzy
 msgid "Please, provide its password to log in to the system."
-msgstr "安装程序需要 %s 用户权限。请提供其密码以登录系统。"
+msgstr "请提供其密码以登录系统。"
 
 #: src/components/core/LoginPage.jsx:98
 msgid "Login form"
@@ -220,7 +215,7 @@ msgstr "登录"
 
 #: src/components/core/LoginPage.jsx:124
 msgid "More about this"
-msgstr ""
+msgstr "更多有关信息"
 
 #: src/components/core/LogsButton.jsx:102
 msgid "Collecting logs..."
@@ -270,9 +265,8 @@ msgid "Loading data..."
 msgstr "正在读取数据……"
 
 #: src/components/core/ProgressReport.jsx:122
-#, fuzzy
 msgid "Waiting for progress status..."
-msgstr "正在等待进度报告"
+msgstr "正在等待进度状态…"
 
 #: src/components/core/RowActions.jsx:64
 #: src/components/storage/PartitionsField.jsx:454
@@ -291,17 +285,15 @@ msgstr "自动选择"
 #. TRANSLATORS: page title
 #: src/components/core/ServerError.jsx:34
 msgid "Agama Error"
-msgstr ""
+msgstr "Agama 错误"
 
 #: src/components/core/ServerError.jsx:38
-#, fuzzy
 msgid "Cannot connect to Agama server"
-msgstr "无法连接到 Cockpit 服务器"
+msgstr "无法连接到 Agama 服务器"
 
 #: src/components/core/ServerError.jsx:43
-#, fuzzy
 msgid "Please, check whether it is running."
-msgstr "无法连接到 D-Bus 服务，请检查它是否在运行。"
+msgstr "请检查它是否在运行。"
 
 #. TRANSLATORS: button label
 #: src/components/core/ServerError.jsx:51
@@ -314,14 +306,12 @@ msgid "Keyboard"
 msgstr "键盘"
 
 #: src/components/l10n/InstallerKeymapSwitcher.jsx:75
-#, fuzzy
 msgid "Choose a keyboard layout"
-msgstr "选择产品"
+msgstr "选择键盘布局"
 
 #: src/components/l10n/InstallerKeymapSwitcher.jsx:86
-#, fuzzy
 msgid "Cannot be changed in remote installation"
-msgstr "无法在远程安装中更改键盘布局"
+msgstr "无法在远程安装中更改"
 
 #: src/components/l10n/InstallerLocaleSwitcher.jsx:57
 #: src/components/l10n/L10nPage.jsx:67
@@ -329,9 +319,8 @@ msgid "Language"
 msgstr "语言"
 
 #: src/components/l10n/InstallerLocaleSwitcher.jsx:63
-#, fuzzy
 msgid "Choose a language"
-msgstr "更改语言"
+msgstr "选择语言"
 
 #: src/components/l10n/KeyboardSelection.jsx:45
 msgid "Filter by description or keymap code"
@@ -339,12 +328,11 @@ msgstr "按描述或键盘映射代码过滤"
 
 #: src/components/l10n/KeyboardSelection.jsx:85
 msgid "None of the keymaps match the filter."
-msgstr ""
+msgstr "没有符合此过滤器的键位映射。"
 
 #: src/components/l10n/KeyboardSelection.jsx:92
-#, fuzzy
 msgid "Keyboard selection"
-msgstr "软件 %s"
+msgstr "键盘选择"
 
 #: src/components/l10n/KeyboardSelection.jsx:107
 #: src/components/l10n/L10nPage.jsx:71 src/components/l10n/L10nPage.jsx:82
@@ -362,9 +350,8 @@ msgstr "本地化"
 
 #: src/components/l10n/L10nPage.jsx:68 src/components/l10n/L10nPage.jsx:79
 #: src/components/l10n/L10nPage.jsx:90
-#, fuzzy
 msgid "Not selected yet"
-msgstr "尚未选择设备"
+msgstr "尚未选择"
 
 #: src/components/l10n/L10nPage.jsx:71 src/components/l10n/L10nPage.jsx:82
 #: src/components/l10n/L10nPage.jsx:93
