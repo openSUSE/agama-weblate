@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-23 02:24+0000\n"
-"PO-Revision-Date: 2024-06-21 10:46+0000\n"
+"PO-Revision-Date: 2024-06-23 11:46+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
-"Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-"
-"service-master/ca/>\n"
+"Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/"
+"agama-service-master/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,27 +22,25 @@ msgstr ""
 #. Runs the config phase
 #: service/lib/agama/manager.rb:88
 msgid "Analyze disks"
-msgstr ""
+msgstr "Anàlisi dels discs"
 
 #: service/lib/agama/manager.rb:88
-#, fuzzy
 msgid "Configure software"
-msgstr "Sondant el programari"
+msgstr "Configuració del programari"
 
 #. Runs the install phase
 #. rubocop:disable Metrics/AbcSize
 #: service/lib/agama/manager.rb:108
 msgid "Prepare disks"
-msgstr ""
+msgstr "Preparació dels discs"
 
 #: service/lib/agama/manager.rb:109
-#, fuzzy
 msgid "Install software"
-msgstr "Instal·lant programari"
+msgstr "Instal·lació de programari"
 
 #: service/lib/agama/manager.rb:110
 msgid "Configure the system"
-msgstr ""
+msgstr "Configuració del sistema"
 
 #. Callback to handle unsigned files
 #.
