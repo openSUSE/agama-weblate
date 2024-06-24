@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-23 02:24+0000\n"
-"PO-Revision-Date: 2024-06-20 18:46+0000\n"
+"PO-Revision-Date: 2024-06-24 17:46+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
-"Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-service-"
-"master/cs/>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/agama/"
+"agama-service-master/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,27 +22,25 @@ msgstr ""
 #. Runs the config phase
 #: service/lib/agama/manager.rb:88
 msgid "Analyze disks"
-msgstr ""
+msgstr "Analyzovat disky"
 
 #: service/lib/agama/manager.rb:88
-#, fuzzy
 msgid "Configure software"
-msgstr "Sondážní software"
+msgstr "Konfigurovat software"
 
 #. Runs the install phase
 #. rubocop:disable Metrics/AbcSize
 #: service/lib/agama/manager.rb:108
 msgid "Prepare disks"
-msgstr ""
+msgstr "Připravit disky"
 
 #: service/lib/agama/manager.rb:109
-#, fuzzy
 msgid "Install software"
-msgstr "Instaluji software"
+msgstr "Instalovat software"
 
 #: service/lib/agama/manager.rb:110
 msgid "Configure the system"
-msgstr ""
+msgstr "Konfigurovat systém"
 
 #. Callback to handle unsigned files
 #.
