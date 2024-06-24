@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-23 02:24+0000\n"
-"PO-Revision-Date: 2024-06-23 11:46+0000\n"
+"PO-Revision-Date: 2024-06-24 12:46+0000\n"
 "Last-Translator: Monstorix <monstorix@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.opensuse.org/projects/"
 "agama/agama-web/zh_Hans/>\n"
@@ -372,12 +372,11 @@ msgstr "按语言、地区或区域设定代码过滤"
 
 #: src/components/l10n/LocaleSelection.jsx:84
 msgid "None of the locales match the filter."
-msgstr ""
+msgstr "没有符合过滤器的区域设置。"
 
 #: src/components/l10n/LocaleSelection.jsx:91
-#, fuzzy
 msgid "Locale selection"
-msgstr "软件 %s"
+msgstr "区域选择"
 
 #: src/components/l10n/TimezoneSelection.jsx:71
 msgid "Filter by territory, time zone code or UTC offset"
@@ -385,12 +384,11 @@ msgstr "按地区、时区代码或 UTC 偏移量过滤"
 
 #: src/components/l10n/TimezoneSelection.jsx:122
 msgid "None of the time zones match the filter."
-msgstr ""
+msgstr "没有符合过滤器的时区。"
 
 #: src/components/l10n/TimezoneSelection.jsx:129
-#, fuzzy
 msgid " Timezone selection"
-msgstr "更改时区"
+msgstr " 时区选择"
 
 #: src/components/layout/Loading.jsx:31
 msgid "Loading installation environment, please wait."
@@ -537,7 +535,7 @@ msgstr "网关"
 
 #: src/components/network/IpSettingsForm.jsx:178
 msgid "Gateway can be defined only in 'Manual' mode"
-msgstr ""
+msgstr "网关只能在“手动”模式下配置"
 
 #: src/components/network/IpSettingsForm.jsx:210
 #: src/components/product/ProductRegistrationPage.jsx:89
@@ -580,14 +578,12 @@ msgid "Network"
 msgstr "网络"
 
 #: src/components/network/NetworkPage.jsx:178
-#, fuzzy
 msgid "Wired connections"
-msgstr "忘掉连接 %s"
+msgstr "有线连接"
 
 #: src/components/network/NetworkPage.jsx:185
-#, fuzzy
 msgid "WiFi connections"
-msgstr "编辑连接 %s"
+msgstr "无线连接"
 
 #. TRANSLATORS: WiFi authentication mode
 #: src/components/network/WifiConnectionForm.jsx:43
@@ -677,9 +673,8 @@ msgstr "连接 %s 正等待状态更改"
 
 #. TRANSLATORS: menu label, disconnect from the selected WiFi network
 #: src/components/network/WifiNetworkMenu.jsx:67
-#, fuzzy
 msgid "Disconnect"
-msgstr "已断开连接"
+msgstr "断开连接"
 
 #. TRANSLATORS: menu label, remove the selected WiFi network settings
 #: src/components/network/WifiNetworkMenu.jsx:76
@@ -714,42 +709,38 @@ msgid "Software"
 msgstr "软件"
 
 #: src/components/overview/OverviewPage.jsx:52
-#, fuzzy
 msgid "Ready for installation"
-msgstr "确认安装"
+msgstr "准备好安装"
 
 #: src/components/overview/OverviewPage.jsx:102
-#, fuzzy
 msgid "Installation"
-msgstr "正在安装"
+msgstr "安装"
 
 #: src/components/overview/OverviewPage.jsx:103
 msgid "Before installing, please check the following problems."
-msgstr ""
+msgstr "进行安装之前，请检查下列问题。"
 
 #: src/components/overview/OverviewPage.jsx:114
-#, fuzzy
 msgid ""
 "Take your time to check your configuration before starting the installation "
 "process."
-msgstr "缩小安装设备上的分区"
+msgstr "开始安装进程前，请花些时间检查您的配置。"
 
 #: src/components/overview/OverviewPage.jsx:123
 msgid ""
 "These are the most relevant installation settings. Feel free to browse the "
 "sections in the menu for further details."
-msgstr ""
+msgstr "这些是最主要的安装设置。如需获取更详细的信息，请随意浏览菜单中的各节。"
 
 #: src/components/overview/SoftwareSection.jsx:60
-#, fuzzy
 msgid "The installation will take"
-msgstr "安装将会占用 %s"
+msgstr "安装将会占用"
 
 #. TRANSLATORS: %s will be replaced with the installation size, example: "5GiB".
 #: src/components/overview/SoftwareSection.jsx:67
-#, fuzzy, c-format
+#, c-format
 msgid "The installation will take %s including:"
-msgstr "安装将会占用 %s"
+msgstr "安装将会占用 %s ，包括："
 
 #: src/components/overview/StorageSection.jsx:53
 msgid ""
@@ -767,21 +758,20 @@ msgstr "安装在新的逻辑卷管理器（LVM）卷组中，不更改底层设
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group deleting all the "
 "content of the underlying devices"
-msgstr ""
+msgstr "安装到新的逻辑卷管理器 (LVM) 卷组中，并删除现有设备的全部内容"
 
 #: src/components/overview/StorageSection.jsx:68
-#, fuzzy
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group using a custom "
 "strategy to find the needed space at the underlying devices"
-msgstr "在新建的 %1$s 上进行安装，采用自定义策略寻找磁盘上的所需空间"
+msgstr "安装到新建的逻辑卷管理器 (LVM) 卷组中，采用自定义策略在当前磁盘上寻找所需空间"
 
 #: src/components/overview/StorageSection.jsx:86
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s shrinking "
 "existing partitions as needed"
-msgstr "在新建的 %1$s 上进行安装并在需要时缩小磁盘中现有的分区"
+msgstr "安装到 %s 上新建的逻辑卷管理器 (LVM) 卷组中，并在需要时缩小磁盘中现有的分区"
 
 #: src/components/overview/StorageSection.jsx:92
 #, fuzzy, c-format
