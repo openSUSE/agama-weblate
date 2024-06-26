@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-23 02:24+0000\n"
+"POT-Creation-Date: 2024-06-26 02:21+0000\n"
 "PO-Revision-Date: 2024-06-24 12:46+0000\n"
 "Last-Translator: Monstorix <monstorix@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.opensuse.org/projects/"
@@ -270,6 +270,7 @@ msgstr "正在等待进度状态…"
 
 #: src/components/core/RowActions.jsx:64
 #: src/components/storage/PartitionsField.jsx:454
+#: src/components/storage/ProposalActionsSummary.jsx:225
 msgid "Actions"
 msgstr "操作"
 
@@ -355,8 +356,8 @@ msgstr "尚未选择"
 
 #: src/components/l10n/L10nPage.jsx:71 src/components/l10n/L10nPage.jsx:82
 #: src/components/l10n/L10nPage.jsx:93
-#: src/components/storage/InstallationDeviceField.jsx:115
-#: src/components/storage/SpacePolicyField.jsx:91
+#: src/components/storage/InstallationDeviceField.jsx:105
+#: src/components/storage/ProposalActionsSummary.jsx:227
 #: src/components/users/RootAuthMethods.jsx:94
 #: src/components/users/RootAuthMethods.jsx:107
 msgid "Change"
@@ -539,12 +540,13 @@ msgstr "网关只能在“手动”模式下配置"
 
 #: src/components/network/IpSettingsForm.jsx:210
 #: src/components/product/ProductRegistrationPage.jsx:89
-#: src/components/storage/BootSelection.jsx:215
+#: src/components/storage/BootSelection.jsx:228
 #: src/components/storage/DeviceSelection.jsx:240
 #: src/components/storage/EncryptionSettingsDialog.jsx:138
+#: src/components/storage/SpacePolicySelection.jsx:198
 #: src/components/storage/VolumeDialog.jsx:786
 #: src/components/storage/ZFCPPage.jsx:503
-#: src/components/users/FirstUserForm.jsx:286
+#: src/components/users/FirstUserForm.jsx:285
 msgid "Accept"
 msgstr "接受"
 
@@ -695,9 +697,9 @@ msgstr "用户"
 
 #: src/components/overview/OverviewPage.jsx:46
 #: src/components/overview/StorageSection.jsx:111
-#: src/components/storage/ProposalPage.jsx:266
+#: src/components/storage/ProposalPage.jsx:290
 #: src/components/storage/StoragePage.jsx:30
-#: src/components/storage/routes.js:57
+#: src/components/storage/routes.js:58
 msgid "Storage"
 msgstr "存储"
 
@@ -764,14 +766,16 @@ msgstr "安装到新的逻辑卷管理器 (LVM) 卷组中，并删除现有设�
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group using a custom "
 "strategy to find the needed space at the underlying devices"
-msgstr "安装到新建的逻辑卷管理器 (LVM) 卷组中，采用自定义策略在当前磁盘上寻找所需空间"
+msgstr ""
+"安装到新建的逻辑卷管理器 (LVM) 卷组中，采用自定义策略在当前磁盘上寻找所需空间"
 
 #: src/components/overview/StorageSection.jsx:86
 #, c-format
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s shrinking "
 "existing partitions as needed"
-msgstr "安装到 %s 上新建的逻辑卷管理器 (LVM) 卷组中，并在需要时缩小磁盘中现有的分区"
+msgstr ""
+"安装到 %s 上新建的逻辑卷管理器 (LVM) 卷组中，并在需要时缩小磁盘中现有的分区"
 
 #: src/components/overview/StorageSection.jsx:92
 #, fuzzy, c-format
@@ -795,7 +799,7 @@ msgid ""
 msgstr "在新建的 %1$s 上进行安装，采用自定义策略寻找磁盘上的所需空间"
 
 #: src/components/overview/StorageSection.jsx:175
-#: src/components/storage/InstallationDeviceField.jsx:67
+#: src/components/storage/InstallationDeviceField.jsx:63
 msgid "No device selected yet"
 msgstr "尚未选择设备"
 
@@ -937,49 +941,49 @@ msgstr "缩小安装设备上的分区"
 msgid "Installation will configure partitions for booting at %s."
 msgstr ""
 
-#: src/components/storage/BootSelection.jsx:126
+#: src/components/storage/BootSelection.jsx:127
 msgid ""
 "To ensure the new system is able to boot, the installer may need to create "
 "or configure some partitions in the appropriate disk."
 msgstr "为确保新系统能够启动，安装程序将需要在适当的磁盘中创建或配置一些分区。"
 
-#: src/components/storage/BootSelection.jsx:132
+#: src/components/storage/BootSelection.jsx:133
 msgid "Partitions to boot will be allocated at the installation disk."
 msgstr "引导分区将会分配在安装磁盘上。"
 
 #. TRANSLATORS: %s is replaced by a device name and size (e.g., "/dev/sda, 500GiB")
-#: src/components/storage/BootSelection.jsx:137
+#: src/components/storage/BootSelection.jsx:138
 #, c-format
 msgid "Partitions to boot will be allocated at the installation disk (%s)."
 msgstr "引导分区将在安装磁盘（%s）上进行分配。"
 
-#: src/components/storage/BootSelection.jsx:153
+#: src/components/storage/BootSelection.jsx:154
 #, fuzzy
 msgid "Select booting partition"
 msgstr "选择对每个分区执行的操作。"
 
-#: src/components/storage/BootSelection.jsx:167
+#: src/components/storage/BootSelection.jsx:170
 #: src/components/storage/iscsi/NodeStartupOptions.js:27
 msgid "Automatic"
 msgstr "自动"
 
-#: src/components/storage/BootSelection.jsx:176
+#: src/components/storage/BootSelection.jsx:183
 msgid "Select a disk"
 msgstr "选择一个磁盘"
 
-#: src/components/storage/BootSelection.jsx:180
+#: src/components/storage/BootSelection.jsx:189
 msgid "Partitions to boot will be allocated at the following device."
 msgstr "引导分区将在以下设备上分配。"
 
-#: src/components/storage/BootSelection.jsx:183
+#: src/components/storage/BootSelection.jsx:192
 msgid "Choose a disk for placing the boot loader"
 msgstr "选择一个放置引导加载器的磁盘"
 
-#: src/components/storage/BootSelection.jsx:199
+#: src/components/storage/BootSelection.jsx:210
 msgid "Do not configure"
 msgstr "不要配置"
 
-#: src/components/storage/BootSelection.jsx:202
+#: src/components/storage/BootSelection.jsx:215
 msgid ""
 "No partitions will be automatically configured for booting. Use with caution."
 msgstr "不会自动配置任何用于启动的分区。请谨慎使用。"
@@ -1328,31 +1332,31 @@ msgstr ""
 msgid "Encrypt the system"
 msgstr "编辑文件系统"
 
-#: src/components/storage/InstallationDeviceField.jsx:40
+#: src/components/storage/InstallationDeviceField.jsx:36
 #: src/components/storage/VolumeLocationSelectorTable.jsx:58
 msgid "Installation device"
 msgstr "安装设备"
 
 #. TRANSLATORS: The storage "Installation device" field's description.
-#: src/components/storage/InstallationDeviceField.jsx:42
+#: src/components/storage/InstallationDeviceField.jsx:38
 #, fuzzy
 msgid "Main disk or LVM Volume Group for installation."
 msgstr ""
 "选择主磁盘或 <abbr title='Logical Volume Manager'>LVM</abbr> 卷组进行安装。"
 
 #. TRANSLATORS: %s is the installation disk (eg. "/dev/sda, 80 GiB)
-#: src/components/storage/InstallationDeviceField.jsx:56
+#: src/components/storage/InstallationDeviceField.jsx:52
 #, fuzzy, c-format
 msgid "File systems created as new partitions at %s"
 msgstr "默认情况下，文件系统将被分配为<b>所选设备上的新分区</b>。"
 
-#: src/components/storage/InstallationDeviceField.jsx:59
+#: src/components/storage/InstallationDeviceField.jsx:55
 #, fuzzy
 msgid "File systems created at a new LVM volume group"
 msgstr "新建 LVM 卷组的设备选择器"
 
 #. TRANSLATORS: %s is the disk used for the LVM physical volumes (eg. "/dev/sda, 80 GiB)
-#: src/components/storage/InstallationDeviceField.jsx:63
+#: src/components/storage/InstallationDeviceField.jsx:59
 #, fuzzy, c-format
 msgid "File systems created at a new LVM volume group on %s"
 msgstr "在 %s 上新建的 LVM 卷组"
@@ -1611,45 +1615,85 @@ msgid "Show %d subvolume action"
 msgid_plural "Show %d subvolume actions"
 msgstr[0] "显示 %d 个子卷操作"
 
-#: src/components/storage/ProposalResultSection.jsx:64
+#: src/components/storage/ProposalActionsSummary.jsx:56
+#, fuzzy
+msgid "Destructive actions are not allowed"
+msgstr "已计划执行 %d 个具有破坏性的操作"
+
+#: src/components/storage/ProposalActionsSummary.jsx:58
+#, fuzzy
+msgid "Destructive actions are allowed"
+msgstr "已计划执行 %d 个具有破坏性的操作"
+
+#: src/components/storage/ProposalActionsSummary.jsx:65
 #, c-format
 msgid "There is %d destructive action planned"
 msgid_plural "There are %d destructive actions planned"
 msgstr[0] "已计划执行 %d 个具有破坏性的操作"
 
-#: src/components/storage/ProposalResultSection.jsx:80
-msgid "Affecting"
+#: src/components/storage/ProposalActionsSummary.jsx:78
+#: src/components/storage/ProposalActionsSummary.jsx:125
+#, fuzzy
+msgid "affecting"
 msgstr "影响到"
 
-#: src/components/storage/ProposalResultSection.jsx:96
+#: src/components/storage/ProposalActionsSummary.jsx:106
+#, fuzzy
+msgid "Shrinking partitions is not allowed"
+msgstr "缩小现有分区"
+
+#: src/components/storage/ProposalActionsSummary.jsx:110
+#, fuzzy
+msgid "Shrinking partitions is allowed"
+msgstr "缩小现有分区"
+
+#: src/components/storage/ProposalActionsSummary.jsx:112
+#, fuzzy
+msgid "Shrinking some partitions is allowed but not needed"
+msgstr "缩小安装设备上的分区"
+
+#: src/components/storage/ProposalActionsSummary.jsx:115
+#, fuzzy, c-format
+msgid "%d partition will be shrunk"
+msgid_plural "%d partitions will be shrunk"
+msgstr[0] "%s 分区表"
+
+#: src/components/storage/ProposalActionsSummary.jsx:150
+#, fuzzy
+msgid "Cannot accommodate the required file systems for installation"
+msgstr "无法在远程安装中更改"
+
+#: src/components/storage/ProposalActionsSummary.jsx:159
 #, fuzzy, c-format
 msgid "Check the planned action"
 msgid_plural "Check the %d planned actions"
 msgstr[0] "检查所有已计划的操作"
 
-#: src/components/storage/ProposalResultSection.jsx:111
+#: src/components/storage/ProposalActionsSummary.jsx:178
+#, fuzzy
+msgid "Waiting for actions information..."
+msgstr "正在等待引导配置信息"
+
+#: src/components/storage/ProposalPage.jsx:314
+msgid "Planned Actions"
+msgstr "计划执行的操作"
+
+#: src/components/storage/ProposalResultSection.jsx:42
 #, fuzzy
 msgid "Waiting for information about storage configuration"
 msgstr "正在等待引导配置信息"
 
-#: src/components/storage/ProposalResultSection.jsx:124
-msgid "Storage proposal not possible"
+#: src/components/storage/ProposalResultSection.jsx:70
+msgid "Final layout"
 msgstr ""
 
-#: src/components/storage/ProposalResultSection.jsx:188
-#, fuzzy
-msgid ""
-"During installation, some actions will be performed to configure the system "
-"as displayed below."
-msgstr "安装期间，将执行 %d 个操作以进行系统配置，如下所示"
+#: src/components/storage/ProposalResultSection.jsx:71
+msgid "The systems will be configured as displayed below."
+msgstr ""
 
-#: src/components/storage/ProposalResultSection.jsx:196
-msgid "Planned Actions"
-msgstr "计划执行的操作"
-
-#: src/components/storage/ProposalResultSection.jsx:210
-msgid "Result"
-msgstr "结果"
+#: src/components/storage/ProposalResultSection.jsx:78
+msgid "Storage proposal not possible"
+msgstr ""
 
 #: src/components/storage/ProposalResultTable.jsx:74
 msgid "New"
@@ -1723,23 +1767,9 @@ msgstr "操作"
 msgid "Actions to find space"
 msgstr "查找空间的操作"
 
-#: src/components/storage/SpacePolicyDialog.jsx:143
-msgid ""
-"Allocating the file systems might need to find free space in the devices "
-"listed below. Choose how to do it."
-msgstr "若要分配文件系统，或许需要在下列设备中找到可用空间。选择如何操作。"
-
-#: src/components/storage/SpacePolicyDialog.jsx:148
-#: src/components/storage/SpacePolicyField.jsx:86
-msgid "Find space"
-msgstr "查找空间"
-
-#: src/components/storage/SpacePolicyField.jsx:88
-#, fuzzy
-msgid ""
-"Allocating the file systems might need to find free space in the "
-"installation device(s)."
-msgstr "若要分配文件系统，或许需要在下列设备中找到可用空间。选择如何操作。"
+#: src/components/storage/SpacePolicySelection.jsx:170
+msgid "Space policy"
+msgstr ""
 
 #: src/components/storage/VolumeDialog.jsx:80
 #, fuzzy, c-format
@@ -2381,8 +2411,8 @@ msgstr "全名"
 
 #: src/components/users/FirstUser.jsx:55
 #: src/components/users/FirstUserForm.jsx:224
-#: src/components/users/FirstUserForm.jsx:230
-#: src/components/users/FirstUserForm.jsx:233
+#: src/components/users/FirstUserForm.jsx:229
+#: src/components/users/FirstUserForm.jsx:232
 msgid "Username"
 msgstr "用户名"
 
@@ -2425,16 +2455,16 @@ msgstr "编辑 %s"
 msgid "User full name"
 msgstr "用户全名"
 
-#: src/components/users/FirstUserForm.jsx:255
+#: src/components/users/FirstUserForm.jsx:254
 msgid "Edit password too"
 msgstr "同时编辑密码"
 
-#: src/components/users/FirstUserForm.jsx:270
+#: src/components/users/FirstUserForm.jsx:269
 msgid "user autologin"
 msgstr "用户自动登录"
 
 #. TRANSLATORS: check box label
-#: src/components/users/FirstUserForm.jsx:274
+#: src/components/users/FirstUserForm.jsx:273
 msgid "Auto-login"
 msgstr "自动登录"
 
@@ -2540,6 +2570,29 @@ msgstr "无法读取文件"
 #, fuzzy
 msgid "Edit first user"
 msgstr "编辑文件系统"
+
+#, fuzzy
+#~ msgid ""
+#~ "During installation, some actions will be performed to configure the "
+#~ "system as displayed below."
+#~ msgstr "安装期间，将执行 %d 个操作以进行系统配置，如下所示"
+
+#~ msgid "Result"
+#~ msgstr "结果"
+
+#~ msgid ""
+#~ "Allocating the file systems might need to find free space in the devices "
+#~ "listed below. Choose how to do it."
+#~ msgstr "若要分配文件系统，或许需要在下列设备中找到可用空间。选择如何操作。"
+
+#~ msgid "Find space"
+#~ msgstr "查找空间"
+
+#, fuzzy
+#~ msgid ""
+#~ "Allocating the file systems might need to find free space in the "
+#~ "installation device(s)."
+#~ msgstr "若要分配文件系统，或许需要在下列设备中找到可用空间。选择如何操作。"
 
 #, fuzzy
 #~ msgid "Analyze disks"
@@ -2778,9 +2831,6 @@ msgstr "编辑文件系统"
 #~ msgid "deleting all content of the %d selected disks"
 #~ msgstr "删除选定的 %d 个磁盘上的所有内容"
 
-#~ msgid "shrinking partitions of the installation device"
-#~ msgstr "缩小安装设备上的分区"
-
 #, c-format
 #~ msgid "shrinking partitions of the %d selected disks"
 #~ msgstr "缩小选定的 %d 个磁盘上的分区"
@@ -2948,10 +2998,6 @@ msgstr "编辑文件系统"
 
 #~ msgid "Current content"
 #~ msgstr "当前内容"
-
-#, c-format
-#~ msgid "%s partition table"
-#~ msgstr "%s 分区表"
 
 #~ msgid "EFI system partition"
 #~ msgstr "EFI 系统分区"
