@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"POT-Creation-Date: 2024-6-25 2:22+0000\n"
+"POT-Creation-Date: 2024-6-26 2:21+0000\n"
 
 # TRANSLATORS: description of product "openSUSE MicroOS"
 #: microos.yaml:8
@@ -25,6 +25,13 @@ msgid ""
 "automated administration & patching. openSUSE MicroOS provides "
 "transactional (atomic) updates upon a read-only btrfs root file system. As "
 "rolling release distribution the software is always up-to-date."
+msgstr ""
+
+# TRANSLATORS: description of product "Leap 16.0 Alpha"
+#: leap_160.yaml:8
+msgid ""
+"Leap 16.0 is the latest version of a community distribution based on the "
+"latest SUSE Linux Enterprise Server."
 msgstr ""
 
 # TRANSLATORS: description of product "openSUSE Tumbleweed"
