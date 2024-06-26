@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-5-22 2:17+0000\n"
+"POT-Creation-Date: 2024-6-26 2:21+0000\n"
 "PO-Revision-Date: 2024-03-04 15:42+0000\n"
 "Last-Translator: Monstorix <monstorix@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.opensuse.org/projects/"
@@ -30,6 +30,13 @@ msgstr ""
 "一个快速、小型的发行版，旨在通过自动化管理和修补来托管容器工作负载。openSUSE "
 "MicroOS 提供基于只读 Btrfs 根文件系统之上的事务性（原子）更新。作为滚动发行"
 "版，它的软件始终保持最新。"
+
+# TRANSLATORS: description of product "Leap 16.0 Alpha"
+#: leap_160.yaml:8
+msgid ""
+"Leap 16.0 is the latest version of a community distribution based on the "
+"latest SUSE Linux Enterprise Server."
+msgstr ""
 
 # TRANSLATORS: description of product "openSUSE Tumbleweed"
 #: tumbleweed.yaml:8

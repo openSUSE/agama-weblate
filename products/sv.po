@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-5-22 2:17+0000\n"
+"POT-Creation-Date: 2024-6-26 2:21+0000\n"
 "PO-Revision-Date: 2023-12-23 07:02+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-"
@@ -32,6 +32,13 @@ msgstr ""
 "patchning. openSUSE MicroOS tillhandahåller transaktionella (atomära) "
 "uppdateringar på ett skrivskyddat btrfs-rootfilsystem. Som rullande "
 "releasedistribution är mjukvaran alltid uppdaterad."
+
+# TRANSLATORS: description of product "Leap 16.0 Alpha"
+#: leap_160.yaml:8
+msgid ""
+"Leap 16.0 is the latest version of a community distribution based on the "
+"latest SUSE Linux Enterprise Server."
+msgstr ""
 
 # TRANSLATORS: description of product "openSUSE Tumbleweed"
 #: tumbleweed.yaml:8
