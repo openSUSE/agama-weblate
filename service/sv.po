@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-27 02:21+0000\n"
-"PO-Revision-Date: 2024-06-23 08:46+0000\n"
+"PO-Revision-Date: 2024-06-27 09:46+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
-"Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-"
-"service-master/sv/>\n"
+"Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/"
+"agama-service-master/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,11 +22,11 @@ msgstr ""
 #. Runs the startup phase
 #: service/lib/agama/manager.rb:88
 msgid "Load software translations"
-msgstr ""
+msgstr "Laddar översättningar av programvara"
 
 #: service/lib/agama/manager.rb:89
 msgid "Load storage translations"
-msgstr ""
+msgstr "Laddar översättningar för lagring"
 
 #. Runs the config phase
 #: service/lib/agama/manager.rb:104
