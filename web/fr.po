@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-26 02:21+0000\n"
+"POT-Creation-Date: 2024-06-27 02:21+0000\n"
 "PO-Revision-Date: 2024-05-30 20:46+0000\n"
 "Last-Translator: faila fail <yassadmi@proton.me>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/agama/agama-web/fr/"
@@ -59,8 +59,7 @@ msgid "For more information, please visit the project's repository at %s."
 msgstr "Pour plus d'informations, veuillez consulter le dépôt du projet à %s."
 
 #: src/components/core/About.jsx:94 src/components/core/FileViewer.jsx:81
-#: src/components/core/InstallerOptions.jsx:70
-#: src/components/network/WifiSelector.jsx:148
+#: src/components/core/LogsButton.jsx:123
 #: src/components/software/SoftwarePatternsSelection.jsx:260
 msgid "Close"
 msgstr "Fermer"
@@ -97,7 +96,7 @@ msgstr "Continuer"
 #. TRANSLATORS: button label
 #: src/components/core/InstallButton.jsx:49 src/components/core/Page.jsx:97
 #: src/components/core/Popup.jsx:136
-#: src/components/network/WifiConnectionForm.jsx:136
+#: src/components/network/WifiConnectionForm.jsx:131
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -166,21 +165,53 @@ msgstr "Terminer"
 msgid "Reboot"
 msgstr "Redémarrer"
 
-#. TRANSLATORS: %s is replaced by a product name (e.g., openSUSE Tumbleweed)
-#: src/components/core/InstallationProgress.jsx:37
-#, fuzzy, c-format
-msgid "Installing %s, please wait ..."
+#: src/components/core/InstallationProgress.jsx:30
+#, fuzzy
+msgid "Installing the system, please wait ..."
 msgstr "Chargement des produits disponibles, veuillez patienter..."
 
-#: src/components/core/InstallerOptions.jsx:57
+#: src/components/core/InstallerOptions.jsx:83
 #, fuzzy
 msgid "Show installer options"
 msgstr "Masquer les options d'installation"
 
-#: src/components/core/InstallerOptions.jsx:62
+#: src/components/core/InstallerOptions.jsx:88
 #, fuzzy
 msgid "Installer options"
 msgstr "Options de l'installateur"
+
+#: src/components/core/InstallerOptions.jsx:94
+#: src/components/core/InstallerOptions.jsx:99
+#: src/components/core/InstallerOptions.jsx:100
+#: src/components/l10n/L10nPage.jsx:67
+msgid "Language"
+msgstr "Langue"
+
+#: src/components/core/InstallerOptions.jsx:114
+#: src/components/core/InstallerOptions.jsx:121
+#, fuzzy
+msgid "Keyboard layout"
+msgstr "Choisir un produit"
+
+#: src/components/core/InstallerOptions.jsx:130
+#, fuzzy
+msgid "Cannot be changed in remote installation"
+msgstr ""
+"La disposition du clavier ne peut pas être modifiée via l'installation à "
+"distance"
+
+#: src/components/core/InstallerOptions.jsx:135
+#: src/components/network/IpSettingsForm.jsx:210
+#: src/components/product/ProductRegistrationPage.jsx:89
+#: src/components/storage/BootSelection.jsx:228
+#: src/components/storage/DeviceSelection.jsx:240
+#: src/components/storage/EncryptionSettingsDialog.jsx:138
+#: src/components/storage/SpacePolicySelection.jsx:198
+#: src/components/storage/VolumeDialog.jsx:786
+#: src/components/storage/ZFCPPage.jsx:503
+#: src/components/users/FirstUserForm.jsx:285
+msgid "Accept"
+msgstr "Accepter"
 
 #: src/components/core/IssuesHint.jsx:34
 msgid ""
@@ -239,15 +270,16 @@ msgstr "Se connecter"
 msgid "More about this"
 msgstr ""
 
-#: src/components/core/LogsButton.jsx:102
+#: src/components/core/LogsButton.jsx:103
 msgid "Collecting logs..."
 msgstr "Collecte des journaux..."
 
-#: src/components/core/LogsButton.jsx:102
+#: src/components/core/LogsButton.jsx:103
+#: src/components/core/LogsButton.jsx:106
 msgid "Download logs"
 msgstr "Télécharger les journaux"
 
-#: src/components/core/LogsButton.jsx:110
+#: src/components/core/LogsButton.jsx:112
 msgid ""
 "The browser will run the logs download as soon as they are ready. Please, be "
 "patient."
@@ -255,7 +287,7 @@ msgstr ""
 "Le navigateur lancera le téléchargement des journaux dès qu'ils seront "
 "prêts. Veuillez patienter."
 
-#: src/components/core/LogsButton.jsx:118
+#: src/components/core/LogsButton.jsx:120
 msgid "Something went wrong while collecting logs. Please, try again."
 msgstr ""
 "Un problème s'est produit lors de la collecte des journaux. Veuillez "
@@ -266,7 +298,7 @@ msgid "Passwords do not match"
 msgstr "Les mots de passe ne correspondent pas"
 
 #: src/components/core/PasswordAndConfirmationInput.jsx:72
-#: src/components/network/WifiConnectionForm.jsx:125
+#: src/components/network/WifiConnectionForm.jsx:120
 #: src/components/storage/iscsi/AuthFields.jsx:95
 #: src/components/storage/iscsi/AuthFields.jsx:100
 #: src/components/users/RootAuthMethods.jsx:163
@@ -291,14 +323,27 @@ msgstr "Confirmer"
 msgid "Loading data..."
 msgstr "Lecture du fichier..."
 
-#: src/components/core/ProgressReport.jsx:122
+#: src/components/core/ProgressReport.jsx:50
+#, fuzzy
+msgid "Finished"
+msgstr "Terminer"
+
+#: src/components/core/ProgressReport.jsx:59
+msgid "In progress"
+msgstr ""
+
+#: src/components/core/ProgressReport.jsx:70
+msgid "Pending"
+msgstr ""
+
+#: src/components/core/ProgressReport.jsx:134
 #, fuzzy
 msgid "Waiting for progress status..."
 msgstr "En attente d'un rapport d'avancement"
 
 #: src/components/core/RowActions.jsx:64
 #: src/components/storage/PartitionsField.jsx:454
-#: src/components/storage/ProposalActionsSummary.jsx:225
+#: src/components/storage/ProposalActionsSummary.jsx:226
 msgid "Actions"
 msgstr "Actions"
 
@@ -333,33 +378,6 @@ msgstr ""
 #: src/components/core/ServerError.jsx:51
 msgid "Reload"
 msgstr "Recharger"
-
-#: src/components/l10n/InstallerKeymapSwitcher.jsx:66
-#: src/components/l10n/L10nPage.jsx:78
-msgid "Keyboard"
-msgstr "Clavier"
-
-#: src/components/l10n/InstallerKeymapSwitcher.jsx:75
-#, fuzzy
-msgid "Choose a keyboard layout"
-msgstr "Choisir un produit"
-
-#: src/components/l10n/InstallerKeymapSwitcher.jsx:86
-#, fuzzy
-msgid "Cannot be changed in remote installation"
-msgstr ""
-"La disposition du clavier ne peut pas être modifiée via l'installation à "
-"distance"
-
-#: src/components/l10n/InstallerLocaleSwitcher.jsx:57
-#: src/components/l10n/L10nPage.jsx:67
-msgid "Language"
-msgstr "Langue"
-
-#: src/components/l10n/InstallerLocaleSwitcher.jsx:63
-#, fuzzy
-msgid "Choose a language"
-msgstr "Changer de langue"
 
 #: src/components/l10n/KeyboardSelection.jsx:45
 msgid "Filter by description or keymap code"
@@ -397,12 +415,17 @@ msgstr "Aucun périphérique n'a encore été sélectionné"
 
 #: src/components/l10n/L10nPage.jsx:71 src/components/l10n/L10nPage.jsx:82
 #: src/components/l10n/L10nPage.jsx:93
+#: src/components/network/NetworkPage.jsx:102
 #: src/components/storage/InstallationDeviceField.jsx:105
-#: src/components/storage/ProposalActionsSummary.jsx:227
+#: src/components/storage/ProposalActionsSummary.jsx:228
 #: src/components/users/RootAuthMethods.jsx:94
 #: src/components/users/RootAuthMethods.jsx:107
 msgid "Change"
 msgstr "Changer"
+
+#: src/components/l10n/L10nPage.jsx:78
+msgid "Keyboard"
+msgstr "Clavier"
 
 #: src/components/l10n/L10nPage.jsx:89
 msgid "Time zone"
@@ -496,6 +519,8 @@ msgid "IP addresses"
 msgstr "Adresses IP"
 
 #: src/components/network/ConnectionsTable.jsx:77
+#: src/components/network/WifiNetworksListPage.jsx:100
+#: src/components/network/WifiNetworksListPage.jsx:124
 #: src/components/storage/PartitionsField.jsx:320
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:49
 #: src/components/storage/iscsi/NodesPresenter.jsx:73
@@ -506,12 +531,13 @@ msgstr "Modifier"
 #. TRANSLATORS: %s is replaced by a network connection name
 #: src/components/network/ConnectionsTable.jsx:80
 #: src/components/network/IpSettingsForm.jsx:136
-#: src/components/network/routes.js:59
 #, c-format
 msgid "Edit connection %s"
 msgstr "Modifier la connexion %s"
 
 #: src/components/network/ConnectionsTable.jsx:84
+#: src/components/network/WifiNetworksListPage.jsx:103
+#: src/components/network/WifiNetworksListPage.jsx:127
 msgid "Forget"
 msgstr "Oublier"
 
@@ -583,59 +609,60 @@ msgstr "Passerelle"
 msgid "Gateway can be defined only in 'Manual' mode"
 msgstr ""
 
-#: src/components/network/IpSettingsForm.jsx:210
-#: src/components/product/ProductRegistrationPage.jsx:89
-#: src/components/storage/BootSelection.jsx:228
-#: src/components/storage/DeviceSelection.jsx:240
-#: src/components/storage/EncryptionSettingsDialog.jsx:138
-#: src/components/storage/SpacePolicySelection.jsx:198
-#: src/components/storage/VolumeDialog.jsx:786
-#: src/components/storage/ZFCPPage.jsx:503
-#: src/components/users/FirstUserForm.jsx:285
-msgid "Accept"
-msgstr "Accepter"
-
-#: src/components/network/NetworkPage.jsx:44
-#: src/components/network/WifiSelector.jsx:129
-msgid "Connect to a Wi-Fi network"
-msgstr "Se connecter à un réseau Wi-Fi"
-
-#: src/components/network/NetworkPage.jsx:57
-msgid "No wired connections found."
-msgstr "Aucune connexion filaire n'a été trouvée."
-
-#: src/components/network/NetworkPage.jsx:71
-msgid ""
-"The system has not been configured for connecting to a WiFi network yet."
+#: src/components/network/NetworkPage.jsx:85
+msgid "No Wi-Fi supported"
 msgstr ""
-"Le système n'a pas encore été configuré pour se connecter à un réseau WiFi."
 
-#: src/components/network/NetworkPage.jsx:72
+#: src/components/network/NetworkPage.jsx:86
+#, fuzzy
 msgid ""
-"The system does not support WiFi connections, probably because of missing or "
-"disabled hardware."
+"The system does not support Wi-Fi connections, probably because of missing "
+"or disabled hardware."
 msgstr ""
 "Le système ne prend pas en charge les connexions WiFi, probablement en "
 "raison d'un matériel manquant ou désactivé."
 
-#: src/components/network/NetworkPage.jsx:76
-msgid "No WiFi connections found."
-msgstr "Aucune connexion WiFi trouvée."
+#: src/components/network/NetworkPage.jsx:99
+msgid "Wi-Fi"
+msgstr ""
 
-#: src/components/network/NetworkPage.jsx:170
-#: src/components/network/routes.js:49
+#. TRANSLATORS: button label, connect to a WiFi network
+#: src/components/network/NetworkPage.jsx:102
+#: src/components/network/WifiConnectionForm.jsx:128
+#: src/components/network/WifiNetworksListPage.jsx:97
+msgid "Connect"
+msgstr "Se connecter"
+
+#: src/components/network/NetworkPage.jsx:109
+#, fuzzy, c-format
+msgid "Conected to %s"
+msgstr "Connecté (%s)"
+
+#: src/components/network/NetworkPage.jsx:114
+#, fuzzy
+msgid "No connected yet"
+msgstr "Aucun périphérique n'a encore été sélectionné"
+
+#: src/components/network/NetworkPage.jsx:115
+#, fuzzy
+msgid ""
+"The system has not been configured for connecting to a Wi-Fi network yet."
+msgstr ""
+"Le système n'a pas encore été configuré pour se connecter à un réseau WiFi."
+
+#: src/components/network/NetworkPage.jsx:136
+msgid "Wired"
+msgstr ""
+
+#: src/components/network/NetworkPage.jsx:139
+#, fuzzy
+msgid "No wired connections found"
+msgstr "Aucune connexion filaire n'a été trouvée."
+
+#: src/components/network/NetworkPage.jsx:149
+#: src/components/network/routes.js:59
 msgid "Network"
 msgstr "Réseau"
-
-#: src/components/network/NetworkPage.jsx:178
-#, fuzzy
-msgid "Wired connections"
-msgstr "Oublier la connexion %s"
-
-#: src/components/network/NetworkPage.jsx:185
-#, fuzzy
-msgid "WiFi connections"
-msgstr "Modifier la connexion %s"
 
 #. TRANSLATORS: WiFi authentication mode
 #: src/components/network/WifiConnectionForm.jsx:43
@@ -648,7 +675,7 @@ msgstr "Aucun"
 msgid "WPA & WPA2 Personal"
 msgstr "WPA & WPA2 Personnel"
 
-#: src/components/network/WifiConnectionForm.jsx:91
+#: src/components/network/WifiConnectionForm.jsx:86
 #: src/components/product/ProductRegistrationPage.jsx:69
 #: src/components/storage/ZFCPDiskForm.jsx:108
 #: src/components/storage/iscsi/DiscoverForm.jsx:110
@@ -657,82 +684,70 @@ msgstr "WPA & WPA2 Personnel"
 msgid "Something went wrong"
 msgstr "Quelque chose n'a pas fonctionné"
 
-#: src/components/network/WifiConnectionForm.jsx:92
+#: src/components/network/WifiConnectionForm.jsx:87
 msgid "Please, review provided settings and try again."
 msgstr "Veuillez vérifier les paramètres fournis et réessayer."
 
 #. TRANSLATORS: SSID (Wifi network name) configuration
-#: src/components/network/WifiConnectionForm.jsx:97
-#: src/components/network/WifiConnectionForm.jsx:101
+#: src/components/network/WifiConnectionForm.jsx:92
+#: src/components/network/WifiConnectionForm.jsx:96
 msgid "SSID"
 msgstr "SSID"
 
 #. TRANSLATORS: Wifi security configuration (password protected or not)
-#: src/components/network/WifiConnectionForm.jsx:109
-#: src/components/network/WifiConnectionForm.jsx:112
+#: src/components/network/WifiConnectionForm.jsx:104
+#: src/components/network/WifiConnectionForm.jsx:107
 msgid "Security"
 msgstr "Sécurité"
 
 #. TRANSLATORS: WiFi password
-#: src/components/network/WifiConnectionForm.jsx:121
+#: src/components/network/WifiConnectionForm.jsx:116
 msgid "WPA Password"
 msgstr "Mot de passe WPA"
 
-#. TRANSLATORS: button label, connect to a WiFi network
-#. TRANSLATORS: menu label, connect to the selected WiFi network
-#: src/components/network/WifiConnectionForm.jsx:133
-#: src/components/network/WifiNetworkMenu.jsx:58
-msgid "Connect"
-msgstr "Se connecter"
-
-#. TRANSLATORS: button label
-#: src/components/network/WifiHiddenNetworkForm.jsx:50
-msgid "Connect to hidden network"
-msgstr "Se connecter à un réseau caché"
-
 #. TRANSLATORS: Wifi network status
-#: src/components/network/WifiNetworkListItem.jsx:34
-#: src/components/network/WifiNetworkListItem.jsx:94
+#: src/components/network/WifiNetworksListPage.jsx:51
+#: src/components/network/WifiNetworksListPage.jsx:111
 msgid "Connecting"
 msgstr "Connexion"
 
 #. TRANSLATORS: Wifi network status
-#: src/components/network/WifiNetworkListItem.jsx:37
+#: src/components/network/WifiNetworksListPage.jsx:54
+#: src/components/network/WifiNetworksListPage.jsx:115
+#: src/components/network/WifiNetworksListPage.jsx:154
 msgid "Connected"
 msgstr "Connecté"
 
-#. TRANSLATORS: Wifi network status
-#: src/components/network/WifiNetworkListItem.jsx:40
-msgid "Disconnecting"
-msgstr "Déconnexion"
-
-#: src/components/network/WifiNetworkListItem.jsx:42
-msgid "Failed"
-msgstr "Échec"
-
 #. TRANSLATORS: iSCSI connection status
 #. TRANSLATORS: Wifi network status
-#: src/components/network/WifiNetworkListItem.jsx:45
+#: src/components/network/WifiNetworksListPage.jsx:59
+#: src/components/network/WifiNetworksListPage.jsx:113
 #: src/components/storage/iscsi/NodesPresenter.jsx:63
 msgid "Disconnected"
 msgstr "Déconnecté"
 
-#. TRANSLATORS: %s is replaced by a WiFi network name
-#: src/components/network/WifiNetworkListItem.jsx:92
-#, c-format
-msgid "%s connection is waiting for an state change"
-msgstr "La connexion %s attend un changement d'état"
-
-#. TRANSLATORS: menu label, disconnect from the selected WiFi network
-#: src/components/network/WifiNetworkMenu.jsx:67
+#: src/components/network/WifiNetworksListPage.jsx:121
 #, fuzzy
 msgid "Disconnect"
 msgstr "Déconnecté"
 
-#. TRANSLATORS: menu label, remove the selected WiFi network settings
-#: src/components/network/WifiNetworkMenu.jsx:76
-msgid "Forget network"
-msgstr "Oublier le réseau"
+#: src/components/network/WifiNetworksListPage.jsx:142
+#, fuzzy
+msgid "Connect to a hidden network"
+msgstr "Se connecter à un réseau caché"
+
+#: src/components/network/WifiNetworksListPage.jsx:153
+#, fuzzy
+msgid "configured"
+msgstr "Ne pas modifier"
+
+#: src/components/network/WifiNetworksListPage.jsx:244
+msgid "Connect to hidden network"
+msgstr "Se connecter à un réseau caché"
+
+#: src/components/network/WifiSelectorPage.jsx:131
+msgid "Connect to a Wi-Fi network"
+msgstr "Se connecter à un réseau Wi-Fi"
 
 #. TRANSLATORS: %s will be replaced by a language name and territory, example:
 #. "English (United States)".
@@ -1728,66 +1743,66 @@ msgid_plural "Show %d subvolume actions"
 msgstr[0] "Afficher l'action du sous-volume %d"
 msgstr[1] "Afficher les actions du sous-volume %d"
 
-#: src/components/storage/ProposalActionsSummary.jsx:56
+#: src/components/storage/ProposalActionsSummary.jsx:57
 #, fuzzy
 msgid "Destructive actions are not allowed"
 msgstr "Il y a %d action destructrice prévue"
 
-#: src/components/storage/ProposalActionsSummary.jsx:58
+#: src/components/storage/ProposalActionsSummary.jsx:59
 #, fuzzy
 msgid "Destructive actions are allowed"
 msgstr "Il y a %d action destructrice prévue"
 
-#: src/components/storage/ProposalActionsSummary.jsx:65
+#: src/components/storage/ProposalActionsSummary.jsx:66
 #, c-format
 msgid "There is %d destructive action planned"
 msgid_plural "There are %d destructive actions planned"
 msgstr[0] "Il y a %d action destructrice prévue"
 msgstr[1] "Il y a %d actions destructrices prévues"
 
-#: src/components/storage/ProposalActionsSummary.jsx:78
-#: src/components/storage/ProposalActionsSummary.jsx:125
+#: src/components/storage/ProposalActionsSummary.jsx:79
+#: src/components/storage/ProposalActionsSummary.jsx:126
 #, fuzzy
 msgid "affecting"
 msgstr "Connexion"
 
-#: src/components/storage/ProposalActionsSummary.jsx:106
+#: src/components/storage/ProposalActionsSummary.jsx:107
 #, fuzzy
 msgid "Shrinking partitions is not allowed"
 msgstr "Réduire les partitions existantes"
 
-#: src/components/storage/ProposalActionsSummary.jsx:110
+#: src/components/storage/ProposalActionsSummary.jsx:111
 #, fuzzy
 msgid "Shrinking partitions is allowed"
 msgstr "Réduire les partitions existantes"
 
-#: src/components/storage/ProposalActionsSummary.jsx:112
+#: src/components/storage/ProposalActionsSummary.jsx:113
 #, fuzzy
 msgid "Shrinking some partitions is allowed but not needed"
 msgstr "réduction des partitions du périphérique d'installation"
 
-#: src/components/storage/ProposalActionsSummary.jsx:115
+#: src/components/storage/ProposalActionsSummary.jsx:116
 #, fuzzy, c-format
 msgid "%d partition will be shrunk"
 msgid_plural "%d partitions will be shrunk"
 msgstr[0] "Table de partitionnement %s"
 msgstr[1] "Table de partitionnement %s"
 
-#: src/components/storage/ProposalActionsSummary.jsx:150
+#: src/components/storage/ProposalActionsSummary.jsx:151
 #, fuzzy
 msgid "Cannot accommodate the required file systems for installation"
 msgstr ""
 "La disposition du clavier ne peut pas être modifiée via l'installation à "
 "distance"
 
-#: src/components/storage/ProposalActionsSummary.jsx:159
+#: src/components/storage/ProposalActionsSummary.jsx:160
 #, fuzzy, c-format
 msgid "Check the planned action"
 msgid_plural "Check the %d planned actions"
 msgstr[0] "Actions planifiées"
 msgstr[1] "Actions planifiées"
 
-#: src/components/storage/ProposalActionsSummary.jsx:178
+#: src/components/storage/ProposalActionsSummary.jsx:179
 #, fuzzy
 msgid "Waiting for actions information..."
 msgstr "En attente d'informations sur le LVM"
@@ -2720,15 +2735,41 @@ msgstr ""
 msgid "Root authentication"
 msgstr "Authentification root"
 
-#: src/components/users/routes.js:41
 #, fuzzy
-msgid "Create or edit the first user"
-msgstr "Lecture du fichier impossible"
+#~ msgid "Choose a language"
+#~ msgstr "Changer de langue"
 
-#: src/components/users/routes.js:48
+#~ msgid "No WiFi connections found."
+#~ msgstr "Aucune connexion WiFi trouvée."
+
 #, fuzzy
-msgid "Edit first user"
-msgstr "Modifier le système de fichiers"
+#~ msgid "Wired connections"
+#~ msgstr "Oublier la connexion %s"
+
+#, fuzzy
+#~ msgid "WiFi connections"
+#~ msgstr "Modifier la connexion %s"
+
+#~ msgid "Disconnecting"
+#~ msgstr "Déconnexion"
+
+#~ msgid "Failed"
+#~ msgstr "Échec"
+
+#, c-format
+#~ msgid "%s connection is waiting for an state change"
+#~ msgstr "La connexion %s attend un changement d'état"
+
+#~ msgid "Forget network"
+#~ msgstr "Oublier le réseau"
+
+#, fuzzy
+#~ msgid "Create or edit the first user"
+#~ msgstr "Lecture du fichier impossible"
+
+#, fuzzy
+#~ msgid "Edit first user"
+#~ msgstr "Modifier le système de fichiers"
 
 #, fuzzy
 #~ msgid ""
