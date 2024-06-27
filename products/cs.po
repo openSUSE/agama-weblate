@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-6-26 2:21+0000\n"
+"POT-Creation-Date: 2024-6-27 2:21+0000\n"
 "PO-Revision-Date: 2024-06-13 09:46+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-"
@@ -33,13 +33,6 @@ msgstr ""
 "transakční (atomické) aktualizace na kořenovém souborovém systému btrfs "
 "určeném pouze pro čtení. Jako distribuce s průběžným vydáváním je software "
 "vždy aktuální."
-
-# TRANSLATORS: description of product "Leap 16.0 Alpha"
-#: leap_160.yaml:8
-msgid ""
-"Leap 16.0 is the latest version of a community distribution based on the "
-"latest SUSE Linux Enterprise Server."
-msgstr ""
 
 # TRANSLATORS: description of product "openSUSE Tumbleweed"
 #: tumbleweed.yaml:8

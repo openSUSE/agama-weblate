@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-6-26 2:21+0000\n"
+"POT-Creation-Date: 2024-6-27 2:21+0000\n"
 "PO-Revision-Date: 2024-05-16 15:46+0000\n"
 "Last-Translator: Özgür Arslan <ozgurarslln@gmail.com>\n"
 "Language-Team: Turkish <https://l10n.opensuse.org/projects/agama/agama-"
@@ -31,13 +31,6 @@ msgstr ""
 "tasarlanmış hızlı, küçük bir dağıtım. openSUSE MicroOS, salt okunur bir "
 "btrfs kök dosya sistemi üzerinde işlemsel (atomik) güncellemeler sağlar. "
 "Sürekli sürüm dağıtımı olarak yazılım her zaman günceldir."
-
-# TRANSLATORS: description of product "Leap 16.0 Alpha"
-#: leap_160.yaml:8
-msgid ""
-"Leap 16.0 is the latest version of a community distribution based on the "
-"latest SUSE Linux Enterprise Server."
-msgstr ""
 
 # TRANSLATORS: description of product "openSUSE Tumbleweed"
 #: tumbleweed.yaml:8

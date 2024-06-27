@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-6-26 2:21+0000\n"
+"POT-Creation-Date: 2024-6-27 2:21+0000\n"
 "PO-Revision-Date: 2023-12-07 07:01+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-"
@@ -32,13 +32,6 @@ msgstr ""
 "(不可分の) 更新機構が提供されており、 btrfs のルートファイルシステムを読み込"
 "み専用にすることができます。こちらもローリングリリース型のディストリビュー"
 "ションであるため、常に最新を維持することができます。"
-
-# TRANSLATORS: description of product "Leap 16.0 Alpha"
-#: leap_160.yaml:8
-msgid ""
-"Leap 16.0 is the latest version of a community distribution based on the "
-"latest SUSE Linux Enterprise Server."
-msgstr ""
 
 # TRANSLATORS: description of product "openSUSE Tumbleweed"
 #: tumbleweed.yaml:8
