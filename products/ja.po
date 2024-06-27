@@ -46,6 +46,15 @@ msgstr ""
 "ジョンに維持し続ける取り組みです。このプロジェクトは特に、最新の安定バージョ"
 "ンを使いたいユーザにお勧めです。"
 
+# TRANSLATORS: description of product "Leap 16.0 Alpha"
+#: leap_160.yaml:8
+msgid ""
+"Leap 16.0 is the latest version of a community distribution based on the "
+"latest SUSE Linux Enterprise Server."
+msgstr ""
+"Leap 16.0 は最新のSUSE Linux Enterprise Server をベースにしたコミュニティディ"
+"ストリビューションの最新版です。"
+
 # TRANSLATORS: description of product "openSUSE MicroOS Desktop"
 #~ msgid ""
 #~ "A distribution for the desktop offering automatic updates and rollback on "
