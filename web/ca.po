@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-27 02:21+0000\n"
-"PO-Revision-Date: 2024-06-26 10:46+0000\n"
+"PO-Revision-Date: 2024-06-27 09:46+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ca/>\n"
@@ -163,9 +163,8 @@ msgid "Reboot"
 msgstr "Reinicia"
 
 #: src/components/core/InstallationProgress.jsx:30
-#, fuzzy
 msgid "Installing the system, please wait ..."
-msgstr "Instal·lant %s. Espereu, si us plau..."
+msgstr "Instal·lant el sistema. Espereu, si us plau..."
 
 #: src/components/core/InstallerOptions.jsx:83
 msgid "Show installer options"
@@ -184,9 +183,8 @@ msgstr "Llengua"
 
 #: src/components/core/InstallerOptions.jsx:114
 #: src/components/core/InstallerOptions.jsx:121
-#, fuzzy
 msgid "Keyboard layout"
-msgstr "Trieu una disposició de teclat"
+msgstr "Disposició del teclat"
 
 #: src/components/core/InstallerOptions.jsx:130
 msgid "Cannot be changed in remote installation"
@@ -312,17 +310,16 @@ msgid "Loading data..."
 msgstr "Carregant dades..."
 
 #: src/components/core/ProgressReport.jsx:50
-#, fuzzy
 msgid "Finished"
-msgstr "Acaba"
+msgstr "Acabada"
 
 #: src/components/core/ProgressReport.jsx:59
 msgid "In progress"
-msgstr ""
+msgstr "En curs"
 
 #: src/components/core/ProgressReport.jsx:70
 msgid "Pending"
-msgstr ""
+msgstr "Pendent"
 
 #: src/components/core/ProgressReport.jsx:134
 msgid "Waiting for progress status..."
@@ -586,20 +583,19 @@ msgstr "La passarel·la només es pot definir en mode manual."
 
 #: src/components/network/NetworkPage.jsx:85
 msgid "No Wi-Fi supported"
-msgstr ""
+msgstr "No és compatible amb Wi-Fi."
 
 #: src/components/network/NetworkPage.jsx:86
-#, fuzzy
 msgid ""
 "The system does not support Wi-Fi connections, probably because of missing "
 "or disabled hardware."
 msgstr ""
-"El sistema no admet connexions WiFi, probablement a causa del maquinari que "
-"manca o està desactivat."
+"El sistema no admet connexions de wifi, probablement a causa de maquinari "
+"que manca o que està inhabilitat."
 
 #: src/components/network/NetworkPage.jsx:99
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wifi"
 
 #. TRANSLATORS: button label, connect to a WiFi network
 #: src/components/network/NetworkPage.jsx:102
@@ -609,28 +605,25 @@ msgid "Connect"
 msgstr "Connecta't"
 
 #: src/components/network/NetworkPage.jsx:109
-#, fuzzy, c-format
+#, c-format
 msgid "Conected to %s"
-msgstr "Connectat (%s)"
+msgstr "Connectat amb %s"
 
 #: src/components/network/NetworkPage.jsx:114
-#, fuzzy
 msgid "No connected yet"
-msgstr "Encara no s'ha seleccionat."
+msgstr "Encara no s'ha connetat."
 
 #: src/components/network/NetworkPage.jsx:115
-#, fuzzy
 msgid ""
 "The system has not been configured for connecting to a Wi-Fi network yet."
 msgstr ""
-"El sistema encara no s'ha configurat per connectar-se a una xarxa WiFi."
+"El sistema encara no s'ha configurat per connectar-se a una xarxa de wifi."
 
 #: src/components/network/NetworkPage.jsx:136
 msgid "Wired"
-msgstr ""
+msgstr "Amb fil"
 
 #: src/components/network/NetworkPage.jsx:139
-#, fuzzy
 msgid "No wired connections found"
 msgstr "No s'ha trobat cap connexió amb fil."
 
@@ -707,14 +700,12 @@ msgid "Disconnect"
 msgstr "Desconnecta"
 
 #: src/components/network/WifiNetworksListPage.jsx:142
-#, fuzzy
 msgid "Connect to a hidden network"
 msgstr "Connecta't a una xarxa oculta"
 
 #: src/components/network/WifiNetworksListPage.jsx:153
-#, fuzzy
 msgid "configured"
-msgstr "No ho configuris"
+msgstr "configurat"
 
 #: src/components/network/WifiNetworksListPage.jsx:244
 msgid "Connect to hidden network"
