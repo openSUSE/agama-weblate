@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-27 02:21+0000\n"
-"PO-Revision-Date: 2024-06-26 10:46+0000\n"
+"PO-Revision-Date: 2024-06-28 16:46+0000\n"
 "Last-Translator: Aleksey Fedorov <Aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ru/>\n"
@@ -165,9 +165,8 @@ msgid "Reboot"
 msgstr "Перезагрузка"
 
 #: src/components/core/InstallationProgress.jsx:30
-#, fuzzy
 msgid "Installing the system, please wait ..."
-msgstr "Установка %s, пожалуйста, подождите ..."
+msgstr "Установка системы, пожалуйста, подождите..."
 
 #: src/components/core/InstallerOptions.jsx:83
 msgid "Show installer options"
@@ -186,9 +185,8 @@ msgstr "Язык"
 
 #: src/components/core/InstallerOptions.jsx:114
 #: src/components/core/InstallerOptions.jsx:121
-#, fuzzy
 msgid "Keyboard layout"
-msgstr "Выберите раскладку клавиатуры"
+msgstr "Раскладка клавиатуры"
 
 #: src/components/core/InstallerOptions.jsx:130
 msgid "Cannot be changed in remote installation"
@@ -313,17 +311,16 @@ msgid "Loading data..."
 msgstr "Загрузка данных..."
 
 #: src/components/core/ProgressReport.jsx:50
-#, fuzzy
 msgid "Finished"
-msgstr "Завершить"
+msgstr "Завершено"
 
 #: src/components/core/ProgressReport.jsx:59
 msgid "In progress"
-msgstr ""
+msgstr "В процессе"
 
 #: src/components/core/ProgressReport.jsx:70
 msgid "Pending"
-msgstr ""
+msgstr "Ожидается"
 
 #: src/components/core/ProgressReport.jsx:134
 msgid "Waiting for progress status..."
@@ -587,10 +584,9 @@ msgstr "Шлюз можно указать только в ручном режи
 
 #: src/components/network/NetworkPage.jsx:85
 msgid "No Wi-Fi supported"
-msgstr ""
+msgstr "Нет поддержки Wi-Fi"
 
 #: src/components/network/NetworkPage.jsx:86
-#, fuzzy
 msgid ""
 "The system does not support Wi-Fi connections, probably because of missing "
 "or disabled hardware."
@@ -600,7 +596,7 @@ msgstr ""
 
 #: src/components/network/NetworkPage.jsx:99
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 #. TRANSLATORS: button label, connect to a WiFi network
 #: src/components/network/NetworkPage.jsx:102
@@ -610,29 +606,26 @@ msgid "Connect"
 msgstr "Подключиться"
 
 #: src/components/network/NetworkPage.jsx:109
-#, fuzzy, c-format
+#, c-format
 msgid "Conected to %s"
-msgstr "Подключено (%s)"
+msgstr "Подключено к %s"
 
 #: src/components/network/NetworkPage.jsx:114
-#, fuzzy
 msgid "No connected yet"
-msgstr "Ещё не выбрано"
+msgstr "Ещё не подключено"
 
 #: src/components/network/NetworkPage.jsx:115
-#, fuzzy
 msgid ""
 "The system has not been configured for connecting to a Wi-Fi network yet."
-msgstr "Система ещё не настроена на подключение к сети WiFi."
+msgstr "Система ещё не настроена на подключение к сети Wi-Fi."
 
 #: src/components/network/NetworkPage.jsx:136
 msgid "Wired"
-msgstr ""
+msgstr "Проводное"
 
 #: src/components/network/NetworkPage.jsx:139
-#, fuzzy
 msgid "No wired connections found"
-msgstr "Проводные соединения не обнаружены."
+msgstr "Проводные соединения не обнаружены"
 
 #: src/components/network/NetworkPage.jsx:149
 #: src/components/network/routes.js:59
@@ -706,14 +699,12 @@ msgid "Disconnect"
 msgstr "Отключить"
 
 #: src/components/network/WifiNetworksListPage.jsx:142
-#, fuzzy
 msgid "Connect to a hidden network"
 msgstr "Подключиться к скрытой сети"
 
 #: src/components/network/WifiNetworksListPage.jsx:153
-#, fuzzy
 msgid "configured"
-msgstr "Не настраивать"
+msgstr "настроено"
 
 #: src/components/network/WifiNetworksListPage.jsx:244
 msgid "Connect to hidden network"
