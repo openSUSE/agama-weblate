@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-27 02:21+0000\n"
-"PO-Revision-Date: 2024-06-28 13:46+0000\n"
+"PO-Revision-Date: 2024-06-28 16:46+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.opensuse.org/projects/agama/"
 "agama-service-master/ka/>\n"
@@ -168,7 +168,7 @@ msgstr ""
 #. @return [Issue]
 #: service/lib/agama/storage/proposal.rb:192
 msgid "Cannot accommodate the required file systems for installation"
-msgstr ""
+msgstr "დაყენებისთვის საჭირო ფაილური სისტემების შეგროვება შეუძლებელია"
 
 #. Issue to communicate a generic Y2Storage error.
 #.
