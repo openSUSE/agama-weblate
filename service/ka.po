@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-27 02:21+0000\n"
+"POT-Creation-Date: 2024-06-30 02:27+0000\n"
 "PO-Revision-Date: 2024-06-28 16:46+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
-"Language-Team: Georgian <https://l10n.opensuse.org/projects/agama/"
-"agama-service-master/ka/>\n"
+"Language-Team: Georgian <https://l10n.opensuse.org/projects/agama/agama-"
+"service-master/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -68,8 +68,8 @@ msgstr ""
 #: service/lib/agama/software/callbacks/signature.rb:71
 #, perl-brace-format
 msgid ""
-"%{source} is not digitally signed. The origin and integrity of the file cannot"
-" be verified. Use it anyway?"
+"%{source} is not digitally signed. The origin and integrity of the file "
+"cannot be verified. Use it anyway?"
 msgstr ""
 
 #. Callback to handle signature verification failures
@@ -79,8 +79,8 @@ msgstr ""
 #: service/lib/agama/software/callbacks/signature.rb:94
 #, perl-brace-format
 msgid ""
-"The key %{id} (%{name}) with fingerprint %{fingerprint} is unknown. Do you wan"
-"t to trust this key?"
+"The key %{id} (%{name}) with fingerprint %{fingerprint} is unknown. Do you "
+"want to trust this key?"
 msgstr ""
 
 #. Should an error be raised?
@@ -180,21 +180,23 @@ msgstr ""
 #. Returns an issue if there is no target device.
 #.
 #. @return [Issue, nil]
-#: service/lib/agama/storage/proposal_strategies/guided.rb:122
+#: service/lib/agama/storage/proposal_strategies/guided.rb:124
 msgid "No device selected for installation"
 msgstr ""
 
 #. Returns an issue if any of the devices required for the proposal is not found
 #.
 #. @return [Issue, nil]
-#: service/lib/agama/storage/proposal_strategies/guided.rb:138
+#: service/lib/agama/storage/proposal_strategies/guided.rb:140
 #, perl-brace-format
 msgid "The following selected device is not found in the system: %{devices}"
-msgid_plural "The following selected devices are not found in the system: %{devices}"
+msgid_plural ""
+"The following selected devices are not found in the system: %{devices}"
 msgstr[0] ""
 msgstr[1] ""
 
 #. Recalculates the list of issues
 #: service/lib/agama/users.rb:152
-msgid "Defining a user, setting the root password or a SSH public key is required"
+msgid ""
+"Defining a user, setting the root password or a SSH public key is required"
 msgstr ""

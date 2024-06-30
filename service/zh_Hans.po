@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-27 02:21+0000\n"
+"POT-Creation-Date: 2024-06-30 02:27+0000\n"
 "PO-Revision-Date: 2024-04-10 09:43+0000\n"
 "Last-Translator: Monstorix <monstorix@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.opensuse.org/projects/"
@@ -184,14 +184,14 @@ msgstr ""
 #. Returns an issue if there is no target device.
 #.
 #. @return [Issue, nil]
-#: service/lib/agama/storage/proposal_strategies/guided.rb:122
+#: service/lib/agama/storage/proposal_strategies/guided.rb:124
 msgid "No device selected for installation"
 msgstr "未选择用于安装的设备"
 
 #. Returns an issue if any of the devices required for the proposal is not found
 #.
 #. @return [Issue, nil]
-#: service/lib/agama/storage/proposal_strategies/guided.rb:138
+#: service/lib/agama/storage/proposal_strategies/guided.rb:140
 #, perl-brace-format
 msgid "The following selected device is not found in the system: %{devices}"
 msgid_plural ""

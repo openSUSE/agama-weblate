@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-27 02:21+0000\n"
+"POT-Creation-Date: 2024-06-30 02:27+0000\n"
 "PO-Revision-Date: 2024-06-24 02:23+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-"
@@ -29,25 +29,25 @@ msgid "Load storage translations"
 msgstr ""
 
 #. Runs the config phase
-#: service/lib/agama/manager.rb:104 service/lib/agama/manager.rb:88
+#: service/lib/agama/manager.rb:104
 msgid "Analyze disks"
 msgstr "ディスクの分析"
 
-#: service/lib/agama/manager.rb:104 service/lib/agama/manager.rb:88
+#: service/lib/agama/manager.rb:104
 msgid "Configure software"
 msgstr "ソフトウエアの設定"
 
 #. Runs the install phase
 #. rubocop:disable Metrics/AbcSize
-#: service/lib/agama/manager.rb:124 service/lib/agama/manager.rb:108
+#: service/lib/agama/manager.rb:124
 msgid "Prepare disks"
 msgstr "ディスクの準備"
 
-#: service/lib/agama/manager.rb:125 service/lib/agama/manager.rb:109
+#: service/lib/agama/manager.rb:125
 msgid "Install software"
 msgstr "ソフトウエアのインストール"
 
-#: service/lib/agama/manager.rb:126 service/lib/agama/manager.rb:110
+#: service/lib/agama/manager.rb:126
 msgid "Configure the system"
 msgstr "システムの設定"
 
@@ -89,17 +89,14 @@ msgstr ""
 
 #. Should an error be raised?
 #: service/lib/agama/software/manager.rb:141
-#: service/lib/agama/software/manager.rb:137
 msgid "Initializing sources"
 msgstr "ソースを準備しています"
 
 #: service/lib/agama/software/manager.rb:146
-#: service/lib/agama/software/manager.rb:142
 msgid "Refreshing repositories metadata"
 msgstr "リポジトリのメタデータを更新しています"
 
 #: service/lib/agama/software/manager.rb:147
-#: service/lib/agama/software/manager.rb:143
 msgid "Calculating the software proposal"
 msgstr "ソフトウエアの提案内容を作成しています"
 
@@ -109,7 +106,6 @@ msgstr "ソフトウエアの提案内容を作成しています"
 #.
 #. @return [Array<Agama::Issue>]
 #: service/lib/agama/software/manager.rb:563
-#: service/lib/agama/software/manager.rb:465
 #, c-format
 msgid "Could not read repository \"%s\""
 msgstr "リポジトリ\"%s\" を読み込むことができませんでした"
@@ -118,7 +114,6 @@ msgstr "リポジトリ\"%s\" を読み込むことができませんでした"
 #.
 #. @return [Agama::Issue]
 #: service/lib/agama/software/manager.rb:573
-#: service/lib/agama/software/manager.rb:475
 msgid "Product not selected yet"
 msgstr "まだ製品を選択していません"
 
@@ -126,7 +121,6 @@ msgstr "まだ製品を選択していません"
 #.
 #. @return [Agama::Issue]
 #: service/lib/agama/software/manager.rb:582
-#: service/lib/agama/software/manager.rb:484
 msgid "Product must be registered"
 msgstr "製品を登録しなければなりません"
 
@@ -140,44 +134,36 @@ msgstr "%s 個の依存関係の問題が見つかりました。"
 
 #. Probes storage devices and performs an initial proposal
 #: service/lib/agama/storage/manager.rb:115
-#: service/lib/agama/storage/manager.rb:113
 msgid "Activating storage devices"
 msgstr "ストレージデバイスを有効化しています"
 
 #: service/lib/agama/storage/manager.rb:116
-#: service/lib/agama/storage/manager.rb:114
 msgid "Probing storage devices"
 msgstr "ストレージデバイスを検出しています"
 
 #: service/lib/agama/storage/manager.rb:117
-#: service/lib/agama/storage/manager.rb:115
 msgid "Calculating the storage proposal"
 msgstr "ストレージの提案内容を作成しています"
 
 #: service/lib/agama/storage/manager.rb:118
-#: service/lib/agama/storage/manager.rb:116
 msgid "Selecting Linux Security Modules"
 msgstr "Linux セキュリティモジュールを選択しています"
 
 #. Prepares the partitioning to install the system
 #: service/lib/agama/storage/manager.rb:126
-#: service/lib/agama/storage/manager.rb:124
 msgid "Preparing bootloader proposal"
 msgstr "ブートローダの提案内容を準備しています"
 
 #. first make bootloader proposal to be sure that required packages are installed
 #: service/lib/agama/storage/manager.rb:131
-#: service/lib/agama/storage/manager.rb:129
 msgid "Adding storage-related packages"
 msgstr "ストレージ関連のパッケージを追加しています"
 
 #: service/lib/agama/storage/manager.rb:132
-#: service/lib/agama/storage/manager.rb:130
 msgid "Preparing the storage devices"
 msgstr "ストレージデバイスを準備しています"
 
 #: service/lib/agama/storage/manager.rb:133
-#: service/lib/agama/storage/manager.rb:131
 msgid "Writing bootloader sysconfig"
 msgstr "ブートローダの sysconfig を書き込んでいます"
 
@@ -198,14 +184,14 @@ msgstr "ストレージ設定を作成する際に問題が発生しました"
 #. Returns an issue if there is no target device.
 #.
 #. @return [Issue, nil]
-#: service/lib/agama/storage/proposal_strategies/guided.rb:122
+#: service/lib/agama/storage/proposal_strategies/guided.rb:124
 msgid "No device selected for installation"
 msgstr "インストール先のデバイスを選択していません"
 
 #. Returns an issue if any of the devices required for the proposal is not found
 #.
 #. @return [Issue, nil]
-#: service/lib/agama/storage/proposal_strategies/guided.rb:138
+#: service/lib/agama/storage/proposal_strategies/guided.rb:140
 #, perl-brace-format
 msgid "The following selected device is not found in the system: %{devices}"
 msgid_plural ""
