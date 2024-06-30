@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-27 02:21+0000\n"
+"POT-Creation-Date: 2024-06-30 02:27+0000\n"
 "PO-Revision-Date: 2024-06-24 12:46+0000\n"
 "Last-Translator: Monstorix <monstorix@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.opensuse.org/projects/"
@@ -188,7 +188,7 @@ msgstr "无法在远程安装中更改"
 #: src/components/storage/DeviceSelection.jsx:240
 #: src/components/storage/EncryptionSettingsDialog.jsx:138
 #: src/components/storage/SpacePolicySelection.jsx:198
-#: src/components/storage/VolumeDialog.jsx:786
+#: src/components/storage/VolumeDialog.jsx:781
 #: src/components/storage/ZFCPPage.jsx:503
 #: src/components/users/FirstUserForm.jsx:285
 msgid "Accept"
@@ -1592,7 +1592,7 @@ msgstr "挂载点列表"
 
 #: src/components/storage/PartitionsField.jsx:566
 #: src/components/storage/PartitionsField.jsx:585
-#: src/components/storage/VolumeDialog.jsx:83
+#: src/components/storage/VolumeDialog.jsx:81
 msgid "Add file system"
 msgstr "添加文件系统"
 
@@ -1790,83 +1790,83 @@ msgstr "查找空间的操作"
 msgid "Space policy"
 msgstr ""
 
-#: src/components/storage/VolumeDialog.jsx:80
+#: src/components/storage/VolumeDialog.jsx:78
 #, fuzzy, c-format
 msgid "Add %s file system"
 msgstr "添加文件系统"
 
-#: src/components/storage/VolumeDialog.jsx:81
+#: src/components/storage/VolumeDialog.jsx:79
 #, fuzzy, c-format
 msgid "Edit %s file system"
 msgstr "编辑文件系统"
 
-#: src/components/storage/VolumeDialog.jsx:83
+#: src/components/storage/VolumeDialog.jsx:81
 msgid "Edit file system"
 msgstr "编辑文件系统"
 
 #. TRANSLATORS: Warning when editing a file system.
-#: src/components/storage/VolumeDialog.jsx:98
+#: src/components/storage/VolumeDialog.jsx:96
 #, fuzzy
 msgid "The type and size of the file system cannot be edited."
 msgstr "在 %s 上存在文件系统"
 
 #. TRANSLATORS: Description of a warning. The first %s is replaced by a device name (e.g.,
 #. /dev/vda) and the second %s is replaced by a mount path (e.g., /home).
-#: src/components/storage/VolumeDialog.jsx:101
+#: src/components/storage/VolumeDialog.jsx:99
 #, c-format
 msgid "The current file system on %s is selected to be mounted at %s."
 msgstr ""
 
 #. TRANSLATORS: Warning when editing a file system.
-#: src/components/storage/VolumeDialog.jsx:107
+#: src/components/storage/VolumeDialog.jsx:105
 #, fuzzy
 msgid "The size of the file system cannot be edited"
 msgstr "在 %s 上存在文件系统"
 
 #. TRANSLATORS: Description of a warning. %s is replaced by a device name (e.g., /dev/vda).
-#: src/components/storage/VolumeDialog.jsx:109
+#: src/components/storage/VolumeDialog.jsx:107
 #, fuzzy, c-format
 msgid "The file system is allocated at the device %s."
 msgstr "默认情况下，文件系统将被分配为<b>所选设备上的新分区</b>。"
 
-#: src/components/storage/VolumeDialog.jsx:154
+#: src/components/storage/VolumeDialog.jsx:152
 #, fuzzy
 msgid "A mount point is required"
 msgstr "需要指定最小尺寸"
 
-#: src/components/storage/VolumeDialog.jsx:181
+#: src/components/storage/VolumeDialog.jsx:179
 #, fuzzy
 msgid "The mount point is invalid"
 msgstr "挂载点列表"
 
-#: src/components/storage/VolumeDialog.jsx:209
+#: src/components/storage/VolumeDialog.jsx:207
 msgid "A size value is required"
 msgstr "必须输入尺寸值"
 
-#: src/components/storage/VolumeDialog.jsx:237
+#: src/components/storage/VolumeDialog.jsx:235
 msgid "Minimum size is required"
 msgstr "需要指定最小尺寸"
 
-#: src/components/storage/VolumeDialog.jsx:269
+#: src/components/storage/VolumeDialog.jsx:267
 msgid "Maximum must be greater than minimum"
 msgstr "最大值必须高于最小值"
 
-#: src/components/storage/VolumeDialog.jsx:311
+#: src/components/storage/VolumeDialog.jsx:309
 #, fuzzy, c-format
 msgid "There is already a file system for %s."
 msgstr "在 %s 上存在文件系统"
 
-#: src/components/storage/VolumeDialog.jsx:313
+#: src/components/storage/VolumeDialog.jsx:311
 #, fuzzy
 msgid "Do you want to edit it?"
 msgstr "您想要取消注册 %s 吗？"
 
-#: src/components/storage/VolumeDialog.jsx:358
+#: src/components/storage/VolumeDialog.jsx:356
 #, fuzzy, c-format
 msgid "There is a predefined file system for %s."
 msgstr "在 %s 上存在文件系统"
 
-#: src/components/storage/VolumeDialog.jsx:360
+#: src/components/storage/VolumeDialog.jsx:358
 #, fuzzy
 msgid "Do you want to add it?"
 msgstr "您想要取消注册 %s 吗？"

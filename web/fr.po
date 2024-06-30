@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-27 02:21+0000\n"
+"POT-Creation-Date: 2024-06-30 02:27+0000\n"
 "PO-Revision-Date: 2024-05-30 20:46+0000\n"
 "Last-Translator: faila fail <yassadmi@proton.me>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/agama/agama-web/fr/"
@@ -207,7 +207,7 @@ msgstr ""
 #: src/components/storage/DeviceSelection.jsx:240
 #: src/components/storage/EncryptionSettingsDialog.jsx:138
 #: src/components/storage/SpacePolicySelection.jsx:198
-#: src/components/storage/VolumeDialog.jsx:786
+#: src/components/storage/VolumeDialog.jsx:781
 #: src/components/storage/ZFCPPage.jsx:503
 #: src/components/users/FirstUserForm.jsx:285
 msgid "Accept"
@@ -1696,7 +1696,7 @@ msgstr "Table avec points de montage"
 
 #: src/components/storage/PartitionsField.jsx:566
 #: src/components/storage/PartitionsField.jsx:585
-#: src/components/storage/VolumeDialog.jsx:83
+#: src/components/storage/VolumeDialog.jsx:81
 msgid "Add file system"
 msgstr "Ajouter un système de fichiers"
 
@@ -1909,86 +1909,86 @@ msgstr "Actions pour trouver de l'espace"
 msgid "Space policy"
 msgstr "Politique sur l'espace"
 
-#: src/components/storage/VolumeDialog.jsx:80
+#: src/components/storage/VolumeDialog.jsx:78
 #, fuzzy, c-format
 msgid "Add %s file system"
 msgstr "Ajouter un système de fichiers"
 
-#: src/components/storage/VolumeDialog.jsx:81
+#: src/components/storage/VolumeDialog.jsx:79
 #, fuzzy, c-format
 msgid "Edit %s file system"
 msgstr "Modifier le système de fichiers"
 
-#: src/components/storage/VolumeDialog.jsx:83
+#: src/components/storage/VolumeDialog.jsx:81
 msgid "Edit file system"
 msgstr "Modifier le système de fichiers"
 
 #. TRANSLATORS: Warning when editing a file system.
-#: src/components/storage/VolumeDialog.jsx:98
+#: src/components/storage/VolumeDialog.jsx:96
 #, fuzzy
 msgid "The type and size of the file system cannot be edited."
 msgstr "la présence du système de fichiers pour %s"
 
 #. TRANSLATORS: Description of a warning. The first %s is replaced by a device name (e.g.,
 #. /dev/vda) and the second %s is replaced by a mount path (e.g., /home).
-#: src/components/storage/VolumeDialog.jsx:101
+#: src/components/storage/VolumeDialog.jsx:99
 #, c-format
 msgid "The current file system on %s is selected to be mounted at %s."
 msgstr ""
 "Le système de fichiers actuel sur %s est sélectionné pour être monté sur %s."
 
 #. TRANSLATORS: Warning when editing a file system.
-#: src/components/storage/VolumeDialog.jsx:107
+#: src/components/storage/VolumeDialog.jsx:105
 #, fuzzy
 msgid "The size of the file system cannot be edited"
 msgstr "la présence du système de fichiers pour %s"
 
 #. TRANSLATORS: Description of a warning. %s is replaced by a device name (e.g., /dev/vda).
-#: src/components/storage/VolumeDialog.jsx:109
+#: src/components/storage/VolumeDialog.jsx:107
 #, fuzzy, c-format
 msgid "The file system is allocated at the device %s."
 msgstr ""
 "Configuration du groupe de volumes système. Tous les systèmes de fichiers "
 "seront créés dans un volume logique du groupe de volume système."
 
-#: src/components/storage/VolumeDialog.jsx:154
+#: src/components/storage/VolumeDialog.jsx:152
 #, fuzzy
 msgid "A mount point is required"
 msgstr "Une taille minimale est requise"
 
-#: src/components/storage/VolumeDialog.jsx:181
+#: src/components/storage/VolumeDialog.jsx:179
 #, fuzzy
 msgid "The mount point is invalid"
 msgstr "Table avec points de montage"
 
-#: src/components/storage/VolumeDialog.jsx:209
+#: src/components/storage/VolumeDialog.jsx:207
 msgid "A size value is required"
 msgstr "Une valeur de taille est requise"
 
-#: src/components/storage/VolumeDialog.jsx:237
+#: src/components/storage/VolumeDialog.jsx:235
 msgid "Minimum size is required"
 msgstr "Une taille minimale est requise"
 
-#: src/components/storage/VolumeDialog.jsx:269
+#: src/components/storage/VolumeDialog.jsx:267
 msgid "Maximum must be greater than minimum"
 msgstr "Le maximum doit être supérieur au minimum"
 
-#: src/components/storage/VolumeDialog.jsx:311
+#: src/components/storage/VolumeDialog.jsx:309
 #, fuzzy, c-format
 msgid "There is already a file system for %s."
 msgstr "la présence du système de fichiers pour %s"
 
-#: src/components/storage/VolumeDialog.jsx:313
+#: src/components/storage/VolumeDialog.jsx:311
 #, fuzzy
 msgid "Do you want to edit it?"
 msgstr "Souhaitez-vous désinscrire %s ?"
 
-#: src/components/storage/VolumeDialog.jsx:358
+#: src/components/storage/VolumeDialog.jsx:356
 #, fuzzy, c-format
 msgid "There is a predefined file system for %s."
 msgstr "la présence du système de fichiers pour %s"
 
-#: src/components/storage/VolumeDialog.jsx:360
+#: src/components/storage/VolumeDialog.jsx:358
 #, fuzzy
 msgid "Do you want to add it?"
 msgstr "Souhaitez-vous désinscrire %s ?"
