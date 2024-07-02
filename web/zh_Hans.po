@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-30 02:27+0000\n"
-"PO-Revision-Date: 2024-06-24 12:46+0000\n"
+"PO-Revision-Date: 2024-07-02 18:46+0000\n"
 "Last-Translator: Monstorix <monstorix@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.opensuse.org/projects/"
 "agama/agama-web/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/MainLayout.jsx:40
 msgid "Agama"
@@ -152,9 +152,8 @@ msgid "Reboot"
 msgstr "重启"
 
 #: src/components/core/InstallationProgress.jsx:30
-#, fuzzy
 msgid "Installing the system, please wait ..."
-msgstr "正在安装 %s，请稍候……"
+msgstr "正在安装系统，请稍候……"
 
 #: src/components/core/InstallerOptions.jsx:83
 msgid "Show installer options"
@@ -173,9 +172,8 @@ msgstr "语言"
 
 #: src/components/core/InstallerOptions.jsx:114
 #: src/components/core/InstallerOptions.jsx:121
-#, fuzzy
 msgid "Keyboard layout"
-msgstr "选择键盘布局"
+msgstr "键盘布局"
 
 #: src/components/core/InstallerOptions.jsx:130
 msgid "Cannot be changed in remote installation"
@@ -294,17 +292,16 @@ msgid "Loading data..."
 msgstr "正在读取数据……"
 
 #: src/components/core/ProgressReport.jsx:50
-#, fuzzy
 msgid "Finished"
-msgstr "完成"
+msgstr "已完成"
 
 #: src/components/core/ProgressReport.jsx:59
 msgid "In progress"
-msgstr ""
+msgstr "进行中"
 
 #: src/components/core/ProgressReport.jsx:70
 msgid "Pending"
-msgstr ""
+msgstr "等待中"
 
 #: src/components/core/ProgressReport.jsx:134
 msgid "Waiting for progress status..."
@@ -568,10 +565,9 @@ msgstr "网关只能在“手动”模式下配置"
 
 #: src/components/network/NetworkPage.jsx:85
 msgid "No Wi-Fi supported"
-msgstr ""
+msgstr "没有 Wi-Fi 支持"
 
 #: src/components/network/NetworkPage.jsx:86
-#, fuzzy
 msgid ""
 "The system does not support Wi-Fi connections, probably because of missing "
 "or disabled hardware."
@@ -579,7 +575,7 @@ msgstr "系统不支持 WiFi 连接，可能由于硬件缺失或已被禁用。
 
 #: src/components/network/NetworkPage.jsx:99
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 #. TRANSLATORS: button label, connect to a WiFi network
 #: src/components/network/NetworkPage.jsx:102
@@ -589,29 +585,26 @@ msgid "Connect"
 msgstr "连接"
 
 #: src/components/network/NetworkPage.jsx:109
-#, fuzzy, c-format
+#, c-format
 msgid "Conected to %s"
-msgstr "已连接（%s）"
+msgstr "已连接到 %s"
 
 #: src/components/network/NetworkPage.jsx:114
-#, fuzzy
 msgid "No connected yet"
-msgstr "尚未选择"
+msgstr "尚未连接"
 
 #: src/components/network/NetworkPage.jsx:115
-#, fuzzy
 msgid ""
 "The system has not been configured for connecting to a Wi-Fi network yet."
 msgstr "系统尚未配置为连接到 WiFi 网络。"
 
 #: src/components/network/NetworkPage.jsx:136
 msgid "Wired"
-msgstr ""
+msgstr "有线连接"
 
 #: src/components/network/NetworkPage.jsx:139
-#, fuzzy
 msgid "No wired connections found"
-msgstr "未找到有线连接。"
+msgstr "未找到有线连接"
 
 #: src/components/network/NetworkPage.jsx:149
 #: src/components/network/routes.js:59
@@ -685,14 +678,12 @@ msgid "Disconnect"
 msgstr "断开连接"
 
 #: src/components/network/WifiNetworksListPage.jsx:142
-#, fuzzy
 msgid "Connect to a hidden network"
 msgstr "连接到隐藏网络"
 
 #: src/components/network/WifiNetworksListPage.jsx:153
-#, fuzzy
 msgid "configured"
-msgstr "不要配置"
+msgstr "已配置"
 
 #: src/components/network/WifiNetworksListPage.jsx:244
 msgid "Connect to hidden network"
@@ -797,25 +788,26 @@ msgstr ""
 "安装到 %s 上新建的逻辑卷管理器 (LVM) 卷组中，并在需要时缩小磁盘中现有的分区"
 
 #: src/components/overview/StorageSection.jsx:92
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s without "
 "modifying existing partitions"
-msgstr "在新建的 %1$s 上进行安装但不修改磁盘中已存在的分区"
+msgstr "安装在 %s 上新建的逻辑卷管理 (LVM) 卷组中，但不修改磁盘中已存在的分区"
 
 #: src/components/overview/StorageSection.jsx:98
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s deleting "
 "all its content"
-msgstr "在新建的 %1$s 上进行安装并删除磁盘的现有内容"
+msgstr "安装在 %s 上新建的逻辑卷管理 (LVM) 卷组中，并删除磁盘的现有内容"
 
 #: src/components/overview/StorageSection.jsx:104
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s using a "
 "custom strategy to find the needed space"
-msgstr "在新建的 %1$s 上进行安装，采用自定义策略寻找磁盘上的所需空间"
+msgstr "安装在 %s 上新建的逻辑卷管理 (LVM) "
+"卷组中，并采用自定义策略寻找磁盘上的所需空间"
 
 #: src/components/overview/StorageSection.jsx:175
 #: src/components/storage/InstallationDeviceField.jsx:63
@@ -852,7 +844,7 @@ msgstr "使用设备 %s 进行安装，并采用自定义策略寻找所需空�
 
 #: src/components/overview/routes.js:30
 msgid "Overview"
-msgstr ""
+msgstr "概览"
 
 #: src/components/product/ProductRegistrationPage.jsx:66
 #, c-format
@@ -872,9 +864,8 @@ msgid "Loading available products, please wait..."
 msgstr "正在载入可用产品，请稍候……"
 
 #: src/components/product/ProductSelectionProgress.jsx:53
-#, fuzzy
 msgid "Configuring the product, please wait ..."
-msgstr "正在载入可用产品，请稍候……"
+msgstr "正在配置产品，请稍候……"
 
 #: src/components/questions/GenericQuestion.jsx:35
 #: src/components/questions/LuksActivationQuestion.jsx:60
@@ -897,43 +888,40 @@ msgstr "加密密码"
 
 #: src/components/software/SoftwarePage.jsx:85
 msgid "No additional software was selected."
-msgstr ""
+msgstr "没有选择附加软件。"
 
 #: src/components/software/SoftwarePage.jsx:90
 msgid "The following software patterns are selected for installation:"
-msgstr ""
+msgstr "下列软件合集已被选择以进行安装："
 
 #: src/components/software/SoftwarePage.jsx:165
-#, fuzzy
 msgid "Selected patterns"
-msgstr "选择时区"
+msgstr "已选择合集"
 
 #: src/components/software/SoftwarePage.jsx:168
-#, fuzzy
 msgid "Change selection"
-msgstr "更改时区"
+msgstr "修改选择"
 
 #: src/components/software/SoftwarePatternsSelection.jsx:230
 msgid "None of the patterns match the filter."
-msgstr ""
+msgstr "没有合集与筛选器匹配。"
 
 #: src/components/software/SoftwarePatternsSelection.jsx:238
-#, fuzzy
 msgid "Software selection"
-msgstr "软件 %s"
+msgstr "软件选择"
 
 #. TRANSLATORS: search field placeholder text
 #: src/components/software/SoftwarePatternsSelection.jsx:241
 #: src/components/software/SoftwarePatternsSelection.jsx:242
 msgid "Filter by pattern title or description"
-msgstr ""
+msgstr "按合集名称或描述筛选"
 
 #. TRANSLATORS: %s will be replaced by the estimated installation size,
 #. example: "728.8 MiB"
 #: src/components/software/UsedSize.jsx:33
-#, fuzzy, c-format
+#, c-format
 msgid "Installation will take %s."
-msgstr "安装将会占用 %s"
+msgstr "安装将会占用 %s。"
 
 #: src/components/software/UsedSize.jsx:38
 msgid "This space includes the base system and the selected software patterns."
