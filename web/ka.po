@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-30 02:27+0000\n"
+"POT-Creation-Date: 2024-07-09 02:24+0000\n"
 "PO-Revision-Date: 2024-06-28 16:46+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -151,31 +151,31 @@ msgstr "გადატვირთვა"
 msgid "Installing the system, please wait ..."
 msgstr ""
 
-#: src/components/core/InstallerOptions.jsx:83
+#: src/components/core/InstallerOptions.jsx:85
 msgid "Show installer options"
 msgstr "დაყენების პროგრამის პარამეტრების ჩვენება"
 
-#: src/components/core/InstallerOptions.jsx:88
+#: src/components/core/InstallerOptions.jsx:90
 msgid "Installer options"
 msgstr "დაყენების პროგრამის მორგება"
 
-#: src/components/core/InstallerOptions.jsx:94
-#: src/components/core/InstallerOptions.jsx:99
-#: src/components/core/InstallerOptions.jsx:100
-#: src/components/l10n/L10nPage.jsx:67
+#: src/components/core/InstallerOptions.jsx:96
+#: src/components/core/InstallerOptions.jsx:101
+#: src/components/core/InstallerOptions.jsx:102
+#: src/components/l10n/L10nPage.jsx:60
 msgid "Language"
 msgstr "ენა"
 
-#: src/components/core/InstallerOptions.jsx:114
-#: src/components/core/InstallerOptions.jsx:121
+#: src/components/core/InstallerOptions.jsx:116
+#: src/components/core/InstallerOptions.jsx:123
 msgid "Keyboard layout"
 msgstr "კლავიატურის განლაგება"
 
-#: src/components/core/InstallerOptions.jsx:130
+#: src/components/core/InstallerOptions.jsx:132
 msgid "Cannot be changed in remote installation"
 msgstr "ვერ შეიცვლება დაშორებული დაყენებისას"
 
-#: src/components/core/InstallerOptions.jsx:135
+#: src/components/core/InstallerOptions.jsx:137
 #: src/components/network/IpSettingsForm.jsx:210
 #: src/components/product/ProductRegistrationPage.jsx:89
 #: src/components/storage/BootSelection.jsx:228
@@ -336,39 +336,39 @@ msgstr ""
 msgid "Reload"
 msgstr "თავიდან ჩატვირთვა"
 
-#: src/components/l10n/KeyboardSelection.jsx:45
+#: src/components/l10n/KeyboardSelection.jsx:41
 msgid "Filter by description or keymap code"
 msgstr ""
 
-#: src/components/l10n/KeyboardSelection.jsx:85
+#: src/components/l10n/KeyboardSelection.jsx:71
 msgid "None of the keymaps match the filter."
 msgstr ""
 
-#: src/components/l10n/KeyboardSelection.jsx:92
+#: src/components/l10n/KeyboardSelection.jsx:78
 msgid "Keyboard selection"
 msgstr "კლავიატურის არჩევანი"
 
-#: src/components/l10n/KeyboardSelection.jsx:107
-#: src/components/l10n/L10nPage.jsx:71 src/components/l10n/L10nPage.jsx:82
-#: src/components/l10n/L10nPage.jsx:93
-#: src/components/l10n/LocaleSelection.jsx:107
-#: src/components/l10n/TimezoneSelection.jsx:145
+#: src/components/l10n/KeyboardSelection.jsx:93
+#: src/components/l10n/L10nPage.jsx:64 src/components/l10n/L10nPage.jsx:75
+#: src/components/l10n/L10nPage.jsx:86
+#: src/components/l10n/LocaleSelection.jsx:92
+#: src/components/l10n/TimezoneSelection.jsx:124
 #: src/components/product/ProductSelectionPage.jsx:101
 msgid "Select"
 msgstr "აირჩიეთ"
 
-#: src/components/l10n/L10nPage.jsx:60 src/components/l10n/routes.js:34
-#: src/components/overview/L10nSection.jsx:42
+#: src/components/l10n/L10nPage.jsx:53
+#: src/components/overview/L10nSection.jsx:43 src/routes/l10n.js:57
 msgid "Localization"
 msgstr "ლოკალიზაცია"
 
-#: src/components/l10n/L10nPage.jsx:68 src/components/l10n/L10nPage.jsx:79
-#: src/components/l10n/L10nPage.jsx:90
+#: src/components/l10n/L10nPage.jsx:61 src/components/l10n/L10nPage.jsx:72
+#: src/components/l10n/L10nPage.jsx:83
 msgid "Not selected yet"
 msgstr "ჯერ არჩეული არაა"
 
-#: src/components/l10n/L10nPage.jsx:71 src/components/l10n/L10nPage.jsx:82
-#: src/components/l10n/L10nPage.jsx:93
+#: src/components/l10n/L10nPage.jsx:64 src/components/l10n/L10nPage.jsx:75
+#: src/components/l10n/L10nPage.jsx:86
 #: src/components/network/NetworkPage.jsx:102
 #: src/components/storage/InstallationDeviceField.jsx:105
 #: src/components/storage/ProposalActionsSummary.jsx:228
@@ -377,35 +377,35 @@ msgstr "ჯერ არჩეული არაა"
 msgid "Change"
 msgstr "შეცვლა"
 
-#: src/components/l10n/L10nPage.jsx:78
+#: src/components/l10n/L10nPage.jsx:71
 msgid "Keyboard"
 msgstr "კლავიატურა"
 
-#: src/components/l10n/L10nPage.jsx:89
+#: src/components/l10n/L10nPage.jsx:82
 msgid "Time zone"
 msgstr "დროის სარტყელი"
 
-#: src/components/l10n/LocaleSelection.jsx:44
+#: src/components/l10n/LocaleSelection.jsx:39
 msgid "Filter by language, territory or locale code"
 msgstr ""
 
-#: src/components/l10n/LocaleSelection.jsx:84
+#: src/components/l10n/LocaleSelection.jsx:69
 msgid "None of the locales match the filter."
 msgstr ""
 
-#: src/components/l10n/LocaleSelection.jsx:91
+#: src/components/l10n/LocaleSelection.jsx:76
 msgid "Locale selection"
 msgstr "ლოკალის არჩევანი"
 
-#: src/components/l10n/TimezoneSelection.jsx:71
+#: src/components/l10n/TimezoneSelection.jsx:64
 msgid "Filter by territory, time zone code or UTC offset"
 msgstr ""
 
-#: src/components/l10n/TimezoneSelection.jsx:122
+#: src/components/l10n/TimezoneSelection.jsx:101
 msgid "None of the time zones match the filter."
 msgstr ""
 
-#: src/components/l10n/TimezoneSelection.jsx:129
+#: src/components/l10n/TimezoneSelection.jsx:108
 msgid " Timezone selection"
 msgstr " დროის სარტყლის არჩევანი"
 
@@ -691,7 +691,7 @@ msgstr ""
 
 #. TRANSLATORS: %s will be replaced by a language name and territory, example:
 #. "English (United States)".
-#: src/components/overview/L10nSection.jsx:38
+#: src/components/overview/L10nSection.jsx:39
 #, c-format
 msgid "The system will use %s as its default language."
 msgstr ""

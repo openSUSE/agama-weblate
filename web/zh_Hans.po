@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-30 02:27+0000\n"
+"POT-Creation-Date: 2024-07-09 02:24+0000\n"
 "PO-Revision-Date: 2024-07-03 14:46+0000\n"
 "Last-Translator: Monstorix <monstorix@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.opensuse.org/projects/"
@@ -155,31 +155,31 @@ msgstr "重启"
 msgid "Installing the system, please wait ..."
 msgstr "正在安装系统，请稍候……"
 
-#: src/components/core/InstallerOptions.jsx:83
+#: src/components/core/InstallerOptions.jsx:85
 msgid "Show installer options"
 msgstr "显示安装程序选项"
 
-#: src/components/core/InstallerOptions.jsx:88
+#: src/components/core/InstallerOptions.jsx:90
 msgid "Installer options"
 msgstr "安装程序选项"
 
-#: src/components/core/InstallerOptions.jsx:94
-#: src/components/core/InstallerOptions.jsx:99
-#: src/components/core/InstallerOptions.jsx:100
-#: src/components/l10n/L10nPage.jsx:67
+#: src/components/core/InstallerOptions.jsx:96
+#: src/components/core/InstallerOptions.jsx:101
+#: src/components/core/InstallerOptions.jsx:102
+#: src/components/l10n/L10nPage.jsx:60
 msgid "Language"
 msgstr "语言"
 
-#: src/components/core/InstallerOptions.jsx:114
-#: src/components/core/InstallerOptions.jsx:121
+#: src/components/core/InstallerOptions.jsx:116
+#: src/components/core/InstallerOptions.jsx:123
 msgid "Keyboard layout"
 msgstr "键盘布局"
 
-#: src/components/core/InstallerOptions.jsx:130
+#: src/components/core/InstallerOptions.jsx:132
 msgid "Cannot be changed in remote installation"
 msgstr "无法在远程安装中更改"
 
-#: src/components/core/InstallerOptions.jsx:135
+#: src/components/core/InstallerOptions.jsx:137
 #: src/components/network/IpSettingsForm.jsx:210
 #: src/components/product/ProductRegistrationPage.jsx:89
 #: src/components/storage/BootSelection.jsx:228
@@ -340,39 +340,39 @@ msgstr "请检查它是否在运行。"
 msgid "Reload"
 msgstr "重载"
 
-#: src/components/l10n/KeyboardSelection.jsx:45
+#: src/components/l10n/KeyboardSelection.jsx:41
 msgid "Filter by description or keymap code"
 msgstr "按描述或键盘映射代码过滤"
 
-#: src/components/l10n/KeyboardSelection.jsx:85
+#: src/components/l10n/KeyboardSelection.jsx:71
 msgid "None of the keymaps match the filter."
 msgstr "没有符合此过滤器的键位映射。"
 
-#: src/components/l10n/KeyboardSelection.jsx:92
+#: src/components/l10n/KeyboardSelection.jsx:78
 msgid "Keyboard selection"
 msgstr "键盘选择"
 
-#: src/components/l10n/KeyboardSelection.jsx:107
-#: src/components/l10n/L10nPage.jsx:71 src/components/l10n/L10nPage.jsx:82
-#: src/components/l10n/L10nPage.jsx:93
-#: src/components/l10n/LocaleSelection.jsx:107
-#: src/components/l10n/TimezoneSelection.jsx:145
+#: src/components/l10n/KeyboardSelection.jsx:93
+#: src/components/l10n/L10nPage.jsx:64 src/components/l10n/L10nPage.jsx:75
+#: src/components/l10n/L10nPage.jsx:86
+#: src/components/l10n/LocaleSelection.jsx:92
+#: src/components/l10n/TimezoneSelection.jsx:124
 #: src/components/product/ProductSelectionPage.jsx:101
 msgid "Select"
 msgstr "选择"
 
-#: src/components/l10n/L10nPage.jsx:60 src/components/l10n/routes.js:34
-#: src/components/overview/L10nSection.jsx:42
+#: src/components/l10n/L10nPage.jsx:53
+#: src/components/overview/L10nSection.jsx:43 src/routes/l10n.js:57
 msgid "Localization"
 msgstr "本地化"
 
-#: src/components/l10n/L10nPage.jsx:68 src/components/l10n/L10nPage.jsx:79
-#: src/components/l10n/L10nPage.jsx:90
+#: src/components/l10n/L10nPage.jsx:61 src/components/l10n/L10nPage.jsx:72
+#: src/components/l10n/L10nPage.jsx:83
 msgid "Not selected yet"
 msgstr "尚未选择"
 
-#: src/components/l10n/L10nPage.jsx:71 src/components/l10n/L10nPage.jsx:82
-#: src/components/l10n/L10nPage.jsx:93
+#: src/components/l10n/L10nPage.jsx:64 src/components/l10n/L10nPage.jsx:75
+#: src/components/l10n/L10nPage.jsx:86
 #: src/components/network/NetworkPage.jsx:102
 #: src/components/storage/InstallationDeviceField.jsx:105
 #: src/components/storage/ProposalActionsSummary.jsx:228
@@ -381,35 +381,35 @@ msgstr "尚未选择"
 msgid "Change"
 msgstr "更改"
 
-#: src/components/l10n/L10nPage.jsx:78
+#: src/components/l10n/L10nPage.jsx:71
 msgid "Keyboard"
 msgstr "键盘"
 
-#: src/components/l10n/L10nPage.jsx:89
+#: src/components/l10n/L10nPage.jsx:82
 msgid "Time zone"
 msgstr "时区"
 
-#: src/components/l10n/LocaleSelection.jsx:44
+#: src/components/l10n/LocaleSelection.jsx:39
 msgid "Filter by language, territory or locale code"
 msgstr "按语言、地区或区域设定代码过滤"
 
-#: src/components/l10n/LocaleSelection.jsx:84
+#: src/components/l10n/LocaleSelection.jsx:69
 msgid "None of the locales match the filter."
 msgstr "没有符合过滤器的区域设置。"
 
-#: src/components/l10n/LocaleSelection.jsx:91
+#: src/components/l10n/LocaleSelection.jsx:76
 msgid "Locale selection"
 msgstr "区域选择"
 
-#: src/components/l10n/TimezoneSelection.jsx:71
+#: src/components/l10n/TimezoneSelection.jsx:64
 msgid "Filter by territory, time zone code or UTC offset"
 msgstr "按地区、时区代码或 UTC 偏移量过滤"
 
-#: src/components/l10n/TimezoneSelection.jsx:122
+#: src/components/l10n/TimezoneSelection.jsx:101
 msgid "None of the time zones match the filter."
 msgstr "没有符合过滤器的时区。"
 
-#: src/components/l10n/TimezoneSelection.jsx:129
+#: src/components/l10n/TimezoneSelection.jsx:108
 msgid " Timezone selection"
 msgstr " 时区选择"
 
@@ -695,7 +695,7 @@ msgstr "连接到 Wi-Fi 网络"
 
 #. TRANSLATORS: %s will be replaced by a language name and territory, example:
 #. "English (United States)".
-#: src/components/overview/L10nSection.jsx:38
+#: src/components/overview/L10nSection.jsx:39
 #, c-format
 msgid "The system will use %s as its default language."
 msgstr "系统会使用 %s 作为默认语言。"
@@ -806,8 +806,9 @@ msgstr "安装在 %s 上新建的逻辑卷管理 (LVM) 卷组中，并删除磁�
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s using a "
 "custom strategy to find the needed space"
-msgstr "安装在 %s 上新建的逻辑卷管理 (LVM) "
-"卷组中，并采用自定义策略寻找磁盘上的所需空间"
+msgstr ""
+"安装在 %s 上新建的逻辑卷管理 (LVM) 卷组中，并采用自定义策略寻找磁盘上的所需空"
+"间"
 
 #: src/components/overview/StorageSection.jsx:175
 #: src/components/storage/InstallationDeviceField.jsx:63
@@ -1128,8 +1129,9 @@ msgid ""
 "The file systems will be allocated by default as [logical volumes of a new "
 "LVM Volume Group]. The corresponding physical volumes will be created on "
 "demand as new partitions at the selected devices."
-msgstr "默认情况下，文件系统将被分配为[新建 LVM "
-"卷组中的逻辑卷]。相应的物理卷将作为新分区按需创建在所选设备上。"
+msgstr ""
+"默认情况下，文件系统将被分配为[新建 LVM 卷组中的逻辑卷]。相应的物理卷将作为新"
+"分区按需创建在所选设备上。"
 
 #: src/components/storage/DeviceSelection.jsx:149
 msgid "Select installation device"
@@ -1299,7 +1301,8 @@ msgstr "修改"
 msgid ""
 "Full Disk Encryption (FDE) allows to protect the information stored at the "
 "device, including data, programs, and system files."
-msgstr "全盘加密 (FDE) 允许设备上存储的信息受到保护，包括数据、程序以及系统文件。"
+msgstr ""
+"全盘加密 (FDE) 允许设备上存储的信息受到保护，包括数据、程序以及系统文件。"
 
 #. TRANSLATORS: "Trusted Platform Module" is the name of the technology and TPM its abbreviation
 #: src/components/storage/EncryptionSettingsDialog.jsx:40
@@ -1314,8 +1317,9 @@ msgid ""
 "The password will not be needed to boot and access the data if the TPM can "
 "verify the integrity of the system. TPM sealing requires the new system to "
 "be booted directly on its first run."
-msgstr "若 TPM 可以验证系统的完整性，启动和访问数据的时候将无需使用密码。 TPM "
-"密封要求新系统在首次启动时直接开始引导。"
+msgstr ""
+"若 TPM 可以验证系统的完整性，启动和访问数据的时候将无需使用密码。 TPM 密封要"
+"求新系统在首次启动时直接开始引导。"
 
 #: src/components/storage/EncryptionSettingsDialog.jsx:114
 msgid "Encrypt the system"
@@ -1938,7 +1942,8 @@ msgstr "按范围计算"
 msgid ""
 "The file systems are allocated at the installation device by default. "
 "Indicate a custom location to create the file system at a specific device."
-msgstr "默认情况下，文件系统将被分配到安装设备。选择一个自定义位置以在特定设备上创建"
+msgstr ""
+"默认情况下，文件系统将被分配到安装设备。选择一个自定义位置以在特定设备上创建"
 "文件系统。"
 
 #. TRANSLATORS: Title of the dialog for changing the location of a file system. %s is replaced

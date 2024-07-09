@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-30 02:27+0000\n"
+"POT-Creation-Date: 2024-07-09 02:24+0000\n"
 "PO-Revision-Date: 2024-05-30 20:46+0000\n"
 "Last-Translator: faila fail <yassadmi@proton.me>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/agama/agama-web/fr/"
@@ -170,37 +170,37 @@ msgstr "Redémarrer"
 msgid "Installing the system, please wait ..."
 msgstr "Chargement des produits disponibles, veuillez patienter..."
 
-#: src/components/core/InstallerOptions.jsx:83
+#: src/components/core/InstallerOptions.jsx:85
 #, fuzzy
 msgid "Show installer options"
 msgstr "Masquer les options d'installation"
 
-#: src/components/core/InstallerOptions.jsx:88
+#: src/components/core/InstallerOptions.jsx:90
 #, fuzzy
 msgid "Installer options"
 msgstr "Options de l'installateur"
 
-#: src/components/core/InstallerOptions.jsx:94
-#: src/components/core/InstallerOptions.jsx:99
-#: src/components/core/InstallerOptions.jsx:100
-#: src/components/l10n/L10nPage.jsx:67
+#: src/components/core/InstallerOptions.jsx:96
+#: src/components/core/InstallerOptions.jsx:101
+#: src/components/core/InstallerOptions.jsx:102
+#: src/components/l10n/L10nPage.jsx:60
 msgid "Language"
 msgstr "Langue"
 
-#: src/components/core/InstallerOptions.jsx:114
-#: src/components/core/InstallerOptions.jsx:121
+#: src/components/core/InstallerOptions.jsx:116
+#: src/components/core/InstallerOptions.jsx:123
 #, fuzzy
 msgid "Keyboard layout"
 msgstr "Choisir un produit"
 
-#: src/components/core/InstallerOptions.jsx:130
+#: src/components/core/InstallerOptions.jsx:132
 #, fuzzy
 msgid "Cannot be changed in remote installation"
 msgstr ""
 "La disposition du clavier ne peut pas être modifiée via l'installation à "
 "distance"
 
-#: src/components/core/InstallerOptions.jsx:135
+#: src/components/core/InstallerOptions.jsx:137
 #: src/components/network/IpSettingsForm.jsx:210
 #: src/components/product/ProductRegistrationPage.jsx:89
 #: src/components/storage/BootSelection.jsx:228
@@ -379,42 +379,42 @@ msgstr ""
 msgid "Reload"
 msgstr "Recharger"
 
-#: src/components/l10n/KeyboardSelection.jsx:45
+#: src/components/l10n/KeyboardSelection.jsx:41
 msgid "Filter by description or keymap code"
 msgstr "Filtrer par description ou par mappage de clavier"
 
-#: src/components/l10n/KeyboardSelection.jsx:85
+#: src/components/l10n/KeyboardSelection.jsx:71
 #, fuzzy
 msgid "None of the keymaps match the filter."
 msgstr "Aucun des schémas ne correspond au filtre."
 
-#: src/components/l10n/KeyboardSelection.jsx:92
+#: src/components/l10n/KeyboardSelection.jsx:78
 #, fuzzy
 msgid "Keyboard selection"
 msgstr "Logiciel %s"
 
-#: src/components/l10n/KeyboardSelection.jsx:107
-#: src/components/l10n/L10nPage.jsx:71 src/components/l10n/L10nPage.jsx:82
-#: src/components/l10n/L10nPage.jsx:93
-#: src/components/l10n/LocaleSelection.jsx:107
-#: src/components/l10n/TimezoneSelection.jsx:145
+#: src/components/l10n/KeyboardSelection.jsx:93
+#: src/components/l10n/L10nPage.jsx:64 src/components/l10n/L10nPage.jsx:75
+#: src/components/l10n/L10nPage.jsx:86
+#: src/components/l10n/LocaleSelection.jsx:92
+#: src/components/l10n/TimezoneSelection.jsx:124
 #: src/components/product/ProductSelectionPage.jsx:101
 msgid "Select"
 msgstr "Sélectionner"
 
-#: src/components/l10n/L10nPage.jsx:60 src/components/l10n/routes.js:34
-#: src/components/overview/L10nSection.jsx:42
+#: src/components/l10n/L10nPage.jsx:53
+#: src/components/overview/L10nSection.jsx:43 src/routes/l10n.js:57
 msgid "Localization"
 msgstr "Localisation"
 
-#: src/components/l10n/L10nPage.jsx:68 src/components/l10n/L10nPage.jsx:79
-#: src/components/l10n/L10nPage.jsx:90
+#: src/components/l10n/L10nPage.jsx:61 src/components/l10n/L10nPage.jsx:72
+#: src/components/l10n/L10nPage.jsx:83
 #, fuzzy
 msgid "Not selected yet"
 msgstr "Aucun périphérique n'a encore été sélectionné"
 
-#: src/components/l10n/L10nPage.jsx:71 src/components/l10n/L10nPage.jsx:82
-#: src/components/l10n/L10nPage.jsx:93
+#: src/components/l10n/L10nPage.jsx:64 src/components/l10n/L10nPage.jsx:75
+#: src/components/l10n/L10nPage.jsx:86
 #: src/components/network/NetworkPage.jsx:102
 #: src/components/storage/InstallationDeviceField.jsx:105
 #: src/components/storage/ProposalActionsSummary.jsx:228
@@ -423,38 +423,38 @@ msgstr "Aucun périphérique n'a encore été sélectionné"
 msgid "Change"
 msgstr "Changer"
 
-#: src/components/l10n/L10nPage.jsx:78
+#: src/components/l10n/L10nPage.jsx:71
 msgid "Keyboard"
 msgstr "Clavier"
 
-#: src/components/l10n/L10nPage.jsx:89
+#: src/components/l10n/L10nPage.jsx:82
 msgid "Time zone"
 msgstr "Fuseau horaire"
 
-#: src/components/l10n/LocaleSelection.jsx:44
+#: src/components/l10n/LocaleSelection.jsx:39
 msgid "Filter by language, territory or locale code"
 msgstr "Filtrer par langue, territoire ou code local"
 
-#: src/components/l10n/LocaleSelection.jsx:84
+#: src/components/l10n/LocaleSelection.jsx:69
 #, fuzzy
 msgid "None of the locales match the filter."
 msgstr "Aucun des schémas ne correspond au filtre."
 
-#: src/components/l10n/LocaleSelection.jsx:91
+#: src/components/l10n/LocaleSelection.jsx:76
 #, fuzzy
 msgid "Locale selection"
 msgstr "Logiciel %s"
 
-#: src/components/l10n/TimezoneSelection.jsx:71
+#: src/components/l10n/TimezoneSelection.jsx:64
 msgid "Filter by territory, time zone code or UTC offset"
 msgstr "Filtrer par territoire, code de fuseau horaire ou décalage UTC"
 
-#: src/components/l10n/TimezoneSelection.jsx:122
+#: src/components/l10n/TimezoneSelection.jsx:101
 #, fuzzy
 msgid "None of the time zones match the filter."
 msgstr "Aucun des schémas ne correspond au filtre."
 
-#: src/components/l10n/TimezoneSelection.jsx:129
+#: src/components/l10n/TimezoneSelection.jsx:108
 #, fuzzy
 msgid " Timezone selection"
 msgstr "Changer de fuseau horaire"
@@ -751,7 +751,7 @@ msgstr "Se connecter à un réseau Wi-Fi"
 
 #. TRANSLATORS: %s will be replaced by a language name and territory, example:
 #. "English (United States)".
-#: src/components/overview/L10nSection.jsx:38
+#: src/components/overview/L10nSection.jsx:39
 #, c-format
 msgid "The system will use %s as its default language."
 msgstr "Le système utilisera %s comme langue par défaut."
