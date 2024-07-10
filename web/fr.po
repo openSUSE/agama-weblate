@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-09 02:24+0000\n"
+"POT-Creation-Date: 2024-07-10 02:23+0000\n"
 "PO-Revision-Date: 2024-05-30 20:46+0000\n"
 "Last-Translator: faila fail <yassadmi@proton.me>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/agama/agama-web/fr/"
@@ -206,7 +206,7 @@ msgstr ""
 #: src/components/storage/BootSelection.jsx:228
 #: src/components/storage/DeviceSelection.jsx:240
 #: src/components/storage/EncryptionSettingsDialog.jsx:138
-#: src/components/storage/SpacePolicySelection.jsx:198
+#: src/components/storage/SpacePolicySelection.jsx:197
 #: src/components/storage/VolumeDialog.jsx:781
 #: src/components/storage/ZFCPPage.jsx:503
 #: src/components/users/FirstUserForm.jsx:285
@@ -1132,7 +1132,7 @@ msgstr "Statut"
 #: src/components/storage/DASDTable.jsx:65
 #: src/components/storage/DeviceSelectorTable.jsx:186
 #: src/components/storage/ProposalResultTable.jsx:120
-#: src/components/storage/SpaceActionsTable.jsx:141
+#: src/components/storage/SpaceActionsTable.jsx:197
 #: src/components/storage/VolumeLocationSelectorTable.jsx:100
 msgid "Device"
 msgstr "Périphérique"
@@ -1335,14 +1335,14 @@ msgstr "%s avec %d partitions"
 #. TRANSLATORS: status message, no existing content was found on the disk,
 #. i.e. the disk is completely empty
 #: src/components/storage/DeviceSelectorTable.jsx:158
-#: src/components/storage/SpaceActionsTable.jsx:114
+#: src/components/storage/SpaceActionsTable.jsx:172
 msgid "No content found"
 msgstr "Aucun contenu n'a été trouvé"
 
 #: src/components/storage/DeviceSelectorTable.jsx:187
 #: src/components/storage/PartitionsField.jsx:450
 #: src/components/storage/ProposalResultTable.jsx:122
-#: src/components/storage/SpaceActionsTable.jsx:142
+#: src/components/storage/SpaceActionsTable.jsx:198
 #: src/components/storage/VolumeLocationSelectorTable.jsx:101
 msgid "Details"
 msgstr "Détails"
@@ -1350,7 +1350,7 @@ msgstr "Détails"
 #: src/components/storage/DeviceSelectorTable.jsx:188
 #: src/components/storage/PartitionsField.jsx:451
 #: src/components/storage/ProposalResultTable.jsx:123
-#: src/components/storage/SpaceActionsTable.jsx:143
+#: src/components/storage/SpaceActionsTable.jsx:199
 #: src/components/storage/VolumeFields.jsx:474
 #: src/components/storage/VolumeLocationSelectorTable.jsx:103
 msgid "Size"
@@ -1672,7 +1672,6 @@ msgid "Change location"
 msgstr "Changer de fuseau horaire"
 
 #: src/components/storage/PartitionsField.jsx:323
-#: src/components/storage/SpaceActionsTable.jsx:78
 #: src/components/storage/iscsi/NodesPresenter.jsx:77
 msgid "Delete"
 msgstr "Supprimer"
@@ -1873,34 +1872,29 @@ msgstr ""
 "sur une version précédente du système après des changements de configuration "
 "ou des mises à jour logicielles."
 
-#. TRANSLATORS: %s is replaced by a device name (e.g., /dev/sda)
-#: src/components/storage/SpaceActionsTable.jsx:75
+#: src/components/storage/SpaceActionsTable.jsx:62
 #, c-format
-msgid "Space action selector for %s"
-msgstr "Sélecteur d'allocation d'espace pour %s"
+msgid "Up to %s can be recovered by shrinking the device."
+msgstr ""
 
-#: src/components/storage/SpaceActionsTable.jsx:79
-msgid "Allow resize"
-msgstr "Permettre le redimensionnement"
+#: src/components/storage/SpaceActionsTable.jsx:70
+msgid "The device cannot be shrunk:"
+msgstr ""
 
-#: src/components/storage/SpaceActionsTable.jsx:80
-msgid "Do not modify"
-msgstr "Ne pas modifier"
+#: src/components/storage/SpaceActionsTable.jsx:92
+#, fuzzy, c-format
+msgid "Show information about %s"
+msgstr "En attente d'informations sur le périphérique sélectionné"
 
-#: src/components/storage/SpaceActionsTable.jsx:111
+#: src/components/storage/SpaceActionsTable.jsx:169
 msgid "The content may be deleted"
 msgstr "Le contenu pourrait être supprimé"
 
-#: src/components/storage/SpaceActionsTable.jsx:144
-#, fuzzy
-msgid "Shrinkable"
-msgstr "Rétrécissable de %s"
-
-#: src/components/storage/SpaceActionsTable.jsx:146
+#: src/components/storage/SpaceActionsTable.jsx:201
 msgid "Action"
 msgstr "Action"
 
-#: src/components/storage/SpaceActionsTable.jsx:162
+#: src/components/storage/SpaceActionsTable.jsx:216
 msgid "Actions to find space"
 msgstr "Actions pour trouver de l'espace"
 
@@ -2735,6 +2729,20 @@ msgstr ""
 msgid "Root authentication"
 msgstr "Authentification root"
 
+#, c-format
+#~ msgid "Space action selector for %s"
+#~ msgstr "Sélecteur d'allocation d'espace pour %s"
+
+#~ msgid "Allow resize"
+#~ msgstr "Permettre le redimensionnement"
+
+#~ msgid "Do not modify"
+#~ msgstr "Ne pas modifier"
+
+#, fuzzy
+#~ msgid "Shrinkable"
+#~ msgstr "Rétrécissable de %s"
+
 #, fuzzy
 #~ msgid "Choose a language"
 #~ msgstr "Changer de langue"
@@ -3106,10 +3114,6 @@ msgstr "Authentification root"
 #~ msgstr "Continuer"
 
 #~ msgid "Waiting for information about selected device"
-#~ msgstr "En attente d'informations sur le périphérique sélectionné"
-
-#, fuzzy
-#~ msgid "Waiting for information about space policy"
 #~ msgstr "En attente d'informations sur le périphérique sélectionné"
 
 #, fuzzy

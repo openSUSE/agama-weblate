@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-09 02:24+0000\n"
+"POT-Creation-Date: 2024-07-10 02:23+0000\n"
 "PO-Revision-Date: 2024-06-27 09:46+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -196,7 +196,7 @@ msgstr "No es pot canviar a la instal·lació remota."
 #: src/components/storage/BootSelection.jsx:228
 #: src/components/storage/DeviceSelection.jsx:240
 #: src/components/storage/EncryptionSettingsDialog.jsx:138
-#: src/components/storage/SpacePolicySelection.jsx:198
+#: src/components/storage/SpacePolicySelection.jsx:197
 #: src/components/storage/VolumeDialog.jsx:781
 #: src/components/storage/ZFCPPage.jsx:503
 #: src/components/users/FirstUserForm.jsx:285
@@ -1087,7 +1087,7 @@ msgstr "Estat"
 #: src/components/storage/DASDTable.jsx:65
 #: src/components/storage/DeviceSelectorTable.jsx:186
 #: src/components/storage/ProposalResultTable.jsx:120
-#: src/components/storage/SpaceActionsTable.jsx:141
+#: src/components/storage/SpaceActionsTable.jsx:197
 #: src/components/storage/VolumeLocationSelectorTable.jsx:100
 msgid "Device"
 msgstr "Dispositiu"
@@ -1280,14 +1280,14 @@ msgstr "%s amb %d particions"
 #. TRANSLATORS: status message, no existing content was found on the disk,
 #. i.e. the disk is completely empty
 #: src/components/storage/DeviceSelectorTable.jsx:158
-#: src/components/storage/SpaceActionsTable.jsx:114
+#: src/components/storage/SpaceActionsTable.jsx:172
 msgid "No content found"
 msgstr "No s'ha trobat contingut."
 
 #: src/components/storage/DeviceSelectorTable.jsx:187
 #: src/components/storage/PartitionsField.jsx:450
 #: src/components/storage/ProposalResultTable.jsx:122
-#: src/components/storage/SpaceActionsTable.jsx:142
+#: src/components/storage/SpaceActionsTable.jsx:198
 #: src/components/storage/VolumeLocationSelectorTable.jsx:101
 msgid "Details"
 msgstr "Detalls"
@@ -1295,7 +1295,7 @@ msgstr "Detalls"
 #: src/components/storage/DeviceSelectorTable.jsx:188
 #: src/components/storage/PartitionsField.jsx:451
 #: src/components/storage/ProposalResultTable.jsx:123
-#: src/components/storage/SpaceActionsTable.jsx:143
+#: src/components/storage/SpaceActionsTable.jsx:199
 #: src/components/storage/VolumeFields.jsx:474
 #: src/components/storage/VolumeLocationSelectorTable.jsx:103
 msgid "Size"
@@ -1598,7 +1598,6 @@ msgid "Change location"
 msgstr "Canvia la ubicació"
 
 #: src/components/storage/PartitionsField.jsx:323
-#: src/components/storage/SpaceActionsTable.jsx:78
 #: src/components/storage/iscsi/NodesPresenter.jsx:77
 msgid "Delete"
 msgstr "Suprimeix"
@@ -1781,33 +1780,29 @@ msgstr ""
 "Permet arrencar amb una versió anterior del sistema després de canvis de "
 "configuració o actualitzacions de programari."
 
-#. TRANSLATORS: %s is replaced by a device name (e.g., /dev/sda)
-#: src/components/storage/SpaceActionsTable.jsx:75
+#: src/components/storage/SpaceActionsTable.jsx:62
 #, c-format
-msgid "Space action selector for %s"
-msgstr "Selector d'acció espacial per a %s"
+msgid "Up to %s can be recovered by shrinking the device."
+msgstr ""
 
-#: src/components/storage/SpaceActionsTable.jsx:79
-msgid "Allow resize"
-msgstr "Permet-ne el canvi de mida"
+#: src/components/storage/SpaceActionsTable.jsx:70
+msgid "The device cannot be shrunk:"
+msgstr ""
 
-#: src/components/storage/SpaceActionsTable.jsx:80
-msgid "Do not modify"
-msgstr "No la modifiquis"
+#: src/components/storage/SpaceActionsTable.jsx:92
+#, fuzzy, c-format
+msgid "Show information about %s"
+msgstr "Esperant informació sobre la política d'espai"
 
-#: src/components/storage/SpaceActionsTable.jsx:111
+#: src/components/storage/SpaceActionsTable.jsx:169
 msgid "The content may be deleted"
 msgstr "El contingut pot suprimir-se"
 
-#: src/components/storage/SpaceActionsTable.jsx:144
-msgid "Shrinkable"
-msgstr "Encongible"
-
-#: src/components/storage/SpaceActionsTable.jsx:146
+#: src/components/storage/SpaceActionsTable.jsx:201
 msgid "Action"
 msgstr "Acció"
 
-#: src/components/storage/SpaceActionsTable.jsx:162
+#: src/components/storage/SpaceActionsTable.jsx:216
 msgid "Actions to find space"
 msgstr "Accions per aconseguir espai"
 
@@ -2610,6 +2605,19 @@ msgstr "Usuari primer"
 msgid "Root authentication"
 msgstr "Autenticació d'arrel"
 
+#, c-format
+#~ msgid "Space action selector for %s"
+#~ msgstr "Selector d'acció espacial per a %s"
+
+#~ msgid "Allow resize"
+#~ msgstr "Permet-ne el canvi de mida"
+
+#~ msgid "Do not modify"
+#~ msgstr "No la modifiquis"
+
+#~ msgid "Shrinkable"
+#~ msgstr "Encongible"
+
 #~ msgid "Choose a language"
 #~ msgstr "Trieu la llengua"
 
@@ -2967,9 +2975,6 @@ msgstr "Autenticació d'arrel"
 
 #~ msgid "Waiting for information about selected device"
 #~ msgstr "Esperant informació sobre el dispositiu seleccionat"
-
-#~ msgid "Waiting for information about space policy"
-#~ msgstr "Esperant informació sobre la política d'espai"
 
 #, c-format
 #~ msgid ""

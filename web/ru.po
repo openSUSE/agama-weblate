@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-09 02:24+0000\n"
+"POT-Creation-Date: 2024-07-10 02:23+0000\n"
 "PO-Revision-Date: 2024-06-28 16:46+0000\n"
 "Last-Translator: Aleksey Fedorov <Aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -198,7 +198,7 @@ msgstr "Нельзя изменить при удаленной установк
 #: src/components/storage/BootSelection.jsx:228
 #: src/components/storage/DeviceSelection.jsx:240
 #: src/components/storage/EncryptionSettingsDialog.jsx:138
-#: src/components/storage/SpacePolicySelection.jsx:198
+#: src/components/storage/SpacePolicySelection.jsx:197
 #: src/components/storage/VolumeDialog.jsx:781
 #: src/components/storage/ZFCPPage.jsx:503
 #: src/components/users/FirstUserForm.jsx:285
@@ -1081,7 +1081,7 @@ msgstr "Состояние"
 #: src/components/storage/DASDTable.jsx:65
 #: src/components/storage/DeviceSelectorTable.jsx:186
 #: src/components/storage/ProposalResultTable.jsx:120
-#: src/components/storage/SpaceActionsTable.jsx:141
+#: src/components/storage/SpaceActionsTable.jsx:197
 #: src/components/storage/VolumeLocationSelectorTable.jsx:100
 msgid "Device"
 msgstr "Устройство"
@@ -1274,14 +1274,14 @@ msgstr "%s с %d разделами"
 #. TRANSLATORS: status message, no existing content was found on the disk,
 #. i.e. the disk is completely empty
 #: src/components/storage/DeviceSelectorTable.jsx:158
-#: src/components/storage/SpaceActionsTable.jsx:114
+#: src/components/storage/SpaceActionsTable.jsx:172
 msgid "No content found"
 msgstr "Содержимое не найдено"
 
 #: src/components/storage/DeviceSelectorTable.jsx:187
 #: src/components/storage/PartitionsField.jsx:450
 #: src/components/storage/ProposalResultTable.jsx:122
-#: src/components/storage/SpaceActionsTable.jsx:142
+#: src/components/storage/SpaceActionsTable.jsx:198
 #: src/components/storage/VolumeLocationSelectorTable.jsx:101
 msgid "Details"
 msgstr "Подробности"
@@ -1289,7 +1289,7 @@ msgstr "Подробности"
 #: src/components/storage/DeviceSelectorTable.jsx:188
 #: src/components/storage/PartitionsField.jsx:451
 #: src/components/storage/ProposalResultTable.jsx:123
-#: src/components/storage/SpaceActionsTable.jsx:143
+#: src/components/storage/SpaceActionsTable.jsx:199
 #: src/components/storage/VolumeFields.jsx:474
 #: src/components/storage/VolumeLocationSelectorTable.jsx:103
 msgid "Size"
@@ -1592,7 +1592,6 @@ msgid "Change location"
 msgstr "Изменить расположение"
 
 #: src/components/storage/PartitionsField.jsx:323
-#: src/components/storage/SpaceActionsTable.jsx:78
 #: src/components/storage/iscsi/NodesPresenter.jsx:77
 msgid "Delete"
 msgstr "Удалить"
@@ -1779,33 +1778,29 @@ msgstr ""
 "Позволяет загрузиться в предыдущую версию системы после изменения "
 "конфигурации или обновления программного обеспечения."
 
-#. TRANSLATORS: %s is replaced by a device name (e.g., /dev/sda)
-#: src/components/storage/SpaceActionsTable.jsx:75
+#: src/components/storage/SpaceActionsTable.jsx:62
 #, c-format
-msgid "Space action selector for %s"
-msgstr "Выбор действий пространства для %s"
+msgid "Up to %s can be recovered by shrinking the device."
+msgstr ""
 
-#: src/components/storage/SpaceActionsTable.jsx:79
-msgid "Allow resize"
-msgstr "Разрешить изменение размера"
+#: src/components/storage/SpaceActionsTable.jsx:70
+msgid "The device cannot be shrunk:"
+msgstr ""
 
-#: src/components/storage/SpaceActionsTable.jsx:80
-msgid "Do not modify"
-msgstr "Не изменять"
+#: src/components/storage/SpaceActionsTable.jsx:92
+#, c-format
+msgid "Show information about %s"
+msgstr ""
 
-#: src/components/storage/SpaceActionsTable.jsx:111
+#: src/components/storage/SpaceActionsTable.jsx:169
 msgid "The content may be deleted"
 msgstr "Содержимое может быть удалено"
 
-#: src/components/storage/SpaceActionsTable.jsx:144
-msgid "Shrinkable"
-msgstr "Можно уменьшить"
-
-#: src/components/storage/SpaceActionsTable.jsx:146
+#: src/components/storage/SpaceActionsTable.jsx:201
 msgid "Action"
 msgstr "Действие"
 
-#: src/components/storage/SpaceActionsTable.jsx:162
+#: src/components/storage/SpaceActionsTable.jsx:216
 msgid "Actions to find space"
 msgstr "Действия по поиску места"
 
@@ -2606,6 +2601,19 @@ msgstr "Первый пользователь"
 #: src/components/users/UsersPage.jsx:52
 msgid "Root authentication"
 msgstr "Аутентификация root"
+
+#, c-format
+#~ msgid "Space action selector for %s"
+#~ msgstr "Выбор действий пространства для %s"
+
+#~ msgid "Allow resize"
+#~ msgstr "Разрешить изменение размера"
+
+#~ msgid "Do not modify"
+#~ msgstr "Не изменять"
+
+#~ msgid "Shrinkable"
+#~ msgstr "Можно уменьшить"
 
 #~ msgid "Choose a language"
 #~ msgstr "Выберите язык"

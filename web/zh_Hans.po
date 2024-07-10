@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-09 02:24+0000\n"
+"POT-Creation-Date: 2024-07-10 02:23+0000\n"
 "PO-Revision-Date: 2024-07-03 14:46+0000\n"
 "Last-Translator: Monstorix <monstorix@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.opensuse.org/projects/"
@@ -185,7 +185,7 @@ msgstr "无法在远程安装中更改"
 #: src/components/storage/BootSelection.jsx:228
 #: src/components/storage/DeviceSelection.jsx:240
 #: src/components/storage/EncryptionSettingsDialog.jsx:138
-#: src/components/storage/SpacePolicySelection.jsx:198
+#: src/components/storage/SpacePolicySelection.jsx:197
 #: src/components/storage/VolumeDialog.jsx:781
 #: src/components/storage/ZFCPPage.jsx:503
 #: src/components/users/FirstUserForm.jsx:285
@@ -1034,7 +1034,7 @@ msgstr "状态"
 #: src/components/storage/DASDTable.jsx:65
 #: src/components/storage/DeviceSelectorTable.jsx:186
 #: src/components/storage/ProposalResultTable.jsx:120
-#: src/components/storage/SpaceActionsTable.jsx:141
+#: src/components/storage/SpaceActionsTable.jsx:197
 #: src/components/storage/VolumeLocationSelectorTable.jsx:100
 msgid "Device"
 msgstr "设备"
@@ -1224,14 +1224,14 @@ msgstr "%s （包含 %d 个分区）"
 #. TRANSLATORS: status message, no existing content was found on the disk,
 #. i.e. the disk is completely empty
 #: src/components/storage/DeviceSelectorTable.jsx:158
-#: src/components/storage/SpaceActionsTable.jsx:114
+#: src/components/storage/SpaceActionsTable.jsx:172
 msgid "No content found"
 msgstr "未找到内容"
 
 #: src/components/storage/DeviceSelectorTable.jsx:187
 #: src/components/storage/PartitionsField.jsx:450
 #: src/components/storage/ProposalResultTable.jsx:122
-#: src/components/storage/SpaceActionsTable.jsx:142
+#: src/components/storage/SpaceActionsTable.jsx:198
 #: src/components/storage/VolumeLocationSelectorTable.jsx:101
 msgid "Details"
 msgstr "细节"
@@ -1239,7 +1239,7 @@ msgstr "细节"
 #: src/components/storage/DeviceSelectorTable.jsx:188
 #: src/components/storage/PartitionsField.jsx:451
 #: src/components/storage/ProposalResultTable.jsx:123
-#: src/components/storage/SpaceActionsTable.jsx:143
+#: src/components/storage/SpaceActionsTable.jsx:199
 #: src/components/storage/VolumeFields.jsx:474
 #: src/components/storage/VolumeLocationSelectorTable.jsx:103
 msgid "Size"
@@ -1536,7 +1536,6 @@ msgid "Change location"
 msgstr "更改位置"
 
 #: src/components/storage/PartitionsField.jsx:323
-#: src/components/storage/SpaceActionsTable.jsx:78
 #: src/components/storage/iscsi/NodesPresenter.jsx:77
 msgid "Delete"
 msgstr "删除"
@@ -1708,33 +1707,29 @@ msgid ""
 "changes or software upgrades."
 msgstr "允许配置被改变或软件更新后，回退启动到先前版本的系统。"
 
-#. TRANSLATORS: %s is replaced by a device name (e.g., /dev/sda)
-#: src/components/storage/SpaceActionsTable.jsx:75
+#: src/components/storage/SpaceActionsTable.jsx:62
 #, c-format
-msgid "Space action selector for %s"
-msgstr "%s 的空间操作选择器"
+msgid "Up to %s can be recovered by shrinking the device."
+msgstr ""
 
-#: src/components/storage/SpaceActionsTable.jsx:79
-msgid "Allow resize"
-msgstr "允许调整大小"
+#: src/components/storage/SpaceActionsTable.jsx:70
+msgid "The device cannot be shrunk:"
+msgstr ""
 
-#: src/components/storage/SpaceActionsTable.jsx:80
-msgid "Do not modify"
-msgstr "不要修改"
+#: src/components/storage/SpaceActionsTable.jsx:92
+#, fuzzy, c-format
+msgid "Show information about %s"
+msgstr "正在等待空间策略信息"
 
-#: src/components/storage/SpaceActionsTable.jsx:111
+#: src/components/storage/SpaceActionsTable.jsx:169
 msgid "The content may be deleted"
 msgstr "内容可能会被删除"
 
-#: src/components/storage/SpaceActionsTable.jsx:144
-msgid "Shrinkable"
-msgstr "可缩小"
-
-#: src/components/storage/SpaceActionsTable.jsx:146
+#: src/components/storage/SpaceActionsTable.jsx:201
 msgid "Action"
 msgstr "操作"
 
-#: src/components/storage/SpaceActionsTable.jsx:162
+#: src/components/storage/SpaceActionsTable.jsx:216
 msgid "Actions to find space"
 msgstr "查找空间的操作"
 
@@ -2516,6 +2511,19 @@ msgstr "首个用户"
 msgid "Root authentication"
 msgstr "Root 认证"
 
+#, c-format
+#~ msgid "Space action selector for %s"
+#~ msgstr "%s 的空间操作选择器"
+
+#~ msgid "Allow resize"
+#~ msgstr "允许调整大小"
+
+#~ msgid "Do not modify"
+#~ msgstr "不要修改"
+
+#~ msgid "Shrinkable"
+#~ msgstr "可缩小"
+
 #~ msgid "Choose a language"
 #~ msgstr "选择语言"
 
@@ -2854,9 +2862,6 @@ msgstr "Root 认证"
 
 #~ msgid "Waiting for information about selected device"
 #~ msgstr "正在等待已选择设备的信息"
-
-#~ msgid "Waiting for information about space policy"
-#~ msgstr "正在等待空间策略信息"
 
 #, fuzzy, c-format
 #~ msgid ""
