@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-10 02:23+0000\n"
-"PO-Revision-Date: 2024-07-02 11:46+0000\n"
+"PO-Revision-Date: 2024-07-10 20:46+0000\n"
 "Last-Translator: Victor hck <victorhck@opensuse.org>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "es/>\n"
@@ -1785,16 +1785,16 @@ msgstr ""
 #: src/components/storage/SpaceActionsTable.jsx:62
 #, c-format
 msgid "Up to %s can be recovered by shrinking the device."
-msgstr ""
+msgstr "Se pueden recuperar hasta %s reduciendo el dispositivo."
 
 #: src/components/storage/SpaceActionsTable.jsx:70
 msgid "The device cannot be shrunk:"
-msgstr ""
+msgstr "El dispositivo no se puede reducir:"
 
 #: src/components/storage/SpaceActionsTable.jsx:92
-#, fuzzy, c-format
+#, c-format
 msgid "Show information about %s"
-msgstr "Esperando información sobre la política de espacio"
+msgstr "Mostrar información sobre %s"
 
 #: src/components/storage/SpaceActionsTable.jsx:169
 msgid "The content may be deleted"
