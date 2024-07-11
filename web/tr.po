@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-10 02:23+0000\n"
+"POT-Creation-Date: 2024-07-11 02:26+0000\n"
 "PO-Revision-Date: 2024-05-16 14:46+0000\n"
 "Last-Translator: Özgür Arslan <ozgurarslln@gmail.com>\n"
 "Language-Team: Turkish <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -181,7 +181,7 @@ msgstr "Kurulum Seçenekleri"
 #: src/components/core/InstallerOptions.jsx:96
 #: src/components/core/InstallerOptions.jsx:101
 #: src/components/core/InstallerOptions.jsx:102
-#: src/components/l10n/L10nPage.jsx:60
+#: src/components/l10n/L10nPage.jsx:65
 msgid "Language"
 msgstr "Dil"
 
@@ -380,27 +380,27 @@ msgid "Keyboard selection"
 msgstr "Klavye henüz seçilmedi"
 
 #: src/components/l10n/KeyboardSelection.jsx:93
-#: src/components/l10n/L10nPage.jsx:64 src/components/l10n/L10nPage.jsx:75
-#: src/components/l10n/L10nPage.jsx:86
+#: src/components/l10n/L10nPage.jsx:69 src/components/l10n/L10nPage.jsx:80
+#: src/components/l10n/L10nPage.jsx:91
 #: src/components/l10n/LocaleSelection.jsx:92
 #: src/components/l10n/TimezoneSelection.jsx:124
 #: src/components/product/ProductSelectionPage.jsx:101
 msgid "Select"
 msgstr ""
 
-#: src/components/l10n/L10nPage.jsx:53
-#: src/components/overview/L10nSection.jsx:43 src/routes/l10n.js:57
+#: src/components/l10n/L10nPage.jsx:58
+#: src/components/overview/L10nSection.jsx:37 src/routes/l10n.js:43
 msgid "Localization"
 msgstr "Yerelleştirme"
 
-#: src/components/l10n/L10nPage.jsx:61 src/components/l10n/L10nPage.jsx:72
-#: src/components/l10n/L10nPage.jsx:83
+#: src/components/l10n/L10nPage.jsx:66 src/components/l10n/L10nPage.jsx:77
+#: src/components/l10n/L10nPage.jsx:88
 #, fuzzy
 msgid "Not selected yet"
 msgstr "Dil henüz seçilmedi"
 
-#: src/components/l10n/L10nPage.jsx:64 src/components/l10n/L10nPage.jsx:75
-#: src/components/l10n/L10nPage.jsx:86
+#: src/components/l10n/L10nPage.jsx:69 src/components/l10n/L10nPage.jsx:80
+#: src/components/l10n/L10nPage.jsx:91
 #: src/components/network/NetworkPage.jsx:102
 #: src/components/storage/InstallationDeviceField.jsx:105
 #: src/components/storage/ProposalActionsSummary.jsx:228
@@ -409,11 +409,11 @@ msgstr "Dil henüz seçilmedi"
 msgid "Change"
 msgstr ""
 
-#: src/components/l10n/L10nPage.jsx:71
+#: src/components/l10n/L10nPage.jsx:76
 msgid "Keyboard"
 msgstr "Klavye"
 
-#: src/components/l10n/L10nPage.jsx:82
+#: src/components/l10n/L10nPage.jsx:87
 msgid "Time zone"
 msgstr "Saat dilimi"
 
@@ -726,7 +726,7 @@ msgstr ""
 
 #. TRANSLATORS: %s will be replaced by a language name and territory, example:
 #. "English (United States)".
-#: src/components/overview/L10nSection.jsx:39
+#: src/components/overview/L10nSection.jsx:33
 #, c-format
 msgid "The system will use %s as its default language."
 msgstr ""
