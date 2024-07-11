@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 02:26+0000\n"
-"PO-Revision-Date: 2024-06-27 09:46+0000\n"
+"PO-Revision-Date: 2024-07-11 10:47+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/MainLayout.jsx:40
 msgid "Agama"
@@ -1773,16 +1773,16 @@ msgstr ""
 #: src/components/storage/SpaceActionsTable.jsx:62
 #, c-format
 msgid "Up to %s can be recovered by shrinking the device."
-msgstr ""
+msgstr "Upp till %s kan återställas genom att krympa enheten."
 
 #: src/components/storage/SpaceActionsTable.jsx:70
 msgid "The device cannot be shrunk:"
-msgstr ""
+msgstr "Enheten kan inte krympas:"
 
 #: src/components/storage/SpaceActionsTable.jsx:92
-#, fuzzy, c-format
+#, c-format
 msgid "Show information about %s"
-msgstr "Väntar på information om platspolicy"
+msgstr "Visa information om %s"
 
 #: src/components/storage/SpaceActionsTable.jsx:169
 msgid "The content may be deleted"
