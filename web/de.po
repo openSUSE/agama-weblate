@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 02:26+0000\n"
-"PO-Revision-Date: 2024-07-06 01:47+0000\n"
+"PO-Revision-Date: 2024-07-13 19:47+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://l10n.opensuse.org/projects/agama/agama-web/de/"
 ">\n"
@@ -636,9 +636,8 @@ msgid "Wired"
 msgstr "Kabelgebunden"
 
 #: src/components/network/NetworkPage.jsx:139
-#, fuzzy
 msgid "No wired connections found"
-msgstr "Keine kabelgebundenen Verbindungen gefunden."
+msgstr "Keine kabelgebundenen Verbindungen gefunden"
 
 #: src/components/network/NetworkPage.jsx:149
 #: src/components/network/routes.js:59
@@ -1506,9 +1505,9 @@ msgstr "Auslagerungspartition (%s)"
 #. TRANSLATORS: This results in something like "Btrfs root at /dev/sda3 (20 GiB)" since
 #. %1$s is replaced by the filesystem type, %2$s by the device name, and %3$s by the size
 #: src/components/storage/PartitionsField.jsx:136
-#, c-format
+#, c-format, fuzzy
 msgid "%1$s root at %2$s (%3$s)"
-msgstr ""
+msgstr "Wurzel von %1$s bei %2$s (%3$s)"
 
 #. TRANSLATORS: "/" is in an LVM logical volume.
 #. Results in something like "Btrfs root volume (at least 20 GiB)" since
@@ -1516,7 +1515,7 @@ msgstr ""
 #: src/components/storage/PartitionsField.jsx:142
 #, fuzzy, c-format
 msgid "%1$s root volume (%2$s)"
-msgstr "%1$s Wurzel-Volume (%2$s)"
+msgstr "Wurzel-Volume von %1$s (%2$s)"
 
 #. TRANSLATORS: Results in something like "Btrfs root partition (at least 20 GiB)" since
 #. $1$s is replaced by filesystem type and %2$s by size description
@@ -1822,16 +1821,16 @@ msgstr ""
 #: src/components/storage/SpaceActionsTable.jsx:62
 #, c-format
 msgid "Up to %s can be recovered by shrinking the device."
-msgstr ""
+msgstr "Bis zu %s können durch Verkleinern des Geräts zurückgewonnen werden."
 
 #: src/components/storage/SpaceActionsTable.jsx:70
 msgid "The device cannot be shrunk:"
-msgstr ""
+msgstr "Das Gerät kann nicht verkleinert werden:"
 
 #: src/components/storage/SpaceActionsTable.jsx:92
-#, fuzzy, c-format
+#, c-format
 msgid "Show information about %s"
-msgstr "Warten auf Informationen über Speicherplatzrichtlinie"
+msgstr "Informationen über %s anzeigen"
 
 #: src/components/storage/SpaceActionsTable.jsx:169
 msgid "The content may be deleted"
