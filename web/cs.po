@@ -9,32 +9,32 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-14 02:32+0000\n"
-"PO-Revision-Date: 2023-12-31 20:39+0000\n"
-"Last-Translator: Ladislav Slezák <lslezak@suse.com>\n"
-"Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/"
-">\n"
+"PO-Revision-Date: 2024-07-15 14:47+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/>"
+"\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/MainLayout.jsx:52
 msgid "Agama"
-msgstr ""
+msgstr "Agama"
 
 #: src/MainLayout.jsx:94
 msgid "Change product"
-msgstr ""
+msgstr "Změnit produkt"
 
 #: src/components/core/About.jsx:49
 msgid "About"
-msgstr ""
+msgstr "O"
 
 #: src/components/core/About.jsx:69
 msgid "About Agama"
-msgstr ""
+msgstr "O Agamě"
 
 #: src/components/core/About.jsx:74
 msgid ""
@@ -43,13 +43,17 @@ msgid ""
 "want to give it a try, we recommend using a virtual machine to prevent any "
 "possible data loss."
 msgstr ""
+"Agama je experimentální instalátor pro (otevřené) systémy SUSE. Je stále ve "
+"fázi vývoje, proto ji prosím nepoužívejte v produkčních prostředích. Pokud "
+"ji chcete vyzkoušet, doporučujeme použít virtuální počítač, abyste předešli "
+"případné ztrátě dat."
 
 #. TRANSLATORS: content of the "About" popup (2/2)
 #. %s is replaced by the project URL
 #: src/components/core/About.jsx:86
 #, c-format
 msgid "For more information, please visit the project's repository at %s."
-msgstr ""
+msgstr "Další informace najdete v úložišti projektu na %s."
 
 #: src/components/core/About.jsx:92 src/components/core/LogsButton.jsx:126
 #: src/components/software/SoftwarePatternsSelection.jsx:268
@@ -58,52 +62,56 @@ msgstr "Zavřít"
 
 #: src/components/core/InstallButton.jsx:32
 msgid "Confirm Installation"
-msgstr ""
+msgstr "Potvrdit instalaci"
 
 #: src/components/core/InstallButton.jsx:36
 msgid ""
 "If you continue, partitions on your hard disk will be modified according to "
 "the provided installation settings."
 msgstr ""
+"Budete-li pokračovat, připravíme oddíly na pevném disku podle zadaných "
+"instalačních nastavení."
 
 #: src/components/core/InstallButton.jsx:40
 msgid "Please, cancel and check the settings if you are unsure."
-msgstr ""
+msgstr "Nejste-li si jisti, zrušte akci a zkontrolujte nastavení."
 
 #. TRANSLATORS: button label
 #: src/components/core/InstallButton.jsx:45
 msgid "Continue"
-msgstr ""
+msgstr "Pokračovat"
 
 #. TRANSLATORS: button label
 #: src/components/core/InstallButton.jsx:49 src/components/core/Page.jsx:90
 #: src/components/core/Popup.jsx:132
 #: src/components/network/WifiConnectionForm.jsx:134
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušit/Storno"
 
 #. TRANSLATORS: button label
 #: src/components/core/InstallButton.jsx:84
 msgid "Install"
-msgstr ""
+msgstr "Instalovat"
 
 #: src/components/core/InstallationFinished.jsx:48
 msgid "TPM sealing requires the new system to be booted directly."
-msgstr ""
+msgstr "Zapečetění čipem TPM vyžaduje přímé spuštění nového systému."
 
 #: src/components/core/InstallationFinished.jsx:53
 msgid ""
 "If a local media was used to run this installer, remove it before the next "
 "boot."
 msgstr ""
+"Bylo-li ke spuštění tohoto instalačního programu použito místní médium, před "
+"dalším spuštěním ho odstraňte."
 
 #: src/components/core/InstallationFinished.jsx:57
 msgid "Hide details"
-msgstr ""
+msgstr "Skrýt podrobnosti"
 
 #: src/components/core/InstallationFinished.jsx:57
 msgid "See more details"
-msgstr ""
+msgstr "Ukázat podrobněji"
 
 #: src/components/core/InstallationFinished.jsx:62
 msgid ""
@@ -112,26 +120,30 @@ msgid ""
 "of the new system. For that to work, the machine needs to boot directly to "
 "the new boot loader."
 msgstr ""
+"Poslední krok konfigurace modulu TPM (Trusted Platform Module) pro "
+"automatické otevírání šifrovaných zařízení se provede při prvním spuštění "
+"nového systému. Aby to fungovalo, musí se počítač spustit přímo novým "
+"zavaděčem."
 
 #: src/components/core/InstallationFinished.jsx:107
 msgid "Congratulations!"
-msgstr ""
+msgstr "Blahopřejeme!"
 
 #: src/components/core/InstallationFinished.jsx:116
 msgid "The installation on your machine is complete."
-msgstr ""
+msgstr "Instalace na Váš počítač je dokončena."
 
 #: src/components/core/InstallationFinished.jsx:119
 msgid "At this point you can power off the machine."
-msgstr ""
+msgstr "Nyní můžete počítač vypnout."
 
 #: src/components/core/InstallationFinished.jsx:121
 msgid "At this point you can reboot the machine to log in to the new system."
-msgstr ""
+msgstr "Nyní můžete počítač restartovat a přihlásit se do nového systému."
 
 #: src/components/core/InstallationFinished.jsx:130
 msgid "Finish"
-msgstr ""
+msgstr "Dokončeno"
 
 #: src/components/core/InstallationFinished.jsx:130
 msgid "Reboot"
