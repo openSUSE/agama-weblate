@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-18 02:24+0000\n"
-"PO-Revision-Date: 2024-07-12 09:47+0000\n"
+"PO-Revision-Date: 2024-07-18 11:47+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ca/>\n"
@@ -924,6 +924,9 @@ msgid ""
 "This product does not allow to select software patterns during installation. "
 "However, you can add additional software once the installation is finished."
 msgstr ""
+"Aquest producte no permet seleccionar patrons de programari durant la instal·"
+"lació. Tanmateix, hi podeu afegir programari addicional un cop acabada la "
+"instal·lació."
 
 #: src/components/software/SoftwarePatternsSelection.jsx:223
 msgid "auto selected"
@@ -951,13 +954,12 @@ msgid "Installation will take %s."
 msgstr "La instal·lació necessitarà %s."
 
 #: src/components/software/UsedSize.jsx:37
-#, fuzzy
 msgid ""
 "This space includes the base system and the selected software patterns, if "
 "any."
 msgstr ""
 "Aquest espai inclou el sistema de base i els patrons de programari "
-"seleccionats."
+"seleccionats, si n'hi ha."
 
 #: src/components/storage/BootConfigField.jsx:43
 msgid "Change boot options"
