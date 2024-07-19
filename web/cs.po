@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-18 02:24+0000\n"
-"PO-Revision-Date: 2024-07-15 14:47+0000\n"
+"PO-Revision-Date: 2024-07-19 09:47+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
-"Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/"
-">\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/>"
+"\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -147,35 +147,35 @@ msgstr "Dokončeno"
 
 #: src/components/core/InstallationFinished.jsx:130
 msgid "Reboot"
-msgstr ""
+msgstr "Restart systému"
 
 #: src/components/core/InstallationProgress.jsx:30
 msgid "Installing the system, please wait ..."
-msgstr ""
+msgstr "Instaluji systém, čekejte ..."
 
 #: src/components/core/InstallerOptions.jsx:92
 msgid "Show installer options"
-msgstr ""
+msgstr "Ukázat možnosti instalace"
 
 #: src/components/core/InstallerOptions.jsx:95
 msgid "Installer options"
-msgstr ""
+msgstr "Možnosti instalace"
 
 #: src/components/core/InstallerOptions.jsx:98
 #: src/components/core/InstallerOptions.jsx:102
 #: src/components/core/InstallerOptions.jsx:103
 #: src/components/l10n/L10nPage.jsx:60
 msgid "Language"
-msgstr ""
+msgstr "Jazyk"
 
 #: src/components/core/InstallerOptions.jsx:115
 #: src/components/core/InstallerOptions.jsx:120
 msgid "Keyboard layout"
-msgstr ""
+msgstr "Rozložení kláves"
 
 #: src/components/core/InstallerOptions.jsx:129
 msgid "Cannot be changed in remote installation"
-msgstr ""
+msgstr "U instalace na dálku nelze změnit"
 
 #: src/components/core/InstallerOptions.jsx:142
 #: src/components/network/IpSettingsForm.jsx:228
@@ -188,78 +188,78 @@ msgstr ""
 #: src/components/storage/ZFCPPage.jsx:528
 #: src/components/users/FirstUserForm.jsx:303
 msgid "Accept"
-msgstr ""
+msgstr "Přijmout"
 
 #: src/components/core/IssuesHint.jsx:34
 msgid ""
 "Before starting the installation, you need to address the following problems:"
-msgstr ""
+msgstr "Před zahájením instalace vyřešte tyto problémy:"
 
 #: src/components/core/ListSearch.jsx:48
 msgid "Search"
-msgstr ""
+msgstr "Hledat"
 
 #: src/components/core/LoginPage.jsx:64
 msgid "Could not log in. Please, make sure that the password is correct."
-msgstr ""
+msgstr "Nelze se přhlásit. Zkontrolujte správnost hesla."
 
 #: src/components/core/LoginPage.jsx:66
 msgid "Could not authenticate against the server, please check it."
-msgstr ""
+msgstr "Nezdařilo se ověřit Vás u serveru, zkontrolujte to prosím."
 
 #. TRANSLATORS: Title for a form to provide the password for the root user. %s
 #. will be replaced by "root"
 #: src/components/core/LoginPage.jsx:74
 #, c-format
 msgid "Log in as %s"
-msgstr ""
+msgstr "Přihlásit se jako %s"
 
 #: src/components/core/LoginPage.jsx:80
 msgid "The installer requires [root] user privileges."
-msgstr ""
+msgstr "Instalátor vyžaduje oprávnění uživatele [root]."
 
 #: src/components/core/LoginPage.jsx:95
 msgid "Please, provide its password to log in to the system."
-msgstr ""
+msgstr "Zadejte heslo pro přihlášení do systému."
 
 #: src/components/core/LoginPage.jsx:96
 msgid "Login form"
-msgstr ""
+msgstr "Přihlašovací formulář"
 
 #: src/components/core/LoginPage.jsx:102
 msgid "Password input"
-msgstr ""
+msgstr "Zadejte heslo"
 
 #: src/components/core/LoginPage.jsx:111
 msgid "Log in"
-msgstr ""
+msgstr "Přihlásit se"
 
 #: src/components/core/LoginPage.jsx:121
 msgid "More about this"
-msgstr ""
+msgstr "Více o tom"
 
 #: src/components/core/LogsButton.jsx:101
 msgid "Collecting logs..."
-msgstr ""
+msgstr "Shromažďuji záznamy..."
 
 #: src/components/core/LogsButton.jsx:101
 #: src/components/core/LogsButton.jsx:104
 msgid "Download logs"
-msgstr ""
+msgstr "Stahuji zázbamy"
 
 #: src/components/core/LogsButton.jsx:111
 msgid ""
 "The browser will run the logs download as soon as they are ready. Please, be "
 "patient."
-msgstr ""
+msgstr "Prohlížeč stáhne záznamy, jakmile budou připraveny. Čekejte prosím."
 
 #: src/components/core/LogsButton.jsx:121
 msgid "Something went wrong while collecting logs. Please, try again."
-msgstr ""
+msgstr "Stahování záznamů se nezdařilo. Zkuste to znovu."
 
 #: src/components/core/PasswordAndConfirmationInput.jsx:55
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Hesla se neshodují"
 
 #: src/components/core/PasswordAndConfirmationInput.jsx:79
 #: src/components/network/WifiConnectionForm.jsx:121
@@ -267,33 +267,32 @@ msgstr ""
 #: src/components/storage/iscsi/AuthFields.jsx:94
 #: src/components/users/RootAuthMethods.jsx:165
 msgid "Password"
-msgstr ""
+msgstr "Heslo"
 
 #: src/components/core/PasswordAndConfirmationInput.jsx:90
 msgid "Password confirmation"
-msgstr ""
+msgstr "Potvrzení hesla"
 
 #: src/components/core/PasswordInput.jsx:61
 msgid "Password visibility button"
-msgstr ""
+msgstr "Tlačítko viditelnosti hesla"
 
 #: src/components/core/Popup.jsx:92
 msgid "Confirm"
-msgstr ""
+msgstr "Potvrdit"
 
 #. TRANSLATORS: progress message
 #: src/components/core/Popup.jsx:210
-#, fuzzy
 msgid "Loading data..."
 msgstr "Soubor se načítá…"
 
 #: src/components/core/ProgressReport.jsx:50
 msgid "Finished"
-msgstr ""
+msgstr "Dokončeno"
 
 #: src/components/core/ProgressReport.jsx:59
 msgid "In progress"
-msgstr ""
+msgstr "Probíhá"
 
 #: src/components/core/ProgressReport.jsx:74
 msgid "Pending"
