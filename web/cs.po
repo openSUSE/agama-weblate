@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-18 02:24+0000\n"
-"PO-Revision-Date: 2024-07-19 09:47+0000\n"
+"PO-Revision-Date: 2024-07-20 10:47+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/>"
 "\n"
@@ -296,45 +296,45 @@ msgstr "Probíhá"
 
 #: src/components/core/ProgressReport.jsx:74
 msgid "Pending"
-msgstr ""
+msgstr "Čeká se na"
 
 #: src/components/core/ProgressReport.jsx:138
 msgid "Waiting for progress status..."
-msgstr ""
+msgstr "Čekáme na stav postupu..."
 
 #: src/components/core/RowActions.jsx:64
 #: src/components/storage/PartitionsField.jsx:491
 #: src/components/storage/ProposalActionsSummary.jsx:233
 msgid "Actions"
-msgstr ""
+msgstr "Akce"
 
 #: src/components/core/SectionSkeleton.jsx:27
 msgid "Waiting"
-msgstr ""
+msgstr "Čekám"
 
 #: src/components/core/ServerError.jsx:47
 msgid "Cannot connect to Agama server"
-msgstr ""
+msgstr "Nelze se připojit k serveru Agama"
 
 #: src/components/core/ServerError.jsx:51
 msgid "Please, check whether it is running."
-msgstr ""
+msgstr "Zkontrolujte, zda je spuštěn."
 
 #: src/components/core/ServerError.jsx:56
 msgid "Reload"
-msgstr ""
+msgstr "Znovu načíst"
 
 #: src/components/l10n/KeyboardSelection.jsx:41
 msgid "Filter by description or keymap code"
-msgstr ""
+msgstr "Filtrování podle popisu nebo kódu mapy kláves"
 
 #: src/components/l10n/KeyboardSelection.jsx:71
 msgid "None of the keymaps match the filter."
-msgstr ""
+msgstr "Žádná z map kláves neodpovídá filtru."
 
 #: src/components/l10n/KeyboardSelection.jsx:77
 msgid "Keyboard selection"
-msgstr ""
+msgstr "Výběr klávesnice"
 
 #: src/components/l10n/KeyboardSelection.jsx:90
 #: src/components/l10n/L10nPage.jsx:64 src/components/l10n/L10nPage.jsx:72
