@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-18 02:24+0000\n"
-"PO-Revision-Date: 2024-06-28 16:46+0000\n"
+"PO-Revision-Date: 2024-07-20 07:47+0000\n"
 "Last-Translator: Aleksey Fedorov <Aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ru/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.6\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/MainLayout.jsx:52
 msgid "Agama"
@@ -922,6 +922,9 @@ msgid ""
 "This product does not allow to select software patterns during installation. "
 "However, you can add additional software once the installation is finished."
 msgstr ""
+"Данный продукт не позволяет выбирать шаблоны программного обеспечения во "
+"время установки. Однако Вы можете добавить дополнительное программное "
+"обеспечение после завершения установки."
 
 #: src/components/software/SoftwarePatternsSelection.jsx:223
 msgid "auto selected"
@@ -949,11 +952,12 @@ msgid "Installation will take %s."
 msgstr "Установка займёт %s."
 
 #: src/components/software/UsedSize.jsx:37
-#, fuzzy
 msgid ""
 "This space includes the base system and the selected software patterns, if "
 "any."
-msgstr "В этот объём входят основная система и выбранные шаблоны ПО."
+msgstr ""
+"Это пространство включает в себя базовую систему и выбранные шаблоны "
+"программного обеспечения, если таковые имеются."
 
 #: src/components/storage/BootConfigField.jsx:43
 msgid "Change boot options"
@@ -1738,16 +1742,16 @@ msgstr ""
 #: src/components/storage/SpaceActionsTable.jsx:68
 #, c-format
 msgid "Up to %s can be recovered by shrinking the device."
-msgstr ""
+msgstr "До %s можно освободить, сократив устройство."
 
 #: src/components/storage/SpaceActionsTable.jsx:77
 msgid "The device cannot be shrunk:"
-msgstr ""
+msgstr "Устройство не может быть сокращено:"
 
 #: src/components/storage/SpaceActionsTable.jsx:98
 #, c-format
 msgid "Show information about %s"
-msgstr ""
+msgstr "Показать сведения о %s"
 
 #: src/components/storage/SpaceActionsTable.jsx:172
 msgid "The content may be deleted"
