@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-18 02:24+0000\n"
-"PO-Revision-Date: 2024-07-20 10:47+0000\n"
+"PO-Revision-Date: 2024-07-20 17:47+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/>"
 "\n"
@@ -391,51 +391,51 @@ msgstr ""
 
 #: src/components/l10n/TimezoneSelection.jsx:101
 msgid "None of the time zones match the filter."
-msgstr ""
+msgstr "Žádné z časových pásem neodpovídá filtru."
 
 #: src/components/l10n/TimezoneSelection.jsx:107
 msgid " Timezone selection"
-msgstr ""
+msgstr " Výběr časového pásma"
 
 #: src/components/layout/Loading.jsx:31
 msgid "Loading installation environment, please wait."
-msgstr ""
+msgstr "Načítá se instalační prostředí, vyčkejte prosím."
 
 #. TRANSLATORS: button label
 #: src/components/network/AddressesDataList.jsx:88
 #: src/components/network/DnsDataList.jsx:95
 msgid "Remove"
-msgstr ""
+msgstr "Odstranit"
 
 #. TRANSLATORS: input field name
 #: src/components/network/AddressesDataList.jsx:100
 #: src/components/network/AddressesDataList.jsx:101
 #: src/components/network/IpAddressInput.jsx:33
 msgid "IP Address"
-msgstr ""
+msgstr "IP adresa"
 
 #. TRANSLATORS: input field name
 #: src/components/network/AddressesDataList.jsx:109
 #: src/components/network/AddressesDataList.jsx:110
 msgid "Prefix length or netmask"
-msgstr ""
+msgstr "Délka předpony nebo maska sítě"
 
 #: src/components/network/AddressesDataList.jsx:126
 msgid "Add an address"
-msgstr ""
+msgstr "Přidat adresu"
 
 #. TRANSLATORS: button label
 #: src/components/network/AddressesDataList.jsx:126
 msgid "Add another address"
-msgstr ""
+msgstr "Přidat další adresu"
 
 #: src/components/network/AddressesDataList.jsx:131
 msgid "Addresses"
-msgstr ""
+msgstr "Adresy"
 
 #: src/components/network/AddressesDataList.jsx:133
 msgid "Addresses data list"
-msgstr ""
+msgstr "Seznam údajů o adresách"
 
 #. TRANSLATORS: input field for the iSCSI initiator name
 #. TRANSLATORS: table header
@@ -448,13 +448,13 @@ msgstr ""
 #: src/components/storage/iscsi/NodesPresenter.jsx:98
 #: src/components/storage/iscsi/NodesPresenter.jsx:119
 msgid "Name"
-msgstr ""
+msgstr "Název"
 
 #. TRANSLATORS: table header
 #: src/components/network/ConnectionsTable.jsx:66
 #: src/components/network/ConnectionsTable.jsx:93
 msgid "IP addresses"
-msgstr ""
+msgstr "IP adresy"
 
 #: src/components/network/ConnectionsTable.jsx:74
 #: src/components/network/WifiNetworksListPage.jsx:107
@@ -464,7 +464,7 @@ msgstr ""
 #: src/components/storage/iscsi/NodesPresenter.jsx:73
 #: src/components/users/FirstUser.jsx:120
 msgid "Edit"
-msgstr ""
+msgstr "Upravit"
 
 #. TRANSLATORS: %s is replaced by a network connection name
 #: src/components/network/ConnectionsTable.jsx:77
