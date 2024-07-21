@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-18 02:24+0000\n"
-"PO-Revision-Date: 2024-07-11 10:47+0000\n"
+"PO-Revision-Date: 2024-07-21 10:47+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "sv/>\n"
@@ -914,6 +914,9 @@ msgid ""
 "This product does not allow to select software patterns during installation. "
 "However, you can add additional software once the installation is finished."
 msgstr ""
+"Denna produkten tillåter inte att välja programvarumönster under "
+"installationen. Du kan dock lägga till ytterligare programvara när "
+"installationen är klar."
 
 #: src/components/software/SoftwarePatternsSelection.jsx:223
 msgid "auto selected"
@@ -941,12 +944,12 @@ msgid "Installation will take %s."
 msgstr "Installationen kommer att ta %s"
 
 #: src/components/software/UsedSize.jsx:37
-#, fuzzy
 msgid ""
 "This space includes the base system and the selected software patterns, if "
 "any."
 msgstr ""
-"Detta utrymme inkluderar bassystemet och de valda programvarumönsterna."
+"Detta utrymme inkluderar bassystemet och de valda programvarumönsterna, om "
+"några."
 
 #: src/components/storage/BootConfigField.jsx:43
 msgid "Change boot options"
