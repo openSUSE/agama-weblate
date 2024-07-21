@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-18 02:24+0000\n"
-"PO-Revision-Date: 2024-07-20 17:47+0000\n"
+"PO-Revision-Date: 2024-07-21 10:47+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/>"
 "\n"
@@ -343,17 +343,17 @@ msgstr "Výběr klávesnice"
 #: src/components/l10n/TimezoneSelection.jsx:125
 #: src/components/product/ProductSelectionPage.jsx:90
 msgid "Select"
-msgstr ""
+msgstr "Zvolit"
 
 #: src/components/l10n/L10nPage.jsx:53
 #: src/components/overview/L10nSection.jsx:37 src/routes/l10n.js:38
 msgid "Localization"
-msgstr ""
+msgstr "Lokalizace"
 
 #: src/components/l10n/L10nPage.jsx:61 src/components/l10n/L10nPage.jsx:70
 #: src/components/l10n/L10nPage.jsx:80
 msgid "Not selected yet"
-msgstr ""
+msgstr "Dosud nevybráno"
 
 #: src/components/l10n/L10nPage.jsx:64 src/components/l10n/L10nPage.jsx:72
 #: src/components/l10n/L10nPage.jsx:83
@@ -363,31 +363,31 @@ msgstr ""
 #: src/components/users/RootAuthMethods.jsx:100
 #: src/components/users/RootAuthMethods.jsx:112
 msgid "Change"
-msgstr ""
+msgstr "Změnit"
 
 #: src/components/l10n/L10nPage.jsx:70
 msgid "Keyboard"
-msgstr ""
+msgstr "Klávesnice"
 
 #: src/components/l10n/L10nPage.jsx:79
 msgid "Time zone"
-msgstr ""
+msgstr "Časové pásmo"
 
 #: src/components/l10n/LocaleSelection.jsx:39
 msgid "Filter by language, territory or locale code"
-msgstr ""
+msgstr "Filtrování podle jazyka, území nebo kódu lokality"
 
 #: src/components/l10n/LocaleSelection.jsx:72
 msgid "None of the locales match the filter."
-msgstr ""
+msgstr "Žádné umístění neodpovídá filtru."
 
 #: src/components/l10n/LocaleSelection.jsx:78
 msgid "Locale selection"
-msgstr ""
+msgstr "Výběr lokality"
 
 #: src/components/l10n/TimezoneSelection.jsx:64
 msgid "Filter by territory, time zone code or UTC offset"
-msgstr ""
+msgstr "Filtrování podle území, kódu časového pásma nebo posunu od UTC"
 
 #: src/components/l10n/TimezoneSelection.jsx:101
 msgid "None of the time zones match the filter."
@@ -471,140 +471,142 @@ msgstr "Upravit"
 #: src/components/network/IpSettingsForm.jsx:151
 #, c-format
 msgid "Edit connection %s"
-msgstr ""
+msgstr "Upravit připojení %s"
 
 #: src/components/network/ConnectionsTable.jsx:81
 #: src/components/network/WifiNetworksListPage.jsx:109
 #: src/components/network/WifiNetworksListPage.jsx:137
 msgid "Forget"
-msgstr ""
+msgstr "Zapomenout"
 
 #. TRANSLATORS: %s is replaced by a network connection name
 #: src/components/network/ConnectionsTable.jsx:83
 #, c-format
 msgid "Forget connection %s"
-msgstr ""
+msgstr "Zapomenout připojení %s"
 
 #. TRANSLATORS: %s is replaced by a network connection name
 #: src/components/network/ConnectionsTable.jsx:98
 #, c-format
 msgid "Actions for connection %s"
-msgstr ""
+msgstr "Akce pro připojení %s"
 
 #. TRANSLATORS: input field name
 #: src/components/network/DnsDataList.jsx:81
 #: src/components/network/DnsDataList.jsx:82
 msgid "Server IP"
-msgstr ""
+msgstr "IP serveru"
 
 #: src/components/network/DnsDataList.jsx:104
 msgid "Add DNS"
-msgstr ""
+msgstr "Přidat DNS"
 
 #. TRANSLATORS: button label
 #: src/components/network/DnsDataList.jsx:104
 msgid "Add another DNS"
-msgstr ""
+msgstr "Přidat další DNS"
 
 #: src/components/network/DnsDataList.jsx:109
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #. TRANSLATORS: input field name
 #: src/components/network/IpPrefixInput.jsx:33
 msgid "IP prefix or netmask"
-msgstr ""
+msgstr "Předpona IP nebo maska sítě"
 
 #. TRANSLATORS: error message
 #: src/components/network/IpSettingsForm.jsx:104
 msgid "At least one address must be provided for selected mode"
-msgstr ""
+msgstr "Pro zvolený režim musí být uvedena alespoň jedna adresa"
 
 #. TRANSLATORS: network connection mode (automatic via DHCP or manual with static IP)
 #: src/components/network/IpSettingsForm.jsx:160
 #: src/components/network/IpSettingsForm.jsx:165
 #: src/components/network/IpSettingsForm.jsx:167
 msgid "Mode"
-msgstr ""
+msgstr "Režim"
 
 #: src/components/network/IpSettingsForm.jsx:174
 msgid "Automatic (DHCP)"
-msgstr ""
+msgstr "Automatický (DHCP)"
 
 #. TRANSLATORS: manual network configuration mode with a static IP address
 #: src/components/network/IpSettingsForm.jsx:177
 #: src/components/storage/iscsi/NodeStartupOptions.js:25
 msgid "Manual"
-msgstr ""
+msgstr "Manuální"
 
 #. TRANSLATORS: network gateway configuration
 #: src/components/network/IpSettingsForm.jsx:185
 #: src/components/network/IpSettingsForm.jsx:188
 msgid "Gateway"
-msgstr ""
+msgstr "Brána"
 
 #: src/components/network/IpSettingsForm.jsx:196
 msgid "Gateway can be defined only in 'Manual' mode"
-msgstr ""
+msgstr "Bránu lze definovat pouze v režimu 'Manual'"
 
 #: src/components/network/NetworkPage.jsx:93
 msgid "No Wi-Fi supported"
-msgstr ""
+msgstr "Wi-Fi není podporováno"
 
 #: src/components/network/NetworkPage.jsx:95
 msgid ""
 "The system does not support Wi-Fi connections, probably because of missing "
 "or disabled hardware."
 msgstr ""
+"Systém nepodporuje připojení Wi-Fi, pravděpodobně chybí hardware nebo je "
+"zakázán."
 
 #: src/components/network/NetworkPage.jsx:109
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 #. TRANSLATORS: button label, connect to a WiFi network
 #: src/components/network/NetworkPage.jsx:112
 #: src/components/network/WifiConnectionForm.jsx:130
 #: src/components/network/WifiNetworksListPage.jsx:105
 msgid "Connect"
-msgstr ""
+msgstr "Připojit"
 
 #: src/components/network/NetworkPage.jsx:119
 #, c-format
 msgid "Conected to %s"
-msgstr ""
+msgstr "Připojit k %s"
 
 #: src/components/network/NetworkPage.jsx:126
 msgid "No connected yet"
-msgstr ""
+msgstr "Dosud nepřipojeno"
 
 #: src/components/network/NetworkPage.jsx:127
 msgid ""
 "The system has not been configured for connecting to a Wi-Fi network yet."
-msgstr ""
+msgstr "Systém zatím nebyl konfigurován pro připojení k síti Wi-Fi."
 
 #: src/components/network/NetworkPage.jsx:156
 msgid "Wired"
-msgstr ""
+msgstr "Připojení kabelem (Ethernet)"
 
 #: src/components/network/NetworkPage.jsx:160
 msgid "No wired connections found"
-msgstr ""
+msgstr "Nebyla nalezena žádná kabelová připojení"
 
 #: src/components/network/NetworkPage.jsx:173
 #: src/components/network/routes.js:59
 msgid "Network"
-msgstr ""
+msgstr "Síť"
 
 #. TRANSLATORS: WiFi authentication mode
 #: src/components/network/WifiConnectionForm.jsx:43
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:72
 msgid "None"
-msgstr ""
+msgstr "Žádná"
 
 #. TRANSLATORS: WiFi authentication mode
 #: src/components/network/WifiConnectionForm.jsx:45
 msgid "WPA & WPA2 Personal"
-msgstr ""
+msgstr "WPA & WPA2 Osobní"
 
 #: src/components/network/WifiConnectionForm.jsx:85
 #: src/components/product/ProductRegistrationPage.jsx:68
@@ -613,41 +615,41 @@ msgstr ""
 #: src/components/storage/iscsi/LoginForm.jsx:69
 #: src/components/users/FirstUserForm.jsx:217
 msgid "Something went wrong"
-msgstr ""
+msgstr "Něco se nezdařilo"
 
 #: src/components/network/WifiConnectionForm.jsx:86
 msgid "Please, review provided settings and try again."
-msgstr ""
+msgstr "Zkontrolujte poskytnutá nastavení a zkuste to znovu."
 
 #. TRANSLATORS: SSID (Wifi network name) configuration
 #: src/components/network/WifiConnectionForm.jsx:92
 #: src/components/network/WifiConnectionForm.jsx:96
 msgid "SSID"
-msgstr ""
+msgstr "SSID"
 
 #. TRANSLATORS: Wifi security configuration (password protected or not)
 #: src/components/network/WifiConnectionForm.jsx:105
 #: src/components/network/WifiConnectionForm.jsx:108
 msgid "Security"
-msgstr ""
+msgstr "Zabezpečení"
 
 #. TRANSLATORS: WiFi password
 #: src/components/network/WifiConnectionForm.jsx:117
 msgid "WPA Password"
-msgstr ""
+msgstr "Heslo k WPA"
 
 #. TRANSLATORS: Wifi network status
 #: src/components/network/WifiNetworksListPage.jsx:63
 #: src/components/network/WifiNetworksListPage.jsx:117
 msgid "Connecting"
-msgstr ""
+msgstr "Připojuji"
 
 #. TRANSLATORS: Wifi network status
 #: src/components/network/WifiNetworksListPage.jsx:66
 #: src/components/network/WifiNetworksListPage.jsx:121
 #: src/components/network/WifiNetworksListPage.jsx:164
 msgid "Connected"
-msgstr ""
+msgstr "Připojeno"
 
 #. TRANSLATORS: iSCSI connection status
 #. TRANSLATORS: Wifi network status
@@ -655,39 +657,39 @@ msgstr ""
 #: src/components/network/WifiNetworksListPage.jsx:119
 #: src/components/storage/iscsi/NodesPresenter.jsx:63
 msgid "Disconnected"
-msgstr ""
+msgstr "Odpojeno"
 
 #: src/components/network/WifiNetworksListPage.jsx:127
 msgid "Disconnect"
-msgstr ""
+msgstr "Odpojit"
 
 #: src/components/network/WifiNetworksListPage.jsx:150
 msgid "Connect to a hidden network"
-msgstr ""
+msgstr "Připojení ke skryté síti"
 
 #: src/components/network/WifiNetworksListPage.jsx:161
 msgid "configured"
-msgstr ""
+msgstr "konfigurováno"
 
 #: src/components/network/WifiNetworksListPage.jsx:265
 msgid "Connect to hidden network"
-msgstr ""
+msgstr "Připojit ke skryté síti"
 
 #: src/components/network/WifiSelectorPage.jsx:136
 msgid "Connect to a Wi-Fi network"
-msgstr ""
+msgstr "Připojení k síti Wi-Fi"
 
 #. TRANSLATORS: %s will be replaced by a language name and territory, example:
 #. "English (United States)".
 #: src/components/overview/L10nSection.jsx:33
 #, c-format
 msgid "The system will use %s as its default language."
-msgstr ""
+msgstr "Systém použije jako výchozí jazyk %s."
 
 #: src/components/overview/OverviewPage.jsx:49
 #: src/components/users/UsersPage.jsx:36 src/components/users/routes.js:32
 msgid "Users"
-msgstr ""
+msgstr "Uživatelé"
 
 #: src/components/overview/OverviewPage.jsx:50
 #: src/components/overview/StorageSection.jsx:111
@@ -695,72 +697,82 @@ msgstr ""
 #: src/components/storage/StoragePage.jsx:30
 #: src/components/storage/routes.js:58
 msgid "Storage"
-msgstr ""
+msgstr "Paměť"
 
 #: src/components/overview/OverviewPage.jsx:51
 #: src/components/overview/SoftwareSection.jsx:86
 #: src/components/software/SoftwarePage.jsx:181
 #: src/components/software/routes.js:32
 msgid "Software"
-msgstr ""
+msgstr "Software"
 
 #: src/components/overview/OverviewPage.jsx:56
 msgid "Ready for installation"
-msgstr ""
+msgstr "Připraveno k instalaci"
 
 #: src/components/overview/OverviewPage.jsx:102
 msgid "Installation"
-msgstr ""
+msgstr "Instalace"
 
 #: src/components/overview/OverviewPage.jsx:103
 msgid "Before installing, please check the following problems."
-msgstr ""
+msgstr "Před instalací zkontrolujte tyto problémy."
 
 #: src/components/overview/OverviewPage.jsx:114
 msgid ""
 "Take your time to check your configuration before starting the installation "
 "process."
-msgstr ""
+msgstr "Před zahájením instalace zkontrolujte konfiguraci."
 
 #: src/components/overview/OverviewPage.jsx:123
 msgid ""
 "These are the most relevant installation settings. Feel free to browse the "
 "sections in the menu for further details."
 msgstr ""
+"Toto je nejdůležitější nastavení instalace. Další podrobnosti najdete v "
+"sekcích v nabídce."
 
 #: src/components/overview/SoftwareSection.jsx:60
 msgid "The installation will take"
-msgstr ""
+msgstr "Instalace zabere"
 
 #. TRANSLATORS: %s will be replaced with the installation size, example: "5GiB".
 #: src/components/overview/SoftwareSection.jsx:67
 #, c-format
 msgid "The installation will take %s including:"
-msgstr ""
+msgstr "Instalace bude trvat %s včetně:"
 
 #: src/components/overview/StorageSection.jsx:53
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group shrinking "
 "existing partitions at the underlying devices as needed"
 msgstr ""
+"Instalace do nové skupiny svazků LVM (Logical Volume Manager), která podle "
+"potřeby zmenší existující oddíly na základních zařízeních"
 
 #: src/components/overview/StorageSection.jsx:58
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group without modifying "
 "the partitions at the underlying devices"
 msgstr ""
+"Instalace do nové skupiny svazků Správce logických svazků (LVM) bez úpravy "
+"oddílů v základních zařízeních"
 
 #: src/components/overview/StorageSection.jsx:63
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group deleting all the "
 "content of the underlying devices"
 msgstr ""
+"Instalace do nové skupiny svazků LVM (Logical Volume Manager), která "
+"odstraní veškerý obsah základních zařízení"
 
 #: src/components/overview/StorageSection.jsx:68
 msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group using a custom "
 "strategy to find the needed space at the underlying devices"
 msgstr ""
+"Instalace do nové skupiny svazků LVM (Logical Volume Manager) pomocí vlastní "
+"strategie pro nalezení potřebného místa v základních zařízeních"
 
 #: src/components/overview/StorageSection.jsx:86
 #, c-format
@@ -768,6 +780,8 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s shrinking "
 "existing partitions as needed"
 msgstr ""
+"Instalace do nové skupiny svazků LVM (Logical Volume Manager) na %s se "
+"zmenšením stávajících oddílů podle potřeby"
 
 #: src/components/overview/StorageSection.jsx:92
 #, c-format
@@ -775,6 +789,8 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s without "
 "modifying existing partitions"
 msgstr ""
+"Instalace do nové skupiny svazků LVM (Logical Volume Manager) na %s bez "
+"úpravy existujících oddílů"
 
 #: src/components/overview/StorageSection.jsx:98
 #, c-format
@@ -782,6 +798,8 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s deleting "
 "all its content"
 msgstr ""
+"Instalace do nové skupiny svazků LVM (Logical Volume Manager) na %s s "
+"odstraněním veškerého jejich obsahu"
 
 #: src/components/overview/StorageSection.jsx:104
 #, c-format
@@ -789,11 +807,13 @@ msgid ""
 "Install in a new Logical Volume Manager (LVM) volume group on %s using a "
 "custom strategy to find the needed space"
 msgstr ""
+"Instalace do nové skupiny svazků LVM (Logical Volume Manager) na %s s "
+"použitím vlastní strategie pro nalezení potřebného místa"
 
 #: src/components/overview/StorageSection.jsx:179
 #: src/components/storage/InstallationDeviceField.jsx:66
 msgid "No device selected yet"
-msgstr ""
+msgstr "Zatím nebylo vybráno žádné zařízení"
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
@@ -801,20 +821,21 @@ msgstr ""
 #, c-format
 msgid "Install using device %s shrinking existing partitions as needed"
 msgstr ""
+"Instalace pomocí zařízení %s se zmenšením stávajících oddílů podle potřeby"
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
 #: src/components/overview/StorageSection.jsx:190
 #, c-format
 msgid "Install using device %s without modifying existing partitions"
-msgstr ""
+msgstr "Instalace pomocí zařízení %s bez úpravy stávajících oddílů"
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
 #: src/components/overview/StorageSection.jsx:194
 #, c-format
 msgid "Install using device %s and deleting all its content"
-msgstr ""
+msgstr "Instalace pomocí zařízení %s a odstranění veškerého jeho obsahu"
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
@@ -822,159 +843,167 @@ msgstr ""
 #, c-format
 msgid "Install using device %s with a custom strategy to find the needed space"
 msgstr ""
+"Instalace pomocí zařízení %s s vlastní strategií pro vyhledání potřebného "
+"místa"
 
 #: src/components/overview/routes.js:30
 msgid "Overview"
-msgstr ""
+msgstr "Přehled"
 
 #: src/components/product/ProductRegistrationPage.jsx:66
 #, c-format
 msgid "Register %s"
-msgstr ""
+msgstr "Registrovat %s"
 
 #: src/components/product/ProductRegistrationPage.jsx:73
 msgid "Registration code"
-msgstr ""
+msgstr "Registrační kód"
 
 #: src/components/product/ProductRegistrationPage.jsx:76
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: src/components/product/ProductSelectionProgress.jsx:49
 msgid "Configuring the product, please wait ..."
-msgstr ""
+msgstr "Konfigurace produktu, počkejte prosím..."
 
 #: src/components/questions/GenericQuestion.jsx:35
 #: src/components/questions/LuksActivationQuestion.jsx:60
 msgid "Question"
-msgstr ""
+msgstr "Dotaz"
 
 #. TRANSLATORS: error message, user entered a wrong password
 #: src/components/questions/LuksActivationQuestion.jsx:34
 msgid "Given encryption password didn't work"
-msgstr ""
+msgstr "Zadané šifrovací heslo nefungovalo"
 
 #: src/components/questions/LuksActivationQuestion.jsx:59
 msgid "Encrypted Device"
-msgstr ""
+msgstr "Šifrované zařízení"
 
 #. TRANSLATORS: field label
 #: src/components/questions/LuksActivationQuestion.jsx:67
 msgid "Encryption Password"
-msgstr ""
+msgstr "Heslo pro šifrování"
 
 #: src/components/software/SoftwarePage.jsx:85
 msgid "No additional software was selected."
-msgstr ""
+msgstr "Nebyl vybrán žádný další software."
 
 #: src/components/software/SoftwarePage.jsx:90
 msgid "The following software patterns are selected for installation:"
-msgstr ""
+msgstr "Pro instalaci jsou vybrány tyto softwarové vzory:"
 
 #: src/components/software/SoftwarePage.jsx:105
 #: src/components/software/SoftwarePage.jsx:119
 msgid "Selected patterns"
-msgstr ""
+msgstr "Vybrané vzory"
 
 #: src/components/software/SoftwarePage.jsx:108
 msgid "Change selection"
-msgstr ""
+msgstr "Změnit výběr"
 
 #: src/components/software/SoftwarePage.jsx:123
 msgid ""
 "This product does not allow to select software patterns during installation. "
 "However, you can add additional software once the installation is finished."
 msgstr ""
+"Tento produkt neumožňuje výběr softwarových vzorů během instalace. Po "
+"dokončení instalace však můžete přidat další software."
 
 #: src/components/software/SoftwarePatternsSelection.jsx:223
 msgid "auto selected"
-msgstr ""
+msgstr "automaticky vybráno"
 
 #: src/components/software/SoftwarePatternsSelection.jsx:241
 msgid "None of the patterns match the filter."
-msgstr ""
+msgstr "Žádný ze vzorů neodpovídá filtru."
 
 #: src/components/software/SoftwarePatternsSelection.jsx:248
 msgid "Software selection"
-msgstr ""
+msgstr "Výběr softwaru"
 
 #. TRANSLATORS: search field placeholder text
 #: src/components/software/SoftwarePatternsSelection.jsx:251
 #: src/components/software/SoftwarePatternsSelection.jsx:252
 msgid "Filter by pattern title or description"
-msgstr ""
+msgstr "Filtrování podle názvu nebo popisu vzoru"
 
 #. TRANSLATORS: %s will be replaced by the estimated installation size,
 #. example: "728.8 MiB"
 #: src/components/software/UsedSize.jsx:33
 #, c-format
 msgid "Installation will take %s."
-msgstr ""
+msgstr "Instalace bude trvat %s."
 
 #: src/components/software/UsedSize.jsx:37
 msgid ""
 "This space includes the base system and the selected software patterns, if "
 "any."
 msgstr ""
+"Tento prostor zahrnuje základní systém a vybrané softwarové vzory, pokud "
+"existují."
 
 #: src/components/storage/BootConfigField.jsx:43
 msgid "Change boot options"
-msgstr ""
+msgstr "Změna možností spouštění systému"
 
 #: src/components/storage/BootConfigField.jsx:81
 msgid "Installation will not configure partitions for booting."
-msgstr ""
+msgstr "Instalace nenakonfiguruje oddíly pro zavádění systému."
 
 #: src/components/storage/BootConfigField.jsx:85
 msgid ""
 "Installation will configure partitions for booting at the installation disk."
-msgstr ""
+msgstr "Instalace nakonfiguruje oddíly pro zavádění na instalačním disku."
 
 #: src/components/storage/BootConfigField.jsx:89
 #, c-format
 msgid "Installation will configure partitions for booting at %s."
-msgstr ""
+msgstr "Instalace nakonfiguruje oddíly pro zavádění v %s."
 
 #: src/components/storage/BootSelection.jsx:132
 msgid ""
 "To ensure the new system is able to boot, the installer may need to create "
 "or configure some partitions in the appropriate disk."
 msgstr ""
+"Aby bylo možné nový systém spustit, může být nutné, aby instalační program "
+"vytvořil nebo nakonfiguroval některé oddíly na příslušném disku."
 
 #: src/components/storage/BootSelection.jsx:138
 msgid "Partitions to boot will be allocated at the installation disk."
-msgstr ""
+msgstr "Oddíly pro zavádění budou přiděleny na instalačním disku."
 
 #. TRANSLATORS: %s is replaced by a device name and size (e.g., "/dev/sda, 500GiB")
 #: src/components/storage/BootSelection.jsx:143
 #, c-format
 msgid "Partitions to boot will be allocated at the installation disk (%s)."
-msgstr ""
+msgstr "Oddíly pro zavádění budou přiděleny na instalačním disku (%s)."
 
 #: src/components/storage/BootSelection.jsx:159
 msgid "Select booting partition"
-msgstr ""
+msgstr "Výběr zaváděcího oddílu"
 
 #: src/components/storage/BootSelection.jsx:180
 #: src/components/storage/iscsi/NodeStartupOptions.js:27
 msgid "Automatic"
-msgstr ""
+msgstr "Automatický"
 
 #: src/components/storage/BootSelection.jsx:198
 msgid "Select a disk"
-msgstr ""
+msgstr "Výběr disku"
 
 #: src/components/storage/BootSelection.jsx:204
 msgid "Partitions to boot will be allocated at the following device."
-msgstr ""
+msgstr "Oddíly pro zavádění budou přiděleny na tomto zařízení."
 
 #: src/components/storage/BootSelection.jsx:207
 msgid "Choose a disk for placing the boot loader"
-msgstr ""
+msgstr "Výběr disku pro umístění zavaděče"
 
 #: src/components/storage/BootSelection.jsx:230
 msgid "Do not configure"
-msgstr ""
+msgstr "Nekonfigurujte"
 
 #: src/components/storage/BootSelection.jsx:236
 msgid ""
