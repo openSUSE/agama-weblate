@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-18 02:24+0000\n"
-"PO-Revision-Date: 2024-07-21 10:47+0000\n"
+"PO-Revision-Date: 2024-07-22 10:47+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/>"
 "\n"
@@ -1009,35 +1009,37 @@ msgstr "Nekonfigurujte"
 msgid ""
 "No partitions will be automatically configured for booting. Use with caution."
 msgstr ""
+"Žádné oddíly nebudou automaticky konfigurovány pro zavádění systému. "
+"Používejte opatrně."
 
 #: src/components/storage/DASDFormatProgress.jsx:60
 msgid "Waiting for progress report"
-msgstr ""
+msgstr "Čekám na zprávu o postupu"
 
 #: src/components/storage/DASDFormatProgress.jsx:67
 msgid "Formatting DASD devices"
-msgstr ""
+msgstr "Formátuji zařízení DASD"
 
 #: src/components/storage/DASDTable.jsx:62
 #: src/components/storage/ZFCPPage.jsx:340
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:71
 #: src/components/storage/iscsi/NodesPresenter.jsx:101
 msgid "No"
-msgstr ""
+msgstr "Ne"
 
 #: src/components/storage/DASDTable.jsx:62
 #: src/components/storage/ZFCPPage.jsx:340
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:71
 #: src/components/storage/iscsi/NodesPresenter.jsx:101
 msgid "Yes"
-msgstr ""
+msgstr "Ano"
 
 #: src/components/storage/DASDTable.jsx:69
 #: src/components/storage/ZFCPDiskForm.jsx:110
 #: src/components/storage/ZFCPPage.jsx:324
 #: src/components/storage/ZFCPPage.jsx:382
 msgid "Channel ID"
-msgstr ""
+msgstr "ID kanálu"
 
 #. TRANSLATORS: table header
 #: src/components/storage/DASDTable.jsx:70
@@ -1046,7 +1048,7 @@ msgstr ""
 #: src/components/storage/iscsi/NodesPresenter.jsx:123
 #: src/components/users/RootAuthMethods.jsx:159
 msgid "Status"
-msgstr ""
+msgstr "Stav"
 
 #: src/components/storage/DASDTable.jsx:71
 #: src/components/storage/DeviceSelectorTable.jsx:197
@@ -1054,81 +1056,83 @@ msgstr ""
 #: src/components/storage/SpaceActionsTable.jsx:200
 #: src/components/storage/VolumeLocationSelectorTable.jsx:107
 msgid "Device"
-msgstr ""
+msgstr "Zařízení"
 
 #: src/components/storage/DASDTable.jsx:72
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #. TRANSLATORS: table header, the column contains "Yes"/"No" values
 #. for the DIAG access mode (special disk access mode on IBM mainframes),
 #. usually keep untranslated
 #: src/components/storage/DASDTable.jsx:76
 msgid "DIAG"
-msgstr ""
+msgstr "DIAG"
 
 #: src/components/storage/DASDTable.jsx:77
 msgid "Formatted"
-msgstr ""
+msgstr "Formátován"
 
 #: src/components/storage/DASDTable.jsx:78
 msgid "Partition Info"
-msgstr ""
+msgstr "Údaje o oddílech"
 
 #. TRANSLATORS: drop down menu label
 #: src/components/storage/DASDTable.jsx:115
 msgid "Perform an action"
-msgstr ""
+msgstr "Provést akci"
 
 #: src/components/storage/DASDTable.jsx:122
 #: src/components/storage/ZFCPPage.jsx:353
 msgid "Activate"
-msgstr ""
+msgstr "Aktivace"
 
 #: src/components/storage/DASDTable.jsx:126
 #: src/components/storage/ZFCPPage.jsx:395
 msgid "Deactivate"
-msgstr ""
+msgstr "Deaktivace"
 
 #: src/components/storage/DASDTable.jsx:131
 msgid "Set DIAG On"
-msgstr ""
+msgstr "Zapnout DIAG"
 
 #: src/components/storage/DASDTable.jsx:135
 msgid "Set DIAG Off"
-msgstr ""
+msgstr "Vypnout DIAG"
 
 #: src/components/storage/DASDTable.jsx:140
 msgid "Format"
-msgstr ""
+msgstr "Formát"
 
 #: src/components/storage/DASDTable.jsx:261
 #: src/components/storage/DASDTable.jsx:262
 msgid "Filter by min channel"
-msgstr ""
+msgstr "Filtrování podle min. kanálu"
 
 #: src/components/storage/DASDTable.jsx:269
 msgid "Remove min channel filter"
-msgstr ""
+msgstr "Odstranění filtru min. kanálu"
 
 #: src/components/storage/DASDTable.jsx:283
 #: src/components/storage/DASDTable.jsx:284
 msgid "Filter by max channel"
-msgstr ""
+msgstr "Filtrování podle max. kanálu"
 
 #: src/components/storage/DASDTable.jsx:291
 msgid "Remove max channel filter"
-msgstr ""
+msgstr "Odstranění filtru max. kanálu"
 
 #: src/components/storage/DeviceSelection.jsx:108
 msgid "Loading data, please wait a second..."
-msgstr ""
+msgstr "Načítání dat chvíli trvá..."
 
 #: src/components/storage/DeviceSelection.jsx:144
 msgid ""
 "The file systems will be allocated by default as [new partitions in the "
 "selected device]."
 msgstr ""
+"Souborové systémy budou ve výchozím nastavení přiděleny jako [nové oddíly ve "
+"vybraném zařízení]."
 
 #: src/components/storage/DeviceSelection.jsx:151
 msgid ""
@@ -1136,101 +1140,105 @@ msgid ""
 "LVM Volume Group]. The corresponding physical volumes will be created on "
 "demand as new partitions at the selected devices."
 msgstr ""
+"Souborové systémy budou ve výchozím nastavení přiděleny jako [logické svazky "
+"nové skupiny svazků LVM]. Odpovídající fyzické svazky budou na vyžádání "
+"vytvořeny jako nové oddíly na vybraných zařízeních."
 
 #: src/components/storage/DeviceSelection.jsx:160
 msgid "Select installation device"
-msgstr ""
+msgstr "Výběr instalačního zařízení"
 
 #: src/components/storage/DeviceSelection.jsx:166
 msgid "Install new system on"
-msgstr ""
+msgstr "Instalace nového systému na"
 
 #: src/components/storage/DeviceSelection.jsx:169
 msgid "An existing disk"
-msgstr ""
+msgstr "Existující disk"
 
 #: src/components/storage/DeviceSelection.jsx:178
 msgid "A new LVM Volume Group"
-msgstr ""
+msgstr "Nová skupina svazků LVM"
 
 #: src/components/storage/DeviceSelection.jsx:203
 msgid "Device selector for target disk"
-msgstr ""
+msgstr "Výběr zařízení pro cílový disk"
 
 #: src/components/storage/DeviceSelection.jsx:226
 msgid "Device selector for new LVM volume group"
-msgstr ""
+msgstr "Výběr zařízení pro novou skupinu svazků LVM"
 
 #: src/components/storage/DeviceSelection.jsx:242
 msgid "Prepare more devices by configuring advanced"
-msgstr ""
+msgstr "Připravte další zařízení pomocí pokročilé konfigurace"
 
 #: src/components/storage/DeviceSelection.jsx:243
+#, fuzzy
 msgid "storage techs"
-msgstr ""
+msgstr "technologie úložiště"
 
 #. TRANSLATORS: multipath device type
 #: src/components/storage/DeviceSelectorTable.jsx:61
 msgid "Multipath"
-msgstr ""
+msgstr "Vícecestný"
 
 #. TRANSLATORS: %s is replaced by the device bus ID
 #: src/components/storage/DeviceSelectorTable.jsx:66
 #, c-format
 msgid "DASD %s"
-msgstr ""
+msgstr "DASD %s"
 
 #. TRANSLATORS: software RAID device, %s is replaced by the RAID level, e.g. RAID-1
 #: src/components/storage/DeviceSelectorTable.jsx:71
 #, c-format
 msgid "Software %s"
-msgstr ""
+msgstr "Software %s"
 
 #: src/components/storage/DeviceSelectorTable.jsx:76
 msgid "SD Card"
-msgstr ""
+msgstr "Karta SD"
 
 #. TRANSLATORS: %s is substituted by the type of disk like "iSCSI" or "SATA"
 #: src/components/storage/DeviceSelectorTable.jsx:81
 #, c-format
 msgid "%s disk"
-msgstr ""
+msgstr "%s disk"
 
 #: src/components/storage/DeviceSelectorTable.jsx:82
 msgid "Disk"
-msgstr ""
+msgstr "Disk"
 
 #. TRANSLATORS: RAID details, %s is replaced by list of devices used by the array
 #: src/components/storage/DeviceSelectorTable.jsx:102
 #, c-format
 msgid "Members: %s"
-msgstr ""
+msgstr "Členové: %s"
 
 #. TRANSLATORS: RAID details, %s is replaced by list of devices used by the array
 #: src/components/storage/DeviceSelectorTable.jsx:111
 #, c-format
 msgid "Devices: %s"
-msgstr ""
+msgstr "Zařízení: %s"
 
 #. TRANSLATORS: multipath details, %s is replaced by list of connections used by the device
 #: src/components/storage/DeviceSelectorTable.jsx:120
 #, c-format
 msgid "Wires: %s"
-msgstr ""
+msgstr "Kabely: %s"
 
 #. TRANSLATORS: disk partition info, %s is replaced by partition table
 #. type (MS-DOS or GPT), %d is the number of the partitions
 #: src/components/storage/DeviceSelectorTable.jsx:155
 #, c-format
 msgid "%s with %d partitions"
-msgstr ""
+msgstr "%s s %d oddíly"
 
 #. TRANSLATORS: status message, no existing content was found on the disk,
 #. i.e. the disk is completely empty
 #: src/components/storage/DeviceSelectorTable.jsx:161
 #: src/components/storage/SpaceActionsTable.jsx:175
 msgid "No content found"
-msgstr ""
+msgstr "Nebyl nalezen žádný obsah"
 
 #: src/components/storage/DeviceSelectorTable.jsx:198
 #: src/components/storage/PartitionsField.jsx:487
@@ -1238,7 +1246,7 @@ msgstr ""
 #: src/components/storage/SpaceActionsTable.jsx:201
 #: src/components/storage/VolumeLocationSelectorTable.jsx:108
 msgid "Details"
-msgstr ""
+msgstr "Podrobnosti"
 
 #: src/components/storage/DeviceSelectorTable.jsx:199
 #: src/components/storage/PartitionsField.jsx:488
@@ -1247,71 +1255,77 @@ msgstr ""
 #: src/components/storage/VolumeFields.jsx:488
 #: src/components/storage/VolumeLocationSelectorTable.jsx:113
 msgid "Size"
-msgstr ""
+msgstr "Velikost"
 
 #: src/components/storage/DevicesTechMenu.jsx:38
 msgid "Manage and format"
-msgstr ""
+msgstr "Správa a formátování"
 
 #: src/components/storage/DevicesTechMenu.jsx:52
 msgid "Activate disks"
-msgstr ""
+msgstr "Aktivace disků"
 
 #: src/components/storage/DevicesTechMenu.jsx:53
 msgid "zFCP"
-msgstr ""
+msgstr "zFCP"
 
 #: src/components/storage/DevicesTechMenu.jsx:66
 msgid "Connect to iSCSI targets"
-msgstr ""
+msgstr "Připojení k cílům iSCSI"
 
 #: src/components/storage/DevicesTechMenu.jsx:67
 #: src/components/storage/routes.js:37
 msgid "iSCSI"
-msgstr ""
+msgstr "iSCSI"
 
 #: src/components/storage/EncryptionField.jsx:38
 #: src/components/storage/EncryptionSettingsDialog.jsx:36
 msgid "Encryption"
-msgstr ""
+msgstr "Šifrování"
 
 #: src/components/storage/EncryptionField.jsx:40
 msgid ""
 "Protection for the information stored at the device, including data, "
 "programs, and system files."
 msgstr ""
+"Ochrana informací uložených v zařízení, včetně dat, programů a systémových "
+"souborů."
 
 #: src/components/storage/EncryptionField.jsx:44
 msgid "disabled"
-msgstr ""
+msgstr "odpojeno"
 
 #: src/components/storage/EncryptionField.jsx:45
 msgid "enabled"
-msgstr ""
+msgstr "zapojeno"
 
 #: src/components/storage/EncryptionField.jsx:46
 msgid "using TPM unlocking"
-msgstr ""
+msgstr "odemykání čipem TPM"
 
 #: src/components/storage/EncryptionField.jsx:60
 msgid "Enable"
-msgstr ""
+msgstr "Zapojit"
 
 #: src/components/storage/EncryptionField.jsx:60
 msgid "Modify"
-msgstr ""
+msgstr "Upravit"
 
 #: src/components/storage/EncryptionSettingsDialog.jsx:38
 msgid ""
 "Full Disk Encryption (FDE) allows to protect the information stored at the "
 "device, including data, programs, and system files."
 msgstr ""
+"Šifrování celého disku (FDE) umožňuje chránit informace uložené v zařízení, "
+"včetně dat, programů a systémových souborů."
 
 #. TRANSLATORS: "Trusted Platform Module" is the name of the technology and TPM its abbreviation
 #: src/components/storage/EncryptionSettingsDialog.jsx:42
 msgid ""
 "Use the Trusted Platform Module (TPM) to decrypt automatically on each boot"
 msgstr ""
+"Použití modulu TPM (Trusted Platform Module) k automatickému dešifrování při "
+"každém spuštění systému"
 
 #: src/components/storage/EncryptionSettingsDialog.jsx:46
 msgid ""
@@ -1319,98 +1333,101 @@ msgid ""
 "verify the integrity of the system. TPM sealing requires the new system to "
 "be booted directly on its first run."
 msgstr ""
+"Dokáže-li čip TPM ověřit integritu systému, nebude heslo pro spuštění "
+"systému a přístup k datům potřebné. Zapečetění TPM vyžaduje, aby byl nový "
+"systém spuštěn hned při prvním použití."
 
 #: src/components/storage/EncryptionSettingsDialog.jsx:129
 msgid "Encrypt the system"
-msgstr ""
+msgstr "Šifrování systému"
 
 #: src/components/storage/InstallationDeviceField.jsx:36
 #: src/components/storage/VolumeLocationSelectorTable.jsx:61
 msgid "Installation device"
-msgstr ""
+msgstr "Instalační zařízení"
 
 #. TRANSLATORS: The storage "Installation device" field's description.
 #: src/components/storage/InstallationDeviceField.jsx:38
 msgid "Main disk or LVM Volume Group for installation."
-msgstr ""
+msgstr "Hlavní disk nebo skupina svazků LVM pro instalaci."
 
 #. TRANSLATORS: %s is the installation disk (eg. "/dev/sda, 80 GiB)
 #: src/components/storage/InstallationDeviceField.jsx:52
 #, c-format
 msgid "File systems created as new partitions at %s"
-msgstr ""
+msgstr "Souborové systémy vytvořené jako nové oddíly v %s"
 
 #: src/components/storage/InstallationDeviceField.jsx:55
 msgid "File systems created at a new LVM volume group"
-msgstr ""
+msgstr "Souborové systémy vytvořené v nové skupině svazků LVM"
 
 #: src/components/storage/InstallationDeviceField.jsx:60
 #, c-format
 msgid "File systems created at a new LVM volume group on %s"
-msgstr ""
+msgstr "Souborové systémy vytvořené v nové skupině svazků LVM na %s"
 
 #. TRANSLATORS: minimum device size, %s is replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:84
 #, c-format
 msgid "at least %s"
-msgstr ""
+msgstr "alespoň %s"
 
 #. TRANSLATORS: "/" is in an LVM logical volume. %s replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:108
 #, c-format
 msgid "Transactional Btrfs root volume (%s)"
-msgstr ""
+msgstr "Transakční kořenový svazek Btrfs (%s)"
 
 #. TRANSLATORS: %s replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:110
 #, c-format
 msgid "Transactional Btrfs root partition (%s)"
-msgstr ""
+msgstr "Transakční kořenový oddíl Btrfs (%s)"
 
 #. TRANSLATORS: "/" is in an LVM logical volume. %s replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:115
 #, c-format
 msgid "Btrfs root volume with snapshots (%s)"
-msgstr ""
+msgstr "Kořenový svazek Btrfs se snímky (%s)"
 
 #. TRANSLATORS: %s replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/PartitionsField.jsx:117
 #, c-format
 msgid "Btrfs root partition with snapshots (%s)"
-msgstr ""
+msgstr "Kořenový oddíl Btrfs se snímky (%s)"
 
 #. TRANSLATORS: This results in something like "Mount /dev/sda3 at /home (25 GiB)" since
 #. %1$s is replaced by the device name, %2$s by the mount point and %3$s by the size
 #: src/components/storage/PartitionsField.jsx:126
 #, c-format
 msgid "Mount %1$s at %2$s (%3$s)"
-msgstr ""
+msgstr "Připojit %1$s at %2$s (%3$s)"
 
 #. TRANSLATORS: This results in something like "Swap at /dev/sda3 (2 GiB)" since
 #. %1$s is replaced by the device name, and %2$s by the size
 #: src/components/storage/PartitionsField.jsx:132
 #, c-format
 msgid "Swap at %1$s (%2$s)"
-msgstr ""
+msgstr "Přepnout na %1$s (%2$s)"
 
 #. TRANSLATORS: Swap is in an LVM logical volume. %s replaced by size string, e.g. "8 GiB"
 #: src/components/storage/PartitionsField.jsx:136
 #, c-format
 msgid "Swap volume (%s)"
-msgstr ""
+msgstr "Přepnout svazek (%s)"
 
 #. TRANSLATORS: %s replaced by size string, e.g. "8 GiB"
 #: src/components/storage/PartitionsField.jsx:138
 #, c-format
 msgid "Swap partition (%s)"
-msgstr ""
+msgstr "Přepnout oddíl (%s)"
 
 #. TRANSLATORS: This results in something like "Btrfs root at /dev/sda3 (20 GiB)" since
 #. %1$s is replaced by the filesystem type, %2$s by the device name, and %3$s by the size
 #: src/components/storage/PartitionsField.jsx:147
 #, c-format
 msgid "%1$s root at %2$s (%3$s)"
-msgstr ""
+msgstr "%1$s kořen na %2$s (%3$s)"
 
 #. TRANSLATORS: "/" is in an LVM logical volume.
 #. Results in something like "Btrfs root volume (at least 20 GiB)" since
@@ -1418,21 +1435,21 @@ msgstr ""
 #: src/components/storage/PartitionsField.jsx:153
 #, c-format
 msgid "%1$s root volume (%2$s)"
-msgstr ""
+msgstr "%1$s kořenový svazek (%2$s)"
 
 #. TRANSLATORS: Results in something like "Btrfs root partition (at least 20 GiB)" since
 #. $1$s is replaced by filesystem type and %2$s by size description
 #: src/components/storage/PartitionsField.jsx:156
 #, c-format
 msgid "%1$s root partition (%2$s)"
-msgstr ""
+msgstr "%1$s kořenový oddíl (%2$s)"
 
 #. TRANSLATORS: This results in something like "Ext4 /home at /dev/sda3 (20 GiB)" since
 #. %1$s is replaced by filesystem type, %2$s by mount point, %3$s by device name and %4$s by size
 #: src/components/storage/PartitionsField.jsx:162
 #, c-format
 msgid "%1$s %2$s at %3$s (%4$s)"
-msgstr ""
+msgstr "%1$s %2$s na %3$s (%4$s)"
 
 #. TRANSLATORS: The filesystem is in an LVM logical volume.
 #. Results in something like "Ext4 /home volume (at least 10 GiB)" since
@@ -1440,22 +1457,22 @@ msgstr ""
 #: src/components/storage/PartitionsField.jsx:168
 #, c-format
 msgid "%1$s %2$s volume (%3$s)"
-msgstr ""
+msgstr "%1$s %2$s svazek (%3$s)"
 
 #. TRANSLATORS: This results in something like "Ext4 /home partition (at least 10 GiB)" since
 #. %1$s is replaced by the filesystem type, %2$s by the mount point and %3$s by the size description
 #: src/components/storage/PartitionsField.jsx:171
 #, c-format
 msgid "%1$s %2$s partition (%3$s)"
-msgstr ""
+msgstr "%1$s %2$s oddíl (%3$s)"
 
 #: src/components/storage/PartitionsField.jsx:182
 msgid "Do not configure partitions for booting"
-msgstr ""
+msgstr "Nekonfigurujte oddíly pro zavádění systému"
 
 #: src/components/storage/PartitionsField.jsx:184
 msgid "Boot partitions at installation disk"
-msgstr ""
+msgstr "Oddíly zavádějící systém na instalačním disku"
 
 #. TRANSLATORS: %s is the disk used to configure the boot-related partitions (eg. "/dev/sda, 80 GiB)
 #: src/components/storage/PartitionsField.jsx:187
