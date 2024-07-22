@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-18 02:24+0000\n"
-"PO-Revision-Date: 2024-07-22 10:47+0000\n"
+"PO-Revision-Date: 2024-07-22 19:47+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/>"
 "\n"
@@ -1478,176 +1478,178 @@ msgstr "Oddíly zavádějící systém na instalačním disku"
 #: src/components/storage/PartitionsField.jsx:187
 #, c-format
 msgid "Boot partitions at %s"
-msgstr ""
+msgstr "Zaváděcí oddíly na %s"
 
 #. TRANSLATORS: header for a list of items referring to size limits for file systems
 #: src/components/storage/PartitionsField.jsx:209
 msgid "These limits are affected by:"
-msgstr ""
+msgstr "Tyto limity jsou ovlivněny (čím):"
 
 #. TRANSLATORS: list item, this affects the computed partition size limits
 #: src/components/storage/PartitionsField.jsx:213
 msgid "The configuration of snapshots"
-msgstr ""
+msgstr "Konfigurace snímků"
 
 #: src/components/storage/PartitionsField.jsx:219
 #, c-format
 msgid "Presence of other volumes (%s)"
-msgstr ""
+msgstr "Přítomnost dalších svazků (%s)"
 
 #. TRANSLATORS: list item, describes a factor that affects the computed size of a
 #. file system; eg. adjusting the size of the swap
 #: src/components/storage/PartitionsField.jsx:225
 msgid "The amount of RAM in the system"
-msgstr ""
+msgstr "Množství paměti RAM v systému"
 
 #: src/components/storage/PartitionsField.jsx:292
 msgid "auto"
-msgstr ""
+msgstr "auto"
 
 #. TRANSLATORS: %s will be replaced by a file-system type like "Btrfs" or "Ext4"
 #: src/components/storage/PartitionsField.jsx:309
 #, c-format
 msgid "Reused %s"
-msgstr ""
+msgstr "Opětovné použití %s"
 
 #: src/components/storage/PartitionsField.jsx:310
 msgid "Transactional Btrfs"
-msgstr ""
+msgstr "Transakční systém Btrfs"
 
 #: src/components/storage/PartitionsField.jsx:311
 msgid "Btrfs with snapshots"
-msgstr ""
+msgstr "Btrfs se snímky"
 
 #. TRANSLATORS: %s will be replaced by a disk name (eg. "/dev/sda")
 #: src/components/storage/PartitionsField.jsx:325
 #, c-format
 msgid "Partition at %s"
-msgstr ""
+msgstr "Oddíl na %s"
 
 #. TRANSLATORS: %s will be replaced by a disk name (eg. "/dev/sda")
 #: src/components/storage/PartitionsField.jsx:328
 #, c-format
 msgid "Separate LVM at %s"
-msgstr ""
+msgstr "Oddělené LVM na %s"
 
 #: src/components/storage/PartitionsField.jsx:331
 msgid "Logical volume at system LVM"
-msgstr ""
+msgstr "Logický svazek na systému LVM"
 
 #: src/components/storage/PartitionsField.jsx:333
 msgid "Partition at installation disk"
-msgstr ""
+msgstr "Oddíl na instalačním disku"
 
 #: src/components/storage/PartitionsField.jsx:348
 msgid "Reset location"
-msgstr ""
+msgstr "Výmaz umístění"
 
 #: src/components/storage/PartitionsField.jsx:349
 msgid "Change location"
-msgstr ""
+msgstr "Změna umístění"
 
 #: src/components/storage/PartitionsField.jsx:350
 #: src/components/storage/iscsi/NodesPresenter.jsx:77
 msgid "Delete"
-msgstr ""
+msgstr "Smazat"
 
 #: src/components/storage/PartitionsField.jsx:486
 #: src/components/storage/VolumeFields.jsx:66
 #: src/components/storage/VolumeFields.jsx:75
 #: src/components/storage/VolumeFields.jsx:80
 msgid "Mount point"
-msgstr ""
+msgstr "Přípojný bod"
 
 #. TRANSLATORS: where (and how) the file-system is going to be created
 #: src/components/storage/PartitionsField.jsx:490
 msgid "Location"
-msgstr ""
+msgstr "Umístění"
 
 #: src/components/storage/PartitionsField.jsx:532
 msgid "Table with mount points"
-msgstr ""
+msgstr "Tabulka s přípojnými body"
 
 #: src/components/storage/PartitionsField.jsx:604
 #: src/components/storage/PartitionsField.jsx:624
 #: src/components/storage/VolumeDialog.jsx:86
 msgid "Add file system"
-msgstr ""
+msgstr "Přidat souborový systém"
 
 #: src/components/storage/PartitionsField.jsx:636
 msgid "Other"
-msgstr ""
+msgstr "Ostatní/jiné"
 
 #: src/components/storage/PartitionsField.jsx:777
 msgid "Reset to defaults"
-msgstr ""
+msgstr "Návrat k standardním hodnotám"
 
 #: src/components/storage/PartitionsField.jsx:849
 msgid "Partitions and file systems"
-msgstr ""
+msgstr "Oddíly a souborové systémy"
 
 #: src/components/storage/PartitionsField.jsx:851
 msgid ""
 "Structure of the new system, including any additional partition needed for "
 "booting"
 msgstr ""
+"Struktura nového systému, včetně případných dalších oddílů potřebných pro "
+"zavádění systému"
 
 #: src/components/storage/PartitionsField.jsx:858
 msgid "Show partitions and file-systems actions"
-msgstr ""
+msgstr "Zobrazení oddílů a akcí souborových systémů"
 
 #: src/components/storage/ProposalActionsDialog.jsx:65
 #, c-format
 msgid "Hide %d subvolume action"
 msgid_plural "Hide %d subvolume actions"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Skrýt %d akci podsvazku"
+msgstr[1] "Skrýt %d akce podsvazku"
+msgstr[2] "Skrýt %d akcí podsvazku"
 
 #: src/components/storage/ProposalActionsDialog.jsx:70
 #, c-format
 msgid "Show %d subvolume action"
 msgid_plural "Show %d subvolume actions"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Zobrazit %d akci podsvazku"
+msgstr[1] "Zobrazit %d akce podsvazku"
+msgstr[2] "Zobrazit %d akcí podsvazku"
 
 #: src/components/storage/ProposalActionsSummary.jsx:57
 msgid "Destructive actions are not allowed"
-msgstr ""
+msgstr "Destruktivní akce nejsou povoleny"
 
 #: src/components/storage/ProposalActionsSummary.jsx:59
 msgid "Destructive actions are allowed"
-msgstr ""
+msgstr "Destruktivní akce jsou povoleny"
 
 #: src/components/storage/ProposalActionsSummary.jsx:82
 #: src/components/storage/ProposalActionsSummary.jsx:132
 msgid "affecting"
-msgstr ""
+msgstr "ovlivňující"
 
 #: src/components/storage/ProposalActionsSummary.jsx:112
 msgid "Shrinking partitions is not allowed"
-msgstr ""
+msgstr "Zmenšování oddílů není povoleno"
 
 #: src/components/storage/ProposalActionsSummary.jsx:116
 msgid "Shrinking partitions is allowed"
-msgstr ""
+msgstr "Zmenšování oddílů je povoleno"
 
 #: src/components/storage/ProposalActionsSummary.jsx:118
 msgid "Shrinking some partitions is allowed but not needed"
-msgstr ""
+msgstr "Zmenšení některých oddílů je povoleno, ale není nutné"
 
 #: src/components/storage/ProposalActionsSummary.jsx:121
 #, c-format
 msgid "%d partition will be shrunk"
 msgid_plural "%d partitions will be shrunk"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d oddíl bude zmenšen"
+msgstr[1] "%d oddíly budou zmenšeny"
+msgstr[2] "%d oddílů bude zmenšeno"
 
 #: src/components/storage/ProposalActionsSummary.jsx:159
 msgid "Cannot accommodate the required file systems for installation"
-msgstr ""
+msgstr "Nelze umístit požadované souborové systémy pro instalaci"
 
 #: src/components/storage/ProposalActionsSummary.jsx:167
 #, c-format
@@ -1805,45 +1807,45 @@ msgstr ""
 #: src/components/storage/VolumeDialog.jsx:320
 #, c-format
 msgid "There is already a file system for %s."
-msgstr ""
+msgstr "Pro %s již existuje souborový systém."
 
 #: src/components/storage/VolumeDialog.jsx:322
 msgid "Do you want to edit it?"
-msgstr ""
+msgstr "Chcete to upravit?"
 
 #: src/components/storage/VolumeDialog.jsx:367
 #, c-format
 msgid "There is a predefined file system for %s."
-msgstr ""
+msgstr "Pro %s existuje předdefinovaný souborový systém."
 
 #: src/components/storage/VolumeDialog.jsx:369
 msgid "Do you want to add it?"
-msgstr ""
+msgstr "Chcete ho přidat?"
 
 #: src/components/storage/VolumeFields.jsx:225
 msgid ""
 "The options for the file system type depends on the product and the mount "
 "point."
-msgstr ""
+msgstr "Možnosti typu souborového systému závisí na produktu a přípojném bodu."
 
 #: src/components/storage/VolumeFields.jsx:232
 msgid "More info for file system types"
-msgstr ""
+msgstr "Další informace o typech souborových systémů"
 
 #. TRANSLATORS: label for the file system selector.
 #: src/components/storage/VolumeFields.jsx:243
 msgid "File system type"
-msgstr ""
+msgstr "Typ systému souborů"
 
 #. TRANSLATORS: item which affects the final computed partition size
 #: src/components/storage/VolumeFields.jsx:274
 msgid "the configuration of snapshots"
-msgstr ""
+msgstr "konfigurace snímků"
 
 #: src/components/storage/VolumeFields.jsx:281
 #, c-format
 msgid "the presence of the file system for %s"
-msgstr ""
+msgstr "přítomnost souborového systému pro %s"
 
 #. TRANSLATORS: conjunction for merging two list items
 #: src/components/storage/VolumeFields.jsx:283
