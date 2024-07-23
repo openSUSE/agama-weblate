@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-18 02:24+0000\n"
-"PO-Revision-Date: 2024-07-22 19:47+0000\n"
+"PO-Revision-Date: 2024-07-23 21:47+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/>"
 "\n"
@@ -1655,52 +1655,52 @@ msgstr "Nelze umístit požadované souborové systémy pro instalaci"
 #, c-format
 msgid "Check the planned action"
 msgid_plural "Check the %d planned actions"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Zkontrolujte plánovanou akci"
+msgstr[1] "Zkontrolujte %d plánované akce"
+msgstr[2] "Zkontrolujte %d plánovaných akcí"
 
 #: src/components/storage/ProposalActionsSummary.jsx:182
 msgid "Waiting for actions information..."
-msgstr ""
+msgstr "Čekáme na informace o akcích..."
 
 #: src/components/storage/ProposalPage.jsx:317
 msgid "Planned Actions"
-msgstr ""
+msgstr "Plánované akce"
 
 #: src/components/storage/ProposalResultSection.jsx:43
 msgid "Waiting for information about storage configuration"
-msgstr ""
+msgstr "Čekání na informace o konfiguraci úložiště"
 
 #: src/components/storage/ProposalResultSection.jsx:73
 msgid "Final layout"
-msgstr ""
+msgstr "Konečné rozvržení"
 
 #: src/components/storage/ProposalResultSection.jsx:74
 msgid "The systems will be configured as displayed below."
-msgstr ""
+msgstr "Systémy budou konfigurovány tak, jak je zobrazeno níže."
 
 #: src/components/storage/ProposalResultSection.jsx:83
 msgid "Storage proposal not possible"
-msgstr ""
+msgstr "Návrh úložiště není možný"
 
 #: src/components/storage/ProposalResultTable.jsx:79
 msgid "New"
-msgstr ""
+msgstr "Nový"
 
 #. TRANSLATORS: Label to indicate the device size before resizing, where %s is
 #. replaced by the original size (e.g., 3.00 GiB).
 #: src/components/storage/ProposalResultTable.jsx:105
 #, c-format
 msgid "Before %s"
-msgstr ""
+msgstr "Před %s"
 
 #: src/components/storage/ProposalResultTable.jsx:131
 msgid "Mount Point"
-msgstr ""
+msgstr "Přípojný bod"
 
 #: src/components/storage/ProposalTransactionalInfo.jsx:45
 msgid "Transactional root file system"
-msgstr ""
+msgstr "Transakční kořenový souborový systém"
 
 #: src/components/storage/ProposalTransactionalInfo.jsx:49
 #, c-format
@@ -1708,101 +1708,106 @@ msgid ""
 "%s is an immutable system with atomic updates. It uses a read-only Btrfs "
 "file system updated via snapshots."
 msgstr ""
+"%s je neměnný systém s atomickými aktualizacemi. Používá souborový systém "
+"Btrfs pouze pro čtení aktualizovaný pomocí snímků."
 
 #: src/components/storage/SnapshotsField.jsx:36
 msgid "Use Btrfs snapshots for the root file system"
-msgstr ""
+msgstr "Použití snímků Btrfs pro kořenový souborový systém"
 
 #: src/components/storage/SnapshotsField.jsx:38
 msgid ""
 "Allows to boot to a previous version of the system after configuration "
 "changes or software upgrades."
 msgstr ""
+"Umožňuje zavést předchozí verzi systému po změně konfigurace nebo "
+"aktualizaci softwaru."
 
 #: src/components/storage/SpaceActionsTable.jsx:68
 #, c-format
 msgid "Up to %s can be recovered by shrinking the device."
-msgstr ""
+msgstr "Zmenšením zařízení lze obnovit až %s."
 
 #: src/components/storage/SpaceActionsTable.jsx:77
 msgid "The device cannot be shrunk:"
-msgstr ""
+msgstr "Zařízení nelze zmenšit:"
 
 #: src/components/storage/SpaceActionsTable.jsx:98
 #, c-format
 msgid "Show information about %s"
-msgstr ""
+msgstr "Zobrazit informace o %s"
 
 #: src/components/storage/SpaceActionsTable.jsx:172
 msgid "The content may be deleted"
-msgstr ""
+msgstr "Obsah může být smazán"
 
 #: src/components/storage/SpaceActionsTable.jsx:204
 msgid "Action"
-msgstr ""
+msgstr "Akce"
 
 #: src/components/storage/SpaceActionsTable.jsx:215
 msgid "Actions to find space"
-msgstr ""
+msgstr "Akce k nalezení prostoru"
 
 #: src/components/storage/SpacePolicySelection.jsx:172
+#, fuzzy
 msgid "Space policy"
-msgstr ""
+msgstr "Politika v oblasti vesmíru / Zásady prostoru"
 
 #: src/components/storage/VolumeDialog.jsx:83
 #, c-format
 msgid "Add %s file system"
-msgstr ""
+msgstr "Přidání souborového systému %s"
 
 #: src/components/storage/VolumeDialog.jsx:84
 #, c-format
 msgid "Edit %s file system"
-msgstr ""
+msgstr "Upravit souborový systém %s"
 
 #: src/components/storage/VolumeDialog.jsx:86
 msgid "Edit file system"
-msgstr ""
+msgstr "Úprava souborového systému"
 
 #. TRANSLATORS: Warning when editing a file system.
 #: src/components/storage/VolumeDialog.jsx:101
 msgid "The type and size of the file system cannot be edited."
-msgstr ""
+msgstr "Typ a velikost souborového systému nelze upravovat."
 
 #: src/components/storage/VolumeDialog.jsx:105
 #, c-format
 msgid "The current file system on %s is selected to be mounted at %s."
-msgstr ""
+msgstr "Aktuální souborový systém na %s je vybrán k připojení k %s."
 
 #. TRANSLATORS: Warning when editing a file system.
 #: src/components/storage/VolumeDialog.jsx:113
 msgid "The size of the file system cannot be edited"
-msgstr ""
+msgstr "Velikost souborového systému nelze měnit"
 
 #. TRANSLATORS: Description of a warning. %s is replaced by a device name (e.g., /dev/vda).
 #: src/components/storage/VolumeDialog.jsx:115
 #, c-format
 msgid "The file system is allocated at the device %s."
-msgstr ""
+msgstr "Souborový systém je přidělen na zařízení %s."
 
 #: src/components/storage/VolumeDialog.jsx:163
 msgid "A mount point is required"
-msgstr ""
+msgstr "Je vyžadován přípojný bod"
 
 #: src/components/storage/VolumeDialog.jsx:190
 msgid "The mount point is invalid"
-msgstr ""
+msgstr "Přípojný bod je neplatný"
 
 #: src/components/storage/VolumeDialog.jsx:218
 msgid "A size value is required"
-msgstr ""
+msgstr "Je vyžadována hodnota velikosti"
 
 #: src/components/storage/VolumeDialog.jsx:246
 msgid "Minimum size is required"
-msgstr ""
+msgstr "Je vyžadována minimální velikost"
 
 #: src/components/storage/VolumeDialog.jsx:278
 msgid "Maximum must be greater than minimum"
-msgstr ""
+msgstr "Maximum musí být větší než minimum"
 
 #: src/components/storage/VolumeDialog.jsx:320
 #, c-format
@@ -1849,41 +1854,42 @@ msgstr "přítomnost souborového systému pro %s"
 
 #. TRANSLATORS: conjunction for merging two list items
 #: src/components/storage/VolumeFields.jsx:283
+#, fuzzy
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #. TRANSLATORS: item which affects the final computed partition size
 #: src/components/storage/VolumeFields.jsx:289
 msgid "the amount of RAM in the system"
-msgstr ""
+msgstr "velikost paměti RAM v systému"
 
 #: src/components/storage/VolumeFields.jsx:293
 #, c-format
 msgid "The final size depends on %s."
-msgstr ""
+msgstr "Konečná velikost závisí na %s."
 
 #. TRANSLATORS: conjunction for merging two texts
 #: src/components/storage/VolumeFields.jsx:295
 msgid " and "
-msgstr ""
+msgstr " a "
 
 #: src/components/storage/VolumeFields.jsx:302
 msgid "Automatically calculated size according to the selected product."
-msgstr ""
+msgstr "Automatický výpočet velikosti podle vybraného produktu."
 
 #: src/components/storage/VolumeFields.jsx:321
 msgid "Exact size for the file system."
-msgstr ""
+msgstr "Přesná velikost souborového systému."
 
 #. TRANSLATORS: requested partition size
 #: src/components/storage/VolumeFields.jsx:330
 msgid "Exact size"
-msgstr ""
+msgstr "Přesná velikost"
 
 #. TRANSLATORS: units selector (like KiB, MiB, GiB...)
 #: src/components/storage/VolumeFields.jsx:347
 msgid "Size unit"
-msgstr ""
+msgstr "Jednotka velikosti"
 
 #: src/components/storage/VolumeFields.jsx:376
 msgid ""
@@ -1891,102 +1897,110 @@ msgid ""
 "given minimum and maximum. If no maximum is given then the file system will "
 "be as big as possible."
 msgstr ""
+"Omezení velikosti souborového systému. Konečná velikost bude hodnota mezi "
+"zadaným minimem a maximem. Pokud není zadáno žádné maximum, bude souborový "
+"systém co největší."
 
 #. TRANSLATORS: the minimal partition size
 #: src/components/storage/VolumeFields.jsx:384
 msgid "Minimum"
-msgstr ""
+msgstr "Minimum"
 
 #. TRANSLATORS: the minium partition size
 #: src/components/storage/VolumeFields.jsx:395
 msgid "Minimum desired size"
-msgstr ""
+msgstr "Minimální požadovaná velikost"
 
 #: src/components/storage/VolumeFields.jsx:406
 msgid "Unit for the minimum size"
-msgstr ""
+msgstr "Jednotka pro minimální velikost"
 
 #. TRANSLATORS: the maximum partition size
 #: src/components/storage/VolumeFields.jsx:418
 msgid "Maximum"
-msgstr ""
+msgstr "Maximum"
 
 #. TRANSLATORS: the maximum partition size
 #: src/components/storage/VolumeFields.jsx:430
 msgid "Maximum desired size"
-msgstr ""
+msgstr "Maximální požadovaná velikost"
 
 #: src/components/storage/VolumeFields.jsx:440
 msgid "Unit for the maximum size"
-msgstr ""
+msgstr "Jednotka pro maximální velikost"
 
 #. TRANSLATORS: radio button label, fully automatically computed partition size, no user input
 #: src/components/storage/VolumeFields.jsx:458
 msgid "Auto"
-msgstr ""
+msgstr "Auto"
 
 #. TRANSLATORS: radio button label, exact partition size requested by user
 #: src/components/storage/VolumeFields.jsx:460
 msgid "Fixed"
-msgstr ""
+msgstr "Opraveno"
 
 #. TRANSLATORS: radio button label, automatically computed partition size within the user provided min and max limits
 #: src/components/storage/VolumeFields.jsx:462
 msgid "Range"
-msgstr ""
+msgstr "Rozsah"
 
 #: src/components/storage/VolumeLocationDialog.jsx:41
 msgid ""
 "The file systems are allocated at the installation device by default. "
 "Indicate a custom location to create the file system at a specific device."
 msgstr ""
+"Souborové systémy jsou ve výchozím nastavení vytvořeny v instalačním "
+"zařízení. Chcete-li vytvořit souborový systém na konkrétním zařízení, "
+"zadejte vlastní umístění."
 
 #. TRANSLATORS: Title of the dialog for changing the location of a file system. %s is replaced
 #. by a mount path (e.g., /home).
 #: src/components/storage/VolumeLocationDialog.jsx:137
 #, c-format
 msgid "Location for %s file system"
-msgstr ""
+msgstr "Umístění souborového systému %s"
 
 #: src/components/storage/VolumeLocationDialog.jsx:147
 msgid "Select in which device to allocate the file system"
-msgstr ""
+msgstr "Vyberte, ve kterém zařízení se má vytvořit systém souborů"
 
 #: src/components/storage/VolumeLocationDialog.jsx:150
 msgid "Select a location"
-msgstr ""
+msgstr "Vyberte umístění"
 
 #: src/components/storage/VolumeLocationDialog.jsx:162
 msgid "Select how to allocate the file system"
-msgstr ""
+msgstr "Zvolte způsob vytvoření souborového systému"
 
 #: src/components/storage/VolumeLocationDialog.jsx:167
 msgid "Create a new partition"
-msgstr ""
+msgstr "Vytvořit nový oddíl"
 
 #: src/components/storage/VolumeLocationDialog.jsx:169
 msgid ""
 "The file system will be allocated as a new partition at the selected   disk."
-msgstr ""
+msgstr "Souborový systém bude přidělen jako nový oddíl na vybraném   disku."
 
 #: src/components/storage/VolumeLocationDialog.jsx:179
 msgid "Create a dedicated LVM volume group"
-msgstr ""
+msgstr "Vytvoření vyhrazené skupiny svazků LVM"
 
 #: src/components/storage/VolumeLocationDialog.jsx:181
 msgid ""
 "A new volume group will be allocated in the selected disk and the   file "
 "system will be created as a logical volume."
 msgstr ""
+"Na vybraném disku bude vytvořena nová skupina svazků a   systém souborů bude "
+"vytvořen jako logický svazek."
 
 #: src/components/storage/VolumeLocationDialog.jsx:191
 msgid "Format the device"
-msgstr ""
+msgstr "Formátovat zařízení"
 
 #: src/components/storage/VolumeLocationDialog.jsx:195
 #, c-format
 msgid "The selected device will be formatted as %s file system."
-msgstr ""
+msgstr "Vybrané zařízení bude formátováno jako souborový systém %s."
 
 #: src/components/storage/VolumeLocationDialog.jsx:206
 msgid "Mount the file system"
