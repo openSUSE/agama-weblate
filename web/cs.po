@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-24 02:24+0000\n"
-"PO-Revision-Date: 2024-07-23 21:47+0000\n"
+"PO-Revision-Date: 2024-07-24 07:46+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
-"Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/"
-">\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/>"
+"\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -459,9 +459,8 @@ msgstr "IP adresy"
 
 #. TRANSLATORS: table header aria label
 #: src/components/network/ConnectionsTable.jsx:68
-#, fuzzy
 msgid "Connection actions"
-msgstr "Připojuji"
+msgstr "Akce připojení"
 
 #: src/components/network/ConnectionsTable.jsx:75
 #: src/components/network/WifiNetworksListPage.jsx:112
@@ -882,9 +881,8 @@ msgid "Encryption Password"
 msgstr "Heslo pro šifrování"
 
 #: src/components/questions/QuestionWithPassword.jsx:42
-#, fuzzy
 msgid "Password Required"
-msgstr "Zadejte heslo"
+msgstr "Vyžadováno heslo"
 
 #: src/components/storage/BootConfigField.jsx:43
 msgid "Change boot options"
@@ -1796,7 +1794,6 @@ msgstr "přítomnost souborového systému pro %s"
 
 #. TRANSLATORS: conjunction for merging two list items
 #: src/components/storage/VolumeFields.jsx:283
-#, fuzzy
 msgid ", "
 msgstr ", "
 
@@ -1946,110 +1943,116 @@ msgstr "Vybrané zařízení bude formátováno jako souborový systém %s."
 
 #: src/components/storage/VolumeLocationDialog.jsx:206
 msgid "Mount the file system"
-msgstr ""
+msgstr "Připojit souborový systém"
 
 #: src/components/storage/VolumeLocationDialog.jsx:208
 msgid ""
 "The current file system on the selected device will be mounted   without "
 "formatting the device."
 msgstr ""
+"Aktuální souborový systém na vybraném zařízení bude připojen   bez "
+"formátování zařízení."
 
 #: src/components/storage/VolumeLocationSelectorTable.jsx:110
 msgid "Usage"
-msgstr ""
+msgstr "Použití"
 
 #: src/components/storage/ZFCPDiskForm.jsx:106
 msgid "The zFCP disk was not activated."
-msgstr ""
+msgstr "Disk zFCP nebyl aktivován."
 
 #. TRANSLATORS: abbrev. World Wide Port Name
 #: src/components/storage/ZFCPDiskForm.jsx:123
 #: src/components/storage/ZFCPPage.jsx:383
 msgid "WWPN"
-msgstr ""
+msgstr "WWPN"
 
 #. TRANSLATORS: abbrev. Logical Unit Number
 #: src/components/storage/ZFCPDiskForm.jsx:131
 #: src/components/storage/ZFCPPage.jsx:384
 msgid "LUN"
-msgstr ""
+msgstr "LUN"
 
 #: src/components/storage/ZFCPPage.jsx:326
 msgid "Auto LUNs Scan"
-msgstr ""
+msgstr "Automatické skenování jednotek LUN"
 
 #: src/components/storage/ZFCPPage.jsx:337
 msgid "Activated"
-msgstr ""
+msgstr "Aktivováno"
 
 #: src/components/storage/ZFCPPage.jsx:337
 msgid "Deactivated"
-msgstr ""
+msgstr "Deaktivováno"
 
 #: src/components/storage/ZFCPPage.jsx:437
 msgid "No zFCP controllers found."
-msgstr ""
+msgstr "Nebyly nalezeny žádné řadiče zFCP."
 
 #: src/components/storage/ZFCPPage.jsx:438
 msgid "Please, try to read the zFCP devices again."
-msgstr ""
+msgstr "Zkuste znovu načíst zařízení zFCP."
 
 #: src/components/storage/ZFCPPage.jsx:441
 msgid "Read zFCP devices"
-msgstr ""
+msgstr "Načtení zařízení zFCP"
 
 #: src/components/storage/ZFCPPage.jsx:452
 msgid ""
 "Automatic LUN scan is [enabled]. Activating a controller which is running in "
 "NPIV mode will automatically configures all its LUNs."
 msgstr ""
+"Automatické skenování LUN je [povoleno]. Aktivací řadiče, který běží v "
+"režimu NPIV, se automaticky nakonfigurují všechny jeho LUN."
 
 #: src/components/storage/ZFCPPage.jsx:457
 msgid ""
 "Automatic LUN scan is [disabled]. LUNs have to be manually configured after "
 "activating a controller."
 msgstr ""
+"Automatické skenování LUN je [zakázáno]. Po aktivaci řadiče je třeba LUNy "
+"nakonfigurovat ručně."
 
 #: src/components/storage/ZFCPPage.jsx:519
 msgid "Activate a zFCP disk"
-msgstr ""
+msgstr "Aktivovat disk zFCP"
 
 #: src/components/storage/ZFCPPage.jsx:553
 msgid "Please, try to activate a zFCP controller."
-msgstr ""
+msgstr "Zkuste aktivovat řadič zFCP."
 
 #: src/components/storage/ZFCPPage.jsx:559
 msgid "Please, try to activate a zFCP disk."
-msgstr ""
+msgstr "Zkuste aktivovat disk zFCP."
 
 #: src/components/storage/ZFCPPage.jsx:562
 msgid "Activate zFCP disk"
-msgstr ""
+msgstr "Aktivovat disk zFCP"
 
 #: src/components/storage/ZFCPPage.jsx:570
 msgid "No zFCP disks found."
-msgstr ""
+msgstr "Nebyly nalezeny žádné disky zFCP."
 
 #: src/components/storage/ZFCPPage.jsx:586
 msgid "Activate new disk"
-msgstr ""
+msgstr "Aktivace nového disku"
 
 #. TRANSLATORS: section title
 #: src/components/storage/ZFCPPage.jsx:599
 msgid "Disks"
-msgstr ""
+msgstr "Disky"
 
 #: src/components/storage/device-utils.jsx:92
 msgid "Unused space"
-msgstr ""
+msgstr "Nevyužitý prostor"
 
 #: src/components/storage/iscsi/AuthFields.jsx:70
 msgid "Only available if authentication by target is provided"
-msgstr ""
+msgstr "K dispozici, jen když je zadáno ověřování cílem"
 
 #: src/components/storage/iscsi/AuthFields.jsx:77
 msgid "Authentication by target"
-msgstr ""
+msgstr "Ověřování cílem"
 
 #: src/components/storage/iscsi/AuthFields.jsx:78
 #: src/components/storage/iscsi/AuthFields.jsx:82
@@ -2058,25 +2061,25 @@ msgstr ""
 #: src/components/storage/iscsi/AuthFields.jsx:108
 #: src/components/storage/iscsi/AuthFields.jsx:110
 msgid "User name"
-msgstr ""
+msgstr "Uživatelské jméno"
 
 #: src/components/storage/iscsi/AuthFields.jsx:88
 #: src/components/storage/iscsi/AuthFields.jsx:116
 msgid "Incorrect user name"
-msgstr ""
+msgstr "Nesprávné uživatelské jméno"
 
 #: src/components/storage/iscsi/AuthFields.jsx:99
 #: src/components/storage/iscsi/AuthFields.jsx:130
 msgid "Incorrect password"
-msgstr ""
+msgstr "Nesprávné heslo"
 
 #: src/components/storage/iscsi/AuthFields.jsx:102
 msgid "Authentication by initiator"
-msgstr ""
+msgstr "Ověření iniciátorem"
 
 #: src/components/storage/iscsi/AuthFields.jsx:123
 msgid "Target Password"
-msgstr ""
+msgstr "Cílové heslo"
 
 #. TRANSLATORS: popup title
 #: src/components/storage/iscsi/DiscoverForm.jsx:94
