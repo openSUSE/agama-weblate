@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-24 02:24+0000\n"
-"PO-Revision-Date: 2024-07-21 10:47+0000\n"
+"PO-Revision-Date: 2024-07-24 07:46+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "sv/>\n"
@@ -462,9 +462,8 @@ msgstr "IP adresser"
 
 #. TRANSLATORS: table header aria label
 #: src/components/network/ConnectionsTable.jsx:68
-#, fuzzy
 msgid "Connection actions"
-msgstr "Ansluter"
+msgstr "Anslutningsåtgärder"
 
 #: src/components/network/ConnectionsTable.jsx:75
 #: src/components/network/WifiNetworksListPage.jsx:112
@@ -888,9 +887,8 @@ msgid "Encryption Password"
 msgstr "Krypteringslösenord"
 
 #: src/components/questions/QuestionWithPassword.jsx:42
-#, fuzzy
 msgid "Password Required"
-msgstr "Lösenordsinmatning"
+msgstr "Lösenord krävs"
 
 #: src/components/storage/BootConfigField.jsx:43
 msgid "Change boot options"
