@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-18 02:24+0000\n"
+"POT-Creation-Date: 2024-07-24 02:24+0000\n"
 "PO-Revision-Date: 2024-07-03 14:46+0000\n"
 "Last-Translator: Monstorix <monstorix@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.opensuse.org/projects/"
@@ -53,7 +53,6 @@ msgid "For more information, please visit the project's repository at %s."
 msgstr "若想了解更多信息，请从 %s 访问项目仓库。"
 
 #: src/components/core/About.jsx:92 src/components/core/LogsButton.jsx:126
-#: src/components/software/SoftwarePatternsSelection.jsx:268
 msgid "Close"
 msgstr "关闭"
 
@@ -79,7 +78,7 @@ msgstr "继续"
 #. TRANSLATORS: button label
 #: src/components/core/InstallButton.jsx:49 src/components/core/Page.jsx:90
 #: src/components/core/Popup.jsx:132
-#: src/components/network/WifiConnectionForm.jsx:134
+#: src/components/network/WifiConnectionForm.jsx:141
 msgid "Cancel"
 msgstr "取消"
 
@@ -177,7 +176,7 @@ msgstr "无法在远程安装中更改"
 #: src/components/storage/SpacePolicySelection.jsx:200
 #: src/components/storage/VolumeDialog.jsx:794
 #: src/components/storage/ZFCPPage.jsx:528
-#: src/components/users/FirstUserForm.jsx:303
+#: src/components/users/FirstUserForm.jsx:293
 msgid "Accept"
 msgstr "接受"
 
@@ -252,11 +251,13 @@ msgstr "收集日志时出现问题，请重试。"
 msgid "Passwords do not match"
 msgstr "密码不匹配"
 
+#. TRANSLATORS: field label
 #: src/components/core/PasswordAndConfirmationInput.jsx:79
-#: src/components/network/WifiConnectionForm.jsx:121
+#: src/components/network/WifiConnectionForm.jsx:128
+#: src/components/questions/QuestionWithPassword.jsx:48
 #: src/components/storage/iscsi/AuthFields.jsx:90
 #: src/components/storage/iscsi/AuthFields.jsx:94
-#: src/components/users/RootAuthMethods.jsx:165
+#: src/components/users/RootAuthMethods.jsx:130
 msgid "Password"
 msgstr "密码"
 
@@ -348,11 +349,11 @@ msgstr "尚未选择"
 
 #: src/components/l10n/L10nPage.jsx:64 src/components/l10n/L10nPage.jsx:72
 #: src/components/l10n/L10nPage.jsx:83
-#: src/components/network/NetworkPage.jsx:112
+#: src/components/network/NetworkPage.jsx:74
 #: src/components/storage/InstallationDeviceField.jsx:108
 #: src/components/storage/ProposalActionsSummary.jsx:238
-#: src/components/users/RootAuthMethods.jsx:100
-#: src/components/users/RootAuthMethods.jsx:112
+#: src/components/users/RootAuthMethods.jsx:74
+#: src/components/users/RootAuthMethods.jsx:86
 msgid "Change"
 msgstr "更改"
 
@@ -431,7 +432,7 @@ msgstr "地址数据列表"
 #. TRANSLATORS: input field for the iSCSI initiator name
 #. TRANSLATORS: table header
 #: src/components/network/ConnectionsTable.jsx:64
-#: src/components/network/ConnectionsTable.jsx:92
+#: src/components/network/ConnectionsTable.jsx:93
 #: src/components/storage/ZFCPPage.jsx:381
 #: src/components/storage/iscsi/InitiatorForm.jsx:52
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:68
@@ -443,41 +444,47 @@ msgstr "名称"
 
 #. TRANSLATORS: table header
 #: src/components/network/ConnectionsTable.jsx:66
-#: src/components/network/ConnectionsTable.jsx:93
+#: src/components/network/ConnectionsTable.jsx:94
 msgid "IP addresses"
 msgstr "IP 地址"
 
-#: src/components/network/ConnectionsTable.jsx:74
-#: src/components/network/WifiNetworksListPage.jsx:107
-#: src/components/network/WifiNetworksListPage.jsx:130
+#. TRANSLATORS: table header aria label
+#: src/components/network/ConnectionsTable.jsx:68
+#, fuzzy
+msgid "Connection actions"
+msgstr "正在连接"
+
+#: src/components/network/ConnectionsTable.jsx:75
+#: src/components/network/WifiNetworksListPage.jsx:112
+#: src/components/network/WifiNetworksListPage.jsx:135
 #: src/components/storage/PartitionsField.jsx:347
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:49
 #: src/components/storage/iscsi/NodesPresenter.jsx:73
-#: src/components/users/FirstUser.jsx:120
+#: src/components/users/FirstUser.jsx:85
 msgid "Edit"
 msgstr "编辑"
 
 #. TRANSLATORS: %s is replaced by a network connection name
-#: src/components/network/ConnectionsTable.jsx:77
+#: src/components/network/ConnectionsTable.jsx:78
 #: src/components/network/IpSettingsForm.jsx:151
 #, c-format
 msgid "Edit connection %s"
 msgstr "编辑连接 %s"
 
-#: src/components/network/ConnectionsTable.jsx:81
-#: src/components/network/WifiNetworksListPage.jsx:109
-#: src/components/network/WifiNetworksListPage.jsx:137
+#: src/components/network/ConnectionsTable.jsx:82
+#: src/components/network/WifiNetworksListPage.jsx:114
+#: src/components/network/WifiNetworksListPage.jsx:142
 msgid "Forget"
 msgstr "忘掉"
 
 #. TRANSLATORS: %s is replaced by a network connection name
-#: src/components/network/ConnectionsTable.jsx:83
+#: src/components/network/ConnectionsTable.jsx:84
 #, c-format
 msgid "Forget connection %s"
 msgstr "忘掉连接 %s"
 
 #. TRANSLATORS: %s is replaced by a network connection name
-#: src/components/network/ConnectionsTable.jsx:98
+#: src/components/network/ConnectionsTable.jsx:99
 #, c-format
 msgid "Actions for connection %s"
 msgstr "对连接 %s 的操作"
@@ -538,133 +545,133 @@ msgstr "网关"
 msgid "Gateway can be defined only in 'Manual' mode"
 msgstr "网关只能在“手动”模式下配置"
 
-#: src/components/network/NetworkPage.jsx:93
+#: src/components/network/NetworkPage.jsx:55
 msgid "No Wi-Fi supported"
 msgstr "没有 Wi-Fi 支持"
 
-#: src/components/network/NetworkPage.jsx:95
+#: src/components/network/NetworkPage.jsx:57
 msgid ""
 "The system does not support Wi-Fi connections, probably because of missing "
 "or disabled hardware."
 msgstr "系统不支持 WiFi 连接，可能由于硬件缺失或已被禁用。"
 
-#: src/components/network/NetworkPage.jsx:109
+#: src/components/network/NetworkPage.jsx:71
 msgid "Wi-Fi"
 msgstr "Wi-Fi"
 
 #. TRANSLATORS: button label, connect to a WiFi network
-#: src/components/network/NetworkPage.jsx:112
-#: src/components/network/WifiConnectionForm.jsx:130
-#: src/components/network/WifiNetworksListPage.jsx:105
+#: src/components/network/NetworkPage.jsx:74
+#: src/components/network/WifiConnectionForm.jsx:137
+#: src/components/network/WifiNetworksListPage.jsx:110
 msgid "Connect"
 msgstr "连接"
 
-#: src/components/network/NetworkPage.jsx:119
+#: src/components/network/NetworkPage.jsx:81
 #, c-format
 msgid "Conected to %s"
 msgstr "已连接到 %s"
 
-#: src/components/network/NetworkPage.jsx:126
+#: src/components/network/NetworkPage.jsx:88
 msgid "No connected yet"
 msgstr "尚未连接"
 
-#: src/components/network/NetworkPage.jsx:127
+#: src/components/network/NetworkPage.jsx:89
 msgid ""
 "The system has not been configured for connecting to a Wi-Fi network yet."
 msgstr "系统尚未配置为连接到 WiFi 网络。"
 
-#: src/components/network/NetworkPage.jsx:156
+#: src/components/network/NetworkPage.jsx:102
 msgid "Wired"
 msgstr "有线连接"
 
-#: src/components/network/NetworkPage.jsx:160
+#: src/components/network/NetworkPage.jsx:104
 msgid "No wired connections found"
 msgstr "未找到有线连接"
 
-#: src/components/network/NetworkPage.jsx:173
-#: src/components/network/routes.js:59
+#: src/components/network/NetworkPage.jsx:114
+#: src/components/network/routes.js:33
 msgid "Network"
 msgstr "网络"
 
 #. TRANSLATORS: WiFi authentication mode
-#: src/components/network/WifiConnectionForm.jsx:43
+#: src/components/network/WifiConnectionForm.jsx:45
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:72
 msgid "None"
 msgstr "无"
 
 #. TRANSLATORS: WiFi authentication mode
-#: src/components/network/WifiConnectionForm.jsx:45
+#: src/components/network/WifiConnectionForm.jsx:47
 msgid "WPA & WPA2 Personal"
 msgstr "WPA 与 WPA2 个人版"
 
-#: src/components/network/WifiConnectionForm.jsx:85
+#: src/components/network/WifiConnectionForm.jsx:92
 #: src/components/product/ProductRegistrationPage.jsx:68
 #: src/components/storage/ZFCPDiskForm.jsx:105
 #: src/components/storage/iscsi/DiscoverForm.jsx:98
 #: src/components/storage/iscsi/LoginForm.jsx:69
-#: src/components/users/FirstUserForm.jsx:217
+#: src/components/users/FirstUserForm.jsx:207
 msgid "Something went wrong"
 msgstr "出了点问题"
 
-#: src/components/network/WifiConnectionForm.jsx:86
+#: src/components/network/WifiConnectionForm.jsx:93
 msgid "Please, review provided settings and try again."
 msgstr "请回顾之前提供的设定后再试。"
 
 #. TRANSLATORS: SSID (Wifi network name) configuration
-#: src/components/network/WifiConnectionForm.jsx:92
-#: src/components/network/WifiConnectionForm.jsx:96
+#: src/components/network/WifiConnectionForm.jsx:99
+#: src/components/network/WifiConnectionForm.jsx:103
 msgid "SSID"
 msgstr "SSID"
 
 #. TRANSLATORS: Wifi security configuration (password protected or not)
-#: src/components/network/WifiConnectionForm.jsx:105
-#: src/components/network/WifiConnectionForm.jsx:108
+#: src/components/network/WifiConnectionForm.jsx:112
+#: src/components/network/WifiConnectionForm.jsx:115
 msgid "Security"
 msgstr "安全性"
 
 #. TRANSLATORS: WiFi password
-#: src/components/network/WifiConnectionForm.jsx:117
+#: src/components/network/WifiConnectionForm.jsx:124
 msgid "WPA Password"
 msgstr "WPA 密码"
 
 #. TRANSLATORS: Wifi network status
-#: src/components/network/WifiNetworksListPage.jsx:63
-#: src/components/network/WifiNetworksListPage.jsx:117
+#: src/components/network/WifiNetworksListPage.jsx:64
+#: src/components/network/WifiNetworksListPage.jsx:122
 msgid "Connecting"
 msgstr "正在连接"
 
 #. TRANSLATORS: Wifi network status
-#: src/components/network/WifiNetworksListPage.jsx:66
-#: src/components/network/WifiNetworksListPage.jsx:121
-#: src/components/network/WifiNetworksListPage.jsx:164
+#: src/components/network/WifiNetworksListPage.jsx:67
+#: src/components/network/WifiNetworksListPage.jsx:126
+#: src/components/network/WifiNetworksListPage.jsx:169
 msgid "Connected"
 msgstr "已连接"
 
 #. TRANSLATORS: iSCSI connection status
 #. TRANSLATORS: Wifi network status
-#: src/components/network/WifiNetworksListPage.jsx:71
-#: src/components/network/WifiNetworksListPage.jsx:119
+#: src/components/network/WifiNetworksListPage.jsx:72
+#: src/components/network/WifiNetworksListPage.jsx:124
 #: src/components/storage/iscsi/NodesPresenter.jsx:63
 msgid "Disconnected"
 msgstr "已断开连接"
 
-#: src/components/network/WifiNetworksListPage.jsx:127
+#: src/components/network/WifiNetworksListPage.jsx:132
 msgid "Disconnect"
 msgstr "断开连接"
 
-#: src/components/network/WifiNetworksListPage.jsx:150
+#: src/components/network/WifiNetworksListPage.jsx:155
 msgid "Connect to a hidden network"
 msgstr "连接到隐藏网络"
 
-#: src/components/network/WifiNetworksListPage.jsx:161
+#: src/components/network/WifiNetworksListPage.jsx:166
 msgid "configured"
 msgstr "已配置"
 
-#: src/components/network/WifiNetworksListPage.jsx:265
+#: src/components/network/WifiNetworksListPage.jsx:268
 msgid "Connect to hidden network"
 msgstr "连接到隐藏网络"
 
-#: src/components/network/WifiSelectorPage.jsx:136
+#: src/components/network/WifiSelectorPage.jsx:40
 msgid "Connect to a Wi-Fi network"
 msgstr "连接到 Wi-Fi 网络"
 
@@ -689,8 +696,6 @@ msgid "Storage"
 msgstr "存储"
 
 #: src/components/overview/OverviewPage.jsx:51
-#: src/components/overview/SoftwareSection.jsx:86
-#: src/components/software/SoftwarePage.jsx:181
 #: src/components/software/routes.js:32
 msgid "Software"
 msgstr "软件"
@@ -718,16 +723,6 @@ msgid ""
 "These are the most relevant installation settings. Feel free to browse the "
 "sections in the menu for further details."
 msgstr "这些是最主要的安装设置。如需获取更详细的信息，请随意浏览菜单中的各节。"
-
-#: src/components/overview/SoftwareSection.jsx:60
-msgid "The installation will take"
-msgstr "安装将会占用"
-
-#. TRANSLATORS: %s will be replaced with the installation size, example: "5GiB".
-#: src/components/overview/SoftwareSection.jsx:67
-#, c-format
-msgid "The installation will take %s including:"
-msgstr "安装将会占用 %s ，包括："
 
 #: src/components/overview/StorageSection.jsx:53
 msgid ""
@@ -858,60 +853,10 @@ msgstr "已加密设备"
 msgid "Encryption Password"
 msgstr "加密密码"
 
-#: src/components/software/SoftwarePage.jsx:85
-msgid "No additional software was selected."
-msgstr "没有选择附加软件。"
-
-#: src/components/software/SoftwarePage.jsx:90
-msgid "The following software patterns are selected for installation:"
-msgstr "下列软件合集已被选择以进行安装："
-
-#: src/components/software/SoftwarePage.jsx:105
-#: src/components/software/SoftwarePage.jsx:119
-msgid "Selected patterns"
-msgstr "已选择合集"
-
-#: src/components/software/SoftwarePage.jsx:108
-msgid "Change selection"
-msgstr "修改选择"
-
-#: src/components/software/SoftwarePage.jsx:123
-msgid ""
-"This product does not allow to select software patterns during installation. "
-"However, you can add additional software once the installation is finished."
-msgstr ""
-
-#: src/components/software/SoftwarePatternsSelection.jsx:223
-msgid "auto selected"
-msgstr "自动选择"
-
-#: src/components/software/SoftwarePatternsSelection.jsx:241
-msgid "None of the patterns match the filter."
-msgstr "没有合集与筛选器匹配。"
-
-#: src/components/software/SoftwarePatternsSelection.jsx:248
-msgid "Software selection"
-msgstr "软件选择"
-
-#. TRANSLATORS: search field placeholder text
-#: src/components/software/SoftwarePatternsSelection.jsx:251
-#: src/components/software/SoftwarePatternsSelection.jsx:252
-msgid "Filter by pattern title or description"
-msgstr "按合集名称或描述筛选"
-
-#. TRANSLATORS: %s will be replaced by the estimated installation size,
-#. example: "728.8 MiB"
-#: src/components/software/UsedSize.jsx:33
-#, c-format
-msgid "Installation will take %s."
-msgstr "安装将会占用 %s。"
-
-#: src/components/software/UsedSize.jsx:37
+#: src/components/questions/QuestionWithPassword.jsx:42
 #, fuzzy
-msgid ""
-"This space includes the base system and the selected software patterns, if "
-"any."
-msgstr "此空间占用包含基础系统以及所选的软件合集。"
+msgid "Password Required"
+msgstr "密码输入"
 
 #: src/components/storage/BootConfigField.jsx:43
 msgid "Change boot options"
@@ -1011,7 +956,7 @@ msgstr "通道 ID"
 #: src/components/storage/ZFCPPage.jsx:325
 #: src/components/storage/iscsi/NodesPresenter.jsx:102
 #: src/components/storage/iscsi/NodesPresenter.jsx:123
-#: src/components/users/RootAuthMethods.jsx:159
+#: src/components/users/RootAuthMethods.jsx:124
 msgid "Status"
 msgstr "状态"
 
@@ -2287,139 +2232,135 @@ msgstr "选择对每个分区执行的操作。"
 msgid "with custom actions"
 msgstr "通过自定义操作"
 
-#: src/components/users/FirstUser.jsx:35
+#: src/components/users/FirstUser.jsx:34
 msgid "No user defined yet."
 msgstr "尚未设定用户。"
 
-#: src/components/users/FirstUser.jsx:39
+#: src/components/users/FirstUser.jsx:38
 msgid ""
 "Please, be aware that a user must be defined before installing the system to "
 "be able to log into it."
 msgstr "请注意，在安装系统前必须设定用户才能登录。"
 
-#: src/components/users/FirstUser.jsx:45
+#: src/components/users/FirstUser.jsx:44
 msgid "Define a user now"
 msgstr "现在设定用户"
 
-#: src/components/users/FirstUser.jsx:58
-#: src/components/users/FirstUserForm.jsx:227
+#: src/components/users/FirstUser.jsx:57
+#: src/components/users/FirstUserForm.jsx:217
 msgid "Full name"
 msgstr "全名"
 
-#: src/components/users/FirstUser.jsx:59
-#: src/components/users/FirstUserForm.jsx:241
-#: src/components/users/FirstUserForm.jsx:246
-#: src/components/users/FirstUserForm.jsx:249
+#: src/components/users/FirstUser.jsx:58
+#: src/components/users/FirstUserForm.jsx:231
+#: src/components/users/FirstUserForm.jsx:236
+#: src/components/users/FirstUserForm.jsx:239
 msgid "Username"
 msgstr "用户名"
 
-#: src/components/users/FirstUser.jsx:124
-#: src/components/users/RootAuthMethods.jsx:104
-#: src/components/users/RootAuthMethods.jsx:116
+#: src/components/users/FirstUser.jsx:89
+#: src/components/users/RootAuthMethods.jsx:78
+#: src/components/users/RootAuthMethods.jsx:90
 msgid "Discard"
 msgstr "丢弃"
 
-#: src/components/users/FirstUserForm.jsx:57
+#: src/components/users/FirstUserForm.jsx:58
 msgid "Username suggestion dropdown"
 msgstr "建议用户名下拉列表"
 
 #. TRANSLATORS: dropdown username suggestions
-#: src/components/users/FirstUserForm.jsx:72
+#: src/components/users/FirstUserForm.jsx:73
 msgid "Use suggested username"
 msgstr "使用建议的用户名"
 
-#: src/components/users/FirstUserForm.jsx:151
+#: src/components/users/FirstUserForm.jsx:144
 msgid "All fields are required"
 msgstr "需要填写全部字段"
 
-#: src/components/users/FirstUserForm.jsx:158
-msgid "Please, try again."
-msgstr "请重试。"
-
-#: src/components/users/FirstUserForm.jsx:211
+#: src/components/users/FirstUserForm.jsx:201
 msgid "Create user"
 msgstr "创建用户"
 
-#: src/components/users/FirstUserForm.jsx:211
+#: src/components/users/FirstUserForm.jsx:201
 msgid "Edit user"
 msgstr "编辑用户"
 
-#: src/components/users/FirstUserForm.jsx:231
-#: src/components/users/FirstUserForm.jsx:233
+#: src/components/users/FirstUserForm.jsx:221
+#: src/components/users/FirstUserForm.jsx:223
 msgid "User full name"
 msgstr "用户全名"
 
-#: src/components/users/FirstUserForm.jsx:271
+#: src/components/users/FirstUserForm.jsx:261
 msgid "Edit password too"
 msgstr "同时编辑密码"
 
-#: src/components/users/FirstUserForm.jsx:287
+#: src/components/users/FirstUserForm.jsx:277
 msgid "user autologin"
 msgstr "用户自动登录"
 
 #. TRANSLATORS: check box label
-#: src/components/users/FirstUserForm.jsx:291
+#: src/components/users/FirstUserForm.jsx:281
 msgid "Auto-login"
 msgstr "自动登录"
 
-#: src/components/users/RootAuthMethods.jsx:35
+#: src/components/users/RootAuthMethods.jsx:36
 msgid "No root authentication method defined yet."
 msgstr "尚未设定 Root 认证方法。"
 
-#: src/components/users/RootAuthMethods.jsx:39
+#: src/components/users/RootAuthMethods.jsx:40
 msgid ""
 "Please, define at least one authentication method for logging into the "
 "system as root."
 msgstr "请至少设定一个认证方法，以使用 Root 身份登录系统。"
 
-#: src/components/users/RootAuthMethods.jsx:46
+#: src/components/users/RootAuthMethods.jsx:47
 msgid "Set a password"
 msgstr "设置密码"
 
-#: src/components/users/RootAuthMethods.jsx:50
+#: src/components/users/RootAuthMethods.jsx:51
 msgid "Upload a SSH Public Key"
 msgstr "上传 SSH 公钥"
 
-#: src/components/users/RootAuthMethods.jsx:100
-#: src/components/users/RootAuthMethods.jsx:112
+#: src/components/users/RootAuthMethods.jsx:74
+#: src/components/users/RootAuthMethods.jsx:86
 msgid "Set"
 msgstr "设置"
 
-#: src/components/users/RootAuthMethods.jsx:132
+#: src/components/users/RootAuthMethods.jsx:97
 msgid "Already set"
 msgstr "已设定"
 
-#: src/components/users/RootAuthMethods.jsx:132
-#: src/components/users/RootAuthMethods.jsx:136
+#: src/components/users/RootAuthMethods.jsx:97
+#: src/components/users/RootAuthMethods.jsx:101
 msgid "Not set"
 msgstr "未设定"
 
 #. TRANSLATORS: table header, user authentication method
-#: src/components/users/RootAuthMethods.jsx:157
+#: src/components/users/RootAuthMethods.jsx:122
 msgid "Method"
 msgstr "方法"
 
-#: src/components/users/RootAuthMethods.jsx:174
+#: src/components/users/RootAuthMethods.jsx:139
 msgid "SSH Key"
 msgstr "SSH 密钥"
 
-#: src/components/users/RootAuthMethods.jsx:193
+#: src/components/users/RootAuthMethods.jsx:158
 msgid "Change the root password"
 msgstr "修改 Root 密码"
 
-#: src/components/users/RootAuthMethods.jsx:193
+#: src/components/users/RootAuthMethods.jsx:158
 msgid "Set a root password"
 msgstr "设定 Root 密码"
 
-#: src/components/users/RootAuthMethods.jsx:203
+#: src/components/users/RootAuthMethods.jsx:168
 msgid "Edit the SSH Public Key for root"
 msgstr "编辑 root 的 SSH 公钥"
 
-#: src/components/users/RootAuthMethods.jsx:204
+#: src/components/users/RootAuthMethods.jsx:169
 msgid "Add a SSH Public Key for root"
 msgstr "为 root 添加 SSH 公钥"
 
-#: src/components/users/RootPasswordPopup.jsx:43
+#: src/components/users/RootPasswordPopup.jsx:44
 msgid "Root password"
 msgstr "Root 密码"
 
@@ -2452,6 +2393,50 @@ msgstr "首个用户"
 #: src/components/users/UsersPage.jsx:52
 msgid "Root authentication"
 msgstr "Root 认证"
+
+#~ msgid "The installation will take"
+#~ msgstr "安装将会占用"
+
+#, c-format
+#~ msgid "The installation will take %s including:"
+#~ msgstr "安装将会占用 %s ，包括："
+
+#~ msgid "No additional software was selected."
+#~ msgstr "没有选择附加软件。"
+
+#~ msgid "The following software patterns are selected for installation:"
+#~ msgstr "下列软件合集已被选择以进行安装："
+
+#~ msgid "Selected patterns"
+#~ msgstr "已选择合集"
+
+#~ msgid "Change selection"
+#~ msgstr "修改选择"
+
+#~ msgid "auto selected"
+#~ msgstr "自动选择"
+
+#~ msgid "None of the patterns match the filter."
+#~ msgstr "没有合集与筛选器匹配。"
+
+#~ msgid "Software selection"
+#~ msgstr "软件选择"
+
+#~ msgid "Filter by pattern title or description"
+#~ msgstr "按合集名称或描述筛选"
+
+#, c-format
+#~ msgid "Installation will take %s."
+#~ msgstr "安装将会占用 %s。"
+
+#, fuzzy
+#~ msgid ""
+#~ "This space includes the base system and the selected software patterns, "
+#~ "if any."
+#~ msgstr "此空间占用包含基础系统以及所选的软件合集。"
+
+#~ msgid "Please, try again."
+#~ msgstr "请重试。"
 
 #~ msgid "Reading file..."
 #~ msgstr "正在读取文件……"
