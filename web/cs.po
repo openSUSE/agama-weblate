@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-24 02:24+0000\n"
-"PO-Revision-Date: 2024-07-24 07:46+0000\n"
+"PO-Revision-Date: 2024-07-24 15:46+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/>"
 "\n"
@@ -2084,52 +2084,52 @@ msgstr "Cílové heslo"
 #. TRANSLATORS: popup title
 #: src/components/storage/iscsi/DiscoverForm.jsx:94
 msgid "Discover iSCSI Targets"
-msgstr ""
+msgstr "Najít cílové stanice iSCSI"
 
 #: src/components/storage/iscsi/DiscoverForm.jsx:99
 #: src/components/storage/iscsi/LoginForm.jsx:70
 msgid "Make sure you provide the correct values"
-msgstr ""
+msgstr "Ujistěte se, že jste zadali správné hodnoty"
 
 #: src/components/storage/iscsi/DiscoverForm.jsx:103
 msgid "IP address"
-msgstr ""
+msgstr "adresa IP"
 
 #. TRANSLATORS: network address
 #: src/components/storage/iscsi/DiscoverForm.jsx:108
 #: src/components/storage/iscsi/DiscoverForm.jsx:110
 msgid "Address"
-msgstr ""
+msgstr "Adresa"
 
 #: src/components/storage/iscsi/DiscoverForm.jsx:115
 msgid "Incorrect IP address"
-msgstr ""
+msgstr "Nesprávná IP adresa"
 
 #. TRANSLATORS: network port number
 #: src/components/storage/iscsi/DiscoverForm.jsx:117
 #: src/components/storage/iscsi/DiscoverForm.jsx:122
 #: src/components/storage/iscsi/DiscoverForm.jsx:124
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 #: src/components/storage/iscsi/DiscoverForm.jsx:129
 msgid "Incorrect port"
-msgstr ""
+msgstr "Nesprávný port"
 
 #. TRANSLATORS: %s is replaced by the iSCSI target node name
 #: src/components/storage/iscsi/EditNodeForm.jsx:48
 #, c-format
 msgid "Edit %s"
-msgstr ""
+msgstr "Upravit %s"
 
 #: src/components/storage/iscsi/InitiatorForm.jsx:42
 msgid "Edit iSCSI Initiator"
-msgstr ""
+msgstr "Upravit iniciátor iSCSI"
 
 #. TRANSLATORS: iSCSI initiator name
 #: src/components/storage/iscsi/InitiatorForm.jsx:49
 msgid "Initiator name"
-msgstr ""
+msgstr "Název iniciátora"
 
 #. TRANSLATORS: usually just keep the original text
 #. iBFT = iSCSI Boot Firmware Table, HW support for booting from iSCSI
@@ -2138,147 +2138,153 @@ msgstr ""
 #: src/components/storage/iscsi/NodesPresenter.jsx:101
 #: src/components/storage/iscsi/NodesPresenter.jsx:122
 msgid "iBFT"
-msgstr ""
+msgstr "iBFT"
 
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:72
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:87
+#, fuzzy
 msgid "Offload card"
-msgstr ""
+msgstr "Vyložení karty"
 
 #. TRANSLATORS: iSCSI initiator section name
 #: src/components/storage/iscsi/InitiatorSection.jsx:49
 msgid "Initiator"
-msgstr ""
+msgstr "Iniciátor"
 
 #. TRANSLATORS: %s is replaced by the iSCSI target name
 #: src/components/storage/iscsi/LoginForm.jsx:66
 #, c-format
 msgid "Login %s"
-msgstr ""
+msgstr "Přihlášení %s"
 
 #. TRANSLATORS: iSCSI start up mode (on boot/manual/automatic)
 #: src/components/storage/iscsi/LoginForm.jsx:74
 #: src/components/storage/iscsi/LoginForm.jsx:77
 msgid "Startup"
-msgstr ""
+msgstr "Typ startu iSCSI"
 
 #: src/components/storage/iscsi/NodeStartupOptions.js:26
 msgid "On boot"
-msgstr ""
+msgstr "Při spuštění systému"
 
 #. TRANSLATORS: iSCSI connection status, %s is replaced by node label
 #: src/components/storage/iscsi/NodesPresenter.jsx:67
 #, c-format
 msgid "Connected (%s)"
-msgstr ""
+msgstr "Připojeno (%s)"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:82
 msgid "Login"
-msgstr ""
+msgstr "Přihlášení"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:86
 msgid "Logout"
-msgstr ""
+msgstr "Odhlášení"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:99
 #: src/components/storage/iscsi/NodesPresenter.jsx:120
 msgid "Portal"
-msgstr ""
+msgstr "Portál"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:100
 #: src/components/storage/iscsi/NodesPresenter.jsx:121
 msgid "Interface"
-msgstr ""
+msgstr "Rozhraní"
 
 #: src/components/storage/iscsi/TargetsSection.jsx:138
 msgid "No iSCSI targets found."
-msgstr ""
+msgstr "Nebyly nalezeny žádné cíle iSCSI."
 
 #: src/components/storage/iscsi/TargetsSection.jsx:140
 msgid ""
 "Please, perform an iSCSI discovery in order to find available iSCSI targets."
-msgstr ""
+msgstr "Spusťte vyhledávání iSCSI a tím najděte dostupné cíle iSCSI."
 
 #: src/components/storage/iscsi/TargetsSection.jsx:144
 msgid "Discover iSCSI targets"
-msgstr ""
+msgstr "Zjištění cílů iSCSI"
 
 #. TRANSLATORS: button label, starts iSCSI discovery
 #: src/components/storage/iscsi/TargetsSection.jsx:156
 msgid "Discover"
-msgstr ""
+msgstr "Objevit"
 
 #. TRANSLATORS: iSCSI targets section title
 #: src/components/storage/iscsi/TargetsSection.jsx:167
 msgid "Targets"
-msgstr ""
+msgstr "Cíle"
 
 #: src/components/storage/routes.js:36
 msgid "Proposal"
-msgstr ""
+msgstr "Návrh"
 
 #: src/components/storage/utils.js:64
 msgid "KiB"
-msgstr ""
+msgstr "KiB"
 
 #: src/components/storage/utils.js:65
 msgid "MiB"
-msgstr ""
+msgstr "MiB"
 
 #: src/components/storage/utils.js:66
 msgid "GiB"
-msgstr ""
+msgstr "GiB"
 
 #: src/components/storage/utils.js:67
 msgid "TiB"
-msgstr ""
+msgstr "TiB"
 
 #: src/components/storage/utils.js:68
 msgid "PiB"
-msgstr ""
+msgstr "PiB"
 
 #: src/components/storage/utils.js:77
 msgid "Delete current content"
-msgstr ""
+msgstr "Odstranit aktuální obsah"
 
 #: src/components/storage/utils.js:78
 msgid "All partitions will be removed and any data in the disks will be lost."
 msgstr ""
+"Všechny oddíly budou odstraněny a veškerá data na discích budou ztracena."
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space deleting current content". Keep it short
 #: src/components/storage/utils.js:82
 msgid "deleting current content"
-msgstr ""
+msgstr "odstranění aktuálního obsahu"
 
 #: src/components/storage/utils.js:87
 msgid "Shrink existing partitions"
-msgstr ""
+msgstr "Zmenšit stávající oddíly"
 
 #: src/components/storage/utils.js:88
 msgid "The data is kept, but the current partitions will be resized as needed."
 msgstr ""
+"Data zůstanou zachována, ale velikost aktuálních oddílů se podle potřeby "
+"změní."
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space shrinking partitions". Keep it short.
 #: src/components/storage/utils.js:92
 msgid "shrinking partitions"
-msgstr ""
+msgstr "zmenšování oddílů"
 
 #: src/components/storage/utils.js:97
 msgid "Use available space"
-msgstr ""
+msgstr "Využít dostupný prostor"
 
 #: src/components/storage/utils.js:98
 msgid ""
 "The data is kept. Only the space not assigned to any partition will be used."
 msgstr ""
+"Data jsou uchována. Využije se pouze prostor, který není přiřazen žádnému "
+"oddílu."
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space without modifying any partition". Keep it short.
 #: src/components/storage/utils.js:102
 msgid "without modifying any partition"
-msgstr ""
+msgstr "bez úpravy jakéhokoli oddílu"
 
 #: src/components/storage/utils.js:107
 msgid "Custom"
