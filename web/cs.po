@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-24 02:24+0000\n"
-"PO-Revision-Date: 2024-07-24 15:46+0000\n"
+"PO-Revision-Date: 2024-07-24 20:46+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/>"
 "\n"
@@ -2288,179 +2288,182 @@ msgstr "bez úpravy jakéhokoli oddílu"
 
 #: src/components/storage/utils.js:107
 msgid "Custom"
-msgstr ""
+msgstr "Vlastní"
 
 #: src/components/storage/utils.js:108
 msgid "Select what to do with each partition."
-msgstr ""
+msgstr "Vyberte, co se má s jednotlivými oddíly dělat."
 
 #. TRANSLATORS: This is presented next to the label "Find space", so the whole sentence
 #. would read as "Find space with custom actions". Keep it short.
 #: src/components/storage/utils.js:112
 msgid "with custom actions"
-msgstr ""
+msgstr "s vlastními akcemi"
 
 #: src/components/users/FirstUser.jsx:34
 msgid "No user defined yet."
-msgstr ""
+msgstr "Zatím není definován žádný uživatel."
 
 #: src/components/users/FirstUser.jsx:38
 msgid ""
 "Please, be aware that a user must be defined before installing the system to "
 "be able to log into it."
 msgstr ""
+"Pozor, před instalací systému musí být definován uživatel, aby se pak do "
+"systému dalo přihlásit."
 
 #: src/components/users/FirstUser.jsx:44
 msgid "Define a user now"
-msgstr ""
+msgstr "Nyní definujte uživatele"
 
 #: src/components/users/FirstUser.jsx:57
 #: src/components/users/FirstUserForm.jsx:217
 msgid "Full name"
-msgstr ""
+msgstr "Celé jméno"
 
 #: src/components/users/FirstUser.jsx:58
 #: src/components/users/FirstUserForm.jsx:231
 #: src/components/users/FirstUserForm.jsx:236
 #: src/components/users/FirstUserForm.jsx:239
 msgid "Username"
-msgstr ""
+msgstr "Uživatelské jméno"
 
 #: src/components/users/FirstUser.jsx:89
 #: src/components/users/RootAuthMethods.jsx:78
 #: src/components/users/RootAuthMethods.jsx:90
 msgid "Discard"
-msgstr ""
+msgstr "Vyřadit"
 
 #: src/components/users/FirstUserForm.jsx:58
 msgid "Username suggestion dropdown"
-msgstr ""
+msgstr "Rozbalovací nabídka uživatelských jmen"
 
 #. TRANSLATORS: dropdown username suggestions
 #: src/components/users/FirstUserForm.jsx:73
 msgid "Use suggested username"
-msgstr ""
+msgstr "Použijte navrhované uživatelské jméno"
 
 #: src/components/users/FirstUserForm.jsx:144
 msgid "All fields are required"
-msgstr ""
+msgstr "Všechna pole jsou povinná"
 
 #: src/components/users/FirstUserForm.jsx:201
 msgid "Create user"
-msgstr ""
+msgstr "Vytvořit uživatele"
 
 #: src/components/users/FirstUserForm.jsx:201
 msgid "Edit user"
-msgstr ""
+msgstr "Upravit uživatele"
 
 #: src/components/users/FirstUserForm.jsx:221
 #: src/components/users/FirstUserForm.jsx:223
 msgid "User full name"
-msgstr ""
+msgstr "Celé jméno uživatele"
 
 #: src/components/users/FirstUserForm.jsx:261
 msgid "Edit password too"
-msgstr ""
+msgstr "Upravit také heslo"
 
 #: src/components/users/FirstUserForm.jsx:277
 msgid "user autologin"
-msgstr ""
+msgstr "automatické přihlášení uživatele"
 
 #. TRANSLATORS: check box label
 #: src/components/users/FirstUserForm.jsx:281
 msgid "Auto-login"
-msgstr ""
+msgstr "Automatické přihlášení"
 
 #: src/components/users/RootAuthMethods.jsx:36
 msgid "No root authentication method defined yet."
-msgstr ""
+msgstr "Zatím není definována žádná metoda ověřování superuživatele root."
 
 #: src/components/users/RootAuthMethods.jsx:40
 msgid ""
 "Please, define at least one authentication method for logging into the "
 "system as root."
 msgstr ""
+"Definujte alespoň jednu metodu ověřování pro přihlášení do systému jako root."
 
 #: src/components/users/RootAuthMethods.jsx:47
 msgid "Set a password"
-msgstr ""
+msgstr "Nastavte heslo"
 
 #: src/components/users/RootAuthMethods.jsx:51
 msgid "Upload a SSH Public Key"
-msgstr ""
+msgstr "Nahrátí veřejného klíče SSH"
 
 #: src/components/users/RootAuthMethods.jsx:74
 #: src/components/users/RootAuthMethods.jsx:86
 msgid "Set"
-msgstr ""
+msgstr "Nastavit"
 
 #: src/components/users/RootAuthMethods.jsx:97
 msgid "Already set"
-msgstr ""
+msgstr "Již nastaveno"
 
 #: src/components/users/RootAuthMethods.jsx:97
 #: src/components/users/RootAuthMethods.jsx:101
 msgid "Not set"
-msgstr ""
+msgstr "Nenastaveno"
 
 #. TRANSLATORS: table header, user authentication method
 #: src/components/users/RootAuthMethods.jsx:122
 msgid "Method"
-msgstr ""
+msgstr "Metoda"
 
 #: src/components/users/RootAuthMethods.jsx:139
 msgid "SSH Key"
-msgstr ""
+msgstr "Klíč SSH"
 
 #: src/components/users/RootAuthMethods.jsx:158
 msgid "Change the root password"
-msgstr ""
+msgstr "Změna hesla roota"
 
 #: src/components/users/RootAuthMethods.jsx:158
 msgid "Set a root password"
-msgstr ""
+msgstr "Nastavte heslo roota"
 
 #: src/components/users/RootAuthMethods.jsx:168
 msgid "Edit the SSH Public Key for root"
-msgstr ""
+msgstr "Úprava veřejného klíče SSH pro uživatele root"
 
 #: src/components/users/RootAuthMethods.jsx:169
 msgid "Add a SSH Public Key for root"
-msgstr ""
+msgstr "Přidat veřejný klíč SSH pro uživatele root"
 
 #: src/components/users/RootPasswordPopup.jsx:44
 msgid "Root password"
-msgstr ""
+msgstr "Heslo roota"
 
 #: src/components/users/RootSSHKeyPopup.jsx:43
 msgid "Set root SSH public key"
-msgstr ""
+msgstr "Nastavte veřejný klíč SSH pro roota"
 
 #: src/components/users/RootSSHKeyPopup.jsx:71
 msgid "Root SSH public key"
-msgstr ""
+msgstr "Veřejný klíč SSH pro roota"
 
 #: src/components/users/RootSSHKeyPopup.jsx:76
 msgid "Upload, paste, or drop an SSH public key"
-msgstr ""
+msgstr "Nahrání, vložení nebo přetažení veřejného klíče SSH"
 
 #. TRANSLATORS: push button label
 #: src/components/users/RootSSHKeyPopup.jsx:78
 msgid "Upload"
-msgstr ""
+msgstr "Nahrát"
 
 #. TRANSLATORS: push button label, clears the related input field
 #: src/components/users/RootSSHKeyPopup.jsx:80
 msgid "Clear"
-msgstr ""
+msgstr "Smazat"
 
 #: src/components/users/UsersPage.jsx:45
 msgid "First user"
-msgstr ""
+msgstr "První uživatel"
 
 #: src/components/users/UsersPage.jsx:52
 msgid "Root authentication"
-msgstr ""
+msgstr "Ověření superuživatele root"
 
 #~ msgid "The installation will take"
 #~ msgstr "Instalace zabere"
