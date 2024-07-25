@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-24 02:24+0000\n"
-"PO-Revision-Date: 2024-07-24 20:46+0000\n"
+"PO-Revision-Date: 2024-07-25 08:46+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/>"
 "\n"
@@ -1690,9 +1690,8 @@ msgid "Actions to find space"
 msgstr "Akce k nalezení prostoru"
 
 #: src/components/storage/SpacePolicySelection.jsx:172
-#, fuzzy
 msgid "Space policy"
-msgstr "Politika v oblasti vesmíru / Zásady prostoru"
+msgstr "Zásady pro volné místo"
 
 #: src/components/storage/VolumeDialog.jsx:83
 #, c-format
