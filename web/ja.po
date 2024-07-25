@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-24 02:24+0000\n"
-"PO-Revision-Date: 2024-07-11 04:47+0000\n"
+"PO-Revision-Date: 2024-07-25 08:46+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -463,9 +463,8 @@ msgstr "IP アドレス"
 
 #. TRANSLATORS: table header aria label
 #: src/components/network/ConnectionsTable.jsx:68
-#, fuzzy
 msgid "Connection actions"
-msgstr "接続しています"
+msgstr "接続処理"
 
 #: src/components/network/ConnectionsTable.jsx:75
 #: src/components/network/WifiNetworksListPage.jsx:112
@@ -887,9 +886,8 @@ msgid "Encryption Password"
 msgstr "暗号化パスワード"
 
 #: src/components/questions/QuestionWithPassword.jsx:42
-#, fuzzy
 msgid "Password Required"
-msgstr "パスワード入力"
+msgstr "パスワードが必要です"
 
 #: src/components/storage/BootConfigField.jsx:43
 msgid "Change boot options"
