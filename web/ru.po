@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-24 02:24+0000\n"
-"PO-Revision-Date: 2024-07-20 07:47+0000\n"
+"PO-Revision-Date: 2024-07-26 12:46+0000\n"
 "Last-Translator: Aleksey Fedorov <Aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ru/>\n"
@@ -469,9 +469,8 @@ msgstr "IP-адреса"
 
 #. TRANSLATORS: table header aria label
 #: src/components/network/ConnectionsTable.jsx:68
-#, fuzzy
 msgid "Connection actions"
-msgstr "Подключение"
+msgstr "Действия подключения"
 
 #: src/components/network/ConnectionsTable.jsx:75
 #: src/components/network/WifiNetworksListPage.jsx:112
@@ -896,9 +895,8 @@ msgid "Encryption Password"
 msgstr "Пароль шифрования"
 
 #: src/components/questions/QuestionWithPassword.jsx:42
-#, fuzzy
 msgid "Password Required"
-msgstr "Ввод пароля"
+msgstr "Необходим пароль"
 
 #: src/components/storage/BootConfigField.jsx:43
 msgid "Change boot options"
