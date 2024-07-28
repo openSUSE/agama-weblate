@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 02:24+0000\n"
+"POT-Creation-Date: 2024-07-28 02:29+0000\n"
 "PO-Revision-Date: 2024-05-16 14:46+0000\n"
 "Last-Translator: Özgür Arslan <ozgurarslln@gmail.com>\n"
 "Language-Team: Turkish <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -186,7 +186,6 @@ msgstr "Uzaktan kurulumda klavye düzeni değiştirilemez"
 
 #: src/components/core/InstallerOptions.jsx:142
 #: src/components/network/IpSettingsForm.jsx:228
-#: src/components/product/ProductRegistrationPage.jsx:85
 #: src/components/storage/BootSelection.jsx:250
 #: src/components/storage/DeviceSelection.jsx:254
 #: src/components/storage/EncryptionSettingsDialog.jsx:155
@@ -635,7 +634,6 @@ msgid "WPA & WPA2 Personal"
 msgstr ""
 
 #: src/components/network/WifiConnectionForm.jsx:92
-#: src/components/product/ProductRegistrationPage.jsx:68
 #: src/components/storage/ZFCPDiskForm.jsx:105
 #: src/components/storage/iscsi/DiscoverForm.jsx:98
 #: src/components/storage/iscsi/LoginForm.jsx:69
@@ -843,19 +841,6 @@ msgstr ""
 
 #: src/components/overview/routes.js:30
 msgid "Overview"
-msgstr ""
-
-#: src/components/product/ProductRegistrationPage.jsx:66
-#, c-format
-msgid "Register %s"
-msgstr ""
-
-#: src/components/product/ProductRegistrationPage.jsx:73
-msgid "Registration code"
-msgstr ""
-
-#: src/components/product/ProductRegistrationPage.jsx:76
-msgid "Email"
 msgstr ""
 
 #: src/components/product/ProductSelectionProgress.jsx:49

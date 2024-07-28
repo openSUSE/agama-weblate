@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 02:24+0000\n"
+"POT-Creation-Date: 2024-07-28 02:29+0000\n"
 "PO-Revision-Date: 2024-07-24 07:46+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -179,7 +179,6 @@ msgstr "Kan inte ändras i fjärrinstallation"
 
 #: src/components/core/InstallerOptions.jsx:142
 #: src/components/network/IpSettingsForm.jsx:228
-#: src/components/product/ProductRegistrationPage.jsx:85
 #: src/components/storage/BootSelection.jsx:250
 #: src/components/storage/DeviceSelection.jsx:254
 #: src/components/storage/EncryptionSettingsDialog.jsx:155
@@ -619,7 +618,6 @@ msgid "WPA & WPA2 Personal"
 msgstr "WPA & WPA2 Personal"
 
 #: src/components/network/WifiConnectionForm.jsx:92
-#: src/components/product/ProductRegistrationPage.jsx:68
 #: src/components/storage/ZFCPDiskForm.jsx:105
 #: src/components/storage/iscsi/DiscoverForm.jsx:98
 #: src/components/storage/iscsi/LoginForm.jsx:69
@@ -849,19 +847,6 @@ msgstr ""
 #: src/components/overview/routes.js:30
 msgid "Overview"
 msgstr "Översikt"
-
-#: src/components/product/ProductRegistrationPage.jsx:66
-#, c-format
-msgid "Register %s"
-msgstr "Registrera %s"
-
-#: src/components/product/ProductRegistrationPage.jsx:73
-msgid "Registration code"
-msgstr "Registreringskod"
-
-#: src/components/product/ProductRegistrationPage.jsx:76
-msgid "Email"
-msgstr "E-post"
 
 #: src/components/product/ProductSelectionProgress.jsx:49
 msgid "Configuring the product, please wait ..."
@@ -2472,6 +2457,16 @@ msgstr "Första användare"
 #: src/components/users/UsersPage.jsx:52
 msgid "Root authentication"
 msgstr "Rootautentisering"
+
+#, c-format
+#~ msgid "Register %s"
+#~ msgstr "Registrera %s"
+
+#~ msgid "Registration code"
+#~ msgstr "Registreringskod"
+
+#~ msgid "Email"
+#~ msgstr "E-post"
 
 #~ msgid "The installation will take"
 #~ msgstr "Installationen kommer att ta"

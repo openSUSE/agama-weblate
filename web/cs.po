@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 02:24+0000\n"
+"POT-Creation-Date: 2024-07-28 02:29+0000\n"
 "PO-Revision-Date: 2024-07-25 08:46+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
-"Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/>"
-"\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/"
+">\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -178,7 +178,6 @@ msgstr "U instalace na dálku nelze změnit"
 
 #: src/components/core/InstallerOptions.jsx:142
 #: src/components/network/IpSettingsForm.jsx:228
-#: src/components/product/ProductRegistrationPage.jsx:85
 #: src/components/storage/BootSelection.jsx:250
 #: src/components/storage/DeviceSelection.jsx:254
 #: src/components/storage/EncryptionSettingsDialog.jsx:155
@@ -615,7 +614,6 @@ msgid "WPA & WPA2 Personal"
 msgstr "WPA & WPA2 Osobní"
 
 #: src/components/network/WifiConnectionForm.jsx:92
-#: src/components/product/ProductRegistrationPage.jsx:68
 #: src/components/storage/ZFCPDiskForm.jsx:105
 #: src/components/storage/iscsi/DiscoverForm.jsx:98
 #: src/components/storage/iscsi/LoginForm.jsx:69
@@ -843,19 +841,6 @@ msgstr ""
 #: src/components/overview/routes.js:30
 msgid "Overview"
 msgstr "Přehled"
-
-#: src/components/product/ProductRegistrationPage.jsx:66
-#, c-format
-msgid "Register %s"
-msgstr "Registrovat %s"
-
-#: src/components/product/ProductRegistrationPage.jsx:73
-msgid "Registration code"
-msgstr "Registrační kód"
-
-#: src/components/product/ProductRegistrationPage.jsx:76
-msgid "Email"
-msgstr "E-mail"
 
 #: src/components/product/ProductSelectionProgress.jsx:49
 msgid "Configuring the product, please wait ..."
@@ -2463,6 +2448,16 @@ msgstr "První uživatel"
 #: src/components/users/UsersPage.jsx:52
 msgid "Root authentication"
 msgstr "Ověření superuživatele root"
+
+#, c-format
+#~ msgid "Register %s"
+#~ msgstr "Registrovat %s"
+
+#~ msgid "Registration code"
+#~ msgstr "Registrační kód"
+
+#~ msgid "Email"
+#~ msgstr "E-mail"
 
 #~ msgid "The installation will take"
 #~ msgstr "Instalace zabere"

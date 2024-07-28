@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 02:24+0000\n"
+"POT-Creation-Date: 2024-07-28 02:29+0000\n"
 "PO-Revision-Date: 2024-07-13 19:47+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://l10n.opensuse.org/projects/agama/agama-web/de/"
@@ -184,7 +184,6 @@ msgstr "Kann bei der Ferninstallation nicht geändert werden"
 
 #: src/components/core/InstallerOptions.jsx:142
 #: src/components/network/IpSettingsForm.jsx:228
-#: src/components/product/ProductRegistrationPage.jsx:85
 #: src/components/storage/BootSelection.jsx:250
 #: src/components/storage/DeviceSelection.jsx:254
 #: src/components/storage/EncryptionSettingsDialog.jsx:155
@@ -638,7 +637,6 @@ msgid "WPA & WPA2 Personal"
 msgstr "WPA & WPA2 Personal"
 
 #: src/components/network/WifiConnectionForm.jsx:92
-#: src/components/product/ProductRegistrationPage.jsx:68
 #: src/components/storage/ZFCPDiskForm.jsx:105
 #: src/components/storage/iscsi/DiscoverForm.jsx:98
 #: src/components/storage/iscsi/LoginForm.jsx:69
@@ -875,19 +873,6 @@ msgstr ""
 #: src/components/overview/routes.js:30
 msgid "Overview"
 msgstr "Übersicht"
-
-#: src/components/product/ProductRegistrationPage.jsx:66
-#, c-format
-msgid "Register %s"
-msgstr "%s registrieren"
-
-#: src/components/product/ProductRegistrationPage.jsx:73
-msgid "Registration code"
-msgstr "Registrierungscode"
-
-#: src/components/product/ProductRegistrationPage.jsx:76
-msgid "Email"
-msgstr "E-Mail"
 
 #: src/components/product/ProductSelectionProgress.jsx:49
 msgid "Configuring the product, please wait ..."
@@ -2534,6 +2519,16 @@ msgstr "Erster Benutzer"
 #: src/components/users/UsersPage.jsx:52
 msgid "Root authentication"
 msgstr "Root-Authentifizierung"
+
+#, c-format
+#~ msgid "Register %s"
+#~ msgstr "%s registrieren"
+
+#~ msgid "Registration code"
+#~ msgstr "Registrierungscode"
+
+#~ msgid "Email"
+#~ msgstr "E-Mail"
 
 #~ msgid "The installation will take"
 #~ msgstr "Die Installation benötigt"

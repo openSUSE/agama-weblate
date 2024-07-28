@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 02:24+0000\n"
+"POT-Creation-Date: 2024-07-28 02:29+0000\n"
 "PO-Revision-Date: 2024-07-25 08:46+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -178,7 +178,6 @@ msgstr "リモートインストールの場合は変更できません"
 
 #: src/components/core/InstallerOptions.jsx:142
 #: src/components/network/IpSettingsForm.jsx:228
-#: src/components/product/ProductRegistrationPage.jsx:85
 #: src/components/storage/BootSelection.jsx:250
 #: src/components/storage/DeviceSelection.jsx:254
 #: src/components/storage/EncryptionSettingsDialog.jsx:155
@@ -621,7 +620,6 @@ msgid "WPA & WPA2 Personal"
 msgstr "WPA および WPA2 Personal"
 
 #: src/components/network/WifiConnectionForm.jsx:92
-#: src/components/product/ProductRegistrationPage.jsx:68
 #: src/components/storage/ZFCPDiskForm.jsx:105
 #: src/components/storage/iscsi/DiscoverForm.jsx:98
 #: src/components/storage/iscsi/LoginForm.jsx:69
@@ -848,19 +846,6 @@ msgstr ""
 #: src/components/overview/routes.js:30
 msgid "Overview"
 msgstr "概要"
-
-#: src/components/product/ProductRegistrationPage.jsx:66
-#, c-format
-msgid "Register %s"
-msgstr "%s の登録"
-
-#: src/components/product/ProductRegistrationPage.jsx:73
-msgid "Registration code"
-msgstr "登録コード"
-
-#: src/components/product/ProductRegistrationPage.jsx:76
-msgid "Email"
-msgstr "電子メール"
 
 #: src/components/product/ProductSelectionProgress.jsx:49
 msgid "Configuring the product, please wait ..."
@@ -2462,6 +2447,16 @@ msgstr "最初のユーザ"
 #: src/components/users/UsersPage.jsx:52
 msgid "Root authentication"
 msgstr "root の認証"
+
+#, c-format
+#~ msgid "Register %s"
+#~ msgstr "%s の登録"
+
+#~ msgid "Registration code"
+#~ msgstr "登録コード"
+
+#~ msgid "Email"
+#~ msgstr "電子メール"
 
 #~ msgid "The installation will take"
 #~ msgstr "インストールで占有する容量は"
