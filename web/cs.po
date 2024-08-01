@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-30 02:25+0000\n"
-"PO-Revision-Date: 2024-07-25 08:46+0000\n"
+"PO-Revision-Date: 2024-08-01 12:47+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
-"Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/"
-">\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/>"
+"\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1028,7 +1028,6 @@ msgid "Prepare more devices by configuring advanced"
 msgstr "Připravte další zařízení pomocí pokročilé konfigurace"
 
 #: src/components/storage/DeviceSelection.jsx:243
-#, fuzzy
 msgid "storage techs"
 msgstr "technologie úložiště"
 
