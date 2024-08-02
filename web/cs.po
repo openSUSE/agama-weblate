@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-30 02:25+0000\n"
-"PO-Revision-Date: 2024-08-01 12:47+0000\n"
+"PO-Revision-Date: 2024-08-02 09:47+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/>"
 "\n"
@@ -2054,9 +2054,8 @@ msgstr "iBFT"
 
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:72
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:87
-#, fuzzy
 msgid "Offload card"
-msgstr "Vyložení karty"
+msgstr "Karta k přesměrování části (mobilního) provozu"
 
 #. TRANSLATORS: iSCSI initiator section name
 #: src/components/storage/iscsi/InitiatorSection.jsx:49
