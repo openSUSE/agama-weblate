@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-30 02:25+0000\n"
+"POT-Creation-Date: 2024-08-04 02:29+0000\n"
 "PO-Revision-Date: 2024-07-28 18:47+0000\n"
 "Last-Translator: Victor hck <victorhck@opensuse.org>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -51,11 +51,11 @@ msgstr "Cancelar"
 msgid "Install"
 msgstr "Instalar"
 
-#: src/components/core/InstallationFinished.jsx:48
+#: src/components/core/InstallationFinished.jsx:49
 msgid "TPM sealing requires the new system to be booted directly."
 msgstr "El sellado TPM requiere que el nuevo sistema se inicie directamente."
 
-#: src/components/core/InstallationFinished.jsx:53
+#: src/components/core/InstallationFinished.jsx:54
 msgid ""
 "If a local media was used to run this installer, remove it before the next "
 "boot."
@@ -63,15 +63,15 @@ msgstr ""
 "Si se utilizó un medio local para ejecutar este instalador, expúlselo antes "
 "del próximo inicio."
 
-#: src/components/core/InstallationFinished.jsx:57
+#: src/components/core/InstallationFinished.jsx:58
 msgid "Hide details"
 msgstr "Ocultar detalles"
 
-#: src/components/core/InstallationFinished.jsx:57
+#: src/components/core/InstallationFinished.jsx:58
 msgid "See more details"
 msgstr "Ver más detalles"
 
-#: src/components/core/InstallationFinished.jsx:62
+#: src/components/core/InstallationFinished.jsx:63
 msgid ""
 "The final step to configure the Trusted Platform Module (TPM) to "
 "automatically open encrypted devices will take place during the first boot "
@@ -83,29 +83,29 @@ msgstr ""
 "inicio del nuevo sistema. Para que eso funcione, la máquina debe iniciarse "
 "directamente en el nuevo gestor de arranque."
 
-#: src/components/core/InstallationFinished.jsx:107
+#: src/components/core/InstallationFinished.jsx:106
 msgid "Congratulations!"
 msgstr "¡Felicidades!"
 
-#: src/components/core/InstallationFinished.jsx:116
+#: src/components/core/InstallationFinished.jsx:115
 msgid "The installation on your machine is complete."
 msgstr "La instalación en su equipo está completa."
 
-#: src/components/core/InstallationFinished.jsx:119
+#: src/components/core/InstallationFinished.jsx:118
 msgid "At this point you can power off the machine."
 msgstr "En este punto puede apagar el equipo."
 
-#: src/components/core/InstallationFinished.jsx:121
+#: src/components/core/InstallationFinished.jsx:120
 msgid "At this point you can reboot the machine to log in to the new system."
 msgstr ""
 "En este punto, puede reiniciar el equipo para iniciar sesión en el nuevo "
 "sistema."
 
-#: src/components/core/InstallationFinished.jsx:130
+#: src/components/core/InstallationFinished.jsx:129
 msgid "Finish"
 msgstr "Finalizar"
 
-#: src/components/core/InstallationFinished.jsx:130
+#: src/components/core/InstallationFinished.jsx:129
 msgid "Reboot"
 msgstr "Reiniciar"
 
@@ -205,10 +205,8 @@ msgstr "Más acerca de esto"
 msgid "Passwords do not match"
 msgstr "Las contraseñas no coinciden"
 
-#. TRANSLATORS: field label
 #: src/components/core/PasswordAndConfirmationInput.jsx:79
 #: src/components/network/WifiConnectionForm.jsx:128
-#: src/components/questions/QuestionWithPassword.jsx:48
 #: src/components/storage/iscsi/AuthFields.jsx:90
 #: src/components/storage/iscsi/AuthFields.jsx:94
 #: src/components/users/RootAuthMethods.jsx:130
@@ -785,32 +783,9 @@ msgstr ""
 "Instalar usando el dispositivo %s con una estrategia personalizada para "
 "encontrar el espacio necesario"
 
-#: src/components/product/ProductSelectionProgress.jsx:51
+#: src/components/product/ProductSelectionProgress.jsx:46
 msgid "Configuring the product, please wait ..."
 msgstr "Configurando el producto, por favor espere..."
-
-#: src/components/questions/GenericQuestion.jsx:35
-#: src/components/questions/LuksActivationQuestion.jsx:60
-msgid "Question"
-msgstr "Pregunta"
-
-#. TRANSLATORS: error message, user entered a wrong password
-#: src/components/questions/LuksActivationQuestion.jsx:34
-msgid "Given encryption password didn't work"
-msgstr "La contraseña de cifrado dada no funcionó"
-
-#: src/components/questions/LuksActivationQuestion.jsx:59
-msgid "Encrypted Device"
-msgstr "Dispositivo cifrado"
-
-#. TRANSLATORS: field label
-#: src/components/questions/LuksActivationQuestion.jsx:67
-msgid "Encryption Password"
-msgstr "Contraseña de cifrado"
-
-#: src/components/questions/QuestionWithPassword.jsx:42
-msgid "Password Required"
-msgstr "Se requiere contraseña"
 
 #: src/components/storage/BootConfigField.jsx:44
 msgid "Change boot options"
@@ -2400,6 +2375,21 @@ msgstr "Autenticación de root"
 #: src/router.js:48
 msgid "Overview"
 msgstr "Descripción general"
+
+#~ msgid "Question"
+#~ msgstr "Pregunta"
+
+#~ msgid "Given encryption password didn't work"
+#~ msgstr "La contraseña de cifrado dada no funcionó"
+
+#~ msgid "Encrypted Device"
+#~ msgstr "Dispositivo cifrado"
+
+#~ msgid "Encryption Password"
+#~ msgstr "Contraseña de cifrado"
+
+#~ msgid "Password Required"
+#~ msgstr "Se requiere contraseña"
 
 #~ msgid "Agama"
 #~ msgstr "Agama"

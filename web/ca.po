@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-30 02:25+0000\n"
+"POT-Creation-Date: 2024-08-04 02:29+0000\n"
 "PO-Revision-Date: 2024-07-25 08:46+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -52,11 +52,11 @@ msgstr "Cancel·la"
 msgid "Install"
 msgstr "Instal·la"
 
-#: src/components/core/InstallationFinished.jsx:48
+#: src/components/core/InstallationFinished.jsx:49
 msgid "TPM sealing requires the new system to be booted directly."
 msgstr "El segellament TPM requereix que el sistema nou s'iniciï directament."
 
-#: src/components/core/InstallationFinished.jsx:53
+#: src/components/core/InstallationFinished.jsx:54
 msgid ""
 "If a local media was used to run this installer, remove it before the next "
 "boot."
@@ -64,15 +64,15 @@ msgstr ""
 "Si s'ha usat un mitjà local per executar aquest instal·lador, traieu-lo "
 "abans de la propera arrencada."
 
-#: src/components/core/InstallationFinished.jsx:57
+#: src/components/core/InstallationFinished.jsx:58
 msgid "Hide details"
 msgstr "Amaga els detalls"
 
-#: src/components/core/InstallationFinished.jsx:57
+#: src/components/core/InstallationFinished.jsx:58
 msgid "See more details"
 msgstr "Mostra'n més detalls"
 
-#: src/components/core/InstallationFinished.jsx:62
+#: src/components/core/InstallationFinished.jsx:63
 msgid ""
 "The final step to configure the Trusted Platform Module (TPM) to "
 "automatically open encrypted devices will take place during the first boot "
@@ -84,28 +84,28 @@ msgstr ""
 "arrencada del nou sistema. Perquè això funcioni, la màquina ha d'arrencar "
 "directament amb el carregador d'arrencada nou."
 
-#: src/components/core/InstallationFinished.jsx:107
+#: src/components/core/InstallationFinished.jsx:106
 msgid "Congratulations!"
 msgstr "Enhorabona!"
 
-#: src/components/core/InstallationFinished.jsx:116
+#: src/components/core/InstallationFinished.jsx:115
 msgid "The installation on your machine is complete."
 msgstr "La instal·lació a la màquina s'ha completat."
 
-#: src/components/core/InstallationFinished.jsx:119
+#: src/components/core/InstallationFinished.jsx:118
 msgid "At this point you can power off the machine."
 msgstr "En aquest punt, podeu aturar la màquina."
 
-#: src/components/core/InstallationFinished.jsx:121
+#: src/components/core/InstallationFinished.jsx:120
 msgid "At this point you can reboot the machine to log in to the new system."
 msgstr ""
 "En aquest punt, podeu reiniciar la màquina per iniciar sessió al sistema nou."
 
-#: src/components/core/InstallationFinished.jsx:130
+#: src/components/core/InstallationFinished.jsx:129
 msgid "Finish"
 msgstr "Acaba"
 
-#: src/components/core/InstallationFinished.jsx:130
+#: src/components/core/InstallationFinished.jsx:129
 msgid "Reboot"
 msgstr "Reinicia"
 
@@ -205,10 +205,8 @@ msgstr "Més sobre això"
 msgid "Passwords do not match"
 msgstr "Les contrasenyes no coincideixen."
 
-#. TRANSLATORS: field label
 #: src/components/core/PasswordAndConfirmationInput.jsx:79
 #: src/components/network/WifiConnectionForm.jsx:128
-#: src/components/questions/QuestionWithPassword.jsx:48
 #: src/components/storage/iscsi/AuthFields.jsx:90
 #: src/components/storage/iscsi/AuthFields.jsx:94
 #: src/components/users/RootAuthMethods.jsx:130
@@ -783,32 +781,9 @@ msgstr ""
 "Instal·la usant el dispositiu %s amb una estratègia personalitzada per "
 "trobar l'espai necessari."
 
-#: src/components/product/ProductSelectionProgress.jsx:51
+#: src/components/product/ProductSelectionProgress.jsx:46
 msgid "Configuring the product, please wait ..."
 msgstr "Configurant el producte. Espereu, si us plau..."
-
-#: src/components/questions/GenericQuestion.jsx:35
-#: src/components/questions/LuksActivationQuestion.jsx:60
-msgid "Question"
-msgstr "Pregunta"
-
-#. TRANSLATORS: error message, user entered a wrong password
-#: src/components/questions/LuksActivationQuestion.jsx:34
-msgid "Given encryption password didn't work"
-msgstr "La contrasenya d'encriptació proporcionada no ha funcionat."
-
-#: src/components/questions/LuksActivationQuestion.jsx:59
-msgid "Encrypted Device"
-msgstr "Dispositiu encriptat"
-
-#. TRANSLATORS: field label
-#: src/components/questions/LuksActivationQuestion.jsx:67
-msgid "Encryption Password"
-msgstr "Contrasenya d'encriptació"
-
-#: src/components/questions/QuestionWithPassword.jsx:42
-msgid "Password Required"
-msgstr "Cal una contrasenya."
 
 #: src/components/storage/BootConfigField.jsx:44
 msgid "Change boot options"
@@ -2391,6 +2366,21 @@ msgstr "Autenticació d'arrel"
 #: src/router.js:48
 msgid "Overview"
 msgstr "Resum"
+
+#~ msgid "Question"
+#~ msgstr "Pregunta"
+
+#~ msgid "Given encryption password didn't work"
+#~ msgstr "La contrasenya d'encriptació proporcionada no ha funcionat."
+
+#~ msgid "Encrypted Device"
+#~ msgstr "Dispositiu encriptat"
+
+#~ msgid "Encryption Password"
+#~ msgstr "Contrasenya d'encriptació"
+
+#~ msgid "Password Required"
+#~ msgstr "Cal una contrasenya."
 
 #~ msgid "Agama"
 #~ msgstr "Agama"

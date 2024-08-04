@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-30 02:25+0000\n"
+"POT-Creation-Date: 2024-08-04 02:29+0000\n"
 "PO-Revision-Date: 2024-07-13 19:47+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://l10n.opensuse.org/projects/agama/agama-web/de/"
@@ -53,11 +53,11 @@ msgstr "Abbrechen"
 msgid "Install"
 msgstr "Installieren"
 
-#: src/components/core/InstallationFinished.jsx:48
+#: src/components/core/InstallationFinished.jsx:49
 msgid "TPM sealing requires the new system to be booted directly."
 msgstr "Bei der TPM-Versiegelung muss das neue System direkt gebootet werden."
 
-#: src/components/core/InstallationFinished.jsx:53
+#: src/components/core/InstallationFinished.jsx:54
 msgid ""
 "If a local media was used to run this installer, remove it before the next "
 "boot."
@@ -65,15 +65,15 @@ msgstr ""
 "Wenn ein lokales Medium zur Ausführung dieses Installationsprogramms "
 "verwendet wurde, entfernen Sie es vor dem nächsten Start."
 
-#: src/components/core/InstallationFinished.jsx:57
+#: src/components/core/InstallationFinished.jsx:58
 msgid "Hide details"
 msgstr "Details ausblenden"
 
-#: src/components/core/InstallationFinished.jsx:57
+#: src/components/core/InstallationFinished.jsx:58
 msgid "See more details"
 msgstr "Siehe weitere Details"
 
-#: src/components/core/InstallationFinished.jsx:62
+#: src/components/core/InstallationFinished.jsx:63
 msgid ""
 "The final step to configure the Trusted Platform Module (TPM) to "
 "automatically open encrypted devices will take place during the first boot "
@@ -85,29 +85,29 @@ msgstr ""
 "neuen Systems. Damit dies funktioniert, muss der Rechner direkt mit dem "
 "neuen Bootloader booten."
 
-#: src/components/core/InstallationFinished.jsx:107
+#: src/components/core/InstallationFinished.jsx:106
 msgid "Congratulations!"
 msgstr "Gratulation!"
 
-#: src/components/core/InstallationFinished.jsx:116
+#: src/components/core/InstallationFinished.jsx:115
 msgid "The installation on your machine is complete."
 msgstr "Die Installation auf Ihrem Rechner ist abgeschlossen."
 
-#: src/components/core/InstallationFinished.jsx:119
+#: src/components/core/InstallationFinished.jsx:118
 msgid "At this point you can power off the machine."
 msgstr "Nun können Sie den Rechner ausschalten."
 
-#: src/components/core/InstallationFinished.jsx:121
+#: src/components/core/InstallationFinished.jsx:120
 msgid "At this point you can reboot the machine to log in to the new system."
 msgstr ""
 "Nun können Sie den Rechner neu starten, um sich bei dem neuen System "
 "anzumelden."
 
-#: src/components/core/InstallationFinished.jsx:130
+#: src/components/core/InstallationFinished.jsx:129
 msgid "Finish"
 msgstr "Fertigstellen"
 
-#: src/components/core/InstallationFinished.jsx:130
+#: src/components/core/InstallationFinished.jsx:129
 msgid "Reboot"
 msgstr "Neustart"
 
@@ -208,10 +208,8 @@ msgstr "Mehr dazu"
 msgid "Passwords do not match"
 msgstr "Passwörter stimmen nicht überein"
 
-#. TRANSLATORS: field label
 #: src/components/core/PasswordAndConfirmationInput.jsx:79
 #: src/components/network/WifiConnectionForm.jsx:128
-#: src/components/questions/QuestionWithPassword.jsx:48
 #: src/components/storage/iscsi/AuthFields.jsx:90
 #: src/components/storage/iscsi/AuthFields.jsx:94
 #: src/components/users/RootAuthMethods.jsx:130
@@ -797,33 +795,9 @@ msgstr ""
 "Installation unter Verwendung des Geräts %s mit einer benutzerdefinierten "
 "Strategie, um den benötigten Platz zu finden"
 
-#: src/components/product/ProductSelectionProgress.jsx:51
+#: src/components/product/ProductSelectionProgress.jsx:46
 msgid "Configuring the product, please wait ..."
 msgstr "Produkt wird konfiguriert, bitte warten ..."
-
-#: src/components/questions/GenericQuestion.jsx:35
-#: src/components/questions/LuksActivationQuestion.jsx:60
-msgid "Question"
-msgstr "Frage"
-
-#. TRANSLATORS: error message, user entered a wrong password
-#: src/components/questions/LuksActivationQuestion.jsx:34
-msgid "Given encryption password didn't work"
-msgstr "Das angegebene Verschlüsselungspasswort hat nicht funktioniert"
-
-#: src/components/questions/LuksActivationQuestion.jsx:59
-msgid "Encrypted Device"
-msgstr "Verschlüsseltes Gerät"
-
-#. TRANSLATORS: field label
-#: src/components/questions/LuksActivationQuestion.jsx:67
-msgid "Encryption Password"
-msgstr "Verschlüsselungspasswort"
-
-#: src/components/questions/QuestionWithPassword.jsx:42
-#, fuzzy
-msgid "Password Required"
-msgstr "Passworteingabe"
 
 #: src/components/storage/BootConfigField.jsx:44
 msgid "Change boot options"
@@ -2441,6 +2415,22 @@ msgstr "Root-Authentifizierung"
 #: src/router.js:48
 msgid "Overview"
 msgstr "Übersicht"
+
+#~ msgid "Question"
+#~ msgstr "Frage"
+
+#~ msgid "Given encryption password didn't work"
+#~ msgstr "Das angegebene Verschlüsselungspasswort hat nicht funktioniert"
+
+#~ msgid "Encrypted Device"
+#~ msgstr "Verschlüsseltes Gerät"
+
+#~ msgid "Encryption Password"
+#~ msgstr "Verschlüsselungspasswort"
+
+#, fuzzy
+#~ msgid "Password Required"
+#~ msgstr "Passworteingabe"
 
 #~ msgid "Agama"
 #~ msgstr "Agama"

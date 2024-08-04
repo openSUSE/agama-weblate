@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-30 02:25+0000\n"
+"POT-Creation-Date: 2024-08-04 02:29+0000\n"
 "PO-Revision-Date: 2024-04-09 17:43+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://l10n.opensuse.org/projects/agama/agama-"
@@ -51,11 +51,11 @@ msgstr "Batal"
 msgid "Install"
 msgstr "Instal"
 
-#: src/components/core/InstallationFinished.jsx:48
+#: src/components/core/InstallationFinished.jsx:49
 msgid "TPM sealing requires the new system to be booted directly."
 msgstr "Penyegelan TPM mengharuskan sistem baru untuk di-boot secara langsung."
 
-#: src/components/core/InstallationFinished.jsx:53
+#: src/components/core/InstallationFinished.jsx:54
 msgid ""
 "If a local media was used to run this installer, remove it before the next "
 "boot."
@@ -63,15 +63,15 @@ msgstr ""
 "Jika media lokal digunakan untuk menjalankan penginstalasi ini, hapus media "
 "tersebut sebelum boot berikutnya."
 
-#: src/components/core/InstallationFinished.jsx:57
+#: src/components/core/InstallationFinished.jsx:58
 msgid "Hide details"
 msgstr "Sembunyikan detail"
 
-#: src/components/core/InstallationFinished.jsx:57
+#: src/components/core/InstallationFinished.jsx:58
 msgid "See more details"
 msgstr "Lihat detail lebih lanjut"
 
-#: src/components/core/InstallationFinished.jsx:62
+#: src/components/core/InstallationFinished.jsx:63
 #, fuzzy
 msgid ""
 "The final step to configure the Trusted Platform Module (TPM) to "
@@ -84,29 +84,29 @@ msgstr ""
 "akan dilakukan pada saat booting pertama dari sistem yang baru. Agar dapat "
 "berfungsi, mesin harus melakukan booting langsung ke boot loader yang baru."
 
-#: src/components/core/InstallationFinished.jsx:107
+#: src/components/core/InstallationFinished.jsx:106
 msgid "Congratulations!"
 msgstr "Selamat!"
 
-#: src/components/core/InstallationFinished.jsx:116
+#: src/components/core/InstallationFinished.jsx:115
 msgid "The installation on your machine is complete."
 msgstr "Penginstalan pada mesin Anda sudah selesai."
 
-#: src/components/core/InstallationFinished.jsx:119
+#: src/components/core/InstallationFinished.jsx:118
 msgid "At this point you can power off the machine."
 msgstr "Pada titik ini, Anda dapat mematikan mesin."
 
-#: src/components/core/InstallationFinished.jsx:121
+#: src/components/core/InstallationFinished.jsx:120
 msgid "At this point you can reboot the machine to log in to the new system."
 msgstr ""
 "Pada titik ini, Anda dapat menyalakan ulang mesin untuk masuk ke sistem yang "
 "baru."
 
-#: src/components/core/InstallationFinished.jsx:130
+#: src/components/core/InstallationFinished.jsx:129
 msgid "Finish"
 msgstr "Selesai"
 
-#: src/components/core/InstallationFinished.jsx:130
+#: src/components/core/InstallationFinished.jsx:129
 msgid "Reboot"
 msgstr "Maut ulang"
 
@@ -209,10 +209,8 @@ msgstr ""
 msgid "Passwords do not match"
 msgstr "Kata sandi tidak cocok"
 
-#. TRANSLATORS: field label
 #: src/components/core/PasswordAndConfirmationInput.jsx:79
 #: src/components/network/WifiConnectionForm.jsx:128
-#: src/components/questions/QuestionWithPassword.jsx:48
 #: src/components/storage/iscsi/AuthFields.jsx:90
 #: src/components/storage/iscsi/AuthFields.jsx:94
 #: src/components/users/RootAuthMethods.jsx:130
@@ -797,34 +795,10 @@ msgstr ""
 "Instal menggunakan perangkat %s dengan strategi khusus untuk menemukan ruang "
 "yang dibutuhkan"
 
-#: src/components/product/ProductSelectionProgress.jsx:51
+#: src/components/product/ProductSelectionProgress.jsx:46
 #, fuzzy
 msgid "Configuring the product, please wait ..."
 msgstr "Memuat produk yang tersedia, mohon tunggu..."
-
-#: src/components/questions/GenericQuestion.jsx:35
-#: src/components/questions/LuksActivationQuestion.jsx:60
-msgid "Question"
-msgstr "Pertanyaan"
-
-#. TRANSLATORS: error message, user entered a wrong password
-#: src/components/questions/LuksActivationQuestion.jsx:34
-msgid "Given encryption password didn't work"
-msgstr "Kata sandi enkripsi yang diberikan tidak berhasil"
-
-#: src/components/questions/LuksActivationQuestion.jsx:59
-msgid "Encrypted Device"
-msgstr "Perangkat Terenkripsi"
-
-#. TRANSLATORS: field label
-#: src/components/questions/LuksActivationQuestion.jsx:67
-msgid "Encryption Password"
-msgstr "Kata Sandi Enkripsi"
-
-#: src/components/questions/QuestionWithPassword.jsx:42
-#, fuzzy
-msgid "Password Required"
-msgstr "Kata sandi"
 
 #: src/components/storage/BootConfigField.jsx:44
 #, fuzzy
@@ -2454,6 +2428,22 @@ msgstr "Autentikasi root"
 #: src/router.js:48
 msgid "Overview"
 msgstr ""
+
+#~ msgid "Question"
+#~ msgstr "Pertanyaan"
+
+#~ msgid "Given encryption password didn't work"
+#~ msgstr "Kata sandi enkripsi yang diberikan tidak berhasil"
+
+#~ msgid "Encrypted Device"
+#~ msgstr "Perangkat Terenkripsi"
+
+#~ msgid "Encryption Password"
+#~ msgstr "Kata Sandi Enkripsi"
+
+#, fuzzy
+#~ msgid "Password Required"
+#~ msgstr "Kata sandi"
 
 #, fuzzy
 #~ msgid "Agama"
