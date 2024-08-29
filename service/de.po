@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-28 02:30+0000\n"
-"PO-Revision-Date: 2024-07-13 19:47+0000\n"
+"PO-Revision-Date: 2024-08-29 19:47+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
-"Language-Team: German <https://l10n.opensuse.org/projects/agama/agama-"
-"service-master/de/>\n"
+"Language-Team: German <https://l10n.opensuse.org/projects/agama/"
+"agama-service-master/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -240,6 +240,8 @@ msgstr ""
 msgid ""
 "No passphrase provided (required for using the method '%{crypt_method}')."
 msgstr ""
+"Keine Passphrase angegeben (erforderlich für die Verwendung der Methode "
+"'%{crypt_method}')."
 
 #. @see #check_encryption
 #. TRANSLATORS: 'crypt_method' is the identifier of the method to encrypt the device (like
@@ -248,6 +250,8 @@ msgstr ""
 #, perl-brace-format
 msgid "Encryption method '%{crypt_method}' is not available in this system."
 msgstr ""
+"Die Verschlüsselungsmethode '%{crypt_method}' ist auf diesem System nicht "
+"verfügbar."
 
 #. @see #check_encryption
 #. TRANSLATORS: 'crypt_method' is the name of the method to encrypt the device (like
@@ -256,25 +260,24 @@ msgstr ""
 #, perl-brace-format
 msgid "'%{crypt_method}' is not a suitable method to encrypt the device."
 msgstr ""
+"'%{crypt_method}' ist keine geeignete Methode zur Verschlüsselung des Geräts."
 
 #. @see #not_found_issue
 #: service/lib/y2storage/proposal/agama_searcher.rb:98
 msgid "No device found for an optional drive"
-msgstr ""
+msgstr "Kein Gerät für ein optionales Laufwerk gefunden"
 
 #: service/lib/y2storage/proposal/agama_searcher.rb:100
 msgid "No device found for a mandatory drive"
-msgstr ""
+msgstr "Kein Gerät für ein obligatorisches Laufwerk gefunden"
 
 #: service/lib/y2storage/proposal/agama_searcher.rb:103
-#, fuzzy
 msgid "No device found for an optional partition"
-msgstr "Kein Gerät für die Installation ausgewählt"
+msgstr "Kein Gerät für eine optionale Partition gefunden"
 
 #: service/lib/y2storage/proposal/agama_searcher.rb:105
-#, fuzzy
 msgid "No device found for a mandatory partition"
-msgstr "Kein Gerät für die Installation ausgewählt"
+msgstr "Kein Gerät für eine obligatorische Partition gefunden"
 
 #~ msgid "Probing Storage"
 #~ msgstr "Speicher wird untersucht"
