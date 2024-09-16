@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-28 02:30+0000\n"
+"POT-Creation-Date: 2024-09-16 08:33+0000\n"
 "PO-Revision-Date: 2024-09-11 08:47+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
-"Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/"
-"agama-service-master/sv/>\n"
+"Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-"
+"service-master/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -230,7 +230,7 @@ msgstr ""
 #. @see #check_encryption
 #. TRANSLATORS: 'crypt_method' is the identifier of the method to encrypt the device (like
 #. 'luks1' or 'random_swap').
-#: service/lib/y2storage/proposal/agama_device_planner.rb:134
+#: service/lib/y2storage/proposal/agama_device_planner.rb:156
 #, perl-brace-format
 msgid ""
 "No passphrase provided (required for using the method '%{crypt_method}')."
@@ -241,7 +241,7 @@ msgstr ""
 #. @see #check_encryption
 #. TRANSLATORS: 'crypt_method' is the identifier of the method to encrypt the device (like
 #. 'luks1' or 'random_swap').
-#: service/lib/y2storage/proposal/agama_device_planner.rb:145
+#: service/lib/y2storage/proposal/agama_device_planner.rb:167
 #, perl-brace-format
 msgid "Encryption method '%{crypt_method}' is not available in this system."
 msgstr ""
@@ -250,25 +250,25 @@ msgstr ""
 #. @see #check_encryption
 #. TRANSLATORS: 'crypt_method' is the name of the method to encrypt the device (like
 #. 'luks1' or 'random_swap').
-#: service/lib/y2storage/proposal/agama_device_planner.rb:156
+#: service/lib/y2storage/proposal/agama_device_planner.rb:178
 #, perl-brace-format
 msgid "'%{crypt_method}' is not a suitable method to encrypt the device."
 msgstr "'%{crypt_method}' är inte en lämplig metod för att kryptera enheten."
 
 #. @see #not_found_issue
-#: service/lib/y2storage/proposal/agama_searcher.rb:98
+#: service/lib/y2storage/proposal/agama_searcher.rb:158
 msgid "No device found for an optional drive"
 msgstr "Ingen enhet hittades för en tillvalsenhet"
 
-#: service/lib/y2storage/proposal/agama_searcher.rb:100
+#: service/lib/y2storage/proposal/agama_searcher.rb:160
 msgid "No device found for a mandatory drive"
 msgstr "Ingen enhet hittades för en obligatorisk enhet"
 
-#: service/lib/y2storage/proposal/agama_searcher.rb:103
+#: service/lib/y2storage/proposal/agama_searcher.rb:163
 msgid "No device found for an optional partition"
 msgstr "Ingen enhet hittades för en valfri partition"
 
-#: service/lib/y2storage/proposal/agama_searcher.rb:105
+#: service/lib/y2storage/proposal/agama_searcher.rb:165
 msgid "No device found for a mandatory partition"
 msgstr "Ingen enhet hittades för en obligatorisk partition"
 
