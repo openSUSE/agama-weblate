@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-16 07:57+0000\n"
-"PO-Revision-Date: 2024-07-24 07:46+0000\n"
+"PO-Revision-Date: 2024-09-17 15:48+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: src/components/core/About.tsx:46
 msgid "About"
@@ -396,7 +396,7 @@ msgstr " Tidszon val"
 
 #: src/components/layout/Header.tsx:61
 msgid "Main navigation"
-msgstr ""
+msgstr "Huvudnavigering"
 
 #: src/components/layout/Loading.jsx:29
 msgid "Loading installation environment, please wait."
@@ -514,7 +514,6 @@ msgid "DNS"
 msgstr "DNS"
 
 #: src/components/network/IpPrefixInput.tsx:34
-#, fuzzy
 msgid "Ip prefix or netmask"
 msgstr "IP prefix eller nätmask"
 
@@ -569,7 +568,7 @@ msgid "Connect"
 msgstr "Anslut"
 
 #: src/components/network/NetworkPage.tsx:69
-#, fuzzy, c-format
+#, c-format
 msgid "Connected to %s"
 msgstr "Ansluten till %s"
 
@@ -612,14 +611,12 @@ msgstr "WPA & WPA2 Personal"
 
 #. TRANSLATORS: accessible name for the WiFi connection form
 #: src/components/network/WifiConnectionForm.tsx:94
-#, fuzzy
 msgid "WiFi connection form"
-msgstr "WiFi anslutningar"
+msgstr "WiFi anslutningsformulär"
 
 #: src/components/network/WifiConnectionForm.tsx:101
-#, fuzzy
 msgid "Authentication failed, please try again"
-msgstr "Autentisering av mål"
+msgstr "Autentiseringen misslyckades, försök igen"
 
 #: src/components/network/WifiConnectionForm.tsx:102
 #: src/components/storage/ZFCPDiskForm.jsx:105
@@ -684,9 +681,8 @@ msgid "configured"
 msgstr "konfigurerad"
 
 #: src/components/network/WifiNetworksListPage.tsx:270
-#, fuzzy
 msgid "Visible Wi-Fi networks"
-msgstr "WiFi nätverk"
+msgstr "Synliga WiFi nätverk"
 
 #: src/components/network/WifiSelectorPage.tsx:35
 msgid "Connect to a Wi-Fi network"
@@ -862,12 +858,11 @@ msgstr ""
 #: src/components/product/ProductSelectionPage.tsx:56
 #, c-format
 msgid "%s logo"
-msgstr ""
+msgstr "%s logotyp"
 
 #: src/components/product/ProductSelectionPage.tsx:107
-#, fuzzy
 msgid "Select a product"
-msgstr "Välj en plats"
+msgstr "Välj en produkt"
 
 #: src/components/product/ProductSelectionPage.tsx:108
 msgid "Available products"
@@ -884,9 +879,8 @@ msgstr "Fråga"
 
 #. TRANSLATORS: error message, user entered a wrong password
 #: src/components/questions/LuksActivationQuestion.tsx:37
-#, fuzzy
 msgid "The encryption password did not work"
-msgstr "Givet krypteringslösenord fungerade inte"
+msgstr "Krypteringslösenordet fungerade inte"
 
 #: src/components/questions/LuksActivationQuestion.tsx:68
 msgid "Encrypted Device"
@@ -936,9 +930,8 @@ msgid "auto selected"
 msgstr "automatiskt vald"
 
 #: src/components/software/SoftwarePatternsSelection.tsx:166
-#, fuzzy
 msgid "Unselect"
-msgstr "vald"
+msgstr "Avmarkera"
 
 #: src/components/software/SoftwarePatternsSelection.tsx:186
 msgid "Software selection"
@@ -1044,9 +1037,8 @@ msgid "Formatting DASD devices"
 msgstr "Formaterar DASD-enheter"
 
 #: src/components/storage/DASDPage.tsx:36 src/routes/storage.tsx:70
-#, fuzzy
 msgid "DASD"
-msgstr "DASD %s"
+msgstr "DASD"
 
 #: src/components/storage/DASDTable.tsx:63
 #: src/components/storage/ZFCPPage.jsx:340
