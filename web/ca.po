@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-16 07:57+0000\n"
-"PO-Revision-Date: 2024-07-25 08:46+0000\n"
+"PO-Revision-Date: 2024-09-17 15:48+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ca/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: src/components/core/About.tsx:46
 msgid "About"
@@ -402,7 +402,7 @@ msgstr " Selecció de la zona horària"
 
 #: src/components/layout/Header.tsx:61
 msgid "Main navigation"
-msgstr ""
+msgstr "Navegació principal"
 
 #: src/components/layout/Loading.jsx:29
 msgid "Loading installation environment, please wait."
@@ -520,7 +520,6 @@ msgid "DNS"
 msgstr "DNS"
 
 #: src/components/network/IpPrefixInput.tsx:34
-#, fuzzy
 msgid "Ip prefix or netmask"
 msgstr "Prefix IP o màscara de xarxa"
 
@@ -575,7 +574,7 @@ msgid "Connect"
 msgstr "Connecta't"
 
 #: src/components/network/NetworkPage.tsx:69
-#, fuzzy, c-format
+#, c-format
 msgid "Connected to %s"
 msgstr "Connectat amb %s"
 
@@ -618,14 +617,12 @@ msgstr "WPA i WPA2 personal"
 
 #. TRANSLATORS: accessible name for the WiFi connection form
 #: src/components/network/WifiConnectionForm.tsx:94
-#, fuzzy
 msgid "WiFi connection form"
-msgstr "Connexions WiFi"
+msgstr "Formulari de connexió per WiFi"
 
 #: src/components/network/WifiConnectionForm.tsx:101
-#, fuzzy
 msgid "Authentication failed, please try again"
-msgstr "Autenticació per destinació"
+msgstr "Hi ha hagut un error d'autenticació. Torneu-ho a provar."
 
 #: src/components/network/WifiConnectionForm.tsx:102
 #: src/components/storage/ZFCPDiskForm.jsx:105
@@ -691,9 +688,8 @@ msgid "configured"
 msgstr "configurat"
 
 #: src/components/network/WifiNetworksListPage.tsx:270
-#, fuzzy
 msgid "Visible Wi-Fi networks"
-msgstr "Xarxes WiFi"
+msgstr "Xarxes Wi-Fi visibles"
 
 #: src/components/network/WifiSelectorPage.tsx:35
 msgid "Connect to a Wi-Fi network"
@@ -871,12 +867,11 @@ msgstr ""
 #: src/components/product/ProductSelectionPage.tsx:56
 #, c-format
 msgid "%s logo"
-msgstr ""
+msgstr "Logotip per a %s"
 
 #: src/components/product/ProductSelectionPage.tsx:107
-#, fuzzy
 msgid "Select a product"
-msgstr "Seleccioneu una ubicació."
+msgstr "Seleccioneu un producte"
 
 #: src/components/product/ProductSelectionPage.tsx:108
 msgid "Available products"
@@ -893,9 +888,8 @@ msgstr "Pregunta"
 
 #. TRANSLATORS: error message, user entered a wrong password
 #: src/components/questions/LuksActivationQuestion.tsx:37
-#, fuzzy
 msgid "The encryption password did not work"
-msgstr "La contrasenya d'encriptació proporcionada no ha funcionat."
+msgstr "La contrasenya d'encriptació no ha funcionat."
 
 #: src/components/questions/LuksActivationQuestion.tsx:68
 msgid "Encrypted Device"
@@ -946,9 +940,8 @@ msgid "auto selected"
 msgstr "seleccionat automàticament"
 
 #: src/components/software/SoftwarePatternsSelection.tsx:166
-#, fuzzy
 msgid "Unselect"
-msgstr "seleccionat"
+msgstr "Desmarca"
 
 #: src/components/software/SoftwarePatternsSelection.tsx:186
 msgid "Software selection"
@@ -1051,9 +1044,8 @@ msgid "Formatting DASD devices"
 msgstr "Formatatge de dispositius DASD"
 
 #: src/components/storage/DASDPage.tsx:36 src/routes/storage.tsx:70
-#, fuzzy
 msgid "DASD"
-msgstr "DASD %s"
+msgstr "DASD"
 
 #: src/components/storage/DASDTable.tsx:63
 #: src/components/storage/ZFCPPage.jsx:340
