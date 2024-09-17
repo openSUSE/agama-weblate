@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-16 07:57+0000\n"
-"PO-Revision-Date: 2024-07-25 08:46+0000\n"
+"PO-Revision-Date: 2024-09-17 06:48+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: src/components/core/About.tsx:46
 msgid "About"
@@ -397,7 +397,7 @@ msgstr " タイムゾーンの選択"
 
 #: src/components/layout/Header.tsx:61
 msgid "Main navigation"
-msgstr ""
+msgstr "メインナビゲーション"
 
 #: src/components/layout/Loading.jsx:29
 msgid "Loading installation environment, please wait."
@@ -515,9 +515,8 @@ msgid "DNS"
 msgstr "DNS"
 
 #: src/components/network/IpPrefixInput.tsx:34
-#, fuzzy
 msgid "Ip prefix or netmask"
-msgstr "IP プレフィクスもしくはサブネットマスク"
+msgstr "IP プレフィクスもしくはネットマスク"
 
 #. TRANSLATORS: error message
 #: src/components/network/IpSettingsForm.tsx:102
@@ -571,7 +570,7 @@ msgid "Connect"
 msgstr "接続"
 
 #: src/components/network/NetworkPage.tsx:69
-#, fuzzy, c-format
+#, c-format
 msgid "Connected to %s"
 msgstr "%s に接続済み"
 
@@ -614,14 +613,12 @@ msgstr "WPA および WPA2 Personal"
 
 #. TRANSLATORS: accessible name for the WiFi connection form
 #: src/components/network/WifiConnectionForm.tsx:94
-#, fuzzy
 msgid "WiFi connection form"
-msgstr "無線接続"
+msgstr "WiFi 接続フォーム"
 
 #: src/components/network/WifiConnectionForm.tsx:101
-#, fuzzy
 msgid "Authentication failed, please try again"
-msgstr "ターゲットによる認証"
+msgstr "認証が失敗しました、やり直してください"
 
 #: src/components/network/WifiConnectionForm.tsx:102
 #: src/components/storage/ZFCPDiskForm.jsx:105
@@ -686,9 +683,8 @@ msgid "configured"
 msgstr "設定済み"
 
 #: src/components/network/WifiNetworksListPage.tsx:270
-#, fuzzy
 msgid "Visible Wi-Fi networks"
-msgstr "WiFi ネットワーク"
+msgstr "検出された Wi-Fi ネットワーク"
 
 #: src/components/network/WifiSelectorPage.tsx:35
 msgid "Connect to a Wi-Fi network"
@@ -861,12 +857,11 @@ msgstr ""
 #: src/components/product/ProductSelectionPage.tsx:56
 #, c-format
 msgid "%s logo"
-msgstr ""
+msgstr "%s ロゴ"
 
 #: src/components/product/ProductSelectionPage.tsx:107
-#, fuzzy
 msgid "Select a product"
-msgstr "場所の選択"
+msgstr "製品の選択"
 
 #: src/components/product/ProductSelectionPage.tsx:108
 msgid "Available products"
@@ -883,9 +878,8 @@ msgstr "質問"
 
 #. TRANSLATORS: error message, user entered a wrong password
 #: src/components/questions/LuksActivationQuestion.tsx:37
-#, fuzzy
 msgid "The encryption password did not work"
-msgstr "指定された暗号化パスワードが正しくありません"
+msgstr "暗号化パスワードが正しくありません"
 
 #: src/components/questions/LuksActivationQuestion.tsx:68
 msgid "Encrypted Device"
@@ -921,7 +915,8 @@ msgstr "選択の変更"
 msgid ""
 "This product does not allow to select software patterns during installation. "
 "However, you can add additional software once the installation is finished."
-msgstr ""
+msgstr "この製品はインストール時のパターン選択を許可していません。なお、インストール"
+"完了後に必要なソフトウエアを追加できます。"
 
 #: src/components/software/SoftwarePatternsSelection.tsx:97
 msgid "None of the patterns match the filter."
@@ -932,9 +927,8 @@ msgid "auto selected"
 msgstr "自動選択済み"
 
 #: src/components/software/SoftwarePatternsSelection.tsx:166
-#, fuzzy
 msgid "Unselect"
-msgstr "選択済み"
+msgstr "未選択"
 
 #: src/components/software/SoftwarePatternsSelection.tsx:186
 msgid "Software selection"
@@ -954,12 +948,11 @@ msgid "Installation will take %s."
 msgstr "インストールを行うには %s が必要です。"
 
 #: src/components/software/UsedSize.tsx:36
-#, fuzzy
 msgid ""
 "This space includes the base system and the selected software patterns, if "
 "any."
-msgstr ""
-"この容量はシステムの基本部分のほか、選択したソフトウエアパターンを含みます。"
+msgstr "この容量にはシステムの基本部分のほか、選択したソフトウエアパターンが含まれま"
+"す。"
 
 #: src/components/storage/BootConfigField.tsx:41
 msgid "Change boot options"
@@ -1035,9 +1028,8 @@ msgid "Formatting DASD devices"
 msgstr "DASD デバイスをフォーマットしています"
 
 #: src/components/storage/DASDPage.tsx:36 src/routes/storage.tsx:70
-#, fuzzy
 msgid "DASD"
-msgstr "DASD %s"
+msgstr "DASD"
 
 #: src/components/storage/DASDTable.tsx:63
 #: src/components/storage/ZFCPPage.jsx:340
