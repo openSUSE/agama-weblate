@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-16 07:57+0000\n"
+"POT-Creation-Date: 2024-09-18 02:35+0000\n"
 "PO-Revision-Date: 2024-09-17 15:48+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -81,7 +81,7 @@ msgstr "Continua"
 #. TRANSLATORS: button label
 #: src/components/core/InstallButton.jsx:49 src/components/core/Page.tsx:237
 #: src/components/core/Popup.jsx:132
-#: src/components/network/WifiConnectionForm.tsx:146
+#: src/components/network/WifiConnectionForm.tsx:144
 #: src/components/product/ProductSelectionPage.tsx:122
 msgid "Cancel"
 msgstr "Cancel·la"
@@ -267,7 +267,7 @@ msgstr "Les contrasenyes no coincideixen."
 
 #. TRANSLATORS: field label
 #: src/components/core/PasswordAndConfirmationInput.tsx:88
-#: src/components/network/WifiConnectionForm.tsx:133
+#: src/components/network/WifiConnectionForm.tsx:131
 #: src/components/questions/QuestionWithPassword.tsx:62
 #: src/components/storage/iscsi/AuthFields.jsx:90
 #: src/components/storage/iscsi/AuthFields.jsx:94
@@ -362,7 +362,7 @@ msgstr "Encara no s'ha seleccionat."
 #: src/components/l10n/L10nPage.jsx:74
 #: src/components/network/NetworkPage.tsx:63
 #: src/components/storage/InstallationDeviceField.tsx:105
-#: src/components/storage/ProposalActionsSummary.tsx:246
+#: src/components/storage/ProposalActionsSummary.tsx:247
 #: src/components/users/RootAuthMethods.tsx:113
 #: src/components/users/RootAuthMethods.tsx:125
 msgid "Change"
@@ -568,7 +568,7 @@ msgstr "Wifi"
 
 #. TRANSLATORS: button label, connect to a WiFi network
 #: src/components/network/NetworkPage.tsx:63
-#: src/components/network/WifiConnectionForm.tsx:142
+#: src/components/network/WifiConnectionForm.tsx:140
 #: src/components/network/WifiNetworksListPage.tsx:125
 msgid "Connect"
 msgstr "Connecta't"
@@ -605,26 +605,26 @@ msgid "Network"
 msgstr "Xarxa"
 
 #. TRANSLATORS: WiFi authentication mode
-#: src/components/network/WifiConnectionForm.tsx:50
+#: src/components/network/WifiConnectionForm.tsx:48
 #: src/components/storage/iscsi/InitiatorPresenter.tsx:57
 msgid "None"
 msgstr "Cap"
 
 #. TRANSLATORS: WiFi authentication mode
-#: src/components/network/WifiConnectionForm.tsx:52
+#: src/components/network/WifiConnectionForm.tsx:50
 msgid "WPA & WPA2 Personal"
 msgstr "WPA i WPA2 personal"
 
 #. TRANSLATORS: accessible name for the WiFi connection form
-#: src/components/network/WifiConnectionForm.tsx:94
+#: src/components/network/WifiConnectionForm.tsx:92
 msgid "WiFi connection form"
 msgstr "Formulari de connexió per WiFi"
 
-#: src/components/network/WifiConnectionForm.tsx:101
+#: src/components/network/WifiConnectionForm.tsx:99
 msgid "Authentication failed, please try again"
 msgstr "Hi ha hagut un error d'autenticació. Torneu-ho a provar."
 
-#: src/components/network/WifiConnectionForm.tsx:102
+#: src/components/network/WifiConnectionForm.tsx:100
 #: src/components/storage/ZFCPDiskForm.jsx:105
 #: src/components/storage/iscsi/DiscoverForm.tsx:98
 #: src/components/storage/iscsi/LoginForm.jsx:69
@@ -632,24 +632,24 @@ msgstr "Hi ha hagut un error d'autenticació. Torneu-ho a provar."
 msgid "Something went wrong"
 msgstr "Alguna cosa ha anat malament."
 
-#: src/components/network/WifiConnectionForm.tsx:105
+#: src/components/network/WifiConnectionForm.tsx:103
 msgid "Please, review provided settings and try again."
 msgstr ""
 "Si us plau, reviseu la configuració proporcionada i torneu-ho a provar."
 
 #. TRANSLATORS: SSID (Wifi network name) configuration
-#: src/components/network/WifiConnectionForm.tsx:111
+#: src/components/network/WifiConnectionForm.tsx:109
 msgid "SSID"
 msgstr "SSID"
 
 #. TRANSLATORS: Wifi security configuration (password protected or not)
-#: src/components/network/WifiConnectionForm.tsx:117
-#: src/components/network/WifiConnectionForm.tsx:120
+#: src/components/network/WifiConnectionForm.tsx:115
+#: src/components/network/WifiConnectionForm.tsx:118
 msgid "Security"
 msgstr "Seguretat"
 
 #. TRANSLATORS: WiFi password
-#: src/components/network/WifiConnectionForm.tsx:129
+#: src/components/network/WifiConnectionForm.tsx:127
 msgid "WPA Password"
 msgstr "Contrasenya de WPA"
 
@@ -715,7 +715,7 @@ msgstr "Emmagatzematge"
 
 #: src/components/overview/OverviewPage.tsx:49
 #: src/components/overview/SoftwareSection.tsx:69
-#: src/components/software/SoftwarePage.tsx:110 src/routes/software.tsx:36
+#: src/components/software/SoftwarePage.tsx:105 src/routes/software.tsx:36
 msgid "Software"
 msgstr "Programari"
 
@@ -877,7 +877,7 @@ msgstr "Seleccioneu un producte"
 msgid "Available products"
 msgstr "Productes disponibles"
 
-#: src/components/product/ProductSelectionProgress.jsx:46
+#: src/components/product/ProductSelectionProgress.jsx:44
 msgid "Configuring the product, please wait ..."
 msgstr "Configurant el producte. Espereu, si us plau..."
 
@@ -904,25 +904,25 @@ msgstr "Contrasenya d'encriptació"
 msgid "Password Required"
 msgstr "Cal una contrasenya."
 
-#: src/components/software/SoftwarePage.tsx:52
+#: src/components/software/SoftwarePage.tsx:47
 msgid "No additional software was selected."
 msgstr "No s'ha seleccionat cap programari addicional."
 
-#: src/components/software/SoftwarePage.tsx:57
+#: src/components/software/SoftwarePage.tsx:52
 msgid "The following software patterns are selected for installation:"
 msgstr ""
 "S'han seleccionat els patrons de programari següents per a la instal·lació:"
 
-#: src/components/software/SoftwarePage.tsx:72
-#: src/components/software/SoftwarePage.tsx:84
+#: src/components/software/SoftwarePage.tsx:67
+#: src/components/software/SoftwarePage.tsx:79
 msgid "Selected patterns"
 msgstr "Patrons seleccionats"
 
-#: src/components/software/SoftwarePage.tsx:75
+#: src/components/software/SoftwarePage.tsx:70
 msgid "Change selection"
 msgstr "Canvia la selecció"
 
-#: src/components/software/SoftwarePage.tsx:87
+#: src/components/software/SoftwarePage.tsx:82
 msgid ""
 "This product does not allow to select software patterns during installation. "
 "However, you can add additional software once the installation is finished."
@@ -1078,8 +1078,8 @@ msgid "Status"
 msgstr "Estat"
 
 #: src/components/storage/DASDTable.tsx:72
-#: src/components/storage/DeviceSelectorTable.tsx:185
-#: src/components/storage/ProposalResultTable.tsx:132
+#: src/components/storage/DeviceSelectorTable.tsx:187
+#: src/components/storage/ProposalResultTable.tsx:129
 #: src/components/storage/SpaceActionsTable.tsx:206
 #: src/components/storage/VolumeLocationSelectorTable.tsx:95
 msgid "Device"
@@ -1262,19 +1262,19 @@ msgstr "%s amb %d particions"
 msgid "No content found"
 msgstr "No s'ha trobat contingut."
 
-#: src/components/storage/DeviceSelectorTable.tsx:186
+#: src/components/storage/DeviceSelectorTable.tsx:188
 #: src/components/storage/PartitionsField.tsx:453
-#: src/components/storage/ProposalResultTable.tsx:134
+#: src/components/storage/ProposalResultTable.tsx:131
 #: src/components/storage/SpaceActionsTable.tsx:207
 #: src/components/storage/VolumeLocationSelectorTable.tsx:96
 msgid "Details"
 msgstr "Detalls"
 
-#: src/components/storage/DeviceSelectorTable.tsx:187
+#: src/components/storage/DeviceSelectorTable.tsx:189
 #: src/components/storage/PartitionsField.tsx:454
-#: src/components/storage/ProposalResultTable.tsx:135
+#: src/components/storage/ProposalResultTable.tsx:132
 #: src/components/storage/SpaceActionsTable.tsx:208
-#: src/components/storage/VolumeFields.tsx:524
+#: src/components/storage/VolumeFields.tsx:523
 #: src/components/storage/VolumeLocationSelectorTable.tsx:101
 msgid "Size"
 msgstr "Mida"
@@ -1580,8 +1580,8 @@ msgstr "Suprimeix"
 
 #: src/components/storage/PartitionsField.tsx:452
 #: src/components/storage/VolumeFields.tsx:66
-#: src/components/storage/VolumeFields.tsx:76
-#: src/components/storage/VolumeFields.tsx:81
+#: src/components/storage/VolumeFields.tsx:75
+#: src/components/storage/VolumeFields.tsx:80
 msgid "Mount point"
 msgstr "Punt de muntatge"
 
@@ -1608,11 +1608,11 @@ msgstr "Una altra"
 msgid "Reset to defaults"
 msgstr "Restableix els valors predeterminats"
 
-#: src/components/storage/PartitionsField.tsx:811
+#: src/components/storage/PartitionsField.tsx:806
 msgid "Partitions and file systems"
 msgstr "Particions i sistemes de fitxers"
 
-#: src/components/storage/PartitionsField.tsx:813
+#: src/components/storage/PartitionsField.tsx:808
 msgid ""
 "Structure of the new system, including any additional partition needed for "
 "booting"
@@ -1620,7 +1620,7 @@ msgstr ""
 "Estructura del sistema nou, inclosa qualsevol partició addicional necessària "
 "per a arrencar"
 
-#: src/components/storage/PartitionsField.tsx:820
+#: src/components/storage/PartitionsField.tsx:815
 msgid "Show partitions and file-systems actions"
 msgstr "Mostra les particions i les accions dels sistemes de fitxers"
 
@@ -1707,18 +1707,18 @@ msgstr "Els sistemes es configuraran tal com es mostra a continuació."
 msgid "Storage proposal not possible"
 msgstr "La proposta d'emmagatzematge no és possible."
 
-#: src/components/storage/ProposalResultTable.tsx:77
+#: src/components/storage/ProposalResultTable.tsx:74
 msgid "New"
 msgstr "Nova"
 
 #. TRANSLATORS: Label to indicate the device size before resizing, where %s is
 #. replaced by the original size (e.g., 3.00 GiB).
-#: src/components/storage/ProposalResultTable.tsx:106
+#: src/components/storage/ProposalResultTable.tsx:103
 #, c-format
 msgid "Before %s"
 msgstr "Abans: %s"
 
-#: src/components/storage/ProposalResultTable.tsx:133
+#: src/components/storage/ProposalResultTable.tsx:130
 msgid "Mount Point"
 msgstr "Punt de muntatge"
 
@@ -1846,7 +1846,7 @@ msgstr "Hi ha un sistema de fitxers predefinit per a %s."
 msgid "Do you want to add it?"
 msgstr "L'hi voleu afegir?"
 
-#: src/components/storage/VolumeFields.tsx:236
+#: src/components/storage/VolumeFields.tsx:235
 msgid ""
 "The options for the file system type depends on the product and the mount "
 "point."
@@ -1854,64 +1854,64 @@ msgstr ""
 "Les opcions per al tipus de sistema de fitxers depenen del producte i del "
 "punt de muntatge."
 
-#: src/components/storage/VolumeFields.tsx:243
+#: src/components/storage/VolumeFields.tsx:242
 msgid "More info for file system types"
 msgstr "Més informació sobre els tipus de sistemes de fitxers"
 
 #. TRANSLATORS: label for the file system selector.
-#: src/components/storage/VolumeFields.tsx:254
+#: src/components/storage/VolumeFields.tsx:253
 msgid "File system type"
 msgstr "Tipus de sistema de fitxers"
 
 #. TRANSLATORS: item which affects the final computed partition size
-#: src/components/storage/VolumeFields.tsx:285
+#: src/components/storage/VolumeFields.tsx:284
 msgid "the configuration of snapshots"
 msgstr "la configuració de les instantànies"
 
-#: src/components/storage/VolumeFields.tsx:292
+#: src/components/storage/VolumeFields.tsx:291
 #, c-format
 msgid "the presence of the file system for %s"
 msgstr "la presència del sistema de fitxers per a %s"
 
 #. TRANSLATORS: conjunction for merging two list items
-#: src/components/storage/VolumeFields.tsx:294
+#: src/components/storage/VolumeFields.tsx:293
 msgid ", "
 msgstr ", "
 
 #. TRANSLATORS: item which affects the final computed partition size
-#: src/components/storage/VolumeFields.tsx:300
+#: src/components/storage/VolumeFields.tsx:299
 msgid "the amount of RAM in the system"
 msgstr "la quantitat de RAM del sistema"
 
-#: src/components/storage/VolumeFields.tsx:304
+#: src/components/storage/VolumeFields.tsx:303
 #, c-format
 msgid "The final size depends on %s."
 msgstr "La mida final depèn de %s."
 
 #. TRANSLATORS: conjunction for merging two texts
-#: src/components/storage/VolumeFields.tsx:306
+#: src/components/storage/VolumeFields.tsx:305
 msgid " and "
 msgstr " i "
 
-#: src/components/storage/VolumeFields.tsx:313
+#: src/components/storage/VolumeFields.tsx:312
 msgid "Automatically calculated size according to the selected product."
 msgstr "Mida calculada automàticament segons el producte seleccionat."
 
-#: src/components/storage/VolumeFields.tsx:342
+#: src/components/storage/VolumeFields.tsx:341
 msgid "Exact size for the file system."
 msgstr "Mida exacta per al sistema de fitxers."
 
 #. TRANSLATORS: requested partition size
-#: src/components/storage/VolumeFields.tsx:351
+#: src/components/storage/VolumeFields.tsx:350
 msgid "Exact size"
 msgstr "Mida exacta"
 
 #. TRANSLATORS: units selector (like KiB, MiB, GiB...)
-#: src/components/storage/VolumeFields.tsx:368
+#: src/components/storage/VolumeFields.tsx:367
 msgid "Size unit"
 msgstr "Unitat de mida"
 
-#: src/components/storage/VolumeFields.tsx:407
+#: src/components/storage/VolumeFields.tsx:406
 msgid ""
 "Limits for the file system size. The final size will be a value between the "
 "given minimum and maximum. If no maximum is given then the file system will "
@@ -1922,49 +1922,49 @@ msgstr ""
 "de fitxers serà el més gros possible."
 
 #. TRANSLATORS: the minimal partition size
-#: src/components/storage/VolumeFields.tsx:415
+#: src/components/storage/VolumeFields.tsx:414
 msgid "Minimum"
 msgstr "Mínim"
 
 #. TRANSLATORS: the minium partition size
-#: src/components/storage/VolumeFields.tsx:426
+#: src/components/storage/VolumeFields.tsx:425
 msgid "Minimum desired size"
 msgstr "Mida mínima desitjada"
 
-#: src/components/storage/VolumeFields.tsx:437
+#: src/components/storage/VolumeFields.tsx:436
 msgid "Unit for the minimum size"
 msgstr "Unitat per a la mida mínima"
 
 #. TRANSLATORS: the maximum partition size
-#: src/components/storage/VolumeFields.tsx:449
+#: src/components/storage/VolumeFields.tsx:448
 msgid "Maximum"
 msgstr "Màxim"
 
 #. TRANSLATORS: the maximum partition size
-#: src/components/storage/VolumeFields.tsx:461
+#: src/components/storage/VolumeFields.tsx:460
 msgid "Maximum desired size"
 msgstr "Mida màxima desitjada"
 
-#: src/components/storage/VolumeFields.tsx:471
+#: src/components/storage/VolumeFields.tsx:470
 msgid "Unit for the maximum size"
 msgstr "Unitat per a la mida màxima"
 
 #. TRANSLATORS: radio button label, fully automatically computed partition size, no user input
-#: src/components/storage/VolumeFields.tsx:489
+#: src/components/storage/VolumeFields.tsx:488
 msgid "Auto"
 msgstr "Automàtica"
 
 #. TRANSLATORS: radio button label, exact partition size requested by user
-#: src/components/storage/VolumeFields.tsx:491
+#: src/components/storage/VolumeFields.tsx:490
 msgid "Fixed"
 msgstr "Fixa"
 
 #. TRANSLATORS: radio button label, automatically computed partition size within the user provided min and max limits
-#: src/components/storage/VolumeFields.tsx:493
+#: src/components/storage/VolumeFields.tsx:492
 msgid "Range"
 msgstr "Interval"
 
-#: src/components/storage/VolumeLocationDialog.tsx:37
+#: src/components/storage/VolumeLocationDialog.tsx:33
 msgid ""
 "The file systems are allocated at the installation device by default. "
 "Indicate a custom location to create the file system at a specific device."
@@ -1975,38 +1975,38 @@ msgstr ""
 
 #. TRANSLATORS: Title of the dialog for changing the location of a file system. %s is replaced
 #. by a mount path (e.g., /home).
-#: src/components/storage/VolumeLocationDialog.tsx:140
+#: src/components/storage/VolumeLocationDialog.tsx:136
 #, c-format
 msgid "Location for %s file system"
 msgstr "Ubicació per al sistema de fitxers %s"
 
-#: src/components/storage/VolumeLocationDialog.tsx:150
+#: src/components/storage/VolumeLocationDialog.tsx:146
 msgid "Select in which device to allocate the file system"
 msgstr "Seleccioneu en quin dispositiu assignar el sistema de fitxers."
 
-#: src/components/storage/VolumeLocationDialog.tsx:153
+#: src/components/storage/VolumeLocationDialog.tsx:149
 msgid "Select a location"
 msgstr "Seleccioneu una ubicació."
 
-#: src/components/storage/VolumeLocationDialog.tsx:165
+#: src/components/storage/VolumeLocationDialog.tsx:161
 msgid "Select how to allocate the file system"
 msgstr "Seleccioneu com assignar el sistema de fitxers."
 
-#: src/components/storage/VolumeLocationDialog.tsx:170
+#: src/components/storage/VolumeLocationDialog.tsx:166
 msgid "Create a new partition"
 msgstr "Crea una partició nova"
 
-#: src/components/storage/VolumeLocationDialog.tsx:172
+#: src/components/storage/VolumeLocationDialog.tsx:168
 msgid ""
 "The file system will be allocated as a new partition at the selected   disk."
 msgstr ""
 "El sistema de fitxers s'assignarà com a partició nova al disc seleccionat."
 
-#: src/components/storage/VolumeLocationDialog.tsx:182
+#: src/components/storage/VolumeLocationDialog.tsx:178
 msgid "Create a dedicated LVM volume group"
 msgstr "Crea un grup de volums LVM dedicat"
 
-#: src/components/storage/VolumeLocationDialog.tsx:184
+#: src/components/storage/VolumeLocationDialog.tsx:180
 msgid ""
 "A new volume group will be allocated in the selected disk and the   file "
 "system will be created as a logical volume."
@@ -2014,20 +2014,20 @@ msgstr ""
 "S'assignarà un grup de volums nou al disc seleccionat i el sistema de "
 "fitxers es crearà com a volum lògic."
 
-#: src/components/storage/VolumeLocationDialog.tsx:194
+#: src/components/storage/VolumeLocationDialog.tsx:190
 msgid "Format the device"
 msgstr "Formata el dispositiu"
 
-#: src/components/storage/VolumeLocationDialog.tsx:198
+#: src/components/storage/VolumeLocationDialog.tsx:194
 #, c-format
 msgid "The selected device will be formatted as %s file system."
 msgstr "El dispositiu seleccionat es formatarà com a sistema de fitxers %s."
 
-#: src/components/storage/VolumeLocationDialog.tsx:209
+#: src/components/storage/VolumeLocationDialog.tsx:205
 msgid "Mount the file system"
 msgstr "Munta el sistema de fitxers"
 
-#: src/components/storage/VolumeLocationDialog.tsx:211
+#: src/components/storage/VolumeLocationDialog.tsx:207
 msgid ""
 "The current file system on the selected device will be mounted   without "
 "formatting the device."
@@ -2517,7 +2517,7 @@ msgstr "Edita la clau pública SSH per a l'arrel"
 msgid "Add a SSH Public Key for root"
 msgstr "Afegiu una clau pública SSH per a l'arrel"
 
-#: src/components/users/RootPasswordPopup.jsx:44
+#: src/components/users/RootPasswordPopup.jsx:43
 msgid "Root password"
 msgstr "Contrasenya d'arrel"
 
