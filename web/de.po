@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-18 02:35+0000\n"
-"PO-Revision-Date: 2024-08-29 19:47+0000\n"
+"PO-Revision-Date: 2024-09-18 21:48+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://l10n.opensuse.org/projects/agama/agama-web/de/"
 ">\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: src/components/core/About.tsx:46
 msgid "About"
@@ -408,7 +408,7 @@ msgstr " Zeitzonenauswahl"
 
 #: src/components/layout/Header.tsx:61
 msgid "Main navigation"
-msgstr ""
+msgstr "Hauptnavigation"
 
 #: src/components/layout/Loading.jsx:29
 msgid "Loading installation environment, please wait."
@@ -469,9 +469,8 @@ msgstr "IP-Adressen"
 
 #. TRANSLATORS: table header aria label
 #: src/components/network/ConnectionsTable.tsx:69
-#, fuzzy
 msgid "Connection actions"
-msgstr "Wird verbunden"
+msgstr "Verbindungsaktionen"
 
 #: src/components/network/ConnectionsTable.tsx:76
 #: src/components/network/WifiNetworksListPage.tsx:127
@@ -527,7 +526,6 @@ msgid "DNS"
 msgstr "DNS"
 
 #: src/components/network/IpPrefixInput.tsx:34
-#, fuzzy
 msgid "Ip prefix or netmask"
 msgstr "IP-Präfix oder Netzmaske"
 
@@ -564,7 +562,6 @@ msgid "Gateway can be defined only in 'Manual' mode"
 msgstr "Gateway kann nur im Modus ‚Manuell‘ definiert werden"
 
 #: src/components/network/NetworkPage.tsx:37
-#, fuzzy
 msgid "Wired"
 msgstr "Kabelgebunden"
 
@@ -585,7 +582,7 @@ msgid "Connect"
 msgstr "Verbinden"
 
 #: src/components/network/NetworkPage.tsx:69
-#, fuzzy, c-format
+#, c-format
 msgid "Connected to %s"
 msgstr "Verbunden mit %s"
 
@@ -633,12 +630,11 @@ msgstr "WPA & WPA2 Personal"
 #: src/components/network/WifiConnectionForm.tsx:92
 #, fuzzy
 msgid "WiFi connection form"
-msgstr "WiFi-Verbindungen"
+msgstr "Formular für die WiFi-Verbindung"
 
 #: src/components/network/WifiConnectionForm.tsx:99
-#, fuzzy
 msgid "Authentication failed, please try again"
-msgstr "Authentifizierung durch das Ziel"
+msgstr "Authentifizierung fehlgeschlagen, bitte versuchen Sie es erneut"
 
 #: src/components/network/WifiConnectionForm.tsx:100
 #: src/components/storage/ZFCPDiskForm.jsx:105
@@ -707,7 +703,7 @@ msgstr "konfiguriert"
 #: src/components/network/WifiNetworksListPage.tsx:270
 #, fuzzy
 msgid "Visible Wi-Fi networks"
-msgstr "WiFi-Netzwerke"
+msgstr "Sichtbare WiFi-Netzwerke"
 
 #: src/components/network/WifiSelectorPage.tsx:35
 #, fuzzy
@@ -887,12 +883,11 @@ msgstr ""
 #: src/components/product/ProductSelectionPage.tsx:56
 #, c-format
 msgid "%s logo"
-msgstr ""
+msgstr "%s-Logo"
 
 #: src/components/product/ProductSelectionPage.tsx:107
-#, fuzzy
 msgid "Select a product"
-msgstr "Ort auswählen"
+msgstr "Wählen Sie ein Produkt aus"
 
 #: src/components/product/ProductSelectionPage.tsx:108
 msgid "Available products"
@@ -909,9 +904,8 @@ msgstr "Frage"
 
 #. TRANSLATORS: error message, user entered a wrong password
 #: src/components/questions/LuksActivationQuestion.tsx:37
-#, fuzzy
 msgid "The encryption password did not work"
-msgstr "Das angegebene Verschlüsselungspasswort hat nicht funktioniert"
+msgstr "Das Verschlüsselungspasswort hat nicht funktioniert"
 
 #: src/components/questions/LuksActivationQuestion.tsx:68
 msgid "Encrypted Device"
@@ -923,9 +917,8 @@ msgid "Encryption Password"
 msgstr "Verschlüsselungspasswort"
 
 #: src/components/questions/QuestionWithPassword.tsx:55
-#, fuzzy
 msgid "Password Required"
-msgstr "Passworteingabe"
+msgstr "Passwort erforderlich"
 
 #: src/components/software/SoftwarePage.tsx:47
 msgid "No additional software was selected."
@@ -949,6 +942,9 @@ msgid ""
 "This product does not allow to select software patterns during installation. "
 "However, you can add additional software once the installation is finished."
 msgstr ""
+"Bei diesem Produkt ist es nicht möglich, während der Installation "
+"Softwaremuster auszuwählen. Sie können jedoch zusätzliche Software "
+"hinzufügen, sobald die Installation abgeschlossen ist."
 
 #: src/components/software/SoftwarePatternsSelection.tsx:97
 msgid "None of the patterns match the filter."
@@ -959,9 +955,8 @@ msgid "auto selected"
 msgstr "automatisch ausgewählt"
 
 #: src/components/software/SoftwarePatternsSelection.tsx:166
-#, fuzzy
 msgid "Unselect"
-msgstr "ausgewählt"
+msgstr "Abwählen"
 
 #: src/components/software/SoftwarePatternsSelection.tsx:186
 msgid "Software selection"
@@ -981,12 +976,12 @@ msgid "Installation will take %s."
 msgstr "Installation wird %s in Anspruch nehmen."
 
 #: src/components/software/UsedSize.tsx:36
-#, fuzzy
 msgid ""
 "This space includes the base system and the selected software patterns, if "
 "any."
 msgstr ""
-"Dieser Bereich umfasst das Basissystem und die ausgewählten Softwaremuster."
+"Dieser Bereich umfasst das Basissystem und die ausgewählten Softwaremuster, "
+"falls vorhanden."
 
 #: src/components/storage/BootConfigField.tsx:41
 msgid "Change boot options"
@@ -1070,9 +1065,8 @@ msgid "Formatting DASD devices"
 msgstr "DASD-Geräte formatieren"
 
 #: src/components/storage/DASDPage.tsx:36 src/routes/storage.tsx:70
-#, fuzzy
 msgid "DASD"
-msgstr "DASD %s"
+msgstr "DASD"
 
 #: src/components/storage/DASDTable.tsx:63
 #: src/components/storage/ZFCPPage.jsx:340
@@ -1338,14 +1332,12 @@ msgid "Encryption"
 msgstr "Verschlüsselung"
 
 #: src/components/storage/EncryptionField.tsx:36
-#, fuzzy
 msgid ""
 "Protection for the information stored at the device, including data, "
 "programs, and system files."
 msgstr ""
-"Die vollständige Festplattenverschlüsselung (FDE) ermöglicht den Schutz der "
-"auf dem Gerät gespeicherten Informationen, einschließlich Daten, Programme "
-"und Systemdateien."
+"Schutz für die auf dem Gerät gespeicherten Informationen, einschließlich "
+"Daten, Programme und Systemdateien."
 
 #: src/components/storage/EncryptionField.tsx:40
 msgid "disabled"
@@ -1385,16 +1377,15 @@ msgstr ""
 "jedem Bootvorgang verwenden"
 
 #: src/components/storage/EncryptionSettingsDialog.tsx:40
-#, fuzzy
 msgid ""
 "The password will not be needed to boot and access the data if the TPM can "
 "verify the integrity of the system. TPM sealing requires the new system to "
 "be booted directly on its first run."
 msgstr ""
-"Das Passwort wird zum Booten und zum Zugriff auf die Daten nicht benötigt, "
-"wenn das <abbr title='Trusted Platform Module'>TPM</abbr> die Integrität des "
-"Systems verifizieren kann. Die TPM-Versiegelung erfordert, dass das neue "
-"System bei seinem ersten Start direkt gebootet wird."
+"Das Passwort wird nicht benötigt, um zu booten und auf die Daten "
+"zuzugreifen, wenn das TPM die Integrität des Systems verifizieren kann. Die "
+"TPM-Versiegelung erfordert, dass das neue System bei seinem ersten Start "
+"direkt gebootet wird."
 
 #: src/components/storage/EncryptionSettingsDialog.tsx:127
 msgid "Encrypt the system"
