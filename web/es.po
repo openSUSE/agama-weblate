@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-19 02:37+0000\n"
-"PO-Revision-Date: 2024-07-28 18:47+0000\n"
+"PO-Revision-Date: 2024-09-19 17:48+0000\n"
 "Last-Translator: Victor hck <victorhck@opensuse.org>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: src/components/core/About.tsx:46
 msgid "About"
@@ -400,7 +400,7 @@ msgstr " Selección de zona horaria"
 
 #: src/components/layout/Header.tsx:61
 msgid "Main navigation"
-msgstr ""
+msgstr "Navegación principal"
 
 #: src/components/layout/Loading.jsx:29
 msgid "Loading installation environment, please wait."
@@ -518,7 +518,6 @@ msgid "DNS"
 msgstr "DNS"
 
 #: src/components/network/IpPrefixInput.tsx:34
-#, fuzzy
 msgid "Ip prefix or netmask"
 msgstr "Prefijo IP o máscara de red"
 
@@ -573,7 +572,7 @@ msgid "Connect"
 msgstr "Conectar"
 
 #: src/components/network/NetworkPage.tsx:69
-#, fuzzy, c-format
+#, c-format
 msgid "Connected to %s"
 msgstr "Conectado a %s"
 
@@ -615,14 +614,12 @@ msgstr "WPA y WPA2 personales"
 
 #. TRANSLATORS: accessible name for the WiFi connection form
 #: src/components/network/WifiConnectionForm.tsx:92
-#, fuzzy
 msgid "WiFi connection form"
-msgstr "Editar conexión %s"
+msgstr "Formulario de conexión WiFi"
 
 #: src/components/network/WifiConnectionForm.tsx:99
-#, fuzzy
 msgid "Authentication failed, please try again"
-msgstr "Autenticación por objetivo"
+msgstr "Error de autenticación, inténtelo de nuevo"
 
 #: src/components/network/WifiConnectionForm.tsx:100
 #: src/components/storage/iscsi/DiscoverForm.tsx:98
@@ -688,9 +685,8 @@ msgid "configured"
 msgstr "Configurado"
 
 #: src/components/network/WifiNetworksListPage.tsx:270
-#, fuzzy
 msgid "Visible Wi-Fi networks"
-msgstr "Redes WIFI"
+msgstr "Redes WIFI visibles"
 
 #: src/components/network/WifiSelectorPage.tsx:35
 msgid "Connect to a Wi-Fi network"
@@ -871,12 +867,11 @@ msgstr ""
 #: src/components/product/ProductSelectionPage.tsx:56
 #, c-format
 msgid "%s logo"
-msgstr ""
+msgstr "logo %s"
 
 #: src/components/product/ProductSelectionPage.tsx:107
-#, fuzzy
 msgid "Select a product"
-msgstr "Seleccionar una ubicación"
+msgstr "Seleccionar un producto"
 
 #: src/components/product/ProductSelectionPage.tsx:108
 msgid "Available products"
@@ -893,9 +888,8 @@ msgstr "Pregunta"
 
 #. TRANSLATORS: error message, user entered a wrong password
 #: src/components/questions/LuksActivationQuestion.tsx:37
-#, fuzzy
 msgid "The encryption password did not work"
-msgstr "La contraseña de cifrado dada no funcionó"
+msgstr "La contraseña de cifrado no funcionó"
 
 #: src/components/questions/LuksActivationQuestion.tsx:68
 msgid "Encrypted Device"
@@ -933,6 +927,9 @@ msgid ""
 "This product does not allow to select software patterns during installation. "
 "However, you can add additional software once the installation is finished."
 msgstr ""
+"Este producto no permite seleccionar patrones de software durante la "
+"instalación. Sin embargo, puede agregar software adicional una vez "
+"finalizada la instalación."
 
 #: src/components/software/SoftwarePatternsSelection.tsx:97
 msgid "None of the patterns match the filter."
@@ -943,9 +940,8 @@ msgid "auto selected"
 msgstr "seleccionado automáticamente"
 
 #: src/components/software/SoftwarePatternsSelection.tsx:166
-#, fuzzy
 msgid "Unselect"
-msgstr "seleccionado"
+msgstr "Deseleccionar"
 
 #: src/components/software/SoftwarePatternsSelection.tsx:186
 msgid "Software selection"
@@ -965,13 +961,12 @@ msgid "Installation will take %s."
 msgstr "La instalación ocupará %s."
 
 #: src/components/software/UsedSize.tsx:36
-#, fuzzy
 msgid ""
 "This space includes the base system and the selected software patterns, if "
 "any."
 msgstr ""
 "Este espacio incluye el sistema base y los patrones de software "
-"seleccionados."
+"seleccionados, si los hubiera."
 
 #: src/components/storage/BootConfigField.tsx:41
 msgid "Change boot options"
@@ -1952,21 +1947,18 @@ msgid "Formatting DASD devices"
 msgstr "Formatear dispositivos DASD"
 
 #: src/components/storage/dasd/DASDPage.tsx:38 src/routes/storage.tsx:76
-#, fuzzy
 msgid "DASD"
-msgstr "DASD %s"
+msgstr "DASD"
 
 #. TRANSLATORS: DASD devices selection table
 #: src/components/storage/dasd/DASDPage.tsx:43
-#, fuzzy
 msgid "DASD devices selection table"
-msgstr "Ningún dispositivo seleccionado todavía"
+msgstr "Tabla de selección de dispositivos DASD"
 
 #: src/components/storage/dasd/DASDPage.tsx:53
 #: src/components/storage/zfcp/ZFCPPage.tsx:199
-#, fuzzy
 msgid "Back to device selection"
-msgstr "Ningún dispositivo seleccionado todavía"
+msgstr "Volver a la selección de dispositivos"
 
 #: src/components/storage/dasd/DASDTable.tsx:63
 #: src/components/storage/iscsi/InitiatorPresenter.tsx:56
@@ -2331,12 +2323,12 @@ msgstr "Desactivado"
 
 #: src/components/storage/zfcp/ZFCPDiskActivationPage.tsx:61
 msgid "zFCP Disk Activation"
-msgstr ""
+msgstr "Activación del disco zFCP"
 
 #. TRANSLATORS: zFCP disk activation form
 #: src/components/storage/zfcp/ZFCPDiskForm.tsx:111
 msgid "zFCP Disk activation form"
-msgstr ""
+msgstr "Formulario de activación del disco zFCP"
 
 #: src/components/storage/zfcp/ZFCPDiskForm.tsx:114
 msgid "The zFCP disk was not activated."
@@ -2355,7 +2347,6 @@ msgid "LUN"
 msgstr "LUN"
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:53
-#, fuzzy
 msgid ""
 "Automatic LUN scan is [enabled]. Activating a controller which is       "
 "running in NPIV mode will automatically configures all its LUNs."
@@ -2365,7 +2356,6 @@ msgstr ""
 "sus LUN."
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:58
-#, fuzzy
 msgid ""
 "Automatic LUN scan is [disabled]. LUNs have to be manually       configured "
 "after activating a controller."
@@ -2400,7 +2390,7 @@ msgstr "Discos"
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:142
 msgid "Controllers"
-msgstr ""
+msgstr "Controladores"
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:155
 msgid "No zFCP controllers found."
