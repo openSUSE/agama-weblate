@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-19 02:37+0000\n"
-"PO-Revision-Date: 2024-09-17 15:48+0000\n"
+"PO-Revision-Date: 2024-09-19 09:48+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "sv/>\n"
@@ -1936,15 +1936,13 @@ msgstr "DASD"
 
 #. TRANSLATORS: DASD devices selection table
 #: src/components/storage/dasd/DASDPage.tsx:43
-#, fuzzy
 msgid "DASD devices selection table"
-msgstr "Ingen enhet vald ännu"
+msgstr "DASD-enhetsvalstabell"
 
 #: src/components/storage/dasd/DASDPage.tsx:53
 #: src/components/storage/zfcp/ZFCPPage.tsx:199
-#, fuzzy
 msgid "Back to device selection"
-msgstr "Ingen enhet vald ännu"
+msgstr "Tillbaka till val av enhet"
 
 #: src/components/storage/dasd/DASDTable.tsx:63
 #: src/components/storage/iscsi/InitiatorPresenter.tsx:56
@@ -2308,12 +2306,12 @@ msgstr "Inaktiverad"
 
 #: src/components/storage/zfcp/ZFCPDiskActivationPage.tsx:61
 msgid "zFCP Disk Activation"
-msgstr ""
+msgstr "zFCP-diskaktivering"
 
 #. TRANSLATORS: zFCP disk activation form
 #: src/components/storage/zfcp/ZFCPDiskForm.tsx:111
 msgid "zFCP Disk activation form"
-msgstr ""
+msgstr "zFCP-diskaktiveringsformulär"
 
 #: src/components/storage/zfcp/ZFCPDiskForm.tsx:114
 msgid "The zFCP disk was not activated."
@@ -2332,22 +2330,20 @@ msgid "LUN"
 msgstr "LUN"
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:53
-#, fuzzy
 msgid ""
 "Automatic LUN scan is [enabled]. Activating a controller which is       "
 "running in NPIV mode will automatically configures all its LUNs."
 msgstr ""
-"Automatisk LUN-skanning är [aktiverad]. Aktivering av en styrenhet som körs "
-"i NPIV-läge kommer automatiskt att konfigurera alla dess LUN:er."
+"Automatisk LUN-skanning är [aktiverad]. Aktiverar en styrenhet som är       "
+"körande i NPIV läge kommer att automatiskt konfigurera alla dess LUN."
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:58
-#, fuzzy
 msgid ""
 "Automatic LUN scan is [disabled]. LUNs have to be manually       configured "
 "after activating a controller."
 msgstr ""
-"Automatisk LUN-skanning är [inaktiverat]. LUN:er måste konfigureras manuellt "
-"efter aktivering av en styrenhet."
+"Automatisk LUN-skanning är [avaktiverad]. LUN kommer att behöva vara "
+"manuellt       konfigurerat efter aktivering av en styrenhet."
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:79
 msgid "Please, try to activate a zFCP disk."
@@ -2376,7 +2372,7 @@ msgstr "Diskar"
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:142
 msgid "Controllers"
-msgstr ""
+msgstr "Styrenheter"
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:155
 msgid "No zFCP controllers found."
@@ -2558,7 +2554,7 @@ msgstr "Översikt"
 
 #: src/routes/storage.tsx:85
 msgid "ZFCP"
-msgstr ""
+msgstr "ZFCP"
 
 #~ msgid "Please, try to read the zFCP devices again."
 #~ msgstr "Försök att läsa zFCP-enheterna igen."
