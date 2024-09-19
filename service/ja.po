@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-18 02:35+0000\n"
-"PO-Revision-Date: 2024-08-29 07:47+0000\n"
+"PO-Revision-Date: 2024-09-19 06:48+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
-"Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-"
-"service-master/ja/>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/"
+"agama-service-master/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #. Runs the startup phase
 #: service/lib/agama/manager.rb:88
@@ -136,13 +136,13 @@ msgstr "%s 個の依存関係の問題が見つかりました。"
 #: service/lib/agama/storage/config_checker.rb:112
 #, c-format
 msgid "There is no LVM thin pool volume with alias %s"
-msgstr ""
+msgstr "%s という名前の LVM Thin プールボリュームはありません"
 
 #. TRANSLATORS: %s is the replaced by a device alias (e.g., "pv1").
 #: service/lib/agama/storage/config_checker.rb:129
 #, c-format
 msgid "There is no LVM physical volume with alias %s"
-msgstr ""
+msgstr "%s という名前の LVM 物理ボリュームはありません"
 
 #. TRANSLATORS: 'crypt_method' is the identifier of the method to encrypt the device
 #. (e.g., 'luks1', 'random_swap').
