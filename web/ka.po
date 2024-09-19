@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-18 02:35+0000\n"
+"POT-Creation-Date: 2024-09-19 02:37+0000\n"
 "PO-Revision-Date: 2024-06-28 16:46+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -165,7 +165,6 @@ msgstr "ვერ შეიცვლება დაშორებული დ
 #: src/components/core/Page.tsx:270
 #: src/components/storage/EncryptionSettingsDialog.tsx:153
 #: src/components/storage/VolumeDialog.tsx:640
-#: src/components/storage/ZFCPPage.jsx:528
 msgid "Accept"
 msgstr "დასტური"
 
@@ -292,15 +291,15 @@ msgstr "ქმედებები"
 msgid "Waiting"
 msgstr "მოლოდინი"
 
-#: src/components/core/ServerError.jsx:47
+#: src/components/core/ServerError.tsx:45
 msgid "Cannot connect to Agama server"
 msgstr ""
 
-#: src/components/core/ServerError.jsx:51
+#: src/components/core/ServerError.tsx:49
 msgid "Please, check whether it is running."
 msgstr ""
 
-#: src/components/core/ServerError.jsx:56
+#: src/components/core/ServerError.tsx:55
 msgid "Reload"
 msgstr "თავიდან ჩატვირთვა"
 
@@ -420,16 +419,16 @@ msgstr "მისამართები"
 msgid "Addresses data list"
 msgstr "მისამართის მონაცემების სია"
 
-#. TRANSLATORS: table header
 #. TRANSLATORS: input field for the iSCSI initiator name
+#. TRANSLATORS: table header
 #: src/components/network/ConnectionsTable.tsx:65
 #: src/components/network/ConnectionsTable.tsx:94
-#: src/components/storage/ZFCPPage.jsx:381
 #: src/components/storage/iscsi/InitiatorForm.tsx:52
 #: src/components/storage/iscsi/InitiatorPresenter.tsx:53
 #: src/components/storage/iscsi/InitiatorPresenter.tsx:70
 #: src/components/storage/iscsi/NodesPresenter.jsx:99
 #: src/components/storage/iscsi/NodesPresenter.jsx:120
+#: src/components/storage/zfcp/ZFCPDisksTable.tsx:41
 msgid "Name"
 msgstr "სახელი"
 
@@ -604,9 +603,9 @@ msgid "Authentication failed, please try again"
 msgstr "ავთენტიკაცია სამიზნით"
 
 #: src/components/network/WifiConnectionForm.tsx:100
-#: src/components/storage/ZFCPDiskForm.jsx:105
 #: src/components/storage/iscsi/DiscoverForm.tsx:98
 #: src/components/storage/iscsi/LoginForm.jsx:69
+#: src/components/storage/zfcp/ZFCPDiskForm.tsx:113
 #: src/components/users/FirstUserForm.tsx:210
 msgid "Something went wrong"
 msgstr "რაღაც არასწორია"
@@ -644,8 +643,8 @@ msgstr "დაკავშირება"
 msgid "Connected"
 msgstr "დაკავშირებულია"
 
-#. TRANSLATORS: Wifi network status
 #. TRANSLATORS: iSCSI connection status
+#. TRANSLATORS: Wifi network status
 #: src/components/network/WifiNetworksListPage.tsx:80
 #: src/components/network/WifiNetworksListPage.tsx:140
 #: src/components/storage/iscsi/NodesPresenter.jsx:64
@@ -689,7 +688,7 @@ msgstr "მომხმარებლები"
 
 #: src/components/overview/OverviewPage.tsx:48
 #: src/components/overview/StorageSection.jsx:111
-#: src/components/storage/ProposalPage.tsx:107 src/routes/storage.tsx:44
+#: src/components/storage/ProposalPage.tsx:107 src/routes/storage.tsx:50
 msgid "Storage"
 msgstr "საცავი"
 
@@ -990,117 +989,6 @@ msgid ""
 "No partitions will be automatically configured for booting. Use with caution."
 msgstr ""
 
-#: src/components/storage/DASDFormatProgress.tsx:48
-msgid "Formatting DASD devices"
-msgstr "DASD მოწყობილობების დაფორმატება"
-
-#: src/components/storage/DASDPage.tsx:36 src/routes/storage.tsx:70
-#, fuzzy
-msgid "DASD"
-msgstr "DASD %s"
-
-#: src/components/storage/DASDTable.tsx:63
-#: src/components/storage/ZFCPPage.jsx:340
-#: src/components/storage/iscsi/InitiatorPresenter.tsx:56
-#: src/components/storage/iscsi/NodesPresenter.jsx:102
-msgid "No"
-msgstr "არა"
-
-#: src/components/storage/DASDTable.tsx:63
-#: src/components/storage/ZFCPPage.jsx:340
-#: src/components/storage/iscsi/InitiatorPresenter.tsx:56
-#: src/components/storage/iscsi/NodesPresenter.jsx:102
-msgid "Yes"
-msgstr "დიახ"
-
-#: src/components/storage/DASDTable.tsx:70
-#: src/components/storage/ZFCPDiskForm.jsx:110
-#: src/components/storage/ZFCPPage.jsx:324
-#: src/components/storage/ZFCPPage.jsx:382
-msgid "Channel ID"
-msgstr "არხის ID"
-
-#. TRANSLATORS: table header
-#: src/components/storage/DASDTable.tsx:71
-#: src/components/storage/ZFCPPage.jsx:325
-#: src/components/storage/iscsi/NodesPresenter.jsx:103
-#: src/components/storage/iscsi/NodesPresenter.jsx:124
-#: src/components/users/RootAuthMethods.tsx:70
-msgid "Status"
-msgstr "სტატუსი"
-
-#: src/components/storage/DASDTable.tsx:72
-#: src/components/storage/DeviceSelectorTable.tsx:187
-#: src/components/storage/ProposalResultTable.tsx:129
-#: src/components/storage/SpaceActionsTable.tsx:206
-#: src/components/storage/VolumeLocationSelectorTable.tsx:95
-msgid "Device"
-msgstr "მოწყობილობა"
-
-#: src/components/storage/DASDTable.tsx:73
-msgid "Type"
-msgstr "ტიპი"
-
-#. TRANSLATORS: table header, the column contains "Yes"/"No" values
-#. for the DIAG access mode (special disk access mode on IBM mainframes),
-#. usually keep untranslated
-#: src/components/storage/DASDTable.tsx:77
-msgid "DIAG"
-msgstr "დიაგ"
-
-#: src/components/storage/DASDTable.tsx:78
-msgid "Formatted"
-msgstr "დაფორმატებული"
-
-#: src/components/storage/DASDTable.tsx:79
-msgid "Partition Info"
-msgstr "დანაყოფის ინფორმაცია"
-
-#. TRANSLATORS: drop down menu label
-#: src/components/storage/DASDTable.tsx:118
-msgid "Perform an action"
-msgstr "ქმედების შესრულება"
-
-#: src/components/storage/DASDTable.tsx:125
-#: src/components/storage/ZFCPPage.jsx:353
-msgid "Activate"
-msgstr "აქტივაცია"
-
-#: src/components/storage/DASDTable.tsx:129
-#: src/components/storage/ZFCPPage.jsx:395
-msgid "Deactivate"
-msgstr "დეაქტივაცია"
-
-#: src/components/storage/DASDTable.tsx:134
-msgid "Set DIAG On"
-msgstr "დიაგნოსტიკის ჩართვა"
-
-#: src/components/storage/DASDTable.tsx:138
-msgid "Set DIAG Off"
-msgstr "დიაგნოსტიკის გამორთვა"
-
-#: src/components/storage/DASDTable.tsx:143
-msgid "Format"
-msgstr "დაფორმატება"
-
-#: src/components/storage/DASDTable.tsx:279
-#: src/components/storage/DASDTable.tsx:280
-msgid "Filter by min channel"
-msgstr ""
-
-#: src/components/storage/DASDTable.tsx:287
-msgid "Remove min channel filter"
-msgstr ""
-
-#: src/components/storage/DASDTable.tsx:301
-#: src/components/storage/DASDTable.tsx:302
-msgid "Filter by max channel"
-msgstr ""
-
-#: src/components/storage/DASDTable.tsx:309
-msgid "Remove max channel filter"
-msgstr ""
-
 #: src/components/storage/DeviceSelection.tsx:105
 msgid ""
 "The file systems will be allocated by default as [new partitions in the "
@@ -1210,6 +1098,14 @@ msgstr "დანაყოფების შემცირება"
 msgid "No content found"
 msgstr "შემცველობა აღმოჩენილი არაა"
 
+#: src/components/storage/DeviceSelectorTable.tsx:187
+#: src/components/storage/ProposalResultTable.tsx:129
+#: src/components/storage/SpaceActionsTable.tsx:206
+#: src/components/storage/VolumeLocationSelectorTable.tsx:95
+#: src/components/storage/dasd/DASDTable.tsx:72
+msgid "Device"
+msgstr "მოწყობილობა"
+
 #: src/components/storage/DeviceSelectorTable.tsx:188
 #: src/components/storage/PartitionsField.tsx:453
 #: src/components/storage/ProposalResultTable.tsx:131
@@ -1227,23 +1123,24 @@ msgstr "დეტალები"
 msgid "Size"
 msgstr "ზომა"
 
-#: src/components/storage/DevicesTechMenu.jsx:39
+#: src/components/storage/DevicesTechMenu.tsx:42
 msgid "Manage and format"
 msgstr "მართვა და დაფორმატება"
 
-#: src/components/storage/DevicesTechMenu.jsx:53
+#: src/components/storage/DevicesTechMenu.tsx:55
 msgid "Activate disks"
 msgstr "დისკების გააქტიურება"
 
-#: src/components/storage/DevicesTechMenu.jsx:54
+#: src/components/storage/DevicesTechMenu.tsx:56
+#: src/components/storage/zfcp/ZFCPPage.tsx:190
 msgid "zFCP"
 msgstr "zFCP"
 
-#: src/components/storage/DevicesTechMenu.jsx:67
+#: src/components/storage/DevicesTechMenu.tsx:69
 msgid "Connect to iSCSI targets"
 msgstr ""
 
-#: src/components/storage/DevicesTechMenu.jsx:68 src/routes/storage.tsx:65
+#: src/components/storage/DevicesTechMenu.tsx:70 src/routes/storage.tsx:71
 msgid "iSCSI"
 msgstr "iSCSI"
 
@@ -1966,86 +1863,119 @@ msgstr ""
 msgid "Usage"
 msgstr "გამოყენება"
 
-#: src/components/storage/ZFCPDiskForm.jsx:106
-msgid "The zFCP disk was not activated."
+#: src/components/storage/dasd/DASDFormatProgress.tsx:48
+msgid "Formatting DASD devices"
+msgstr "DASD მოწყობილობების დაფორმატება"
+
+#: src/components/storage/dasd/DASDPage.tsx:38 src/routes/storage.tsx:76
+#, fuzzy
+msgid "DASD"
+msgstr "DASD %s"
+
+#. TRANSLATORS: DASD devices selection table
+#: src/components/storage/dasd/DASDPage.tsx:43
+msgid "DASD devices selection table"
 msgstr ""
 
-#. TRANSLATORS: abbrev. World Wide Port Name
-#: src/components/storage/ZFCPDiskForm.jsx:123
-#: src/components/storage/ZFCPPage.jsx:383
-msgid "WWPN"
-msgstr "WWPN"
+#: src/components/storage/dasd/DASDPage.tsx:53
+#: src/components/storage/zfcp/ZFCPPage.tsx:199
+#, fuzzy
+msgid "Back to device selection"
+msgstr "ლოკალის არჩევანი"
 
-#. TRANSLATORS: abbrev. Logical Unit Number
-#: src/components/storage/ZFCPDiskForm.jsx:131
-#: src/components/storage/ZFCPPage.jsx:384
-msgid "LUN"
-msgstr "LUN"
+#: src/components/storage/dasd/DASDTable.tsx:63
+#: src/components/storage/iscsi/InitiatorPresenter.tsx:56
+#: src/components/storage/iscsi/NodesPresenter.jsx:102
+#: src/components/storage/zfcp/ZFCPControllersTable.tsx:36
+msgid "No"
+msgstr "არა"
 
-#: src/components/storage/ZFCPPage.jsx:326
-msgid "Auto LUNs Scan"
-msgstr "LUN-ების ავტომატური სკანირება"
+#: src/components/storage/dasd/DASDTable.tsx:63
+#: src/components/storage/iscsi/InitiatorPresenter.tsx:56
+#: src/components/storage/iscsi/NodesPresenter.jsx:102
+#: src/components/storage/zfcp/ZFCPControllersTable.tsx:36
+msgid "Yes"
+msgstr "დიახ"
 
-#: src/components/storage/ZFCPPage.jsx:337
-msgid "Activated"
-msgstr "აქტივირებულია"
+#: src/components/storage/dasd/DASDTable.tsx:70
+#: src/components/storage/zfcp/ZFCPControllersTable.tsx:20
+#: src/components/storage/zfcp/ZFCPDiskForm.tsx:118
+#: src/components/storage/zfcp/ZFCPDisksTable.tsx:42
+msgid "Channel ID"
+msgstr "არხის ID"
 
-#: src/components/storage/ZFCPPage.jsx:337
-msgid "Deactivated"
-msgstr "დეაქტივირებულია"
+#. TRANSLATORS: table header
+#: src/components/storage/dasd/DASDTable.tsx:71
+#: src/components/storage/iscsi/NodesPresenter.jsx:103
+#: src/components/storage/iscsi/NodesPresenter.jsx:124
+#: src/components/storage/zfcp/ZFCPControllersTable.tsx:21
+#: src/components/users/RootAuthMethods.tsx:70
+msgid "Status"
+msgstr "სტატუსი"
 
-#: src/components/storage/ZFCPPage.jsx:437
-msgid "No zFCP controllers found."
+#: src/components/storage/dasd/DASDTable.tsx:73
+msgid "Type"
+msgstr "ტიპი"
+
+#. TRANSLATORS: table header, the column contains "Yes"/"No" values
+#. for the DIAG access mode (special disk access mode on IBM mainframes),
+#. usually keep untranslated
+#: src/components/storage/dasd/DASDTable.tsx:77
+msgid "DIAG"
+msgstr "დიაგ"
+
+#: src/components/storage/dasd/DASDTable.tsx:78
+msgid "Formatted"
+msgstr "დაფორმატებული"
+
+#: src/components/storage/dasd/DASDTable.tsx:79
+msgid "Partition Info"
+msgstr "დანაყოფის ინფორმაცია"
+
+#. TRANSLATORS: drop down menu label
+#: src/components/storage/dasd/DASDTable.tsx:118
+msgid "Perform an action"
+msgstr "ქმედების შესრულება"
+
+#: src/components/storage/dasd/DASDTable.tsx:125
+#: src/components/storage/zfcp/ZFCPControllersTable.tsx:51
+msgid "Activate"
+msgstr "აქტივაცია"
+
+#: src/components/storage/dasd/DASDTable.tsx:129
+#: src/components/storage/zfcp/ZFCPDisksTable.tsx:55
+msgid "Deactivate"
+msgstr "დეაქტივაცია"
+
+#: src/components/storage/dasd/DASDTable.tsx:134
+msgid "Set DIAG On"
+msgstr "დიაგნოსტიკის ჩართვა"
+
+#: src/components/storage/dasd/DASDTable.tsx:138
+msgid "Set DIAG Off"
+msgstr "დიაგნოსტიკის გამორთვა"
+
+#: src/components/storage/dasd/DASDTable.tsx:143
+msgid "Format"
+msgstr "დაფორმატება"
+
+#: src/components/storage/dasd/DASDTable.tsx:279
+#: src/components/storage/dasd/DASDTable.tsx:280
+msgid "Filter by min channel"
 msgstr ""
 
-#: src/components/storage/ZFCPPage.jsx:438
-msgid "Please, try to read the zFCP devices again."
+#: src/components/storage/dasd/DASDTable.tsx:287
+msgid "Remove min channel filter"
 msgstr ""
 
-#: src/components/storage/ZFCPPage.jsx:441
-msgid "Read zFCP devices"
+#: src/components/storage/dasd/DASDTable.tsx:301
+#: src/components/storage/dasd/DASDTable.tsx:302
+msgid "Filter by max channel"
 msgstr ""
 
-#: src/components/storage/ZFCPPage.jsx:452
-msgid ""
-"Automatic LUN scan is [enabled]. Activating a controller which is running in "
-"NPIV mode will automatically configures all its LUNs."
+#: src/components/storage/dasd/DASDTable.tsx:309
+msgid "Remove max channel filter"
 msgstr ""
-
-#: src/components/storage/ZFCPPage.jsx:457
-msgid ""
-"Automatic LUN scan is [disabled]. LUNs have to be manually configured after "
-"activating a controller."
-msgstr ""
-
-#: src/components/storage/ZFCPPage.jsx:519
-msgid "Activate a zFCP disk"
-msgstr ""
-
-#: src/components/storage/ZFCPPage.jsx:553
-msgid "Please, try to activate a zFCP controller."
-msgstr ""
-
-#: src/components/storage/ZFCPPage.jsx:559
-msgid "Please, try to activate a zFCP disk."
-msgstr ""
-
-#: src/components/storage/ZFCPPage.jsx:562
-msgid "Activate zFCP disk"
-msgstr ""
-
-#: src/components/storage/ZFCPPage.jsx:570
-msgid "No zFCP disks found."
-msgstr ""
-
-#: src/components/storage/ZFCPPage.jsx:586
-msgid "Activate new disk"
-msgstr "ახალი დისკის გააქტიურება"
-
-#. TRANSLATORS: section title
-#: src/components/storage/ZFCPPage.jsx:599
-msgid "Disks"
-msgstr "დისკები"
 
 #: src/components/storage/device-utils.tsx:74
 msgid "Unused space"
@@ -2299,6 +2229,92 @@ msgstr "აირჩიეთ ჩატვირთვადი დანაყ�
 msgid "with custom actions"
 msgstr ""
 
+#: src/components/storage/zfcp/ZFCPControllersTable.tsx:22
+msgid "Auto LUNs Scan"
+msgstr "LUN-ების ავტომატური სკანირება"
+
+#: src/components/storage/zfcp/ZFCPControllersTable.tsx:33
+msgid "Activated"
+msgstr "აქტივირებულია"
+
+#: src/components/storage/zfcp/ZFCPControllersTable.tsx:33
+msgid "Deactivated"
+msgstr "დეაქტივირებულია"
+
+#: src/components/storage/zfcp/ZFCPDiskActivationPage.tsx:61
+msgid "zFCP Disk Activation"
+msgstr ""
+
+#. TRANSLATORS: zFCP disk activation form
+#: src/components/storage/zfcp/ZFCPDiskForm.tsx:111
+msgid "zFCP Disk activation form"
+msgstr ""
+
+#: src/components/storage/zfcp/ZFCPDiskForm.tsx:114
+msgid "The zFCP disk was not activated."
+msgstr ""
+
+#. TRANSLATORS: abbrev. World Wide Port Name
+#: src/components/storage/zfcp/ZFCPDiskForm.tsx:131
+#: src/components/storage/zfcp/ZFCPDisksTable.tsx:43
+msgid "WWPN"
+msgstr "WWPN"
+
+#. TRANSLATORS: abbrev. Logical Unit Number
+#: src/components/storage/zfcp/ZFCPDiskForm.tsx:139
+#: src/components/storage/zfcp/ZFCPDisksTable.tsx:44
+msgid "LUN"
+msgstr "LUN"
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:53
+msgid ""
+"Automatic LUN scan is [enabled]. Activating a controller which is       "
+"running in NPIV mode will automatically configures all its LUNs."
+msgstr ""
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:58
+msgid ""
+"Automatic LUN scan is [disabled]. LUNs have to be manually       configured "
+"after activating a controller."
+msgstr ""
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:79
+msgid "Please, try to activate a zFCP disk."
+msgstr ""
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:80
+#: src/components/storage/zfcp/ZFCPPage.tsx:163
+msgid "Please, try to activate a zFCP controller."
+msgstr ""
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:84
+msgid "No zFCP disks found."
+msgstr ""
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:91
+msgid "Activate zFCP disk"
+msgstr ""
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:114
+msgid "Activate new disk"
+msgstr "ახალი დისკის გააქტიურება"
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:132
+msgid "Disks"
+msgstr "დისკები"
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:142
+msgid "Controllers"
+msgstr ""
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:155
+msgid "No zFCP controllers found."
+msgstr ""
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:159
+msgid "Read zFCP devices"
+msgstr ""
+
 #: src/components/users/FirstUser.tsx:33
 msgid "Define a user now"
 msgstr ""
@@ -2468,6 +2484,10 @@ msgstr "გაწმენდა"
 #: src/router.js:48
 msgid "Overview"
 msgstr "გადახედვა"
+
+#: src/routes/storage.tsx:85
+msgid "ZFCP"
+msgstr ""
 
 #~ msgid "Agama"
 #~ msgstr "Agama"

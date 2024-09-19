@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-18 02:35+0000\n"
+"POT-Creation-Date: 2024-09-19 02:37+0000\n"
 "PO-Revision-Date: 2024-09-17 15:48+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -180,7 +180,6 @@ msgstr "No es pot canviar a la instal·lació remota."
 #: src/components/core/Page.tsx:270
 #: src/components/storage/EncryptionSettingsDialog.tsx:153
 #: src/components/storage/VolumeDialog.tsx:640
-#: src/components/storage/ZFCPPage.jsx:528
 msgid "Accept"
 msgstr "Accepta-ho"
 
@@ -314,15 +313,15 @@ msgstr "Accions"
 msgid "Waiting"
 msgstr "Escrivint"
 
-#: src/components/core/ServerError.jsx:47
+#: src/components/core/ServerError.tsx:45
 msgid "Cannot connect to Agama server"
 msgstr "No es pot connectar amb el servidor d'Agama."
 
-#: src/components/core/ServerError.jsx:51
+#: src/components/core/ServerError.tsx:49
 msgid "Please, check whether it is running."
 msgstr "Si us plau, comproveu si s'executa."
 
-#: src/components/core/ServerError.jsx:56
+#: src/components/core/ServerError.tsx:55
 msgid "Reload"
 msgstr "Torna a carregar"
 
@@ -442,16 +441,16 @@ msgstr "Adreces"
 msgid "Addresses data list"
 msgstr "Llista de dades d'adreces"
 
-#. TRANSLATORS: table header
 #. TRANSLATORS: input field for the iSCSI initiator name
+#. TRANSLATORS: table header
 #: src/components/network/ConnectionsTable.tsx:65
 #: src/components/network/ConnectionsTable.tsx:94
-#: src/components/storage/ZFCPPage.jsx:381
 #: src/components/storage/iscsi/InitiatorForm.tsx:52
 #: src/components/storage/iscsi/InitiatorPresenter.tsx:53
 #: src/components/storage/iscsi/InitiatorPresenter.tsx:70
 #: src/components/storage/iscsi/NodesPresenter.jsx:99
 #: src/components/storage/iscsi/NodesPresenter.jsx:120
+#: src/components/storage/zfcp/ZFCPDisksTable.tsx:41
 msgid "Name"
 msgstr "Nom"
 
@@ -625,9 +624,9 @@ msgid "Authentication failed, please try again"
 msgstr "Hi ha hagut un error d'autenticació. Torneu-ho a provar."
 
 #: src/components/network/WifiConnectionForm.tsx:100
-#: src/components/storage/ZFCPDiskForm.jsx:105
 #: src/components/storage/iscsi/DiscoverForm.tsx:98
 #: src/components/storage/iscsi/LoginForm.jsx:69
+#: src/components/storage/zfcp/ZFCPDiskForm.tsx:113
 #: src/components/users/FirstUserForm.tsx:210
 msgid "Something went wrong"
 msgstr "Alguna cosa ha anat malament."
@@ -666,8 +665,8 @@ msgstr "Connectant"
 msgid "Connected"
 msgstr "Connectat"
 
-#. TRANSLATORS: Wifi network status
 #. TRANSLATORS: iSCSI connection status
+#. TRANSLATORS: Wifi network status
 #: src/components/network/WifiNetworksListPage.tsx:80
 #: src/components/network/WifiNetworksListPage.tsx:140
 #: src/components/storage/iscsi/NodesPresenter.jsx:64
@@ -709,7 +708,7 @@ msgstr "Usuaris"
 
 #: src/components/overview/OverviewPage.tsx:48
 #: src/components/overview/StorageSection.jsx:111
-#: src/components/storage/ProposalPage.tsx:107 src/routes/storage.tsx:44
+#: src/components/storage/ProposalPage.tsx:107 src/routes/storage.tsx:50
 msgid "Storage"
 msgstr "Emmagatzematge"
 
@@ -1039,116 +1038,6 @@ msgstr ""
 "No es configurarà automàticament cap partició per a l'arrencada. Useu-ho amb "
 "precaució."
 
-#: src/components/storage/DASDFormatProgress.tsx:48
-msgid "Formatting DASD devices"
-msgstr "Formatatge de dispositius DASD"
-
-#: src/components/storage/DASDPage.tsx:36 src/routes/storage.tsx:70
-msgid "DASD"
-msgstr "DASD"
-
-#: src/components/storage/DASDTable.tsx:63
-#: src/components/storage/ZFCPPage.jsx:340
-#: src/components/storage/iscsi/InitiatorPresenter.tsx:56
-#: src/components/storage/iscsi/NodesPresenter.jsx:102
-msgid "No"
-msgstr "No"
-
-#: src/components/storage/DASDTable.tsx:63
-#: src/components/storage/ZFCPPage.jsx:340
-#: src/components/storage/iscsi/InitiatorPresenter.tsx:56
-#: src/components/storage/iscsi/NodesPresenter.jsx:102
-msgid "Yes"
-msgstr "Sí"
-
-#: src/components/storage/DASDTable.tsx:70
-#: src/components/storage/ZFCPDiskForm.jsx:110
-#: src/components/storage/ZFCPPage.jsx:324
-#: src/components/storage/ZFCPPage.jsx:382
-msgid "Channel ID"
-msgstr "Identificador del canal"
-
-#. TRANSLATORS: table header
-#: src/components/storage/DASDTable.tsx:71
-#: src/components/storage/ZFCPPage.jsx:325
-#: src/components/storage/iscsi/NodesPresenter.jsx:103
-#: src/components/storage/iscsi/NodesPresenter.jsx:124
-#: src/components/users/RootAuthMethods.tsx:70
-msgid "Status"
-msgstr "Estat"
-
-#: src/components/storage/DASDTable.tsx:72
-#: src/components/storage/DeviceSelectorTable.tsx:187
-#: src/components/storage/ProposalResultTable.tsx:129
-#: src/components/storage/SpaceActionsTable.tsx:206
-#: src/components/storage/VolumeLocationSelectorTable.tsx:95
-msgid "Device"
-msgstr "Dispositiu"
-
-#: src/components/storage/DASDTable.tsx:73
-msgid "Type"
-msgstr "Tipus"
-
-#. TRANSLATORS: table header, the column contains "Yes"/"No" values
-#. for the DIAG access mode (special disk access mode on IBM mainframes),
-#. usually keep untranslated
-#: src/components/storage/DASDTable.tsx:77
-msgid "DIAG"
-msgstr "DIAG"
-
-#: src/components/storage/DASDTable.tsx:78
-msgid "Formatted"
-msgstr "Formatat"
-
-#: src/components/storage/DASDTable.tsx:79
-msgid "Partition Info"
-msgstr "Informació de la partició"
-
-#. TRANSLATORS: drop down menu label
-#: src/components/storage/DASDTable.tsx:118
-msgid "Perform an action"
-msgstr "Fes una acció"
-
-#: src/components/storage/DASDTable.tsx:125
-#: src/components/storage/ZFCPPage.jsx:353
-msgid "Activate"
-msgstr "Activa"
-
-#: src/components/storage/DASDTable.tsx:129
-#: src/components/storage/ZFCPPage.jsx:395
-msgid "Deactivate"
-msgstr "Desactiva"
-
-#: src/components/storage/DASDTable.tsx:134
-msgid "Set DIAG On"
-msgstr "Activa la diagnosi"
-
-#: src/components/storage/DASDTable.tsx:138
-msgid "Set DIAG Off"
-msgstr "Desactiva la diagnosi"
-
-#: src/components/storage/DASDTable.tsx:143
-msgid "Format"
-msgstr "Formata"
-
-#: src/components/storage/DASDTable.tsx:279
-#: src/components/storage/DASDTable.tsx:280
-msgid "Filter by min channel"
-msgstr "Filtra per canal mínim"
-
-#: src/components/storage/DASDTable.tsx:287
-msgid "Remove min channel filter"
-msgstr "Suprimeix el filtre del canal mínim"
-
-#: src/components/storage/DASDTable.tsx:301
-#: src/components/storage/DASDTable.tsx:302
-msgid "Filter by max channel"
-msgstr "Filtra per canal màxim"
-
-#: src/components/storage/DASDTable.tsx:309
-msgid "Remove max channel filter"
-msgstr "Suprimeix el filtre de canal màxim"
-
 #: src/components/storage/DeviceSelection.tsx:105
 msgid ""
 "The file systems will be allocated by default as [new partitions in the "
@@ -1262,6 +1151,14 @@ msgstr "%s amb %d particions"
 msgid "No content found"
 msgstr "No s'ha trobat contingut."
 
+#: src/components/storage/DeviceSelectorTable.tsx:187
+#: src/components/storage/ProposalResultTable.tsx:129
+#: src/components/storage/SpaceActionsTable.tsx:206
+#: src/components/storage/VolumeLocationSelectorTable.tsx:95
+#: src/components/storage/dasd/DASDTable.tsx:72
+msgid "Device"
+msgstr "Dispositiu"
+
 #: src/components/storage/DeviceSelectorTable.tsx:188
 #: src/components/storage/PartitionsField.tsx:453
 #: src/components/storage/ProposalResultTable.tsx:131
@@ -1279,23 +1176,24 @@ msgstr "Detalls"
 msgid "Size"
 msgstr "Mida"
 
-#: src/components/storage/DevicesTechMenu.jsx:39
+#: src/components/storage/DevicesTechMenu.tsx:42
 msgid "Manage and format"
 msgstr "Gestió i formatatge"
 
-#: src/components/storage/DevicesTechMenu.jsx:53
+#: src/components/storage/DevicesTechMenu.tsx:55
 msgid "Activate disks"
 msgstr "Activa els discs"
 
-#: src/components/storage/DevicesTechMenu.jsx:54
+#: src/components/storage/DevicesTechMenu.tsx:56
+#: src/components/storage/zfcp/ZFCPPage.tsx:190
 msgid "zFCP"
 msgstr "zFCP"
 
-#: src/components/storage/DevicesTechMenu.jsx:67
+#: src/components/storage/DevicesTechMenu.tsx:69
 msgid "Connect to iSCSI targets"
 msgstr "Connecta amb objectius iSCSI"
 
-#: src/components/storage/DevicesTechMenu.jsx:68 src/routes/storage.tsx:65
+#: src/components/storage/DevicesTechMenu.tsx:70 src/routes/storage.tsx:71
 msgid "iSCSI"
 msgstr "iSCSI"
 
@@ -2039,90 +1937,119 @@ msgstr ""
 msgid "Usage"
 msgstr "Ús"
 
-#: src/components/storage/ZFCPDiskForm.jsx:106
-msgid "The zFCP disk was not activated."
-msgstr "El disc zFCP no s'ha activat."
+#: src/components/storage/dasd/DASDFormatProgress.tsx:48
+msgid "Formatting DASD devices"
+msgstr "Formatatge de dispositius DASD"
 
-#. TRANSLATORS: abbrev. World Wide Port Name
-#: src/components/storage/ZFCPDiskForm.jsx:123
-#: src/components/storage/ZFCPPage.jsx:383
-msgid "WWPN"
-msgstr "WWPN"
+#: src/components/storage/dasd/DASDPage.tsx:38 src/routes/storage.tsx:76
+msgid "DASD"
+msgstr "DASD"
 
-#. TRANSLATORS: abbrev. Logical Unit Number
-#: src/components/storage/ZFCPDiskForm.jsx:131
-#: src/components/storage/ZFCPPage.jsx:384
-msgid "LUN"
-msgstr "LUN"
+#. TRANSLATORS: DASD devices selection table
+#: src/components/storage/dasd/DASDPage.tsx:43
+#, fuzzy
+msgid "DASD devices selection table"
+msgstr "Encara no s'ha seleccionat cap dispositiu."
 
-#: src/components/storage/ZFCPPage.jsx:326
-msgid "Auto LUNs Scan"
-msgstr "Escaneig automàtic de LUN"
+#: src/components/storage/dasd/DASDPage.tsx:53
+#: src/components/storage/zfcp/ZFCPPage.tsx:199
+#, fuzzy
+msgid "Back to device selection"
+msgstr "Encara no s'ha seleccionat cap dispositiu."
 
-#: src/components/storage/ZFCPPage.jsx:337
-msgid "Activated"
-msgstr "Activat"
+#: src/components/storage/dasd/DASDTable.tsx:63
+#: src/components/storage/iscsi/InitiatorPresenter.tsx:56
+#: src/components/storage/iscsi/NodesPresenter.jsx:102
+#: src/components/storage/zfcp/ZFCPControllersTable.tsx:36
+msgid "No"
+msgstr "No"
 
-#: src/components/storage/ZFCPPage.jsx:337
-msgid "Deactivated"
-msgstr "Desactivat"
+#: src/components/storage/dasd/DASDTable.tsx:63
+#: src/components/storage/iscsi/InitiatorPresenter.tsx:56
+#: src/components/storage/iscsi/NodesPresenter.jsx:102
+#: src/components/storage/zfcp/ZFCPControllersTable.tsx:36
+msgid "Yes"
+msgstr "Sí"
 
-#: src/components/storage/ZFCPPage.jsx:437
-msgid "No zFCP controllers found."
-msgstr "No s'ha trobat cap controlador de zFCP."
+#: src/components/storage/dasd/DASDTable.tsx:70
+#: src/components/storage/zfcp/ZFCPControllersTable.tsx:20
+#: src/components/storage/zfcp/ZFCPDiskForm.tsx:118
+#: src/components/storage/zfcp/ZFCPDisksTable.tsx:42
+msgid "Channel ID"
+msgstr "Identificador del canal"
 
-#: src/components/storage/ZFCPPage.jsx:438
-msgid "Please, try to read the zFCP devices again."
-msgstr "Si us plau, intenteu tornar a llegir els dispositius zFCP."
+#. TRANSLATORS: table header
+#: src/components/storage/dasd/DASDTable.tsx:71
+#: src/components/storage/iscsi/NodesPresenter.jsx:103
+#: src/components/storage/iscsi/NodesPresenter.jsx:124
+#: src/components/storage/zfcp/ZFCPControllersTable.tsx:21
+#: src/components/users/RootAuthMethods.tsx:70
+msgid "Status"
+msgstr "Estat"
 
-#: src/components/storage/ZFCPPage.jsx:441
-msgid "Read zFCP devices"
-msgstr "Llegeix els dispositius zFCP"
+#: src/components/storage/dasd/DASDTable.tsx:73
+msgid "Type"
+msgstr "Tipus"
 
-#: src/components/storage/ZFCPPage.jsx:452
-msgid ""
-"Automatic LUN scan is [enabled]. Activating a controller which is running in "
-"NPIV mode will automatically configures all its LUNs."
-msgstr ""
-"L'exploració automàtica de LUN està [activada]. L'activació d'un controlador "
-"que s'executa en mode NPIV configurarà automàticament tots els seus LUN."
+#. TRANSLATORS: table header, the column contains "Yes"/"No" values
+#. for the DIAG access mode (special disk access mode on IBM mainframes),
+#. usually keep untranslated
+#: src/components/storage/dasd/DASDTable.tsx:77
+msgid "DIAG"
+msgstr "DIAG"
 
-#: src/components/storage/ZFCPPage.jsx:457
-msgid ""
-"Automatic LUN scan is [disabled]. LUNs have to be manually configured after "
-"activating a controller."
-msgstr ""
-"L'exploració automàtica de LUN està [desactivada]. Els LUN s'han de "
-"configurar manualment després d'activar un controlador."
+#: src/components/storage/dasd/DASDTable.tsx:78
+msgid "Formatted"
+msgstr "Formatat"
 
-#: src/components/storage/ZFCPPage.jsx:519
-msgid "Activate a zFCP disk"
-msgstr "Activa un disc zFCP"
+#: src/components/storage/dasd/DASDTable.tsx:79
+msgid "Partition Info"
+msgstr "Informació de la partició"
 
-#: src/components/storage/ZFCPPage.jsx:553
-msgid "Please, try to activate a zFCP controller."
-msgstr "Si us plau, proveu d'activar un controlador de zFCP."
+#. TRANSLATORS: drop down menu label
+#: src/components/storage/dasd/DASDTable.tsx:118
+msgid "Perform an action"
+msgstr "Fes una acció"
 
-#: src/components/storage/ZFCPPage.jsx:559
-msgid "Please, try to activate a zFCP disk."
-msgstr "Si us plau, proveu d'activar un disc zFCP."
+#: src/components/storage/dasd/DASDTable.tsx:125
+#: src/components/storage/zfcp/ZFCPControllersTable.tsx:51
+msgid "Activate"
+msgstr "Activa"
 
-#: src/components/storage/ZFCPPage.jsx:562
-msgid "Activate zFCP disk"
-msgstr "Activa el disc zFCP"
+#: src/components/storage/dasd/DASDTable.tsx:129
+#: src/components/storage/zfcp/ZFCPDisksTable.tsx:55
+msgid "Deactivate"
+msgstr "Desactiva"
 
-#: src/components/storage/ZFCPPage.jsx:570
-msgid "No zFCP disks found."
-msgstr "No s'ha trobat cap disc zFCP."
+#: src/components/storage/dasd/DASDTable.tsx:134
+msgid "Set DIAG On"
+msgstr "Activa la diagnosi"
 
-#: src/components/storage/ZFCPPage.jsx:586
-msgid "Activate new disk"
-msgstr "Activa el disc nou"
+#: src/components/storage/dasd/DASDTable.tsx:138
+msgid "Set DIAG Off"
+msgstr "Desactiva la diagnosi"
 
-#. TRANSLATORS: section title
-#: src/components/storage/ZFCPPage.jsx:599
-msgid "Disks"
-msgstr "Discs"
+#: src/components/storage/dasd/DASDTable.tsx:143
+msgid "Format"
+msgstr "Formata"
+
+#: src/components/storage/dasd/DASDTable.tsx:279
+#: src/components/storage/dasd/DASDTable.tsx:280
+msgid "Filter by min channel"
+msgstr "Filtra per canal mínim"
+
+#: src/components/storage/dasd/DASDTable.tsx:287
+msgid "Remove min channel filter"
+msgstr "Suprimeix el filtre del canal mínim"
+
+#: src/components/storage/dasd/DASDTable.tsx:301
+#: src/components/storage/dasd/DASDTable.tsx:302
+msgid "Filter by max channel"
+msgstr "Filtra per canal màxim"
+
+#: src/components/storage/dasd/DASDTable.tsx:309
+msgid "Remove max channel filter"
+msgstr "Suprimeix el filtre de canal màxim"
 
 #: src/components/storage/device-utils.tsx:74
 msgid "Unused space"
@@ -2377,6 +2304,98 @@ msgstr "Seleccioneu què voleu fer amb cada partició."
 msgid "with custom actions"
 msgstr "amb accions personalitzades."
 
+#: src/components/storage/zfcp/ZFCPControllersTable.tsx:22
+msgid "Auto LUNs Scan"
+msgstr "Escaneig automàtic de LUN"
+
+#: src/components/storage/zfcp/ZFCPControllersTable.tsx:33
+msgid "Activated"
+msgstr "Activat"
+
+#: src/components/storage/zfcp/ZFCPControllersTable.tsx:33
+msgid "Deactivated"
+msgstr "Desactivat"
+
+#: src/components/storage/zfcp/ZFCPDiskActivationPage.tsx:61
+msgid "zFCP Disk Activation"
+msgstr ""
+
+#. TRANSLATORS: zFCP disk activation form
+#: src/components/storage/zfcp/ZFCPDiskForm.tsx:111
+msgid "zFCP Disk activation form"
+msgstr ""
+
+#: src/components/storage/zfcp/ZFCPDiskForm.tsx:114
+msgid "The zFCP disk was not activated."
+msgstr "El disc zFCP no s'ha activat."
+
+#. TRANSLATORS: abbrev. World Wide Port Name
+#: src/components/storage/zfcp/ZFCPDiskForm.tsx:131
+#: src/components/storage/zfcp/ZFCPDisksTable.tsx:43
+msgid "WWPN"
+msgstr "WWPN"
+
+#. TRANSLATORS: abbrev. Logical Unit Number
+#: src/components/storage/zfcp/ZFCPDiskForm.tsx:139
+#: src/components/storage/zfcp/ZFCPDisksTable.tsx:44
+msgid "LUN"
+msgstr "LUN"
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:53
+#, fuzzy
+msgid ""
+"Automatic LUN scan is [enabled]. Activating a controller which is       "
+"running in NPIV mode will automatically configures all its LUNs."
+msgstr ""
+"L'exploració automàtica de LUN està [activada]. L'activació d'un controlador "
+"que s'executa en mode NPIV configurarà automàticament tots els seus LUN."
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:58
+#, fuzzy
+msgid ""
+"Automatic LUN scan is [disabled]. LUNs have to be manually       configured "
+"after activating a controller."
+msgstr ""
+"L'exploració automàtica de LUN està [desactivada]. Els LUN s'han de "
+"configurar manualment després d'activar un controlador."
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:79
+msgid "Please, try to activate a zFCP disk."
+msgstr "Si us plau, proveu d'activar un disc zFCP."
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:80
+#: src/components/storage/zfcp/ZFCPPage.tsx:163
+msgid "Please, try to activate a zFCP controller."
+msgstr "Si us plau, proveu d'activar un controlador de zFCP."
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:84
+msgid "No zFCP disks found."
+msgstr "No s'ha trobat cap disc zFCP."
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:91
+msgid "Activate zFCP disk"
+msgstr "Activa el disc zFCP"
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:114
+msgid "Activate new disk"
+msgstr "Activa el disc nou"
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:132
+msgid "Disks"
+msgstr "Discs"
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:142
+msgid "Controllers"
+msgstr ""
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:155
+msgid "No zFCP controllers found."
+msgstr "No s'ha trobat cap controlador de zFCP."
+
+#: src/components/storage/zfcp/ZFCPPage.tsx:159
+msgid "Read zFCP devices"
+msgstr "Llegeix els dispositius zFCP"
+
 #: src/components/users/FirstUser.tsx:33
 msgid "Define a user now"
 msgstr "Definiu un usuari ara"
@@ -2546,6 +2565,16 @@ msgstr "Neteja"
 #: src/router.js:48
 msgid "Overview"
 msgstr "Resum"
+
+#: src/routes/storage.tsx:85
+msgid "ZFCP"
+msgstr ""
+
+#~ msgid "Please, try to read the zFCP devices again."
+#~ msgstr "Si us plau, intenteu tornar a llegir els dispositius zFCP."
+
+#~ msgid "Activate a zFCP disk"
+#~ msgstr "Activa un disc zFCP"
 
 #~ msgid "Waiting for progress report"
 #~ msgstr "Esperant l'informe de progrés"
