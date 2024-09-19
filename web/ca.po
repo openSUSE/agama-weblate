@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-19 02:37+0000\n"
-"PO-Revision-Date: 2024-09-17 15:48+0000\n"
+"PO-Revision-Date: 2024-09-19 09:48+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ca/>\n"
@@ -1947,15 +1947,13 @@ msgstr "DASD"
 
 #. TRANSLATORS: DASD devices selection table
 #: src/components/storage/dasd/DASDPage.tsx:43
-#, fuzzy
 msgid "DASD devices selection table"
-msgstr "Encara no s'ha seleccionat cap dispositiu."
+msgstr "Taula de selecció de dispositius DASD"
 
 #: src/components/storage/dasd/DASDPage.tsx:53
 #: src/components/storage/zfcp/ZFCPPage.tsx:199
-#, fuzzy
 msgid "Back to device selection"
-msgstr "Encara no s'ha seleccionat cap dispositiu."
+msgstr "Torna a la selecció del dispositiu"
 
 #: src/components/storage/dasd/DASDTable.tsx:63
 #: src/components/storage/iscsi/InitiatorPresenter.tsx:56
@@ -2318,12 +2316,12 @@ msgstr "Desactivat"
 
 #: src/components/storage/zfcp/ZFCPDiskActivationPage.tsx:61
 msgid "zFCP Disk Activation"
-msgstr ""
+msgstr "Activació del disc zFCP"
 
 #. TRANSLATORS: zFCP disk activation form
 #: src/components/storage/zfcp/ZFCPDiskForm.tsx:111
 msgid "zFCP Disk activation form"
-msgstr ""
+msgstr "Formulari d'activació del disc zFCP"
 
 #: src/components/storage/zfcp/ZFCPDiskForm.tsx:114
 msgid "The zFCP disk was not activated."
@@ -2342,22 +2340,21 @@ msgid "LUN"
 msgstr "LUN"
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:53
-#, fuzzy
 msgid ""
 "Automatic LUN scan is [enabled]. Activating a controller which is       "
 "running in NPIV mode will automatically configures all its LUNs."
 msgstr ""
-"L'exploració automàtica de LUN està [activada]. L'activació d'un controlador "
-"que s'executa en mode NPIV configurarà automàticament tots els seus LUN."
+"L'exploració automàtica de LUN està [activada]. L'activació d'un "
+"controlador       que s'executa en mode NPIV configurarà automàticament tots "
+"els seus LUN."
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:58
-#, fuzzy
 msgid ""
 "Automatic LUN scan is [disabled]. LUNs have to be manually       configured "
 "after activating a controller."
 msgstr ""
 "L'exploració automàtica de LUN està [desactivada]. Els LUN s'han de "
-"configurar manualment després d'activar un controlador."
+"configurar       manualment després d'activar un controlador."
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:79
 msgid "Please, try to activate a zFCP disk."
@@ -2386,7 +2383,7 @@ msgstr "Discs"
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:142
 msgid "Controllers"
-msgstr ""
+msgstr "Controladors"
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:155
 msgid "No zFCP controllers found."
@@ -2568,7 +2565,7 @@ msgstr "Resum"
 
 #: src/routes/storage.tsx:85
 msgid "ZFCP"
-msgstr ""
+msgstr "ZFCP"
 
 #~ msgid "Please, try to read the zFCP devices again."
 #~ msgstr "Si us plau, intenteu tornar a llegir els dispositius zFCP."
