@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-19 02:37+0000\n"
-"PO-Revision-Date: 2024-08-28 16:47+0000\n"
-"Last-Translator: yok <mtopac2024@gmail.com>\n"
+"PO-Revision-Date: 2024-09-19 17:48+0000\n"
+"Last-Translator: yok2 <y1313396@gmail.com>\n"
 "Language-Team: Turkish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "tr/>\n"
 "Language: tr\n"
@@ -17,12 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: src/components/core/About.tsx:46
-#, fuzzy
 msgid "About"
-msgstr "Agama Hakkında"
+msgstr "Hakkında"
 
 #: src/components/core/About.tsx:64
 msgid "About Agama"
@@ -54,9 +53,8 @@ msgid "Close"
 msgstr "Kapat"
 
 #: src/components/core/ChangeProductLink.tsx:38
-#, fuzzy
 msgid "Change product"
-msgstr "Konumu değiştir"
+msgstr "Ürünü değiştir"
 
 #: src/components/core/InstallButton.jsx:32
 msgid "Confirm Installation"
@@ -397,7 +395,7 @@ msgstr " Zaman dilimi seçimi"
 
 #: src/components/layout/Header.tsx:61
 msgid "Main navigation"
-msgstr ""
+msgstr "Ana gezinme"
 
 #: src/components/layout/Loading.jsx:29
 msgid "Loading installation environment, please wait."
@@ -434,9 +432,8 @@ msgid "Addresses"
 msgstr "Adresler"
 
 #: src/components/network/AddressesDataList.tsx:146
-#, fuzzy
 msgid "Addresses data list"
-msgstr "Adresler"
+msgstr "Adres veri listesi"
 
 #. TRANSLATORS: input field for the iSCSI initiator name
 #. TRANSLATORS: table header
@@ -454,15 +451,13 @@ msgstr "İsim"
 #. TRANSLATORS: table header
 #: src/components/network/ConnectionsTable.tsx:67
 #: src/components/network/ConnectionsTable.tsx:95
-#, fuzzy
 msgid "IP addresses"
-msgstr "IP adresi"
+msgstr "IP adresleri"
 
 #. TRANSLATORS: table header aria label
 #: src/components/network/ConnectionsTable.tsx:69
-#, fuzzy
 msgid "Connection actions"
-msgstr "Planlanan Eylemler"
+msgstr "Bağlantı eylemleri"
 
 #: src/components/network/ConnectionsTable.tsx:76
 #: src/components/network/WifiNetworksListPage.tsx:127
@@ -479,67 +474,63 @@ msgstr "Düzenle"
 #: src/components/network/IpSettingsForm.tsx:146
 #, c-format
 msgid "Edit connection %s"
-msgstr ""
+msgstr "Bağlantıyı düzenle %s"
 
 #: src/components/network/ConnectionsTable.tsx:83
 #: src/components/network/WifiNetworksListPage.tsx:130
 #: src/components/network/WifiNetworksListPage.tsx:154
-#, fuzzy
 msgid "Forget"
-msgstr "Hedefler"
+msgstr "Unut"
 
 #. TRANSLATORS: %s is replaced by a network connection name
 #: src/components/network/ConnectionsTable.tsx:85
 #, c-format
 msgid "Forget connection %s"
-msgstr ""
+msgstr "Bağlantıyı unut %s"
 
 #. TRANSLATORS: %s is replaced by a network connection name
 #: src/components/network/ConnectionsTable.tsx:100
-#, fuzzy, c-format
+#, c-format
 msgid "Actions for connection %s"
-msgstr "Alan bulmak için eylemler"
+msgstr "%s bağlantısı için eylemler"
 
 #. TRANSLATORS: input field name
 #: src/components/network/DnsDataList.tsx:90
 msgid "Server IP"
-msgstr ""
+msgstr "Sunucu IP'si"
 
 #: src/components/network/DnsDataList.tsx:115
 msgid "Add DNS"
-msgstr ""
+msgstr "DNS Ekle"
 
 #. TRANSLATORS: button label
 #: src/components/network/DnsDataList.tsx:115
-#, fuzzy
 msgid "Add another DNS"
-msgstr "Başka Bir Adres Ekle"
+msgstr "Başka bir DNS ekle"
 
 #: src/components/network/DnsDataList.tsx:120
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #: src/components/network/IpPrefixInput.tsx:34
-#, fuzzy
 msgid "Ip prefix or netmask"
-msgstr "Önek uzunluğu veya ağ maskesi"
+msgstr "IP öneki veya ağ maskesi"
 
 #. TRANSLATORS: error message
 #: src/components/network/IpSettingsForm.tsx:102
 msgid "At least one address must be provided for selected mode"
-msgstr ""
+msgstr "Seçilen mod için en az bir adres sağlanmalıdır"
 
 #. TRANSLATORS: network connection mode (automatic via DHCP or manual with static IP)
 #: src/components/network/IpSettingsForm.tsx:156
 #: src/components/network/IpSettingsForm.tsx:161
 #: src/components/network/IpSettingsForm.tsx:163
 msgid "Mode"
-msgstr ""
+msgstr "Mod"
 
 #: src/components/network/IpSettingsForm.tsx:170
-#, fuzzy
 msgid "Automatic (DHCP)"
-msgstr "Otomatik"
+msgstr "Otomatik (DHCP)"
 
 #: src/components/network/IpSettingsForm.tsx:176
 #: src/components/storage/iscsi/NodeStartupOptions.js:25
@@ -550,61 +541,60 @@ msgstr "Manuel"
 #: src/components/network/IpSettingsForm.tsx:185
 #: src/components/network/IpSettingsForm.tsx:188
 msgid "Gateway"
-msgstr ""
+msgstr "Ağ Geçidi"
 
 #: src/components/network/IpSettingsForm.tsx:197
 msgid "Gateway can be defined only in 'Manual' mode"
-msgstr ""
+msgstr "Ağ geçidi yalnızca 'Manuel' modda tanımlanabilir"
 
 #: src/components/network/NetworkPage.tsx:37
 msgid "Wired"
-msgstr ""
+msgstr "Kablolu"
 
 #: src/components/network/NetworkPage.tsx:44
-#, fuzzy
 msgid "No wired connections found"
-msgstr "İçerik bulunamadı"
+msgstr "Kablolu bağlantı bulunamadı"
 
 #: src/components/network/NetworkPage.tsx:60
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 #. TRANSLATORS: button label, connect to a WiFi network
 #: src/components/network/NetworkPage.tsx:63
 #: src/components/network/WifiConnectionForm.tsx:140
 #: src/components/network/WifiNetworksListPage.tsx:125
-#, fuzzy
 msgid "Connect"
-msgstr "Bağlandı (%s)"
+msgstr "Bağlan"
 
 #: src/components/network/NetworkPage.tsx:69
-#, fuzzy, c-format
+#, c-format
 msgid "Connected to %s"
-msgstr "Bağlandı (%s)"
+msgstr "%s'ye bağlandı"
 
 #: src/components/network/NetworkPage.tsx:76
-#, fuzzy
 msgid "No connected yet"
-msgstr "Dil henüz seçilmedi"
+msgstr "Henüz bağlanmadı"
 
 #: src/components/network/NetworkPage.tsx:77
 msgid ""
 "The system has not been configured for connecting to a Wi-Fi network yet."
-msgstr ""
+msgstr "Sistem henüz bir Wi-Fi ağına bağlanacak şekilde yapılandırılmadı."
 
 #: src/components/network/NetworkPage.tsx:86
 msgid "No Wi-Fi supported"
-msgstr ""
+msgstr "Wi-Fi desteklenmiyor"
 
 #: src/components/network/NetworkPage.tsx:88
 msgid ""
 "The system does not support Wi-Fi connections, probably because of missing "
 "or disabled hardware."
 msgstr ""
+"Sistem muhtemelen eksik veya devre dışı donanım nedeniyle Wi-Fi "
+"bağlantılarını desteklemiyor."
 
 #: src/components/network/NetworkPage.tsx:105 src/routes/network.tsx:36
 msgid "Network"
-msgstr ""
+msgstr "Ağ"
 
 #. TRANSLATORS: WiFi authentication mode
 #: src/components/network/WifiConnectionForm.tsx:48
@@ -615,17 +605,16 @@ msgstr "Yok"
 #. TRANSLATORS: WiFi authentication mode
 #: src/components/network/WifiConnectionForm.tsx:50
 msgid "WPA & WPA2 Personal"
-msgstr ""
+msgstr "WPA ve WPA2 Kişisel"
 
 #. TRANSLATORS: accessible name for the WiFi connection form
 #: src/components/network/WifiConnectionForm.tsx:92
 msgid "WiFi connection form"
-msgstr ""
+msgstr "WiFi bağlantı formu"
 
 #: src/components/network/WifiConnectionForm.tsx:99
-#, fuzzy
 msgid "Authentication failed, please try again"
-msgstr "Hedefe göre kimlik doğrulama"
+msgstr "Kimlik doğrulama başarısız oldu, lütfen tekrar deneyin"
 
 #: src/components/network/WifiConnectionForm.tsx:100
 #: src/components/storage/iscsi/DiscoverForm.tsx:98
@@ -637,39 +626,36 @@ msgstr "Bir şeyler ters gitti"
 
 #: src/components/network/WifiConnectionForm.tsx:103
 msgid "Please, review provided settings and try again."
-msgstr ""
+msgstr "Lütfen verilen ayarları gözden geçirip tekrar deneyin."
 
 #. TRANSLATORS: SSID (Wifi network name) configuration
 #: src/components/network/WifiConnectionForm.tsx:109
 msgid "SSID"
-msgstr ""
+msgstr "SSID"
 
 #. TRANSLATORS: Wifi security configuration (password protected or not)
 #: src/components/network/WifiConnectionForm.tsx:115
 #: src/components/network/WifiConnectionForm.tsx:118
 msgid "Security"
-msgstr ""
+msgstr "Güvenlik"
 
 #. TRANSLATORS: WiFi password
 #: src/components/network/WifiConnectionForm.tsx:127
-#, fuzzy
 msgid "WPA Password"
-msgstr "Parola"
+msgstr "WPA Şifresi"
 
 #. TRANSLATORS: Wifi network status
 #: src/components/network/WifiNetworksListPage.tsx:72
 #: src/components/network/WifiNetworksListPage.tsx:138
-#, fuzzy
 msgid "Connecting"
-msgstr "etkiliyor"
+msgstr "Bağlanıyor"
 
 #. TRANSLATORS: Wifi network status
 #: src/components/network/WifiNetworksListPage.tsx:75
 #: src/components/network/WifiNetworksListPage.tsx:142
 #: src/components/network/WifiNetworksListPage.tsx:181
-#, fuzzy
 msgid "Connected"
-msgstr "Bağlandı (%s)"
+msgstr "Bağlı"
 
 #. TRANSLATORS: iSCSI connection status
 #. TRANSLATORS: Wifi network status
@@ -680,29 +666,25 @@ msgid "Disconnected"
 msgstr "Bağlantısı Kesildi"
 
 #: src/components/network/WifiNetworksListPage.tsx:148
-#, fuzzy
 msgid "Disconnect"
-msgstr "Bağlantısı Kesildi"
+msgstr "Bağlantıyı kes"
 
 #: src/components/network/WifiNetworksListPage.tsx:167
 #: src/components/network/WifiNetworksListPage.tsx:285
-#, fuzzy
 msgid "Connect to hidden network"
-msgstr "iSCSI hedeflerine bağlanın"
+msgstr "Gizli ağa bağlan"
 
 #: src/components/network/WifiNetworksListPage.tsx:178
-#, fuzzy
 msgid "configured"
-msgstr "Yapılandırmayın"
+msgstr "yapılandırılmış"
 
 #: src/components/network/WifiNetworksListPage.tsx:270
 msgid "Visible Wi-Fi networks"
-msgstr ""
+msgstr "Görünür Wi-Fi ağları"
 
 #: src/components/network/WifiSelectorPage.tsx:35
-#, fuzzy
 msgid "Connect to a Wi-Fi network"
-msgstr "iSCSI hedeflerine bağlanın"
+msgstr "Bir Wi-Fi ağına bağlanın"
 
 #. TRANSLATORS: %s will be replaced by a language name and territory, example:
 #. "English (United States)".
@@ -757,15 +739,14 @@ msgstr ""
 "ayırın."
 
 #: src/components/overview/SoftwareSection.tsx:41
-#, fuzzy
 msgid "The installation will take"
-msgstr "Kurulum Tamamlandı"
+msgstr "Kurulum yapılacak"
 
 #. TRANSLATORS: %s will be replaced with the installation size, example: "5GiB".
 #: src/components/overview/SoftwareSection.tsx:48
-#, fuzzy, c-format
+#, c-format
 msgid "The installation will take %s including:"
-msgstr "Kurulum Tamamlandı"
+msgstr "Kurulum %s kadar olacaktır ve şunları içerecektir:"
 
 #: src/components/overview/StorageSection.jsx:53
 msgid ""
@@ -876,17 +857,15 @@ msgstr ""
 #: src/components/product/ProductSelectionPage.tsx:56
 #, c-format
 msgid "%s logo"
-msgstr ""
+msgstr "%s logosu"
 
 #: src/components/product/ProductSelectionPage.tsx:107
-#, fuzzy
 msgid "Select a product"
-msgstr "Bir konum seçin"
+msgstr "Bir ürün seçin"
 
 #: src/components/product/ProductSelectionPage.tsx:108
-#, fuzzy
 msgid "Available products"
-msgstr "Kullanılabilir Yerel(locale) Ayarlar"
+msgstr "Mevcut ürünler"
 
 #: src/components/product/ProductSelectionProgress.jsx:44
 msgid "Configuring the product, please wait ..."
@@ -895,91 +874,85 @@ msgstr "Ürün yapılandırılıyor, lütfen bekleyin..."
 #: src/components/questions/GenericQuestion.tsx:48
 #: src/components/questions/LuksActivationQuestion.tsx:69
 msgid "Question"
-msgstr ""
+msgstr "Soru"
 
 #. TRANSLATORS: error message, user entered a wrong password
 #: src/components/questions/LuksActivationQuestion.tsx:37
 msgid "The encryption password did not work"
-msgstr ""
+msgstr "Şifreleme şifresi işe yaramadı"
 
 #: src/components/questions/LuksActivationQuestion.tsx:68
-#, fuzzy
 msgid "Encrypted Device"
-msgstr "Şifreleme"
+msgstr "Şifrelenmiş Aygıt"
 
 #. TRANSLATORS: field label
 #: src/components/questions/LuksActivationQuestion.tsx:77
-#, fuzzy
 msgid "Encryption Password"
-msgstr "Şifreleme"
+msgstr "Şifreleme Şifresi"
 
 #: src/components/questions/QuestionWithPassword.tsx:55
-#, fuzzy
 msgid "Password Required"
-msgstr "Şifre girişi"
+msgstr "Parola Gerekli"
 
 #: src/components/software/SoftwarePage.tsx:47
 msgid "No additional software was selected."
-msgstr ""
+msgstr "Hiçbir ek yazılım seçilmedi."
 
 #: src/components/software/SoftwarePage.tsx:52
 msgid "The following software patterns are selected for installation:"
-msgstr ""
+msgstr "Kurulum için aşağıdaki yazılım desenleri seçilmiştir:"
 
 #: src/components/software/SoftwarePage.tsx:67
 #: src/components/software/SoftwarePage.tsx:79
-#, fuzzy
 msgid "Selected patterns"
-msgstr "Saat dilimini seçin"
+msgstr "Seçilmiş desenler"
 
 #: src/components/software/SoftwarePage.tsx:70
-#, fuzzy
 msgid "Change selection"
-msgstr "Konumu değiştir"
+msgstr "Seçimi değiştir"
 
 #: src/components/software/SoftwarePage.tsx:82
 msgid ""
 "This product does not allow to select software patterns during installation. "
 "However, you can add additional software once the installation is finished."
 msgstr ""
+"Bu ürün kurulum sırasında yazılım desenlerinin seçilmesine izin vermez. "
+"Ancak kurulum tamamlandıktan sonra ek yazılım ekleyebilirsiniz."
 
 #: src/components/software/SoftwarePatternsSelection.tsx:97
-#, fuzzy
 msgid "None of the patterns match the filter."
-msgstr "Hiçbir yerel ayar filtreye uymuyor."
+msgstr "Desenlerin hiçbiri filtreyle eşleşmiyor."
 
 #: src/components/software/SoftwarePatternsSelection.tsx:162
 msgid "auto selected"
 msgstr "otomatik seçildi"
 
 #: src/components/software/SoftwarePatternsSelection.tsx:166
-#, fuzzy
 msgid "Unselect"
-msgstr "Seç"
+msgstr "Seçimi kaldır"
 
 #: src/components/software/SoftwarePatternsSelection.tsx:186
-#, fuzzy
 msgid "Software selection"
-msgstr "Yerelleştirme seçimi"
+msgstr "Yazılım seçimi"
 
 #. TRANSLATORS: search field placeholder text
 #: src/components/software/SoftwarePatternsSelection.tsx:189
 #: src/components/software/SoftwarePatternsSelection.tsx:190
 msgid "Filter by pattern title or description"
-msgstr ""
+msgstr "Desen başlığına veya açıklamasına göre filtrele"
 
 #. TRANSLATORS: %s will be replaced by the estimated installation size,
 #. example: "728.8 MiB"
 #: src/components/software/UsedSize.tsx:32
-#, fuzzy, c-format
+#, c-format
 msgid "Installation will take %s."
-msgstr "Kurulum Tamamlandı"
+msgstr "Kurulum %s kadar olacak."
 
 #: src/components/software/UsedSize.tsx:36
 msgid ""
 "This space includes the base system and the selected software patterns, if "
 "any."
-msgstr ""
+msgstr "Bu alan, varsa temel sistemi ve seçili yazılım desenlerini içerir."
 
 #: src/components/storage/BootConfigField.tsx:41
 msgid "Change boot options"
@@ -1948,21 +1921,18 @@ msgid "Formatting DASD devices"
 msgstr "DASD aygıtlarının biçimlendirilmesi"
 
 #: src/components/storage/dasd/DASDPage.tsx:38 src/routes/storage.tsx:76
-#, fuzzy
 msgid "DASD"
-msgstr "DASD %s"
+msgstr "DASD"
 
 #. TRANSLATORS: DASD devices selection table
 #: src/components/storage/dasd/DASDPage.tsx:43
-#, fuzzy
 msgid "DASD devices selection table"
-msgstr "Henüz hiçbir cihaz seçilmedi"
+msgstr "DASD aygıtları seçim tablosu"
 
 #: src/components/storage/dasd/DASDPage.tsx:53
 #: src/components/storage/zfcp/ZFCPPage.tsx:199
-#, fuzzy
 msgid "Back to device selection"
-msgstr "Henüz hiçbir cihaz seçilmedi"
+msgstr "Cihaz seçimine geri dön"
 
 #: src/components/storage/dasd/DASDTable.tsx:63
 #: src/components/storage/iscsi/InitiatorPresenter.tsx:56
@@ -2326,12 +2296,12 @@ msgstr "Devre dışı bırakıldı"
 
 #: src/components/storage/zfcp/ZFCPDiskActivationPage.tsx:61
 msgid "zFCP Disk Activation"
-msgstr ""
+msgstr "zFCP Disk Etkinleştirme"
 
 #. TRANSLATORS: zFCP disk activation form
 #: src/components/storage/zfcp/ZFCPDiskForm.tsx:111
 msgid "zFCP Disk activation form"
-msgstr ""
+msgstr "zFCP Disk aktivasyon formu"
 
 #: src/components/storage/zfcp/ZFCPDiskForm.tsx:114
 msgid "The zFCP disk was not activated."
@@ -2350,22 +2320,20 @@ msgid "LUN"
 msgstr "LUN"
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:53
-#, fuzzy
 msgid ""
 "Automatic LUN scan is [enabled]. Activating a controller which is       "
 "running in NPIV mode will automatically configures all its LUNs."
 msgstr ""
-"Otomatik LUN taraması [etkin]. NPIV modunda çalışan bir denetleyiciyi "
-"etkinleştirmek, tüm LUN'larını otomatik olarak yapılandıracaktır."
+"Otomatik LUN taraması [etkin]. Bir denetleyiciyi etkinleştirme       NPIV "
+"modunda çalıştırıldığında tüm LUN'lar otomatik olarak yapılandırılır."
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:58
-#, fuzzy
 msgid ""
 "Automatic LUN scan is [disabled]. LUNs have to be manually       configured "
 "after activating a controller."
 msgstr ""
-"Otomatik LUN taraması [devre dışı]. Bir denetleyici etkinleştirildikten "
-"sonra LUN'ların manuel olarak yapılandırılması gerekir."
+"Otomatik LUN taraması [devre dışı]. LUN'ların manuel olarak taranması "
+"gerekir       Bir kontrol cihazı etkinleştirildikten sonra yapılandırılır."
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:79
 msgid "Please, try to activate a zFCP disk."
@@ -2394,7 +2362,7 @@ msgstr "Diskler"
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:142
 msgid "Controllers"
-msgstr ""
+msgstr "Kontrolörler"
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:155
 msgid "No zFCP controllers found."
@@ -2576,7 +2544,7 @@ msgstr "Genel bakış"
 
 #: src/routes/storage.tsx:85
 msgid "ZFCP"
-msgstr ""
+msgstr "ZFCP"
 
 #~ msgid "Please, try to read the zFCP devices again."
 #~ msgstr "Lütfen zFCP cihazlarını tekrar okumayı deneyin."
