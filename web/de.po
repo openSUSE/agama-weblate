@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-19 02:37+0000\n"
-"PO-Revision-Date: 2024-09-18 21:48+0000\n"
+"PO-Revision-Date: 2024-09-20 22:21+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://l10n.opensuse.org/projects/agama/agama-web/de/"
 ">\n"
@@ -1992,15 +1992,13 @@ msgstr "DASD"
 
 #. TRANSLATORS: DASD devices selection table
 #: src/components/storage/dasd/DASDPage.tsx:43
-#, fuzzy
 msgid "DASD devices selection table"
-msgstr "Noch kein Gerät ausgewählt"
+msgstr "DASD-Geräte-Auswahltabelle"
 
 #: src/components/storage/dasd/DASDPage.tsx:53
 #: src/components/storage/zfcp/ZFCPPage.tsx:199
-#, fuzzy
 msgid "Back to device selection"
-msgstr "Noch kein Gerät ausgewählt"
+msgstr "Zurück zur Geräteauswahl"
 
 #: src/components/storage/dasd/DASDTable.tsx:63
 #: src/components/storage/iscsi/InitiatorPresenter.tsx:56
@@ -2431,7 +2429,7 @@ msgstr "Festplatten"
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:142
 msgid "Controllers"
-msgstr ""
+msgstr "Controller"
 
 #: src/components/storage/zfcp/ZFCPPage.tsx:155
 msgid "No zFCP controllers found."
