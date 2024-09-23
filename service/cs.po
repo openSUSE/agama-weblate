@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-18 02:35+0000\n"
-"PO-Revision-Date: 2024-08-30 20:47+0000\n"
+"PO-Revision-Date: 2024-09-23 14:19+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
-"Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-service-"
-"master/cs/>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/agama/"
+"agama-service-master/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #. Runs the startup phase
 #: service/lib/agama/manager.rb:88
@@ -136,13 +136,13 @@ msgstr "Nalezeno %s problémů v závislostech."
 #: service/lib/agama/storage/config_checker.rb:112
 #, c-format
 msgid "There is no LVM thin pool volume with alias %s"
-msgstr ""
+msgstr "Neexistuje žádný svazek LVM thin pool s aliasem %s"
 
 #. TRANSLATORS: %s is the replaced by a device alias (e.g., "pv1").
 #: service/lib/agama/storage/config_checker.rb:129
 #, c-format
 msgid "There is no LVM physical volume with alias %s"
-msgstr ""
+msgstr "Neexistuje žádný fyzický svazek LVM s aliasem %s"
 
 #. TRANSLATORS: 'crypt_method' is the identifier of the method to encrypt the device
 #. (e.g., 'luks1', 'random_swap').
