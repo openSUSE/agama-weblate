@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-22 02:43+0000\n"
-"PO-Revision-Date: 2024-09-19 09:48+0000\n"
+"PO-Revision-Date: 2024-09-24 08:54+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "sv/>\n"
@@ -947,7 +947,7 @@ msgstr "Filtrera efter mönstertitel eller beskrivning"
 #: src/components/software/UsedSize.tsx:33
 #, c-format
 msgid "Installation will take %s."
-msgstr "Installationen kommer att ta %s"
+msgstr "Installationen kommer att ta %s."
 
 #: src/components/software/UsedSize.tsx:37
 msgid ""
