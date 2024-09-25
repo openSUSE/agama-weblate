@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-18 02:35+0000\n"
+"POT-Creation-Date: 2024-09-25 02:42+0000\n"
 "PO-Revision-Date: 2024-09-18 10:48+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
-"Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/"
-"agama-service-master/ca/>\n"
+"Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-"
+"service-master/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -132,21 +132,41 @@ msgstr "El producte ha d'estar registrat."
 msgid "Found %s dependency issues."
 msgstr "S'han trobat %s problemes de dependències."
 
+#. Issue for not found device.
+#.
+#. @param config [Configs::Drive, Configs::Partition]
+#. @return [Agama::Issue]
+#: service/lib/agama/storage/config_checker.rb:115
+msgid "No device found for an optional drive"
+msgstr "No s'ha trobat cap dispositiu per a una unitat opcional."
+
+#: service/lib/agama/storage/config_checker.rb:117
+msgid "No device found for a mandatory drive"
+msgstr "No s'ha trobat cap dispositiu per a una unitat obligatòria."
+
+#: service/lib/agama/storage/config_checker.rb:120
+msgid "No device found for an optional partition"
+msgstr "No s'ha trobat cap dispositiu per a una partició opcional."
+
+#: service/lib/agama/storage/config_checker.rb:122
+msgid "No device found for a mandatory partition"
+msgstr "No s'ha trobat cap dispositiu per a una partició obligatòria."
+
 #. TRANSLATORS: %s is the replaced by a device alias (e.g., "pv1").
-#: service/lib/agama/storage/config_checker.rb:112
+#: service/lib/agama/storage/config_checker.rb:144
 #, c-format
 msgid "There is no LVM thin pool volume with alias %s"
 msgstr "No hi ha cap volum d'agrupació prim d'LVM amb l'àlies %s."
 
 #. TRANSLATORS: %s is the replaced by a device alias (e.g., "pv1").
-#: service/lib/agama/storage/config_checker.rb:129
+#: service/lib/agama/storage/config_checker.rb:161
 #, c-format
 msgid "There is no LVM physical volume with alias %s"
 msgstr "No hi ha cap volum físic d'LVM amb l'àlies %s."
 
 #. TRANSLATORS: 'crypt_method' is the identifier of the method to encrypt the device
 #. (e.g., 'luks1', 'random_swap').
-#: service/lib/agama/storage/config_checker.rb:160
+#: service/lib/agama/storage/config_checker.rb:192
 #, perl-brace-format
 msgid ""
 "No passphrase provided (required for using the method '%{crypt_method}')."
@@ -156,7 +176,7 @@ msgstr ""
 
 #. TRANSLATORS: 'crypt_method' is the identifier of the method to encrypt the device
 #. (e.g., 'luks1', 'random_swap').
-#: service/lib/agama/storage/config_checker.rb:178
+#: service/lib/agama/storage/config_checker.rb:210
 #, perl-brace-format
 msgid "Encryption method '%{crypt_method}' is not available in this system."
 msgstr ""
@@ -164,7 +184,7 @@ msgstr ""
 
 #. TRANSLATORS: 'crypt_method' is the identifier of the method to encrypt the device
 #. (e.g., 'luks1', 'random_swap').
-#: service/lib/agama/storage/config_checker.rb:197
+#: service/lib/agama/storage/config_checker.rb:229
 #, perl-brace-format
 msgid "'%{crypt_method}' is not a suitable method to encrypt the device."
 msgstr ""
@@ -271,23 +291,6 @@ msgid ""
 msgstr ""
 "Cal definir un usuari, establir la contrasenya d'arrel o una clau pública "
 "SSH."
-
-#. @see #not_found_issue
-#: service/lib/y2storage/proposal/agama_searcher.rb:158
-msgid "No device found for an optional drive"
-msgstr "No s'ha trobat cap dispositiu per a una unitat opcional."
-
-#: service/lib/y2storage/proposal/agama_searcher.rb:160
-msgid "No device found for a mandatory drive"
-msgstr "No s'ha trobat cap dispositiu per a una unitat obligatòria."
-
-#: service/lib/y2storage/proposal/agama_searcher.rb:163
-msgid "No device found for an optional partition"
-msgstr "No s'ha trobat cap dispositiu per a una partició opcional."
-
-#: service/lib/y2storage/proposal/agama_searcher.rb:165
-msgid "No device found for a mandatory partition"
-msgstr "No s'ha trobat cap dispositiu per a una partició obligatòria."
 
 #~ msgid "Probing Storage"
 #~ msgstr "Sondant l'emmagatzematge"
