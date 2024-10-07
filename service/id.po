@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-10 02:23+0000\n"
+"POT-Creation-Date: 2024-09-25 02:42+0000\n"
 "PO-Revision-Date: 2023-12-28 21:02+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://l10n.opensuse.org/projects/agama/agama-"
@@ -134,6 +134,60 @@ msgstr "Produk harus didaftarkan"
 msgid "Found %s dependency issues."
 msgstr "Ditemukan %s masalah ketergantungan."
 
+#. Issue for not found device.
+#.
+#. @param config [Configs::Drive, Configs::Partition]
+#. @return [Agama::Issue]
+#: service/lib/agama/storage/config_checker.rb:115
+msgid "No device found for an optional drive"
+msgstr ""
+
+#: service/lib/agama/storage/config_checker.rb:117
+msgid "No device found for a mandatory drive"
+msgstr ""
+
+#: service/lib/agama/storage/config_checker.rb:120
+msgid "No device found for an optional partition"
+msgstr ""
+
+#: service/lib/agama/storage/config_checker.rb:122
+msgid "No device found for a mandatory partition"
+msgstr ""
+
+#. TRANSLATORS: %s is the replaced by a device alias (e.g., "pv1").
+#: service/lib/agama/storage/config_checker.rb:144
+#, c-format
+msgid "There is no LVM thin pool volume with alias %s"
+msgstr ""
+
+#. TRANSLATORS: %s is the replaced by a device alias (e.g., "pv1").
+#: service/lib/agama/storage/config_checker.rb:161
+#, c-format
+msgid "There is no LVM physical volume with alias %s"
+msgstr ""
+
+#. TRANSLATORS: 'crypt_method' is the identifier of the method to encrypt the device
+#. (e.g., 'luks1', 'random_swap').
+#: service/lib/agama/storage/config_checker.rb:192
+#, perl-brace-format
+msgid ""
+"No passphrase provided (required for using the method '%{crypt_method}')."
+msgstr ""
+
+#. TRANSLATORS: 'crypt_method' is the identifier of the method to encrypt the device
+#. (e.g., 'luks1', 'random_swap').
+#: service/lib/agama/storage/config_checker.rb:210
+#, perl-brace-format
+msgid "Encryption method '%{crypt_method}' is not available in this system."
+msgstr ""
+
+#. TRANSLATORS: 'crypt_method' is the identifier of the method to encrypt the device
+#. (e.g., 'luks1', 'random_swap').
+#: service/lib/agama/storage/config_checker.rb:229
+#, perl-brace-format
+msgid "'%{crypt_method}' is not a suitable method to encrypt the device."
+msgstr ""
+
 #. Text of the reason preventing to shrink because there is no content.
 #.
 #. @return [String, nil] nil if there is content or there is any other reasons.
@@ -189,14 +243,14 @@ msgstr "Menulis sysconfig bootloader"
 #. Issue representing the proposal is not valid.
 #.
 #. @return [Issue]
-#: service/lib/agama/storage/proposal.rb:192
+#: service/lib/agama/storage/proposal.rb:283
 msgid "Cannot accommodate the required file systems for installation"
 msgstr ""
 
 #. Issue to communicate a generic Y2Storage error.
 #.
 #. @return [Issue]
-#: service/lib/agama/storage/proposal.rb:203
+#: service/lib/agama/storage/proposal.rb:294
 msgid "A problem ocurred while calculating the storage setup"
 msgstr ""
 
