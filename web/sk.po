@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-10 11:22+0000\n"
-"PO-Revision-Date: 2026-09-10 17:13+0000\n"
+"PO-Revision-Date: 2026-09-13 20:13+0000\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <https://l10n.opensuse.org/projects/agama/agama-web-"
 "sle-16/sk/>\n"
@@ -615,7 +615,7 @@ msgstr "Zoznam údajov adries"
 #: src/components/storage/utils/drive.tsx:104
 #, javascript-format
 msgid "%s - %s"
-msgstr ""
+msgstr "%s - %s"
 
 #. TRANSLATORS: The title of the page. %s will be replaced with the connection
 #. name. I.e., "Binding settings for 'Wired connection 1'"
@@ -642,15 +642,15 @@ msgstr "Pripojenie môže použiť ktorékoľvek dostupné zariadenie."
 
 #: src/components/network/BindingSettingsForm.tsx:189
 msgid "Bind to device name"
-msgstr ""
+msgstr "Priradiť k názvu zariadenia"
 
 #: src/components/network/BindingSettingsForm.tsx:193
 msgid "Choose device to bind by name"
-msgstr ""
+msgstr "Vybrať zariadenie na priradenie podľa názvu"
 
 #: src/components/network/BindingSettingsForm.tsx:208
 msgid "Bind to MAC address"
-msgstr ""
+msgstr "Priradiť k MAC adrese"
 
 #: src/components/network/BindingSettingsForm.tsx:212
 msgid "Choose device to bind by MAC"
