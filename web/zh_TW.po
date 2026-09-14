@@ -7163,3 +7163,6 @@ msgstr "迴路"
 #, c-format
 #~ msgid "Details for %s"
 #~ msgstr "%s 的詳細資料"
+
+#~ msgid "Show terminal"
+#~ msgstr "顯示終端機"

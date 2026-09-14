@@ -8456,3 +8456,6 @@ msgstr "Loopback"
 #, c-format
 #~ msgid "Details for %s"
 #~ msgstr "Rincian untuk %s"
+
+#~ msgid "Show terminal"
+#~ msgstr "Tampilkan terminal"

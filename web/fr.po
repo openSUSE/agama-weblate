@@ -8651,3 +8651,6 @@ msgstr "Boucle"
 #, c-format
 #~ msgid "Details for %s"
 #~ msgstr "Détails pour %s"
+
+#~ msgid "Show terminal"
+#~ msgstr "Afficher le terminal"

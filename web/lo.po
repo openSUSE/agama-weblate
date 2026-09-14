@@ -6176,3 +6176,6 @@ msgstr "Loopback"
 #~ "This space includes the base system and the selected software patterns, "
 #~ "if any."
 #~ msgstr "ພື້ນທີ່ນີ້ລວມມີລະບົບພື້ນຖານ ແລະ ຮູບແບບຊອບແວທີ່ເລືອກ (ຖ້າມີ)."
+
+#~ msgid "Show terminal"
+#~ msgstr "ສະແດງເທີມິນອລ"

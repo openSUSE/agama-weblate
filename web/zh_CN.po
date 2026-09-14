@@ -8050,3 +8050,6 @@ msgstr "回环"
 #, c-format
 #~ msgid "Details for %s"
 #~ msgstr "%s 的细节"
+
+#~ msgid "Show terminal"
+#~ msgstr "显示终端"

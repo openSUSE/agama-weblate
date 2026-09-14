@@ -8592,3 +8592,6 @@ msgstr "ループバック"
 #, c-format
 #~ msgid "Details for %s"
 #~ msgstr "%s の詳細"
+
+#~ msgid "Show terminal"
+#~ msgstr "端末を表示"

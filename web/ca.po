@@ -8659,3 +8659,6 @@ msgstr "Loopback"
 #, c-format
 #~ msgid "Details for %s"
 #~ msgstr "Detalls per a %s"
+
+#~ msgid "Show terminal"
+#~ msgstr "Mostra el terminal"

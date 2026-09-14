@@ -8125,3 +8125,6 @@ msgstr "Зациклення"
 #, c-format
 #~ msgid "Details for %s"
 #~ msgstr "Подробиці для %s"
+
+#~ msgid "Show terminal"
+#~ msgstr "Показати термінал"

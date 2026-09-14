@@ -8659,3 +8659,6 @@ msgstr "Schleifenschaltung"
 #, c-format
 #~ msgid "Details for %s"
 #~ msgstr "Details für %s"
+
+#~ msgid "Show terminal"
+#~ msgstr "Terminal anzeigen"
