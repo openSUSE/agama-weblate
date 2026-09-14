@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-14 10:44+0000\n"
-"PO-Revision-Date: 2026-09-04 14:14+0000\n"
+"PO-Revision-Date: 2026-09-14 13:13+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ca/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.9\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #. TRANSLATORS: accessible name for the button that opens the appearance settings
 #: src/components/core/AppearanceSettings.tsx:63
@@ -730,17 +730,17 @@ msgstr "Neteja el terminal"
 #: src/components/core/TerminalPane.tsx:107
 #, javascript-format
 msgid "%1$s+%2$s+%3$s to move focus out"
-msgstr ""
+msgstr "%1$s+%2$s+%3$s per moure el focus fora"
 
 #. TRANSLATORS: the Control key, as labeled on the keyboard
 #: src/components/core/TerminalPane.tsx:110
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #. TRANSLATORS: the Shift key, as labeled on the keyboard
 #: src/components/core/TerminalPane.tsx:112
 msgid "Shift"
-msgstr ""
+msgstr "Maj."
 
 #. TRANSLATORS: accessible name of the terminal panel region
 #: src/components/core/TerminalPane.tsx:155
@@ -749,9 +749,8 @@ msgstr "Terminal"
 
 #: src/components/core/TerminalPane.tsx:173
 #: src/components/layout/Header.tsx:191
-#, fuzzy
 msgid "Skip to terminal"
-msgstr "Mostra el terminal"
+msgstr "Omet i ves al terminal"
 
 #. TRANSLATORS: tooltip and accessible name for the button that collapses the
 #. terminal panel to a bar, keeping the session
