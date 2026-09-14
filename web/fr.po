@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 11:14+0000\n"
+"POT-Creation-Date: 2026-09-14 10:44+0000\n"
 "PO-Revision-Date: 2026-07-27 08:12+0000\n"
 "Last-Translator: Sophie Leroy <sophie@stoquart.com>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/agama/agama-web/fr/"
@@ -160,12 +160,6 @@ msgstr "Télécharger la configuration"
 msgid "The configuration is read-only."
 msgstr "La configuration est en lecture seule."
 
-#. TRANSLATORS: menu entry to download the installer logs as an archive
-#: src/components/core/DownloadLogsButton.tsx:46
-#: src/components/core/InstallerOptionsMenu.tsx:127
-msgid "Download logs"
-msgstr "Télécharger les journaux"
-
 #: src/components/core/DownloadLogsFeedback.tsx:34
 #, javascript-format
 msgid ""
@@ -220,17 +214,42 @@ msgstr "L'interface du programme d'installation n'est plus disponible."
 msgid "You can safely close this window."
 msgstr "Vous pouvez fermer cette fenêtre en toute sécurité."
 
-#: src/components/core/InstallationFailed.tsx:45
+#. TRANSLATORS: menu entry that closes the terminal, closing the session
+#. TRANSLATORS: action that closes the terminal, ending the session
+#. TRANSLATORS: tooltip and accessible name for the button that ends the
+#. terminal session
+#: src/components/core/InstallationFailed.tsx:60
+#: src/components/core/InstallerOptionsMenu.tsx:143
+#: src/components/core/TerminalPane.tsx:238
+#: src/components/core/TerminalUnavailable.tsx:56
+msgid "Close terminal"
+msgstr "Fermer le terminal"
+
+#. TRANSLATORS: menu entry that opens the terminal
+#. TRANSLATORS: action that opens a terminal to inspect the failed installation
+#: src/components/core/InstallationFailed.tsx:62
+#: src/components/core/InstallerOptionsMenu.tsx:145
+msgid "Open terminal"
+msgstr "Ouvrir le terminal"
+
+#: src/components/core/InstallationFailed.tsx:69
 msgid "Installation failed"
 msgstr "Installation échouée"
 
-#: src/components/core/InstallationFailed.tsx:48
+#: src/components/core/InstallationFailed.tsx:72
 msgid "Download logs to troubleshoot or share with support."
 msgstr "Télécharger les journaux pour résolution ou partage avec le support."
 
-#: src/components/core/InstallationFailed.tsx:49
+#: src/components/core/InstallationFailed.tsx:73
 msgid "Reboot to try again."
 msgstr "Redémarrer pour essayer à nouveau."
+
+#. TRANSLATORS: menu entry to download the installer logs as an archive
+#. TRANSLATORS: action to download the installer logs as an archive
+#: src/components/core/InstallationFailed.tsx:88
+#: src/components/core/InstallerOptionsMenu.tsx:135
+msgid "Download logs"
+msgstr "Télécharger les journaux"
 
 #: src/components/core/InstallationFinished.tsx:41
 msgid "TPM sealing requires the new system to be booted directly."
@@ -397,11 +416,11 @@ msgstr "Langue et clavier"
 
 #. TRANSLATORS: label for the button that opens the menu with additional
 #. actions (show settings, download logs, change product...)
-#: src/components/core/InstallerOptionsMenu.tsx:83
+#: src/components/core/InstallerOptionsMenu.tsx:85
 msgid "More options"
 msgstr "Plus d'options"
 
-#: src/components/core/InstallerOptionsMenu.tsx:111
+#: src/components/core/InstallerOptionsMenu.tsx:119
 #: src/components/storage/ConnectedDevicesMenu.tsx:86
 msgid "More"
 msgstr "Davantage"
@@ -410,7 +429,7 @@ msgstr "Davantage"
 #. configuration as a JSON file: the machine-readable
 #. representation of the same settings the UI otherwise shows
 #. as widgets across its screens.
-#: src/components/core/InstallerOptionsMenu.tsx:123
+#: src/components/core/InstallerOptionsMenu.tsx:131
 msgid "Show configuration"
 msgstr "Afficher la configuration"
 
@@ -675,9 +694,13 @@ msgstr "Vérifiez si le serveur Agama fonctionne."
 msgid "Reload"
 msgstr "Recharger"
 
-#: src/components/core/SkipTo.tsx:78
+#: src/components/core/SkipTo.tsx:114
 msgid "Skip to content"
 msgstr "Passer au contenu"
+
+#: src/components/core/SplitButton.tsx:76
+msgid "More actions"
+msgstr "Autres actions"
 
 #: src/components/core/Summary.tsx:72
 msgid "Waiting for proposal"
@@ -689,60 +712,65 @@ msgstr "En attente de proposition"
 msgid "Resize terminal"
 msgstr "Redimensionner le terminal"
 
-#: src/components/core/TerminalPane.tsx:34
-msgid "Show terminal"
-msgstr "Afficher le terminal"
-
-#. TRANSLATORS: tooltip and accessible name for the button that hides the
-#. terminal panel (it does not end the session)
-#: src/components/core/TerminalPane.tsx:35
-#: src/components/core/TerminalPane.tsx:186
-#: src/components/core/TerminalUnavailable.tsx:56
-msgid "Hide terminal"
-msgstr "Masquer le terminal"
-
-#: src/components/core/TerminalPane.tsx:36
-msgid "Open terminal"
-msgstr "Ouvrir le terminal"
-
-#: src/components/core/TerminalPane.tsx:37
-msgid "Close terminal"
-msgstr "Fermer le terminal"
-
 #. TRANSLATORS: tooltip for the button that makes the terminal text smaller
-#: src/components/core/TerminalPane.tsx:78
+#: src/components/core/TerminalPane.tsx:57
 msgid "Decrease font size"
 msgstr "Réduire la taille de la police"
 
 #. TRANSLATORS: tooltip for the button that makes the terminal text bigger
-#: src/components/core/TerminalPane.tsx:80
+#: src/components/core/TerminalPane.tsx:59
 msgid "Increase font size"
 msgstr "Augmenter la taille de la police"
 
 #. TRANSLATORS: tooltip for the button that clears the terminal output
-#: src/components/core/TerminalPane.tsx:82
+#: src/components/core/TerminalPane.tsx:61
 msgid "Clear terminal"
 msgstr "Effacer le terminal"
 
+#. TRANSLATORS: how to move the keyboard focus out of the terminal, where
+#. every key press otherwise goes to the shell. %1$s, %2$s and %3$s are the
+#. Ctrl, Shift and L keys, pressed together, and are shown as keys.
+#: src/components/core/TerminalPane.tsx:107
+#, javascript-format
+msgid "%1$s+%2$s+%3$s to move focus out"
+msgstr ""
+
+#. TRANSLATORS: the Control key, as labeled on the keyboard
+#: src/components/core/TerminalPane.tsx:110
+msgid "Ctrl"
+msgstr ""
+
+#. TRANSLATORS: the Shift key, as labeled on the keyboard
+#: src/components/core/TerminalPane.tsx:112
+msgid "Shift"
+msgstr ""
+
 #. TRANSLATORS: accessible name of the terminal panel region
-#: src/components/core/TerminalPane.tsx:138
+#: src/components/core/TerminalPane.tsx:155
 msgid "Terminal"
 msgstr "Terminal"
 
+#: src/components/core/TerminalPane.tsx:173
+#: src/components/layout/Header.tsx:191
+#, fuzzy
+#| msgid "Show terminal"
+msgid "Skip to terminal"
+msgstr "Afficher le terminal"
+
 #. TRANSLATORS: tooltip and accessible name for the button that collapses the
 #. terminal panel to a bar, keeping the session
-#: src/components/core/TerminalPane.tsx:207
+#: src/components/core/TerminalPane.tsx:264
 msgid "Minimize terminal"
 msgstr "Réduire le terminal"
 
 #. TRANSLATORS: tooltip and accessible name for the button that expands the
 #. collapsed terminal panel back to its full size
-#: src/components/core/TerminalPane.tsx:210
+#: src/components/core/TerminalPane.tsx:267
 msgid "Restore terminal"
 msgstr "Restaurer le terminal"
 
 #. TRANSLATORS: one-line summary of what the terminal is for
-#: src/components/core/TerminalPane.tsx:214
+#: src/components/core/TerminalPane.tsx:271
 msgid ""
 "Linux command-line with administrative privileges on the installer system."
 msgstr ""
@@ -946,7 +974,7 @@ msgstr "La valeur est requise"
 #. installation can be reviewed.
 #. TRANSLATORS: First breadcrumb item, linking back to the main page
 #. where the whole installation can be reviewed.
-#: src/components/layout/Header.tsx:120
+#: src/components/layout/Header.tsx:121
 #: src/components/overview/OverviewPage.tsx:123
 msgid "Installation"
 msgstr "Installation"
@@ -6413,6 +6441,9 @@ msgstr "Wi-Fi"
 msgid "Loopback"
 msgstr "Boucle"
 
+#~ msgid "Hide terminal"
+#~ msgstr "Masquer le terminal"
+
 #~ msgid ""
 #~ "This will affect only the installer interface, not the product to be "
 #~ "installed. You can adjust the product’s localization later in the "
@@ -6460,9 +6491,6 @@ msgstr "Boucle"
 
 #~ msgid "ZFCP"
 #~ msgstr "ZFCP"
-
-#~ msgid "More actions"
-#~ msgstr "Autres actions"
 
 #, javascript-format
 #~ msgid "Current %1$s at %2$s"

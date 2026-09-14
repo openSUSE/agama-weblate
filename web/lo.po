@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 11:14+0000\n"
+"POT-Creation-Date: 2026-09-14 10:44+0000\n"
 "PO-Revision-Date: 2026-08-21 00:13+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://l10n.opensuse.org/projects/agama/agama-web/lo/>\n"
@@ -156,12 +156,6 @@ msgstr "ດາວໂຫຼດການຕັ້ງຄ່າ"
 msgid "The configuration is read-only."
 msgstr "ການຕັ້ງຄ່ານີ້ແມ່ນສຳລັບອ່ານຢ່າງດຽວ."
 
-#. TRANSLATORS: menu entry to download the installer logs as an archive
-#: src/components/core/DownloadLogsButton.tsx:46
-#: src/components/core/InstallerOptionsMenu.tsx:127
-msgid "Download logs"
-msgstr "ດາວໂຫຼດໄຟລ໌ບັນທຶກ (Logs)"
-
 #: src/components/core/DownloadLogsFeedback.tsx:34
 #, javascript-format
 msgid ""
@@ -212,17 +206,42 @@ msgstr "ອິນເຕີເຟດຂອງຕົວຕິດຕັ້ງບໍ
 msgid "You can safely close this window."
 msgstr "ເຈົ້າສາມາດປິດໜ້າຕ່າງນີ້ໄດ້ຢ່າງປອດໄພ."
 
-#: src/components/core/InstallationFailed.tsx:45
+#. TRANSLATORS: menu entry that closes the terminal, closing the session
+#. TRANSLATORS: action that closes the terminal, ending the session
+#. TRANSLATORS: tooltip and accessible name for the button that ends the
+#. terminal session
+#: src/components/core/InstallationFailed.tsx:60
+#: src/components/core/InstallerOptionsMenu.tsx:143
+#: src/components/core/TerminalPane.tsx:238
+#: src/components/core/TerminalUnavailable.tsx:56
+msgid "Close terminal"
+msgstr "ປິດເທີມິນອລ"
+
+#. TRANSLATORS: menu entry that opens the terminal
+#. TRANSLATORS: action that opens a terminal to inspect the failed installation
+#: src/components/core/InstallationFailed.tsx:62
+#: src/components/core/InstallerOptionsMenu.tsx:145
+msgid "Open terminal"
+msgstr "ເປີດເທີມິນອລ"
+
+#: src/components/core/InstallationFailed.tsx:69
 msgid "Installation failed"
 msgstr "ການຕິດຕັ້ງລົ້ມເຫຼວ"
 
-#: src/components/core/InstallationFailed.tsx:48
+#: src/components/core/InstallationFailed.tsx:72
 msgid "Download logs to troubleshoot or share with support."
 msgstr "ດາວໂຫຼດໄຟລ໌ບັນທຶກເພື່ອແກ້ໄຂບັນຫາ ຫຼື ສົ່ງໃຫ້ທີມງານຊ່ວຍເຫຼືອ."
 
-#: src/components/core/InstallationFailed.tsx:49
+#: src/components/core/InstallationFailed.tsx:73
 msgid "Reboot to try again."
 msgstr "ເລີ່ມລະບົບໃໝ່ເພື່ອລອງອີກຄັ້ງ."
+
+#. TRANSLATORS: menu entry to download the installer logs as an archive
+#. TRANSLATORS: action to download the installer logs as an archive
+#: src/components/core/InstallationFailed.tsx:88
+#: src/components/core/InstallerOptionsMenu.tsx:135
+msgid "Download logs"
+msgstr "ດາວໂຫຼດໄຟລ໌ບັນທຶກ (Logs)"
 
 #: src/components/core/InstallationFinished.tsx:41
 msgid "TPM sealing requires the new system to be booted directly."
@@ -380,11 +399,11 @@ msgstr "ພາສາ ແລະ ແປ້ນພິມ"
 
 #. TRANSLATORS: label for the button that opens the menu with additional
 #. actions (show settings, download logs, change product...)
-#: src/components/core/InstallerOptionsMenu.tsx:83
+#: src/components/core/InstallerOptionsMenu.tsx:85
 msgid "More options"
 msgstr "ຕົວເລືອກເພີ່ມເຕີມ"
 
-#: src/components/core/InstallerOptionsMenu.tsx:111
+#: src/components/core/InstallerOptionsMenu.tsx:119
 #: src/components/storage/ConnectedDevicesMenu.tsx:86
 msgid "More"
 msgstr "ເພີ່ມເຕີມ"
@@ -393,7 +412,7 @@ msgstr "ເພີ່ມເຕີມ"
 #. configuration as a JSON file: the machine-readable
 #. representation of the same settings the UI otherwise shows
 #. as widgets across its screens.
-#: src/components/core/InstallerOptionsMenu.tsx:123
+#: src/components/core/InstallerOptionsMenu.tsx:131
 msgid "Show configuration"
 msgstr "ສະແດງການຕັ້ງຄ່າ"
 
@@ -655,9 +674,15 @@ msgstr "ກວດສອບວ່າເຊີບເວີ Agama ກຳລັງ�
 msgid "Reload"
 msgstr "ໂຫຼດໃໝ່"
 
-#: src/components/core/SkipTo.tsx:78
+#: src/components/core/SkipTo.tsx:114
 msgid "Skip to content"
 msgstr "ຂ້າມໄປຫາເນື້ອຫາ"
+
+#: src/components/core/SplitButton.tsx:76
+#, fuzzy
+#| msgid "More options"
+msgid "More actions"
+msgstr "ຕົວເລືອກເພີ່ມເຕີມ"
 
 #: src/components/core/Summary.tsx:72
 msgid "Waiting for proposal"
@@ -669,60 +694,65 @@ msgstr "ກຳລັງລໍຖ້າຂໍ້ສະເໜີ"
 msgid "Resize terminal"
 msgstr "ປັບຂະໜາດເທີມິນອລ"
 
-#: src/components/core/TerminalPane.tsx:34
-msgid "Show terminal"
-msgstr "ສະແດງເທີມິນອລ"
-
-#. TRANSLATORS: tooltip and accessible name for the button that hides the
-#. terminal panel (it does not end the session)
-#: src/components/core/TerminalPane.tsx:35
-#: src/components/core/TerminalPane.tsx:186
-#: src/components/core/TerminalUnavailable.tsx:56
-msgid "Hide terminal"
-msgstr "ເຊື່ອງເທີມິນອລ"
-
-#: src/components/core/TerminalPane.tsx:36
-msgid "Open terminal"
-msgstr "ເປີດເທີມິນອລ"
-
-#: src/components/core/TerminalPane.tsx:37
-msgid "Close terminal"
-msgstr "ປິດເທີມິນອລ"
-
 #. TRANSLATORS: tooltip for the button that makes the terminal text smaller
-#: src/components/core/TerminalPane.tsx:78
+#: src/components/core/TerminalPane.tsx:57
 msgid "Decrease font size"
 msgstr "ຫຼຸດຂະໜາດຕົວອັກສອນ"
 
 #. TRANSLATORS: tooltip for the button that makes the terminal text bigger
-#: src/components/core/TerminalPane.tsx:80
+#: src/components/core/TerminalPane.tsx:59
 msgid "Increase font size"
 msgstr "ເພີ່ມຂະໜາດຕົວອັກສອນ"
 
 #. TRANSLATORS: tooltip for the button that clears the terminal output
-#: src/components/core/TerminalPane.tsx:82
+#: src/components/core/TerminalPane.tsx:61
 msgid "Clear terminal"
 msgstr "ລຶບຂໍ້ມູນໃນເທີມິນອລ"
 
+#. TRANSLATORS: how to move the keyboard focus out of the terminal, where
+#. every key press otherwise goes to the shell. %1$s, %2$s and %3$s are the
+#. Ctrl, Shift and L keys, pressed together, and are shown as keys.
+#: src/components/core/TerminalPane.tsx:107
+#, javascript-format
+msgid "%1$s+%2$s+%3$s to move focus out"
+msgstr ""
+
+#. TRANSLATORS: the Control key, as labeled on the keyboard
+#: src/components/core/TerminalPane.tsx:110
+msgid "Ctrl"
+msgstr ""
+
+#. TRANSLATORS: the Shift key, as labeled on the keyboard
+#: src/components/core/TerminalPane.tsx:112
+msgid "Shift"
+msgstr ""
+
 #. TRANSLATORS: accessible name of the terminal panel region
-#: src/components/core/TerminalPane.tsx:138
+#: src/components/core/TerminalPane.tsx:155
 msgid "Terminal"
 msgstr "ເທີມິນອລ"
 
+#: src/components/core/TerminalPane.tsx:173
+#: src/components/layout/Header.tsx:191
+#, fuzzy
+#| msgid "Show terminal"
+msgid "Skip to terminal"
+msgstr "ສະແດງເທີມິນອລ"
+
 #. TRANSLATORS: tooltip and accessible name for the button that collapses the
 #. terminal panel to a bar, keeping the session
-#: src/components/core/TerminalPane.tsx:207
+#: src/components/core/TerminalPane.tsx:264
 msgid "Minimize terminal"
 msgstr "ຍໍ້ໜ້າຕ່າງເທີມິນອລ"
 
 #. TRANSLATORS: tooltip and accessible name for the button that expands the
 #. collapsed terminal panel back to its full size
-#: src/components/core/TerminalPane.tsx:210
+#: src/components/core/TerminalPane.tsx:267
 msgid "Restore terminal"
 msgstr "ຄືນຄ່າໜ້າຕ່າງເທີມິນອລ"
 
 #. TRANSLATORS: one-line summary of what the terminal is for
-#: src/components/core/TerminalPane.tsx:214
+#: src/components/core/TerminalPane.tsx:271
 msgid ""
 "Linux command-line with administrative privileges on the installer system."
 msgstr "ບັນທັດຄຳສັ່ງ Linux ທີ່ມີສິດທິຜູ້ດູແລລະບົບ ໃນລະບົບຕົວຕິດຕັ້ງ."
@@ -918,7 +948,7 @@ msgstr "ຈຳເປັນຕ້ອງມີຂໍ້ມູນ"
 #. installation can be reviewed.
 #. TRANSLATORS: First breadcrumb item, linking back to the main page
 #. where the whole installation can be reviewed.
-#: src/components/layout/Header.tsx:120
+#: src/components/layout/Header.tsx:121
 #: src/components/overview/OverviewPage.tsx:123
 msgid "Installation"
 msgstr "ການຕິດຕັ້ງ"
@@ -6103,6 +6133,9 @@ msgstr "Wi-Fi"
 #: src/utils/network.ts:116
 msgid "Loopback"
 msgstr "Loopback"
+
+#~ msgid "Hide terminal"
+#~ msgstr "ເຊື່ອງເທີມິນອລ"
 
 #~ msgid ""
 #~ "This will affect only the installer interface, not the product to be "
