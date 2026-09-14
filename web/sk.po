@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-14 10:44+0000\n"
-"PO-Revision-Date: 2026-09-13 19:13+0000\n"
+"PO-Revision-Date: 2026-09-14 12:13+0000\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
-"Language-Team: Slovak <https://l10n.opensuse.org/projects/agama/agama-web/sk/"
-">\n"
+"Language-Team: Slovak <https://l10n.opensuse.org/projects/agama/agama-web/"
+"sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -684,9 +684,8 @@ msgid "Skip to content"
 msgstr "Skočiť na obsah"
 
 #: src/components/core/SplitButton.tsx:76
-#, fuzzy
 msgid "More actions"
-msgstr "Akcie riadkov"
+msgstr "Ďalšie akcie"
 
 #: src/components/core/Summary.tsx:72
 msgid "Waiting for proposal"
@@ -738,9 +737,8 @@ msgstr ""
 
 #: src/components/core/TerminalPane.tsx:173
 #: src/components/layout/Header.tsx:191
-#, fuzzy
 msgid "Skip to terminal"
-msgstr "Skočiť na obsah"
+msgstr "Prejsť na terminál"
 
 #. TRANSLATORS: tooltip and accessible name for the button that collapses the
 #. terminal panel to a bar, keeping the session
