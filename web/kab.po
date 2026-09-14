@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 11:14+0000\n"
+"POT-Creation-Date: 2026-09-14 10:44+0000\n"
 "PO-Revision-Date: 2026-03-29 20:04+0000\n"
 "Last-Translator: Amger ugurzil <amger_ugurzil@proton.me>\n"
 "Language-Team: Kabyle <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -166,12 +166,6 @@ msgstr "Zdem-d iɣmisen"
 msgid "The configuration is read-only."
 msgstr "Zdem-d iɣmisen"
 
-#. TRANSLATORS: menu entry to download the installer logs as an archive
-#: src/components/core/DownloadLogsButton.tsx:46
-#: src/components/core/InstallerOptionsMenu.tsx:127
-msgid "Download logs"
-msgstr "Zdem-d iɣmisen"
-
 #: src/components/core/DownloadLogsFeedback.tsx:34
 #, javascript-format
 msgid ""
@@ -223,18 +217,43 @@ msgstr ""
 msgid "You can safely close this window."
 msgstr ""
 
-#: src/components/core/InstallationFailed.tsx:45
+#. TRANSLATORS: menu entry that closes the terminal, closing the session
+#. TRANSLATORS: action that closes the terminal, ending the session
+#. TRANSLATORS: tooltip and accessible name for the button that ends the
+#. terminal session
+#: src/components/core/InstallationFailed.tsx:60
+#: src/components/core/InstallerOptionsMenu.tsx:143
+#: src/components/core/TerminalPane.tsx:238
+#: src/components/core/TerminalUnavailable.tsx:56
+msgid "Close terminal"
+msgstr ""
+
+#. TRANSLATORS: menu entry that opens the terminal
+#. TRANSLATORS: action that opens a terminal to inspect the failed installation
+#: src/components/core/InstallationFailed.tsx:62
+#: src/components/core/InstallerOptionsMenu.tsx:145
+msgid "Open terminal"
+msgstr ""
+
+#: src/components/core/InstallationFailed.tsx:69
 #, fuzzy
 msgid "Installation failed"
 msgstr "Ugar n ibenkan"
 
-#: src/components/core/InstallationFailed.tsx:48
+#: src/components/core/InstallationFailed.tsx:72
 msgid "Download logs to troubleshoot or share with support."
 msgstr ""
 
-#: src/components/core/InstallationFailed.tsx:49
+#: src/components/core/InstallationFailed.tsx:73
 msgid "Reboot to try again."
 msgstr ""
+
+#. TRANSLATORS: menu entry to download the installer logs as an archive
+#. TRANSLATORS: action to download the installer logs as an archive
+#: src/components/core/InstallationFailed.tsx:88
+#: src/components/core/InstallerOptionsMenu.tsx:135
+msgid "Download logs"
+msgstr "Zdem-d iɣmisen"
 
 #: src/components/core/InstallationFinished.tsx:41
 msgid "TPM sealing requires the new system to be booted directly."
@@ -392,12 +411,12 @@ msgstr "Tutlayt d unasiw"
 
 #. TRANSLATORS: label for the button that opens the menu with additional
 #. actions (show settings, download logs, change product...)
-#: src/components/core/InstallerOptionsMenu.tsx:83
+#: src/components/core/InstallerOptionsMenu.tsx:85
 #, fuzzy
 msgid "More options"
 msgstr "Ugar n tigawin"
 
-#: src/components/core/InstallerOptionsMenu.tsx:111
+#: src/components/core/InstallerOptionsMenu.tsx:119
 #: src/components/storage/ConnectedDevicesMenu.tsx:86
 msgid "More"
 msgstr ""
@@ -406,7 +425,7 @@ msgstr ""
 #. configuration as a JSON file: the machine-readable
 #. representation of the same settings the UI otherwise shows
 #. as widgets across its screens.
-#: src/components/core/InstallerOptionsMenu.tsx:123
+#: src/components/core/InstallerOptionsMenu.tsx:131
 #, fuzzy
 msgid "Show configuration"
 msgstr "Zdem-d iɣmisen"
@@ -675,9 +694,13 @@ msgstr ""
 msgid "Reload"
 msgstr "Ales aɛebbi"
 
-#: src/components/core/SkipTo.tsx:78
+#: src/components/core/SkipTo.tsx:114
 msgid "Skip to content"
 msgstr "Zgel a ugbur"
+
+#: src/components/core/SplitButton.tsx:76
+msgid "More actions"
+msgstr "Ugar n tigawin"
 
 #: src/components/core/Summary.tsx:72
 msgid "Waiting for proposal"
@@ -689,63 +712,65 @@ msgstr ""
 msgid "Resize terminal"
 msgstr ""
 
-#: src/components/core/TerminalPane.tsx:34
-#, fuzzy
-msgid "Show terminal"
-msgstr "Aglam"
-
-#. TRANSLATORS: tooltip and accessible name for the button that hides the
-#. terminal panel (it does not end the session)
-#: src/components/core/TerminalPane.tsx:35
-#: src/components/core/TerminalPane.tsx:186
-#: src/components/core/TerminalUnavailable.tsx:56
-#, fuzzy
-msgid "Hide terminal"
-msgstr "Aglam"
-
-#: src/components/core/TerminalPane.tsx:36
-msgid "Open terminal"
-msgstr ""
-
-#: src/components/core/TerminalPane.tsx:37
-msgid "Close terminal"
-msgstr ""
-
 #. TRANSLATORS: tooltip for the button that makes the terminal text smaller
-#: src/components/core/TerminalPane.tsx:78
+#: src/components/core/TerminalPane.tsx:57
 msgid "Decrease font size"
 msgstr ""
 
 #. TRANSLATORS: tooltip for the button that makes the terminal text bigger
-#: src/components/core/TerminalPane.tsx:80
+#: src/components/core/TerminalPane.tsx:59
 msgid "Increase font size"
 msgstr ""
 
 #. TRANSLATORS: tooltip for the button that clears the terminal output
-#: src/components/core/TerminalPane.tsx:82
+#: src/components/core/TerminalPane.tsx:61
 #, fuzzy
 msgid "Clear terminal"
 msgstr "Sfeḍ asekcem"
 
+#. TRANSLATORS: how to move the keyboard focus out of the terminal, where
+#. every key press otherwise goes to the shell. %1$s, %2$s and %3$s are the
+#. Ctrl, Shift and L keys, pressed together, and are shown as keys.
+#: src/components/core/TerminalPane.tsx:107
+#, javascript-format
+msgid "%1$s+%2$s+%3$s to move focus out"
+msgstr ""
+
+#. TRANSLATORS: the Control key, as labeled on the keyboard
+#: src/components/core/TerminalPane.tsx:110
+msgid "Ctrl"
+msgstr ""
+
+#. TRANSLATORS: the Shift key, as labeled on the keyboard
+#: src/components/core/TerminalPane.tsx:112
+msgid "Shift"
+msgstr ""
+
 #. TRANSLATORS: accessible name of the terminal panel region
-#: src/components/core/TerminalPane.tsx:138
+#: src/components/core/TerminalPane.tsx:155
 msgid "Terminal"
 msgstr ""
 
+#: src/components/core/TerminalPane.tsx:173
+#: src/components/layout/Header.tsx:191
+#, fuzzy
+msgid "Skip to terminal"
+msgstr "Aglam"
+
 #. TRANSLATORS: tooltip and accessible name for the button that collapses the
 #. terminal panel to a bar, keeping the session
-#: src/components/core/TerminalPane.tsx:207
+#: src/components/core/TerminalPane.tsx:264
 msgid "Minimize terminal"
 msgstr ""
 
 #. TRANSLATORS: tooltip and accessible name for the button that expands the
 #. collapsed terminal panel back to its full size
-#: src/components/core/TerminalPane.tsx:210
+#: src/components/core/TerminalPane.tsx:267
 msgid "Restore terminal"
 msgstr ""
 
 #. TRANSLATORS: one-line summary of what the terminal is for
-#: src/components/core/TerminalPane.tsx:214
+#: src/components/core/TerminalPane.tsx:271
 msgid ""
 "Linux command-line with administrative privileges on the installer system."
 msgstr ""
@@ -936,7 +961,7 @@ msgstr "Ilaq wawal n uɛeddi"
 #. installation can be reviewed.
 #. TRANSLATORS: First breadcrumb item, linking back to the main page
 #. where the whole installation can be reviewed.
-#: src/components/layout/Header.tsx:120
+#: src/components/layout/Header.tsx:121
 #: src/components/overview/OverviewPage.tsx:123
 #, fuzzy
 msgid "Installation"
@@ -6427,6 +6452,10 @@ msgstr "Wi-Fi"
 msgid "Loopback"
 msgstr ""
 
+#, fuzzy
+#~ msgid "Hide terminal"
+#~ msgstr "Aglam"
+
 #~ msgid "Excellent signal"
 #~ msgstr "Tamuli igerrzen"
 
@@ -6465,9 +6494,6 @@ msgstr ""
 
 #~ msgid "ZFCP"
 #~ msgstr "ZFCP"
-
-#~ msgid "More actions"
-#~ msgstr "Ugar n tigawin"
 
 #~ msgid "KiB"
 #~ msgstr "KiB"
