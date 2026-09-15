@@ -8419,3 +8419,17 @@ msgstr ""
 
 #~ msgid "Unit for the maximum size"
 #~ msgstr "Enhet for maksimal størrelse"
+
+#~ msgid "Clear"
+#~ msgstr "Tøm"
+
+#, fuzzy
+#~ msgid "Product is already registered"
+#~ msgstr "Produkt problemer"
+
+#, fuzzy
+#~ msgid "Collapse the list of planned actions"
+#~ msgstr "Sjekk den planlagte handlingen"
+
+#~ msgid "Show global options"
+#~ msgstr "Vis globale alternativer"

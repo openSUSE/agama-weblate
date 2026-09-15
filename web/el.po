@@ -7598,3 +7598,12 @@ msgstr ""
 
 #~ msgid "Hostname could not be updated"
 #~ msgstr "Αδυναμία ενημέρωσης του ονόματος συστήματος"
+
+#~ msgid "Clear"
+#~ msgstr "Εκκαθάριση"
+
+#~ msgid "Product is already registered"
+#~ msgstr "Το προϊόν είναι ήδη εγγεγραμμένο"
+
+#~ msgid "Show more actions"
+#~ msgstr "Εμφάνιση περισσότερων ενεργειών"

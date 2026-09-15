@@ -8857,3 +8857,12 @@ msgstr "Loopback"
 
 #~ msgid "Show terminal"
 #~ msgstr "Mostra el terminal"
+
+#~ msgid "Clear"
+#~ msgstr "Esborra"
+
+#~ msgid "Collapse the list of planned actions"
+#~ msgstr "Replega la llista d'accions previstes"
+
+#~ msgid "Show global options"
+#~ msgstr "Mostra les opcions globals"

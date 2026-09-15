@@ -8870,3 +8870,12 @@ msgstr "Loopback"
 
 #~ msgid "Show terminal"
 #~ msgstr "Visa terminal"
+
+#~ msgid "Clear"
+#~ msgstr "Rensa"
+
+#~ msgid "Collapse the list of planned actions"
+#~ msgstr "Dölj listan över planerade åtgärder"
+
+#~ msgid "Show global options"
+#~ msgstr "Visa globala alternativ"

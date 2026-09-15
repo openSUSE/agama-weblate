@@ -8505,3 +8505,12 @@ msgstr "Geri döngü"
 
 #~ msgid "Show terminal"
 #~ msgstr "Terminali göster"
+
+#~ msgid "Clear"
+#~ msgstr "Temizle"
+
+#~ msgid "Collapse the list of planned actions"
+#~ msgstr "Planlanan eylemlerin listesini daraltın"
+
+#~ msgid "Show global options"
+#~ msgstr "Genel seçenekleri göster"

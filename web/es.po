@@ -8813,3 +8813,12 @@ msgstr "Loopback"
 
 #~ msgid "Show terminal"
 #~ msgstr "Mostrar terminal"
+
+#~ msgid "Clear"
+#~ msgstr "Limpiar"
+
+#~ msgid "Collapse the list of planned actions"
+#~ msgstr "Contraer la lista de acciones planificadas"
+
+#~ msgid "Show global options"
+#~ msgstr "Mostrar opciones globales"

@@ -8655,3 +8655,12 @@ msgstr "Loopback"
 
 #~ msgid "Show terminal"
 #~ msgstr "Tampilkan terminal"
+
+#~ msgid "Clear"
+#~ msgstr "Hapus"
+
+#~ msgid "Collapse the list of planned actions"
+#~ msgstr "Lipat daftar tindakan yang direncanakan"
+
+#~ msgid "Show global options"
+#~ msgstr "Tampilkan opsi global"

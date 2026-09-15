@@ -8793,3 +8793,12 @@ msgstr "ループバック"
 
 #~ msgid "Show terminal"
 #~ msgstr "端末を表示"
+
+#~ msgid "Clear"
+#~ msgstr "消去"
+
+#~ msgid "Collapse the list of planned actions"
+#~ msgstr "処理計画の一覧を巻き取る"
+
+#~ msgid "Show global options"
+#~ msgstr "グローバルオプションの表示"

@@ -8324,3 +8324,12 @@ msgstr "Зациклення"
 
 #~ msgid "Show terminal"
 #~ msgstr "Показати термінал"
+
+#~ msgid "Clear"
+#~ msgstr "Очистити"
+
+#~ msgid "Show more actions"
+#~ msgstr "Показати більше дій"
+
+#~ msgid "Collapse the list of planned actions"
+#~ msgstr "Згорнути список запланованих дій"

@@ -8249,3 +8249,12 @@ msgstr "回环"
 
 #~ msgid "Show terminal"
 #~ msgstr "显示终端"
+
+#~ msgid "Clear"
+#~ msgstr "清除"
+
+#~ msgid "Collapse the list of planned actions"
+#~ msgstr "收起已计划操作列表"
+
+#~ msgid "Show global options"
+#~ msgstr "显示全局选项"

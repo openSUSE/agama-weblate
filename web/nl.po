@@ -8678,3 +8678,13 @@ msgstr ""
 
 #~ msgid "Unit for the maximum size"
 #~ msgstr "Eenheid voor maximale grootte"
+
+#~ msgid "Clear"
+#~ msgstr "Leegmaken"
+
+#, fuzzy
+#~ msgid "Collapse the list of planned actions"
+#~ msgstr "Geplande acties"
+
+#~ msgid "Show global options"
+#~ msgstr "Toon algemene opties"

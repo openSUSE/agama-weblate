@@ -8857,3 +8857,12 @@ msgstr "Schleifenschaltung"
 
 #~ msgid "Show terminal"
 #~ msgstr "Terminal anzeigen"
+
+#~ msgid "Clear"
+#~ msgstr "Leeren"
+
+#~ msgid "Collapse the list of planned actions"
+#~ msgstr "Liste der geplanten Aktionen einklappen"
+
+#~ msgid "Show global options"
+#~ msgstr "Globale Optionen anzeigen"

@@ -8652,3 +8652,12 @@ msgstr "Loopback"
 
 #~ msgid "Show terminal"
 #~ msgstr "Показать терминал"
+
+#~ msgid "Clear"
+#~ msgstr "Очистить"
+
+#~ msgid "Collapse the list of planned actions"
+#~ msgstr "Свернуть список запланированных действий"
+
+#~ msgid "Show global options"
+#~ msgstr "Показать общие параметры"

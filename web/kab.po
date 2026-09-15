@@ -7243,3 +7243,10 @@ msgstr ""
 #, javascript-format
 #~ msgid "Configure partition at %s"
 #~ msgstr "Swel aḥric deg %s"
+
+#~ msgid "Clear"
+#~ msgstr "Sfeḍ"
+
+#, fuzzy
+#~ msgid "Show more actions"
+#~ msgstr "Ugar n tigawin"

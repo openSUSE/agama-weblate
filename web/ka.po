@@ -7809,3 +7809,12 @@ msgstr "მარყუჟი"
 
 #~ msgid "Show terminal"
 #~ msgstr "ტერმინალის ჩვენება"
+
+#~ msgid "Clear"
+#~ msgstr "გაწმენდა"
+
+#~ msgid "Collapse the list of planned actions"
+#~ msgstr "დაგეგმილი ქმედებების ჩამოშლა"
+
+#~ msgid "Show global options"
+#~ msgstr "გლობალური პარამეტრების ჩვენება"

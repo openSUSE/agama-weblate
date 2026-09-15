@@ -8850,3 +8850,12 @@ msgstr "Boucle"
 
 #~ msgid "Show terminal"
 #~ msgstr "Afficher le terminal"
+
+#~ msgid "Clear"
+#~ msgstr "Vider"
+
+#~ msgid "Collapse the list of planned actions"
+#~ msgstr "Réduire la liste des actions planifiées"
+
+#~ msgid "Show global options"
+#~ msgstr "Afficher les options générales"

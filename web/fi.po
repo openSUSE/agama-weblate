@@ -7835,3 +7835,15 @@ msgstr "Palaa"
 #, c-format
 #~ msgid "Details for %s"
 #~ msgstr "Tiedot kohteelle %s"
+
+#~ msgid "Clear"
+#~ msgstr "Tyhjennä"
+
+#~ msgid "Product is already registered"
+#~ msgstr "Tuote on jo rekisteröity"
+
+#~ msgid "Show more actions"
+#~ msgstr "Näytä enemmän toimintoja"
+
+#~ msgid "Collapse the list of planned actions"
+#~ msgstr "Supista suunniteltujen toimintojen luettelo"

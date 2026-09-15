@@ -7362,3 +7362,12 @@ msgstr "迴路"
 
 #~ msgid "Show terminal"
 #~ msgstr "顯示終端機"
+
+#~ msgid "Clear"
+#~ msgstr "清除"
+
+#~ msgid "Show more actions"
+#~ msgstr "顯示更多動作"
+
+#~ msgid "Collapse the list of planned actions"
+#~ msgstr "收起計劃的動作清單"

@@ -8534,3 +8534,13 @@ msgstr ""
 #, c-format
 #~ msgid "Details for %s"
 #~ msgstr "Detaily zařízení %s"
+
+#~ msgid "Clear"
+#~ msgstr "Smazat"
+
+#~ msgid "Show more actions"
+#~ msgstr "Zobrazit více akcí"
+
+#, fuzzy
+#~ msgid "Collapse the list of planned actions"
+#~ msgstr "Zkontrolujte plánovanou akci"
