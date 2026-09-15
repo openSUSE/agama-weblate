@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-14 10:44+0000\n"
-"PO-Revision-Date: 2026-09-12 00:13+0000\n"
+"PO-Revision-Date: 2026-09-15 05:13+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -691,7 +691,7 @@ msgstr "コンテンツに移動"
 
 #: src/components/core/SplitButton.tsx:76
 msgid "More actions"
-msgstr "さらなる処理"
+msgstr "その他の処理"
 
 #: src/components/core/Summary.tsx:72
 msgid "Waiting for proposal"
@@ -724,17 +724,17 @@ msgstr "端末を消去"
 #: src/components/core/TerminalPane.tsx:107
 #, javascript-format
 msgid "%1$s+%2$s+%3$s to move focus out"
-msgstr ""
+msgstr "フォーカスを外すには %1$s+%2$s+%3$s を押してください"
 
 #. TRANSLATORS: the Control key, as labeled on the keyboard
 #: src/components/core/TerminalPane.tsx:110
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #. TRANSLATORS: the Shift key, as labeled on the keyboard
 #: src/components/core/TerminalPane.tsx:112
 msgid "Shift"
-msgstr ""
+msgstr "Shift"
 
 #. TRANSLATORS: accessible name of the terminal panel region
 #: src/components/core/TerminalPane.tsx:155
@@ -743,9 +743,8 @@ msgstr "端末"
 
 #: src/components/core/TerminalPane.tsx:173
 #: src/components/layout/Header.tsx:191
-#, fuzzy
 msgid "Skip to terminal"
-msgstr "端末を表示"
+msgstr "端末に移動"
 
 #. TRANSLATORS: tooltip and accessible name for the button that collapses the
 #. terminal panel to a bar, keeping the session
