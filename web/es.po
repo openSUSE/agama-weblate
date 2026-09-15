@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-14 10:44+0000\n"
+"POT-Creation-Date: 2026-09-15 15:52+0000\n"
 "PO-Revision-Date: 2026-07-27 12:12+0000\n"
 "Last-Translator: Antonio Simón <antonio@trans-mission.com>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -778,37 +778,7 @@ msgstr ""
 msgid "The terminal requires a larger screen size"
 msgstr "Se requiere un tamaño de pantalla más grande para el terminal"
 
-#. TRANSLATORS: %d will be replaced with a number of duplicate entries skipped.
-#: src/components/form/ArrayField.tsx:114
-#, javascript-format
-msgid "%d duplicates skipped."
-msgstr "%d duplicados omitidos."
-
-#. TRANSLATORS: %d will be replaced with a number of added entries.
-#: src/components/form/ArrayField.tsx:119
-#, javascript-format
-msgid "%d entries added."
-msgstr "%d entradas añadidas."
-
-#. TRANSLATORS: first %d is the number of added entries, second %d is
-#. the number of invalid entries.
-#: src/components/form/ArrayField.tsx:122
-#, javascript-format
-msgid "%d entries added, %d invalid."
-msgstr "%d entradas añadidas, %d no válidas."
-
-#. TRANSLATORS: first %d is the number of added entries, second %d is the number of duplicate entries skipped.
-#: src/components/form/ArrayField.tsx:127
-#, javascript-format
-msgid "%d entries added, %d duplicates skipped."
-msgstr "%d entradas añadidas, %d duplicados omitidos."
-
-#: src/components/form/ArrayField.tsx:131
-#, javascript-format
-msgid "%d entries added, %d invalid, %d duplicates skipped."
-msgstr "%d entradas añadidas, %d no válidas, %d duplicados omitidos."
-
-#: src/components/form/ArrayField.tsx:175
+#: src/components/form/ArrayField.tsx:66
 msgid ""
 "Enter or Tab to add, Backspace or Delete to remove, arrow keys to navigate "
 "entries, Escape to exit"
@@ -817,7 +787,7 @@ msgstr ""
 "para desplazarse por las entradas, Esc para salir"
 
 #. TRANSLATORS: keyboard usage hint when entries exist.
-#: src/components/form/ArrayField.tsx:197
+#: src/components/form/ArrayField.tsx:88
 msgid ""
 "Enter or Tab to add, Backspace or Delete to remove, arrow keys to navigate"
 msgstr ""
@@ -825,81 +795,61 @@ msgstr ""
 "para desplazarse"
 
 #. TRANSLATORS: keyboard usage hint when field is empty.
-#: src/components/form/ArrayField.tsx:199
+#: src/components/form/ArrayField.tsx:90
 msgid "Enter or Tab to add"
 msgstr "Intro o Tabulador para añadir"
 
-#. TRANSLATORS: accessible label for an invalid entry. First %s is the entry value, second %s is the validation error.
-#: src/components/form/ArrayField.tsx:279
-#, javascript-format
-msgid "%s is invalid: %s"
-msgstr "%s no es válida: %s"
-
-#. TRANSLATORS: accessible label for the remove button of an entry. %s is the entry value.
-#: src/components/form/ArrayField.tsx:287
-#, javascript-format
-msgid "Remove %s"
-msgstr "Eliminar %s"
-
 #. TRANSLATORS: screen reader announcement when a duplicate entry is skipped. %s is the entry value.
-#: src/components/form/ArrayField.tsx:566
+#: src/components/form/ArrayField.tsx:360
 #, javascript-format
 msgid "%s already exists, skipped."
 msgstr "%s ya existe, omitida."
 
 #. TRANSLATORS: screen reader announcement when an invalid entry is
 #. added. First %s is the entry value, second %s is the validation error.
-#: src/components/form/ArrayField.tsx:577
+#: src/components/form/ArrayField.tsx:371
 #, javascript-format
 msgid "%s added but is invalid: %s. Select to edit."
 msgstr "%s añadida pero no es válida: %s. Seleccione para editar."
 
 #. TRANSLATORS: screen reader announcement when an entry is added. %s
 #. is the entry value.
-#: src/components/form/ArrayField.tsx:580
+#. TRANSLATORS: said after a value joins the ones the field holds. %s is the
+#. value.
+#: src/components/form/ArrayField.tsx:374
+#: src/components/form/multi-select-field/messages.ts:61
 #, javascript-format
 msgid "%s added."
 msgstr "%s añadida."
 
 #. TRANSLATORS: screen reader announcement when an entry is removed. %s is
 #. the entry value.
-#: src/components/form/ArrayField.tsx:590
+#. TRANSLATORS: said after a value is taken out of the field. %s is the value.
+#: src/components/form/ArrayField.tsx:384
+#: src/components/form/multi-select-field/messages.ts:81
 #, javascript-format
 msgid "%s removed."
 msgstr "%s eliminada."
 
 #. TRANSLATORS: screen reader announcement when an entry is moved to the
 #. input for editing. %s is the entry value.
-#: src/components/form/ArrayField.tsx:605
+#: src/components/form/ArrayField.tsx:399
 #, javascript-format
 msgid "%s moved to input for editing."
 msgstr "%s movido a entrada para edición."
 
 #. TRANSLATORS: screen reader announcement when all invalid entries are
 #. cleared. %d is the number of removed entries.
-#: src/components/form/ArrayField.tsx:615
+#: src/components/form/ArrayField.tsx:409
 #, javascript-format
 msgid "%d invalid entries removed."
 msgstr "%d entradas no válidas eliminadas."
 
-#. TRANSLATORS: accessible name for the entries list. %s is
-#. the field label (e.g. "DNS servers").
-#: src/components/form/ArrayField.tsx:742
-#, javascript-format
-msgid "%s entries"
-msgstr "%s entradas"
-
-#: src/components/form/ArrayField.tsx:799
+#: src/components/form/ArrayField.tsx:580
 msgid "Select entries to edit or remove them. Or [remove all invalid entries.]"
 msgstr ""
 "Seleccione entradas para editarlas o eliminarlas. O [eliminar todas las "
 "entradas no válidas.]"
-
-#. TRANSLATORS: told to screen reader users about an entry that opens a
-#. dialog, since the ellipsis ending its text says nothing when read aloud.
-#: src/components/form/DropdownField.tsx:203
-msgid "Opens a dialog"
-msgstr ""
 
 #. TRANSLATORS: Message to inform users which keyboard layout is active
 #. %s will be replaced with the keyboard layout name (e.g., "US", "DE").
@@ -918,6 +868,283 @@ msgstr "Usando distribución de teclado %s"
 #: src/components/storage/iscsi/InitiatorFormPage.tsx:80
 msgid "Change"
 msgstr "Cambiar"
+
+#. TRANSLATORS: press that brings a field back to showing only some of
+#. the values it holds.
+#: src/components/form/multi-select-field/Entries.tsx:116
+#: src/components/product/product-selection-form/ProductOption.tsx:119
+msgid "Show less"
+msgstr "Mostrar menos"
+
+#. TRANSLATORS: stands for the values a field holds but does not show. %d
+#. is how many of them there are.
+#: src/components/form/multi-select-field/Entries.tsx:120
+#, fuzzy, javascript-format
+#| msgid "Read more"
+msgid "%d more"
+msgstr "Leer más"
+
+#. TRANSLATORS: accessible name of the arrow that opens the list of
+#. values a field offers.
+#: src/components/form/multi-select-field/MultiSelectField.tsx:790
+#, fuzzy
+#| msgid "Show global options"
+msgid "Show options"
+msgstr "Mostrar opciones globales"
+
+#. TRANSLATORS: accessible name of the button that empties a
+#. field holding several values.
+#: src/components/form/multi-select-field/MultiSelectField.tsx:859
+#, fuzzy
+#| msgid "Clear"
+msgid "Clear all"
+msgstr "Limpiar"
+
+#. TRANSLATORS: shown in place of the options when the text the
+#. user typed leaves nothing to choose from.
+#: src/components/form/multi-select-field/MultiSelectField.tsx:884
+#, fuzzy
+#| msgid "No patterns match"
+msgid "No options match"
+msgstr "No coincide ningún patrón"
+
+#. TRANSLATORS: row that takes the text as typed as one of the
+#. field's values, for text naming nothing on offer. %s is that
+#. text, and the quotation marks set it apart from the rest.
+#: src/components/form/multi-select-field/OptionList.tsx:132
+#, fuzzy, javascript-format
+msgid "Use \"%s\""
+msgstr "Utilizar el disco %s"
+
+#. TRANSLATORS: said after adding a value that does not pass validation.
+#. First %s is the value, second %s is what is wrong with it.
+#: src/components/form/multi-select-field/messages.ts:57
+#, fuzzy, javascript-format
+#| msgid "%s added but is invalid: %s. Select to edit."
+msgid "%s added but is invalid: %s. Select it to edit."
+msgstr "%s añadida pero no es válida: %s. Seleccione para editar."
+
+#. TRANSLATORS: said when the field already holds the value the user is
+#. adding, so nothing changes. %s is the value.
+#: src/components/form/multi-select-field/messages.ts:68
+#, fuzzy, javascript-format
+#| msgid "%s already exists, skipped."
+msgid "%s is already selected."
+msgstr "%s ya existe, omitida."
+
+#. TRANSLATORS: said when the text the user typed names none of the values on
+#. offer, and the field only takes those. %s is the text.
+#: src/components/form/multi-select-field/messages.ts:75
+#, fuzzy, javascript-format
+#| msgid "zFCP is not available"
+msgid "%s is not available."
+msgstr "zFCP no está disponible"
+
+#. TRANSLATORS: said when a value returns to the text box, where the user can
+#. change it. %s is the value.
+#: src/components/form/multi-select-field/messages.ts:88
+#, fuzzy, javascript-format
+#| msgid "%s moved to input for editing."
+msgid "%s moved to the text box for editing."
+msgstr "%s movido a entrada para edición."
+
+#. TRANSLATORS: said when the list of options opens showing a value the field
+#. already holds, so the user can take it back out. %s is the value.
+#: src/components/form/multi-select-field/messages.ts:95
+#, javascript-format
+msgid "%s shown in the list of options."
+msgstr ""
+
+#. TRANSLATORS: said after a single press takes every value out of the field.
+#: src/components/form/multi-select-field/messages.ts:101
+#, fuzzy
+#| msgid "%s removed."
+msgid "All values removed."
+msgstr "%s eliminada."
+
+#. TRANSLATORS: said when the field starts showing every value it holds. %d
+#. is how many there are.
+#: src/components/form/multi-select-field/messages.ts:109
+#, javascript-format
+msgid "Showing all %d values."
+msgstr ""
+
+#. TRANSLATORS: said when the field shows only part of the values it holds,
+#. and stands for the rest with a summary. First %d is how many are shown,
+#. second %d is how many there are.
+#: src/components/form/multi-select-field/messages.ts:114
+#, javascript-format
+msgid "Showing %d of %d values."
+msgstr ""
+
+#. TRANSLATORS: said when nothing in the list matches what the user typed.
+#: src/components/form/multi-select-field/messages.ts:121
+#, fuzzy
+#| msgid "No patterns match"
+msgid "No options match."
+msgstr "No coincide ningún patrón"
+
+#. TRANSLATORS: said when the user stops typing, to tell how much is left in
+#. the list. %d is how many options match.
+#: src/components/form/multi-select-field/messages.ts:125
+#, fuzzy, javascript-format
+#| msgid "%d connections available"
+msgid "%d options available."
+msgstr "%d conexiones disponibles"
+
+#. TRANSLATORS: read when a field taking several values gets focus, for a
+#. field that also takes values the user writes out.
+#: src/components/form/multi-select-field/messages.ts:145
+msgid "Type to filter the options, or to write a value of your own."
+msgstr ""
+
+#. TRANSLATORS: read when a field taking several values gets focus.
+#: src/components/form/multi-select-field/messages.ts:148
+msgid "Type to filter the options."
+msgstr ""
+
+#. TRANSLATORS: read when a field taking several values gets focus, about the
+#. key that shows what the field offers.
+#: src/components/form/multi-select-field/messages.ts:153
+#, fuzzy
+#| msgid "Collapse the list of planned actions"
+msgid "Down arrow opens the list of options."
+msgstr "Contraer la lista de acciones planificadas"
+
+#. TRANSLATORS: read when a field taking several values gets focus, about
+#. reaching the values it already holds. %d is how many there are.
+#: src/components/form/multi-select-field/messages.ts:158
+#, javascript-format
+msgid "Left arrow reaches the %d values already added."
+msgstr ""
+
+#. TRANSLATORS: keyboard hint shown under a field that already holds values.
+#: src/components/form/multi-select-field/messages.ts:182
+#, fuzzy
+#| msgid ""
+#| "Enter or Tab to add, Backspace or Delete to remove, arrow keys to navigate"
+msgid ""
+"Down arrow for options, Enter to add, Delete to remove, arrow keys to "
+"navigate"
+msgstr ""
+"Intro o Tabulador para añadir, Atrás o Supr para eliminar, teclas de flecha "
+"para desplazarse"
+
+#. TRANSLATORS: keyboard hint shown under a field taking several values.
+#: src/components/form/multi-select-field/messages.ts:185
+msgid "Down arrow for options, Enter to add"
+msgstr ""
+
+#. TRANSLATORS: said the first time the keyboard reaches the list of options.
+#: src/components/form/multi-select-field/messages.ts:198
+msgid "Enter selects or deselects an option, Escape closes the list."
+msgstr ""
+
+#. TRANSLATORS: said the first time the keyboard reaches the summary
+#. standing for the values the field does not show.
+#: src/components/form/multi-select-field/messages.ts:204
+msgid "Enter shows or hides the remaining values."
+msgstr ""
+
+#. TRANSLATORS: said the first time the keyboard reaches the button that
+#. empties the field.
+#: src/components/form/multi-select-field/messages.ts:210
+msgid "Enter removes every value, Left arrow goes back to the text box."
+msgstr ""
+
+#: src/components/form/multi-select-field/messages.ts:217
+msgid ""
+"Enter shows a chosen value in the list or takes a written one back to the "
+"text box, Delete removes it, arrow keys move between values."
+msgstr ""
+
+#: src/components/form/multi-select-field/messages.ts:225
+#, fuzzy
+#| msgid ""
+#| "Enter or Tab to add, Backspace or Delete to remove, arrow keys to navigate"
+msgid ""
+"Enter takes a value back to the text box, Delete removes it, arrow keys move "
+"between values."
+msgstr ""
+"Intro o Tabulador para añadir, Atrás o Supr para eliminar, teclas de flecha "
+"para desplazarse"
+
+#. TRANSLATORS: said the first time the keyboard reaches the values a field
+#. holds, when they come from its list of options.
+#: src/components/form/multi-select-field/messages.ts:231
+msgid ""
+"Enter shows a value in the list, Delete removes it, arrow keys move between "
+"values."
+msgstr ""
+
+#. TRANSLATORS: accessible name for the entries list. %s is
+#. the field label (e.g. "DNS servers").
+#: src/components/form/primitives/EntriesListbox.tsx:88
+#, javascript-format
+msgid "%s entries"
+msgstr "%s entradas"
+
+#. TRANSLATORS: accessible label for an invalid entry. First %s is the entry value, second %s is the validation error.
+#: src/components/form/primitives/FieldEntry.tsx:113
+#, javascript-format
+msgid "%s is invalid: %s"
+msgstr "%s no es válida: %s"
+
+#. TRANSLATORS: accessible label for the remove button of an entry. %s is the entry value.
+#: src/components/form/primitives/FieldEntry.tsx:122
+#, javascript-format
+msgid "Remove %s"
+msgstr "Eliminar %s"
+
+#. TRANSLATORS: told to screen reader users about an entry that opens a
+#. dialog, since the ellipsis ending its text says nothing when read aloud.
+#: src/components/form/primitives/FooterEntryOption.tsx:98
+msgid "Opens a dialog"
+msgstr ""
+
+#. TRANSLATORS: %d will be replaced with a number of duplicate entries skipped.
+#: src/components/form/primitives/entry-helpers.ts:128
+#, javascript-format
+msgid "%d duplicates skipped."
+msgstr "%d duplicados omitidos."
+
+#. TRANSLATORS: %d will be replaced with a number of added entries.
+#: src/components/form/primitives/entry-helpers.ts:132
+#, javascript-format
+msgid "%d entries added."
+msgstr "%d entradas añadidas."
+
+#. TRANSLATORS: first %d is the number of added entries, second %d is the number of duplicate entries skipped.
+#: src/components/form/primitives/entry-helpers.ts:136
+#, javascript-format
+msgid "%d entries added, %d duplicates skipped."
+msgstr "%d entradas añadidas, %d duplicados omitidos."
+
+#. TRANSLATORS: first %d is the number of added entries, second %d is
+#. the number of invalid entries.
+#: src/components/form/primitives/entry-helpers.ts:142
+#, javascript-format
+msgid "%d entries added, %d invalid."
+msgstr "%d entradas añadidas, %d no válidas."
+
+#. TRANSLATORS: first %d is the number of added entries, second %d is
+#. how many the field does not offer and left out.
+#: src/components/form/primitives/entry-helpers.ts:145
+#, fuzzy, javascript-format
+#| msgid "%d entries added, %d invalid."
+msgid "%d entries added, %d not available."
+msgstr "%d entradas añadidas, %d no válidas."
+
+#: src/components/form/primitives/entry-helpers.ts:151
+#, javascript-format
+msgid "%d entries added, %d invalid, %d duplicates skipped."
+msgstr "%d entradas añadidas, %d no válidas, %d duplicados omitidos."
+
+#: src/components/form/primitives/entry-helpers.ts:160
+#, fuzzy, javascript-format
+#| msgid "%d entries added, %d invalid, %d duplicates skipped."
+msgid "%d entries added, %d not available, %d duplicates skipped."
+msgstr "%d entradas añadidas, %d no válidas, %d duplicados omitidos."
 
 #: src/components/l10n/L10nPage.tsx:41
 msgid ""
@@ -2688,10 +2915,6 @@ msgstr "Es necesario aceptar la licencia"
 #: src/components/product/product-selection-form/ProductOption.tsx:118
 msgid "Show more"
 msgstr "Mostrar más"
-
-#: src/components/product/product-selection-form/ProductOption.tsx:119
-msgid "Show less"
-msgstr "Mostrar menos"
 
 #. TRANSLATORS: button to dismiss the error alert and clear the registration data
 #: src/components/product/registration-form/Form.tsx:130
@@ -6729,9 +6952,6 @@ msgstr "Loopback"
 #~ msgid "Upload"
 #~ msgstr "Subir"
 
-#~ msgid "Clear"
-#~ msgstr "Limpiar"
-
 #~ msgid "Public SSH Key is empty."
 #~ msgstr "La clave pública SSH está vacía."
 
@@ -7367,9 +7587,6 @@ msgstr "Loopback"
 
 #~ msgid "Add another partition or mount an existing one"
 #~ msgstr "Añada otra partición o monte una existente"
-
-#~ msgid "Collapse the list of planned actions"
-#~ msgstr "Contraer la lista de acciones planificadas"
 
 #, c-format
 #~ msgid "Check the %d planned actions"
@@ -8161,9 +8378,6 @@ msgstr "Loopback"
 
 #~ msgid "What is this?"
 #~ msgstr "¿Qué es esto?"
-
-#~ msgid "Show global options"
-#~ msgstr "Mostrar opciones globales"
 
 #~ msgid "Page Actions"
 #~ msgstr "Acciones de página"
